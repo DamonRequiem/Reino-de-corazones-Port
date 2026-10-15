@@ -1,0 +1,1864 @@
+group: sprites_wlogo
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_wlogo_frames.s
+    start: 0x0961AA00
+    end: 0x0962ACE0
+    data_start: 0x09EF351C
+    data_end: 0x09EF3884
+  - name: sprites_wlogo_tiles.s
+    start: 0x096300C4
+    end: 0x0964AE84
+  - name: sprites_wlogo_maps.s
+    start: 0x096B6464
+    end: 0x096BFC64
+  - name: sprites_wlogo_palettes.s
+    start: 0x096FAC84
+    end: 0x096FB164
+  jp:
+  - name: sprites_wlogo_frames.s
+    start: 0x095D34DC
+    end: 0x095E37BC
+    data_start: 0x09ECA908
+    data_end: 0x09ECAC70
+  - name: sprites_wlogo_tiles.s
+    start: 0x095E88A0
+    end: 0x09603660
+  - name: sprites_wlogo_maps.s
+    start: 0x0966EC40
+    end: 0x09678440
+  - name: sprites_wlogo_palettes.s
+    start: 0x096B3460
+    end: 0x096B3940
+  eu:
+  - name: sprites_wlogo_frames.s
+    start: 0x095DBEE0
+    end: 0x095EC1C0
+    data_start: 0x09F7E768
+    data_end: 0x09F7EAD0
+  - name: sprites_wlogo_tiles.s
+    start: 0x095FA04C
+    end: 0x09614E0C
+  - name: sprites_wlogo_maps.s
+    start: 0x0967E18C
+    end: 0x0968798C
+  - name: sprites_wlogo_palettes.s
+    start: 0x096C81AC
+    end: 0x096C868C
+entries:
+- name: gWlogoMonsEyeFrames
+  record: SpriteTable
+  items: [gWlogoMonsEyeFrame0, gWlogoMonsEyeFrame1, gWlogoMonsEyeFrame2, gWlogoMonsEyeFrame3, gWlogoMonsEyeFrame4, gWlogoMonsEyeFrame5, gWlogoMonsEyeFrame6, gWlogoMonsEyeFrame7, gWlogoMonsEyeFrame8, gWlogoMonsEyeFrame9]
+  us:
+    address: 0x09EF351C
+  jp:
+    address: 0x09ECA908
+  eu:
+    address: 0x09F7E768
+- name: gWlogoMonsEyeAnims
+  record: AnimTable
+  items: [gWlogoMonsEyeAnim0]
+  us:
+    address: 0x09EF3544
+  jp:
+    address: 0x09ECA930
+  eu:
+    address: 0x09F7E790
+- name: gWlogoHwtGhostFrames
+  record: SpriteTable
+  items: [gWlogoHwtGhostFrame0, gWlogoHwtGhostFrame1, gWlogoHwtGhostFrame2, gWlogoHwtGhostFrame3, gWlogoHwtGhostFrame4, gWlogoHwtGhostFrame5, gWlogoHwtGhostFrame6, gWlogoHwtGhostFrame7, gWlogoHwtGhostFrame8]
+  us:
+    address: 0x09EF3548
+  jp:
+    address: 0x09ECA934
+  eu:
+    address: 0x09F7E794
+- name: gWlogoHwtGhostAnims
+  record: AnimTable
+  items: [gWlogoHwtGhostAnim0, gWlogoHwtGhostAnim1]
+  us:
+    address: 0x09EF356C
+  jp:
+    address: 0x09ECA958
+  eu:
+    address: 0x09F7E7B8
+- name: gWlogoNvlSparkleFrames
+  record: SpriteTable
+  items: [gWlogoNvlSparkleFrame0, gWlogoNvlSparkleFrame1, gWlogoNvlSparkleFrame2, gWlogoNvlSparkleFrame3, gWlogoNvlSparkleFrame4, gWlogoNvlSparkleFrame5, gWlogoNvlSparkleFrame6, gWlogoNvlSparkleFrame7, gWlogoNvlSparkleFrame8, gWlogoNvlSparkleFrame9, gWlogoNvlSparkleFrame10, gWlogoNvlSparkleFrame11]
+  us:
+    address: 0x09EF3574
+  jp:
+    address: 0x09ECA960
+  eu:
+    address: 0x09F7E7C0
+- name: gWlogoNvlSparkleAnims
+  record: AnimTable
+  items: [gWlogoNvlSparkleAnim0, gWlogoNvlSparkleAnim1, gWlogoNvlSparkleAnim2, gWlogoNvlSparkleAnim3, gWlogoNvlSparkleAnim4]
+  us:
+    address: 0x09EF35A4
+  jp:
+    address: 0x09ECA990
+  eu:
+    address: 0x09F7E7F0
+- name: gWlogoColSparkleFrames
+  record: SpriteTable
+  items: [gWlogoColSparkleFrame0, gWlogoColSparkleFrame1, gWlogoColSparkleFrame2, gWlogoColSparkleFrame3, gWlogoColSparkleFrame4, gWlogoColSparkleFrame5, gWlogoColSparkleFrame6, gWlogoColSparkleFrame7, gWlogoColSparkleFrame8, gWlogoColSparkleFrame9, gWlogoColSparkleFrame10, gWlogoColSparkleFrame11, gWlogoColSparkleFrame12, gWlogoColSparkleFrame13, gWlogoColSparkleFrame14, gWlogoColSparkleFrame15, gWlogoColSparkleFrame16, gWlogoColSparkleFrame17, gWlogoColSparkleFrame18, gWlogoColSparkleFrame19, gWlogoColSparkleFrame20, gWlogoColSparkleFrame21]
+  us:
+    address: 0x09EF35B8
+  jp:
+    address: 0x09ECA9A4
+  eu:
+    address: 0x09F7E804
+- name: gWlogoColSparkleAnims
+  record: AnimTable
+  items: [gWlogoColSparkleAnim0]
+  us:
+    address: 0x09EF3610
+  jp:
+    address: 0x09ECA9FC
+  eu:
+    address: 0x09F7E85C
+- name: gWlogoAgrObjFrames
+  record: SpriteTable
+  items: [gWlogoAgrObjFrame0, gWlogoAgrObjFrame1, gWlogoAgrObjFrame2, gWlogoAgrObjFrame3, gWlogoAgrObjFrame4, gWlogoAgrObjFrame5, gWlogoAgrObjFrame6, gWlogoAgrObjFrame7, gWlogoAgrObjFrame8, gWlogoAgrObjFrame9, gWlogoAgrObjFrame10, gWlogoAgrObjFrame11, gWlogoAgrObjFrame12, gWlogoAgrObjFrame13, gWlogoAgrObjFrame14, gWlogoAgrObjFrame15, gWlogoAgrObjFrame16, gWlogoAgrObjFrame17, gWlogoAgrObjFrame18, gWlogoAgrObjFrame19, gWlogoAgrObjFrame20, gWlogoAgrObjFrame21, gWlogoAgrObjFrame22, gWlogoAgrObjFrame23, gWlogoAgrObjFrame24, gWlogoAgrObjFrame25, gWlogoAgrObjFrame26, gWlogoAgrObjFrame27, gWlogoAgrObjFrame28, gWlogoAgrObjFrame29, gWlogoAgrObjFrame30, gWlogoAgrObjFrame31, gWlogoAgrObjFrame32, gWlogoAgrObjFrame33, gWlogoAgrObjFrame34, gWlogoAgrObjFrame35, gWlogoAgrObjFrame36, gWlogoAgrObjFrame37]
+  us:
+    address: 0x09EF3614
+  jp:
+    address: 0x09ECAA00
+  eu:
+    address: 0x09F7E860
+- name: gWlogoAgrObjAnims
+  record: AnimTable
+  items: [gWlogoAgrObjAnim0, gWlogoAgrObjAnim1, gWlogoAgrObjAnim2, gWlogoAgrObjAnim3, gWlogoAgrObjAnim4, gWlogoAgrObjAnim5, gWlogoAgrObjAnim6, gWlogoAgrObjAnim7, gWlogoAgrObjAnim8]
+  us:
+    address: 0x09EF36AC
+  jp:
+    address: 0x09ECAA98
+  eu:
+    address: 0x09F7E8F8
+- name: gWlogoDilIslandObjFrames
+  record: SpriteTable
+  items: [gWlogoDilIslandObjFrame0]
+  us:
+    address: 0x09EF36D0
+  jp:
+    address: 0x09ECAABC
+  eu:
+    address: 0x09F7E91C
+- name: gWlogoDilIslandObjAnims
+  record: AnimTable
+  items: [gWlogoDilIslandObjAnim0]
+  us:
+    address: 0x09EF36D4
+  jp:
+    address: 0x09ECAAC0
+  eu:
+    address: 0x09F7E920
+- name: gWlogoTvtNameFrames
+  record: SpriteTable
+  items: [gWlogoTvtNameFrame0, gWlogoTvtNameFrame1, gWlogoTvtNameFrame2, gWlogoTvtNameFrame3, gWlogoTvtNameFrame4, gWlogoTvtNameFrame5, gWlogoTvtNameFrame6, gWlogoTvtNameFrame7, gWlogoTvtNameFrame8, gWlogoTvtNameFrame9, gWlogoTvtNameFrame10, gWlogoTvtNameFrame11, gWlogoTvtNameFrame12, gWlogoTvtNameFrame13, gWlogoTvtNameFrame14, gWlogoTvtNameFrame15, gWlogoTvtNameFrame16, gWlogoTvtNameFrame17, gWlogoTvtNameFrame18, gWlogoTvtNameFrame19, gWlogoTvtNameFrame20, gWlogoTvtNameFrame21]
+  us:
+    address: 0x09EF36D8
+  jp:
+    address: 0x09ECAAC4
+  eu:
+    address: 0x09F7E924
+- name: gWlogoTvtNameAnims
+  record: AnimTable
+  items: [gWlogoTvtNameAnim0]
+  us:
+    address: 0x09EF3730
+  jp:
+    address: 0x09ECAB1C
+  eu:
+    address: 0x09F7E97C
+- name: gWlogoPooBeeFrames
+  record: SpriteTable
+  items: [gWlogoPooBeeFrame0, gWlogoPooBeeFrame1, gWlogoPooBeeFrame2, gWlogoPooBeeFrame3, gWlogoPooBeeFrame4, gWlogoPooBeeFrame5, gWlogoPooBeeFrame6, gWlogoPooBeeFrame7, gWlogoPooBeeFrame8, gWlogoPooBeeFrame9, gWlogoPooBeeFrame10, gWlogoPooBeeFrame11, gWlogoPooBeeFrame12, gWlogoPooBeeFrame13]
+  us:
+    address: 0x09EF3734
+  jp:
+    address: 0x09ECAB20
+  eu:
+    address: 0x09F7E980
+- name: gWlogoPooBeeAnims
+  record: AnimTable
+  items: [gWlogoPooBeeAnim0, gWlogoPooBeeAnim1, gWlogoPooBeeAnim2, gWlogoPooBeeAnim3]
+  us:
+    address: 0x09EF376C
+  jp:
+    address: 0x09ECAB58
+  eu:
+    address: 0x09F7E9B8
+- name: gWlogoTtGlowFrames
+  record: SpriteTable
+  items: [gWlogoTtGlowFrame0, gWlogoTtGlowFrame1, gWlogoTtGlowFrame2, gWlogoTtGlowFrame3, gWlogoTtGlowFrame4, gWlogoTtGlowFrame5, gWlogoTtGlowFrame6, gWlogoTtGlowFrame7, gWlogoTtGlowFrame8, gWlogoTtGlowFrame9, gWlogoTtGlowFrame10, gWlogoTtGlowFrame11, gWlogoTtGlowFrame12, gWlogoTtGlowFrame13, gWlogoTtGlowFrame14, gWlogoTtGlowFrame15, gWlogoTtGlowFrame16, gWlogoTtGlowFrame17, gWlogoTtGlowFrame18, gWlogoTtGlowFrame19, gWlogoTtGlowFrame20, gWlogoTtGlowFrame21, gWlogoTtGlowFrame22, gWlogoTtGlowFrame23]
+  us:
+    address: 0x09EF377C
+  jp:
+    address: 0x09ECAB68
+  eu:
+    address: 0x09F7E9C8
+- name: gWlogoTtGlowAnims
+  record: AnimTable
+  items: [gWlogoTtGlowAnim0, gWlogoTtGlowAnim1, gWlogoTtGlowAnim2, gWlogoTtGlowAnim3, gWlogoTtGlowAnim4, gWlogoTtGlowAnim5]
+  us:
+    address: 0x09EF37DC
+  jp:
+    address: 0x09ECABC8
+  eu:
+    address: 0x09F7EA28
+- name: gWlogoTtObjFrames
+  record: SpriteTable
+  items: [gWlogoTtObjFrame0, gWlogoTtObjFrame1, gWlogoTtObjFrame2, gWlogoTtObjFrame3]
+  us:
+    address: 0x09EF37F4
+  jp:
+    address: 0x09ECABE0
+  eu:
+    address: 0x09F7EA40
+- name: gWlogoTtObjAnims
+  record: AnimTable
+  items: [gWlogoTtObjAnim0, gWlogoTtObjAnim1]
+  us:
+    address: 0x09EF3804
+  jp:
+    address: 0x09ECABF0
+  eu:
+    address: 0x09F7EA50
+- name: gWlogoBksNameFrames
+  record: SpriteTable
+  items: [gWlogoBksNameFrame0, gWlogoBksNameFrame1, gWlogoBksNameFrame2, gWlogoBksNameFrame3, gWlogoBksNameFrame4, gWlogoBksNameFrame5, gWlogoBksNameFrame6, gWlogoBksNameFrame7, gWlogoBksNameFrame8, gWlogoBksNameFrame9, gWlogoBksNameFrame10, gWlogoBksNameFrame11, gWlogoBksNameFrame12, gWlogoBksNameFrame13, gWlogoBksNameFrame14, gWlogoBksNameFrame15, gWlogoBksNameFrame16]
+  us:
+    address: 0x09EF380C
+  jp:
+    address: 0x09ECABF8
+  eu:
+    address: 0x09F7EA58
+- name: gWlogoBksNameAnims
+  record: AnimTable
+  items: [gWlogoBksNameAnim0, gWlogoBksNameAnim1, gWlogoBksNameAnim2, gWlogoBksNameAnim3, gWlogoBksNameAnim4, gWlogoBksNameAnim5, gWlogoBksNameAnim6, gWlogoBksNameAnim7, gWlogoBksNameAnim8, gWlogoBksNameAnim9, gWlogoBksNameAnim10, gWlogoBksNameAnim11, gWlogoBksNameAnim12]
+  us:
+    address: 0x09EF3850
+  jp:
+    address: 0x09ECAC3C
+  eu:
+    address: 0x09F7EA9C
+- name: gWlogoMonsEyeTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [-32, -16]
+  columns: 8
+  frames:
+  - symbol: gWlogoMonsEyeFrame0
+    pieces:
+    - [16x16, 32, 16]
+  - symbol: gWlogoMonsEyeFrame1
+    pieces:
+    - [16x16, 32, 16]
+  - symbol: gWlogoMonsEyeFrame2
+    pieces:
+    - [16x16, 32, 16]
+  - symbol: gWlogoMonsEyeFrame3
+    pieces:
+    - [16x16, 32, 16]
+  - symbol: gWlogoMonsEyeFrame4
+    pieces:
+    - [16x16, 32, 16]
+  - symbol: gWlogoMonsEyeFrame5
+    pieces:
+    - [16x16, 32, 16]
+  - symbol: gWlogoMonsEyeFrame6
+    pieces:
+    - [16x16, 32, 16]
+  - symbol: gWlogoMonsEyeFrame7
+    pieces:
+    - [16x16, 32, 16]
+  - symbol: gWlogoMonsEyeFrame8
+    pieces:
+    - [16x16, 32, 16]
+  - symbol: gWlogoMonsEyeFrame9
+    pieces:
+    - [16x16, 32, 16]
+  animations:
+  - symbol: gWlogoMonsEyeAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [9, 8], [1, 8], [7, 8], [2, 10], [3, 10], [4, 10], [5, 10], [6, 10], [8, 20]]
+  us:
+    address: 0x0961AA00
+    size: 1426
+  jp:
+    address: 0x095D34DC
+    size: 1426
+  eu:
+    address: 0x095DBEE0
+    size: 1426
+- name: gWlogoHwtGhostTiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 48]
+  anchor: [16, 24]
+  columns: 8
+  frames:
+  - symbol: gWlogoHwtGhostFrame0
+    pieces:
+    - [8x8, 16, 0]
+    - [32x16, -16, -24]
+    - [32x32, -16, -8]
+  - symbol: gWlogoHwtGhostFrame1
+    pieces:
+    - [32x16, -16, -24]
+    - [32x32, -16, -8]
+    - [8x8, 16, 0]
+  - symbol: gWlogoHwtGhostFrame2
+    pieces:
+    - [32x16, -16, -24]
+    - [32x32, -16, -8]
+    - [8x8, 16, 0]
+  - symbol: gWlogoHwtGhostFrame3
+    pieces:
+    - [32x16, -16, -24]
+    - [32x32, -16, -8]
+    - [8x8, 16, 0]
+  - symbol: gWlogoHwtGhostFrame4
+    pieces:
+    - [32x16, -16, -24]
+    - [32x32, -16, -8]
+    - [8x8, 16, 0]
+  - symbol: gWlogoHwtGhostFrame5
+    pieces:
+    - [32x32, -11, -22, {layer: 1}]
+    - [16x16, -8, 2]
+  - symbol: gWlogoHwtGhostFrame6
+    pieces:
+    - [32x32, -11, -22, {same: [5, 0]}]
+    - [16x16, -8, 2]
+  - symbol: gWlogoHwtGhostFrame7
+    pieces:
+    - [32x32, -11, -22, {same: [5, 0]}]
+    - [16x16, -8, 2]
+  - symbol: gWlogoHwtGhostFrame8
+    pieces:
+    - [32x32, -11, -22, {same: [5, 0]}]
+    - [16x16, -8, 2]
+  animations:
+  - symbol: gWlogoHwtGhostAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 4], [4, 4]]
+  - symbol: gWlogoHwtGhostAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 5], [6, 5], [7, 5], [8, 5]]
+  us:
+    address: 0x0961AF94
+    size: 4094
+  jp:
+    address: 0x095D3A70
+    size: 4094
+  eu:
+    address: 0x095DC474
+    size: 4094
+- name: gWlogoNvlSparkleTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 8
+  frames:
+  - symbol: gWlogoNvlSparkleFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame2
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame3
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame4
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame5
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame6
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame7
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame8
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame9
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame10
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoNvlSparkleFrame11
+    pieces:
+    - [16x16, -8, -8]
+  animations:
+  - symbol: gWlogoNvlSparkleAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 5], [2, 9], [1, 8], [0, 9]]
+  - symbol: gWlogoNvlSparkleAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 5], [5, 7], [4, 8], [3, 9]]
+  - symbol: gWlogoNvlSparkleAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 5]]
+  - symbol: gWlogoNvlSparkleAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gWlogoNvlSparkleAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4], [6, 7], [8, 5], [10, 4]]
+  us:
+    address: 0x0961BF94
+    size: 1742
+  jp:
+    address: 0x095D4A70
+    size: 1742
+  eu:
+    address: 0x095DD474
+    size: 1742
+- name: gWlogoColSparkleTiles
+  format: sprite_sheet
+  align: 4
+  cell: [106, 72]
+  anchor: [-5, 17]
+  columns: 8
+  frames:
+  - symbol: gWlogoColSparkleFrame0
+    pieces:
+    - [32x16, 68, -12]
+    - [32x8, 68, 3]
+  - symbol: gWlogoColSparkleFrame1
+    pieces:
+    - [16x8, 71, 3]
+  - symbol: gWlogoColSparkleFrame2
+    pieces:
+    - [16x8, 64, 2]
+    - [8x8, 83, 0]
+  - symbol: gWlogoColSparkleFrame3
+    pieces:
+    - [32x32, 72, -11]
+  - symbol: gWlogoColSparkleFrame4
+    pieces:
+    - [32x32, 73, -10]
+  - symbol: gWlogoColSparkleFrame5
+    pieces:
+    - [32x16, 74, -1]
+    - [8x8, 82, -8, {layer: 1}]
+  - symbol: gWlogoColSparkleFrame6
+    pieces:
+    - [8x8, 83, 0]
+  - symbol: gWlogoColSparkleFrame7
+    pieces:
+    - [32x32, 26, -17]
+    - [8x16, 50, 14, {layer: 1}]
+    - [8x8, 26, 14]
+    - [32x16, 79, 5]
+    - [32x16, 48, 13, {layer: 2}]
+  - symbol: gWlogoColSparkleFrame8
+    pieces:
+    - [16x32, 40, 23, {layer: 1}]
+    - [8x8, 48, 16]
+    - [32x16, 47, 21, {layer: 2}]
+  - symbol: gWlogoColSparkleFrame9
+    pieces:
+    - [8x8, 52, 16]
+    - [16x16, 40, 39]
+    - [16x8, 63, 21]
+  - symbol: gWlogoColSparkleFrame10
+    pieces:
+    - [32x32, 41, 5]
+  - symbol: gWlogoColSparkleFrame11
+    pieces:
+    - [32x32, 42, 6]
+  - symbol: gWlogoColSparkleFrame12
+    pieces:
+    - [32x16, 43, 15]
+    - [8x8, 51, 8, {same: [5, 1]}]
+  - symbol: gWlogoColSparkleFrame13
+    pieces:
+    - [8x8, 52, 16]
+  - symbol: gWlogoColSparkleFrame14
+    pieces:
+    - [16x16, 5, 3]
+    - [32x16, 13, -12, {layer: 1}]
+  - symbol: gWlogoColSparkleFrame15
+    pieces:
+    - [32x16, 8, 3]
+  - symbol: gWlogoColSparkleFrame16
+    pieces:
+    - [8x8, 24, 8, {same: [2, 1]}]
+    - [16x8, 16, 9, {layer: 1}]
+  - symbol: gWlogoColSparkleFrame17
+    pieces:
+    - [32x32, 13, -3]
+  - symbol: gWlogoColSparkleFrame18
+    pieces:
+    - [32x32, 14, -2]
+  - symbol: gWlogoColSparkleFrame19
+    pieces:
+    - [32x16, 15, 7]
+    - [8x8, 23, 0, {same: [5, 1]}]
+  - symbol: gWlogoColSparkleFrame20
+    pieces:
+    - [8x8, 24, 8]
+  - symbol: gWlogoColSparkleFrame21
+    pieces: []
+  animations:
+  - symbol: gWlogoColSparkleAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 2], [1, 2], [2, 3], [3, 3], [4, 3], [5, 3], [6, 3], [21, 10], [7, 2], [8, 2], [9, 3], [10, 3], [11, 3], [12, 3], [13, 3], [21, 10], [14, 2], [15, 2], [16, 3], [17, 3], [18, 3], [19, 3], [20, 3]]
+  us:
+    address: 0x0961C664
+    size: 4816
+  jp:
+    address: 0x095D5140
+    size: 4816
+  eu:
+    address: 0x095DDB44
+    size: 4816
+- name: gWlogoAgrObjTiles
+  format: sprite_sheet
+  align: 4
+  cell: [87, 53]
+  anchor: [16, 16]
+  columns: 8
+  frames:
+  - symbol: gWlogoAgrObjFrame0
+    pieces:
+    - [16x8, -8, -8]
+    - [16x8, -8, 0]
+  - symbol: gWlogoAgrObjFrame1
+    pieces:
+    - [16x16, -6, -8]
+  - symbol: gWlogoAgrObjFrame2
+    pieces:
+    - [16x16, -9, -10]
+    - [8x16, 7, -10]
+    - [16x8, -9, 6]
+    - [8x8, 7, 6]
+  - symbol: gWlogoAgrObjFrame3
+    pieces:
+    - [32x16, -16, -1]
+    - [32x8, -16, -9]
+  - symbol: gWlogoAgrObjFrame4
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoAgrObjFrame5
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoAgrObjFrame6
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoAgrObjFrame7
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoAgrObjFrame8
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoAgrObjFrame9
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoAgrObjFrame10
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoAgrObjFrame11
+    pieces:
+    - [32x16, 39, 21]
+  - symbol: gWlogoAgrObjFrame12
+    pieces:
+    - [8x8, 36, 22]
+  - symbol: gWlogoAgrObjFrame13
+    pieces:
+    - [16x8, 31, 17]
+    - [16x8, 31, 25]
+  - symbol: gWlogoAgrObjFrame14
+    pieces:
+    - [16x8, 27, 22]
+    - [8x8, 35, 14]
+  - symbol: gWlogoAgrObjFrame15
+    pieces:
+    - [8x8, 33, 22]
+  - symbol: gWlogoAgrObjFrame16
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoAgrObjFrame17
+    pieces:
+    - [16x16, -9, -11]
+    - [8x16, 7, -11]
+    - [16x8, -9, 5]
+    - [8x8, 7, 5]
+  - symbol: gWlogoAgrObjFrame18
+    pieces:
+    - [32x16, -16, -14]
+    - [32x8, -16, 2]
+  - symbol: gWlogoAgrObjFrame19
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoAgrObjFrame20
+    pieces:
+    - [32x16, -16, -14]
+    - [32x8, -16, 2]
+  - symbol: gWlogoAgrObjFrame21
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoAgrObjFrame22
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame23
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame24
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame25
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame26
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame27
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame28
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame29
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame30
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame31
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame32
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame33
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame34
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame35
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame36
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gWlogoAgrObjFrame37
+    pieces:
+    - [8x8, 0, -8]
+  animations:
+  - symbol: gWlogoAgrObjAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 7], [6, 7], [7, 7], [8, 7], [9, 7], [10, 7]]
+  - symbol: gWlogoAgrObjAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [3, 6], [5, 8], [8, 8], [9, 8], [10, 8]]
+  - symbol: gWlogoAgrObjAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 6], [5, 7], [6, 7], [7, 7], [8, 7], [9, 7], [10, 7]]
+  - symbol: gWlogoAgrObjAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gWlogoAgrObjAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 8], [13, 8], [14, 8], [15, 8], [12, 8]]
+  - symbol: gWlogoAgrObjAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [16, 5], [17, 5], [18, 5], [19, 5], [20, 5], [21, 5]]
+  - symbol: gWlogoAgrObjAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[22, 4], [23, 4], [24, 4], [25, 4], [26, 4], [27, 4]]
+  - symbol: gWlogoAgrObjAnim7
+    fields: {originX: 64, originY: 64}
+    frames: [[22, 4], [28, 4], [29, 4], [30, 4], [31, 4], [32, 4]]
+  - symbol: gWlogoAgrObjAnim8
+    fields: {originX: 64, originY: 64}
+    frames: [[22, 4], [33, 4], [34, 4], [35, 4], [36, 4], [37, 4]]
+  us:
+    address: 0x0961D934
+    size: 8378
+  jp:
+    address: 0x095D6410
+    size: 8378
+  eu:
+    address: 0x095DEE14
+    size: 8378
+- name: gWlogoDilIslandObjTiles
+  format: sprite_sheet
+  align: 4
+  cell: [104, 72]
+  anchor: [0, 24]
+  columns: 1
+  frames:
+  - symbol: gWlogoDilIslandObjFrame0
+    pieces:
+    - [64x64, 0, -16]
+    - [32x64, 64, -16]
+    - [32x8, 16, -24]
+    - [32x8, 48, -24]
+    - [8x8, 80, -24]
+    - [8x32, 96, -16]
+    - [8x32, 96, 16]
+  animations:
+  - symbol: gWlogoDilIslandObjAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0961F9F0
+    size: 3672
+  jp:
+    address: 0x095D84CC
+    size: 3672
+  eu:
+    address: 0x095E0ED0
+    size: 3672
+- name: gWlogoTvtNameTiles
+  format: sprite_sheet
+  align: 4
+  cell: [80, 48]
+  anchor: [-16, 0]
+  columns: 8
+  frames:
+  - symbol: gWlogoTvtNameFrame0
+    pieces:
+    - [32x16, 16, 8]
+    - [32x16, 16, 24]
+    - [16x32, 48, 8]
+    - [16x32, 64, 8]
+    - [16x32, 80, 8]
+  - symbol: gWlogoTvtNameFrame1
+    pieces:
+    - [32x16, 16, 8]
+    - [32x16, 16, 24]
+    - [16x32, 48, 8]
+    - [16x32, 64, 8]
+    - [16x32, 80, 8]
+  - symbol: gWlogoTvtNameFrame2
+    pieces:
+    - [32x16, 16, 8]
+    - [32x16, 16, 24]
+    - [16x32, 48, 8]
+    - [16x32, 64, 8]
+    - [16x32, 80, 8]
+  - symbol: gWlogoTvtNameFrame3
+    pieces:
+    - [16x32, 16, 8]
+    - [32x16, 32, 8]
+    - [16x32, 64, 8]
+    - [16x32, 80, 8]
+    - [32x16, 32, 24]
+  - symbol: gWlogoTvtNameFrame4
+    pieces:
+    - [16x32, 16, 8]
+    - [32x16, 32, 8]
+    - [16x32, 64, 8]
+    - [16x32, 80, 8]
+    - [32x16, 32, 24]
+  - symbol: gWlogoTvtNameFrame5
+    pieces:
+    - [32x16, 32, 8]
+    - [16x32, 16, 8]
+    - [16x32, 80, 8]
+    - [16x32, 64, 8]
+    - [32x16, 32, 24]
+  - symbol: gWlogoTvtNameFrame6
+    pieces:
+    - [32x32, 16, 8]
+    - [32x16, 48, 8]
+    - [16x32, 80, 8]
+    - [32x16, 48, 24]
+  - symbol: gWlogoTvtNameFrame7
+    pieces:
+    - [32x32, 16, 8]
+    - [32x16, 48, 8]
+    - [32x16, 48, 24]
+    - [16x32, 80, 8]
+  - symbol: gWlogoTvtNameFrame8
+    pieces:
+    - [32x32, 16, 8]
+    - [32x16, 48, 8]
+    - [32x16, 48, 24]
+    - [16x32, 80, 8]
+  - symbol: gWlogoTvtNameFrame9
+    pieces:
+    - [32x32, 16, 8]
+    - [32x16, 48, 8]
+    - [32x16, 48, 24]
+    - [16x32, 80, 8]
+  - symbol: gWlogoTvtNameFrame10
+    pieces:
+    - [16x32, 16, 8]
+    - [32x32, 32, 8]
+    - [32x32, 64, 8]
+  - symbol: gWlogoTvtNameFrame11
+    pieces:
+    - [16x32, 16, 8]
+    - [32x32, 32, 8]
+    - [32x16, 64, 8]
+    - [32x16, 64, 24]
+  - symbol: gWlogoTvtNameFrame12
+    pieces:
+    - [16x32, 16, 8]
+    - [32x32, 32, 8]
+    - [32x16, 64, 8]
+    - [32x16, 64, 24]
+  - symbol: gWlogoTvtNameFrame13
+    pieces:
+    - [16x32, 16, 8]
+    - [32x32, 32, 8, {fresh: true}]
+    - [32x32, 64, 8]
+  - symbol: gWlogoTvtNameFrame14
+    pieces:
+    - [16x32, 16, 8]
+    - [32x32, 32, 8]
+    - [32x16, 64, 8]
+    - [32x16, 64, 24, {fresh: true}]
+  - symbol: gWlogoTvtNameFrame15
+    pieces:
+    - [16x32, 16, 8]
+    - [32x32, 32, 8]
+    - [32x16, 64, 8]
+    - [32x16, 64, 24]
+  - symbol: gWlogoTvtNameFrame16
+    pieces:
+    - [32x16, 64, 8]
+    - [16x32, 16, 8]
+    - [32x32, 32, 8]
+    - [32x16, 64, 24]
+  - symbol: gWlogoTvtNameFrame17
+    pieces:
+    - [64x32, 16, 8]
+    - [16x32, 80, 8]
+  - symbol: gWlogoTvtNameFrame18
+    pieces:
+    - [64x32, 16, 8]
+    - [16x32, 80, 8]
+  - symbol: gWlogoTvtNameFrame19
+    pieces:
+    - [64x32, 16, 0]
+    - [32x16, 16, 32]
+    - [32x16, 48, 32]
+    - [16x32, 80, 0]
+    - [16x16, 80, 32]
+  - symbol: gWlogoTvtNameFrame20
+    pieces:
+    - [64x32, 16, 0]
+    - [32x16, 16, 32]
+    - [32x16, 48, 32]
+    - [16x16, 80, 32]
+    - [16x32, 80, 0]
+  - symbol: gWlogoTvtNameFrame21
+    pieces:
+    - [64x32, 16, 8]
+    - [16x32, 80, 8]
+  animations:
+  - symbol: gWlogoTvtNameAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8], [8, 8], [9, 8], [10, 8], [11, 8], [12, 8], [13, 8], [14, 8], [15, 8], [16, 8], [17, 6], [18, 8], [19, 14], [20, 12], [21, 8]]
+  us:
+    address: 0x09620848
+    size: 16582
+  jp:
+    address: 0x095D9324
+    size: 16582
+  eu:
+    address: 0x095E1D28
+    size: 16582
+- name: gWlogoPooBeeTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 8]
+  anchor: [8, 8]
+  columns: 8
+  frames:
+  - symbol: gWlogoPooBeeFrame0
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame1
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame2
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame3
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame4
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame5
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame6
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame7
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame8
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame9
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame10
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame11
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame12
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoPooBeeFrame13
+    pieces:
+    - [16x8, -8, -8]
+  animations:
+  - symbol: gWlogoPooBeeAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [1, 4]]
+  - symbol: gWlogoPooBeeAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4], [4, 4], [5, 4], [6, 4]]
+  - symbol: gWlogoPooBeeAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4], [7, 4], [9, 4], [7, 4]]
+  - symbol: gWlogoPooBeeAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4], [11, 4], [12, 4], [13, 4]]
+  us:
+    address: 0x09624910
+    size: 1124
+  jp:
+    address: 0x095DD3EC
+    size: 1124
+  eu:
+    address: 0x095E5DF0
+    size: 1124
+- name: gWlogoTtGlowTiles
+  format: sprite_sheet
+  align: 4
+  cell: [84, 42]
+  anchor: [16, 16]
+  columns: 8
+  frames:
+  - symbol: gWlogoTtGlowFrame0
+    pieces:
+    - [32x16, 4, 4]
+    - [32x16, 36, 4]
+  - symbol: gWlogoTtGlowFrame1
+    pieces:
+    - [32x16, 4, 4]
+    - [32x16, 36, 4]
+  - symbol: gWlogoTtGlowFrame2
+    pieces:
+    - [32x16, 4, 4]
+    - [32x16, 36, 4]
+  - symbol: gWlogoTtGlowFrame3
+    pieces:
+    - [32x16, 4, 4]
+    - [32x16, 36, 4]
+  - symbol: gWlogoTtGlowFrame4
+    pieces:
+    - [32x16, 4, 4]
+    - [32x16, 36, 4]
+  - symbol: gWlogoTtGlowFrame5
+    pieces:
+    - [32x16, 4, 4]
+    - [32x16, 36, 4]
+  - symbol: gWlogoTtGlowFrame6
+    pieces:
+    - [32x16, 4, 4]
+    - [32x16, 36, 4]
+  - symbol: gWlogoTtGlowFrame7
+    pieces:
+    - [32x16, 4, 4]
+    - [32x16, 36, 4]
+  - symbol: gWlogoTtGlowFrame8
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoTtGlowFrame9
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoTtGlowFrame10
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoTtGlowFrame11
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoTtGlowFrame12
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoTtGlowFrame13
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoTtGlowFrame14
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoTtGlowFrame15
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gWlogoTtGlowFrame16
+    pieces:
+    - [32x32, 1, -8]
+  - symbol: gWlogoTtGlowFrame17
+    pieces:
+    - [32x32, -6, -14]
+    - [32x8, -6, 17, {layer: 1}]
+    - [8x16, 25, 0, {layer: 1}]
+  - symbol: gWlogoTtGlowFrame18
+    pieces:
+    - [32x32, -6, -6, {layer: 1}]
+    - [32x8, -6, -13, {layer: 2}]
+    - [8x32, 25, -6, {layer: 2}]
+  - symbol: gWlogoTtGlowFrame19
+    pieces:
+    - [32x32, -6, -14]
+    - [32x8, -6, 17, {layer: 1}]
+    - [8x32, 25, -14, {layer: 1}]
+  - symbol: gWlogoTtGlowFrame20
+    pieces:
+    - [32x32, -7, -7]
+    - [8x32, 24, -7, {layer: 1}]
+    - [32x8, -7, -14, {layer: 1}]
+    - [8x8, 24, -14, {layer: 2}]
+  - symbol: gWlogoTtGlowFrame21
+    pieces:
+    - [32x32, -7, -7, {layer: 1}]
+    - [8x32, 24, -7]
+    - [32x8, -7, -14]
+    - [8x8, 24, -14]
+  - symbol: gWlogoTtGlowFrame22
+    pieces:
+    - [32x32, -7, -15]
+    - [8x32, 24, -15]
+    - [32x8, -7, 16]
+  - symbol: gWlogoTtGlowFrame23
+    pieces:
+    - [16x8, -7, -15]
+    - [8x32, 25, -15]
+  animations:
+  - symbol: gWlogoTtGlowAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [7, 7]]
+  - symbol: gWlogoTtGlowAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 11], [11, 11], [10, 11], [9, 11], [8, 11]]
+  - symbol: gWlogoTtGlowAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 14], [14, 14], [13, 14]]
+  - symbol: gWlogoTtGlowAnim3
+    fields: {originX: 64, originY: 64}
+    frames: []
+  - symbol: gWlogoTtGlowAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 6], [17, 6], [18, 8], [19, 8], [20, 8], [21, 8], [22, 8], [23, 8]]
+  - symbol: gWlogoTtGlowAnim5
+    fields: {originX: 64, originY: 64}
+    frames: []
+  us:
+    address: 0x09624D74
+    size: 14014
+  jp:
+    address: 0x095DD850
+    size: 14014
+  eu:
+    address: 0x095E6254
+    size: 14014
+- name: gWlogoTtObjTiles
+  format: sprite_sheet
+  align: 4
+  cell: [111, 47]
+  anchor: [8, 15]
+  columns: 4
+  frames:
+  - symbol: gWlogoTtObjFrame0
+    pieces:
+    - [64x32, 24, 0]
+    - [32x16, 56, -15, {layer: 1}]
+    - [32x16, -7, 16, {layer: 1}]
+    - [16x32, 87, -8, {layer: 2}]
+  - symbol: gWlogoTtObjFrame1
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoTtObjFrame2
+    pieces:
+    - [16x8, -8, -8]
+  - symbol: gWlogoTtObjFrame3
+    pieces:
+    - [16x8, -8, -8]
+  animations:
+  - symbol: gWlogoTtObjAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gWlogoTtObjAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 9], [2, 9], [3, 9]]
+  us:
+    address: 0x09628434
+    size: 2070
+  jp:
+    address: 0x095E0F10
+    size: 2070
+  eu:
+    address: 0x095E9914
+    size: 2070
+- name: gWlogoBksNameTiles
+  format: sprite_sheet
+  align: 4
+  cell: [125, 51]
+  anchor: [16, 11]
+  columns: 8
+  frames:
+  - symbol: gWlogoBksNameFrame0
+    pieces:
+    - [16x16, -12, -8]
+    - [8x16, 3, -8, {layer: 1}]
+  - symbol: gWlogoBksNameFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoBksNameFrame2
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoBksNameFrame3
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoBksNameFrame4
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoBksNameFrame5
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoBksNameFrame6
+    pieces:
+    - [32x16, -16, -11]
+    - [16x8, -8, 4, {layer: 1}]
+  - symbol: gWlogoBksNameFrame7
+    pieces:
+    - [8x16, -4, -8]
+  - symbol: gWlogoBksNameFrame8
+    pieces:
+    - [8x16, -4, -8]
+  - symbol: gWlogoBksNameFrame9
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoBksNameFrame10
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoBksNameFrame11
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gWlogoBksNameFrame12
+    pieces:
+    - [64x32, 14, 8]
+    - [16x16, 77, 18, {layer: 1}]
+  - symbol: gWlogoBksNameFrame13
+    pieces:
+    - [64x32, 14, 8]
+    - [16x16, 77, 18]
+  - symbol: gWlogoBksNameFrame14
+    pieces:
+    - [64x32, 14, 7]
+    - [16x32, 77, 7]
+    - [8x8, 92, 15, {layer: 1}]
+  - symbol: gWlogoBksNameFrame15
+    pieces:
+    - [64x32, 14, 8]
+    - [16x16, 77, 18]
+  - symbol: gWlogoBksNameFrame16
+    pieces:
+    - [64x32, 14, 7]
+    - [32x32, 77, 7]
+  animations:
+  - symbol: gWlogoBksNameAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gWlogoBksNameAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gWlogoBksNameAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gWlogoBksNameAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gWlogoBksNameAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gWlogoBksNameAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gWlogoBksNameAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gWlogoBksNameAnim7
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gWlogoBksNameAnim8
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gWlogoBksNameAnim9
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gWlogoBksNameAnim10
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gWlogoBksNameAnim11
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gWlogoBksNameAnim12
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 6], [15, 6], [14, 6], [16, 10], [14, 7], [15, 7], [13, 7]]
+  us:
+    address: 0x09628C4C
+    size: 8340
+  jp:
+    address: 0x095E1728
+    size: 8340
+  eu:
+    address: 0x095EA12C
+    size: 8340
+- name: gWlogoWonTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x096300C4
+    size: 3072
+  jp:
+    address: 0x095E88A0
+    size: 3072
+  eu:
+    address: 0x095FA04C
+    size: 3072
+- name: gWlogoWonCardTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09630CC4
+    size: 6144
+  jp:
+    address: 0x095E94A0
+    size: 6144
+  eu:
+    address: 0x095FAC4C
+    size: 6144
+- name: gWlogoMonsTiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x096324C4
+    size: 3200
+  jp:
+    address: 0x095EACA0
+    size: 3200
+  eu:
+    address: 0x095FC44C
+    size: 3200
+- name: gWlogoHwtTiles
+  format: tiles4
+  us:
+    address: 0x09633144
+    size: 3104
+  jp:
+    address: 0x095EB920
+    size: 3104
+  eu:
+    address: 0x095FD0CC
+    size: 3104
+- name: gWlogoAtlTiles
+  format: tiles4
+  width: 8
+  us:
+    address: 0x09633D64
+    size: 2304
+  jp:
+    address: 0x095EC540
+    size: 2304
+  eu:
+    address: 0x095FDCEC
+    size: 2304
+- name: gWlogoAtlFishTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09634664
+    size: 16384
+  jp:
+    address: 0x095ECE40
+    size: 16384
+  eu:
+    address: 0x095FE5EC
+    size: 16384
+- name: gWlogoNvlTiles
+  format: tiles4
+  us:
+    address: 0x09638664
+    size: 1568
+  jp:
+    address: 0x095F0E40
+    size: 1568
+  eu:
+    address: 0x096025EC
+    size: 1568
+- name: gWlogoNvlShineTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09638C84
+    size: 16384
+  jp:
+    address: 0x095F1460
+    size: 16384
+  eu:
+    address: 0x09602C0C
+    size: 16384
+- name: gWlogoColBlankTiles
+  format: tiles4
+  us:
+    address: 0x0963CC84
+    size: 4192
+  jp:
+    address: 0x095F5460
+    size: 4192
+  eu:
+    address: 0x09606C0C
+    size: 4192
+- name: gWlogoColShineTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x0963DCE4
+    size: 18432
+  jp:
+    address: 0x095F64C0
+    size: 18432
+  eu:
+    address: 0x09607C6C
+    size: 18432
+- name: gWlogoColTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x096424E4
+    size: 2048
+  jp:
+    address: 0x095FACC0
+    size: 2048
+  eu:
+    address: 0x0960C46C
+    size: 2048
+- name: gWlogoAgrTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09642CE4
+    size: 3072
+  jp:
+    address: 0x095FB4C0
+    size: 3072
+  eu:
+    address: 0x0960CC6C
+    size: 3072
+- name: gWlogoHlwTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x096438E4
+    size: 3072
+  jp:
+    address: 0x095FC0C0
+    size: 3072
+  eu:
+    address: 0x0960D86C
+    size: 3072
+- name: gWlogoDilTiles
+  format: tiles4
+  us:
+    address: 0x096444E4
+    size: 6048
+  jp:
+    address: 0x095FCCC0
+    size: 6048
+  eu:
+    address: 0x0960E46C
+    size: 6048
+- name: gWlogoTvtSignTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09645C84
+    size: 3072
+  jp:
+    address: 0x095FE460
+    size: 3072
+  eu:
+    address: 0x0960FC0C
+    size: 3072
+- name: gWlogoTvtTiles
+  format: tiles4
+  us:
+    address: 0x09646884
+    size: 3104
+  jp:
+    address: 0x095FF060
+    size: 3104
+  eu:
+    address: 0x0961080C
+    size: 3104
+- name: gWlogoTvtLightTiles
+  format: tiles4
+  us:
+    address: 0x096474A4
+    size: 4064
+  jp:
+    address: 0x095FFC80
+    size: 4064
+  eu:
+    address: 0x0961142C
+    size: 4064
+- name: gWlogoPooTiles
+  format: tiles4
+  us:
+    address: 0x09648484
+    size: 2592
+  jp:
+    address: 0x09600C60
+    size: 2592
+  eu:
+    address: 0x0961240C
+    size: 2592
+- name: gWlogoTtTiles
+  format: tiles4
+  us:
+    address: 0x09648EA4
+    size: 4704
+  jp:
+    address: 0x09601680
+    size: 4704
+  eu:
+    address: 0x09612E2C
+    size: 4704
+- name: gWlogoBksTiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x0964A104
+    size: 3456
+  jp:
+    address: 0x096028E0
+    size: 3456
+  eu:
+    address: 0x0961408C
+    size: 3456
+- name: gWlogoWonMap
+  format: tilemap
+  us:
+    address: 0x096B6464
+    size: 2048
+  jp:
+    address: 0x0966EC40
+    size: 2048
+  eu:
+    address: 0x0967E18C
+    size: 2048
+- name: gWlogoMonsNoEyeMap
+  format: tilemap
+  us:
+    address: 0x096B6C64
+    size: 2048
+  jp:
+    address: 0x0966F440
+    size: 2048
+  eu:
+    address: 0x0967E98C
+    size: 2048
+- name: gWlogoMonsMap
+  format: tilemap
+  us:
+    address: 0x096B7464
+    size: 2048
+  jp:
+    address: 0x0966FC40
+    size: 2048
+  eu:
+    address: 0x0967F18C
+    size: 2048
+- name: gWlogoHwtMap
+  format: tilemap
+  us:
+    address: 0x096B7C64
+    size: 2048
+  jp:
+    address: 0x09670440
+    size: 2048
+  eu:
+    address: 0x0967F98C
+    size: 2048
+- name: gWlogoAtlMap
+  format: tilemap
+  us:
+    address: 0x096B8464
+    size: 2048
+  jp:
+    address: 0x09670C40
+    size: 2048
+  eu:
+    address: 0x0968018C
+    size: 2048
+- name: gWlogoNvlMap
+  format: tilemap
+  us:
+    address: 0x096B8C64
+    size: 2048
+  jp:
+    address: 0x09671440
+    size: 2048
+  eu:
+    address: 0x0968098C
+    size: 2048
+- name: gWlogoColMap
+  format: tilemap
+  us:
+    address: 0x096B9464
+    size: 2048
+  jp:
+    address: 0x09671C40
+    size: 2048
+  eu:
+    address: 0x0968118C
+    size: 2048
+- name: gWlogoAgrLampMap
+  format: tilemap
+  us:
+    address: 0x096B9C64
+    size: 2048
+  jp:
+    address: 0x09672440
+    size: 2048
+  eu:
+    address: 0x0968198C
+    size: 2048
+- name: gWlogoAgrMap
+  format: tilemap
+  us:
+    address: 0x096BA464
+    size: 2048
+  jp:
+    address: 0x09672C40
+    size: 2048
+  eu:
+    address: 0x0968218C
+    size: 2048
+- name: gWlogoHlwMap
+  format: tilemap
+  us:
+    address: 0x096BAC64
+    size: 2048
+  jp:
+    address: 0x09673440
+    size: 2048
+  eu:
+    address: 0x0968298C
+    size: 2048
+- name: gWlogoDilIslandMap
+  format: tilemap
+  us:
+    address: 0x096BB464
+    size: 2048
+  jp:
+    address: 0x09673C40
+    size: 2048
+  eu:
+    address: 0x0968318C
+    size: 2048
+- name: gWlogoDilNameMap
+  format: tilemap
+  us:
+    address: 0x096BBC64
+    size: 2048
+  jp:
+    address: 0x09674440
+    size: 2048
+  eu:
+    address: 0x0968398C
+    size: 2048
+- name: gWlogoDilMap
+  format: tilemap
+  us:
+    address: 0x096BC464
+    size: 2048
+  jp:
+    address: 0x09674C40
+    size: 2048
+  eu:
+    address: 0x0968418C
+    size: 2048
+- name: gWlogoTvtMap
+  format: tilemap
+  us:
+    address: 0x096BCC64
+    size: 2048
+  jp:
+    address: 0x09675440
+    size: 2048
+  eu:
+    address: 0x0968498C
+    size: 2048
+- name: gWlogoPooMap
+  format: tilemap
+  us:
+    address: 0x096BD464
+    size: 2048
+  jp:
+    address: 0x09675C40
+    size: 2048
+  eu:
+    address: 0x0968518C
+    size: 2048
+- name: gWlogoTtMap
+  format: tilemap
+  us:
+    address: 0x096BDC64
+    size: 2048
+  jp:
+    address: 0x09676440
+    size: 2048
+  eu:
+    address: 0x0968598C
+    size: 2048
+- name: gWlogoTtTownMap
+  format: tilemap
+  us:
+    address: 0x096BE464
+    size: 2048
+  jp:
+    address: 0x09676C40
+    size: 2048
+  eu:
+    address: 0x0968618C
+    size: 2048
+- name: gWlogoBksCastleMap
+  format: tilemap
+  us:
+    address: 0x096BEC64
+    size: 2048
+  jp:
+    address: 0x09677440
+    size: 2048
+  eu:
+    address: 0x0968698C
+    size: 2048
+- name: gWlogoBksMap
+  format: tilemap
+  us:
+    address: 0x096BF464
+    size: 2048
+  jp:
+    address: 0x09677C40
+    size: 2048
+  eu:
+    address: 0x0968718C
+    size: 2048
+- name: gWlogoWonPalette
+  format: palette
+  us:
+    address: 0x096FAC84
+    size: 32
+  jp:
+    address: 0x096B3460
+    size: 32
+  eu:
+    address: 0x096C81AC
+    size: 32
+- name: gWlogoMonsPalette
+  format: palette
+  us:
+    address: 0x096FACA4
+    size: 32
+  jp:
+    address: 0x096B3480
+    size: 32
+  eu:
+    address: 0x096C81CC
+    size: 32
+- name: gWlogoMonsPalettes
+  format: palette
+  us:
+    address: 0x096FACC4
+    size: 160
+  jp:
+    address: 0x096B34A0
+    size: 160
+  eu:
+    address: 0x096C81EC
+    size: 160
+- name: gWlogoHwtPalette
+  format: palette
+  us:
+    address: 0x096FAD64
+    size: 32
+  jp:
+    address: 0x096B3540
+    size: 32
+  eu:
+    address: 0x096C828C
+    size: 32
+- name: gWlogoAtlPalette
+  format: palette
+  us:
+    address: 0x096FAD84
+    size: 32
+  jp:
+    address: 0x096B3560
+    size: 32
+  eu:
+    address: 0x096C82AC
+    size: 32
+- name: gWlogoNvlPalette
+  format: palette
+  us:
+    address: 0x096FADA4
+    size: 32
+  jp:
+    address: 0x096B3580
+    size: 32
+  eu:
+    address: 0x096C82CC
+    size: 32
+- name: gWlogoColPalette
+  format: palette
+  us:
+    address: 0x096FADC4
+    size: 32
+  jp:
+    address: 0x096B35A0
+    size: 32
+  eu:
+    address: 0x096C82EC
+    size: 32
+- name: gWlogoAgrPalette
+  format: palette
+  us:
+    address: 0x096FADE4
+    size: 32
+  jp:
+    address: 0x096B35C0
+    size: 32
+  eu:
+    address: 0x096C830C
+    size: 32
+- name: gWlogoHlwPalette
+  format: palette
+  us:
+    address: 0x096FAE04
+    size: 32
+  jp:
+    address: 0x096B35E0
+    size: 32
+  eu:
+    address: 0x096C832C
+    size: 32
+- name: gWlogoDilPalette
+  format: palette
+  us:
+    address: 0x096FAE24
+    size: 32
+  jp:
+    address: 0x096B3600
+    size: 32
+  eu:
+    address: 0x096C834C
+    size: 32
+- name: gWlogoTvtPalette
+  format: palette
+  us:
+    address: 0x096FAE44
+    size: 32
+  jp:
+    address: 0x096B3620
+    size: 32
+  eu:
+    address: 0x096C836C
+    size: 32
+- name: gWlogoPooPalette
+  format: palette
+  us:
+    address: 0x096FAE64
+    size: 32
+  jp:
+    address: 0x096B3640
+    size: 32
+  eu:
+    address: 0x096C838C
+    size: 32
+- name: gWlogoTtPalette
+  format: palette
+  us:
+    address: 0x096FAE84
+    size: 32
+  jp:
+    address: 0x096B3660
+    size: 32
+  eu:
+    address: 0x096C83AC
+    size: 32
+- name: gWlogoTtPalettes
+  format: palette
+  shape: [16, 16]
+  us:
+    address: 0x096FAEA4
+    size: 512
+  jp:
+    address: 0x096B3680
+    size: 512
+  eu:
+    address: 0x096C83CC
+    size: 512
+- name: gWlogoBksPalette
+  format: palette
+  us:
+    address: 0x096FB0A4
+    size: 32
+  jp:
+    address: 0x096B3880
+    size: 32
+  eu:
+    address: 0x096C85CC
+    size: 32
+- name: gWlogoBksPalettes
+  format: palette
+  us:
+    address: 0x096FB0C4
+    size: 160
+  jp:
+    address: 0x096B38A0
+    size: 160
+  eu:
+    address: 0x096C85EC
+    size: 160

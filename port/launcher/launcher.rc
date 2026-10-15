@@ -1,0 +1,35 @@
+/* Launcher resources: icon, menu artwork, version information, manifest. */
+#include <winver.h>
+
+1 ICON "../res/rdc.ico"
+1 24 "../res/khcom.manifest"
+101 RCDATA "assets/fondo.png"
+102 RCDATA "assets/atlas.png"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1, 0, 0, 0
+PRODUCTVERSION 1, 0, 0, 0
+FILEFLAGSMASK 0x3F
+FILEFLAGS 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0C0A04B0"
+        BEGIN
+            VALUE "FileDescription", "Reino de Corazones"
+            VALUE "FileVersion", "1.0.0"
+            VALUE "InternalName", "ReinoDeCorazones"
+            VALUE "OriginalFilename", "ReinoDeCorazones.exe"
+            VALUE "ProductName", "Reino de Corazones"
+            VALUE "ProductVersion", "1.0.0"
+            VALUE "Comments", "Port nativo no oficial de Kingdom Hearts: Chain of Memories. Necesita tu propia copia del juego."
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0C0A, 1200
+    END
+END

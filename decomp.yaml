@@ -1,0 +1,172 @@
+name: Kingdom Hearts - Chain of Memories
+repo: https://github.com/Pheenoh/khcom
+platform: gba
+build_system: ninja
+versions:
+  - name: us
+    fullname: USA (B8CE)
+    sha1: 10729bd884f8fdca7a310b6d606c52e46657aa48
+    paths:
+      target: "roms/B8CE.gba"
+      build_dir: "build/us"
+      map: "build/us/com_us.map"
+      compiled_target: "build/us/com_us.gba"
+      elf: "build/us/com_us.elf"
+      asm: "asm/us"
+  - name: jp
+    fullname: Japan (B8CJ)
+    sha1: 59ec0a0a4ccd1e6acb3bbd7bfb21d63988958cfa
+    paths:
+      target: "roms/B8CJ.gba"
+      build_dir: "build/jp"
+      map: "build/jp/com_jp.map"
+      compiled_target: "build/jp/com_jp.gba"
+      elf: "build/jp/com_jp.elf"
+      asm: "asm/jp"
+  - name: eu
+    fullname: Europe (B8CP)
+    sha1: 8db73586cdb11b3795907edebf43228dbcd3e6b2
+    paths:
+      target: "roms/B8CP.gba"
+      build_dir: "build/eu"
+      map: "build/eu/com_eu.map"
+      compiled_target: "build/eu/com_eu.gba"
+      elf: "build/eu/com_eu.elf"
+      asm: "asm/eu"
+
+tools:
+  mapfile_parser:
+    progress_report:
+      check_asm_paths: True
+      # Objects live at build/<ver>/asm/foo.o -> asm file lookup starts at part 3
+      path_index: 3
+      # Data is the .data/.rodata of the decompiled units. The asset groups the
+      # build generates under gen/ are left out by tools/normalize_report.py.
+      report_data: True
+      prefixes_to_trim:
+        - build/us/
+        - build/jp/
+        - build/eu/
+        - build/
+
+      # Module names come from the ROM's own task and mode registration tables
+      # (tools/gen_symbols.py), so these buckets group by evidence, not guesswork.
+      # Anything whose subsystem is not established stays in `named` or `unidentified`.
+      categories:
+        # Paths are prefixes and a unit can match several (`src/mode` also matches
+        # every `src/mode_*` unit); tools/normalize_report.py keeps only the category
+        # with the longest matching path. Do not add a bare `src` / `src/` path — mapfile_parser
+        # synthesizes a folder-named `src` category for unmatched units, which then
+        # also tags later units that already match core/game/sdk. Data is a dimension,
+        # not a category, so each bucket reports its own code and data; unattributed
+        # bytes sit in `other` until the unit that owns them is written.
+        - id: core
+          name: Core engine
+          paths:
+            - src/main
+            - src/malloc
+            - src/listpool
+            - src/taskpool
+            - src/mode
+            - src/key
+            - src/sprite
+            - src/engine
+            - src/random
+            - src/bg_anim
+            - src/sio
+            - src/pallet
+            - src/util
+            - src/save
+            - asm/header
+            - asm/crt0
+
+        - id: sdk
+          name: SDK
+          paths:
+            - src/m4a
+            - asm/m4a_1
+            - src/agb_sram
+            - asm/libagbsyscall
+            - asm/movie_codec
+            - src/movie
+            - src/snd_stream
+            - src/audio_block_codec
+
+        - id: thirdparty
+          name: Third party
+          paths:
+            - lib/
+
+        - id: game
+          name: Game code
+          paths:
+            - src/btl
+            - src/bos
+            - src/emy
+            - src/pc
+            - src/hum
+            - src/card
+            - src/continue_ui
+            - src/mode_
+            - src/acgtrans
+            - src/allmap
+            - src/chara
+            - src/evt
+            - src/fld
+            - src/frd
+            - src/lockon
+            - src/monsgage
+            - src/ms
+            - src/poo
+            - src/romcri
+            - src/room
+            - src/smn
+            - src/sroll
+            - src/status
+            - src/title
+            - src/tutorial
+            - src/wlogo
+            - src/unk_
+            - src/map
+            - src/map_tasks
+            - src/actor_ui_resource_data
+            - src/animation_resource_data
+            - src/aux_animation_data
+            - src/backupstat_data
+            - src/battle_field_state
+            - src/battle_localized_data
+            - src/battle_runtime
+            - src/game_state
+            - src/debug_menu_data
+            - src/event_background_data
+            - src/event_chara_data
+            - src/event_index_data
+            - src/event_message
+            - src/event_scanline_state
+            - src/event_sequence_data
+            - src/event_sprite_data
+            - src/print
+            - src/ev_bg_effect
+            - src/events
+            - src/field_transition
+            - src/formation_data
+            - src/graphics_state
+            - src/jiminy_data
+            - src/jiminy_inline_text_data
+            - src/localized_resource_data
+            - src/memory_regions
+            - src/moogle_data
+            - src/player_progression
+            - src/player_progression_data
+            - src/remaining_resource_data
+            - src/sram_state
+            - src/staff_roll_localized_resource_data
+            - src/staff_roll_resource_data
+            - src/staff_roll_resource_tail_data
+            - src/world_intro_data
+            - src/worldinspect_data
+            - src/worldlogo_state
+            - src/worldselect_data
+            - src/worldwarp_data
+            - src/worldwarp_state
+            - asm/transform

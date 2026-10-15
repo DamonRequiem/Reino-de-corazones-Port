@@ -1,0 +1,128 @@
+#ifdef VERSION_US
+#include "event_184_text.inc"
+#endif
+
+static const MessageScriptEntry sEvent184Script[18] = {
+    { PORTRAIT_ZEXION, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text00), 0, 230 },
+    { PORTRAIT_ZEXION, 2, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text01), 0, 232 },
+    { PORTRAIT_ZEXION, 3, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text02), 0, 600 },
+    { PORTRAIT_ZEXION, 3, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text03), 0, 900 },
+    { PORTRAIT_ZEXION, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text04), 0, 902 },
+    { PORTRAIT_ZEXION, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text05), 0, 1000 },
+    { PORTRAIT_AXEL, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text06), 0, 1050 },
+    { PORTRAIT_AXEL, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text07), 0, 1230 },
+    { PORTRAIT_RIKU_REPLICA, 0, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text08), 0, 1260 },
+    { PORTRAIT_AXEL, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text09), 0, 1290 },
+    { PORTRAIT_AXEL, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text10), 0, 1292 },
+    { PORTRAIT_AXEL, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text11), 0, 1294 },
+    { PORTRAIT_ZEXION, 3, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text12), 0, 1320 },
+    { PORTRAIT_AXEL, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text13), 0, 1380 },
+    { PORTRAIT_ZEXION, 3, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text14), 0, 1460 },
+    { PORTRAIT_AXEL, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text15), 0, 1500 },
+    { PORTRAIT_AXEL, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text16), 0, 1502 },
+    { PORTRAIT_ZEXION, 3, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent184Text17), MSG_SCRIPT_FLAG_END, 1650 },
+};
+
+#ifdef VERSION_JP
+#include "event_184_text.inc"
+#endif
+
+static const EvSoundCue sEvent184SoundCues[5] = {
+    { SONG_BGM_EVENT_XIII, 0, 0, 0 },
+    { SONG_EV_WARPOUT, 170, 0, 0 },
+    { SONG_SND_368, 1530, 0, 0 },
+    { SONG_SND_381, 1680, 0, 0 },
+    { SONG_BGM_EVENT_XIII, 1710, EV_SOUND_FLAG_FADE_OUT | EV_SOUND_FLAG_END, 0 },
+};
+
+static const EventCameraKeyframe sEvent184Camera[6] = {
+    { -65196, 46592, 59136, 0, EVENT_CHARA_NONE, 0, 0, NULL },
+    { -65016, 83456, 69888, 0, EVENT_CHARA_NONE, CAMERA_MODE_APPROACH, 80, NULL },
+    { -64935, 46592, 59136, 0, EVENT_CHARA_NONE, CAMERA_MODE_APPROACH, 80, NULL },
+    { -63906, 57088, 59136, 0, EVENT_CHARA_NONE, CAMERA_MODE_APPROACH, 50, NULL },
+    { -63536, 30976, 110848, 0, EVENT_CHARA_NONE, 0, 0, NULL },
+    { -60536, 0, 0, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_END | CAMERA_MODE_KEEP, 0, NULL },
+};
+
+static const EventBgEffectEntry sEvent184BgEffects[5] = {
+    { 1530, 0, 0, 0, 0 },
+    { 1630, 0, 0, 0, EVENT_BG_EFFECT_FLAG_FADE_OUT | EVENT_BG_EFFECT_FLAG_FULL_FADE },
+    { 3310, 0, 0, 0, 0 },
+    { 3380, 0, 0, 0, EVENT_BG_EFFECT_FLAG_CLEAR },
+    { 3500, 0, 0, 0, EVENT_BG_EFFECT_FLAG_FADE_IN | EVENT_BG_EFFECT_FLAG_END },
+};
+
+static const EventCharaKeyframe sEvent184Track0[10] = {
+    { 902, 170, 111616, 23040, 0, 0, 2, NULL, NULL },
+    { 903, 280, 47104, 65792, 0, 0, 2, EventCharaFadeIn, NULL },
+    { 903, 521, 0, 0, 0, 0, 5, NULL, NULL },
+    { 889, 595, 0, 0, 0, 0, 69, NULL, NULL },
+    { 896, 605, 0, 0, 0, 0, 69, NULL, NULL },
+    { 889, 1390, 0, 0, 0, 0, 69, NULL, NULL },
+    { 896, 1440, 0, 0, 0, 0, 64, NULL, CreateExclamationTask },
+    { 896, 1560, 0, 0, 0, 0, 69, NULL, NULL },
+    { 896, 1600, 0, 0, 0, 0, 64, EventCharaFadeOut, NULL },
+    { 902, 2000, 111616, 23040, 0, 0, 98306, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent184Track1[10] = {
+    { 486, 601, 86528, 73216, 0, 0, 2, NULL, NULL },
+    { 502, 720, 65536, 61440, 0, 486, 3, NULL, NULL },
+    { 486, 730, 0, 0, 0, 0, 5, NULL, NULL },
+    { 485, 1020, 0, 0, 0, 0, 5, NULL, NULL },
+    { 509, 1330, 0, 0, 0, 0, 5, NULL, NULL },
+    { 485, 1350, 0, 0, 0, 0, 5, NULL, NULL },
+    { 499, 1470, 0, 0, 0, 0, 5, NULL, NULL },
+    { 485, 1560, 0, 0, 0, 0, 5, NULL, NULL },
+    { 485, 1600, 0, 0, 0, 0, 0, EventCharaFadeOut, NULL },
+    { 486, 2000, 111616, 23040, 0, 0, 98306, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent184Track2[10] = {
+    { 696, 601, 82432, 83456, 0, 0, 2, NULL, NULL },
+    { 712, 700, 65024, 73984, 0, 696, 3, NULL, NULL },
+    { 696, 750, 0, 0, 0, 0, 5, NULL, NULL },
+    { 696, 880, 0, 0, 0, 0, 0, NULL, CreateBalloonTask },
+    { 696, 1070, 0, 0, 0, 0, 5, NULL, NULL },
+    { 696, 1200, 0, 0, 0, 0, 0, NULL, CreateBalloonTask },
+    { 696, 1540, 0, 0, 0, 0, 5, NULL, NULL },
+    { 712, 1560, 0, 0, 0, 211, 4, NULL, NULL },
+    { 712, 1600, 0, 0, 0, 211, 4, EventCharaFadeOut, NULL },
+    { 696, 2000, 111616, 23040, 0, 0, 98306, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent184Track3[3] = {
+    { 928, 280, 0, 0, 0, 0, 8194, NULL, NULL },
+    { 927, 330, 44544, 55552, 0, 0, 16658, NULL, NULL },
+    { 928, 2000, 0, 0, 0, 0, 98306, NULL, NULL },
+};
+
+static const EventCharaTrack sEvent184Tracks[4] = {
+    { sEvent184Track0, EVENT_CHARA_ZEXION },
+    { sEvent184Track1, EVENT_CHARA_AXEL },
+    { sEvent184Track2, EVENT_CHARA_RIKU_REPLICA },
+    { sEvent184Track3, EVENT_CHARA_B_STATES_4 },
+};
+
+const EventSequenceDef gEvent184 = {
+    ARRAY_COUNT(sEvent184Tracks),
+    sEvent184Tracks,
+    sEvent184Camera,
+    sEvent184Script,
+    sEvent184SoundCues,
+    sEvent184BgEffects,
+    1710,
+    FALSE,
+    TRUE,
+    FALSE,
+    FALSE,
+    FALSE,
+    0,
+    EVENT_185_RIKU_B2F_ENTRANCE,
+    0,
+    { 0, 0 },
+    EVENT_EXIT_NONE,
+    0,
+    WORLD_NONE,
+    POOH_LEVEL_NONE,
+};

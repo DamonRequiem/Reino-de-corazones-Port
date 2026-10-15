@@ -1,0 +1,41 @@
+group: staff_roll_audio
+types:
+  BlockAudioSampleRate:
+    kind: array
+    type: u32
+objects:
+  us:
+  - name: staff_roll_audio.s
+    start: 0x09A5B670
+    end: 0x09C43688
+  jp:
+  - name: staff_roll_audio.s
+    start: 0x09A10540
+    end: 0x09C1BDAC
+  eu:
+  - name: staff_roll_audio.s
+    start: 0x09AB93B8
+    end: 0x09CA13D0
+entries:
+- name: gBlockAudioSampleRate
+  record: BlockAudioSampleRate
+  declare: false
+  values: [21024]
+  us:
+    address: 0x09A5B670
+  jp:
+    address: 0x09A10540
+  eu:
+    address: 0x09AB93B8
+- name: gBlockAudioData
+  format: raw
+  ctype: u32
+  us:
+    address: 0x09A5B674
+    size: 1998868
+  jp:
+    address: 0x09A10544
+    size: 2144360
+  eu:
+    address: 0x09AB93BC
+    size: 1998868

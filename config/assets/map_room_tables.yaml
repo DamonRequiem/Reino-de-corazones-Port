@@ -1,0 +1,2028 @@
+group: map_room_tables
+types:
+  EventKey:
+    header: map_types.h
+    align: 4
+    fields:
+    - name: kind
+      type: u8
+    - name: color
+      type: u8
+    - name: rule
+      type: u8
+    - name: value
+      type: u8
+  EventKeyList:
+    header: map_types.h
+    fields:
+    - name: count
+      type: u8
+    - name: unk_01
+      type: u8
+      count: 3
+    - name: keys
+      type: EventKey*
+  MapFloorLinks:
+    kind: array
+    type: u8
+    columns: 4
+  MapRoomCodes:
+    kind: array
+    type: u8
+    columns: 4
+  MapRoomShapes:
+    kind: array
+    type: u8
+    columns: 8
+  MapFormDef:
+    header: map_types.h
+    align: 4
+    fields:
+    - name: layout
+      type: u8
+    - name: minWidth
+      type: u8
+    - name: maxWidth
+      type: u8
+    - name: minHeight
+      type: u8
+    - name: maxHeight
+      type: u8
+    - name: minDepth
+      type: u8
+    - name: maxDepth
+      type: u8
+    - name: unk_07
+      type: u8
+  MapEventDoor:
+    header: map_types.h
+    align: 4
+    fields:
+    - name: kind
+      type: u8
+    - name: keyList
+      type: u8
+    - name: room
+      type: u8
+    - name: side
+      type: u8
+    - name: returnRoom
+      type: u8
+    - name: returnSide
+      type: u8
+    - name: unk_06
+      type: u8
+      count: 2
+  MapFloorDef:
+    header: map_runtime.h
+    fields:
+    - name: entryRoom
+      type: u8
+    - name: exitRoom
+      type: u8
+    - name: unk_02
+      type: u8
+    - name: unk_03
+      type: u8
+    - name: links
+      type: u8*
+    - name: eventDoors
+      type: MapEventDoor*
+objects:
+  us:
+  - name: map_room_tables.s
+    start: 0x0984C3D0
+    end: 0x0984D2D4
+  jp:
+  - name: map_room_tables.s
+    start: 0x09800EE4
+    end: 0x09801DE8
+  eu:
+  - name: map_room_tables.s
+    start: 0x09828DA4
+    end: 0x09829CA8
+entries:
+- name: gMapFloorLinks13
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [2, 255, 255, 255]
+  - [255, 255, 255, 2]
+  - [4, 0, 1, 3]
+  - [255, 255, 2, 255]
+  - [255, 2, 255, 255]
+  us:
+    address: 0x0984C3D0
+  jp:
+    address: 0x09800EE4
+  eu:
+    address: 0x09828DA4
+- name: gMapFloorEventDoors13
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C3E4
+  jp:
+    address: 0x09800EF8
+  eu:
+    address: 0x09828DB8
+- name: gMapFloorLinks00
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [2, 255, 255, 1]
+  - [255, 254, 0, 255]
+  - [5, 0, 255, 3]
+  - [255, 0, 255, 3]
+  - [7, 10, 255, 255]
+  - [8, 2, 255, 6]
+  - [255, 255, 5, 255]
+  - [253, 4, 255, 8]
+  - [255, 5, 7, 9]
+  - [255, 255, 8, 255]
+  - [4, 255, 255, 255]
+  us:
+    address: 0x0984C3EC
+  jp:
+    address: 0x09800F00
+  eu:
+    address: 0x09828DC0
+- name: gMapFloorEventDoors00
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 0, 3, 3, 2, 2, [0, 0]]
+  - [1, 1, 6, 3, 5, 2, [0, 0]]
+  - [1, 2, 9, 3, 7, 5, [0, 0]]
+  - [2, 3, 10, 1, 4, 0, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C418
+  jp:
+    address: 0x09800F2C
+  eu:
+    address: 0x09828DEC
+- name: gMapFloorLinks01
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [255, 255, 255, 1]
+  - [3, 254, 0, 2]
+  - [255, 255, 1, 255]
+  - [6, 1, 255, 4]
+  - [7, 255, 3, 255]
+  - [253, 255, 255, 6]
+  - [8, 3, 5, 7]
+  - [255, 4, 6, 255]
+  - [255, 6, 255, 255]
+  us:
+    address: 0x0984C440
+  jp:
+    address: 0x09800F54
+  eu:
+    address: 0x09828E14
+- name: gMapFloorEventDoors01
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 4, 2, 3, 1, 2, [0, 0]]
+  - [1, 5, 7, 0, 6, 2, [0, 0]]
+  - [1, 6, 0, 2, 5, 5, [0, 0]]
+  - [2, 7, 8, 0, 6, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C464
+  jp:
+    address: 0x09800F78
+  eu:
+    address: 0x09828E38
+- name: gMapFloorLinks02
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [255, 255, 255, 1]
+  - [4, 255, 0, 2]
+  - [255, 254, 1, 255]
+  - [5, 255, 255, 4]
+  - [6, 1, 3, 9]
+  - [8, 3, 255, 6]
+  - [255, 4, 5, 7]
+  - [255, 255, 6, 255]
+  - [253, 5, 255, 255]
+  - [255, 255, 4, 255]
+  us:
+    address: 0x0984C48C
+  jp:
+    address: 0x09800FA0
+  eu:
+    address: 0x09828E60
+- name: gMapFloorEventDoors02
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 8, 3, 1, 4, 3, [0, 0]]
+  - [1, 9, 0, 2, 1, 3, [0, 0]]
+  - [1, 10, 7, 3, 8, 5, [0, 0]]
+  - [2, 11, 9, 3, 4, 2, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C4B4
+  jp:
+    address: 0x09800FC8
+  eu:
+    address: 0x09828E88
+- name: gMapFloorLinks03
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [3, 254, 255, 1]
+  - [4, 255, 0, 2]
+  - [5, 255, 1, 255]
+  - [255, 0, 255, 4]
+  - [8, 1, 3, 5]
+  - [255, 2, 4, 6]
+  - [10, 255, 5, 255]
+  - [253, 255, 255, 8]
+  - [255, 4, 7, 9]
+  - [255, 255, 8, 255]
+  - [255, 6, 255, 255]
+  us:
+    address: 0x0984C4DC
+  jp:
+    address: 0x09800FF0
+  eu:
+    address: 0x09828EB0
+- name: gMapFloorEventDoors03
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 12, 2, 1, 1, 2, [0, 0]]
+  - [1, 13, 3, 2, 0, 1, [0, 0]]
+  - [1, 14, 9, 3, 7, 5, [0, 0]]
+  - [2, 15, 10, 0, 6, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C508
+  jp:
+    address: 0x0980101C
+  eu:
+    address: 0x09828EDC
+- name: gMapFloorLinks04
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [1, 255, 255, 255]
+  - [5, 0, 255, 2]
+  - [6, 254, 1, 255]
+  - [255, 255, 255, 4]
+  - [11, 255, 3, 5]
+  - [255, 1, 4, 6]
+  - [8, 2, 5, 255]
+  - [9, 255, 255, 8]
+  - [10, 6, 7, 255]
+  - [255, 7, 255, 255]
+  - [253, 8, 255, 255]
+  - [255, 4, 255, 255]
+  us:
+    address: 0x0984C530
+  jp:
+    address: 0x09801044
+  eu:
+    address: 0x09828F04
+- name: gMapFloorEventDoors04
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 16, 3, 2, 4, 3, [0, 0]]
+  - [1, 17, 0, 1, 1, 0, [0, 0]]
+  - [1, 18, 9, 0, 10, 5, [0, 0]]
+  - [2, 19, 11, 0, 4, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C560
+  jp:
+    address: 0x09801074
+  eu:
+    address: 0x09828F34
+- name: gMapFloorLinks05
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [1, 255, 255, 255]
+  - [6, 0, 255, 2]
+  - [255, 255, 1, 3]
+  - [255, 12, 2, 4]
+  - [8, 255, 3, 5]
+  - [9, 254, 4, 255]
+  - [253, 1, 255, 255]
+  - [10, 255, 255, 8]
+  - [11, 4, 7, 9]
+  - [255, 5, 8, 255]
+  - [255, 7, 255, 11]
+  - [255, 8, 10, 255]
+  - [3, 255, 255, 255]
+  us:
+    address: 0x0984C588
+  jp:
+    address: 0x0980109C
+  eu:
+    address: 0x09828F5C
+- name: gMapFloorEventDoors05
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 20, 9, 3, 5, 1, [0, 0]]
+  - [1, 21, 7, 1, 8, 3, [0, 0]]
+  - [1, 22, 0, 1, 6, 5, [0, 0]]
+  - [2, 23, 12, 1, 3, 0, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C5BC
+  jp:
+    address: 0x098010D0
+  eu:
+    address: 0x09828F90
+- name: gMapFloorLinks06
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [5, 255, 255, 1]
+  - [6, 255, 0, 255]
+  - [7, 255, 255, 3]
+  - [8, 255, 2, 255]
+  - [9, 254, 255, 5]
+  - [10, 0, 4, 6]
+  - [13, 1, 5, 7]
+  - [11, 2, 6, 8]
+  - [12, 3, 7, 255]
+  - [255, 4, 255, 10]
+  - [255, 5, 9, 255]
+  - [255, 7, 255, 255]
+  - [253, 8, 255, 255]
+  - [255, 6, 255, 255]
+  us:
+    address: 0x0984C5E4
+  jp:
+    address: 0x098010F8
+  eu:
+    address: 0x09828FB8
+- name: gMapFloorEventDoors06
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 24, 1, 3, 6, 0, [0, 0]]
+  - [1, 25, 9, 2, 4, 1, [0, 0]]
+  - [1, 26, 3, 1, 12, 5, [0, 0]]
+  - [2, 27, 13, 0, 6, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C61C
+  jp:
+    address: 0x09801130
+  eu:
+    address: 0x09828FF0
+- name: gMapFloorLinks07
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [2, 255, 255, 1]
+  - [3, 255, 0, 255]
+  - [255, 0, 255, 3]
+  - [6, 1, 2, 4]
+  - [255, 254, 3, 255]
+  - [255, 255, 255, 6]
+  - [8, 3, 5, 255]
+  - [10, 255, 255, 8]
+  - [11, 6, 7, 9]
+  - [255, 13, 8, 255]
+  - [255, 7, 255, 8]
+  - [255, 8, 10, 12]
+  - [253, 255, 11, 255]
+  - [9, 255, 255, 255]
+  us:
+    address: 0x0984C644
+  jp:
+    address: 0x09801158
+  eu:
+    address: 0x09829018
+- name: gMapFloorEventDoors07
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 28, 5, 2, 6, 3, [0, 0]]
+  - [1, 29, 0, 1, 1, 3, [0, 0]]
+  - [1, 30, 10, 2, 12, 5, [0, 0]]
+  - [2, 31, 13, 1, 9, 0, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C67C
+  jp:
+    address: 0x09801190
+  eu:
+    address: 0x09829050
+- name: gMapFloorLinks08
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [255, 255, 255, 1]
+  - [3, 255, 0, 255]
+  - [4, 254, 255, 255]
+  - [6, 1, 255, 255]
+  - [7, 2, 255, 255]
+  - [253, 255, 255, 6]
+  - [9, 3, 5, 7]
+  - [10, 4, 6, 8]
+  - [255, 255, 7, 255]
+  - [11, 6, 255, 255]
+  - [12, 7, 255, 255]
+  - [255, 9, 14, 255]
+  - [255, 10, 255, 13]
+  - [255, 255, 12, 255]
+  - [255, 255, 255, 11]
+  us:
+    address: 0x0984C6A4
+  jp:
+    address: 0x098011B8
+  eu:
+    address: 0x09829078
+- name: gMapFloorEventDoors08
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 32, 13, 3, 12, 2, [0, 0]]
+  - [1, 33, 0, 2, 1, 3, [0, 0]]
+  - [1, 34, 8, 3, 5, 5, [0, 0]]
+  - [2, 35, 14, 2, 11, 3, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C6E0
+  jp:
+    address: 0x098011F4
+  eu:
+    address: 0x098290B4
+- name: gMapFloorLinks09
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [4, 255, 255, 255]
+  - [6, 255, 255, 2]
+  - [7, 255, 1, 255]
+  - [8, 254, 255, 4]
+  - [255, 0, 3, 5]
+  - [10, 255, 4, 6]
+  - [11, 1, 5, 7]
+  - [16, 2, 6, 255]
+  - [255, 3, 255, 9]
+  - [255, 255, 8, 10]
+  - [13, 5, 9, 255]
+  - [14, 6, 255, 255]
+  - [255, 255, 255, 13]
+  - [15, 10, 12, 14]
+  - [255, 11, 13, 255]
+  - [253, 13, 255, 255]
+  - [255, 7, 255, 255]
+  us:
+    address: 0x0984C708
+  jp:
+    address: 0x0980121C
+  eu:
+    address: 0x098290DC
+- name: gMapFloorEventDoors09
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 36, 2, 3, 7, 0, [0, 0]]
+  - [1, 37, 9, 2, 8, 2, [0, 0]]
+  - [1, 38, 11, 1, 15, 5, [0, 0]]
+  - [2, 39, 16, 0, 7, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C74C
+  jp:
+    address: 0x09801260
+  eu:
+    address: 0x09829120
+- name: gMapFloorLinks10
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [255, 255, 255, 1]
+  - [255, 255, 0, 2]
+  - [3, 255, 1, 255]
+  - [6, 2, 255, 4]
+  - [255, 254, 3, 255]
+  - [253, 255, 255, 6]
+  - [7, 3, 5, 9]
+  - [255, 6, 255, 8]
+  - [255, 255, 7, 255]
+  - [255, 255, 6, 255]
+  us:
+    address: 0x0984C774
+  jp:
+    address: 0x09801288
+  eu:
+    address: 0x09829148
+- name: gMapFloorEventDoors10
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 40, 8, 3, 5, 5, [0, 0]]
+  - [2, 41, 9, 3, 6, 2, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C79C
+  jp:
+    address: 0x098012B0
+  eu:
+    address: 0x09829170
+- name: gMapFloorLinks11
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [2, 254, 255, 1]
+  - [3, 255, 0, 255]
+  - [255, 0, 255, 3]
+  - [4, 1, 2, 255]
+  - [8, 3, 255, 255]
+  - [255, 255, 255, 6]
+  - [255, 255, 5, 7]
+  - [255, 10, 6, 8]
+  - [255, 4, 7, 9]
+  - [253, 255, 8, 255]
+  - [7, 255, 255, 255]
+  us:
+    address: 0x0984C7B4
+  jp:
+    address: 0x098012C8
+  eu:
+    address: 0x09829188
+- name: gMapFloorEventDoors11
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 42, 2, 2, 0, 1, [0, 0]]
+  - [1, 43, 5, 2, 9, 5, [0, 0]]
+  - [2, 44, 10, 1, 7, 0, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C7E0
+  jp:
+    address: 0x098012F4
+  eu:
+    address: 0x098291B4
+- name: gMapFloorLinks12
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [4, 255, 255, 1]
+  - [255, 255, 0, 2]
+  - [255, 255, 1, 3]
+  - [255, 254, 2, 255]
+  - [5, 0, 255, 255]
+  - [10, 4, 255, 6]
+  - [255, 255, 5, 7]
+  - [255, 255, 6, 8]
+  - [255, 255, 7, 9]
+  - [12, 255, 8, 255]
+  - [13, 5, 255, 255]
+  - [16, 255, 255, 12]
+  - [17, 9, 11, 255]
+  - [253, 10, 255, 14]
+  - [255, 255, 13, 15]
+  - [255, 255, 14, 16]
+  - [255, 11, 15, 17]
+  - [255, 12, 16, 255]
+  us:
+    address: 0x0984C800
+  jp:
+    address: 0x09801314
+  eu:
+    address: 0x098291D4
+- name: gMapFloorEventDoors12
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [3, 255, 0, 2, 0, 2, [0, 0]]
+  - [3, 255, 9, 3, 9, 3, [0, 0]]
+  - [1, 45, 17, 3, 12, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C848
+  jp:
+    address: 0x0980135C
+  eu:
+    address: 0x0982921C
+- name: gMapFloorDefs
+  record: MapFloorDef
+  elements:
+  - [1, 7, 0, 0, gMapFloorLinks00, gMapFloorEventDoors00]
+  - [1, 5, 0, 0, gMapFloorLinks01, gMapFloorEventDoors01]
+  - [2, 8, 0, 0, gMapFloorLinks02, gMapFloorEventDoors02]
+  - [0, 7, 0, 0, gMapFloorLinks03, gMapFloorEventDoors03]
+  - [2, 10, 0, 0, gMapFloorLinks04, gMapFloorEventDoors04]
+  - [5, 6, 0, 0, gMapFloorLinks05, gMapFloorEventDoors05]
+  - [4, 12, 0, 0, gMapFloorLinks06, gMapFloorEventDoors06]
+  - [4, 12, 0, 0, gMapFloorLinks07, gMapFloorEventDoors07]
+  - [2, 5, 0, 0, gMapFloorLinks08, gMapFloorEventDoors08]
+  - [3, 15, 0, 0, gMapFloorLinks09, gMapFloorEventDoors09]
+  - [4, 5, 0, 0, gMapFloorLinks10, gMapFloorEventDoors10]
+  - [0, 9, 0, 0, gMapFloorLinks11, gMapFloorEventDoors11]
+  - [3, 13, 0, 0, gMapFloorLinks12, gMapFloorEventDoors12]
+  - [2, 2, 0, 0, gMapFloorLinks13, gMapFloorEventDoors13]
+  us:
+    address: 0x0984C868
+  jp:
+    address: 0x0980137C
+  eu:
+    address: 0x0982923C
+- name: gRikuMapFloorLinks00
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [3, 254, 255, 255]
+  - [255, 255, 255, 2]
+  - [4, 255, 1, 3]
+  - [5, 0, 2, 255]
+  - [255, 2, 255, 5]
+  - [8, 3, 4, 6]
+  - [255, 255, 5, 255]
+  - [255, 255, 255, 8]
+  - [9, 5, 7, 255]
+  - [253, 8, 255, 255]
+  us:
+    address: 0x0984C910
+  jp:
+    address: 0x09801424
+  eu:
+    address: 0x098292E4
+- name: gRikuMapFloorEventDoors00
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 46, 1, 2, 2, 3, [0, 0]]
+  - [1, 47, 6, 3, 5, 2, [0, 0]]
+  - [1, 48, 7, 2, 8, 3, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C938
+  jp:
+    address: 0x0980144C
+  eu:
+    address: 0x0982930C
+- name: gRikuMapFloorLinks01
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [3, 254, 255, 255]
+  - [255, 255, 255, 2]
+  - [4, 255, 1, 3]
+  - [5, 0, 2, 255]
+  - [255, 2, 255, 5]
+  - [6, 3, 4, 255]
+  - [253, 5, 255, 255]
+  us:
+    address: 0x0984C958
+  jp:
+    address: 0x0980146C
+  eu:
+    address: 0x0982932C
+- name: gRikuMapFloorEventDoors01
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [4, 49, 1, 2, 2, 3, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C974
+  jp:
+    address: 0x09801488
+  eu:
+    address: 0x09829348
+- name: gRikuMapFloorLinks02
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [5, 254, 255, 255]
+  - [255, 255, 255, 2]
+  - [255, 255, 1, 3]
+  - [255, 255, 2, 4]
+  - [255, 255, 3, 5]
+  - [6, 0, 4, 255]
+  - [253, 5, 255, 255]
+  us:
+    address: 0x0984C984
+  jp:
+    address: 0x09801498
+  eu:
+    address: 0x09829358
+- name: gRikuMapFloorEventDoors02
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [4, 50, 1, 2, 2, 3, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C9A0
+  jp:
+    address: 0x098014B4
+  eu:
+    address: 0x09829374
+- name: gRikuMapFloorLinks03
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [3, 254, 255, 255]
+  - [4, 255, 255, 2]
+  - [5, 255, 1, 3]
+  - [6, 0, 2, 255]
+  - [7, 1, 255, 5]
+  - [255, 2, 4, 6]
+  - [8, 3, 5, 255]
+  - [253, 4, 255, 255]
+  - [255, 6, 255, 255]
+  us:
+    address: 0x0984C9B0
+  jp:
+    address: 0x098014C4
+  eu:
+    address: 0x09829384
+- name: gRikuMapFloorEventDoors03
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [4, 51, 8, 0, 6, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984C9D4
+  jp:
+    address: 0x098014E8
+  eu:
+    address: 0x098293A8
+- name: gRikuMapFloorLinks04
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [2, 254, 255, 255]
+  - [4, 255, 255, 2]
+  - [5, 0, 1, 3]
+  - [6, 255, 2, 255]
+  - [7, 1, 255, 255]
+  - [8, 2, 255, 255]
+  - [9, 3, 255, 255]
+  - [10, 4, 255, 8]
+  - [255, 5, 7, 9]
+  - [11, 6, 8, 255]
+  - [255, 7, 255, 255]
+  - [253, 9, 255, 255]
+  us:
+    address: 0x0984C9E4
+  jp:
+    address: 0x098014F8
+  eu:
+    address: 0x098293B8
+- name: gRikuMapFloorEventDoors04
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [4, 52, 10, 0, 7, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984CA14
+  jp:
+    address: 0x09801528
+  eu:
+    address: 0x098293E8
+- name: gRikuMapFloorLinks05
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [2, 254, 255, 255]
+  - [4, 255, 255, 2]
+  - [5, 0, 1, 3]
+  - [6, 255, 2, 255]
+  - [7, 1, 255, 255]
+  - [8, 2, 255, 255]
+  - [9, 3, 255, 255]
+  - [10, 4, 255, 255]
+  - [255, 5, 255, 255]
+  - [11, 6, 255, 255]
+  - [255, 7, 255, 255]
+  - [253, 9, 255, 255]
+  us:
+    address: 0x0984CA24
+  jp:
+    address: 0x09801538
+  eu:
+    address: 0x098293F8
+- name: gRikuMapFloorEventDoors05
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [4, 53, 10, 0, 7, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984CA54
+  jp:
+    address: 0x09801568
+  eu:
+    address: 0x09829428
+- name: gRikuMapFloorLinks06
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [2, 254, 255, 255]
+  - [5, 255, 255, 2]
+  - [6, 0, 1, 255]
+  - [255, 255, 255, 4]
+  - [7, 255, 3, 5]
+  - [8, 1, 4, 6]
+  - [255, 2, 5, 255]
+  - [255, 4, 255, 8]
+  - [9, 5, 7, 255]
+  - [253, 8, 255, 255]
+  us:
+    address: 0x0984CA64
+  jp:
+    address: 0x09801578
+  eu:
+    address: 0x09829438
+- name: gRikuMapFloorEventDoors06
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [4, 54, 3, 2, 4, 3, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984CA8C
+  jp:
+    address: 0x098015A0
+  eu:
+    address: 0x09829460
+- name: gRikuMapFloorLinks07
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [1, 254, 255, 255]
+  - [5, 0, 255, 2]
+  - [6, 255, 1, 3]
+  - [7, 255, 2, 4]
+  - [8, 255, 3, 255]
+  - [255, 1, 255, 6]
+  - [255, 2, 5, 7]
+  - [9, 3, 6, 8]
+  - [10, 4, 7, 255]
+  - [253, 7, 255, 255]
+  - [255, 8, 255, 255]
+  us:
+    address: 0x0984CA9C
+  jp:
+    address: 0x098015B0
+  eu:
+    address: 0x09829470
+- name: gRikuMapFloorEventDoors07
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [4, 55, 10, 0, 8, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984CAC8
+  jp:
+    address: 0x098015DC
+  eu:
+    address: 0x0982949C
+- name: gRikuMapFloorLinks08
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [3, 254, 255, 255]
+  - [4, 255, 255, 2]
+  - [5, 255, 1, 255]
+  - [8, 0, 255, 4]
+  - [9, 1, 3, 255]
+  - [10, 2, 255, 6]
+  - [11, 255, 5, 7]
+  - [255, 255, 6, 255]
+  - [255, 3, 255, 9]
+  - [12, 4, 8, 255]
+  - [13, 5, 255, 11]
+  - [255, 6, 10, 255]
+  - [14, 9, 255, 13]
+  - [255, 10, 12, 255]
+  - [253, 12, 255, 255]
+  us:
+    address: 0x0984CAD8
+  jp:
+    address: 0x098015EC
+  eu:
+    address: 0x098294AC
+- name: gRikuMapFloorEventDoors08
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [4, 56, 7, 3, 6, 2, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984CB14
+  jp:
+    address: 0x09801628
+  eu:
+    address: 0x098294E8
+- name: gRikuMapFloorLinks09
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [1, 254, 255, 255]
+  - [4, 0, 255, 2]
+  - [255, 255, 1, 3]
+  - [5, 255, 2, 255]
+  - [7, 1, 255, 255]
+  - [9, 3, 255, 6]
+  - [255, 255, 5, 255]
+  - [255, 4, 255, 8]
+  - [10, 255, 7, 9]
+  - [255, 5, 8, 255]
+  - [253, 8, 255, 255]
+  us:
+    address: 0x0984CB24
+  jp:
+    address: 0x09801638
+  eu:
+    address: 0x098294F8
+- name: gRikuMapFloorEventDoors09
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 57, 6, 3, 5, 2, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984CB50
+  jp:
+    address: 0x09801664
+  eu:
+    address: 0x09829524
+- name: gRikuMapFloorLinks10
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [2, 254, 255, 255]
+  - [4, 255, 255, 2]
+  - [5, 0, 1, 3]
+  - [6, 255, 2, 255]
+  - [7, 1, 255, 255]
+  - [255, 2, 255, 255]
+  - [8, 3, 255, 255]
+  - [9, 4, 255, 255]
+  - [10, 6, 255, 255]
+  - [11, 7, 255, 255]
+  - [12, 8, 255, 255]
+  - [253, 9, 255, 255]
+  - [255, 10, 255, 255]
+  us:
+    address: 0x0984CB60
+  jp:
+    address: 0x09801674
+  eu:
+    address: 0x09829534
+- name: gRikuMapFloorEventDoors10
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 58, 5, 0, 2, 1, [0, 0]]
+  - [1, 59, 12, 0, 10, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984CB94
+  jp:
+    address: 0x098016A8
+  eu:
+    address: 0x09829568
+- name: gRikuMapFloorLinks11
+  record: MapFloorLinks
+  declare: false
+  values:
+  - [1, 254, 255, 255]
+  - [2, 0, 255, 255]
+  - [3, 1, 255, 255]
+  - [255, 2, 255, 255]
+  - [253, 255, 255, 255]
+  us:
+    address: 0x0984CBAC
+  jp:
+    address: 0x098016C0
+  eu:
+    address: 0x09829580
+- name: gRikuMapFloorEventDoors11
+  record: MapEventDoor
+  declare: false
+  elements:
+  - [1, 60, 3, 0, 2, 1, [0, 0]]
+  - [5, 255, 0, 5, 0, 5, [0, 0]]
+  us:
+    address: 0x0984CBC0
+  jp:
+    address: 0x098016D4
+  eu:
+    address: 0x09829594
+- name: gRikuMapFloorDefs
+  record: MapFloorDef
+  elements:
+  - [0, 9, 0, 0, gRikuMapFloorLinks00, gRikuMapFloorEventDoors00]
+  - [0, 6, 0, 0, gRikuMapFloorLinks01, gRikuMapFloorEventDoors01]
+  - [0, 6, 0, 0, gRikuMapFloorLinks02, gRikuMapFloorEventDoors02]
+  - [0, 7, 0, 0, gRikuMapFloorLinks03, gRikuMapFloorEventDoors03]
+  - [0, 11, 0, 0, gRikuMapFloorLinks04, gRikuMapFloorEventDoors04]
+  - [0, 11, 0, 0, gRikuMapFloorLinks05, gRikuMapFloorEventDoors05]
+  - [0, 9, 0, 0, gRikuMapFloorLinks06, gRikuMapFloorEventDoors06]
+  - [0, 9, 0, 0, gRikuMapFloorLinks07, gRikuMapFloorEventDoors07]
+  - [0, 14, 0, 0, gRikuMapFloorLinks08, gRikuMapFloorEventDoors08]
+  - [0, 10, 0, 0, gRikuMapFloorLinks09, gRikuMapFloorEventDoors09]
+  - [0, 11, 0, 0, gRikuMapFloorLinks10, gRikuMapFloorEventDoors10]
+  - [0, 4, 0, 0, gRikuMapFloorLinks11, gRikuMapFloorEventDoors11]
+  - [0, 4, 0, 0, gRikuMapFloorLinks11, gRikuMapFloorEventDoors11]
+  - [0, 4, 0, 0, gRikuMapFloorLinks11, gRikuMapFloorEventDoors11]
+  us:
+    address: 0x0984CBD0
+  jp:
+    address: 0x098016E4
+  eu:
+    address: 0x098295A4
+- name: gEventKeys61
+  record: EventKey
+  declare: false
+  elements:
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CC78
+  jp:
+    address: 0x0980178C
+  eu:
+    address: 0x0982964C
+- name: gEventKeys62
+  record: EventKey
+  declare: false
+  elements:
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CC7C
+  jp:
+    address: 0x09801790
+  eu:
+    address: 0x09829650
+- name: gEventKeys63
+  record: EventKey
+  declare: false
+  elements:
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CC80
+  jp:
+    address: 0x09801794
+  eu:
+    address: 0x09829654
+- name: gUnusedEventKeys
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 4, 9]
+  - [255, 0, 4, 9]
+  - [255, 2, 1, 5]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CC84
+  jp:
+    address: 0x09801798
+  eu:
+    address: 0x09829658
+- name: gEventKeys00
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 1, 1]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CC94
+  jp:
+    address: 0x098017A8
+  eu:
+    address: 0x09829668
+- name: gEventKeys01
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 1, 3]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CC9C
+  jp:
+    address: 0x098017B0
+  eu:
+    address: 0x09829670
+- name: gEventKeys02
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 0, 0]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CCA4
+  jp:
+    address: 0x098017B8
+  eu:
+    address: 0x09829678
+- name: gEventKeys03
+  record: EventKey
+  declare: false
+  elements:
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CCAC
+  jp:
+    address: 0x098017C0
+  eu:
+    address: 0x09829680
+- name: gEventKeys04
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 0, 0]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CCB0
+  jp:
+    address: 0x098017C4
+  eu:
+    address: 0x09829684
+- name: gEventKeys05
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 4, 15]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CCB8
+  jp:
+    address: 0x098017CC
+  eu:
+    address: 0x0982968C
+- name: gEventKeys06
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 0, 0]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CCC0
+  jp:
+    address: 0x098017D4
+  eu:
+    address: 0x09829694
+- name: gEventKeys07
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 0, 0]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CCC8
+  jp:
+    address: 0x098017DC
+  eu:
+    address: 0x0982969C
+- name: gEventKeys08
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 1, 5]
+  - [255, 0, 1, 7]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CCD0
+  jp:
+    address: 0x098017E4
+  eu:
+    address: 0x098296A4
+- name: gEventKeys09
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 0, 0]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CCDC
+  jp:
+    address: 0x098017F0
+  eu:
+    address: 0x098296B0
+- name: gEventKeys10
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 2, 3]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CCE4
+  jp:
+    address: 0x098017F8
+  eu:
+    address: 0x098296B8
+- name: gEventKeys11
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 3, 0]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CCEC
+  jp:
+    address: 0x09801800
+  eu:
+    address: 0x098296C0
+- name: gEventKeys12
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 1, 8]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CCF4
+  jp:
+    address: 0x09801808
+  eu:
+    address: 0x098296C8
+- name: gEventKeys13
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 1, 1]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CCFC
+  jp:
+    address: 0x09801810
+  eu:
+    address: 0x098296D0
+- name: gEventKeys14
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 0, 0]
+  - [255, 1, 0, 0]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CD04
+  jp:
+    address: 0x09801818
+  eu:
+    address: 0x098296D8
+- name: gEventKeys15
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 3, 9]
+  - [255, 1, 3, 9]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CD10
+  jp:
+    address: 0x09801824
+  eu:
+    address: 0x098296E4
+- name: gEventKeys16
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 4, 20]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CD1C
+  jp:
+    address: 0x09801830
+  eu:
+    address: 0x098296F0
+- name: gEventKeys17
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 0, 0]
+  - [255, 0, 2, 5]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CD24
+  jp:
+    address: 0x09801838
+  eu:
+    address: 0x098296F8
+- name: gEventKeys18
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 3, 0]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CD30
+  jp:
+    address: 0x09801844
+  eu:
+    address: 0x09829704
+- name: gEventKeys19
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 4, 15]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CD38
+  jp:
+    address: 0x0980184C
+  eu:
+    address: 0x0982970C
+- name: gEventKeys20
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 3, 3]
+  - [255, 0, 3, 4]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CD40
+  jp:
+    address: 0x09801854
+  eu:
+    address: 0x09829714
+- name: gEventKeys21
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 3, 6]
+  - [255, 0, 3, 7]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CD4C
+  jp:
+    address: 0x09801860
+  eu:
+    address: 0x09829720
+- name: gEventKeys22
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 2, 3]
+  - [255, 1, 4, 30]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CD58
+  jp:
+    address: 0x0980186C
+  eu:
+    address: 0x0982972C
+- name: gEventKeys23
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 4, 20]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CD64
+  jp:
+    address: 0x09801878
+  eu:
+    address: 0x09829738
+- name: gEventKeys24
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 0, 0]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CD6C
+  jp:
+    address: 0x09801880
+  eu:
+    address: 0x09829740
+- name: gEventKeys25
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 0, 0]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CD74
+  jp:
+    address: 0x09801888
+  eu:
+    address: 0x09829748
+- name: gEventKeys26
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 0, 0]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CD7C
+  jp:
+    address: 0x09801890
+  eu:
+    address: 0x09829750
+- name: gEventKeys27
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 4, 30]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CD84
+  jp:
+    address: 0x09801898
+  eu:
+    address: 0x09829758
+- name: gEventKeys28
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 3, 5]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CD8C
+  jp:
+    address: 0x098018A0
+  eu:
+    address: 0x09829760
+- name: gEventKeys29
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 3, 6]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CD94
+  jp:
+    address: 0x098018A8
+  eu:
+    address: 0x09829768
+- name: gEventKeys30
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 4, 30]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CD9C
+  jp:
+    address: 0x098018B0
+  eu:
+    address: 0x09829770
+- name: gEventKeys31
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 4, 15]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CDA4
+  jp:
+    address: 0x098018B8
+  eu:
+    address: 0x09829778
+- name: gEventKeys32
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 0, 0]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CDAC
+  jp:
+    address: 0x098018C0
+  eu:
+    address: 0x09829780
+- name: gEventKeys33
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 3, 9]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CDB4
+  jp:
+    address: 0x098018C8
+  eu:
+    address: 0x09829788
+- name: gEventKeys34
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 3, 1]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CDBC
+  jp:
+    address: 0x098018D0
+  eu:
+    address: 0x09829790
+- name: gEventKeys35
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 3, 2]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CDC4
+  jp:
+    address: 0x098018D8
+  eu:
+    address: 0x09829798
+- name: gEventKeys36
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 0, 0]
+  - [255, 0, 2, 3]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CDCC
+  jp:
+    address: 0x098018E0
+  eu:
+    address: 0x098297A0
+- name: gEventKeys37
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 0, 0]
+  - [255, 0, 1, 7]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CDD8
+  jp:
+    address: 0x098018EC
+  eu:
+    address: 0x098297AC
+- name: gEventKeys38
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 0, 0]
+  - [255, 0, 3, 0]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CDE4
+  jp:
+    address: 0x098018F8
+  eu:
+    address: 0x098297B8
+- name: gEventKeys39
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 3, 3]
+  - [255, 2, 3, 7]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CDF0
+  jp:
+    address: 0x09801904
+  eu:
+    address: 0x098297C4
+- name: gEventKeys40
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 1, 5]
+  - [255, 0, 2, 5]
+  - [255, 3, 0, 0]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CDFC
+  jp:
+    address: 0x09801910
+  eu:
+    address: 0x098297D0
+- name: gEventKeys41
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 3, 8]
+  - [255, 2, 3, 1]
+  - [255, 1, 4, 20]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CE0C
+  jp:
+    address: 0x09801920
+  eu:
+    address: 0x098297E0
+- name: gEventKeys42
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 3, 2]
+  - [255, 0, 3, 8]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE1C
+  jp:
+    address: 0x09801930
+  eu:
+    address: 0x098297F0
+- name: gEventKeys43
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 4, 50]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CE28
+  jp:
+    address: 0x0980193C
+  eu:
+    address: 0x098297FC
+- name: gEventKeys44
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 4, 33]
+  - [255, 2, 4, 33]
+  - [255, 1, 4, 33]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984CE30
+  jp:
+    address: 0x09801944
+  eu:
+    address: 0x09829804
+- name: gEventKeys45
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 3, 1]
+  - [255, 2, 3, 3]
+  - [255, 0, 4, 99]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE40
+  jp:
+    address: 0x09801954
+  eu:
+    address: 0x09829814
+- name: gEventKeys46
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 0, 0]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE50
+  jp:
+    address: 0x09801964
+  eu:
+    address: 0x09829824
+- name: gEventKeys47
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 0, 0]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CE58
+  jp:
+    address: 0x0980196C
+  eu:
+    address: 0x0982982C
+- name: gEventKeys48
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 1, 5]
+  - [24, 0, 0, 0]
+  us:
+    address: 0x0984CE60
+  jp:
+    address: 0x09801974
+  eu:
+    address: 0x09829834
+- name: gEventKeys49
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 1, 3]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE68
+  jp:
+    address: 0x0980197C
+  eu:
+    address: 0x0982983C
+- name: gEventKeys50
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 1, 5]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE70
+  jp:
+    address: 0x09801984
+  eu:
+    address: 0x09829844
+- name: gEventKeys51
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 0, 0]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE78
+  jp:
+    address: 0x0980198C
+  eu:
+    address: 0x0982984C
+- name: gEventKeys52
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 3, 0]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE80
+  jp:
+    address: 0x09801994
+  eu:
+    address: 0x09829854
+- name: gEventKeys53
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 4, 15]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE88
+  jp:
+    address: 0x0980199C
+  eu:
+    address: 0x0982985C
+- name: gEventKeys54
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 0, 0]
+  - [255, 1, 0, 0]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE90
+  jp:
+    address: 0x098019A4
+  eu:
+    address: 0x09829864
+- name: gEventKeys55
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 2, 4, 30]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CE9C
+  jp:
+    address: 0x098019B0
+  eu:
+    address: 0x09829870
+- name: gEventKeys56
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 1, 4]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CEA4
+  jp:
+    address: 0x098019B8
+  eu:
+    address: 0x09829878
+- name: gEventKeys57
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 1, 1, 7]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CEAC
+  jp:
+    address: 0x098019C0
+  eu:
+    address: 0x09829880
+- name: gEventKeys58
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 3, 2, 2]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CEB4
+  jp:
+    address: 0x098019C8
+  eu:
+    address: 0x09829888
+- name: gEventKeys59
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 4, 50]
+  - [23, 0, 0, 0]
+  us:
+    address: 0x0984CEBC
+  jp:
+    address: 0x098019D0
+  eu:
+    address: 0x09829890
+- name: gEventKeys60
+  record: EventKey
+  declare: false
+  elements:
+  - [255, 0, 4, 13]
+  - [22, 0, 0, 0]
+  us:
+    address: 0x0984CEC4
+  jp:
+    address: 0x098019D8
+  eu:
+    address: 0x09829898
+- name: gEventKeyLists
+  record: EventKeyList
+  elements:
+  - [2, [0, 0, 0], gEventKeys00]
+  - [2, [0, 0, 0], gEventKeys01]
+  - [2, [0, 0, 0], gEventKeys02]
+  - [1, [0, 0, 0], gEventKeys03]
+  - [2, [0, 0, 0], gEventKeys04]
+  - [2, [0, 0, 0], gEventKeys05]
+  - [2, [0, 0, 0], gEventKeys06]
+  - [2, [0, 0, 0], gEventKeys07]
+  - [3, [0, 0, 0], gEventKeys08]
+  - [2, [0, 0, 0], gEventKeys09]
+  - [2, [0, 0, 0], gEventKeys10]
+  - [2, [0, 0, 0], gEventKeys11]
+  - [2, [0, 0, 0], gEventKeys12]
+  - [2, [0, 0, 0], gEventKeys13]
+  - [3, [0, 0, 0], gEventKeys14]
+  - [3, [0, 0, 0], gEventKeys15]
+  - [2, [0, 0, 0], gEventKeys16]
+  - [3, [0, 0, 0], gEventKeys17]
+  - [2, [0, 0, 0], gEventKeys18]
+  - [2, [0, 0, 0], gEventKeys19]
+  - [3, [0, 0, 0], gEventKeys20]
+  - [3, [0, 0, 0], gEventKeys21]
+  - [3, [0, 0, 0], gEventKeys22]
+  - [2, [0, 0, 0], gEventKeys23]
+  - [2, [0, 0, 0], gEventKeys24]
+  - [2, [0, 0, 0], gEventKeys25]
+  - [2, [0, 0, 0], gEventKeys26]
+  - [2, [0, 0, 0], gEventKeys27]
+  - [2, [0, 0, 0], gEventKeys28]
+  - [2, [0, 0, 0], gEventKeys29]
+  - [2, [0, 0, 0], gEventKeys30]
+  - [2, [0, 0, 0], gEventKeys31]
+  - [2, [0, 0, 0], gEventKeys32]
+  - [2, [0, 0, 0], gEventKeys33]
+  - [2, [0, 0, 0], gEventKeys34]
+  - [2, [0, 0, 0], gEventKeys35]
+  - [3, [0, 0, 0], gEventKeys36]
+  - [3, [0, 0, 0], gEventKeys37]
+  - [3, [0, 0, 0], gEventKeys38]
+  - [3, [0, 0, 0], gEventKeys39]
+  - [4, [0, 0, 0], gEventKeys40]
+  - [4, [0, 0, 0], gEventKeys41]
+  - [3, [0, 0, 0], gEventKeys42]
+  - [2, [0, 0, 0], gEventKeys43]
+  - [4, [0, 0, 0], gEventKeys44]
+  - [4, [0, 0, 0], gEventKeys45]
+  - [2, [0, 0, 0], gEventKeys46]
+  - [2, [0, 0, 0], gEventKeys47]
+  - [2, [0, 0, 0], gEventKeys48]
+  - [2, [0, 0, 0], gEventKeys49]
+  - [2, [0, 0, 0], gEventKeys50]
+  - [2, [0, 0, 0], gEventKeys51]
+  - [2, [0, 0, 0], gEventKeys52]
+  - [2, [0, 0, 0], gEventKeys53]
+  - [3, [0, 0, 0], gEventKeys54]
+  - [2, [0, 0, 0], gEventKeys55]
+  - [2, [0, 0, 0], gEventKeys56]
+  - [2, [0, 0, 0], gEventKeys57]
+  - [2, [0, 0, 0], gEventKeys58]
+  - [2, [0, 0, 0], gEventKeys59]
+  - [2, [0, 0, 0], gEventKeys60]
+  - [1, [0, 0, 0], gEventKeys61]
+  - [1, [0, 0, 0], gEventKeys62]
+  - [1, [0, 0, 0], gEventKeys63]
+  us:
+    address: 0x0984CECC
+  jp:
+    address: 0x098019E0
+  eu:
+    address: 0x098298A0
+- name: gMapRoomCodes
+  record: MapRoomCodes
+  values:
+  - [0, 1, 0, 0]
+  - [1, 2, 0, 0]
+  - [2, 3, 0, 0]
+  - [3, 4, 0, 0]
+  - [4, 5, 0, 0]
+  - [5, 6, 0, 0]
+  - [6, 7, 0, 0]
+  - [7, 8, 0, 0]
+  - [8, 9, 0, 0]
+  - [9, 10, 0, 0]
+  - [10, 11, 0, 0]
+  - [11, 12, 0, 0]
+  - [12, 13, 0, 0]
+  - [13, 14, 0, 0]
+  - [14, 15, 0, 0]
+  - [15, 25, 0, 0]
+  - [16, 16, 0, 0]
+  - [17, 17, 0, 0]
+  - [18, 18, 0, 0]
+  - [19, 19, 0, 0]
+  - [20, 20, 0, 0]
+  - [21, 21, 0, 0]
+  - [22, 0, 0, 0]
+  - [23, 0, 0, 0]
+  - [24, 0, 0, 0]
+  - [25, 0, 0, 0]
+  us:
+    address: 0x0984D0CC
+  jp:
+    address: 0x09801BE0
+  eu:
+    address: 0x09829AA0
+- name: gMapRoomShapes
+  record: MapRoomShapes
+  values:
+  - [0, 1, 5, 0, 4, 0, 2, 0]
+  - [1, 3, 8, 3, 7, 10, 4, 0]
+  - [2, 1, 5, 0, 4, 0, 2, 0]
+  - [3, 2, 5, 5, 9, 0, 2, 0]
+  - [4, 2, 8, 0, 4, 10, 4, 0]
+  - [6, 3, 3, 0, 9, 0, 2, 0]
+  - [5, 0, 0, 0, 0, 0, 1, 0]
+  - [7, 2, 5, 0, 4, 2, 2, 0]
+  - [8, 2, 8, 5, 9, 1, 4, 0]
+  - [5, 0, 0, 0, 0, 0, 0, 0]
+  - [3, 2, 5, 7, 9, 0, 2, 0]
+  - [5, 0, 0, 0, 0, 0, 0, 0]
+  - [0, 2, 6, 0, 9, 7, 3, 0]
+  - [0, 2, 6, 0, 9, 9, 3, 0]
+  - [0, 2, 6, 0, 9, 8, 3, 0]
+  - [0, 2, 6, 0, 9, 5, 3, 0]
+  - [9, 2, 6, 5, 0, 3, 3, 0]
+  - [10, 2, 6, 0, 4, 4, 3, 0]
+  - [11, 2, 5, 3, 7, 0, 2, 0]
+  - [0, 2, 3, 7, 9, 6, 1, 0]
+  - [12, 2, 2, 0, 0, 0, 0, 0]
+  - [13, 2, 2, 0, 0, 0, 0, 0]
+  - [5, 0, 0, 0, 0, 0, 0, 0]
+  - [14, 0, 0, 0, 0, 0, 0, 0]
+  us:
+    address: 0x0984D134
+  jp:
+    address: 0x09801C48
+  eu:
+    address: 0x09829B08
+- name: gMapFormDefs
+  record: MapFormDef
+  elements:
+  - [3, 16, 16, 2, 6, 3, 16, 0]
+  - [3, 32, 36, 2, 6, 3, 16, 0]
+  - [3, 10, 20, 3, 7, 5, 10, 0]
+  - [6, 16, 16, 7, 10, 3, 16, 0]
+  - [0, 24, 30, 3, 5, 24, 30, 0]
+  - [6, 16, 16, 2, 4, 3, 16, 0]
+  - [0, 10, 10, 3, 5, 8, 10, 0]
+  - [3, 8, 8, 3, 5, 3, 6, 0]
+  - [4, 16, 16, 2, 6, 48, 48, 0]
+  - [3, 27, 34, 2, 2, 3, 5, 0]
+  - [3, 27, 34, 7, 7, 3, 4, 0]
+  - [0, 48, 48, 3, 5, 3, 4, 0]
+  - [3, 43, 48, 3, 5, 6, 24, 0]
+  - [4, 16, 16, 2, 6, 48, 48, 0]
+  - [1, 16, 16, 20, 20, 8, 8, 0]
+  - [3, 16, 16, 2, 6, 3, 16, 0]
+  - [3, 8, 48, 2, 6, 3, 24, 0]
+  - [3, 27, 34, 2, 2, 3, 5, 0]
+  - [3, 27, 34, 6, 6, 3, 4, 0]
+  - [3, 43, 48, 3, 5, 6, 24, 0]
+  - [0, 27, 34, 3, 5, 3, 34, 0]
+  - [3, 8, 8, 3, 5, 3, 6, 0]
+  - [4, 16, 16, 2, 6, 48, 48, 0]
+  - [0, 48, 48, 3, 5, 3, 4, 0]
+  - [1, 16, 16, 20, 20, 8, 8, 0]
+  - [5, 16, 16, 2, 6, 3, 48, 0]
+  - [6, 16, 16, 2, 6, 3, 48, 0]
+  - [7, 16, 16, 2, 6, 3, 3, 0]
+  us:
+    address: 0x0984D1F4
+  jp:
+    address: 0x09801D08
+  eu:
+    address: 0x09829BC8

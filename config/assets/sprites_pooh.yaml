@@ -1,0 +1,7844 @@
+group: sprites_pooh
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_pooh_frames_1.s
+    start: 0x096FE36C
+    end: 0x09736FF4
+    data_start: 0x09EF5298
+    data_end: 0x09EF5B54
+  - name: sprites_pooh_frames_2.s
+    start: 0x09742B98
+    end: 0x09742FC4
+    data_start: 0x09EF5C6C
+    data_end: 0x09EF5CAC
+  - name: sprites_pooh_frames_3.s
+    start: 0x097442DC
+    end: 0x0976B1D8
+    data_start: 0x09EF5D04
+    data_end: 0x09EF6424
+  - name: sprites_pooh_tiles_1.s
+    start: 0x097AED78
+    end: 0x097B62B8
+  jp:
+  - name: sprites_pooh_frames_1.s
+    start: 0x096B6B48
+    end: 0x096EF7D0
+    data_start: 0x09ECC684
+    data_end: 0x09ECCF40
+  - name: sprites_pooh_frames_2.s
+    start: 0x096FB374
+    end: 0x096FB7A0
+    data_start: 0x09ECD058
+    data_end: 0x09ECD098
+  - name: sprites_pooh_frames_3.s
+    start: 0x096FCAB8
+    end: 0x097239B4
+    data_start: 0x09ECD0F0
+    data_end: 0x09ECD810
+  - name: sprites_pooh_tiles_1.s
+    start: 0x0976920C
+    end: 0x0977074C
+  eu:
+  - name: sprites_pooh_frames_1.s
+    start: 0x096CB6CC
+    end: 0x09704354
+    data_start: 0x09F80690
+    data_end: 0x09F80F4C
+  - name: sprites_pooh_frames_2.s
+    start: 0x0970FEF8
+    end: 0x09710324
+    data_start: 0x09F81064
+    data_end: 0x09F810A4
+  - name: sprites_pooh_frames_3.s
+    start: 0x0971163C
+    end: 0x09738538
+    data_start: 0x09F810FC
+    data_end: 0x09F8181C
+  - name: sprites_pooh_tiles_1.s
+    start: 0x0978C6E0
+    end: 0x09793C20
+  - name: sprites_pooh_maps.s
+    start: 0x09814240
+    end: 0x09814A40
+entries:
+- name: gPoohFf00Frames
+  record: SpriteTable
+  items: [gPoohFf00Frame0]
+  us:
+    address: 0x09EF5298
+  jp:
+    address: 0x09ECC684
+  eu:
+    address: 0x09F80690
+- name: gPoohFf00Anims
+  record: AnimTable
+  items: [gPoohFf00Anim0]
+  us:
+    address: 0x09EF529C
+  jp:
+    address: 0x09ECC688
+  eu:
+    address: 0x09F80694
+- name: gPoohFr00Frames
+  record: SpriteTable
+  items: [gPoohFr00Frame0]
+  us:
+    address: 0x09EF52A0
+  jp:
+    address: 0x09ECC68C
+  eu:
+    address: 0x09F80698
+- name: gPoohFr00Anims
+  record: AnimTable
+  items: [gPoohFr00Anim0]
+  us:
+    address: 0x09EF52A4
+  jp:
+    address: 0x09ECC690
+  eu:
+    address: 0x09F8069C
+- name: gPoohRr00Frames
+  record: SpriteTable
+  items: [gPoohRr00Frame0]
+  us:
+    address: 0x09EF52A8
+  jp:
+    address: 0x09ECC694
+  eu:
+    address: 0x09F806A0
+- name: gPoohRr00Anims
+  record: AnimTable
+  items: [gPoohRr00Anim0]
+  us:
+    address: 0x09EF52AC
+  jp:
+    address: 0x09ECC698
+  eu:
+    address: 0x09F806A4
+- name: gPoohBr00Frames
+  record: SpriteTable
+  items: [gPoohBr00Frame0]
+  us:
+    address: 0x09EF52B0
+  jp:
+    address: 0x09ECC69C
+  eu:
+    address: 0x09F806A8
+- name: gPoohBr00Anims
+  record: AnimTable
+  items: [gPoohBr00Anim0]
+  us:
+    address: 0x09EF52B4
+  jp:
+    address: 0x09ECC6A0
+  eu:
+    address: 0x09F806AC
+- name: gPoohBb00Frames
+  record: SpriteTable
+  items: [gPoohBb00Frame0]
+  us:
+    address: 0x09EF52B8
+  jp:
+    address: 0x09ECC6A4
+  eu:
+    address: 0x09F806B0
+- name: gPoohBb00Anims
+  record: AnimTable
+  items: [gPoohBb00Anim0]
+  us:
+    address: 0x09EF52BC
+  jp:
+    address: 0x09ECC6A8
+  eu:
+    address: 0x09F806B4
+- name: gPoohFf01Frames
+  record: SpriteTable
+  items: [gPoohFf01Frame0, gPoohFf01Frame1, gPoohFf01Frame2, gPoohFf01Frame3, gPoohFf01Frame4, gPoohFf01Frame5, gPoohFf01Frame6, gPoohFf01Frame7, gPoohFf01Frame8, gPoohFf01Frame9, gPoohFf01Frame10]
+  us:
+    address: 0x09EF52C0
+  jp:
+    address: 0x09ECC6AC
+  eu:
+    address: 0x09F806B8
+- name: gPoohFf01Anims
+  record: AnimTable
+  items: [gPoohFf01Anim0]
+  us:
+    address: 0x09EF52EC
+  jp:
+    address: 0x09ECC6D8
+  eu:
+    address: 0x09F806E4
+- name: gPoohFr01Frames
+  record: SpriteTable
+  items: [gPoohFr01Frame0, gPoohFr01Frame1, gPoohFr01Frame2, gPoohFr01Frame3, gPoohFr01Frame4, gPoohFr01Frame5, gPoohFr01Frame6, gPoohFr01Frame7, gPoohFr01Frame8, gPoohFr01Frame9, gPoohFr01Frame10]
+  us:
+    address: 0x09EF52F0
+  jp:
+    address: 0x09ECC6DC
+  eu:
+    address: 0x09F806E8
+- name: gPoohFr01Anims
+  record: AnimTable
+  items: [gPoohFr01Anim0]
+  us:
+    address: 0x09EF531C
+  jp:
+    address: 0x09ECC708
+  eu:
+    address: 0x09F80714
+- name: gPoohRr01Frames
+  record: SpriteTable
+  items: [gPoohRr01Frame0, gPoohRr01Frame1, gPoohRr01Frame2, gPoohRr01Frame3, gPoohRr01Frame4, gPoohRr01Frame5, gPoohRr01Frame6, gPoohRr01Frame7, gPoohRr01Frame8, gPoohRr01Frame9, gPoohRr01Frame10]
+  us:
+    address: 0x09EF5320
+  jp:
+    address: 0x09ECC70C
+  eu:
+    address: 0x09F80718
+- name: gPoohRr01Anims
+  record: AnimTable
+  items: [gPoohRr01Anim0]
+  us:
+    address: 0x09EF534C
+  jp:
+    address: 0x09ECC738
+  eu:
+    address: 0x09F80744
+- name: gPoohBr01Frames
+  record: SpriteTable
+  items: [gPoohBr01Frame0, gPoohBr01Frame1, gPoohBr01Frame2, gPoohBr01Frame3, gPoohBr01Frame4, gPoohBr01Frame5, gPoohBr01Frame6, gPoohBr01Frame7, gPoohBr01Frame8, gPoohBr01Frame9, gPoohBr01Frame10]
+  us:
+    address: 0x09EF5350
+  jp:
+    address: 0x09ECC73C
+  eu:
+    address: 0x09F80748
+- name: gPoohBr01Anims
+  record: AnimTable
+  items: [gPoohBr01Anim0]
+  us:
+    address: 0x09EF537C
+  jp:
+    address: 0x09ECC768
+  eu:
+    address: 0x09F80774
+- name: gPoohBb01Frames
+  record: SpriteTable
+  items: [gPoohBb01Frame0, gPoohBb01Frame1, gPoohBb01Frame2, gPoohBb01Frame3, gPoohBb01Frame4, gPoohBb01Frame5, gPoohBb01Frame6, gPoohBb01Frame7, gPoohBb01Frame8, gPoohBb01Frame9, gPoohBb01Frame10]
+  us:
+    address: 0x09EF5380
+  jp:
+    address: 0x09ECC76C
+  eu:
+    address: 0x09F80778
+- name: gPoohBb01Anims
+  record: AnimTable
+  items: [gPoohBb01Anim0]
+  us:
+    address: 0x09EF53AC
+  jp:
+    address: 0x09ECC798
+  eu:
+    address: 0x09F807A4
+- name: gPoohFl01Frames
+  record: SpriteTable
+  items: [gPoohFl01Frame0, gPoohFl01Frame1, gPoohFl01Frame2, gPoohFl01Frame3, gPoohFl01Frame4, gPoohFl01Frame5, gPoohFl01Frame6, gPoohFl01Frame7, gPoohFl01Frame8, gPoohFl01Frame9, gPoohFl01Frame10]
+  us:
+    address: 0x09EF53B0
+  jp:
+    address: 0x09ECC79C
+  eu:
+    address: 0x09F807A8
+- name: gPoohFl01Anims
+  record: AnimTable
+  items: [gPoohFl01Anim0]
+  us:
+    address: 0x09EF53DC
+  jp:
+    address: 0x09ECC7C8
+  eu:
+    address: 0x09F807D4
+- name: gPoohLl01Frames
+  record: SpriteTable
+  items: [gPoohLl01Frame0, gPoohLl01Frame1, gPoohLl01Frame2, gPoohLl01Frame3, gPoohLl01Frame4, gPoohLl01Frame5, gPoohLl01Frame6, gPoohLl01Frame7, gPoohLl01Frame8, gPoohLl01Frame9, gPoohLl01Frame10]
+  us:
+    address: 0x09EF53E0
+  jp:
+    address: 0x09ECC7CC
+  eu:
+    address: 0x09F807D8
+- name: gPoohLl01Anims
+  record: AnimTable
+  items: [gPoohLl01Anim0]
+  us:
+    address: 0x09EF540C
+  jp:
+    address: 0x09ECC7F8
+  eu:
+    address: 0x09F80804
+- name: gPoohBl01Frames
+  record: SpriteTable
+  items: [gPoohBl01Frame0, gPoohBl01Frame1, gPoohBl01Frame2, gPoohBl01Frame3, gPoohBl01Frame4, gPoohBl01Frame5, gPoohBl01Frame6, gPoohBl01Frame7, gPoohBl01Frame8, gPoohBl01Frame9, gPoohBl01Frame10]
+  us:
+    address: 0x09EF5410
+  jp:
+    address: 0x09ECC7FC
+  eu:
+    address: 0x09F80808
+- name: gPoohBl01Anims
+  record: AnimTable
+  items: [gPoohBl01Anim0]
+  us:
+    address: 0x09EF543C
+  jp:
+    address: 0x09ECC828
+  eu:
+    address: 0x09F80834
+- name: gPoohBb00RrFrames
+  record: SpriteTable
+  items: [gPoohBb00RrFrame0]
+  us:
+    address: 0x09EF5440
+  jp:
+    address: 0x09ECC82C
+  eu:
+    address: 0x09F80838
+- name: gPoohBb00RrAnims
+  record: AnimTable
+  items: [gPoohBb00RrAnim0]
+  us:
+    address: 0x09EF5444
+  jp:
+    address: 0x09ECC830
+  eu:
+    address: 0x09F8083C
+- name: gPoohBb00BlFrames
+  record: SpriteTable
+  items: [gPoohBb00BlFrame0]
+  us:
+    address: 0x09EF5448
+  jp:
+    address: 0x09ECC834
+  eu:
+    address: 0x09F80840
+- name: gPoohBb00BlAnims
+  record: AnimTable
+  items: [gPoohBb00BlAnim0]
+  us:
+    address: 0x09EF544C
+  jp:
+    address: 0x09ECC838
+  eu:
+    address: 0x09F80844
+- name: gPoohBb00BrFrames
+  record: SpriteTable
+  items: [gPoohBb00BrFrame0]
+  us:
+    address: 0x09EF5450
+  jp:
+    address: 0x09ECC83C
+  eu:
+    address: 0x09F80848
+- name: gPoohBb00BrAnims
+  record: AnimTable
+  items: [gPoohBb00BrAnim0]
+  us:
+    address: 0x09EF5454
+  jp:
+    address: 0x09ECC840
+  eu:
+    address: 0x09F8084C
+- name: gPoohBb00LlFrames
+  record: SpriteTable
+  items: [gPoohBb00LlFrame0]
+  us:
+    address: 0x09EF5458
+  jp:
+    address: 0x09ECC844
+  eu:
+    address: 0x09F80850
+- name: gPoohBb00LlAnims
+  record: AnimTable
+  items: [gPoohBb00LlAnim0]
+  us:
+    address: 0x09EF545C
+  jp:
+    address: 0x09ECC848
+  eu:
+    address: 0x09F80854
+- name: gPoohBr00BbFrames
+  record: SpriteTable
+  items: [gPoohBr00BbFrame0]
+  us:
+    address: 0x09EF5460
+  jp:
+    address: 0x09ECC84C
+  eu:
+    address: 0x09F80858
+- name: gPoohBr00BbAnims
+  record: AnimTable
+  items: [gPoohBr00BbAnim0]
+  us:
+    address: 0x09EF5464
+  jp:
+    address: 0x09ECC850
+  eu:
+    address: 0x09F8085C
+- name: gPoohBr00FrFrames
+  record: SpriteTable
+  items: [gPoohBr00FrFrame0]
+  us:
+    address: 0x09EF5468
+  jp:
+    address: 0x09ECC854
+  eu:
+    address: 0x09F80860
+- name: gPoohBr00FrAnims
+  record: AnimTable
+  items: [gPoohBr00FrAnim0]
+  us:
+    address: 0x09EF546C
+  jp:
+    address: 0x09ECC858
+  eu:
+    address: 0x09F80864
+- name: gPoohBr00BlFrames
+  record: SpriteTable
+  items: [gPoohBr00BlFrame0]
+  us:
+    address: 0x09EF5470
+  jp:
+    address: 0x09ECC85C
+  eu:
+    address: 0x09F80868
+- name: gPoohBr00BlAnims
+  record: AnimTable
+  items: [gPoohBr00BlAnim0]
+  us:
+    address: 0x09EF5474
+  jp:
+    address: 0x09ECC860
+  eu:
+    address: 0x09F8086C
+- name: gPoohBr00RrFrames
+  record: SpriteTable
+  items: [gPoohBr00RrFrame0]
+  us:
+    address: 0x09EF5478
+  jp:
+    address: 0x09ECC864
+  eu:
+    address: 0x09F80870
+- name: gPoohBr00RrAnims
+  record: AnimTable
+  items: [gPoohBr00RrAnim0]
+  us:
+    address: 0x09EF547C
+  jp:
+    address: 0x09ECC868
+  eu:
+    address: 0x09F80874
+- name: gPoohFf00FlFrames
+  record: SpriteTable
+  items: [gPoohFf00FlFrame0]
+  us:
+    address: 0x09EF5480
+  jp:
+    address: 0x09ECC86C
+  eu:
+    address: 0x09F80878
+- name: gPoohFf00FlAnims
+  record: AnimTable
+  items: [gPoohFf00FlAnim0]
+  us:
+    address: 0x09EF5484
+  jp:
+    address: 0x09ECC870
+  eu:
+    address: 0x09F8087C
+- name: gPoohFf00RrFrames
+  record: SpriteTable
+  items: [gPoohFf00RrFrame0]
+  us:
+    address: 0x09EF5488
+  jp:
+    address: 0x09ECC874
+  eu:
+    address: 0x09F80880
+- name: gPoohFf00RrAnims
+  record: AnimTable
+  items: [gPoohFf00RrAnim0]
+  us:
+    address: 0x09EF548C
+  jp:
+    address: 0x09ECC878
+  eu:
+    address: 0x09F80884
+- name: gPoohFf00FrFrames
+  record: SpriteTable
+  items: [gPoohFf00FrFrame0]
+  us:
+    address: 0x09EF5490
+  jp:
+    address: 0x09ECC87C
+  eu:
+    address: 0x09F80888
+- name: gPoohFf00FrAnims
+  record: AnimTable
+  items: [gPoohFf00FrAnim0]
+  us:
+    address: 0x09EF5494
+  jp:
+    address: 0x09ECC880
+  eu:
+    address: 0x09F8088C
+- name: gPoohFf00LlFrames
+  record: SpriteTable
+  items: [gPoohFf00LlFrame0]
+  us:
+    address: 0x09EF5498
+  jp:
+    address: 0x09ECC884
+  eu:
+    address: 0x09F80890
+- name: gPoohFf00LlAnims
+  record: AnimTable
+  items: [gPoohFf00LlAnim0]
+  us:
+    address: 0x09EF549C
+  jp:
+    address: 0x09ECC888
+  eu:
+    address: 0x09F80894
+- name: gPoohFr00RrFrames
+  record: SpriteTable
+  items: [gPoohFr00RrFrame0]
+  us:
+    address: 0x09EF54A0
+  jp:
+    address: 0x09ECC88C
+  eu:
+    address: 0x09F80898
+- name: gPoohFr00RrAnims
+  record: AnimTable
+  items: [gPoohFr00RrAnim0]
+  us:
+    address: 0x09EF54A4
+  jp:
+    address: 0x09ECC890
+  eu:
+    address: 0x09F8089C
+- name: gPoohFr00BrFrames
+  record: SpriteTable
+  items: [gPoohFr00BrFrame0]
+  us:
+    address: 0x09EF54A8
+  jp:
+    address: 0x09ECC894
+  eu:
+    address: 0x09F808A0
+- name: gPoohFr00BrAnims
+  record: AnimTable
+  items: [gPoohFr00BrAnim0]
+  us:
+    address: 0x09EF54AC
+  jp:
+    address: 0x09ECC898
+  eu:
+    address: 0x09F808A4
+- name: gPoohFr00FfFrames
+  record: SpriteTable
+  items: [gPoohFr00FfFrame0]
+  us:
+    address: 0x09EF54B0
+  jp:
+    address: 0x09ECC89C
+  eu:
+    address: 0x09F808A8
+- name: gPoohFr00FfAnims
+  record: AnimTable
+  items: [gPoohFr00FfAnim0]
+  us:
+    address: 0x09EF54B4
+  jp:
+    address: 0x09ECC8A0
+  eu:
+    address: 0x09F808AC
+- name: gPoohFr00FlFrames
+  record: SpriteTable
+  items: [gPoohFr00FlFrame0]
+  us:
+    address: 0x09EF54B8
+  jp:
+    address: 0x09ECC8A4
+  eu:
+    address: 0x09F808B0
+- name: gPoohFr00FlAnims
+  record: AnimTable
+  items: [gPoohFr00FlAnim0]
+  us:
+    address: 0x09EF54BC
+  jp:
+    address: 0x09ECC8A8
+  eu:
+    address: 0x09F808B4
+- name: gPoohRr00BbFrames
+  record: SpriteTable
+  items: [gPoohRr00BbFrame0]
+  us:
+    address: 0x09EF54C0
+  jp:
+    address: 0x09ECC8AC
+  eu:
+    address: 0x09F808B8
+- name: gPoohRr00BbAnims
+  record: AnimTable
+  items: [gPoohRr00BbAnim0]
+  us:
+    address: 0x09EF54C4
+  jp:
+    address: 0x09ECC8B0
+  eu:
+    address: 0x09F808BC
+- name: gPoohRr00FfFrames
+  record: SpriteTable
+  items: [gPoohRr00FfFrame0]
+  us:
+    address: 0x09EF54C8
+  jp:
+    address: 0x09ECC8B4
+  eu:
+    address: 0x09F808C0
+- name: gPoohRr00FfAnims
+  record: AnimTable
+  items: [gPoohRr00FfAnim0]
+  us:
+    address: 0x09EF54CC
+  jp:
+    address: 0x09ECC8B8
+  eu:
+    address: 0x09F808C4
+- name: gPoohRr00FrFrames
+  record: SpriteTable
+  items: [gPoohRr00FrFrame0]
+  us:
+    address: 0x09EF54D0
+  jp:
+    address: 0x09ECC8BC
+  eu:
+    address: 0x09F808C8
+- name: gPoohRr00FrAnims
+  record: AnimTable
+  items: [gPoohRr00FrAnim0]
+  us:
+    address: 0x09EF54D4
+  jp:
+    address: 0x09ECC8C0
+  eu:
+    address: 0x09F808CC
+- name: gPoohRr00BrFrames
+  record: SpriteTable
+  items: [gPoohRr00BrFrame0]
+  us:
+    address: 0x09EF54D8
+  jp:
+    address: 0x09ECC8C4
+  eu:
+    address: 0x09F808D0
+- name: gPoohRr00BrAnims
+  record: AnimTable
+  items: [gPoohRr00BrAnim0]
+  us:
+    address: 0x09EF54DC
+  jp:
+    address: 0x09ECC8C8
+  eu:
+    address: 0x09F808D4
+- name: gPoohBb04Frames
+  record: SpriteTable
+  items: [gPoohBb04Frame0, gPoohBb04Frame1, gPoohBb04Frame2, gPoohBb04Frame3, gPoohBb04Frame4, gPoohBb04Frame5, gPoohBb04Frame6, gPoohBb04Frame7, gPoohBb04Frame8, gPoohBb04Frame9]
+  us:
+    address: 0x09EF54E0
+  jp:
+    address: 0x09ECC8CC
+  eu:
+    address: 0x09F808D8
+- name: gPoohBb04Anims
+  record: AnimTable
+  items: [gPoohBb04Anim0]
+  us:
+    address: 0x09EF5508
+  jp:
+    address: 0x09ECC8F4
+  eu:
+    address: 0x09F80900
+- name: gPoohBl04Frames
+  record: SpriteTable
+  items: [gPoohBl04Frame0, gPoohBl04Frame1, gPoohBl04Frame2, gPoohBl04Frame3, gPoohBl04Frame4, gPoohBl04Frame5, gPoohBl04Frame6, gPoohBl04Frame7, gPoohBl04Frame8, gPoohBl04Frame9]
+  us:
+    address: 0x09EF550C
+  jp:
+    address: 0x09ECC8F8
+  eu:
+    address: 0x09F80904
+- name: gPoohBl04Anims
+  record: AnimTable
+  items: [gPoohBl04Anim0]
+  us:
+    address: 0x09EF5534
+  jp:
+    address: 0x09ECC920
+  eu:
+    address: 0x09F8092C
+- name: gPoohLl04Frames
+  record: SpriteTable
+  items: [gPoohLl04Frame0, gPoohLl04Frame1, gPoohLl04Frame2, gPoohLl04Frame3, gPoohLl04Frame4, gPoohLl04Frame5, gPoohLl04Frame6, gPoohLl04Frame7, gPoohLl04Frame8, gPoohLl04Frame9]
+  us:
+    address: 0x09EF5538
+  jp:
+    address: 0x09ECC924
+  eu:
+    address: 0x09F80930
+- name: gPoohLl04Anims
+  record: AnimTable
+  items: [gPoohLl04Anim0]
+  us:
+    address: 0x09EF5560
+  jp:
+    address: 0x09ECC94C
+  eu:
+    address: 0x09F80958
+- name: gPoohFl04Frames
+  record: SpriteTable
+  items: [gPoohFl04Frame0, gPoohFl04Frame1, gPoohFl04Frame2, gPoohFl04Frame3, gPoohFl04Frame4, gPoohFl04Frame5, gPoohFl04Frame6, gPoohFl04Frame7, gPoohFl04Frame8, gPoohFl04Frame9]
+  us:
+    address: 0x09EF5564
+  jp:
+    address: 0x09ECC950
+  eu:
+    address: 0x09F8095C
+- name: gPoohFl04Anims
+  record: AnimTable
+  items: [gPoohFl04Anim0]
+  us:
+    address: 0x09EF558C
+  jp:
+    address: 0x09ECC978
+  eu:
+    address: 0x09F80984
+- name: gPoohFf04Frames
+  record: SpriteTable
+  items: [gPoohFf04Frame0, gPoohFf04Frame1, gPoohFf04Frame2, gPoohFf04Frame3, gPoohFf04Frame4, gPoohFf04Frame5, gPoohFf04Frame6, gPoohFf04Frame7, gPoohFf04Frame8, gPoohFf04Frame9]
+  us:
+    address: 0x09EF5590
+  jp:
+    address: 0x09ECC97C
+  eu:
+    address: 0x09F80988
+- name: gPoohFf04Anims
+  record: AnimTable
+  items: [gPoohFf04Anim0]
+  us:
+    address: 0x09EF55B8
+  jp:
+    address: 0x09ECC9A4
+  eu:
+    address: 0x09F809B0
+- name: gPoohBb04aFrames
+  record: SpriteTable
+  items: [gPoohBb04aFrame0, gPoohBb04aFrame1, gPoohBb04aFrame2, gPoohBb04aFrame3, gPoohBb04aFrame4, gPoohBb04aFrame5, gPoohBb04aFrame6, gPoohBb04aFrame7, gPoohBb04aFrame8, gPoohBb04aFrame9, gPoohBb04aFrame10, gPoohBb04aFrame11, gPoohBb04aFrame12, gPoohBb04aFrame13]
+  us:
+    address: 0x09EF55BC
+  jp:
+    address: 0x09ECC9A8
+  eu:
+    address: 0x09F809B4
+- name: gPoohBb04aAnims
+  record: AnimTable
+  items: [gPoohBb04aAnim0]
+  us:
+    address: 0x09EF55F4
+  jp:
+    address: 0x09ECC9E0
+  eu:
+    address: 0x09F809EC
+- name: gPoohBl04aFrames
+  record: SpriteTable
+  items: [gPoohBl04aFrame0, gPoohBl04aFrame1, gPoohBl04aFrame2, gPoohBl04aFrame3, gPoohBl04aFrame4, gPoohBl04aFrame5, gPoohBl04aFrame6, gPoohBl04aFrame7, gPoohBl04aFrame8, gPoohBl04aFrame9, gPoohBl04aFrame10, gPoohBl04aFrame11, gPoohBl04aFrame12, gPoohBl04aFrame13]
+  us:
+    address: 0x09EF55F8
+  jp:
+    address: 0x09ECC9E4
+  eu:
+    address: 0x09F809F0
+- name: gPoohBl04aAnims
+  record: AnimTable
+  items: [gPoohBl04aAnim0]
+  us:
+    address: 0x09EF5630
+  jp:
+    address: 0x09ECCA1C
+  eu:
+    address: 0x09F80A28
+- name: gPoohLl04aFrames
+  record: SpriteTable
+  items: [gPoohLl04aFrame0, gPoohLl04aFrame1, gPoohLl04aFrame2, gPoohLl04aFrame3, gPoohLl04aFrame4, gPoohLl04aFrame5, gPoohLl04aFrame6, gPoohLl04aFrame7, gPoohLl04aFrame8, gPoohLl04aFrame9, gPoohLl04aFrame10, gPoohLl04aFrame11, gPoohLl04aFrame12, gPoohLl04aFrame13, gPoohLl04aFrame14]
+  us:
+    address: 0x09EF5634
+  jp:
+    address: 0x09ECCA20
+  eu:
+    address: 0x09F80A2C
+- name: gPoohLl04aAnims
+  record: AnimTable
+  items: [gPoohLl04aAnim0]
+  us:
+    address: 0x09EF5670
+  jp:
+    address: 0x09ECCA5C
+  eu:
+    address: 0x09F80A68
+- name: gPoohFl04aFrames
+  record: SpriteTable
+  items: [gPoohFl04aFrame0, gPoohFl04aFrame1, gPoohFl04aFrame2, gPoohFl04aFrame3, gPoohFl04aFrame4, gPoohFl04aFrame5, gPoohFl04aFrame6, gPoohFl04aFrame7, gPoohFl04aFrame8, gPoohFl04aFrame9, gPoohFl04aFrame10, gPoohFl04aFrame11, gPoohFl04aFrame12, gPoohFl04aFrame13, gPoohFl04aFrame14]
+  us:
+    address: 0x09EF5674
+  jp:
+    address: 0x09ECCA60
+  eu:
+    address: 0x09F80A6C
+- name: gPoohFl04aAnims
+  record: AnimTable
+  items: [gPoohFl04aAnim0]
+  us:
+    address: 0x09EF56B0
+  jp:
+    address: 0x09ECCA9C
+  eu:
+    address: 0x09F80AA8
+- name: gPoohFf04aFrames
+  record: SpriteTable
+  items: [gPoohFf04aFrame0, gPoohFf04aFrame1, gPoohFf04aFrame2, gPoohFf04aFrame3, gPoohFf04aFrame4, gPoohFf04aFrame5, gPoohFf04aFrame6, gPoohFf04aFrame7, gPoohFf04aFrame8, gPoohFf04aFrame9, gPoohFf04aFrame10, gPoohFf04aFrame11, gPoohFf04aFrame12, gPoohFf04aFrame13, gPoohFf04aFrame14]
+  us:
+    address: 0x09EF56B4
+  jp:
+    address: 0x09ECCAA0
+  eu:
+    address: 0x09F80AAC
+- name: gPoohFf04aAnims
+  record: AnimTable
+  items: [gPoohFf04aAnim0]
+  us:
+    address: 0x09EF56F0
+  jp:
+    address: 0x09ECCADC
+  eu:
+    address: 0x09F80AE8
+- name: gPoohFl07Frames
+  record: SpriteTable
+  items: [gPoohFl07Frame0, gPoohFl07Frame1, gPoohFl07Frame2, gPoohFl07Frame3, gPoohFl07Frame4, gPoohFl07Frame5, gPoohFl07Frame6, gPoohFl07Frame7, gPoohFl07Frame8, gPoohFl07Frame9, gPoohFl07Frame10, gPoohFl07Frame11, gPoohFl07Frame12, gPoohFl07Frame13, gPoohFl07Frame14, gPoohFl07Frame15, gPoohFl07Frame16, gPoohFl07Frame17, gPoohFl07Frame18, gPoohFl07Frame19]
+  us:
+    address: 0x09EF56F4
+  jp:
+    address: 0x09ECCAE0
+  eu:
+    address: 0x09F80AEC
+- name: gPoohFl07Anims
+  record: AnimTable
+  items: [gPoohFl07Anim0, gPoohFl07Anim1]
+  us:
+    address: 0x09EF5744
+  jp:
+    address: 0x09ECCB30
+  eu:
+    address: 0x09F80B3C
+- name: gPoohBl07Frames
+  record: SpriteTable
+  items: [gPoohBl07Frame0, gPoohBl07Frame1, gPoohBl07Frame2, gPoohBl07Frame3, gPoohBl07Frame4, gPoohBl07Frame5, gPoohBl07Frame6, gPoohBl07Frame7, gPoohBl07Frame8, gPoohBl07Frame9, gPoohBl07Frame10, gPoohBl07Frame11, gPoohBl07Frame12, gPoohBl07Frame13, gPoohBl07Frame14, gPoohBl07Frame15, gPoohBl07Frame16, gPoohBl07Frame17, gPoohBl07Frame18, gPoohBl07Frame19]
+  us:
+    address: 0x09EF574C
+  jp:
+    address: 0x09ECCB38
+  eu:
+    address: 0x09F80B44
+- name: gPoohBl07Anims
+  record: AnimTable
+  items: [gPoohBl07Anim0, gPoohBl07Anim1]
+  us:
+    address: 0x09EF579C
+  jp:
+    address: 0x09ECCB88
+  eu:
+    address: 0x09F80B94
+- name: gPoohFl03Frames
+  record: SpriteTable
+  items: [gPoohFl03Frame0, gPoohFl03Frame1, gPoohFl03Frame2, gPoohFl03Frame3, gPoohFl03Frame4, gPoohFl03Frame5, gPoohFl03Frame6, gPoohFl03Frame7]
+  us:
+    address: 0x09EF57A4
+  jp:
+    address: 0x09ECCB90
+  eu:
+    address: 0x09F80B9C
+- name: gPoohFl03Anims
+  record: AnimTable
+  items: [gPoohFl03Anim0]
+  us:
+    address: 0x09EF57C4
+  jp:
+    address: 0x09ECCBB0
+  eu:
+    address: 0x09F80BBC
+- name: gPoohBl03Frames
+  record: SpriteTable
+  items: [gPoohBl03Frame0, gPoohBl03Frame1, gPoohBl03Frame2, gPoohBl03Frame3, gPoohBl03Frame4, gPoohBl03Frame5, gPoohBl03Frame6, gPoohBl03Frame7]
+  us:
+    address: 0x09EF57C8
+  jp:
+    address: 0x09ECCBB4
+  eu:
+    address: 0x09F80BC0
+- name: gPoohBl03Anims
+  record: AnimTable
+  items: [gPoohBl03Anim0]
+  us:
+    address: 0x09EF57E8
+  jp:
+    address: 0x09ECCBD4
+  eu:
+    address: 0x09F80BE0
+- name: gPoohLl10Frames
+  record: SpriteTable
+  items: [gPoohLl10Frame0, gPoohLl10Frame1, gPoohLl10Frame2, gPoohLl10Frame3, gPoohLl10Frame4, gPoohLl10Frame5]
+  us:
+    address: 0x09EF57EC
+  jp:
+    address: 0x09ECCBD8
+  eu:
+    address: 0x09F80BE4
+- name: gPoohLl10Anims
+  record: AnimTable
+  items: [gPoohLl10Anim0]
+  us:
+    address: 0x09EF5804
+  jp:
+    address: 0x09ECCBF0
+  eu:
+    address: 0x09F80BFC
+- name: gPoohFf10Frames
+  record: SpriteTable
+  items: [gPoohFf10Frame0, gPoohFf10Frame1, gPoohFf10Frame2, gPoohFf10Frame3, gPoohFf10Frame4, gPoohFf10Frame5]
+  us:
+    address: 0x09EF5808
+  jp:
+    address: 0x09ECCBF4
+  eu:
+    address: 0x09F80C00
+- name: gPoohFf10Anims
+  record: AnimTable
+  items: [gPoohFf10Anim0]
+  us:
+    address: 0x09EF5820
+  jp:
+    address: 0x09ECCC0C
+  eu:
+    address: 0x09F80C18
+- name: gPoohOwlDescentFrames
+  record: SpriteTable
+  items: [gPoohOwlDescentFrame0, gPoohOwlDescentFrame1, gPoohOwlDescentFrame2, gPoohOwlDescentFrame3, gPoohOwlDescentFrame4, gPoohOwlDescentFrame5]
+  us:
+    address: 0x09EF5824
+  jp:
+    address: 0x09ECCC10
+  eu:
+    address: 0x09F80C1C
+- name: gPoohOwlDescentAnims
+  record: AnimTable
+  items: [gPoohOwlDescentAnim0, gPoohOwlDescentAnim1]
+  us:
+    address: 0x09EF583C
+  jp:
+    address: 0x09ECCC28
+  eu:
+    address: 0x09F80C34
+- name: gPoohFl05Frames
+  record: SpriteTable
+  items: [gPoohFl05Frame0, gPoohFl05Frame1, gPoohFl05Frame2, gPoohFl05Frame3, gPoohFl05Frame4, gPoohFl05Frame5, gPoohFl05Frame6, gPoohFl05Frame7, gPoohFl05Frame8, gPoohFl05Frame9, gPoohFl05Frame10, gPoohFl05Frame11, gPoohFl05Frame12, gPoohFl05Frame13, gPoohFl05Frame14, gPoohFl05Frame15, gPoohFl05Frame16, gPoohFl05Frame17, gPoohFl05Frame18, gPoohFl05Frame19, gPoohFl05Frame20, gPoohFl05Frame21, gPoohFl05Frame22, gPoohFl05Frame23, gPoohFl05Frame24, gPoohFl05Frame25, gPoohFl05Frame26, gPoohFl05Frame27, gPoohFl05Frame28, gPoohFl05Frame29, gPoohFl05Frame30, gPoohFl05Frame31, gPoohFl05Frame32, gPoohFl05Frame33, gPoohFl05Frame34, gPoohFl05Frame35, gPoohFl05Frame36, gPoohFl05Frame37, gPoohFl05Frame38, gPoohFl05Frame39, gPoohFl05Frame40, gPoohFl05Frame41, gPoohFl05Frame42, gPoohFl05Frame43, gPoohFl05Frame44, gPoohFl05Frame45, gPoohFl05Frame46, gPoohFl05Frame47]
+  us:
+    address: 0x09EF5844
+  jp:
+    address: 0x09ECCC30
+  eu:
+    address: 0x09F80C3C
+- name: gPoohFl05Anims
+  record: AnimTable
+  items: [gPoohFl05Anim0, gPoohFl05Anim1, gPoohFl05Anim2, gPoohFl05Anim3, gPoohFl05Anim4, gPoohFl05Anim5, gPoohFl05Anim6, gPoohFl05Anim7, gPoohFl05Anim8, gPoohFl05Anim9]
+  us:
+    address: 0x09EF5904
+  jp:
+    address: 0x09ECCCF0
+  eu:
+    address: 0x09F80CFC
+- name: gPoohFl06Frames
+  record: SpriteTable
+  items: [gPoohFl06Frame0, gPoohFl06Frame1, gPoohFl06Frame2, gPoohFl06Frame3, gPoohFl06Frame4, gPoohFl06Frame5, gPoohFl06Frame6, gPoohFl06Frame7]
+  us:
+    address: 0x09EF592C
+  jp:
+    address: 0x09ECCD18
+  eu:
+    address: 0x09F80D24
+- name: gPoohFl06Anims
+  record: AnimTable
+  items: [gPoohFl06Anim0, gPoohFl06Anim1, gPoohFl06Anim2, gPoohFl06Anim3]
+  us:
+    address: 0x09EF594C
+  jp:
+    address: 0x09ECCD38
+  eu:
+    address: 0x09F80D44
+- name: gPoohFl09Frames
+  record: SpriteTable
+  items: [gPoohFl09Frame0, gPoohFl09Frame1, gPoohFl09Frame2, gPoohFl09Frame3, gPoohFl09Frame4, gPoohFl09Frame5, gPoohFl09Frame6, gPoohFl09Frame7, gPoohFl09Frame8, gPoohFl09Frame9, gPoohFl09Frame10, gPoohFl09Frame11, gPoohFl09Frame12, gPoohFl09Frame13, gPoohFl09Frame14, gPoohFl09Frame15, gPoohFl09Frame16, gPoohFl09Frame17, gPoohFl09Frame18, gPoohFl09Frame19, gPoohFl09Frame20]
+  us:
+    address: 0x09EF595C
+  jp:
+    address: 0x09ECCD48
+  eu:
+    address: 0x09F80D54
+- name: gPoohFl09Anims
+  record: AnimTable
+  items: [gPoohFl09Anim0, gPoohFl09Anim1, gPoohFl09Anim2]
+  us:
+    address: 0x09EF59B0
+  jp:
+    address: 0x09ECCD9C
+  eu:
+    address: 0x09F80DA8
+- name: gPooTrapFrames
+  record: SpriteTable
+  items: [gPooTrapFrame0]
+  us:
+    address: 0x09EF59BC
+  jp:
+    address: 0x09ECCDA8
+  eu:
+    address: 0x09F80DB4
+- name: gPooTrapAnims
+  record: AnimTable
+  items: [gPooTrapAnim0]
+  us:
+    address: 0x09EF59C0
+  jp:
+    address: 0x09ECCDAC
+  eu:
+    address: 0x09F80DB8
+- name: gTrap0001bbFrames
+  record: SpriteTable
+  items: [gTrap0001bbFrame0, gTrap0001bbFrame1, gTrap0001bbFrame2, gTrap0001bbFrame3]
+  us:
+    address: 0x09EF59C4
+  jp:
+    address: 0x09ECCDB0
+  eu:
+    address: 0x09F80DBC
+- name: gTrap0001bbAnims
+  record: AnimTable
+  items: [gTrap0001bbAnim0]
+  us:
+    address: 0x09EF59D4
+  jp:
+    address: 0x09ECCDC0
+  eu:
+    address: 0x09F80DCC
+- name: gTrap0001ffFrames
+  record: SpriteTable
+  items: [gTrap0001ffFrame0, gTrap0001ffFrame1, gTrap0001ffFrame2, gTrap0001ffFrame3]
+  us:
+    address: 0x09EF59D8
+  jp:
+    address: 0x09ECCDC4
+  eu:
+    address: 0x09F80DD0
+- name: gTrap0001ffAnims
+  record: AnimTable
+  items: [gTrap0001ffAnim0]
+  us:
+    address: 0x09EF59E8
+  jp:
+    address: 0x09ECCDD4
+  eu:
+    address: 0x09F80DE0
+- name: gTrap0001blFrames
+  record: SpriteTable
+  items: [gTrap0001blFrame0, gTrap0001blFrame1, gTrap0001blFrame2, gTrap0001blFrame3]
+  us:
+    address: 0x09EF59EC
+  jp:
+    address: 0x09ECCDD8
+  eu:
+    address: 0x09F80DE4
+- name: gTrap0001blAnims
+  record: AnimTable
+  items: [gTrap0001blAnim0]
+  us:
+    address: 0x09EF59FC
+  jp:
+    address: 0x09ECCDE8
+  eu:
+    address: 0x09F80DF4
+- name: gTrap0001brFrames
+  record: SpriteTable
+  items: [gTrap0001brFrame0, gTrap0001brFrame1, gTrap0001brFrame2, gTrap0001brFrame3]
+  us:
+    address: 0x09EF5A00
+  jp:
+    address: 0x09ECCDEC
+  eu:
+    address: 0x09F80DF8
+- name: gTrap0001brAnims
+  record: AnimTable
+  items: [gTrap0001brAnim0]
+  us:
+    address: 0x09EF5A10
+  jp:
+    address: 0x09ECCDFC
+  eu:
+    address: 0x09F80E08
+- name: gTrap0001flFrames
+  record: SpriteTable
+  items: [gTrap0001flFrame0, gTrap0001flFrame1, gTrap0001flFrame2, gTrap0001flFrame3]
+  us:
+    address: 0x09EF5A14
+  jp:
+    address: 0x09ECCE00
+  eu:
+    address: 0x09F80E0C
+- name: gTrap0001flAnims
+  record: AnimTable
+  items: [gTrap0001flAnim0]
+  us:
+    address: 0x09EF5A24
+  jp:
+    address: 0x09ECCE10
+  eu:
+    address: 0x09F80E1C
+- name: gTrap0001frFrames
+  record: SpriteTable
+  items: [gTrap0001frFrame0, gTrap0001frFrame1, gTrap0001frFrame2, gTrap0001frFrame3]
+  us:
+    address: 0x09EF5A28
+  jp:
+    address: 0x09ECCE14
+  eu:
+    address: 0x09F80E20
+- name: gTrap0001frAnims
+  record: AnimTable
+  items: [gTrap0001frAnim0]
+  us:
+    address: 0x09EF5A38
+  jp:
+    address: 0x09ECCE24
+  eu:
+    address: 0x09F80E30
+- name: gTrap0001rrFrames
+  record: SpriteTable
+  items: [gTrap0001rrFrame0, gTrap0001rrFrame1, gTrap0001rrFrame2, gTrap0001rrFrame3]
+  us:
+    address: 0x09EF5A3C
+  jp:
+    address: 0x09ECCE28
+  eu:
+    address: 0x09F80E34
+- name: gTrap0001rrAnims
+  record: AnimTable
+  items: [gTrap0001rrAnim0]
+  us:
+    address: 0x09EF5A4C
+  jp:
+    address: 0x09ECCE38
+  eu:
+    address: 0x09F80E44
+- name: gTrap0001llFrames
+  record: SpriteTable
+  items: [gTrap0001llFrame0, gTrap0001llFrame1, gTrap0001llFrame2, gTrap0001llFrame3]
+  us:
+    address: 0x09EF5A50
+  jp:
+    address: 0x09ECCE3C
+  eu:
+    address: 0x09F80E48
+- name: gTrap0001llAnims
+  record: AnimTable
+  items: [gTrap0001llAnim0]
+  us:
+    address: 0x09EF5A60
+  jp:
+    address: 0x09ECCE4C
+  eu:
+    address: 0x09F80E58
+- name: gTrap0002Frames
+  record: SpriteTable
+  items: [gTrap0002Frame0, gTrap0002Frame1, gTrap0002Frame2, gTrap0002Frame3, gTrap0002Frame4, gTrap0002Frame5, gTrap0002Frame6, gTrap0002Frame7, gTrap0002Frame8, gTrap0002Frame9, gTrap0002Frame10]
+  us:
+    address: 0x09EF5A64
+  jp:
+    address: 0x09ECCE50
+  eu:
+    address: 0x09F80E5C
+- name: gTrap0002Anims
+  record: AnimTable
+  items: [gTrap0002Anim0, gTrap0002Anim1]
+  us:
+    address: 0x09EF5A90
+  jp:
+    address: 0x09ECCE7C
+  eu:
+    address: 0x09F80E88
+- name: gTrap0003Frames
+  record: SpriteTable
+  items: [gTrap0003Frame0]
+  us:
+    address: 0x09EF5A98
+  jp:
+    address: 0x09ECCE84
+  eu:
+    address: 0x09F80E90
+- name: gTrap0003Anims
+  record: AnimTable
+  items: [gTrap0003Anim0]
+  us:
+    address: 0x09EF5A9C
+  jp:
+    address: 0x09ECCE88
+  eu:
+    address: 0x09F80E94
+- name: gTrap0004Frames
+  record: SpriteTable
+  items: [gTrap0004Frame0, gTrap0004Frame1, gTrap0004Frame2, gTrap0004Frame3, gTrap0004Frame4]
+  us:
+    address: 0x09EF5AA0
+  jp:
+    address: 0x09ECCE8C
+  eu:
+    address: 0x09F80E98
+- name: gTrap0004Anims
+  record: AnimTable
+  items: [gTrap0004Anim0]
+  us:
+    address: 0x09EF5AB4
+  jp:
+    address: 0x09ECCEA0
+  eu:
+    address: 0x09F80EAC
+- name: gTrap0005Frames
+  record: SpriteTable
+  items: [gTrap0005Frame0, gTrap0005Frame1, gTrap0005Frame2, gTrap0005Frame3, gTrap0005Frame4]
+  us:
+    address: 0x09EF5AB8
+  jp:
+    address: 0x09ECCEA4
+  eu:
+    address: 0x09F80EB0
+- name: gTrap0005Anims
+  record: AnimTable
+  items: [gTrap0005Anim0]
+  us:
+    address: 0x09EF5ACC
+  jp:
+    address: 0x09ECCEB8
+  eu:
+    address: 0x09F80EC4
+- name: gTrap0006Frames
+  record: SpriteTable
+  items: [gTrap0006Frame0, gTrap0006Frame1, gTrap0006Frame2, gTrap0006Frame3]
+  us:
+    address: 0x09EF5AD0
+  jp:
+    address: 0x09ECCEBC
+  eu:
+    address: 0x09F80EC8
+- name: gTrap0006Anims
+  record: AnimTable
+  items: [gTrap0006Anim0]
+  us:
+    address: 0x09EF5AE0
+  jp:
+    address: 0x09ECCECC
+  eu:
+    address: 0x09F80ED8
+- name: gPoohHoneyFrames
+  record: SpriteTable
+  items: [gPoohHoneyFrame0, gPoohHoneyFrame1, gPoohHoneyFrame2, gPoohHoneyFrame3, gPoohHoneyFrame4, gPoohHoneyFrame5, gPoohHoneyFrame6, gPoohHoneyFrame7, gPoohHoneyFrame8, gPoohHoneyFrame9, gPoohHoneyFrame10, gPoohHoneyFrame11, gPoohHoneyFrame12, gPoohHoneyFrame13]
+  us:
+    address: 0x09EF5AE4
+  jp:
+    address: 0x09ECCED0
+  eu:
+    address: 0x09F80EDC
+- name: gPoohHoneyAnims
+  record: AnimTable
+  items: [gPoohHoneyAnim0, gPoohHoneyAnim1, gPoohHoneyAnim2, gPoohHoneyAnim3]
+  us:
+    address: 0x09EF5B1C
+  jp:
+    address: 0x09ECCF08
+  eu:
+    address: 0x09F80F14
+- name: gPooGaugeFrames
+  record: SpriteTable
+  items: [gPooGaugeFrame0, gPooGaugeFrame1, gPooGaugeFrame2, gPooGaugeFrame3, gPooGaugeFrame4, gPooGaugeFrame5, gPooGaugeFrame6, gPooGaugeFrame7]
+  us:
+    address: 0x09EF5B2C
+  jp:
+    address: 0x09ECCF18
+  eu:
+    address: 0x09F80F24
+- name: gPooGaugeAnims
+  record: AnimTable
+  items: [gPooGaugeAnim0, gPooGaugeAnim1]
+  us:
+    address: 0x09EF5B4C
+  jp:
+    address: 0x09ECCF38
+  eu:
+    address: 0x09F80F44
+- name: gPooPileFrames
+  record: SpriteTable
+  items: [gPooPileFrame0, gPooPileFrame1, gPooPileFrame2, gPooPileFrame3, gPooPileFrame4, gPooPileFrame5, gPooPileFrame6, gPooPileFrame7]
+  us:
+    address: 0x09EF5C6C
+  jp:
+    address: 0x09ECD058
+  eu:
+    address: 0x09F81064
+- name: gPooPileAnims
+  record: AnimTable
+  items: [gPooPileAnim0, gPooPileAnim1, gPooPileAnim2, gPooPileAnim3, gPooPileAnim4, gPooPileAnim5, gPooPileAnim6, gPooPileAnim7]
+  us:
+    address: 0x09EF5C8C
+  jp:
+    address: 0x09ECD078
+  eu:
+    address: 0x09F81084
+- name: gTrap01Ff00Frames
+  record: SpriteTable
+  items: [gTrap01Ff00Frame0, gTrap01Ff00Frame1, gTrap01Ff00Frame2, gTrap01Ff00Frame3]
+  us:
+    address: 0x09EF5D04
+  jp:
+    address: 0x09ECD0F0
+  eu:
+    address: 0x09F810FC
+- name: gTrap01Ff00Anims
+  record: AnimTable
+  items: [gTrap01Ff00Anim0]
+  us:
+    address: 0x09EF5D14
+  jp:
+    address: 0x09ECD100
+  eu:
+    address: 0x09F8110C
+- name: gTrap01Fl00Frames
+  record: SpriteTable
+  items: [gTrap01Fl00Frame0, gTrap01Fl00Frame1, gTrap01Fl00Frame2, gTrap01Fl00Frame3]
+  us:
+    address: 0x09EF5D18
+  jp:
+    address: 0x09ECD104
+  eu:
+    address: 0x09F81110
+- name: gTrap01Fl00Anims
+  record: AnimTable
+  items: [gTrap01Fl00Anim0]
+  us:
+    address: 0x09EF5D28
+  jp:
+    address: 0x09ECD114
+  eu:
+    address: 0x09F81120
+- name: gTrap01Ll00Frames
+  record: SpriteTable
+  items: [gTrap01Ll00Frame0, gTrap01Ll00Frame1, gTrap01Ll00Frame2, gTrap01Ll00Frame3]
+  us:
+    address: 0x09EF5D2C
+  jp:
+    address: 0x09ECD118
+  eu:
+    address: 0x09F81124
+- name: gTrap01Ll00Anims
+  record: AnimTable
+  items: [gTrap01Ll00Anim0]
+  us:
+    address: 0x09EF5D3C
+  jp:
+    address: 0x09ECD128
+  eu:
+    address: 0x09F81134
+- name: gTrap01Bl00Frames
+  record: SpriteTable
+  items: [gTrap01Bl00Frame0, gTrap01Bl00Frame1, gTrap01Bl00Frame2, gTrap01Bl00Frame3]
+  us:
+    address: 0x09EF5D40
+  jp:
+    address: 0x09ECD12C
+  eu:
+    address: 0x09F81138
+- name: gTrap01Bl00Anims
+  record: AnimTable
+  items: [gTrap01Bl00Anim0]
+  us:
+    address: 0x09EF5D50
+  jp:
+    address: 0x09ECD13C
+  eu:
+    address: 0x09F81148
+- name: gTrap01Bb00Frames
+  record: SpriteTable
+  items: [gTrap01Bb00Frame0, gTrap01Bb00Frame1, gTrap01Bb00Frame2, gTrap01Bb00Frame3]
+  us:
+    address: 0x09EF5D54
+  jp:
+    address: 0x09ECD140
+  eu:
+    address: 0x09F8114C
+- name: gTrap01Bb00Anims
+  record: AnimTable
+  items: [gTrap01Bb00Anim0]
+  us:
+    address: 0x09EF5D64
+  jp:
+    address: 0x09ECD150
+  eu:
+    address: 0x09F8115C
+- name: gEeyoreFl00Frames
+  record: SpriteTable
+  items: [gEeyoreFl00Frame0, gEeyoreFl00Frame1, gEeyoreFl00Frame2, gEeyoreFl00Frame3, gEeyoreFl00Frame4, gEeyoreFl00Frame5, gEeyoreFl00Frame6, gEeyoreFl00Frame7, gEeyoreFl00Frame8, gEeyoreFl00Frame9, gEeyoreFl00Frame10, gEeyoreFl00Frame11, gEeyoreFl00Frame12, gEeyoreFl00Frame13, gEeyoreFl00Frame14, gEeyoreFl00Frame15]
+  us:
+    address: 0x09EF5D68
+  jp:
+    address: 0x09ECD154
+  eu:
+    address: 0x09F81160
+- name: gEeyoreFl00Anims
+  record: AnimTable
+  items: [gEeyoreFl00Anim0, gEeyoreFl00Anim1, gEeyoreFl00Anim2, gEeyoreFl00Anim3, gEeyoreFl00Anim4, gEeyoreFl00Anim5, gEeyoreFl00Anim6]
+  us:
+    address: 0x09EF5DA8
+  jp:
+    address: 0x09ECD194
+  eu:
+    address: 0x09F811A0
+- name: gOwlFl00Frames
+  record: SpriteTable
+  items: [gOwlFl00Frame0, gOwlFl00Frame1, gOwlFl00Frame2, gOwlFl00Frame3, gOwlFl00Frame4, gOwlFl00Frame5, gOwlFl00Frame6, gOwlFl00Frame7, gOwlFl00Frame8, gOwlFl00Frame9, gOwlFl00Frame10, gOwlFl00Frame11, gOwlFl00Frame12, gOwlFl00Frame13, gOwlFl00Frame14, gOwlFl00Frame15, gOwlFl00Frame16, gOwlFl00Frame17, gOwlFl00Frame18, gOwlFl00Frame19, gOwlFl00Frame20, gOwlFl00Frame21, gOwlFl00Frame22, gOwlFl00Frame23]
+  us:
+    address: 0x09EF5DC4
+  jp:
+    address: 0x09ECD1B0
+  eu:
+    address: 0x09F811BC
+- name: gOwlFl00Anims
+  record: AnimTable
+  items: [gOwlFl00Anim0, gOwlFl00Anim1, gOwlFl00Anim2, gOwlFl00Anim3, gOwlFl00Anim4]
+  us:
+    address: 0x09EF5E24
+  jp:
+    address: 0x09ECD210
+  eu:
+    address: 0x09F8121C
+- name: gPooBalloonFrames
+  record: SpriteTable
+  items: [gPooBalloonFrame0, gPooBalloonFrame1, gPooBalloonFrame2]
+  us:
+    address: 0x09EF5E38
+  jp:
+    address: 0x09ECD224
+  eu:
+    address: 0x09F81230
+- name: gPooBalloonAnims
+  record: AnimTable
+  items: [gPooBalloonAnim0]
+  us:
+    address: 0x09EF5E44
+  jp:
+    address: 0x09ECD230
+  eu:
+    address: 0x09F8123C
+- name: gRabbitFl00Frames
+  record: SpriteTable
+  items: [gRabbitFl00Frame0, gRabbitFl00Frame1, gRabbitFl00Frame2, gRabbitFl00Frame3, gRabbitFl00Frame4, gRabbitFl00Frame5, gRabbitFl00Frame6, gRabbitFl00Frame7, gRabbitFl00Frame8, gRabbitFl00Frame9, gRabbitFl00Frame10, gRabbitFl00Frame11, gRabbitFl00Frame12, gRabbitFl00Frame13, gRabbitFl00Frame14, gRabbitFl00Frame15, gRabbitFl00Frame16, gRabbitFl00Frame17, gRabbitFl00Frame18, gRabbitFl00Frame19]
+  us:
+    address: 0x09EF5E48
+  jp:
+    address: 0x09ECD234
+  eu:
+    address: 0x09F81240
+- name: gRabbitFl00Anims
+  record: AnimTable
+  items: [gRabbitFl00Anim0, gRabbitFl00Anim1, gRabbitFl00Anim2, gRabbitFl00Anim3]
+  us:
+    address: 0x09EF5E98
+  jp:
+    address: 0x09ECD284
+  eu:
+    address: 0x09F81290
+- name: gRabbitBl00Frames
+  record: SpriteTable
+  items: [gRabbitBl00Frame0, gRabbitBl00Frame1, gRabbitBl00Frame2, gRabbitBl00Frame3, gRabbitBl00Frame4, gRabbitBl00Frame5, gRabbitBl00Frame6, gRabbitBl00Frame7, gRabbitBl00Frame8, gRabbitBl00Frame9, gRabbitBl00Frame10, gRabbitBl00Frame11, gRabbitBl00Frame12, gRabbitBl00Frame13, gRabbitBl00Frame14]
+  us:
+    address: 0x09EF5EA8
+  jp:
+    address: 0x09ECD294
+  eu:
+    address: 0x09F812A0
+- name: gRabbitBl00Anims
+  record: AnimTable
+  items: [gRabbitBl00Anim0, gRabbitBl00Anim1, gRabbitBl00Anim2, gRabbitBl00Anim3, gRabbitBl00Anim4]
+  us:
+    address: 0x09EF5EE4
+  jp:
+    address: 0x09ECD2D0
+  eu:
+    address: 0x09F812DC
+- name: gRooFl00Frames
+  record: SpriteTable
+  items: [gRooFl00Frame0, gRooFl00Frame1, gRooFl00Frame2, gRooFl00Frame3, gRooFl00Frame4, gRooFl00Frame5, gRooFl00Frame6, gRooFl00Frame7, gRooFl00Frame8, gRooFl00Frame9, gRooFl00Frame10, gRooFl00Frame11, gRooFl00Frame12, gRooFl00Frame13, gRooFl00Frame14, gRooFl00Frame15, gRooFl00Frame16, gRooFl00Frame17, gRooFl00Frame18, gRooFl00Frame19, gRooFl00Frame20, gRooFl00Frame21, gRooFl00Frame22, gRooFl00Frame23, gRooFl00Frame24, gRooFl00Frame25, gRooFl00Frame26, gRooFl00Frame27, gRooFl00Frame28, gRooFl00Frame29, gRooFl00Frame30, gRooFl00Frame31, gRooFl00Frame32, gRooFl00Frame33, gRooFl00Frame34, gRooFl00Frame35, gRooFl00Frame36, gRooFl00Frame37, gRooFl00Frame38, gRooFl00Frame39, gRooFl00Frame40, gRooFl00Frame41]
+  us:
+    address: 0x09EF5EF8
+  jp:
+    address: 0x09ECD2E4
+  eu:
+    address: 0x09F812F0
+- name: gRooFl00Anims
+  record: AnimTable
+  items: [gRooFl00Anim0, gRooFl00Anim1, gRooFl00Anim2, gRooFl00Anim3, gRooFl00Anim4, gRooFl00Anim5, gRooFl00Anim6, gRooFl00Anim7, gRooFl00Anim8, gRooFl00Anim9]
+  us:
+    address: 0x09EF5FA0
+  jp:
+    address: 0x09ECD38C
+  eu:
+    address: 0x09F81398
+- name: gRoFootmarkFrames
+  record: SpriteTable
+  items: [gRoFootmarkFrame0, gRoFootmarkFrame1]
+  us:
+    address: 0x09EF5FC8
+  jp:
+    address: 0x09ECD3B4
+  eu:
+    address: 0x09F813C0
+- name: gRoFootmarkAnims
+  record: AnimTable
+  items: [gRoFootmarkAnim0, gRoFootmarkAnim1]
+  us:
+    address: 0x09EF5FD0
+  jp:
+    address: 0x09ECD3BC
+  eu:
+    address: 0x09F813C8
+- name: gPooPoohStumpFrames
+  record: SpriteTable
+  items: [gPooPoohStumpFrame0]
+  us:
+    address: 0x09EF5FD8
+  jp:
+    address: 0x09ECD3C4
+  eu:
+    address: 0x09F813D0
+- name: gPooPoohStumpAnims
+  record: AnimTable
+  items: [gPooPoohStumpAnim0]
+  us:
+    address: 0x09EF5FDC
+  jp:
+    address: 0x09ECD3C8
+  eu:
+    address: 0x09F813D4
+- name: gPooTigerStumpFrames
+  record: SpriteTable
+  items: [gPooTigerStumpFrame0]
+  us:
+    address: 0x09EF5FE0
+  jp:
+    address: 0x09ECD3CC
+  eu:
+    address: 0x09F813D8
+- name: gPooTigerStumpAnims
+  record: AnimTable
+  items: [gPooTigerStumpAnim0]
+  us:
+    address: 0x09EF5FE4
+  jp:
+    address: 0x09ECD3D0
+  eu:
+    address: 0x09F813DC
+- name: gPooTiBoardFrames
+  record: SpriteTable
+  items: [gPooTiBoardFrame0]
+  us:
+    address: 0x09EF5FE8
+  jp:
+    address: 0x09ECD3D4
+  eu:
+    address: 0x09F813E0
+- name: gPooTiBoardAnims
+  record: AnimTable
+  items: [gPooTiBoardAnim0]
+  us:
+    address: 0x09EF5FEC
+  jp:
+    address: 0x09ECD3D8
+  eu:
+    address: 0x09F813E4
+- name: gEeHoneycombFrames
+  record: SpriteTable
+  items: [gEeHoneycombFrame0]
+  us:
+    address: 0x09EF5FF0
+  jp:
+    address: 0x09ECD3DC
+  eu:
+    address: 0x09F813E8
+- name: gEeHoneycombAnims
+  record: AnimTable
+  items: [gEeHoneycombAnim0]
+  us:
+    address: 0x09EF5FF4
+  jp:
+    address: 0x09ECD3E0
+  eu:
+    address: 0x09F813EC
+- name: gEeBeeFrames
+  record: SpriteTable
+  items: [gEeBeeFrame0, gEeBeeFrame1, gEeBeeFrame2, gEeBeeFrame3, gEeBeeFrame4, gEeBeeFrame5, gEeBeeFrame6, gEeBeeFrame7, gEeBeeFrame8, gEeBeeFrame9, gEeBeeFrame10]
+  us:
+    address: 0x09EF5FF8
+  jp:
+    address: 0x09ECD3E4
+  eu:
+    address: 0x09F813F0
+- name: gEeBeeAnims
+  record: AnimTable
+  items: [gEeBeeAnim0, gEeBeeAnim1]
+  us:
+    address: 0x09EF6024
+  jp:
+    address: 0x09ECD410
+  eu:
+    address: 0x09F8141C
+- name: gRaVegetablesFrames
+  record: SpriteTable
+  items: [gRaVegetablesFrame0, gRaVegetablesFrame1, gRaVegetablesFrame2, gRaVegetablesFrame3, gRaVegetablesFrame4, gRaVegetablesFrame5, gRaVegetablesFrame6, gRaVegetablesFrame7, gRaVegetablesFrame8, gRaVegetablesFrame9, gRaVegetablesFrame10, gRaVegetablesFrame11, gRaVegetablesFrame12]
+  us:
+    address: 0x09EF602C
+  jp:
+    address: 0x09ECD418
+  eu:
+    address: 0x09F81424
+- name: gRaVegetablesAnims
+  record: AnimTable
+  items: [gRaVegetablesAnim0, gRaVegetablesAnim1, gRaVegetablesAnim2, gRaVegetablesAnim3, gRaVegetablesAnim4, gRaVegetablesAnim5]
+  us:
+    address: 0x09EF6060
+  jp:
+    address: 0x09ECD44C
+  eu:
+    address: 0x09F81458
+- name: gRaWagonFrames
+  record: SpriteTable
+  items: [gRaWagonFrame0, gRaWagonFrame1, gRaWagonFrame2, gRaWagonFrame3, gRaWagonFrame4, gRaWagonFrame5, gRaWagonFrame6, gRaWagonFrame7, gRaWagonFrame8, gRaWagonFrame9, gRaWagonFrame10, gRaWagonFrame11, gRaWagonFrame12]
+  us:
+    address: 0x09EF6078
+  jp:
+    address: 0x09ECD464
+  eu:
+    address: 0x09F81470
+- name: gRaWagonAnims
+  record: AnimTable
+  items: [gRaWagonAnim0, gRaWagonAnim1, gRaWagonAnim2, gRaWagonAnim3, gRaWagonAnim4, gRaWagonAnim5]
+  us:
+    address: 0x09EF60AC
+  jp:
+    address: 0x09ECD498
+  eu:
+    address: 0x09F814A4
+- name: gUnk_09EF60C4
+  record: SpriteTable
+  items: [gUnk_0975A094, gUnk_0975A0B0, gUnk_0975A0CC, gUnk_0975A0DC, gUnk_0975A0EC, gUnk_0975A0FC, gUnk_0975A10C, gUnk_0975A116, gUnk_0975A120, gUnk_0975A12A, gUnk_0975A134, gUnk_0975A144]
+  us:
+    address: 0x09EF60C4
+  jp:
+    address: 0x09ECD4B0
+  eu:
+    address: 0x09F814BC
+- name: gUnk_09EF60F4
+  record: AnimTable
+  items: [gUnk_0975A166, gUnk_0975A170, gUnk_0975A17A, gUnk_0975A184, gUnk_0975A1B6, gUnk_0975A1C0]
+  us:
+    address: 0x09EF60F4
+  jp:
+    address: 0x09ECD4E0
+  eu:
+    address: 0x09F814EC
+- name: gPooLeafFrames
+  record: SpriteTable
+  items: [gPooLeafFrame0, gPooLeafFrame1, gPooLeafFrame2, gPooLeafFrame3, gPooLeafFrame4, gPooLeafFrame5, gPooLeafFrame6, gPooLeafFrame7]
+  us:
+    address: 0x09EF610C
+  jp:
+    address: 0x09ECD4F8
+  eu:
+    address: 0x09F81504
+- name: gPooLeafAnims
+  record: AnimTable
+  items: [gPooLeafAnim0]
+  us:
+    address: 0x09EF612C
+  jp:
+    address: 0x09ECD518
+  eu:
+    address: 0x09F81524
+- name: gPooTanpopoFrames
+  record: SpriteTable
+  items: [gPooTanpopoFrame0, gPooTanpopoFrame1]
+  us:
+    address: 0x09EF6130
+  jp:
+    address: 0x09ECD51C
+  eu:
+    address: 0x09F81528
+- name: gPooTanpopoAnims
+  record: AnimTable
+  items: [gPooTanpopoAnim0]
+  us:
+    address: 0x09EF6138
+  jp:
+    address: 0x09ECD524
+  eu:
+    address: 0x09F81530
+- name: gPooTanpopoSeedFrames
+  record: SpriteTable
+  items: [gPooTanpopoSeedFrame0, gPooTanpopoSeedFrame1, gPooTanpopoSeedFrame2, gPooTanpopoSeedFrame3, gPooTanpopoSeedFrame4, gPooTanpopoSeedFrame5]
+  us:
+    address: 0x09EF613C
+  jp:
+    address: 0x09ECD528
+  eu:
+    address: 0x09F81534
+- name: gPooTanpopoSeedAnims
+  record: AnimTable
+  items: [gPooTanpopoSeedAnim0]
+  us:
+    address: 0x09EF6154
+  jp:
+    address: 0x09ECD540
+  eu:
+    address: 0x09F8154C
+- name: gPooMapbeeFrames
+  record: SpriteTable
+  items: [gPooMapbeeFrame0, gPooMapbeeFrame1, gPooMapbeeFrame2, gPooMapbeeFrame3, gPooMapbeeFrame4, gPooMapbeeFrame5, gPooMapbeeFrame6, gPooMapbeeFrame7, gPooMapbeeFrame8, gPooMapbeeFrame9, gPooMapbeeFrame10, gPooMapbeeFrame11, gPooMapbeeFrame12, gPooMapbeeFrame13, gPooMapbeeFrame14, gPooMapbeeFrame15, gPooMapbeeFrame16, gPooMapbeeFrame17, gPooMapbeeFrame18, gPooMapbeeFrame19, gPooMapbeeFrame20, gPooMapbeeFrame21, gPooMapbeeFrame22, gPooMapbeeFrame23, gPooMapbeeFrame24, gPooMapbeeFrame25, gPooMapbeeFrame26, gPooMapbeeFrame27, gPooMapbeeFrame28, gPooMapbeeFrame29, gPooMapbeeFrame30, gPooMapbeeFrame31, gPooMapbeeFrame32, gPooMapbeeFrame33, gPooMapbeeFrame34, gPooMapbeeFrame35, gPooMapbeeFrame36, gPooMapbeeFrame37, gPooMapbeeFrame38, gPooMapbeeFrame39, gPooMapbeeFrame40, gPooMapbeeFrame41]
+  us:
+    address: 0x09EF6158
+  jp:
+    address: 0x09ECD544
+  eu:
+    address: 0x09F81550
+- name: gPooMapbeeAnims
+  record: AnimTable
+  items: [gPooMapbeeAnim0, gPooMapbeeAnim1]
+  us:
+    address: 0x09EF6200
+  jp:
+    address: 0x09ECD5EC
+  eu:
+    address: 0x09F815F8
+- name: gPooMapbutterflyFrames
+  record: SpriteTable
+  items: [gPooMapbutterflyFrame0, gPooMapbutterflyFrame1, gPooMapbutterflyFrame2, gPooMapbutterflyFrame3, gPooMapbutterflyFrame4, gPooMapbutterflyFrame5, gPooMapbutterflyFrame6, gPooMapbutterflyFrame7, gPooMapbutterflyFrame8, gPooMapbutterflyFrame9, gPooMapbutterflyFrame10, gPooMapbutterflyFrame11, gPooMapbutterflyFrame12, gPooMapbutterflyFrame13, gPooMapbutterflyFrame14, gPooMapbutterflyFrame15, gPooMapbutterflyFrame16, gPooMapbutterflyFrame17, gPooMapbutterflyFrame18, gPooMapbutterflyFrame19, gPooMapbutterflyFrame20, gPooMapbutterflyFrame21, gPooMapbutterflyFrame22, gPooMapbutterflyFrame23, gPooMapbutterflyFrame24, gPooMapbutterflyFrame25, gPooMapbutterflyFrame26, gPooMapbutterflyFrame27, gPooMapbutterflyFrame28, gPooMapbutterflyFrame29, gPooMapbutterflyFrame30, gPooMapbutterflyFrame31, gPooMapbutterflyFrame32, gPooMapbutterflyFrame33, gPooMapbutterflyFrame34, gPooMapbutterflyFrame35]
+  us:
+    address: 0x09EF6208
+  jp:
+    address: 0x09ECD5F4
+  eu:
+    address: 0x09F81600
+- name: gPooMapbutterflyAnims
+  record: AnimTable
+  items: [gPooMapbutterflyAnim0]
+  us:
+    address: 0x09EF6298
+  jp:
+    address: 0x09ECD684
+  eu:
+    address: 0x09F81690
+- name: gPooMapObjHit0Frames
+  record: SpriteTable
+  items: [gPooMapObjHit0Frame0, gPooMapObjHit0Frame1, gPooMapObjHit0Frame2, gPooMapObjHit0Frame3, gPooMapObjHit0Frame4, gPooMapObjHit0Frame5]
+  us:
+    address: 0x09EF629C
+  jp:
+    address: 0x09ECD688
+  eu:
+    address: 0x09F81694
+- name: gPooMapObjHit0Anims
+  record: AnimTable
+  items: [gPooMapObjHit0Anim0]
+  us:
+    address: 0x09EF62B4
+  jp:
+    address: 0x09ECD6A0
+  eu:
+    address: 0x09F816AC
+- name: gPooMapObjHit1Frames
+  record: SpriteTable
+  items: [gPooMapObjHit1Frame0, gPooMapObjHit1Frame1, gPooMapObjHit1Frame2, gPooMapObjHit1Frame3, gPooMapObjHit1Frame4, gPooMapObjHit1Frame5, gPooMapObjHit1Frame6, gPooMapObjHit1Frame7, gPooMapObjHit1Frame8, gPooMapObjHit1Frame9, gPooMapObjHit1Frame10]
+  us:
+    address: 0x09EF62B8
+  jp:
+    address: 0x09ECD6A4
+  eu:
+    address: 0x09F816B0
+- name: gPooMapObjHit1Anims
+  record: AnimTable
+  items: [gPooMapObjHit1Anim0]
+  us:
+    address: 0x09EF62E4
+  jp:
+    address: 0x09ECD6D0
+  eu:
+    address: 0x09F816DC
+- name: gPooMapObjHit2Frames
+  record: SpriteTable
+  items: [gPooMapObjHit2Frame0, gPooMapObjHit2Frame1, gPooMapObjHit2Frame2, gPooMapObjHit2Frame3, gPooMapObjHit2Frame4, gPooMapObjHit2Frame5, gPooMapObjHit2Frame6, gPooMapObjHit2Frame7, gPooMapObjHit2Frame8, gPooMapObjHit2Frame9, gPooMapObjHit2Frame10, gPooMapObjHit2Frame11, gPooMapObjHit2Frame12, gPooMapObjHit2Frame13, gPooMapObjHit2Frame14, gPooMapObjHit2Frame15, gPooMapObjHit2Frame16, gPooMapObjHit2Frame17, gPooMapObjHit2Frame18, gPooMapObjHit2Frame19, gPooMapObjHit2Frame20, gPooMapObjHit2Frame21, gPooMapObjHit2Frame22, gPooMapObjHit2Frame23]
+  us:
+    address: 0x09EF62E8
+  jp:
+    address: 0x09ECD6D4
+  eu:
+    address: 0x09F816E0
+- name: gPooMapObjHit2Anims
+  record: AnimTable
+  items: [gPooMapObjHit2Anim0]
+  us:
+    address: 0x09EF6348
+  jp:
+    address: 0x09ECD734
+  eu:
+    address: 0x09F81740
+- name: gPooMapObjHit3Frames
+  record: SpriteTable
+  items: [gPooMapObjHit3Frame0, gPooMapObjHit3Frame1, gPooMapObjHit3Frame2]
+  us:
+    address: 0x09EF634C
+  jp:
+    address: 0x09ECD738
+  eu:
+    address: 0x09F81744
+- name: gPooMapObjHit3Anims
+  record: AnimTable
+  items: [gPooMapObjHit3Anim0]
+  us:
+    address: 0x09EF6358
+  jp:
+    address: 0x09ECD744
+  eu:
+    address: 0x09F81750
+- name: gPooMapObjHit4Frames
+  record: SpriteTable
+  items: [gPooMapObjHit4Frame0, gPooMapObjHit4Frame1, gPooMapObjHit4Frame2, gPooMapObjHit4Frame3, gPooMapObjHit4Frame4, gPooMapObjHit4Frame5, gPooMapObjHit4Frame6, gPooMapObjHit4Frame7, gPooMapObjHit4Frame8]
+  us:
+    address: 0x09EF635C
+  jp:
+    address: 0x09ECD748
+  eu:
+    address: 0x09F81754
+- name: gPooMapObjHit4Anims
+  record: AnimTable
+  items: [gPooMapObjHit4Anim0]
+  us:
+    address: 0x09EF6380
+  jp:
+    address: 0x09ECD76C
+  eu:
+    address: 0x09F81778
+- name: gPooMapObjHit5Frames
+  record: SpriteTable
+  items: [gPooMapObjHit5Frame0, gPooMapObjHit5Frame1]
+  us:
+    address: 0x09EF6384
+  jp:
+    address: 0x09ECD770
+  eu:
+    address: 0x09F8177C
+- name: gPooMapObjHit5Anims
+  record: AnimTable
+  items: [gPooMapObjHit5Anim0, gPooMapObjHit5Anim1]
+  us:
+    address: 0x09EF638C
+  jp:
+    address: 0x09ECD778
+  eu:
+    address: 0x09F81784
+- name: gPooMapObjHit6Frames
+  record: SpriteTable
+  items: [gPooMapObjHit6Frame0, gPooMapObjHit6Frame1, gPooMapObjHit6Frame2, gPooMapObjHit6Frame3, gPooMapObjHit6Frame4, gPooMapObjHit6Frame5]
+  us:
+    address: 0x09EF6394
+  jp:
+    address: 0x09ECD780
+  eu:
+    address: 0x09F8178C
+- name: gPooMapObjHit6Anims
+  record: AnimTable
+  items: [gPooMapObjHit6Anim0]
+  us:
+    address: 0x09EF63AC
+  jp:
+    address: 0x09ECD798
+  eu:
+    address: 0x09F817A4
+- name: gPooMapObjHit7Frames
+  record: SpriteTable
+  items: [gPooMapObjHit7Frame0, gPooMapObjHit7Frame1, gPooMapObjHit7Frame2, gPooMapObjHit7Frame3, gPooMapObjHit7Frame4, gPooMapObjHit7Frame5]
+  us:
+    address: 0x09EF63B0
+  jp:
+    address: 0x09ECD79C
+  eu:
+    address: 0x09F817A8
+- name: gPooMapObjHit7Anims
+  record: AnimTable
+  items: [gPooMapObjHit7Anim0]
+  us:
+    address: 0x09EF63C8
+  jp:
+    address: 0x09ECD7B4
+  eu:
+    address: 0x09F817C0
+- name: gPooMapObjHit8Frames
+  record: SpriteTable
+  items: [gPooMapObjHit8Frame0, gPooMapObjHit8Frame1, gPooMapObjHit8Frame2, gPooMapObjHit8Frame3, gPooMapObjHit8Frame4, gPooMapObjHit8Frame5, gPooMapObjHit8Frame6, gPooMapObjHit8Frame7, gPooMapObjHit8Frame8, gPooMapObjHit8Frame9]
+  us:
+    address: 0x09EF63CC
+  jp:
+    address: 0x09ECD7B8
+  eu:
+    address: 0x09F817C4
+- name: gPooMapObjHit8Anims
+  record: AnimTable
+  items: [gPooMapObjHit8Anim0]
+  us:
+    address: 0x09EF63F4
+  jp:
+    address: 0x09ECD7E0
+  eu:
+    address: 0x09F817EC
+- name: gPooMapObjHit9Frames
+  record: SpriteTable
+  items: [gPooMapObjHit9Frame0, gPooMapObjHit9Frame1, gPooMapObjHit9Frame2, gPooMapObjHit9Frame3, gPooMapObjHit9Frame4, gPooMapObjHit9Frame5, gPooMapObjHit9Frame6, gPooMapObjHit9Frame7, gPooMapObjHit9Frame8, gPooMapObjHit9Frame9]
+  us:
+    address: 0x09EF63F8
+  jp:
+    address: 0x09ECD7E4
+  eu:
+    address: 0x09F817F0
+- name: gPooMapObjHit9Anims
+  record: AnimTable
+  items: [gPooMapObjHit9Anim0]
+  us:
+    address: 0x09EF6420
+  jp:
+    address: 0x09ECD80C
+  eu:
+    address: 0x09F81818
+- name: pooh_ff00
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFf00Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFf00Frame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohFf00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x096FE36C
+    size: 602
+  jp:
+    address: 0x096B6B48
+    size: 602
+  eu:
+    address: 0x096CB6CC
+    size: 602
+- name: pooh_fr00
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFr00Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFr00Frame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohFr00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x096FE5C8
+    size: 602
+  jp:
+    address: 0x096B6DA4
+    size: 602
+  eu:
+    address: 0x096CB928
+    size: 602
+- name: pooh_rr00
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohRr00Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohRr00Frame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [8x8, -5, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohRr00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x096FE824
+    size: 570
+  jp:
+    address: 0x096B7000
+    size: 570
+  eu:
+    address: 0x096CBB84
+    size: 570
+- name: pooh_br00
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBr00Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBr00Frame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohBr00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x096FEA60
+    size: 602
+  jp:
+    address: 0x096B723C
+    size: 602
+  eu:
+    address: 0x096CBDC0
+    size: 602
+- name: pooh_bb00
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBb00Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBb00Frame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohBb00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x096FECBC
+    size: 602
+  jp:
+    address: 0x096B7498
+    size: 602
+  eu:
+    address: 0x096CC01C
+    size: 602
+- name: pooh_ff01
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFf01Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohFf01Frame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohFf01Frame1
+    pieces:
+    - [32x32, -16, -35]
+  - symbol: gPoohFf01Frame2
+    pieces:
+    - [32x32, -16, -35]
+  - symbol: gPoohFf01Frame3
+    pieces:
+    - [32x32, -16, -31]
+  - symbol: gPoohFf01Frame4
+    pieces:
+    - [32x32, -16, -31]
+  - symbol: gPoohFf01Frame5
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gPoohFf01Frame6
+    pieces:
+    - [32x32, -16, -35]
+  - symbol: gPoohFf01Frame7
+    pieces:
+    - [32x32, -16, -35]
+  - symbol: gPoohFf01Frame8
+    pieces:
+    - [32x32, -16, -31]
+  - symbol: gPoohFf01Frame9
+    pieces:
+    - [32x32, -16, -30]
+  - symbol: gPoohFf01Frame10
+    pieces:
+    - [32x32, -16, -31]
+  animations:
+  - symbol: gPoohFf01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 9], [3, 9], [4, 9], [5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9]]
+  us:
+    address: 0x096FEF18
+    size: 5926
+  jp:
+    address: 0x096B76F4
+    size: 5926
+  eu:
+    address: 0x096CC278
+    size: 5926
+- name: pooh_fr01
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFr01Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohFr01Frame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohFr01Frame1
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohFr01Frame2
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohFr01Frame3
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohFr01Frame4
+    pieces:
+    - [32x32, -16, -27, {hflip: true}]
+  - symbol: gPoohFr01Frame5
+    pieces:
+    - [32x32, -16, -29, {hflip: true}]
+  - symbol: gPoohFr01Frame6
+    pieces:
+    - [32x32, -16, -31, {hflip: true}]
+  - symbol: gPoohFr01Frame7
+    pieces:
+    - [32x32, -16, -31, {hflip: true}]
+  - symbol: gPoohFr01Frame8
+    pieces:
+    - [32x32, -16, -32, {hflip: true}]
+  - symbol: gPoohFr01Frame9
+    pieces:
+    - [32x32, -16, -31, {hflip: true}]
+  - symbol: gPoohFr01Frame10
+    pieces:
+    - [32x32, -16, -31, {hflip: true}]
+  animations:
+  - symbol: gPoohFr01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 9], [3, 9], [4, 9], [5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9]]
+  us:
+    address: 0x09700640
+    size: 6328
+  jp:
+    address: 0x096B8E1C
+    size: 6328
+  eu:
+    address: 0x096CD9A0
+    size: 6328
+- name: pooh_rr01
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohRr01Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohRr01Frame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame1
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame2
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame3
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame4
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame5
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame6
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame7
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame8
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame9
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohRr01Frame10
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohRr01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 9], [3, 9], [4, 9], [5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9]]
+  us:
+    address: 0x09701EF8
+    size: 7266
+  jp:
+    address: 0x096BA6D4
+    size: 7266
+  eu:
+    address: 0x096CF258
+    size: 7266
+- name: pooh_br01
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBr01Tiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohBr01Frame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohBr01Frame1
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohBr01Frame2
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohBr01Frame3
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohBr01Frame4
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohBr01Frame5
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohBr01Frame6
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohBr01Frame7
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohBr01Frame8
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  - symbol: gPoohBr01Frame9
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+    - [8x8, -8, 5]
+  - symbol: gPoohBr01Frame10
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [32x8, -16, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohBr01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 9], [3, 9], [4, 9], [5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9]]
+  us:
+    address: 0x09703B5C
+    size: 7304
+  jp:
+    address: 0x096BC338
+    size: 7304
+  eu:
+    address: 0x096D0EBC
+    size: 7304
+- name: pooh_bb01
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBb01Tiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 34]
+  columns: 8
+  frames:
+  - symbol: gPoohBb01Frame0
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBb01Frame1
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBb01Frame2
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBb01Frame3
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+    - [8x8, -8, 6]
+  - symbol: gPoohBb01Frame4
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBb01Frame5
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBb01Frame6
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBb01Frame7
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBb01Frame8
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBb01Frame9
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+    - [8x8, 0, 6]
+  - symbol: gPoohBb01Frame10
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  animations:
+  - symbol: gPoohBb01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 9], [3, 9], [4, 9], [5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9]]
+  us:
+    address: 0x097057E4
+    size: 7342
+  jp:
+    address: 0x096BDFC0
+    size: 7342
+  eu:
+    address: 0x096D2B44
+    size: 7342
+- name: pooh_fl01
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFl01Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohFl01Frame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohFl01Frame1
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohFl01Frame2
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohFl01Frame3
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohFl01Frame4
+    pieces:
+    - [32x32, -16, -27]
+  - symbol: gPoohFl01Frame5
+    pieces:
+    - [32x32, -16, -29]
+  - symbol: gPoohFl01Frame6
+    pieces:
+    - [32x32, -16, -31]
+  - symbol: gPoohFl01Frame7
+    pieces:
+    - [32x32, -16, -31]
+  - symbol: gPoohFl01Frame8
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gPoohFl01Frame9
+    pieces:
+    - [32x32, -16, -31]
+  - symbol: gPoohFl01Frame10
+    pieces:
+    - [32x32, -16, -31]
+  animations:
+  - symbol: gPoohFl01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9], [0, 9], [1, 9], [2, 9], [3, 9], [4, 9]]
+  us:
+    address: 0x09707494
+    size: 6328
+  jp:
+    address: 0x096BFC70
+    size: 6328
+  eu:
+    address: 0x096D47F4
+    size: 6328
+- name: pooh_ll01
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohLl01Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohLl01Frame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame1
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame2
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame3
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame4
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame5
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame6
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame7
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame8
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame9
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohLl01Frame10
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  animations:
+  - symbol: gPoohLl01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9], [0, 9], [1, 9], [2, 9], [3, 9], [4, 9]]
+  us:
+    address: 0x09708D4C
+    size: 7266
+  jp:
+    address: 0x096C1528
+    size: 7266
+  eu:
+    address: 0x096D60AC
+    size: 7266
+- name: pooh_bl01
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBl01Tiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohBl01Frame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl01Frame1
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl01Frame2
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl01Frame3
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl01Frame4
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl01Frame5
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl01Frame6
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl01Frame7
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl01Frame8
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl01Frame9
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+    - [16x8, -8, 5]
+  - symbol: gPoohBl01Frame10
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  animations:
+  - symbol: gPoohBl01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9], [0, 9], [1, 9], [2, 9], [3, 9], [4, 9]]
+  us:
+    address: 0x0970A9B0
+    size: 7336
+  jp:
+    address: 0x096C318C
+    size: 7336
+  eu:
+    address: 0x096D7D10
+    size: 7336
+- name: pooh_bb00_rr
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBb00RrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBb00RrFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohBb00RrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970C658
+    size: 602
+  jp:
+    address: 0x096C4E34
+    size: 602
+  eu:
+    address: 0x096D99B8
+    size: 602
+- name: pooh_bb00_bl
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBb00BlTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBb00BlFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohBb00BlAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970C8B4
+    size: 602
+  jp:
+    address: 0x096C5090
+    size: 602
+  eu:
+    address: 0x096D9C14
+    size: 602
+- name: pooh_bb00_br
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBb00BrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBb00BrFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohBb00BrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970CB10
+    size: 602
+  jp:
+    address: 0x096C52EC
+    size: 602
+  eu:
+    address: 0x096D9E70
+    size: 602
+- name: pooh_bb00_ll
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBb00LlTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBb00LlFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohBb00LlAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970CD6C
+    size: 602
+  jp:
+    address: 0x096C5548
+    size: 602
+  eu:
+    address: 0x096DA0CC
+    size: 602
+- name: pooh_br00_bb
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBr00BbTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBr00BbFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohBr00BbAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970CFC8
+    size: 602
+  jp:
+    address: 0x096C57A4
+    size: 602
+  eu:
+    address: 0x096DA328
+    size: 602
+- name: pooh_br00_fr
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBr00FrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBr00FrFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohBr00FrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970D224
+    size: 602
+  jp:
+    address: 0x096C5A00
+    size: 602
+  eu:
+    address: 0x096DA584
+    size: 602
+- name: pooh_br00_bl
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBr00BlTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBr00BlFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohBr00BlAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970D480
+    size: 602
+  jp:
+    address: 0x096C5C5C
+    size: 602
+  eu:
+    address: 0x096DA7E0
+    size: 602
+- name: pooh_br00_rr
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBr00RrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohBr00RrFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohBr00RrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970D6DC
+    size: 602
+  jp:
+    address: 0x096C5EB8
+    size: 602
+  eu:
+    address: 0x096DAA3C
+    size: 602
+- name: pooh_ff00_fl
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFf00FlTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFf00FlFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohFf00FlAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970D938
+    size: 602
+  jp:
+    address: 0x096C6114
+    size: 602
+  eu:
+    address: 0x096DAC98
+    size: 602
+- name: pooh_ff00_rr
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFf00RrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFf00RrFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohFf00RrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970DB94
+    size: 602
+  jp:
+    address: 0x096C6370
+    size: 602
+  eu:
+    address: 0x096DAEF4
+    size: 602
+- name: pooh_ff00_fr
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFf00FrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFf00FrFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohFf00FrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970DDF0
+    size: 602
+  jp:
+    address: 0x096C65CC
+    size: 602
+  eu:
+    address: 0x096DB150
+    size: 602
+- name: pooh_ff00_ll
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFf00LlTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFf00LlFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -3]
+  animations:
+  - symbol: gPoohFf00LlAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970E04C
+    size: 602
+  jp:
+    address: 0x096C6828
+    size: 602
+  eu:
+    address: 0x096DB3AC
+    size: 602
+- name: pooh_fr00_rr
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFr00RrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFr00RrFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohFr00RrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970E2A8
+    size: 602
+  jp:
+    address: 0x096C6A84
+    size: 602
+  eu:
+    address: 0x096DB608
+    size: 602
+- name: pooh_fr00_br
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFr00BrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFr00BrFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohFr00BrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970E504
+    size: 602
+  jp:
+    address: 0x096C6CE0
+    size: 602
+  eu:
+    address: 0x096DB864
+    size: 602
+- name: pooh_fr00_ff
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFr00FfTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFr00FfFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohFr00FfAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970E760
+    size: 602
+  jp:
+    address: 0x096C6F3C
+    size: 602
+  eu:
+    address: 0x096DBAC0
+    size: 602
+- name: pooh_fr00_fl
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFr00FlTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohFr00FlFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [16x8, -8, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohFr00FlAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970E9BC
+    size: 602
+  jp:
+    address: 0x096C7198
+    size: 602
+  eu:
+    address: 0x096DBD1C
+    size: 602
+- name: pooh_rr00_bb
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohRr00BbTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohRr00BbFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [8x8, -5, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohRr00BbAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970EC18
+    size: 570
+  jp:
+    address: 0x096C73F4
+    size: 570
+  eu:
+    address: 0x096DBF78
+    size: 570
+- name: pooh_rr00_ff
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohRr00FfTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohRr00FfFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [8x8, -5, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohRr00FfAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970EE54
+    size: 570
+  jp:
+    address: 0x096C7630
+    size: 570
+  eu:
+    address: 0x096DC1B4
+    size: 570
+- name: pooh_rr00_fr
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohRr00FrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohRr00FrFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [8x8, -5, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohRr00FrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970F090
+    size: 570
+  jp:
+    address: 0x096C786C
+    size: 570
+  eu:
+    address: 0x096DC3F0
+    size: 570
+- name: pooh_rr00_br
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohRr00BrTiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 35]
+  columns: 1
+  frames:
+  - symbol: gPoohRr00BrFrame0
+    pieces:
+    - [32x32, -16, -35, {hflip: true}]
+    - [8x8, -5, -3, {hflip: true}]
+  animations:
+  - symbol: gPoohRr00BrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0970F2CC
+    size: 570
+  jp:
+    address: 0x096C7AA8
+    size: 570
+  eu:
+    address: 0x096DC62C
+    size: 570
+- name: pooh_bb04
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBb04Tiles
+  align: 4
+  cell: [35, 49]
+  anchor: [19, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohBb04Frame0
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+    - [8x8, 0, 6]
+  - symbol: gPoohBb04Frame1
+    pieces:
+    - [32x32, -16, -31]
+    - [32x8, -16, 1]
+  - symbol: gPoohBb04Frame2
+    pieces:
+    - [32x32, -16, -31]
+    - [32x8, -16, 1]
+  - symbol: gPoohBb04Frame3
+    pieces:
+    - [32x32, -19, -34]
+    - [32x8, -19, -2]
+  - symbol: gPoohBb04Frame4
+    pieces:
+    - [32x32, -19, -35]
+    - [32x8, -19, -3]
+  - symbol: gPoohBb04Frame5
+    pieces:
+    - [32x32, -17, -21]
+  - symbol: gPoohBb04Frame6
+    pieces:
+    - [32x32, -16, -20]
+  - symbol: gPoohBb04Frame7
+    pieces:
+    - [16x32, -13, -21]
+    - [8x32, 3, -21]
+  - symbol: gPoohBb04Frame8
+    pieces:
+    - [32x32, -18, -18]
+  - symbol: gPoohBb04Frame9
+    pieces:
+    - [32x32, -18, -18]
+  animations:
+  - symbol: gPoohBb04Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 6], [3, 7], [4, 6], [5, 7], [6, 8], [7, 9], [8, 8], [9, 9]]
+  us:
+    address: 0x0970F508
+    size: 5852
+  jp:
+    address: 0x096C7CE4
+    size: 5852
+  eu:
+    address: 0x096DC868
+    size: 5852
+- name: pooh_bl04
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBl04Tiles
+  align: 4
+  cell: [40, 50]
+  anchor: [19, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohBl04Frame0
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBl04Frame1
+    pieces:
+    - [32x32, -17, -35]
+    - [32x8, -17, -3]
+  - symbol: gPoohBl04Frame2
+    pieces:
+    - [32x32, -18, -34]
+    - [32x8, -18, -2]
+  - symbol: gPoohBl04Frame3
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBl04Frame4
+    pieces:
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  - symbol: gPoohBl04Frame5
+    pieces:
+    - [32x32, -19, -20]
+    - [8x32, 13, -20]
+  - symbol: gPoohBl04Frame6
+    pieces:
+    - [32x32, -15, -17]
+  - symbol: gPoohBl04Frame7
+    pieces:
+    - [32x16, -16, -17]
+    - [32x8, -16, -1]
+  - symbol: gPoohBl04Frame8
+    pieces:
+    - [32x32, -17, -17]
+  - symbol: gPoohBl04Frame9
+    pieces:
+    - [32x32, -17, -17]
+  animations:
+  - symbol: gPoohBl04Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 6], [3, 7], [4, 6], [5, 7], [6, 8], [7, 9], [8, 8], [9, 9]]
+  us:
+    address: 0x09710BE4
+    size: 5948
+  jp:
+    address: 0x096C93C0
+    size: 5948
+  eu:
+    address: 0x096DDF44
+    size: 5948
+- name: pooh_ll04
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohLl04Tiles
+  align: 4
+  cell: [45, 46]
+  anchor: [20, 32]
+  columns: 8
+  frames:
+  - symbol: gPoohLl04Frame0
+    pieces:
+    - [32x32, -12, -27]
+  - symbol: gPoohLl04Frame1
+    pieces:
+    - [32x32, -12, -31]
+    - [32x8, -12, 1]
+  - symbol: gPoohLl04Frame2
+    pieces:
+    - [32x32, -17, -30]
+    - [16x8, -1, 2]
+  - symbol: gPoohLl04Frame3
+    pieces:
+    - [32x32, -13, -31]
+  - symbol: gPoohLl04Frame4
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gPoohLl04Frame5
+    pieces:
+    - [32x16, -15, -18]
+    - [32x8, -15, -2]
+    - [8x8, 17, -10]
+  - symbol: gPoohLl04Frame6
+    pieces:
+    - [32x16, -19, -16]
+    - [8x16, 13, -16]
+    - [32x8, -19, 0]
+    - [8x8, 13, 0]
+  - symbol: gPoohLl04Frame7
+    pieces:
+    - [32x16, -20, -14]
+    - [8x16, 12, -14]
+    - [32x8, -20, 2]
+  - symbol: gPoohLl04Frame8
+    pieces:
+    - [32x16, -20, -10]
+    - [8x16, 12, -10]
+    - [8x8, -12, 6]
+  - symbol: gPoohLl04Frame9
+    pieces:
+    - [32x16, -18, -13]
+    - [8x16, 14, -13]
+    - [32x8, -18, 3]
+    - [8x8, 14, 3]
+  animations:
+  - symbol: gPoohLl04Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 6], [3, 7], [4, 6], [5, 7], [6, 8], [7, 9], [8, 8], [9, 9]]
+  us:
+    address: 0x09712320
+    size: 5158
+  jp:
+    address: 0x096CAAFC
+    size: 5158
+  eu:
+    address: 0x096DF680
+    size: 5158
+- name: pooh_fl04
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFl04Tiles
+  align: 4
+  cell: [43, 48]
+  anchor: [21, 32]
+  columns: 8
+  frames:
+  - symbol: gPoohFl04Frame0
+    pieces:
+    - [32x32, -16, -31]
+  - symbol: gPoohFl04Frame1
+    pieces:
+    - [32x32, -13, -31]
+  - symbol: gPoohFl04Frame2
+    pieces:
+    - [32x32, -16, -31]
+  - symbol: gPoohFl04Frame3
+    pieces:
+    - [32x32, -20, -32]
+    - [8x32, 12, -32]
+  - symbol: gPoohFl04Frame4
+    pieces:
+    - [32x32, -18, -29]
+    - [8x32, 14, -29]
+  - symbol: gPoohFl04Frame5
+    pieces:
+    - [32x16, -21, -17]
+    - [8x16, 11, -17]
+    - [32x8, -21, -1]
+  - symbol: gPoohFl04Frame6
+    pieces:
+    - [32x32, -18, -16]
+    - [8x32, 14, -16]
+  - symbol: gPoohFl04Frame7
+    pieces:
+    - [32x16, -19, -14]
+    - [8x16, 13, -14]
+    - [32x8, -19, 2]
+  - symbol: gPoohFl04Frame8
+    pieces:
+    - [32x16, -20, -11]
+    - [8x16, 12, -11]
+    - [32x8, -20, 5]
+  - symbol: gPoohFl04Frame9
+    pieces:
+    - [32x16, -19, -10]
+    - [8x16, 13, -10]
+    - [32x8, -19, 6]
+  animations:
+  - symbol: gPoohFl04Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 6], [3, 7], [4, 6], [5, 7], [6, 8], [7, 9], [8, 8], [9, 9]]
+  us:
+    address: 0x09713748
+    size: 5460
+  jp:
+    address: 0x096CBF24
+    size: 5460
+  eu:
+    address: 0x096E0AA8
+    size: 5460
+- name: pooh_ff04
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFf04Tiles
+  align: 4
+  cell: [36, 50]
+  anchor: [17, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohFf04Frame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohFf04Frame1
+    pieces:
+    - [32x32, -17, -35]
+    - [32x8, -17, -3]
+  - symbol: gPoohFf04Frame2
+    pieces:
+    - [32x32, -17, -32]
+  - symbol: gPoohFf04Frame3
+    pieces:
+    - [32x32, -14, -30]
+  - symbol: gPoohFf04Frame4
+    pieces:
+    - [32x32, -13, -28]
+  - symbol: gPoohFf04Frame5
+    pieces:
+    - [32x32, -15, -21]
+  - symbol: gPoohFf04Frame6
+    pieces:
+    - [32x32, -14, -18]
+  - symbol: gPoohFf04Frame7
+    pieces:
+    - [32x32, -15, -20]
+  - symbol: gPoohFf04Frame8
+    pieces:
+    - [32x32, -15, -17]
+  - symbol: gPoohFf04Frame9
+    pieces:
+    - [32x32, -15, -17]
+  animations:
+  - symbol: gPoohFf04Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 6], [3, 7], [4, 6], [5, 7], [6, 8], [7, 9], [8, 8], [9, 9]]
+  us:
+    address: 0x09714C9C
+    size: 5534
+  jp:
+    address: 0x096CD478
+    size: 5534
+  eu:
+    address: 0x096E1FFC
+    size: 5534
+- name: pooh_bb04a
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBb04aTiles
+  align: 4
+  cell: [34, 51]
+  anchor: [18, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohBb04aFrame0
+    pieces:
+    - [32x32, -18, -16]
+  - symbol: gPoohBb04aFrame1
+    pieces:
+    - [16x32, -14, -17]
+    - [8x32, 2, -17]
+  - symbol: gPoohBb04aFrame2
+    pieces:
+    - [16x32, -13, -20]
+    - [8x32, 3, -20]
+  - symbol: gPoohBb04aFrame3
+    pieces:
+    - [16x32, -13, -21]
+    - [8x32, 3, -21]
+  - symbol: gPoohBb04aFrame4
+    pieces:
+    - [16x32, -12, -23]
+    - [8x32, 4, -23]
+  - symbol: gPoohBb04aFrame5
+    pieces:
+    - [16x32, -13, -25]
+    - [8x32, 3, -25]
+  - symbol: gPoohBb04aFrame6
+    pieces:
+    - [16x32, -12, -27]
+    - [8x32, 4, -27]
+  - symbol: gPoohBb04aFrame7
+    pieces:
+    - [16x16, -9, -20]
+    - [8x16, 7, -20]
+    - [16x8, -9, -4]
+  - symbol: gPoohBb04aFrame8
+    pieces:
+    - [16x16, -8, -19]
+    - [16x8, -8, -3]
+  - symbol: gPoohBb04aFrame9
+    pieces:
+    - [16x32, -12, -26]
+    - [8x32, 4, -26]
+  - symbol: gPoohBb04aFrame10
+    pieces:
+    - [32x32, -16, -29]
+  - symbol: gPoohBb04aFrame11
+    pieces:
+    - [16x32, -11, -35]
+    - [8x32, 5, -35]
+    - [16x8, -11, -3]
+  - symbol: gPoohBb04aFrame12
+    pieces:
+    - [16x32, -10, -35]
+    - [8x32, 6, -35]
+    - [16x8, -10, -3]
+  - symbol: gPoohBb04aFrame13
+    pieces:
+    - [16x32, -10, -35]
+    - [8x32, 6, -35]
+    - [16x8, -10, -3]
+  animations:
+  - symbol: gPoohBb04aAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 11], [1, 11], [2, 11], [3, 11], [4, 11], [5, 11], [6, 11], [7, 11], [8, 12], [9, 12], [10, 12], [11, 12], [12, 12], [13, 30]]
+  us:
+    address: 0x0971623C
+    size: 5802
+  jp:
+    address: 0x096CEA18
+    size: 5802
+  eu:
+    address: 0x096E359C
+    size: 5802
+- name: pooh_bl04a
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBl04aTiles
+  align: 4
+  cell: [35, 52]
+  anchor: [17, 37]
+  columns: 8
+  frames:
+  - symbol: gPoohBl04aFrame0
+    pieces:
+    - [32x32, -16, -17]
+  - symbol: gPoohBl04aFrame1
+    pieces:
+    - [32x16, -16, -15]
+    - [32x8, -16, 1]
+  - symbol: gPoohBl04aFrame2
+    pieces:
+    - [32x16, -16, -15]
+    - [32x8, -16, 1]
+  - symbol: gPoohBl04aFrame3
+    pieces:
+    - [32x16, -17, -17]
+    - [32x8, -17, -1]
+  - symbol: gPoohBl04aFrame4
+    pieces:
+    - [32x16, -16, -18]
+    - [32x8, -16, -2]
+  - symbol: gPoohBl04aFrame5
+    pieces:
+    - [32x16, -14, -20]
+    - [32x8, -14, -4]
+  - symbol: gPoohBl04aFrame6
+    pieces:
+    - [32x32, -14, -24]
+  - symbol: gPoohBl04aFrame7
+    pieces:
+    - [32x16, -15, -20]
+    - [32x8, -15, -4]
+  - symbol: gPoohBl04aFrame8
+    pieces:
+    - [32x16, -14, -19]
+    - [32x8, -14, -3]
+  - symbol: gPoohBl04aFrame9
+    pieces:
+    - [32x32, -16, -26]
+  - symbol: gPoohBl04aFrame10
+    pieces:
+    - [32x32, -14, -29]
+  - symbol: gPoohBl04aFrame11
+    pieces:
+    - [16x32, -9, -36]
+    - [8x32, 7, -36]
+    - [16x8, -9, -4]
+  - symbol: gPoohBl04aFrame12
+    pieces:
+    - [16x32, -11, -37]
+    - [8x32, 5, -37]
+    - [16x8, -11, -5]
+  - symbol: gPoohBl04aFrame13
+    pieces:
+    - [16x32, -8, -36]
+    - [16x8, -8, -4]
+  animations:
+  - symbol: gPoohBl04aAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 11], [1, 11], [2, 11], [3, 11], [4, 11], [5, 11], [6, 11], [7, 11], [8, 12], [9, 12], [10, 12], [11, 12], [12, 12], [13, 30]]
+  us:
+    address: 0x097178E8
+    size: 6226
+  jp:
+    address: 0x096D00C4
+    size: 6226
+  eu:
+    address: 0x096E4C48
+    size: 6226
+- name: pooh_ll04a
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohLl04aTiles
+  align: 4
+  cell: [42, 49]
+  anchor: [21, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohLl04aFrame0
+    pieces:
+    - [32x16, -19, -10]
+    - [8x16, 13, -10]
+    - [8x8, -11, 6]
+  - symbol: gPoohLl04aFrame1
+    pieces:
+    - [32x16, -20, -11]
+    - [8x16, 12, -11]
+    - [32x8, -20, 5]
+  - symbol: gPoohLl04aFrame2
+    pieces:
+    - [32x16, -21, -13]
+    - [8x16, 11, -13]
+    - [32x8, -21, 3]
+  - symbol: gPoohLl04aFrame3
+    pieces:
+    - [32x16, -17, -15]
+    - [32x8, -17, 1]
+  - symbol: gPoohLl04aFrame4
+    pieces:
+    - [32x16, -16, -17]
+    - [32x8, -16, -1]
+  - symbol: gPoohLl04aFrame5
+    pieces:
+    - [32x16, -16, -17]
+    - [32x8, -16, -1]
+  - symbol: gPoohLl04aFrame6
+    pieces:
+    - [32x16, -16, -18]
+    - [32x8, -16, -2]
+  - symbol: gPoohLl04aFrame7
+    pieces:
+    - [32x16, -16, -17]
+    - [32x8, -16, -1]
+  - symbol: gPoohLl04aFrame8
+    pieces:
+    - [32x16, -17, -17]
+    - [32x8, -17, -1]
+  - symbol: gPoohLl04aFrame9
+    pieces:
+    - [32x16, -17, -19]
+    - [32x8, -17, -3]
+  - symbol: gPoohLl04aFrame10
+    pieces:
+    - [32x32, -16, -26]
+  - symbol: gPoohLl04aFrame11
+    pieces:
+    - [16x32, -9, -33]
+    - [8x32, 7, -33]
+    - [16x8, -9, -1]
+  - symbol: gPoohLl04aFrame12
+    pieces:
+    - [16x32, -9, -35]
+    - [8x32, 7, -35]
+    - [16x8, -9, -3]
+  - symbol: gPoohLl04aFrame13
+    pieces:
+    - [16x32, -8, -34]
+    - [16x8, -8, -2]
+  - symbol: gPoohLl04aFrame14
+    pieces:
+    - [16x32, -8, -34]
+    - [16x8, -8, -2, {fresh: true}]
+  animations:
+  - symbol: gPoohLl04aAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 11], [1, 11], [2, 11], [3, 11], [4, 11], [5, 11], [6, 11], [7, 11], [8, 12], [9, 12], [10, 12], [11, 12], [12, 12], [13, 15], [14, 15]]
+  us:
+    address: 0x0971913C
+    size: 6314
+  jp:
+    address: 0x096D1918
+    size: 6314
+  eu:
+    address: 0x096E649C
+    size: 6314
+- name: pooh_fl04a
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFl04aTiles
+  align: 4
+  cell: [40, 48]
+  anchor: [20, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohFl04aFrame0
+    pieces:
+    - [32x16, -20, -11]
+    - [8x16, 12, -11]
+    - [32x8, -20, 5]
+  - symbol: gPoohFl04aFrame1
+    pieces:
+    - [32x16, -17, -12]
+    - [32x8, -17, 4]
+  - symbol: gPoohFl04aFrame2
+    pieces:
+    - [32x16, -16, -12]
+    - [32x8, -16, 4]
+  - symbol: gPoohFl04aFrame3
+    pieces:
+    - [32x16, -15, -14]
+    - [32x8, -15, 2]
+  - symbol: gPoohFl04aFrame4
+    pieces:
+    - [32x16, -16, -15]
+    - [32x8, -16, 1]
+  - symbol: gPoohFl04aFrame5
+    pieces:
+    - [32x16, -16, -15]
+    - [32x8, -16, 1]
+  - symbol: gPoohFl04aFrame6
+    pieces:
+    - [32x16, -15, -15]
+    - [32x8, -15, 1]
+  - symbol: gPoohFl04aFrame7
+    pieces:
+    - [32x16, -16, -15]
+    - [32x8, -16, 1]
+  - symbol: gPoohFl04aFrame8
+    pieces:
+    - [32x16, -17, -16]
+    - [32x8, -17, 0]
+  - symbol: gPoohFl04aFrame9
+    pieces:
+    - [32x16, -16, -18]
+    - [32x8, -16, -2]
+  - symbol: gPoohFl04aFrame10
+    pieces:
+    - [32x16, -17, -20]
+    - [32x8, -17, -4]
+  - symbol: gPoohFl04aFrame11
+    pieces:
+    - [16x32, -12, -28]
+    - [8x32, 4, -28]
+  - symbol: gPoohFl04aFrame12
+    pieces:
+    - [16x32, -12, -34]
+    - [8x32, 4, -34]
+    - [16x8, -12, -2]
+  - symbol: gPoohFl04aFrame13
+    pieces:
+    - [16x32, -11, -35]
+    - [8x32, 5, -35]
+    - [16x8, -11, -3]
+  - symbol: gPoohFl04aFrame14
+    pieces:
+    - [16x32, -11, -35]
+    - [8x32, 5, -35, {fresh: true}]
+    - [16x8, -11, -3, {fresh: true}]
+  animations:
+  - symbol: gPoohFl04aAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 11], [1, 11], [2, 1], [3, 11], [4, 11], [5, 11], [6, 11], [7, 11], [8, 12], [9, 12], [10, 12], [11, 12], [12, 12], [13, 15], [14, 15]]
+  us:
+    address: 0x0971A9E8
+    size: 6346
+  jp:
+    address: 0x096D31C4
+    size: 6346
+  eu:
+    address: 0x096E7D48
+    size: 6346
+- name: pooh_ff04a
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFf04aTiles
+  align: 4
+  cell: [33, 52]
+  anchor: [16, 36]
+  columns: 8
+  frames:
+  - symbol: gPoohFf04aFrame0
+    pieces:
+    - [32x32, -15, -17]
+  - symbol: gPoohFf04aFrame1
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gPoohFf04aFrame2
+    pieces:
+    - [16x32, -12, -16]
+    - [8x32, 4, -16]
+  - symbol: gPoohFf04aFrame3
+    pieces:
+    - [16x32, -13, -18]
+    - [8x32, 3, -18]
+  - symbol: gPoohFf04aFrame4
+    pieces:
+    - [16x32, -13, -16]
+    - [8x32, 3, -16]
+  - symbol: gPoohFf04aFrame5
+    pieces:
+    - [16x32, -12, -17]
+    - [8x32, 4, -17]
+  - symbol: gPoohFf04aFrame6
+    pieces:
+    - [16x32, -13, -17]
+    - [8x32, 3, -17]
+  - symbol: gPoohFf04aFrame7
+    pieces:
+    - [16x32, -12, -17]
+    - [8x32, 4, -17]
+  - symbol: gPoohFf04aFrame8
+    pieces:
+    - [16x32, -13, -19]
+    - [8x32, 3, -19]
+  - symbol: gPoohFf04aFrame9
+    pieces:
+    - [16x32, -13, -18]
+    - [8x32, 3, -18]
+  - symbol: gPoohFf04aFrame10
+    pieces:
+    - [16x16, -9, -22]
+    - [8x16, 7, -22]
+    - [16x8, -9, -6]
+  - symbol: gPoohFf04aFrame11
+    pieces:
+    - [16x32, -13, -29]
+    - [8x32, 3, -29]
+  - symbol: gPoohFf04aFrame12
+    pieces:
+    - [16x32, -11, -35]
+    - [8x32, 5, -35]
+    - [16x8, -11, -3]
+  - symbol: gPoohFf04aFrame13
+    pieces:
+    - [16x32, -11, -36]
+    - [8x32, 5, -36]
+    - [16x8, -11, -4]
+  - symbol: gPoohFf04aFrame14
+    pieces:
+    - [16x32, -11, -36]
+    - [8x32, 5, -36, {fresh: true}]
+    - [16x8, -11, -4, {fresh: true}]
+  animations:
+  - symbol: gPoohFf04aAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 11], [1, 11], [2, 11], [3, 11], [4, 11], [5, 11], [6, 11], [7, 11], [8, 12], [9, 12], [10, 12], [11, 12], [12, 12], [13, 15], [14, 15]]
+  us:
+    address: 0x0971C2B4
+    size: 6398
+  jp:
+    address: 0x096D4A90
+    size: 6398
+  eu:
+    address: 0x096E9614
+    size: 6398
+- name: pooh_fl07
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFl07Tiles
+  align: 4
+  cell: [42, 61]
+  anchor: [29, 51]
+  columns: 8
+  frames:
+  - symbol: gPoohFl07Frame0
+    pieces:
+    - [16x32, -11, -35]
+    - [8x32, 5, -35]
+    - [16x8, -11, -3]
+  - symbol: gPoohFl07Frame1
+    pieces:
+    - [16x32, -11, -36]
+    - [8x32, 5, -36]
+    - [16x8, -11, -4]
+  - symbol: gPoohFl07Frame2
+    pieces:
+    - [16x32, -17, -36]
+    - [8x32, -1, -36]
+    - [16x8, -9, -4]
+  - symbol: gPoohFl07Frame3
+    pieces:
+    - [16x32, -15, -30]
+    - [8x32, 1, -30]
+    - [8x8, 1, 2]
+  - symbol: gPoohFl07Frame4
+    pieces:
+    - [32x16, -25, -29]
+    - [32x8, -25, -13]
+  - symbol: gPoohFl07Frame5
+    pieces:
+    - [32x16, -29, -32]
+    - [32x8, -29, -16]
+  - symbol: gPoohFl07Frame6
+    pieces:
+    - [32x16, -28, -31]
+    - [32x8, -28, -15]
+  - symbol: gPoohFl07Frame7
+    pieces:
+    - [32x16, -27, -32]
+    - [32x8, -27, -16]
+  - symbol: gPoohFl07Frame8
+    pieces:
+    - [32x16, -27, -32]
+    - [32x8, -27, -16]
+  - symbol: gPoohFl07Frame9
+    pieces:
+    - [32x16, -29, -32]
+    - [32x8, -29, -16]
+  - symbol: gPoohFl07Frame10
+    pieces:
+    - [32x32, -28, -39]
+  - symbol: gPoohFl07Frame11
+    pieces:
+    - [16x32, -20, -49]
+    - [8x32, -4, -49]
+    - [16x8, -20, -17]
+  - symbol: gPoohFl07Frame12
+    pieces:
+    - [32x16, -25, -31]
+    - [32x8, -25, -15]
+  - symbol: gPoohFl07Frame13
+    pieces:
+    - [32x16, -29, -34]
+    - [32x8, -29, -18]
+  - symbol: gPoohFl07Frame14
+    pieces:
+    - [32x16, -28, -33]
+    - [32x8, -28, -17]
+  - symbol: gPoohFl07Frame15
+    pieces:
+    - [32x16, -27, -34]
+    - [32x8, -27, -18]
+  - symbol: gPoohFl07Frame16
+    pieces:
+    - [32x16, -27, -34]
+    - [32x8, -27, -18]
+  - symbol: gPoohFl07Frame17
+    pieces:
+    - [32x16, -29, -34]
+    - [32x8, -29, -18]
+  - symbol: gPoohFl07Frame18
+    pieces:
+    - [32x32, -28, -41]
+  - symbol: gPoohFl07Frame19
+    pieces:
+    - [16x32, -20, -51]
+    - [8x32, -4, -51]
+    - [16x8, -20, -19]
+  animations:
+  - symbol: gPoohFl07Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 15], [1, 10], [2, 10], [3, 10], [4, 10], [5, 10], [6, 10], [7, 10], [8, 10], [9, 10], [10, 10], [11, 15]]
+  - symbol: gPoohFl07Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 15], [1, 10], [2, 10], [3, 10], [12, 10], [13, 10], [14, 10], [15, 10], [16, 10], [17, 10], [18, 10], [19, 15]]
+  us:
+    address: 0x0971DBB4
+    size: 5028
+  jp:
+    address: 0x096D6390
+    size: 5028
+  eu:
+    address: 0x096EAF14
+    size: 5028
+- name: pooh_bl07
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBl07Tiles
+  align: 4
+  cell: [43, 61]
+  anchor: [30, 53]
+  columns: 8
+  frames:
+  - symbol: gPoohBl07Frame0
+    pieces:
+    - [16x32, -11, -34]
+    - [8x32, 5, -34]
+    - [16x8, -11, -2]
+  - symbol: gPoohBl07Frame1
+    pieces:
+    - [16x32, -12, -32]
+    - [8x32, 4, -32]
+    - [16x8, -12, 0]
+  - symbol: gPoohBl07Frame2
+    pieces:
+    - [16x32, -17, -32]
+    - [8x32, -1, -32]
+    - [16x8, -9, 0]
+  - symbol: gPoohBl07Frame3
+    pieces:
+    - [32x32, -21, -32]
+    - [32x8, -21, 0]
+  - symbol: gPoohBl07Frame4
+    pieces:
+    - [32x32, -20, -33]
+  - symbol: gPoohBl07Frame5
+    pieces:
+    - [32x32, -24, -33]
+  - symbol: gPoohBl07Frame6
+    pieces:
+    - [32x32, -25, -35]
+  - symbol: gPoohBl07Frame7
+    pieces:
+    - [32x32, -28, -37]
+  - symbol: gPoohBl07Frame8
+    pieces:
+    - [32x16, -30, -33]
+    - [32x8, -30, -17]
+  - symbol: gPoohBl07Frame9
+    pieces:
+    - [32x16, -30, -35]
+    - [32x8, -30, -19]
+  - symbol: gPoohBl07Frame10
+    pieces:
+    - [16x32, -27, -42]
+    - [8x32, -11, -42]
+  - symbol: gPoohBl07Frame11
+    pieces:
+    - [16x32, -22, -48]
+    - [8x32, -6, -48]
+    - [16x8, -22, -16]
+  - symbol: gPoohBl07Frame12
+    pieces:
+    - [32x32, -20, -37]
+  - symbol: gPoohBl07Frame13
+    pieces:
+    - [32x32, -24, -38]
+  - symbol: gPoohBl07Frame14
+    pieces:
+    - [32x32, -25, -40]
+  - symbol: gPoohBl07Frame15
+    pieces:
+    - [32x32, -27, -41]
+  - symbol: gPoohBl07Frame16
+    pieces:
+    - [32x16, -29, -37]
+    - [32x8, -29, -21]
+  - symbol: gPoohBl07Frame17
+    pieces:
+    - [32x16, -29, -39]
+    - [32x8, -29, -23]
+  - symbol: gPoohBl07Frame18
+    pieces:
+    - [16x32, -25, -47]
+    - [8x32, -9, -47]
+  - symbol: gPoohBl07Frame19
+    pieces:
+    - [16x32, -20, -53]
+    - [8x32, -4, -53]
+    - [16x8, -20, -21]
+  animations:
+  - symbol: gPoohBl07Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 15], [1, 10], [2, 10], [3, 10], [4, 10], [5, 10], [6, 10], [7, 10], [8, 10], [9, 10], [10, 10], [11, 15]]
+  - symbol: gPoohBl07Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 15], [1, 10], [2, 10], [3, 10], [12, 10], [13, 10], [14, 10], [15, 10], [16, 10], [17, 10], [18, 10], [19, 15]]
+  us:
+    address: 0x0971EF58
+    size: 5594
+  jp:
+    address: 0x096D7734
+    size: 5594
+  eu:
+    address: 0x096EC2B8
+    size: 5594
+- name: pooh_fl03
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFl03Tiles
+  align: 4
+  cell: [35, 41]
+  anchor: [18, 36]
+  columns: 8
+  frames:
+  - symbol: gPoohFl03Frame0
+    pieces:
+    - [32x32, -18, -35]
+    - [32x8, -18, -3]
+  - symbol: gPoohFl03Frame1
+    pieces:
+    - [32x32, -18, -27]
+  - symbol: gPoohFl03Frame2
+    pieces:
+    - [32x32, -17, -31]
+  - symbol: gPoohFl03Frame3
+    pieces:
+    - [32x32, -15, -36]
+  - symbol: gPoohFl03Frame4
+    pieces:
+    - [32x32, -17, -32]
+  - symbol: gPoohFl03Frame5
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohFl03Frame6
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohFl03Frame7
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  animations:
+  - symbol: gPoohFl03Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [1, 14], [2, 14], [3, 14], [4, 10], [5, 15], [6, 15], [7, 40]]
+  us:
+    address: 0x09720534
+    size: 4750
+  jp:
+    address: 0x096D8D10
+    size: 4750
+  eu:
+    address: 0x096ED894
+    size: 4750
+- name: pooh_bl03
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohBl03Tiles
+  align: 4
+  cell: [33, 46]
+  anchor: [16, 40]
+  columns: 8
+  frames:
+  - symbol: gPoohBl03Frame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl03Frame1
+    pieces:
+    - [32x32, -15, -34]
+    - [32x8, -15, -2]
+  - symbol: gPoohBl03Frame2
+    pieces:
+    - [32x32, -16, -38]
+    - [32x8, -16, -6]
+  - symbol: gPoohBl03Frame3
+    pieces:
+    - [32x32, -16, -40]
+    - [32x8, -16, -8]
+  - symbol: gPoohBl03Frame4
+    pieces:
+    - [32x32, -16, -39]
+    - [32x8, -16, -7]
+  - symbol: gPoohBl03Frame5
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl03Frame6
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gPoohBl03Frame7
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  animations:
+  - symbol: gPoohBl03Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 9], [2, 9], [3, 10], [4, 9], [5, 9], [6, 9], [7, 10]]
+  us:
+    address: 0x097217C4
+    size: 5286
+  jp:
+    address: 0x096D9FA0
+    size: 5286
+  eu:
+    address: 0x096EEB24
+    size: 5286
+- name: pooh_ll10
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohLl10Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 36]
+  columns: 6
+  frames:
+  - symbol: gPoohLl10Frame0
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohLl10Frame1
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohLl10Frame2
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohLl10Frame3
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohLl10Frame4
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohLl10Frame5
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  animations:
+  - symbol: gPoohLl10Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [5, 5]]
+  us:
+    address: 0x09722C6C
+    size: 3966
+  jp:
+    address: 0x096DB448
+    size: 3966
+  eu:
+    address: 0x096EFFCC
+    size: 3966
+- name: pooh_ff10
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFf10Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [16, 36]
+  columns: 6
+  frames:
+  - symbol: gPoohFf10Frame0
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohFf10Frame1
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohFf10Frame2
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohFf10Frame3
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohFf10Frame4
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  - symbol: gPoohFf10Frame5
+    pieces:
+    - [32x32, -16, -36]
+    - [32x8, -16, -4]
+  animations:
+  - symbol: gPoohFf10Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [5, 5]]
+  us:
+    address: 0x09723BEC
+    size: 3966
+  jp:
+    address: 0x096DC3C8
+    size: 3966
+  eu:
+    address: 0x096F0F4C
+    size: 3966
+- name: gPoohOwlDescentTiles
+  format: sprite_sheet
+  align: 4
+  cell: [34, 100]
+  anchor: [16, 50]
+  columns: 6
+  frames:
+  - symbol: gPoohOwlDescentFrame0
+    pieces:
+    - [32x32, -15, -6]
+    - [32x16, -15, 26]
+    - [32x8, -15, 42]
+  - symbol: gPoohOwlDescentFrame1
+    pieces:
+    - [32x16, -15, -6]
+    - [32x32, -14, 10]
+    - [32x8, -14, 42]
+  - symbol: gPoohOwlDescentFrame2
+    pieces:
+    - [32x16, -15, -6]
+    - [32x32, -16, 10]
+    - [32x8, -16, 42]
+  - symbol: gPoohOwlDescentFrame3
+    pieces:
+    - [32x32, -15, -50]
+    - [32x16, -15, -18]
+    - [32x8, -15, -2]
+  - symbol: gPoohOwlDescentFrame4
+    pieces:
+    - [32x16, -15, -50]
+    - [32x32, -14, -34]
+    - [32x8, -14, -2]
+  - symbol: gPoohOwlDescentFrame5
+    pieces:
+    - [32x16, -15, -50]
+    - [32x32, -16, -34]
+    - [32x8, -16, -2]
+  animations:
+  - symbol: gPoohOwlDescentAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 20], [0, 8], [2, 13], [0, 5]]
+  - symbol: gPoohOwlDescentAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 20], [3, 8], [5, 13], [3, 5]]
+  us:
+    address: 0x09724B6C
+    size: 2096
+  jp:
+    address: 0x096DD348
+    size: 2096
+  eu:
+    address: 0x096F1ECC
+    size: 2096
+- name: pooh_fl05
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFl05Tiles
+  align: 4
+  cell: [51, 47]
+  anchor: [23, 35]
+  columns: 8
+  frames:
+  - symbol: gPoohFl05Frame0
+    pieces:
+    - [16x32, -11, -35]
+    - [8x32, 5, -35]
+    - [16x8, -11, -3]
+    - [8x8, 5, -3]
+  - symbol: gPoohFl05Frame1
+    pieces:
+    - [16x32, -10, -35]
+    - [8x32, 6, -35]
+    - [16x8, -10, -3]
+    - [8x8, 6, -3]
+  - symbol: gPoohFl05Frame2
+    pieces:
+    - [16x32, -11, -33]
+    - [8x32, 5, -33]
+    - [16x8, -11, -1]
+    - [8x8, 5, -1]
+  - symbol: gPoohFl05Frame3
+    pieces:
+    - [16x32, -11, -28]
+    - [8x32, 5, -28]
+  - symbol: gPoohFl05Frame4
+    pieces:
+    - [16x32, -10, -29]
+    - [8x32, 6, -29]
+  - symbol: gPoohFl05Frame5
+    pieces:
+    - [16x32, -9, -31]
+    - [8x32, 7, -31]
+    - [16x8, -9, 1]
+    - [8x8, 7, 1]
+  - symbol: gPoohFl05Frame6
+    pieces:
+    - [16x32, -10, -27]
+    - [8x32, 6, -27]
+  - symbol: gPoohFl05Frame7
+    pieces:
+    - [16x32, -9, -26]
+    - [8x32, 7, -26]
+  - symbol: gPoohFl05Frame8
+    pieces:
+    - [16x32, -7, -27]
+    - [8x32, 9, -27]
+  - symbol: gPoohFl05Frame9
+    pieces:
+    - [16x32, -6, -30]
+    - [8x32, 10, -30]
+  - symbol: gPoohFl05Frame10
+    pieces:
+    - [32x32, -9, -27]
+  - symbol: gPoohFl05Frame11
+    pieces:
+    - [32x16, -8, -21]
+    - [32x8, -8, -5]
+  - symbol: gPoohFl05Frame12
+    pieces:
+    - [32x16, -7, -17]
+    - [32x8, -7, -1]
+  - symbol: gPoohFl05Frame13
+    pieces:
+    - [32x16, -12, -16]
+    - [8x16, 20, -16]
+    - [32x8, -12, 0]
+  - symbol: gPoohFl05Frame14
+    pieces:
+    - [32x16, -8, -16]
+    - [32x8, -8, 0]
+  - symbol: gPoohFl05Frame15
+    pieces:
+    - [32x16, -8, -16]
+    - [32x8, -8, 0, {fresh: true}]
+  - symbol: gPoohFl05Frame16
+    pieces:
+    - [32x32, -7, -25]
+  - symbol: gPoohFl05Frame17
+    pieces:
+    - [32x32, -6, -27]
+  - symbol: gPoohFl05Frame18
+    pieces:
+    - [32x32, -12, -29]
+    - [32x8, -12, 3]
+  - symbol: gPoohFl05Frame19
+    pieces:
+    - [16x32, -8, -28]
+    - [8x32, 8, -28]
+    - [16x8, -8, 4]
+  - symbol: gPoohFl05Frame20
+    pieces:
+    - [16x32, -9, -28]
+    - [8x32, 7, -28]
+  - symbol: gPoohFl05Frame21
+    pieces:
+    - [16x32, -8, -27]
+    - [8x32, 8, -27]
+  - symbol: gPoohFl05Frame22
+    pieces:
+    - [16x32, -9, -29]
+    - [8x32, 7, -29]
+    - [16x8, -9, 3]
+  - symbol: gPoohFl05Frame23
+    pieces:
+    - [16x32, -10, -29]
+    - [8x32, 6, -29]
+    - [16x8, -10, 3]
+  - symbol: gPoohFl05Frame24
+    pieces:
+    - [16x32, -15, -25]
+    - [8x32, 1, -25]
+  - symbol: gPoohFl05Frame25
+    pieces:
+    - [32x16, -21, -19]
+    - [32x8, -21, -3]
+  - symbol: gPoohFl05Frame26
+    pieces:
+    - [32x16, -23, -15]
+    - [32x8, -23, 1]
+  - symbol: gPoohFl05Frame27
+    pieces:
+    - [32x16, -22, -17]
+    - [32x8, -22, -1]
+  - symbol: gPoohFl05Frame28
+    pieces:
+    - [32x16, -21, -17]
+    - [32x8, -21, -1]
+  - symbol: gPoohFl05Frame29
+    pieces:
+    - [32x16, -21, -19]
+    - [32x8, -21, -3]
+  - symbol: gPoohFl05Frame30
+    pieces:
+    - [16x32, -18, -26]
+    - [8x32, -2, -26]
+  - symbol: gPoohFl05Frame31
+    pieces:
+    - [16x32, -14, -34]
+    - [8x32, 2, -34]
+    - [16x8, -14, -2]
+    - [8x8, 2, -2]
+  - symbol: gPoohFl05Frame32
+    pieces:
+    - [16x32, -9, -26]
+    - [8x32, 7, -26]
+  - symbol: gPoohFl05Frame33
+    pieces:
+    - [16x16, 1, -33]
+  - symbol: gPoohFl05Frame34
+    pieces:
+    - [16x16, 1, -33]
+  - symbol: gPoohFl05Frame35
+    pieces:
+    - [16x16, 1, -33]
+  - symbol: gPoohFl05Frame36
+    pieces:
+    - [16x16, 1, -33]
+  - symbol: gPoohFl05Frame37
+    pieces:
+    - [16x16, -17, -33]
+  - symbol: gPoohFl05Frame38
+    pieces:
+    - [16x16, -17, -33]
+  - symbol: gPoohFl05Frame39
+    pieces:
+    - [16x16, -17, -33]
+  - symbol: gPoohFl05Frame40
+    pieces:
+    - [16x16, -17, -33]
+  - symbol: gPoohFl05Frame41
+    pieces: []
+  - symbol: gPoohFl05Frame42
+    pieces:
+    - [16x32, -10, -35]
+    - [8x32, 6, -35]
+    - [16x8, -10, -3]
+    - [8x8, 6, -3]
+  - symbol: gPoohFl05Frame43
+    pieces:
+    - [16x32, -13, -33]
+    - [8x32, 3, -33]
+    - [16x8, -13, -1]
+    - [8x8, 3, -1]
+  - symbol: gPoohFl05Frame44
+    pieces:
+    - [16x32, -14, -26]
+    - [8x32, 2, -26]
+  - symbol: gPoohFl05Frame45
+    pieces:
+    - [16x32, -13, -26]
+    - [8x32, 3, -26]
+  - symbol: gPoohFl05Frame46
+    pieces:
+    - [16x32, -12, -29]
+    - [8x32, 4, -29]
+    - [16x8, -12, 3]
+    - [8x8, 4, 3]
+  - symbol: gPoohFl05Frame47
+    pieces:
+    - [16x32, -14, -25]
+    - [8x32, 2, -25]
+  animations:
+  - symbol: gPoohFl05Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 8], [2, 9], [3, 10], [4, 10], [5, 10], [6, 10]]
+  - symbol: gPoohFl05Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gPoohFl05Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 10], [8, 8], [9, 9], [10, 10], [11, 10], [12, 10]]
+  - symbol: gPoohFl05Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 50], [14, 30], [15, 30], [14, 30]]
+  - symbol: gPoohFl05Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 12], [17, 12], [18, 12], [19, 12], [20, 12], [7, 30]]
+  - symbol: gPoohFl05Anim5
+    fields: {originX: 64, originY: 64}
+    frames: [[21, 10], [22, 10], [23, 10], [24, 10], [25, 10], [26, 10], [27, 10], [28, 10], [29, 10], [30, 10], [31, 10], [0, 10]]
+  - symbol: gPoohFl05Anim6
+    fields: {originX: 64, originY: 64}
+    frames: [[32, 4]]
+  - symbol: gPoohFl05Anim7
+    fields: {originX: 64, originY: 64}
+    frames: [[41, 50], [33, 22], [34, 23], [35, 22], [36, 23]]
+  - symbol: gPoohFl05Anim8
+    fields: {originX: 64, originY: 64}
+    frames: [[41, 50], [37, 22], [38, 23], [39, 22], [40, 23]]
+  - symbol: gPoohFl05Anim9
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [42, 8], [43, 9], [44, 10], [45, 10], [46, 10], [47, 10]]
+  us:
+    address: 0x0972539C
+    size: 16156
+  jp:
+    address: 0x096DDB78
+    size: 16156
+  eu:
+    address: 0x096F26FC
+    size: 16156
+- name: pooh_fl06
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFl06Tiles
+  align: 4
+  cell: [25, 41]
+  anchor: [11, 36]
+  columns: 8
+  frames:
+  - symbol: gPoohFl06Frame0
+    pieces:
+    - [16x32, -11, -35]
+    - [8x32, 5, -35]
+    - [16x8, -11, -3]
+  - symbol: gPoohFl06Frame1
+    pieces:
+    - [16x32, -11, -36]
+    - [8x32, 5, -36]
+    - [16x8, -11, -4]
+  - symbol: gPoohFl06Frame2
+    pieces:
+    - [16x32, -9, -36]
+    - [16x8, -9, -4]
+  - symbol: gPoohFl06Frame3
+    pieces:
+    - [16x32, -9, -36]
+    - [16x8, -9, -4, {fresh: true}]
+  - symbol: gPoohFl06Frame4
+    pieces:
+    - [16x32, -9, -36]
+    - [16x8, -9, -4]
+  - symbol: gPoohFl06Frame5
+    pieces:
+    - [16x32, -9, -36]
+    - [16x8, -9, -4, {fresh: true}]
+  - symbol: gPoohFl06Frame6
+    pieces:
+    - [16x32, -9, -36]
+    - [16x8, -9, -4, {fresh: true}]
+  - symbol: gPoohFl06Frame7
+    pieces:
+    - [16x32, -10, -36]
+    - [16x8, -10, -4]
+    - [8x8, 6, -36]
+  animations:
+  - symbol: gPoohFl06Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [1, 10], [2, 10], [3, 10], [4, 20], [5, 12], [4, 12], [5, 12], [4, 12], [5, 12], [6, 10], [7, 10], [0, 20]]
+  - symbol: gPoohFl06Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [1, 10], [2, 10], [3, 10], [4, 20]]
+  - symbol: gPoohFl06Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 12], [4, 12]]
+  - symbol: gPoohFl06Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 10], [7, 10], [0, 20]]
+  us:
+    address: 0x097292B8
+    size: 3110
+  jp:
+    address: 0x096E1A94
+    size: 3110
+  eu:
+    address: 0x096F6618
+    size: 3110
+- name: pooh_fl09
+  format: sprite_sheet
+  palette: pooh
+  symbol: gPoohFl09Tiles
+  align: 4
+  cell: [29, 34]
+  anchor: [16, 26]
+  columns: 8
+  frames:
+  - symbol: gPoohFl09Frame0
+    pieces:
+    - [16x32, -12, -24]
+    - [8x32, 4, -24]
+  - symbol: gPoohFl09Frame1
+    pieces:
+    - [16x32, -12, -24]
+    - [8x32, 4, -24]
+  - symbol: gPoohFl09Frame2
+    pieces:
+    - [16x32, -8, -25]
+  - symbol: gPoohFl09Frame3
+    pieces:
+    - [16x32, -8, -25]
+  - symbol: gPoohFl09Frame4
+    pieces:
+    - [16x32, -8, -25]
+  - symbol: gPoohFl09Frame5
+    pieces:
+    - [16x32, -8, -25]
+  - symbol: gPoohFl09Frame6
+    pieces:
+    - [16x32, -8, -25]
+  - symbol: gPoohFl09Frame7
+    pieces:
+    - [16x32, -16, -25]
+    - [8x32, 0, -25]
+  - symbol: gPoohFl09Frame8
+    pieces:
+    - [16x32, -16, -25]
+    - [8x32, 0, -25]
+  - symbol: gPoohFl09Frame9
+    pieces:
+    - [16x32, -16, -25]
+    - [8x32, 0, -25]
+  - symbol: gPoohFl09Frame10
+    pieces:
+    - [16x32, -8, -25]
+  - symbol: gPoohFl09Frame11
+    pieces:
+    - [16x32, -8, -25]
+    - [8x16, -16, -9]
+  - symbol: gPoohFl09Frame12
+    pieces:
+    - [16x32, -11, -26]
+    - [8x32, 5, -26]
+  - symbol: gPoohFl09Frame13
+    pieces:
+    - [16x32, -12, -24]
+    - [8x32, 4, -24]
+  - symbol: gPoohFl09Frame14
+    pieces:
+    - [16x32, -12, -24]
+    - [8x32, 4, -24]
+  - symbol: gPoohFl09Frame15
+    pieces:
+    - [16x32, -12, -24]
+    - [8x32, 4, -24]
+  - symbol: gPoohFl09Frame16
+    pieces:
+    - [16x32, -12, -24]
+    - [8x32, 4, -24]
+  - symbol: gPoohFl09Frame17
+    pieces:
+    - [16x32, -12, -24]
+    - [8x32, 4, -24]
+  - symbol: gPoohFl09Frame18
+    pieces:
+    - [16x32, -16, -25]
+    - [8x32, 0, -25]
+  - symbol: gPoohFl09Frame19
+    pieces:
+    - [16x32, -13, -25]
+    - [8x32, 3, -25]
+  - symbol: gPoohFl09Frame20
+    pieces:
+    - [16x32, -13, -25]
+    - [8x32, 3, -25]
+  animations:
+  - symbol: gPoohFl09Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [1, 10], [2, 10], [3, 25], [5, 15], [7, 20], [5, 12], [6, 12], [5, 20], [7, 10], [8, 15], [9, 17], [8, 15], [9, 19], [4, 12], [6, 12], [5, 12], [4, 20], [5, 15], [6, 20], [5, 20], [3, 20], [10, 20], [11, 20], [12, 50], [18, 15], [19, 12], [20, 12], [13, 60], [14, 15], [15, 15], [16, 15], [17, 20]]
+  - symbol: gPoohFl09Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [1, 10], [2, 10], [3, 20], [4, 12], [6, 12], [5, 12], [4, 20], [5, 12], [6, 20], [5, 20], [3, 35], [10, 20], [11, 20], [12, 35], [18, 15], [19, 12], [20, 12], [13, 60], [14, 15], [15, 15], [16, 15], [17, 20]]
+  - symbol: gPoohFl09Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [1, 10], [2, 10], [10, 20], [11, 20], [12, 30], [18, 15], [19, 12], [20, 12], [13, 60], [14, 15], [15, 15], [16, 15], [17, 15]]
+  us:
+    address: 0x09729EE0
+    size: 7830
+  jp:
+    address: 0x096E26BC
+    size: 7830
+  eu:
+    address: 0x096F7240
+    size: 7830
+- name: gPooTrapTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [16, 10]
+  columns: 1
+  frames:
+  - symbol: gPooTrapFrame0
+    pieces:
+    - [32x16, -16, -10]
+  animations:
+  - symbol: gPooTrapAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0972BD78
+    size: 276
+  jp:
+    address: 0x096E4554
+    size: 276
+  eu:
+    address: 0x096F90D8
+    size: 276
+- name: trap00_01bb
+  format: sprite_sheet
+  palette: trap00_01
+  symbol: gTrap0001bbTiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 4
+  frames:
+  - symbol: gTrap0001bbFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gTrap0001bbFrame1
+    pieces:
+    - [32x32, -16, -27]
+  - symbol: gTrap0001bbFrame2
+    pieces:
+    - [32x32, -16, -19]
+  - symbol: gTrap0001bbFrame3
+    pieces:
+    - [32x16, -16, -11]
+  animations:
+  - symbol: gTrap0001bbAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 40]]
+  us:
+    address: 0x0972BE8C
+    size: 1988
+  jp:
+    address: 0x096E4668
+    size: 1988
+  eu:
+    address: 0x096F91EC
+    size: 1988
+- name: trap00_01ff
+  format: sprite_sheet
+  palette: trap00_01
+  symbol: gTrap0001ffTiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 4
+  frames:
+  - symbol: gTrap0001ffFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gTrap0001ffFrame1
+    pieces:
+    - [32x32, -16, -27, {fresh: true}]
+  - symbol: gTrap0001ffFrame2
+    pieces:
+    - [32x32, -16, -19]
+  - symbol: gTrap0001ffFrame3
+    pieces:
+    - [32x16, -16, -11]
+  animations:
+  - symbol: gTrap0001ffAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 40]]
+  us:
+    address: 0x0972C650
+    size: 1988
+  jp:
+    address: 0x096E4E2C
+    size: 1988
+  eu:
+    address: 0x096F99B0
+    size: 1988
+- name: trap00_01bl
+  format: sprite_sheet
+  palette: trap00_01
+  symbol: gTrap0001blTiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 4
+  frames:
+  - symbol: gTrap0001blFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gTrap0001blFrame1
+    pieces:
+    - [32x32, -16, -27, {fresh: true}]
+  - symbol: gTrap0001blFrame2
+    pieces:
+    - [32x32, -16, -19]
+  - symbol: gTrap0001blFrame3
+    pieces:
+    - [32x16, -16, -11]
+  animations:
+  - symbol: gTrap0001blAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 40]]
+  us:
+    address: 0x0972CE14
+    size: 1988
+  jp:
+    address: 0x096E55F0
+    size: 1988
+  eu:
+    address: 0x096FA174
+    size: 1988
+- name: trap00_01br
+  format: sprite_sheet
+  palette: trap00_01
+  symbol: gTrap0001brTiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 4
+  frames:
+  - symbol: gTrap0001brFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gTrap0001brFrame1
+    pieces:
+    - [32x32, -16, -27, {fresh: true}]
+  - symbol: gTrap0001brFrame2
+    pieces:
+    - [32x32, -16, -19]
+  - symbol: gTrap0001brFrame3
+    pieces:
+    - [32x16, -16, -11]
+  animations:
+  - symbol: gTrap0001brAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 40]]
+  us:
+    address: 0x0972D5D8
+    size: 1988
+  jp:
+    address: 0x096E5DB4
+    size: 1988
+  eu:
+    address: 0x096FA938
+    size: 1988
+- name: trap00_01fl
+  format: sprite_sheet
+  palette: trap00_01
+  symbol: gTrap0001flTiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 4
+  frames:
+  - symbol: gTrap0001flFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gTrap0001flFrame1
+    pieces:
+    - [32x32, -16, -27, {fresh: true}]
+  - symbol: gTrap0001flFrame2
+    pieces:
+    - [32x32, -16, -19]
+  - symbol: gTrap0001flFrame3
+    pieces:
+    - [32x16, -16, -11]
+  animations:
+  - symbol: gTrap0001flAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 40]]
+  us:
+    address: 0x0972DD9C
+    size: 1988
+  jp:
+    address: 0x096E6578
+    size: 1988
+  eu:
+    address: 0x096FB0FC
+    size: 1988
+- name: gPooMapObjHit0Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [72, 32]
+  anchor: [16, 8]
+  columns: 6
+  frames:
+  - symbol: gPooMapObjHit0Frame0
+    pieces:
+    - [16x32, -8, -8]
+    - [16x32, 33, -8]
+  - symbol: gPooMapObjHit0Frame1
+    pieces:
+    - [16x32, -13, -8]
+    - [16x32, 40, -8]
+  - symbol: gPooMapObjHit0Frame2
+    pieces:
+    - [16x32, -16, -8]
+    - [16x32, 40, -8]
+  - symbol: gPooMapObjHit0Frame3
+    pieces:
+    - [16x32, -14, -8]
+    - [16x32, 40, -8]
+  - symbol: gPooMapObjHit0Frame4
+    pieces:
+    - [16x32, -8, -8]
+    - [16x32, 40, -8]
+  - symbol: gPooMapObjHit0Frame5
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gPooMapObjHit0Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 11], [2, 13], [3, 12], [4, 11], [5, 30]]
+  us:
+    address: 0x09760C88
+    size: 2712
+  jp:
+    address: 0x09719464
+    size: 2712
+  eu:
+    address: 0x0972DFE8
+    size: 2712
+- name: trap00_01fr
+  format: sprite_sheet
+  palette: trap00_01
+  symbol: gTrap0001frTiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 4
+  frames:
+  - symbol: gTrap0001frFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gTrap0001frFrame1
+    pieces:
+    - [32x32, -16, -27, {fresh: true}]
+  - symbol: gTrap0001frFrame2
+    pieces:
+    - [32x32, -16, -19]
+  - symbol: gTrap0001frFrame3
+    pieces:
+    - [32x16, -16, -11]
+  animations:
+  - symbol: gTrap0001frAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 40]]
+  us:
+    address: 0x0972E560
+    size: 1988
+  jp:
+    address: 0x096E6D3C
+    size: 1988
+  eu:
+    address: 0x096FB8C0
+    size: 1988
+- name: gPooMapObjHit1Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [72, 40]
+  anchor: [13, 8]
+  columns: 8
+  frames:
+  - symbol: gPooMapObjHit1Frame0
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit1Frame1
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit1Frame2
+    pieces:
+    - [16x16, 2, -8, {layer: 1}]
+    - [16x16, 16, -6, {hflip: true, same: [2, 0]}]
+    - [32x32, 0, 0, {same: [0, 0]}]
+  - symbol: gPooMapObjHit1Frame3
+    pieces:
+    - [16x16, -5, -8, {layer: 1}]
+    - [16x16, 18, -8, {layer: 1}]
+    - [32x32, 0, 0, {same: [1, 0]}]
+  - symbol: gPooMapObjHit1Frame4
+    pieces:
+    - [16x16, -13, 0, {layer: 1}]
+    - [16x16, 26, -8, {layer: 1}]
+    - [32x32, 0, 0, {same: [1, 0]}]
+  - symbol: gPooMapObjHit1Frame5
+    pieces:
+    - [16x16, -13, 0, {layer: 1}]
+    - [16x16, 26, 0, {layer: 1}]
+    - [32x32, 0, 0, {same: [1, 0]}]
+  - symbol: gPooMapObjHit1Frame6
+    pieces:
+    - [16x16, -13, 0, {layer: 1}]
+    - [16x16, 32, 0]
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit1Frame7
+    pieces:
+    - [16x16, -13, 0, {layer: 1}]
+    - [16x16, 34, 0]
+    - [32x32, 0, 0, {same: [1, 0]}]
+  - symbol: gPooMapObjHit1Frame8
+    pieces:
+    - [16x16, -5, 0, {layer: 1}]
+    - [16x16, 43, 0]
+    - [32x32, 0, 0, {same: [1, 0]}]
+  - symbol: gPooMapObjHit1Frame9
+    pieces:
+    - [16x16, -5, 8, {layer: 1}]
+    - [32x32, 0, 0, {same: [1, 0]}]
+  - symbol: gPooMapObjHit1Frame10
+    pieces:
+    - [16x16, 0, 0, {layer: 1}]
+    - [32x32, 0, 0, {same: [1, 0]}]
+  animations:
+  - symbol: gPooMapObjHit1Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 9], [3, 9], [4, 9], [5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9], [1, 10]]
+  us:
+    address: 0x09761720
+    size: 3204
+  jp:
+    address: 0x09719EFC
+    size: 3204
+  eu:
+    address: 0x0972EA80
+    size: 3204
+- name: trap00_01rr
+  format: sprite_sheet
+  palette: trap00_01
+  symbol: gTrap0001rrTiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 4
+  frames:
+  - symbol: gTrap0001rrFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gTrap0001rrFrame1
+    pieces:
+    - [32x32, -16, -27]
+  - symbol: gTrap0001rrFrame2
+    pieces:
+    - [32x32, -16, -19]
+  - symbol: gTrap0001rrFrame3
+    pieces:
+    - [32x16, -16, -11]
+  animations:
+  - symbol: gTrap0001rrAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 40]]
+  us:
+    address: 0x0972ED24
+    size: 1988
+  jp:
+    address: 0x096E7500
+    size: 1988
+  eu:
+    address: 0x096FC084
+    size: 1988
+- name: trap00_01ll
+  format: sprite_sheet
+  palette: trap00_01
+  symbol: gTrap0001llTiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 35]
+  columns: 4
+  frames:
+  - symbol: gTrap0001llFrame0
+    pieces:
+    - [32x32, -16, -35]
+    - [32x8, -16, -3]
+  - symbol: gTrap0001llFrame1
+    pieces:
+    - [32x32, -16, -27]
+  - symbol: gTrap0001llFrame2
+    pieces:
+    - [32x32, -16, -19]
+  - symbol: gTrap0001llFrame3
+    pieces:
+    - [32x16, -16, -11]
+  animations:
+  - symbol: gTrap0001llAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 40]]
+  us:
+    address: 0x0972F4E8
+    size: 1988
+  jp:
+    address: 0x096E7CC4
+    size: 1988
+  eu:
+    address: 0x096FC848
+    size: 1988
+- name: gPooMapObjHit2Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [64, 36]
+  anchor: [16, 20]
+  columns: 8
+  frames:
+  - symbol: gPooMapObjHit2Frame0
+    pieces:
+    - [8x8, 14, 0]
+    - [32x32, -8, -16, {layer: 1}]
+    - [16x32, 24, -16]
+  - symbol: gPooMapObjHit2Frame1
+    pieces:
+    - [8x16, 15, -4]
+    - [32x32, -8, -16, {layer: 1}]
+    - [16x32, 24, -16]
+    - [8x32, 40, -16]
+  - symbol: gPooMapObjHit2Frame2
+    pieces:
+    - [8x16, 17, -6]
+    - [32x32, -8, -16, {same: [1, 1]}]
+    - [16x32, 24, -16, {same: [1, 2]}]
+    - [8x32, 40, -16]
+  - symbol: gPooMapObjHit2Frame3
+    pieces:
+    - [8x16, 20, -7]
+    - [64x32, -16, -16, {layer: 1}]
+  - symbol: gPooMapObjHit2Frame4
+    pieces:
+    - [8x16, 21, -10]
+    - [64x32, -16, -16, {same: [3, 1]}]
+  - symbol: gPooMapObjHit2Frame5
+    pieces:
+    - [8x16, 21, -12]
+    - [64x32, -16, -16, {layer: 1}]
+  - symbol: gPooMapObjHit2Frame6
+    pieces:
+    - [8x16, 21, -13]
+    - [64x32, -16, -16, {same: [5, 1]}]
+  - symbol: gPooMapObjHit2Frame7
+    pieces:
+    - [8x16, 20, -14, {hflip: true}]
+  - symbol: gPooMapObjHit2Frame8
+    pieces:
+    - [8x16, 19, -16, {hflip: true}]
+  - symbol: gPooMapObjHit2Frame9
+    pieces:
+    - [8x16, 20, -18, {hflip: true}]
+  - symbol: gPooMapObjHit2Frame10
+    pieces:
+    - [8x16, 21, -20, {hflip: true}]
+  - symbol: gPooMapObjHit2Frame11
+    pieces:
+    - [8x16, 22, -20]
+  - symbol: gPooMapObjHit2Frame12
+    pieces:
+    - [8x16, 23, -18]
+  - symbol: gPooMapObjHit2Frame13
+    pieces:
+    - [8x16, 24, -16]
+  - symbol: gPooMapObjHit2Frame14
+    pieces:
+    - [8x16, 24, -14]
+  - symbol: gPooMapObjHit2Frame15
+    pieces:
+    - [8x16, 23, -13]
+  - symbol: gPooMapObjHit2Frame16
+    pieces:
+    - [8x16, 22, -12]
+  - symbol: gPooMapObjHit2Frame17
+    pieces:
+    - [8x16, 22, -10]
+  - symbol: gPooMapObjHit2Frame18
+    pieces:
+    - [8x16, 22, -7]
+  - symbol: gPooMapObjHit2Frame19
+    pieces:
+    - [8x16, 24, -6]
+  - symbol: gPooMapObjHit2Frame20
+    pieces:
+    - [8x16, 26, -5]
+  - symbol: gPooMapObjHit2Frame21
+    pieces:
+    - [8x16, 26, -3]
+  - symbol: gPooMapObjHit2Frame22
+    pieces:
+    - [8x8, 27, 1]
+  - symbol: gPooMapObjHit2Frame23
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gPooMapObjHit2Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 4], [4, 4], [5, 4], [6, 4], [7, 4], [8, 4], [9, 4], [10, 4], [11, 4], [12, 4], [13, 4], [14, 4], [15, 4], [16, 4], [17, 4], [18, 4], [19, 4], [20, 4], [21, 4], [22, 4], [23, 20]]
+  us:
+    address: 0x097623A4
+    size: 4318
+  jp:
+    address: 0x0971AB80
+    size: 4318
+  eu:
+    address: 0x0972F704
+    size: 4318
+- name: trap00_02
+  format: sprite_sheet
+  palette: gTrap0002Palette
+  symbol: gTrap0002Tiles
+  align: 4
+  cell: [36, 90]
+  anchor: [14, 77]
+  columns: 8
+  frames:
+  - symbol: gTrap0002Frame0
+    pieces:
+    - [32x16, -13, -11]
+  - symbol: gTrap0002Frame1
+    pieces:
+    - [32x32, -13, -27]
+  - symbol: gTrap0002Frame2
+    pieces:
+    - [32x16, -13, -19]
+    - [32x8, -13, -3]
+  - symbol: gTrap0002Frame3
+    pieces:
+    - [32x32, -13, -43]
+    - [32x16, -13, -11]
+  - symbol: gTrap0002Frame4
+    pieces:
+    - [32x32, -12, -43]
+    - [32x16, -12, -11]
+  - symbol: gTrap0002Frame5
+    pieces:
+    - [32x64, -13, -51]
+  - symbol: gTrap0002Frame6
+    pieces:
+    - [32x64, -14, -56]
+  - symbol: gTrap0002Frame7
+    pieces:
+    - [32x64, -13, -59]
+  - symbol: gTrap0002Frame8
+    pieces:
+    - [32x64, -10, -67]
+  - symbol: gTrap0002Frame9
+    pieces:
+    - [32x64, -11, -72]
+  - symbol: gTrap0002Frame10
+    pieces:
+    - [32x64, -10, -77]
+  animations:
+  - symbol: gTrap0002Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 10], [2, 10], [3, 10], [4, 10], [5, 10], [6, 10]]
+  - symbol: gTrap0002Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 10], [2, 10], [3, 10], [4, 10], [5, 10], [6, 10], [7, 10], [8, 10], [9, 10], [10, 10]]
+  us:
+    address: 0x0972FCAC
+    size: 9044
+  jp:
+    address: 0x096E8488
+    size: 9044
+  eu:
+    address: 0x096FD00C
+    size: 9044
+- name: gPooMapObjHit3Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 32]
+  anchor: [0, 0]
+  columns: 3
+  frames:
+  - symbol: gPooMapObjHit3Frame0
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit3Frame1
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit3Frame2
+    pieces:
+    - [32x32, 0, 0]
+  animations:
+  - symbol: gPooMapObjHit3Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 3], [2, 6], [1, 3], [0, 6], [1, 3], [2, 6], [1, 3], [0, 6], [1, 30]]
+  us:
+    address: 0x09763484
+    size: 1612
+  jp:
+    address: 0x0971BC60
+    size: 1612
+  eu:
+    address: 0x097307E4
+    size: 1612
+- name: gPooMapObjHit4Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 32]
+  anchor: [0, 24]
+  columns: 8
+  frames:
+  - symbol: gPooMapObjHit4Frame0
+    pieces:
+    - [32x32, 0, -24]
+  - symbol: gPooMapObjHit4Frame1
+    pieces:
+    - [32x32, 0, -24]
+  - symbol: gPooMapObjHit4Frame2
+    pieces:
+    - [32x32, 0, -24]
+  - symbol: gPooMapObjHit4Frame3
+    pieces:
+    - [32x32, 0, -24]
+  - symbol: gPooMapObjHit4Frame4
+    pieces:
+    - [32x32, 0, -24]
+  - symbol: gPooMapObjHit4Frame5
+    pieces:
+    - [32x32, 0, -24]
+  - symbol: gPooMapObjHit4Frame6
+    pieces:
+    - [32x32, 0, -24]
+  - symbol: gPooMapObjHit4Frame7
+    pieces:
+    - [32x32, 0, -24]
+  - symbol: gPooMapObjHit4Frame8
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gPooMapObjHit4Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6], [4, 7], [5, 26], [6, 7], [7, 6], [8, 25]]
+  us:
+    address: 0x09763AD0
+    size: 4260
+  jp:
+    address: 0x0971C2AC
+    size: 4260
+  eu:
+    address: 0x09730E30
+    size: 4260
+- name: gPooMapObjHit5Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 32]
+  anchor: [0, 0]
+  columns: 2
+  frames:
+  - symbol: gPooMapObjHit5Frame0
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit5Frame1
+    pieces:
+    - [32x32, 0, 0]
+  animations:
+  - symbol: gPooMapObjHit5Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [0, 9], [1, 9], [0, 9], [1, 9], [0, 9], [1, 30]]
+  - symbol: gPooMapObjHit5Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x09764B74
+    size: 1092
+  jp:
+    address: 0x0971D350
+    size: 1092
+  eu:
+    address: 0x09731ED4
+    size: 1092
+- name: trap00_03
+  format: sprite_sheet
+  palette: gTrap0003Palette
+  symbol: gTrap0003Tiles
+  align: 4
+  cell: [24, 40]
+  anchor: [13, 37]
+  columns: 1
+  frames:
+  - symbol: gTrap0003Frame0
+    pieces:
+    - [16x32, -13, -37]
+    - [8x32, 3, -37]
+    - [16x8, -13, -5]
+    - [8x8, 3, -5]
+  animations:
+  - symbol: gTrap0003Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x09732000
+    size: 518
+  jp:
+    address: 0x096EA7DC
+    size: 518
+  eu:
+    address: 0x096FF360
+    size: 518
+- name: trap00_04
+  format: sprite_sheet
+  palette: gTrap0004Palette
+  symbol: gTrap0004Tiles
+  align: 4
+  cell: [16, 40]
+  anchor: [1, 60]
+  columns: 5
+  frames:
+  - symbol: gTrap0004Frame0
+    pieces:
+    - [16x32, -1, -60]
+    - [16x8, -1, -28]
+  - symbol: gTrap0004Frame1
+    pieces:
+    - [16x32, -1, -60]
+    - [16x8, -1, -28]
+  - symbol: gTrap0004Frame2
+    pieces:
+    - [16x32, -1, -60]
+    - [16x8, -1, -28]
+  - symbol: gTrap0004Frame3
+    pieces:
+    - [16x32, -1, -60]
+    - [16x8, -1, -28]
+  - symbol: gTrap0004Frame4
+    pieces:
+    - [16x32, -1, -60, {fresh: true}]
+    - [16x8, -1, -28, {fresh: true}]
+  animations:
+  - symbol: gTrap0004Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 8]]
+  us:
+    address: 0x09732208
+    size: 1706
+  jp:
+    address: 0x096EA9E4
+    size: 1706
+  eu:
+    address: 0x096FF568
+    size: 1706
+- name: gPooMapObjHit6Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [64, 32]
+  anchor: [16, 0]
+  columns: 6
+  frames:
+  - symbol: gPooMapObjHit6Frame0
+    pieces:
+    - [64x32, -16, 0]
+  - symbol: gPooMapObjHit6Frame1
+    pieces:
+    - [64x32, -16, 0]
+  - symbol: gPooMapObjHit6Frame2
+    pieces:
+    - [64x32, -16, 0]
+  - symbol: gPooMapObjHit6Frame3
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit6Frame4
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit6Frame5
+    pieces:
+    - [32x32, 0, 0]
+  animations:
+  - symbol: gPooMapObjHit6Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 12], [1, 12], [2, 12], [3, 12], [4, 12], [5, 30]]
+  us:
+    address: 0x09764FB8
+    size: 4698
+  jp:
+    address: 0x0971D794
+    size: 4698
+  eu:
+    address: 0x09732318
+    size: 4698
+- name: trap00_05
+  format: sprite_sheet
+  palette: gTrap0004Palette
+  symbol: gTrap0005Tiles
+  align: 4
+  cell: [16, 40]
+  anchor: [5, 60]
+  columns: 5
+  frames:
+  - symbol: gTrap0005Frame0
+    pieces:
+    - [16x32, -5, -60]
+    - [16x8, -5, -28]
+  - symbol: gTrap0005Frame1
+    pieces:
+    - [16x32, -5, -60]
+    - [16x8, -5, -28]
+  - symbol: gTrap0005Frame2
+    pieces:
+    - [16x32, -5, -60]
+    - [16x8, -5, -28]
+  - symbol: gTrap0005Frame3
+    pieces:
+    - [16x32, -5, -60]
+    - [16x8, -5, -28]
+  - symbol: gTrap0005Frame4
+    pieces:
+    - [16x32, -5, -60, {fresh: true}]
+    - [16x8, -5, -28, {fresh: true}]
+  animations:
+  - symbol: gTrap0005Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 8]]
+  us:
+    address: 0x097328B4
+    size: 1706
+  jp:
+    address: 0x096EB090
+    size: 1706
+  eu:
+    address: 0x096FFC14
+    size: 1706
+- name: trap00_06
+  format: sprite_sheet
+  palette: gTrap0004Palette
+  symbol: gTrap0006Tiles
+  align: 4
+  cell: [32, 40]
+  anchor: [9, 56]
+  columns: 4
+  frames:
+  - symbol: gTrap0006Frame0
+    pieces:
+    - [32x32, -9, -56]
+    - [8x8, 7, -24]
+  - symbol: gTrap0006Frame1
+    pieces:
+    - [32x32, -9, -56]
+    - [8x8, 7, -24]
+  - symbol: gTrap0006Frame2
+    pieces:
+    - [32x32, -9, -56]
+    - [8x8, 7, -24]
+  - symbol: gTrap0006Frame3
+    pieces:
+    - [32x32, -9, -56]
+    - [16x8, -1, -24]
+  animations:
+  - symbol: gTrap0006Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 15], [1, 15], [2, 15], [3, 15]]
+  us:
+    address: 0x09732F60
+    size: 2294
+  jp:
+    address: 0x096EB73C
+    size: 2294
+  eu:
+    address: 0x097002C0
+    size: 2294
+- name: gPooMapObjHit7Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [64, 32]
+  anchor: [16, 0]
+  columns: 6
+  frames:
+  - symbol: gPooMapObjHit7Frame0
+    pieces:
+    - [64x32, -16, 0]
+  - symbol: gPooMapObjHit7Frame1
+    pieces:
+    - [64x32, -16, 0]
+  - symbol: gPooMapObjHit7Frame2
+    pieces:
+    - [64x32, -16, 0]
+  - symbol: gPooMapObjHit7Frame3
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit7Frame4
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit7Frame5
+    pieces:
+    - [32x32, 0, 0]
+  animations:
+  - symbol: gPooMapObjHit7Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 12], [1, 12], [2, 12], [3, 12], [4, 12], [5, 30]]
+  us:
+    address: 0x09766214
+    size: 4698
+  jp:
+    address: 0x0971E9F0
+    size: 4698
+  eu:
+    address: 0x09733574
+    size: 4698
+- name: pooh_honey
+  format: sprite_sheet
+  palette: pooh_gauge
+  symbol: gPoohHoneyTiles
+  align: 4
+  cell: [33, 35]
+  anchor: [16, 25]
+  columns: 8
+  frames:
+  - symbol: gPoohHoneyFrame0
+    pieces:
+    - [32x32, -16, -23]
+  - symbol: gPoohHoneyFrame1
+    pieces:
+    - [32x32, -16, -23]
+  - symbol: gPoohHoneyFrame2
+    pieces:
+    - [32x32, -15, -25]
+  - symbol: gPoohHoneyFrame3
+    pieces:
+    - [32x32, -15, -24]
+  - symbol: gPoohHoneyFrame4
+    pieces:
+    - [32x32, -15, -24]
+  - symbol: gPoohHoneyFrame5
+    pieces:
+    - [32x32, -15, -24]
+  - symbol: gPoohHoneyFrame6
+    pieces:
+    - [32x32, -15, -24]
+  - symbol: gPoohHoneyFrame7
+    pieces:
+    - [32x32, -15, -24]
+  - symbol: gPoohHoneyFrame8
+    pieces:
+    - [32x32, -15, -22]
+  - symbol: gPoohHoneyFrame9
+    pieces:
+    - [32x32, -15, -24]
+  - symbol: gPoohHoneyFrame10
+    pieces:
+    - [32x32, -15, -25]
+  - symbol: gPoohHoneyFrame11
+    pieces:
+    - [32x32, -16, -23]
+  - symbol: gPoohHoneyFrame12
+    pieces:
+    - [32x32, -16, -23]
+  - symbol: gPoohHoneyFrame13
+    pieces:
+    - [32x32, -16, -23]
+  animations:
+  - symbol: gPoohHoneyAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [1, 10], [2, 10], [3, 25], [4, 15], [4, 20], [4, 12], [4, 12], [4, 20], [4, 10], [4, 15], [5, 17], [4, 15], [5, 19], [4, 12], [4, 12], [4, 12], [4, 20], [4, 15], [4, 20], [4, 20], [3, 20], [6, 20], [7, 20], [8, 50], [7, 15], [9, 12], [10, 12], [13, 60]]
+  - symbol: gPoohHoneyAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [1, 10], [2, 10], [3, 20], [4, 12], [4, 12], [4, 12], [4, 20], [4, 12], [4, 20], [4, 20], [3, 35], [6, 20], [7, 20], [8, 35], [7, 15], [9, 12], [10, 12], [12, 60]]
+  - symbol: gPoohHoneyAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [1, 10], [2, 10], [6, 20], [7, 20], [8, 30], [7, 15], [9, 12], [10, 12], [11, 60]]
+  - symbol: gPoohHoneyAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x09733858
+    size: 7568
+  jp:
+    address: 0x096EC034
+    size: 7568
+  eu:
+    address: 0x09700BB8
+    size: 7568
+- name: gPooMapObjHit8Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 48]
+  anchor: [8, 16]
+  columns: 8
+  frames:
+  - symbol: gPooMapObjHit8Frame0
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit8Frame1
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit8Frame2
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit8Frame3
+    pieces:
+    - [32x32, -8, -8]
+    - [16x32, 24, -8]
+  - symbol: gPooMapObjHit8Frame4
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16]
+  - symbol: gPooMapObjHit8Frame5
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16, {fresh: true}]
+  - symbol: gPooMapObjHit8Frame6
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16, {fresh: true}]
+  - symbol: gPooMapObjHit8Frame7
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16, {fresh: true}]
+  - symbol: gPooMapObjHit8Frame8
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16]
+  - symbol: gPooMapObjHit8Frame9
+    pieces:
+    - [32x32, 0, 0]
+  animations:
+  - symbol: gPooMapObjHit8Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 9], [3, 9], [4, 9], [5, 9], [6, 9], [7, 9], [8, 9], [9, 30]]
+  us:
+    address: 0x09767470
+    size: 7858
+  jp:
+    address: 0x0971FC4C
+    size: 7858
+  eu:
+    address: 0x097347D0
+    size: 7858
+- name: gPooGaugeTiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 40]
+  anchor: [20, 20]
+  columns: 8
+  frames:
+  - symbol: gPooGaugeFrame0
+    pieces:
+    - [32x32, -20, -20]
+    - [8x32, 12, -20]
+    - [32x8, -20, 12]
+    - [8x8, 12, 12]
+  - symbol: gPooGaugeFrame1
+    pieces:
+    - [32x32, -20, -20]
+    - [8x32, 12, -20, {fresh: true}]
+    - [32x8, -20, 12, {fresh: true}]
+    - [8x8, 12, 12, {fresh: true}]
+  - symbol: gPooGaugeFrame2
+    pieces:
+    - [32x32, -20, -20]
+    - [8x32, 12, -20, {fresh: true}]
+    - [32x8, -20, 12, {fresh: true}]
+    - [8x8, 12, 12, {fresh: true}]
+  - symbol: gPooGaugeFrame3
+    pieces:
+    - [32x32, -20, -20]
+    - [8x32, 12, -20, {fresh: true}]
+    - [32x8, -20, 12]
+    - [8x8, 12, 12, {fresh: true}]
+  - symbol: gPooGaugeFrame4
+    pieces:
+    - [32x32, -20, -20]
+    - [8x32, 12, -20]
+    - [32x8, -20, 12]
+    - [8x8, 12, 12]
+  - symbol: gPooGaugeFrame5
+    pieces:
+    - [32x32, -20, -20]
+    - [8x32, 12, -20, {fresh: true}]
+    - [32x8, -20, 12, {fresh: true}]
+    - [8x8, 12, 12, {fresh: true}]
+  - symbol: gPooGaugeFrame6
+    pieces:
+    - [32x32, -20, -20]
+    - [8x32, 12, -20, {fresh: true}]
+    - [32x8, -20, 12, {fresh: true}]
+    - [8x8, 12, 12, {fresh: true}]
+  - symbol: gPooGaugeFrame7
+    pieces:
+    - [32x32, -20, -20]
+    - [8x32, 12, -20, {fresh: true}]
+    - [32x8, -20, 12]
+    - [8x8, 12, 12, {fresh: true}]
+  animations:
+  - symbol: gPooGaugeAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 40], [1, 40], [2, 40], [3, 40]]
+  - symbol: gPooGaugeAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 40], [5, 40], [6, 40], [7, 40]]
+  us:
+    address: 0x097355E8
+    size: 6668
+  jp:
+    address: 0x096EDDC4
+    size: 6668
+  eu:
+    address: 0x09702948
+    size: 6668
+- name: gPooMapObjHit9Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 48]
+  anchor: [8, 16]
+  columns: 8
+  frames:
+  - symbol: gPooMapObjHit9Frame0
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit9Frame1
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit9Frame2
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gPooMapObjHit9Frame3
+    pieces:
+    - [32x32, -8, -8]
+    - [16x32, 24, -8]
+  - symbol: gPooMapObjHit9Frame4
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16]
+  - symbol: gPooMapObjHit9Frame5
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16, {fresh: true}]
+  - symbol: gPooMapObjHit9Frame6
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16, {fresh: true}]
+  - symbol: gPooMapObjHit9Frame7
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16, {fresh: true}]
+  - symbol: gPooMapObjHit9Frame8
+    pieces:
+    - [32x32, -8, -16]
+    - [16x32, 24, -16]
+    - [32x8, -8, 16]
+    - [16x8, 24, 16]
+  - symbol: gPooMapObjHit9Frame9
+    pieces:
+    - [32x32, 0, 0]
+  animations:
+  - symbol: gPooMapObjHit9Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 9], [3, 9], [4, 9], [5, 9], [6, 9], [7, 9], [8, 9], [9, 30]]
+  us:
+    address: 0x09769324
+    size: 7858
+  jp:
+    address: 0x09721B00
+    size: 7858
+  eu:
+    address: 0x09736684
+    size: 7858
+- name: gPooPileTiles
+  format: sprite_sheet
+  align: 4
+  cell: [17, 48]
+  anchor: [8, 39]
+  columns: 8
+  frames:
+  - symbol: gPooPileFrame0
+    pieces:
+    - [16x8, -8, 1]
+    - [16x16, -8, -15]
+    - [16x16, -8, -31]
+    - [16x8, -8, -39]
+  - symbol: gPooPileFrame1
+    pieces:
+    - [16x8, -8, 1]
+    - [16x8, -8, -7]
+    - [16x16, -8, -23]
+    - [16x8, -8, -31]
+  - symbol: gPooPileFrame2
+    pieces:
+    - [16x8, -7, 1]
+    - [16x8, -7, -7]
+    - [16x16, -7, -23]
+    - [16x8, -7, -31]
+  - symbol: gPooPileFrame3
+    pieces:
+    - [16x8, -8, -23]
+    - [16x16, -8, -15]
+    - [16x8, -8, 1]
+  - symbol: gPooPileFrame4
+    pieces:
+    - [16x8, -7, -23]
+    - [16x16, -7, -15]
+    - [16x8, -7, 1]
+  - symbol: gPooPileFrame5
+    pieces:
+    - [16x16, -8, -15]
+    - [16x8, -8, 1]
+  - symbol: gPooPileFrame6
+    pieces:
+    - [16x16, -7, -15]
+    - [16x8, -7, 1]
+  - symbol: gPooPileFrame7
+    pieces:
+    - [16x8, -8, -4]
+  animations:
+  - symbol: gPooPileAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7]]
+  - symbol: gPooPileAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 7], [2, 7], [1, 7], [2, 7], [1, 7]]
+  - symbol: gPooPileAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 7]]
+  - symbol: gPooPileAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 7], [4, 7], [3, 7], [4, 7], [3, 7]]
+  - symbol: gPooPileAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gPooPileAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 7], [6, 7], [5, 7], [6, 7], [5, 7]]
+  - symbol: gPooPileAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gPooPileAnim7
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  us:
+    address: 0x09742B98
+    size: 1066
+  jp:
+    address: 0x096FB374
+    size: 1066
+  eu:
+    address: 0x0970FEF8
+    size: 1066
+- name: trap01_ff00
+  format: sprite_sheet
+  palette: trap01_00
+  symbol: gTrap01Ff00Tiles
+  align: 4
+  cell: [16, 9]
+  anchor: [5, 9]
+  columns: 4
+  frames:
+  - symbol: gTrap01Ff00Frame0
+    pieces:
+    - [16x8, -5, -8]
+  - symbol: gTrap01Ff00Frame1
+    pieces:
+    - [8x8, -4, -9]
+  - symbol: gTrap01Ff00Frame2
+    pieces:
+    - [8x8, -4, -8]
+  - symbol: gTrap01Ff00Frame3
+    pieces:
+    - [16x8, -5, -8]
+  animations:
+  - symbol: gTrap01Ff00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6]]
+  us:
+    address: 0x097442DC
+    size: 254
+  jp:
+    address: 0x096FCAB8
+    size: 254
+  eu:
+    address: 0x0971163C
+    size: 254
+- name: trap01_fl00
+  format: sprite_sheet
+  palette: trap01_00
+  symbol: gTrap01Fl00Tiles
+  align: 4
+  cell: [8, 9]
+  anchor: [4, 9]
+  columns: 4
+  frames:
+  - symbol: gTrap01Fl00Frame0
+    pieces:
+    - [8x8, -4, -8]
+  - symbol: gTrap01Fl00Frame1
+    pieces:
+    - [8x8, -4, -9]
+  - symbol: gTrap01Fl00Frame2
+    pieces:
+    - [8x8, -4, -8]
+  - symbol: gTrap01Fl00Frame3
+    pieces:
+    - [8x8, -4, -8]
+  animations:
+  - symbol: gTrap01Fl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6]]
+  us:
+    address: 0x097443DC
+    size: 190
+  jp:
+    address: 0x096FCBB8
+    size: 190
+  eu:
+    address: 0x0971173C
+    size: 190
+- name: trap01_ll00
+  format: sprite_sheet
+  palette: trap01_00
+  symbol: gTrap01Ll00Tiles
+  align: 4
+  cell: [9, 9]
+  anchor: [5, 9]
+  columns: 4
+  frames:
+  - symbol: gTrap01Ll00Frame0
+    pieces:
+    - [8x8, -4, -8]
+  - symbol: gTrap01Ll00Frame1
+    pieces:
+    - [8x8, -4, -9]
+  - symbol: gTrap01Ll00Frame2
+    pieces:
+    - [8x8, -4, -8]
+  - symbol: gTrap01Ll00Frame3
+    pieces:
+    - [8x8, -5, -8]
+  animations:
+  - symbol: gTrap01Ll00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6]]
+  us:
+    address: 0x0974449C
+    size: 190
+  jp:
+    address: 0x096FCC78
+    size: 190
+  eu:
+    address: 0x097117FC
+    size: 190
+- name: trap01_bl00
+  format: sprite_sheet
+  palette: trap01_00
+  symbol: gTrap01Bl00Tiles
+  align: 4
+  cell: [8, 9]
+  anchor: [4, 9]
+  columns: 4
+  frames:
+  - symbol: gTrap01Bl00Frame0
+    pieces:
+    - [8x8, -4, -8]
+  - symbol: gTrap01Bl00Frame1
+    pieces:
+    - [8x8, -4, -9]
+  - symbol: gTrap01Bl00Frame2
+    pieces:
+    - [8x8, -4, -8]
+  - symbol: gTrap01Bl00Frame3
+    pieces:
+    - [8x8, -4, -8]
+  animations:
+  - symbol: gTrap01Bl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6]]
+  us:
+    address: 0x0974455C
+    size: 190
+  jp:
+    address: 0x096FCD38
+    size: 190
+  eu:
+    address: 0x097118BC
+    size: 190
+- name: trap01_bb00
+  format: sprite_sheet
+  palette: trap01_00
+  symbol: gTrap01Bb00Tiles
+  align: 4
+  cell: [16, 9]
+  anchor: [5, 9]
+  columns: 4
+  frames:
+  - symbol: gTrap01Bb00Frame0
+    pieces:
+    - [16x8, -5, -8]
+  - symbol: gTrap01Bb00Frame1
+    pieces:
+    - [8x8, -4, -9]
+  - symbol: gTrap01Bb00Frame2
+    pieces:
+    - [8x8, -4, -8]
+  - symbol: gTrap01Bb00Frame3
+    pieces:
+    - [16x8, -5, -8]
+  animations:
+  - symbol: gTrap01Bb00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6]]
+  us:
+    address: 0x0974461C
+    size: 254
+  jp:
+    address: 0x096FCDF8
+    size: 254
+  eu:
+    address: 0x0971197C
+    size: 254
+- name: eeyore_fl00
+  format: sprite_sheet
+  palette: eeyore
+  symbol: gEeyoreFl00Tiles
+  align: 4
+  cell: [44, 42]
+  anchor: [26, 29]
+  columns: 8
+  frames:
+  - symbol: gEeyoreFl00Frame0
+    pieces:
+    - [32x32, -26, -27]
+    - [8x32, 6, -27]
+    - [32x8, -26, 5]
+  - symbol: gEeyoreFl00Frame1
+    pieces:
+    - [32x32, -22, -29]
+    - [8x32, 10, -29]
+    - [32x8, -22, 3]
+    - [8x8, 10, 3]
+  - symbol: gEeyoreFl00Frame2
+    pieces:
+    - [16x32, -22, -29]
+    - [8x32, -6, -29]
+    - [16x32, 2, -21]
+  - symbol: gEeyoreFl00Frame3
+    pieces:
+    - [16x32, -2, -24]
+    - [16x32, -26, -23]
+    - [8x32, -10, -23]
+  - symbol: gEeyoreFl00Frame4
+    pieces:
+    - [32x32, -26, -24]
+    - [8x32, 6, -24]
+  - symbol: gEeyoreFl00Frame5
+    pieces:
+    - [16x32, -2, -24]
+    - [16x32, -26, -23]
+    - [8x32, -10, -23]
+  - symbol: gEeyoreFl00Frame6
+    pieces:
+    - [16x32, -2, -24]
+    - [16x32, -26, -22]
+    - [8x32, -10, -22]
+  - symbol: gEeyoreFl00Frame7
+    pieces:
+    - [32x32, -26, -23]
+    - [8x32, 6, -23]
+  - symbol: gEeyoreFl00Frame8
+    pieces:
+    - [32x32, -26, -23]
+    - [8x32, 6, -23]
+  - symbol: gEeyoreFl00Frame9
+    pieces:
+    - [32x32, -26, -23]
+    - [8x32, 6, -23]
+  - symbol: gEeyoreFl00Frame10
+    pieces:
+    - [32x32, -26, -27]
+    - [8x32, 6, -27]
+    - [32x8, -26, 5]
+  - symbol: gEeyoreFl00Frame11
+    pieces:
+    - [32x32, -26, -23]
+    - [8x32, 6, -23]
+  - symbol: gEeyoreFl00Frame12
+    pieces:
+    - [32x32, -26, -27]
+    - [8x32, 6, -27]
+    - [32x8, -26, 5]
+  - symbol: gEeyoreFl00Frame13
+    pieces:
+    - [32x32, -26, -23]
+    - [8x32, 6, -23]
+  - symbol: gEeyoreFl00Frame14
+    pieces:
+    - [32x32, -26, -23]
+    - [8x32, 6, -23]
+  - symbol: gEeyoreFl00Frame15
+    pieces:
+    - [16x16, -8, -8]
+  animations:
+  - symbol: gEeyoreFl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gEeyoreFl00Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gEeyoreFl00Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gEeyoreFl00Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gEeyoreFl00Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 100], [4, 12], [5, 12], [6, 40], [4, 12]]
+  - symbol: gEeyoreFl00Anim5
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 9], [8, 9], [9, 9], [10, 9], [11, 9], [12, 9], [13, 9]]
+  - symbol: gEeyoreFl00Anim6
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  us:
+    address: 0x0974471C
+    size: 10174
+  jp:
+    address: 0x096FCEF8
+    size: 10174
+  eu:
+    address: 0x09711A7C
+    size: 10174
+- name: owl_fl00
+  format: sprite_sheet
+  palette: owl
+  symbol: gOwlFl00Tiles
+  align: 4
+  cell: [66, 97]
+  anchor: [35, 87]
+  columns: 8
+  frames:
+  - symbol: gOwlFl00Frame0
+    pieces:
+    - [16x32, -10, -34]
+    - [8x32, 6, -34]
+    - [16x8, -10, -2]
+    - [8x8, 6, -2]
+  - symbol: gOwlFl00Frame1
+    pieces:
+    - [16x32, -11, -38]
+    - [8x32, 5, -38]
+    - [16x16, -11, -6]
+    - [8x16, 5, -6]
+  - symbol: gOwlFl00Frame2
+    pieces:
+    - [32x32, -19, -38]
+    - [8x32, 13, -38]
+    - [32x16, -19, -6]
+    - [8x16, 13, -6]
+  - symbol: gOwlFl00Frame3
+    pieces:
+    - [32x32, -25, -43]
+    - [16x32, 7, -43]
+    - [32x16, -25, -11]
+    - [16x16, 7, -11]
+  - symbol: gOwlFl00Frame4
+    pieces:
+    - [32x32, -25, -41]
+    - [16x32, 7, -41]
+    - [32x16, -25, -9]
+    - [16x16, 7, -9]
+  - symbol: gOwlFl00Frame5
+    pieces:
+    - [32x32, -23, -39]
+    - [16x32, 9, -39]
+    - [32x16, -23, -7]
+    - [16x16, 9, -7]
+  - symbol: gOwlFl00Frame6
+    pieces:
+    - [32x32, -10, -38]
+    - [32x16, -10, -6]
+  - symbol: gOwlFl00Frame7
+    pieces:
+    - [32x32, -19, -37]
+    - [16x32, 13, -37]
+    - [32x8, -19, -5]
+    - [16x8, 13, -5]
+  - symbol: gOwlFl00Frame8
+    pieces:
+    - [32x32, -25, -38]
+    - [16x32, 7, -38]
+    - [8x32, 23, -38]
+    - [32x8, -25, -6]
+    - [16x8, 7, -6]
+  - symbol: gOwlFl00Frame9
+    pieces:
+    - [32x32, -18, -36]
+    - [32x8, -18, -4]
+  - symbol: gOwlFl00Frame10
+    pieces:
+    - [32x32, -28, -36]
+    - [16x32, 4, -36]
+    - [32x8, -28, -4]
+    - [16x8, 4, -4]
+  - symbol: gOwlFl00Frame11
+    pieces:
+    - [32x32, -21, -44]
+    - [8x32, 11, -44]
+    - [32x16, -21, -12]
+    - [8x16, 11, -12]
+  - symbol: gOwlFl00Frame12
+    pieces:
+    - [32x32, -33, -36]
+    - [16x32, -1, -36]
+    - [32x8, -33, -4]
+    - [16x8, -1, -4]
+  - symbol: gOwlFl00Frame13
+    pieces:
+    - [32x32, -35, -35]
+    - [16x32, -3, -35]
+    - [32x8, -35, -3]
+    - [16x8, -3, -3]
+  - symbol: gOwlFl00Frame14
+    pieces:
+    - [32x32, -26, -36]
+    - [8x32, 6, -36]
+    - [32x8, -26, -4]
+    - [8x8, 6, -4]
+  - symbol: gOwlFl00Frame15
+    pieces:
+    - [32x32, -19, -43]
+    - [16x32, 13, -43]
+    - [32x16, -19, -11]
+  - symbol: gOwlFl00Frame16
+    pieces:
+    - [32x32, -19, -39]
+    - [16x32, 13, -39]
+    - [32x16, -19, -7]
+  - symbol: gOwlFl00Frame17
+    pieces:
+    - [32x32, -20, -35]
+    - [8x32, 12, -35]
+    - [32x8, -20, -3]
+    - [8x8, 12, -3]
+  - symbol: gOwlFl00Frame18
+    pieces:
+    - [32x32, -14, -34]
+    - [32x8, -14, -2]
+  - symbol: gOwlFl00Frame19
+    pieces:
+    - [32x32, -28, -80]
+    - [16x32, 4, -80]
+    - [32x8, -28, -48]
+    - [16x8, 4, -48]
+  - symbol: gOwlFl00Frame20
+    pieces:
+    - [32x32, -33, -80]
+    - [16x32, -1, -80]
+    - [32x8, -33, -48]
+    - [16x8, -1, -48]
+  - symbol: gOwlFl00Frame21
+    pieces:
+    - [32x32, -35, -79]
+    - [16x32, -3, -79]
+    - [32x8, -35, -47]
+    - [16x8, -3, -47]
+  - symbol: gOwlFl00Frame22
+    pieces:
+    - [32x32, -26, -80]
+    - [8x32, 6, -80]
+    - [32x8, -26, -48]
+    - [8x8, 6, -48]
+  - symbol: gOwlFl00Frame23
+    pieces:
+    - [32x32, -19, -87]
+    - [16x32, 13, -87]
+    - [32x16, -19, -55]
+  animations:
+  - symbol: gOwlFl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gOwlFl00Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 10], [2, 10], [3, 12], [4, 14], [5, 18], [6, 22], [7, 15], [8, 13]]
+  - symbol: gOwlFl00Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 10], [12, 9], [13, 9], [14, 9], [15, 9]]
+  - symbol: gOwlFl00Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 10], [10, 10], [11, 10], [12, 10], [13, 10], [14, 10], [15, 10], [16, 10], [17, 10], [18, 10], [0, 100]]
+  - symbol: gOwlFl00Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[19, 10], [20, 9], [21, 9], [22, 9], [23, 9]]
+  us:
+    address: 0x09746EDC
+    size: 17830
+  jp:
+    address: 0x096FF6B8
+    size: 17830
+  eu:
+    address: 0x0971423C
+    size: 17830
+- name: gPooBalloonTiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 48]
+  anchor: [13, 66]
+  columns: 3
+  frames:
+  - symbol: gPooBalloonFrame0
+    pieces:
+    - [32x32, -13, -66]
+    - [8x32, 19, -66]
+    - [32x16, -13, -34]
+  - symbol: gPooBalloonFrame1
+    pieces:
+    - [32x32, -13, -66]
+    - [8x32, 19, -66]
+    - [32x16, -13, -34]
+  - symbol: gPooBalloonFrame2
+    pieces:
+    - [32x32, -13, -66]
+    - [8x32, 19, -66]
+    - [32x16, -13, -34]
+  animations:
+  - symbol: gPooBalloonAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 15], [1, 15], [2, 15]]
+  us:
+    address: 0x0974B484
+    size: 2772
+  jp:
+    address: 0x09703C60
+    size: 2772
+  eu:
+    address: 0x097187E4
+    size: 2772
+- name: rabbit_fl00
+  format: sprite_sheet
+  palette: rabbit
+  symbol: gRabbitFl00Tiles
+  align: 4
+  cell: [42, 70]
+  anchor: [22, 55]
+  columns: 8
+  frames:
+  - symbol: gRabbitFl00Frame0
+    pieces:
+    - [32x32, -16, -48]
+    - [32x16, -16, -16]
+    - [32x8, -16, 0]
+  - symbol: gRabbitFl00Frame1
+    pieces:
+    - [32x32, -21, -30]
+    - [8x8, 3, 2]
+    - [8x8, 11, -14]
+  - symbol: gRabbitFl00Frame2
+    pieces:
+    - [32x32, -21, -29]
+    - [8x8, 3, 3]
+    - [8x8, 11, -13]
+  - symbol: gRabbitFl00Frame3
+    pieces:
+    - [32x32, -22, -30]
+    - [8x8, 2, 2]
+    - [8x16, 10, -14]
+  - symbol: gRabbitFl00Frame4
+    pieces:
+    - [32x32, -22, -32]
+    - [32x8, -22, 0]
+    - [8x16, 10, -16]
+  - symbol: gRabbitFl00Frame5
+    pieces:
+    - [32x32, -20, -48]
+    - [32x16, -20, -16]
+    - [8x8, 4, 0]
+  - symbol: gRabbitFl00Frame6
+    pieces:
+    - [32x32, -16, -47]
+    - [32x16, -16, -15]
+  - symbol: gRabbitFl00Frame7
+    pieces:
+    - [32x32, -15, -47]
+    - [32x16, -15, -15]
+    - [8x8, -7, -55]
+  - symbol: gRabbitFl00Frame8
+    pieces:
+    - [16x32, -11, -49]
+    - [8x32, 5, -49]
+    - [16x32, -11, -17]
+    - [8x16, 5, -17]
+  - symbol: gRabbitFl00Frame9
+    pieces:
+    - [16x32, -10, -49]
+    - [8x32, 6, -49]
+    - [16x16, -10, -17]
+    - [8x16, 6, -17]
+    - [8x8, -5, -1]
+  - symbol: gRabbitFl00Frame10
+    pieces:
+    - [16x32, -11, -46]
+    - [8x32, 5, -46]
+    - [16x16, -11, -14]
+    - [8x16, 5, -14]
+    - [8x8, -3, 2]
+  - symbol: gRabbitFl00Frame11
+    pieces:
+    - [16x32, -12, -48]
+    - [8x32, 4, -48]
+    - [16x16, -12, -16]
+    - [8x16, 4, -16]
+    - [8x8, -2, 0]
+  - symbol: gRabbitFl00Frame12
+    pieces:
+    - [32x32, -16, -48]
+    - [32x16, -16, -16]
+    - [8x8, 0, 0]
+  - symbol: gRabbitFl00Frame13
+    pieces:
+    - [32x32, -17, -41]
+    - [32x16, -17, -9]
+  - symbol: gRabbitFl00Frame14
+    pieces:
+    - [32x32, -19, -42]
+    - [32x16, -19, -10]
+  - symbol: gRabbitFl00Frame15
+    pieces:
+    - [32x32, -19, -43]
+    - [32x16, -19, -11]
+  - symbol: gRabbitFl00Frame16
+    pieces:
+    - [32x32, -17, -42]
+    - [32x16, -17, -10]
+  - symbol: gRabbitFl00Frame17
+    pieces:
+    - [16x32, -12, -38]
+    - [8x32, 4, -38]
+    - [16x16, -12, -6]
+    - [8x16, 4, -6]
+  - symbol: gRabbitFl00Frame18
+    pieces:
+    - [16x32, -13, -39]
+    - [8x32, 3, -39]
+    - [16x16, -13, -7]
+    - [8x16, 3, -7]
+  - symbol: gRabbitFl00Frame19
+    pieces:
+    - [32x32, -20, -43]
+    - [8x32, 12, -43]
+    - [32x16, -20, -11]
+    - [8x16, 12, -11]
+  animations:
+  - symbol: gRabbitFl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRabbitFl00Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 15], [2, 15], [3, 15], [4, 15]]
+  - symbol: gRabbitFl00Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 8], [6, 8], [7, 8], [8, 8], [9, 8], [10, 8], [11, 8], [12, 8]]
+  - symbol: gRabbitFl00Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 7], [14, 7], [15, 7], [16, 7], [17, 7], [18, 7], [19, 7]]
+  us:
+    address: 0x0974BF58
+    size: 14814
+  jp:
+    address: 0x09704734
+    size: 14814
+  eu:
+    address: 0x097192B8
+    size: 14814
+- name: rabbit_bl00
+  format: sprite_sheet
+  palette: rabbit
+  symbol: gRabbitBl00Tiles
+  align: 4
+  cell: [49, 54]
+  anchor: [21, 43]
+  columns: 8
+  frames:
+  - symbol: gRabbitBl00Frame0
+    pieces:
+    - [32x32, -17, -43]
+    - [32x16, -17, -11]
+  - symbol: gRabbitBl00Frame1
+    pieces:
+    - [32x32, -17, -42]
+    - [32x16, -17, -10]
+  - symbol: gRabbitBl00Frame2
+    pieces:
+    - [32x32, -18, -42]
+    - [32x16, -18, -10]
+    - [8x8, 14, -2]
+  - symbol: gRabbitBl00Frame3
+    pieces:
+    - [32x32, -17, -42]
+    - [32x16, -17, -10]
+  - symbol: gRabbitBl00Frame4
+    pieces:
+    - [32x32, -16, -42]
+    - [32x16, -16, -10]
+  - symbol: gRabbitBl00Frame5
+    pieces:
+    - [32x32, -20, -38, {layer: 1}]
+    - [32x8, -20, -6]
+    - [16x16, 12, -38]
+    - [16x16, -12, -38, {pal: 1, layer: 2}]
+    - [16x8, -12, -22, {pal: 1, layer: 2}]
+  - symbol: gRabbitBl00Frame6
+    pieces:
+    - [32x32, -16, -36, {layer: 1}]
+    - [32x8, -16, -4]
+    - [8x8, 16, -36]
+    - [16x16, -13, -36, {pal: 1, layer: 2}]
+    - [16x8, -13, -20, {pal: 1, layer: 2}]
+  - symbol: gRabbitBl00Frame7
+    pieces:
+    - [32x32, -14, -40, {layer: 1}]
+    - [32x16, -14, -8]
+    - [8x8, 18, -38]
+    - [16x32, -11, -40, {pal: 1, layer: 2}]
+  - symbol: gRabbitBl00Frame8
+    pieces:
+    - [32x32, -14, -38, {layer: 1}]
+    - [32x16, -14, -6]
+    - [8x8, 18, -38]
+    - [16x16, -12, -38, {pal: 1, layer: 2}]
+    - [16x8, -12, -22, {pal: 1, layer: 2}]
+  - symbol: gRabbitBl00Frame9
+    pieces:
+    - [32x32, -15, -37, {layer: 1}]
+    - [32x16, -15, -5]
+    - [8x8, 17, -37]
+    - [16x16, -12, -37, {pal: 1, layer: 2}]
+    - [16x8, -12, -21, {pal: 1, layer: 2}]
+    - [8x8, 4, -37, {pal: 1, layer: 2}]
+  - symbol: gRabbitBl00Frame10
+    pieces:
+    - [32x32, -14, -38, {layer: 1}]
+    - [32x8, -14, -6]
+    - [8x8, 18, -38]
+    - [16x16, -12, -39, {pal: 1, layer: 2}]
+    - [16x8, -12, -23, {pal: 1, layer: 2}]
+  - symbol: gRabbitBl00Frame11
+    pieces:
+    - [32x32, -15, -40, {layer: 1}]
+    - [32x16, -15, -8]
+    - [8x8, 17, -32]
+    - [16x32, -12, -41, {pal: 1, layer: 2}]
+  - symbol: gRabbitBl00Frame12
+    pieces:
+    - [32x32, -15, -40, {layer: 1}]
+    - [32x16, -15, -8, {fresh: true}]
+    - [8x8, 17, -32]
+    - [16x16, -14, -40, {pal: 1, layer: 2}]
+    - [16x8, -14, -24, {pal: 1, layer: 2}]
+  - symbol: gRabbitBl00Frame13
+    pieces:
+    - [32x32, -21, -43]
+    - [32x16, -21, -11]
+  - symbol: gRabbitBl00Frame14
+    pieces:
+    - [16x32, -13, -43]
+    - [8x32, 3, -43]
+    - [16x16, -13, -11]
+    - [8x16, 3, -11]
+  animations:
+  - symbol: gRabbitBl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRabbitBl00Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 15], [2, 15], [3, 15], [4, 15]]
+  - symbol: gRabbitBl00Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 12], [6, 12], [7, 12], [8, 12], [9, 12], [10, 12]]
+  - symbol: gRabbitBl00Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 20], [12, 10], [13, 20], [14, 10], [0, 30]]
+  - symbol: gRabbitBl00Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  us:
+    address: 0x0974F938
+    size: 13518
+  jp:
+    address: 0x09708114
+    size: 13518
+  eu:
+    address: 0x0971CC98
+    size: 13518
+- name: roo_fl00
+  format: sprite_sheet
+  palette: roo
+  symbol: gRooFl00Tiles
+  align: 4
+  cell: [37, 81]
+  anchor: [19, 44]
+  columns: 8
+  frames:
+  - symbol: gRooFl00Frame0
+    pieces:
+    - [16x32, -11, -26]
+    - [8x32, 5, -26]
+  - symbol: gRooFl00Frame1
+    pieces:
+    - [16x32, -11, -26]
+    - [8x32, 5, -26]
+  - symbol: gRooFl00Frame2
+    pieces:
+    - [32x32, -17, -23]
+  - symbol: gRooFl00Frame3
+    pieces:
+    - [32x32, -16, -24]
+  - symbol: gRooFl00Frame4
+    pieces:
+    - [32x32, -16, -27]
+  - symbol: gRooFl00Frame5
+    pieces:
+    - [16x32, -9, -28]
+    - [8x32, 7, -28]
+  - symbol: gRooFl00Frame6
+    pieces:
+    - [32x32, -15, -29]
+  - symbol: gRooFl00Frame7
+    pieces:
+    - [32x32, -15, -30]
+  - symbol: gRooFl00Frame8
+    pieces:
+    - [16x32, -11, -29]
+    - [8x32, 5, -29]
+    - [16x8, -11, 3]
+  - symbol: gRooFl00Frame9
+    pieces:
+    - [32x32, -15, -24]
+  - symbol: gRooFl00Frame10
+    pieces:
+    - [32x32, -15, -24]
+  - symbol: gRooFl00Frame11
+    pieces:
+    - [32x32, -16, -28]
+    - [32x8, -16, 4]
+  - symbol: gRooFl00Frame12
+    pieces:
+    - [32x32, -15, -31]
+    - [32x8, -15, 1]
+  - symbol: gRooFl00Frame13
+    pieces:
+    - [16x32, -10, -30]
+    - [8x32, 6, -30]
+  - symbol: gRooFl00Frame14
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gRooFl00Frame15
+    pieces:
+    - [32x32, -15, -31]
+  - symbol: gRooFl00Frame16
+    pieces:
+    - [16x32, -12, -30]
+    - [8x32, 4, -30]
+  - symbol: gRooFl00Frame17
+    pieces:
+    - [32x32, -17, -30]
+    - [32x8, -17, 2]
+  - symbol: gRooFl00Frame18
+    pieces: []
+  - symbol: gRooFl00Frame19
+    pieces:
+    - [16x8, -13, -3]
+  - symbol: gRooFl00Frame20
+    pieces:
+    - [16x16, -14, -9]
+  - symbol: gRooFl00Frame21
+    pieces:
+    - [16x16, -15, -15]
+    - [16x8, -15, 1]
+    - [8x8, 1, 1]
+  - symbol: gRooFl00Frame22
+    pieces:
+    - [16x16, -19, -19]
+    - [8x16, -3, -19]
+    - [16x8, -19, -3]
+    - [8x8, -3, -3]
+  - symbol: gRooFl00Frame23
+    pieces:
+    - [16x32, -18, -24]
+    - [8x32, -2, -24]
+  - symbol: gRooFl00Frame24
+    pieces:
+    - [16x32, -13, -34]
+    - [8x32, 3, -34]
+    - [8x8, -2, -2]
+  - symbol: gRooFl00Frame25
+    pieces:
+    - [16x32, -19, -3]
+    - [8x32, -3, -3]
+    - [8x8, -8, 29]
+  - symbol: gRooFl00Frame26
+    pieces:
+    - [32x32, -17, -23]
+  - symbol: gRooFl00Frame27
+    pieces:
+    - [32x32, -17, -26]
+  - symbol: gRooFl00Frame28
+    pieces:
+    - [32x32, -17, -31]
+  - symbol: gRooFl00Frame29
+    pieces:
+    - [16x32, -10, -31]
+    - [8x32, 6, -31]
+  - symbol: gRooFl00Frame30
+    pieces:
+    - [32x32, -15, -33]
+  - symbol: gRooFl00Frame31
+    pieces:
+    - [32x32, -15, -32]
+  - symbol: gRooFl00Frame32
+    pieces:
+    - [16x32, -11, -31]
+    - [8x32, 5, -31]
+    - [16x8, -11, 1]
+  - symbol: gRooFl00Frame33
+    pieces:
+    - [32x32, -14, -24]
+  - symbol: gRooFl00Frame34
+    pieces:
+    - [32x32, -16, -24]
+  - symbol: gRooFl00Frame35
+    pieces:
+    - [32x32, -15, -34]
+    - [32x8, -15, -2]
+  - symbol: gRooFl00Frame36
+    pieces:
+    - [32x32, -15, -41]
+    - [32x8, -15, -9]
+  - symbol: gRooFl00Frame37
+    pieces:
+    - [16x32, -10, -43]
+    - [8x32, 6, -43]
+  - symbol: gRooFl00Frame38
+    pieces:
+    - [32x32, -16, -44]
+  - symbol: gRooFl00Frame39
+    pieces:
+    - [32x32, -16, -41]
+  - symbol: gRooFl00Frame40
+    pieces:
+    - [16x32, -11, -34]
+    - [8x32, 5, -34]
+  - symbol: gRooFl00Frame41
+    pieces:
+    - [32x32, -15, -31]
+    - [32x8, -15, 1]
+  animations:
+  - symbol: gRooFl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRooFl00Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 10]]
+  - symbol: gRooFl00Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 6], [3, 6], [4, 7], [5, 7], [6, 7], [7, 7], [8, 6], [9, 6]]
+  - symbol: gRooFl00Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 6], [11, 6], [12, 7], [13, 7], [14, 7], [15, 7], [16, 6], [17, 6]]
+  - symbol: gRooFl00Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 60], [19, 10], [20, 10], [21, 10], [22, 10], [23, 10]]
+  - symbol: gRooFl00Anim5
+    fields: {originX: 64, originY: 64}
+    frames: [[24, 4]]
+  - symbol: gRooFl00Anim6
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 7], [4, 7], [5, 8], [6, 8], [7, 8], [8, 7], [9, 7], [2, 8], [0, 10]]
+  - symbol: gRooFl00Anim7
+    fields: {originX: 64, originY: 64}
+    frames: [[25, 4]]
+  - symbol: gRooFl00Anim8
+    fields: {originX: 64, originY: 64}
+    frames: [[26, 4], [27, 4], [28, 5], [29, 5], [30, 5], [31, 5], [32, 4], [33, 4]]
+  - symbol: gRooFl00Anim9
+    fields: {originX: 64, originY: 64}
+    frames: [[34, 4], [35, 4], [36, 5], [37, 5], [38, 5], [39, 5], [40, 4], [41, 4]]
+  us:
+    address: 0x09752E08
+    size: 11244
+  jp:
+    address: 0x0970B5E4
+    size: 11244
+  eu:
+    address: 0x09720168
+    size: 11244
+- name: ro_footmark
+  format: sprite_sheet
+  palette: gRoFootmarkPalette
+  symbol: gRoFootmarkTiles
+  align: 4
+  cell: [48, 41]
+  anchor: [-3, 1]
+  columns: 2
+  frames:
+  - symbol: gRoFootmarkFrame0
+    pieces:
+    - [32x32, 9, -1]
+    - [32x8, 9, 31]
+  - symbol: gRoFootmarkFrame1
+    pieces:
+    - [32x32, 11, 0]
+    - [8x8, 35, 32]
+    - [8x8, 3, 4]
+    - [8x16, 43, 16]
+  animations:
+  - symbol: gRoFootmarkAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRoFootmarkAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  us:
+    address: 0x097559F4
+    size: 1344
+  jp:
+    address: 0x0970E1D0
+    size: 1344
+  eu:
+    address: 0x09722D54
+    size: 1344
+- name: gPooPoohStumpTiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 40]
+  anchor: [17, 23]
+  columns: 1
+  frames:
+  - symbol: gPooPoohStumpFrame0
+    pieces:
+    - [32x32, -17, -23]
+    - [8x16, 15, -7]
+    - [16x8, -9, 9]
+  animations:
+  - symbol: gPooPoohStumpAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x09755F34
+    size: 672
+  jp:
+    address: 0x0970E710
+    size: 672
+  eu:
+    address: 0x09723294
+    size: 672
+- name: gPooTigerStumpTiles
+  format: sprite_sheet
+  align: 4
+  cell: [64, 32]
+  anchor: [31, 29]
+  columns: 1
+  frames:
+  - symbol: gPooTigerStumpFrame0
+    pieces:
+    - [64x32, -31, -29]
+  animations:
+  - symbol: gPooTigerStumpAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x097561D4
+    size: 1044
+  jp:
+    address: 0x0970E9B0
+    size: 1044
+  eu:
+    address: 0x09723534
+    size: 1044
+- name: gPooTiBoardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 32]
+  anchor: [12, 20]
+  columns: 1
+  frames:
+  - symbol: gPooTiBoardFrame0
+    pieces:
+    - [32x32, -12, -20]
+  animations:
+  - symbol: gPooTiBoardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x097565E8
+    size: 532
+  jp:
+    address: 0x0970EDC4
+    size: 532
+  eu:
+    address: 0x09723948
+    size: 532
+- name: ee_honeycomb
+  format: sprite_sheet
+  palette: gEeHoneycombPalette
+  symbol: gEeHoneycombTiles
+  align: 4
+  cell: [32, 32]
+  anchor: [15, 18]
+  columns: 1
+  frames:
+  - symbol: gEeHoneycombFrame0
+    pieces:
+    - [32x32, -15, -18]
+  animations:
+  - symbol: gEeHoneycombAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x097567FC
+    size: 532
+  jp:
+    address: 0x0970EFD8
+    size: 532
+  eu:
+    address: 0x09723B5C
+    size: 532
+- name: ee_bee
+  format: sprite_sheet
+  palette: gEeBeePalette
+  symbol: gEeBeeTiles
+  align: 4
+  cell: [45, 26]
+  anchor: [23, 15]
+  columns: 8
+  frames:
+  - symbol: gEeBeeFrame0
+    pieces:
+    - [8x8, -4, -6]
+    - [8x8, -4, 2]
+  - symbol: gEeBeeFrame1
+    pieces:
+    - [8x8, -4, -5]
+    - [8x8, -4, 3, {fresh: true}]
+  - symbol: gEeBeeFrame2
+    pieces:
+    - [8x8, 5, -1, {hflip: true}]
+    - [8x8, -10, -13, {hflip: true}]
+  - symbol: gEeBeeFrame3
+    pieces:
+    - [8x16, 14, -7, {hflip: true}]
+  - symbol: gEeBeeFrame4
+    pieces:
+    - [8x16, 14, -10]
+  - symbol: gEeBeeFrame5
+    pieces:
+    - [8x16, 8, -14]
+  - symbol: gEeBeeFrame6
+    pieces:
+    - [8x16, 5, -14]
+    - [8x8, -13, -7]
+  - symbol: gEeBeeFrame7
+    pieces:
+    - [8x16, -20, -10]
+  - symbol: gEeBeeFrame8
+    pieces:
+    - [8x16, -23, -12]
+  - symbol: gEeBeeFrame9
+    pieces:
+    - [8x16, -20, -14, {hflip: true}]
+  - symbol: gEeBeeFrame10
+    pieces:
+    - [8x16, -14, -15, {hflip: true}]
+  animations:
+  - symbol: gEeBeeAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4]]
+  - symbol: gEeBeeAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 10], [3, 10], [4, 10], [5, 10], [6, 10], [7, 10], [8, 10], [9, 10], [10, 10]]
+  us:
+    address: 0x09756A10
+    size: 574
+  jp:
+    address: 0x0970F1EC
+    size: 574
+  eu:
+    address: 0x09723D70
+    size: 574
+- name: ra_vegetables
+  format: sprite_sheet
+  palette: gRaVegetablesPalette
+  symbol: gRaVegetablesTiles
+  align: 4
+  cell: [96, 70]
+  anchor: [49, 40]
+  columns: 8
+  frames:
+  - symbol: gRaVegetablesFrame0
+    pieces:
+    - [64x32, -49, -26]
+    - [32x32, 15, -26]
+    - [32x16, -49, 6]
+    - [32x16, -17, 6]
+    - [32x16, 15, 6]
+    - [16x8, -9, 22]
+  - symbol: gRaVegetablesFrame1
+    pieces:
+    - [16x16, -12, -12]
+    - [8x16, 4, -12]
+  - symbol: gRaVegetablesFrame2
+    pieces:
+    - [16x16, -11, -13]
+    - [8x16, 5, -13]
+    - [16x8, -11, 3]
+  - symbol: gRaVegetablesFrame3
+    pieces:
+    - [16x16, -9, -15]
+    - [8x16, 7, -15]
+    - [16x8, -9, 1]
+  - symbol: gRaVegetablesFrame4
+    pieces:
+    - [16x16, -9, -15]
+    - [8x16, 7, -15]
+    - [16x8, -9, 1]
+  - symbol: gRaVegetablesFrame5
+    pieces:
+    - [16x16, -11, -13]
+    - [8x16, 5, -13]
+  - symbol: gRaVegetablesFrame6
+    pieces:
+    - [16x16, -9, -14]
+    - [8x16, 7, -14]
+    - [16x8, -9, 2]
+  - symbol: gRaVegetablesFrame7
+    pieces:
+    - [16x16, -11, -12]
+    - [8x16, 5, -12]
+    - [8x8, -3, 4]
+  - symbol: gRaVegetablesFrame8
+    pieces:
+    - [16x16, -12, -12]
+    - [8x16, 4, -12]
+  - symbol: gRaVegetablesFrame9
+    pieces:
+    - [16x16, -12, -40, {same: [1, 0]}]
+    - [8x16, 4, -40, {same: [1, 1]}]
+    - [16x16, -12, -26, {same: [1, 0]}]
+    - [8x16, 4, -26, {same: [1, 1]}]
+    - [16x16, -22, -31, {same: [1, 0]}]
+    - [8x16, -6, -31, {same: [1, 1]}]
+    - [16x16, -2, -31, {same: [1, 0]}]
+    - [8x16, 14, -31, {same: [1, 1]}]
+    - [16x16, -12, -12, {same: [1, 0]}]
+    - [8x16, 4, -12, {same: [1, 1]}]
+    - [16x16, -22, -17, {same: [1, 0]}]
+    - [8x16, -6, -17, {same: [1, 1]}]
+    - [16x16, -2, -17, {same: [1, 0]}]
+    - [8x16, 14, -17, {same: [1, 1]}]
+    - [16x16, 8, -22, {same: [1, 0]}]
+    - [8x16, 24, -22]
+    - [16x16, -32, -22, {same: [1, 0]}]
+    - [8x16, -16, -22, {same: [1, 1]}]
+  - symbol: gRaVegetablesFrame10
+    pieces:
+    - [64x32, -37, -27]
+  - symbol: gRaVegetablesFrame11
+    pieces:
+    - [64x32, -32, -32]
+    - [16x8, -8, 0]
+  - symbol: gRaVegetablesFrame12
+    pieces:
+    - [64x32, -32, -28]
+    - [32x8, -16, -36]
+  animations:
+  - symbol: gRaVegetablesAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRaVegetablesAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gRaVegetablesAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 8], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [7, 7], [8, 7]]
+  - symbol: gRaVegetablesAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 8], [1, 8], [8, 8], [1, 8]]
+  - symbol: gRaVegetablesAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 6], [1, 6], [8, 6], [1, 6], [2, 6], [1, 50]]
+  - symbol: gRaVegetablesAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  us:
+    address: 0x09756C50
+    size: 7928
+  jp:
+    address: 0x0970F42C
+    size: 7928
+  eu:
+    address: 0x09723FB0
+    size: 7928
+- name: ra_wagon
+  format: sprite_sheet
+  palette: gRaWagonPalette
+  symbol: gRaWagonTiles
+  align: 4
+  cell: [83, 62]
+  anchor: [47, 37]
+  columns: 8
+  frames:
+  - symbol: gRaWagonFrame0
+    pieces:
+    - [32x32, -28, -28, {layer: 1}]
+    - [32x32, 4, -21]
+    - [16x8, -12, 4]
+    - [16x16, -23, -37, {layer: 2}]
+    - [8x8, -31, -37]
+    - [32x8, 4, 11]
+  - symbol: gRaWagonFrame1
+    pieces:
+    - [32x32, -29, -14, {layer: 1}]
+    - [32x32, 3, -10]
+    - [16x16, -47, -27]
+    - [8x8, -31, -19, {layer: 2}]
+  - symbol: gRaWagonFrame2
+    pieces:
+    - [32x16, -21, 1]
+    - [32x8, -21, 17]
+  - symbol: gRaWagonFrame3
+    pieces:
+    - [32x16, -15, -21]
+    - [32x8, -15, -5]
+  - symbol: gRaWagonFrame4
+    pieces:
+    - [16x32, -10, -27]
+    - [8x32, 6, -27]
+  - symbol: gRaWagonFrame5
+    pieces:
+    - [16x32, -11, -27]
+    - [8x32, 5, -27]
+  - symbol: gRaWagonFrame6
+    pieces:
+    - [16x32, -8, -27]
+  - symbol: gRaWagonFrame7
+    pieces:
+    - [16x32, -8, -27]
+  - symbol: gRaWagonFrame8
+    pieces:
+    - [16x32, -8, -27]
+  - symbol: gRaWagonFrame9
+    pieces:
+    - [16x32, -8, -27]
+  - symbol: gRaWagonFrame10
+    pieces:
+    - [32x16, -16, -12]
+    - [32x8, -16, 4]
+  - symbol: gRaWagonFrame11
+    pieces:
+    - [32x32, -28, -28]
+    - [32x32, 4, -21]
+    - [16x8, -12, 4]
+    - [32x8, 4, 11]
+  - symbol: gRaWagonFrame12
+    pieces:
+    - [16x16, -23, -37]
+    - [8x8, -31, -37]
+  animations:
+  - symbol: gRaWagonAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRaWagonAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gRaWagonAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRaWagonAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 30], [4, 15], [5, 15], [6, 15], [7, 15], [8, 15], [9, 15], [6, 15], [7, 15], [8, 15], [9, 15]]
+  - symbol: gRaWagonAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gRaWagonAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  us:
+    address: 0x09758B48
+    size: 5452
+  jp:
+    address: 0x09711324
+    size: 5452
+  eu:
+    address: 0x09725EA8
+    size: 5452
+- name: gUnk_0975A1CA
+  format: sprite_sheet
+  align: 4
+  cell: [88, 67]
+  anchor: [48, 40]
+  columns: 8
+  frames:
+  - symbol: gUnk_0975A094
+    pieces:
+    - [64x32, -28, -29]
+    - [32x16, -28, 3]
+    - [32x16, 4, 3]
+    - [32x32, -46, -37, {layer: 1}]
+  - symbol: gUnk_0975A0B0
+    pieces:
+    - [64x32, -30, -13, {layer: 1}]
+    - [8x8, 12, 19]
+    - [32x32, -46, -37, {same: [0, 3]}]
+    - [8x32, -14, -37, {layer: 2}]
+  - symbol: gUnk_0975A0CC
+    pieces:
+    - [32x16, -21, 1]
+    - [32x8, -21, 17]
+  - symbol: gUnk_0975A0DC
+    pieces:
+    - [32x16, -15, -21]
+    - [32x8, -15, -5]
+  - symbol: gUnk_0975A0EC
+    pieces:
+    - [16x32, -10, -27]
+    - [8x32, 6, -27]
+  - symbol: gUnk_0975A0FC
+    pieces:
+    - [16x32, -11, -27]
+    - [8x32, 5, -27]
+  - symbol: gUnk_0975A10C
+    pieces:
+    - [16x32, -8, -27]
+  - symbol: gUnk_0975A116
+    pieces:
+    - [16x32, -8, -27]
+  - symbol: gUnk_0975A120
+    pieces:
+    - [16x32, -8, -27]
+  - symbol: gUnk_0975A12A
+    pieces:
+    - [16x32, -8, -27]
+  - symbol: gUnk_0975A134
+    pieces:
+    - [32x16, -16, -12]
+    - [32x8, -16, 4]
+  - symbol: gUnk_0975A144
+    pieces:
+    - [64x64, -48, -40]
+    - [16x32, 16, -40]
+    - [8x32, 32, -40]
+    - [16x32, 16, -8]
+    - [8x32, 32, -8]
+  animations:
+  - symbol: gUnk_0975A166
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gUnk_0975A170
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gUnk_0975A17A
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gUnk_0975A184
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 30], [4, 15], [5, 15], [6, 15], [7, 15], [8, 15], [9, 15], [6, 15], [7, 15], [8, 15], [9, 15]]
+  - symbol: gUnk_0975A1B6
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gUnk_0975A1C0
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  us:
+    address: 0x0975A094
+    size: 8918
+  jp:
+    address: 0x09712870
+    size: 8918
+  eu:
+    address: 0x097273F4
+    size: 8918
+- name: gPooLeafTiles
+  format: sprite_sheet
+  align: 4
+  cell: [64, 32]
+  anchor: [0, 3]
+  columns: 8
+  frames:
+  - symbol: gPooLeafFrame0
+    pieces:
+    - [64x32, 0, -3]
+  - symbol: gPooLeafFrame1
+    pieces:
+    - [64x32, 0, -3]
+  - symbol: gPooLeafFrame2
+    pieces:
+    - [64x32, 0, -3]
+  - symbol: gPooLeafFrame3
+    pieces:
+    - [64x32, 0, -3]
+  - symbol: gPooLeafFrame4
+    pieces:
+    - [64x32, 0, -3]
+  - symbol: gPooLeafFrame5
+    pieces:
+    - [64x32, 0, -3]
+  - symbol: gPooLeafFrame6
+    pieces:
+    - [64x32, 0, -3]
+  - symbol: gPooLeafFrame7
+    pieces:
+    - [64x32, 0, -3]
+  animations:
+  - symbol: gPooLeafAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 10], [2, 10], [3, 12], [4, 12], [5, 12], [6, 12], [7, 12]]
+  us:
+    address: 0x0975C36C
+    size: 8310
+  jp:
+    address: 0x09714B48
+    size: 8310
+  eu:
+    address: 0x097296CC
+    size: 8310
+- name: gPooTanpopoTiles
+  format: sprite_sheet
+  align: 4
+  cell: [64, 32]
+  anchor: [8, 0]
+  columns: 2
+  frames:
+  - symbol: gPooTanpopoFrame0
+    pieces:
+    - [64x32, -8, 0]
+  - symbol: gPooTanpopoFrame1
+    pieces:
+    - [64x32, -8, 0]
+  animations:
+  - symbol: gPooTanpopoAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 7], [0, 7], [1, 22]]
+  us:
+    address: 0x0975E3E4
+    size: 2090
+  jp:
+    address: 0x09716BC0
+    size: 2090
+  eu:
+    address: 0x0972B744
+    size: 2090
+- name: gPooTanpopoSeedTiles
+  format: sprite_sheet
+  align: 4
+  cell: [70, 40]
+  anchor: [11, 18]
+  columns: 6
+  frames:
+  - symbol: gPooTanpopoSeedFrame0
+    pieces:
+    - [32x32, -8, -10]
+    - [32x32, 24, -10]
+  - symbol: gPooTanpopoSeedFrame1
+    pieces:
+    - [32x32, -9, -10]
+    - [32x32, 25, -10]
+  - symbol: gPooTanpopoSeedFrame2
+    pieces:
+    - [32x32, -10, -10]
+    - [32x32, 26, -10]
+  - symbol: gPooTanpopoSeedFrame3
+    pieces:
+    - [32x32, -11, -18]
+    - [32x32, 27, -18]
+  - symbol: gPooTanpopoSeedFrame4
+    pieces:
+    - [32x32, -11, -18]
+    - [32x32, 27, -18]
+  - symbol: gPooTanpopoSeedFrame5
+    pieces:
+    - [32x32, -11, -16]
+    - [32x32, 27, -16]
+  animations:
+  - symbol: gPooTanpopoSeedAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 6], [5, 5]]
+  us:
+    address: 0x0975EC10
+    size: 6270
+  jp:
+    address: 0x097173EC
+    size: 6270
+  eu:
+    address: 0x0972BF70
+    size: 6270
+- name: gPooMapbeeTiles
+  format: sprite_sheet
+  align: 4
+  cell: [25, 24]
+  anchor: [-4, 4]
+  columns: 8
+  frames:
+  - symbol: gPooMapbeeFrame0
+    pieces:
+    - [8x16, 12, 0]
+  - symbol: gPooMapbeeFrame1
+    pieces:
+    - [8x16, 11, -1]
+  - symbol: gPooMapbeeFrame2
+    pieces:
+    - [8x16, 10, -2]
+  - symbol: gPooMapbeeFrame3
+    pieces:
+    - [8x16, 9, -3]
+  - symbol: gPooMapbeeFrame4
+    pieces:
+    - [8x16, 8, -4]
+  - symbol: gPooMapbeeFrame5
+    pieces:
+    - [8x16, 7, -4]
+  - symbol: gPooMapbeeFrame6
+    pieces:
+    - [8x16, 6, -4]
+  - symbol: gPooMapbeeFrame7
+    pieces:
+    - [8x16, 5, -3]
+  - symbol: gPooMapbeeFrame8
+    pieces:
+    - [8x16, 4, -2]
+  - symbol: gPooMapbeeFrame9
+    pieces:
+    - [8x16, 4, -1]
+  - symbol: gPooMapbeeFrame10
+    pieces:
+    - [8x16, 4, 0]
+  - symbol: gPooMapbeeFrame11
+    pieces:
+    - [8x16, 4, 1]
+  - symbol: gPooMapbeeFrame12
+    pieces:
+    - [8x16, 4, 2]
+  - symbol: gPooMapbeeFrame13
+    pieces:
+    - [8x16, 5, 3]
+  - symbol: gPooMapbeeFrame14
+    pieces:
+    - [8x16, 6, 4]
+  - symbol: gPooMapbeeFrame15
+    pieces:
+    - [8x16, 7, 4]
+  - symbol: gPooMapbeeFrame16
+    pieces:
+    - [8x16, 9, 4, {hflip: true}]
+  - symbol: gPooMapbeeFrame17
+    pieces:
+    - [8x16, 10, 3, {hflip: true}]
+  - symbol: gPooMapbeeFrame18
+    pieces:
+    - [8x16, 11, 2, {hflip: true}]
+  - symbol: gPooMapbeeFrame19
+    pieces:
+    - [8x16, 12, 1, {hflip: true}]
+  - symbol: gPooMapbeeFrame20
+    pieces:
+    - [8x16, 13, 0, {hflip: true}]
+  - symbol: gPooMapbeeFrame21
+    pieces:
+    - [8x16, 14, -1, {hflip: true}]
+  - symbol: gPooMapbeeFrame22
+    pieces:
+    - [8x16, 15, -2, {hflip: true}]
+  - symbol: gPooMapbeeFrame23
+    pieces:
+    - [8x16, 16, -3, {hflip: true}]
+  - symbol: gPooMapbeeFrame24
+    pieces:
+    - [8x16, 17, -4, {hflip: true}]
+  - symbol: gPooMapbeeFrame25
+    pieces:
+    - [8x16, 18, -4, {hflip: true}]
+  - symbol: gPooMapbeeFrame26
+    pieces:
+    - [8x16, 19, -4, {hflip: true}]
+  - symbol: gPooMapbeeFrame27
+    pieces:
+    - [8x16, 20, -3, {hflip: true}]
+  - symbol: gPooMapbeeFrame28
+    pieces:
+    - [8x16, 21, -2, {hflip: true}]
+  - symbol: gPooMapbeeFrame29
+    pieces:
+    - [8x16, 21, -1, {hflip: true}]
+  - symbol: gPooMapbeeFrame30
+    pieces:
+    - [8x16, 21, 0, {hflip: true}]
+  - symbol: gPooMapbeeFrame31
+    pieces:
+    - [8x16, 21, 1, {hflip: true}]
+  - symbol: gPooMapbeeFrame32
+    pieces:
+    - [8x16, 21, 2, {hflip: true}]
+  - symbol: gPooMapbeeFrame33
+    pieces:
+    - [8x16, 20, 3, {hflip: true}]
+  - symbol: gPooMapbeeFrame34
+    pieces:
+    - [8x16, 19, 4, {hflip: true}]
+  - symbol: gPooMapbeeFrame35
+    pieces:
+    - [8x16, 18, 4, {hflip: true}]
+  - symbol: gPooMapbeeFrame36
+    pieces:
+    - [8x16, 16, 4]
+  - symbol: gPooMapbeeFrame37
+    pieces:
+    - [8x16, 15, 3]
+  - symbol: gPooMapbeeFrame38
+    pieces:
+    - [8x16, 14, 2]
+  - symbol: gPooMapbeeFrame39
+    pieces:
+    - [8x16, 13, 1]
+  - symbol: gPooMapbeeFrame40
+    pieces:
+    - [8x16, 12, 0]
+  - symbol: gPooMapbeeFrame41
+    pieces:
+    - [8x8, 12, 4]
+  animations:
+  - symbol: gPooMapbeeAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[41, 4]]
+  - symbol: gPooMapbeeAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 4], [4, 4], [5, 4], [6, 4], [7, 4], [8, 4], [9, 4], [10, 4], [11, 4], [12, 4], [13, 4], [14, 4], [15, 4], [16, 4], [17, 4], [18, 4], [19, 4], [20, 4], [21, 4], [22, 4], [23, 4], [24, 4], [25, 4], [26, 4], [27, 4], [28, 4], [29, 4], [30, 4], [31, 4], [32, 4], [33, 4], [34, 4], [35, 4], [36, 4], [37, 4], [38, 4], [39, 4], [40, 4]]
+  us:
+    address: 0x09760490
+    size: 760
+  jp:
+    address: 0x09718C6C
+    size: 760
+  eu:
+    address: 0x0972D7F0
+    size: 760
+- name: gPooMapbutterflyTiles
+  format: sprite_sheet
+  align: 4
+  cell: [44, 12]
+  anchor: [10, 3]
+  columns: 8
+  frames:
+  - symbol: gPooMapbutterflyFrame0
+    pieces:
+    - [8x8, 12, 0]
+  - symbol: gPooMapbutterflyFrame1
+    pieces:
+    - [8x8, 14, -1]
+  - symbol: gPooMapbutterflyFrame2
+    pieces:
+    - [8x8, 16, 0]
+  - symbol: gPooMapbutterflyFrame3
+    pieces:
+    - [8x8, 18, 1]
+  - symbol: gPooMapbutterflyFrame4
+    pieces:
+    - [8x8, 20, 1]
+  - symbol: gPooMapbutterflyFrame5
+    pieces:
+    - [8x8, 22, 0]
+  - symbol: gPooMapbutterflyFrame6
+    pieces:
+    - [8x8, 24, -1]
+  - symbol: gPooMapbutterflyFrame7
+    pieces:
+    - [8x8, 26, -2]
+  - symbol: gPooMapbutterflyFrame8
+    pieces:
+    - [8x8, 24, -2]
+  - symbol: gPooMapbutterflyFrame9
+    pieces:
+    - [8x8, 22, -3]
+  - symbol: gPooMapbutterflyFrame10
+    pieces:
+    - [8x8, 20, -2]
+  - symbol: gPooMapbutterflyFrame11
+    pieces:
+    - [8x8, 18, -1]
+  - symbol: gPooMapbutterflyFrame12
+    pieces:
+    - [16x8, 16, 0]
+  - symbol: gPooMapbutterflyFrame13
+    pieces:
+    - [8x8, 14, -1]
+  - symbol: gPooMapbutterflyFrame14
+    pieces:
+    - [8x8, 12, 1]
+  - symbol: gPooMapbutterflyFrame15
+    pieces:
+    - [16x8, 10, 0]
+  - symbol: gPooMapbutterflyFrame16
+    pieces:
+    - [8x8, 8, 0, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame17
+    pieces:
+    - [8x8, 6, -1, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame18
+    pieces:
+    - [8x8, 4, 0, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame19
+    pieces:
+    - [8x8, 2, 1, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame20
+    pieces:
+    - [8x8, 0, 0, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame21
+    pieces:
+    - [8x8, -2, -1, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame22
+    pieces:
+    - [8x8, -4, 0, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame23
+    pieces:
+    - [8x8, -6, 0, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame24
+    pieces:
+    - [8x8, -8, 0, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame25
+    pieces:
+    - [8x8, -10, 0, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame26
+    pieces:
+    - [8x8, -8, 1, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame27
+    pieces:
+    - [8x8, -6, 1, {hflip: true}]
+  - symbol: gPooMapbutterflyFrame28
+    pieces:
+    - [16x8, -4, 1]
+  - symbol: gPooMapbutterflyFrame29
+    pieces:
+    - [8x8, -2, 0]
+  - symbol: gPooMapbutterflyFrame30
+    pieces:
+    - [8x8, 0, 1]
+  - symbol: gPooMapbutterflyFrame31
+    pieces:
+    - [16x8, 2, 0]
+  - symbol: gPooMapbutterflyFrame32
+    pieces:
+    - [16x8, 4, 0]
+  - symbol: gPooMapbutterflyFrame33
+    pieces:
+    - [8x8, 6, -1]
+  - symbol: gPooMapbutterflyFrame34
+    pieces:
+    - [8x8, 8, 0]
+  - symbol: gPooMapbutterflyFrame35
+    pieces:
+    - [16x8, 10, 0]
+  animations:
+  - symbol: gPooMapbutterflyAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [13, 6], [14, 6], [15, 6], [16, 6], [17, 6], [18, 6], [19, 6], [20, 6], [21, 6], [22, 6], [23, 6], [24, 6], [25, 6], [26, 6], [27, 6], [28, 6], [29, 6], [30, 6], [31, 6], [32, 6], [33, 6], [34, 6], [35, 6]]
+  us:
+    address: 0x09760788
+    size: 1278
+  jp:
+    address: 0x09718F64
+    size: 1278
+  eu:
+    address: 0x0972DAE8
+    size: 1278
+- name: gUnk_097AED78
+  format: tiles4
+  width: 32
+  us:
+    address: 0x097AED78
+    size: 22528
+  jp:
+    address: 0x0976920C
+    size: 22528
+  eu:
+    address: 0x0978C6E0
+    size: 22528
+- name: gPooMapanime0Tiles
+  format: tiles4
+  us:
+    address: 0x097B4578
+    size: 3744
+  jp:
+    address: 0x0976EA0C
+    size: 3744
+  eu:
+    address: 0x09791EE0
+    size: 3744
+- name: gPooMapanime1Tiles
+  format: tiles4
+  us:
+    address: 0x097B5418
+    size: 3744
+  jp:
+    address: 0x0976F8AC
+    size: 3744
+  eu:
+    address: 0x09792D80
+    size: 3744
+- name: gUnkEu_09814240
+  format: tilemap
+  eu:
+    address: 0x09814240
+    size: 2048

@@ -1,0 +1,121 @@
+#ifdef VERSION_US
+#include "event_168_text.inc"
+#endif
+
+static const MessageScriptEntry sEvent168Script[19] = {
+    { PORTRAIT_LARXENE, 4, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text00), 0, 100 },
+    { PORTRAIT_LARXENE, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text01), 0, 280 },
+    { PORTRAIT_RIKU_REPLICA, 0, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text02), 0, 300 },
+    { PORTRAIT_RIKU_REPLICA, 0, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text03), 0, 450 },
+    { PORTRAIT_LARXENE, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text04), 0, 480 },
+    { PORTRAIT_RIKU_REPLICA, 0, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text05), 0, 570 },
+    { PORTRAIT_RIKU_REPLICA, 0, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text06), 0, 650 },
+    { PORTRAIT_RIKU_REPLICA, 0, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text07), 0, 830 },
+    { PORTRAIT_LARXENE, 4, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text08), 0, 1170 },
+    { PORTRAIT_LARXENE, 2, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text09), 0, 1172 },
+    { PORTRAIT_LARXENE, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text10), 0, 1260 },
+    { PORTRAIT_LARXENE, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text11), 0, 1262 },
+    { PORTRAIT_NAMINE, 4, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text12), 0, 1305 },
+    { PORTRAIT_NAMINE, 4, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text13), 0, 1420 },
+    { PORTRAIT_NAMINE, 4, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text14), 0, 1422 },
+    { PORTRAIT_NAMINE, 4, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text15), 0, 1424 },
+    { PORTRAIT_LARXENE, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text16), 0, 1620 },
+    { PORTRAIT_LARXENE, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text17), 0, 1622 },
+    { PORTRAIT_LARXENE, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent168Text18), MSG_SCRIPT_FLAG_END, 1624 },
+};
+
+#ifdef VERSION_JP
+#include "event_168_text.inc"
+#endif
+
+static const EvSoundCue sEvent168SoundCues[2] = {
+    { SONG_BGM_EVENT_XIII, 0, 0, 0 },
+    { SONG_BGM_EVENT_XIII, 1680, EV_SOUND_FLAG_FADE_OUT | EV_SOUND_FLAG_END, 0 },
+};
+
+static const EventCameraKeyframe sEvent168Camera[3] = {
+    { -65036, 77056, 66816, 0, EVENT_CHARA_NONE, 0, 0, NULL },
+    { -64346, 73216, 67328, 0, EVENT_CHARA_NONE, CAMERA_MODE_APPROACH, 50, NULL },
+    { -64536, 73216, 71680, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_END | CAMERA_MODE_APPROACH, 80, NULL },
+};
+
+static const EventCharaKeyframe sEvent168Track0[10] = {
+    { 856, 940, 87296, 66816, 0, 0, 2, NULL, NULL },
+    { 856, 1070, 0, 0, 0, 0, 0, NULL, CreateBalloonTask },
+    { 856, 1190, 0, 0, 0, 0, 5, NULL, NULL },
+    { 881, 1230, 0, 0, 0, 173, 4, NULL, NULL },
+    { 856, 1320, 0, 0, 0, 0, 5, NULL, NULL },
+    { 856, 1370, 0, 0, 0, 0, 0, NULL, CreateQuestionTask },
+    { 856, 1450, 0, 0, 0, 0, 5, NULL, NULL },
+    { 856, 1580, 0, 0, 0, 0, 0, NULL, CreateBalloonTask },
+    { 856, 3000, 0, 0, 0, 0, 5, NULL, NULL },
+    { 856, 5000, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent168Track1[6] = {
+    { 444, 120, 71680, 82688, 0, 0, 2, NULL, NULL },
+    { 444, 250, 0, 0, 0, 0, 0, NULL, CreateBalloonTask },
+    { 444, 680, 0, 0, 0, 0, 5, NULL, NULL },
+    { 444, 810, 0, 0, 0, 0, 0, NULL, CreateBalloonTask },
+    { 444, 3000, 0, 0, 0, 0, 5, NULL, NULL },
+    { 444, 5000, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent168Track2[2] = {
+    { 919, 30, 72192, 82432, 0, 0, 322, NULL, NULL },
+    { 919, 5000, 0, 0, 0, 0, 33093, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent168Track3[13] = {
+    { 695, 301, 39680, 66048, 0, 0, 66, NULL, NULL },
+    { 711, 400, 62208, 77824, 0, 695, 67, NULL, NULL },
+    { 695, 410, 0, 0, 0, 0, 69, NULL, NULL },
+    { 696, 500, 0, 0, 0, 0, 69, NULL, NULL },
+    { 695, 600, 0, 0, 0, 0, 69, NULL, NULL },
+    { 703, 760, 0, 0, 0, 0, 69, NULL, NULL },
+    { 704, 790, 0, 0, 0, 0, 69, NULL, NULL },
+    { 695, 850, 0, 0, 0, 0, 69, NULL, NULL },
+    { 695, 860, 0, 0, 0, 0, 5, NULL, NULL },
+    { 696, 890, 0, 0, 0, 0, 5, NULL, NULL },
+    { 712, 1400, 0, 0, 0, 211, 4, NULL, NULL },
+    { 696, 3000, 0, 0, 0, 0, 5, NULL, NULL },
+    { 696, 5000, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent168Track4[4] = {
+    { 909, 624, 0, 0, 0, 0, 8514, NULL, NULL },
+    { 916, 766, 62208, 77824, 0, 0, 16722, NULL, NULL },
+    { 909, 800, 0, 0, 0, 0, 322, NULL, NULL },
+    { 909, 5000, 0, 0, 0, 0, 98373, NULL, NULL },
+};
+
+static const EventCharaTrack sEvent168Tracks[5] = {
+    { sEvent168Track0, EVENT_CHARA_LARXENE },
+    { sEvent168Track1, EVENT_CHARA_NAMINE },
+    { sEvent168Track2, EVENT_CHARA_MAP_GIMMICK_44 },
+    { sEvent168Track3, EVENT_CHARA_RIKU_REPLICA },
+    { sEvent168Track4, EVENT_CHARA_OMAMORI },
+};
+
+const EventSequenceDef gEvent168 = {
+    ARRAY_COUNT(sEvent168Tracks),
+    sEvent168Tracks,
+    sEvent168Camera,
+    sEvent168Script,
+    sEvent168SoundCues,
+    NULL,
+    1685,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    0,
+    EVENT_169_RIKU_B5F_DEMO,
+    0,
+    { 0, 0 },
+    EVENT_EXIT_NONE,
+    0,
+    WORLD_NONE,
+    POOH_LEVEL_NONE,
+};

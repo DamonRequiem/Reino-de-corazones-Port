@@ -1,0 +1,609 @@
+group: sprites_cloud
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_cloud_frames.s
+    start: 0x08885B78
+    end: 0x088A4A3C
+    data_start: 0x09EDE688
+    data_end: 0x09EDE790
+  jp:
+  - name: sprites_cloud_frames.s
+    start: 0x08879160
+    end: 0x08898024
+    data_start: 0x09EB6104
+    data_end: 0x09EB620C
+  eu:
+  - name: sprites_cloud_frames.s
+    start: 0x088B149C
+    end: 0x088D0360
+    data_start: 0x09F592E0
+    data_end: 0x09F593E8
+entries:
+- name: gCroud00Frames
+  record: SpriteTable
+  items: [gCroud00Frame0, gCroud00Frame1, gCroud00Frame2, gCroud00Frame3, gCroud00Frame4]
+  us:
+    address: 0x09EDE688
+  jp:
+    address: 0x09EB6104
+  eu:
+    address: 0x09F592E0
+- name: gCroud00Anims
+  record: AnimTable
+  items: [gCroud00Anim0, gCroud00Anim1, gCroud00Anim2, gCroud00Anim3]
+  us:
+    address: 0x09EDE69C
+  jp:
+    address: 0x09EB6118
+  eu:
+    address: 0x09F592F4
+- name: gCroud01Frames
+  record: SpriteTable
+  items: [gCroud01Frame0, gCroud01Frame1, gCroud01Frame2, gCroud01Frame3, gCroud01Frame4, gCroud01Frame5, gCroud01Frame6, gCroud01Frame7, gCroud01Frame8, gCroud01Frame9]
+  us:
+    address: 0x09EDE6AC
+  jp:
+    address: 0x09EB6128
+  eu:
+    address: 0x09F59304
+- name: gCroud01Anims
+  record: AnimTable
+  items: [gCroud01Anim0, gCroud01Anim1, gCroud01Anim2]
+  us:
+    address: 0x09EDE6D4
+  jp:
+    address: 0x09EB6150
+  eu:
+    address: 0x09F5932C
+- name: gCroud02Frames
+  record: SpriteTable
+  items: [gCroud02Frame0, gCroud02Frame1, gCroud02Frame2, gCroud02Frame3, gCroud02Frame4, gCroud02Frame5, gCroud02Frame6, gCroud02Frame7, gCroud02Frame8, gCroud02Frame9, gCroud02Frame10]
+  us:
+    address: 0x09EDE6E0
+  jp:
+    address: 0x09EB615C
+  eu:
+    address: 0x09F59338
+- name: gCroud02Anims
+  record: AnimTable
+  items: [gCroud02Anim0, gCroud02Anim1]
+  us:
+    address: 0x09EDE70C
+  jp:
+    address: 0x09EB6188
+  eu:
+    address: 0x09F59364
+- name: gCroud10Frames
+  record: SpriteTable
+  items: [gCroud10Frame0, gCroud10Frame1, gCroud10Frame2]
+  us:
+    address: 0x09EDE714
+  jp:
+    address: 0x09EB6190
+  eu:
+    address: 0x09F5936C
+- name: gCroud10Anims
+  record: AnimTable
+  items: [gCroud10Anim0]
+  us:
+    address: 0x09EDE720
+  jp:
+    address: 0x09EB619C
+  eu:
+    address: 0x09F59378
+- name: gCroud11Frames
+  record: SpriteTable
+  items: [gCroud11Frame0, gCroud11Frame1, gCroud11Frame2, gCroud11Frame3, gCroud11Frame4, gCroud11Frame5, gCroud11Frame6]
+  us:
+    address: 0x09EDE724
+  jp:
+    address: 0x09EB61A0
+  eu:
+    address: 0x09F5937C
+- name: gCroud11Anims
+  record: AnimTable
+  items: [gCroud11Anim0]
+  us:
+    address: 0x09EDE740
+  jp:
+    address: 0x09EB61BC
+  eu:
+    address: 0x09F59398
+- name: gCroud12Frames
+  record: SpriteTable
+  items: [gCroud12Frame0, gCroud12Frame1, gCroud12Frame2, gCroud12Frame3, gCroud12Frame4, gCroud12Frame5, gCroud12Frame6, gCroud12Frame7]
+  us:
+    address: 0x09EDE744
+  jp:
+    address: 0x09EB61C0
+  eu:
+    address: 0x09F5939C
+- name: gCroud12Anims
+  record: AnimTable
+  items: [gCroud12Anim0]
+  us:
+    address: 0x09EDE764
+  jp:
+    address: 0x09EB61E0
+  eu:
+    address: 0x09F593BC
+- name: gCroud13Frames
+  record: SpriteTable
+  items: [gCroud13Frame0, gCroud13Frame1, gCroud13Frame2, gCroud13Frame3, gCroud13Frame4, gCroud13Frame5, gCroud13Frame6, gCroud13Frame7, gCroud13Frame8]
+  us:
+    address: 0x09EDE768
+  jp:
+    address: 0x09EB61E4
+  eu:
+    address: 0x09F593C0
+- name: gCroud13Anims
+  record: AnimTable
+  items: [gCroud13Anim0]
+  us:
+    address: 0x09EDE78C
+  jp:
+    address: 0x09EB6208
+  eu:
+    address: 0x09F593E4
+- name: croud_00
+  format: sprite_sheet
+  palette: croud
+  symbol: gCroud00Tiles
+  align: 4
+  cell: [111, 113]
+  anchor: [68, 93]
+  columns: 5
+  frames:
+  - symbol: gCroud00Frame0
+    pieces:
+    - [64x64, -26, -62]
+    - [32x16, -18, -6]
+  - symbol: gCroud00Frame1
+    pieces:
+    - [64x64, -21, -62]
+    - [32x16, -13, -6]
+  - symbol: gCroud00Frame2
+    pieces:
+    - [64x64, -32, -63]
+    - [32x16, -8, -7]
+    - [16x32, -24, -93, {layer: 1}]
+  - symbol: gCroud00Frame3
+    pieces:
+    - [64x64, -37, -44]
+    - [32x32, -61, -36]
+    - [16x8, 19, -4]
+  - symbol: gCroud00Frame4
+    pieces:
+    - [64x64, -44, -45]
+    - [32x16, -68, -13]
+    - [32x8, 4, -5]
+  animations:
+  - symbol: gCroud00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gCroud00Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gCroud00Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gCroud00Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 6], [4, 10]]
+  us:
+    address: 0x08885B78
+    size: 12366
+  jp:
+    address: 0x08879160
+    size: 12366
+  eu:
+    address: 0x088B149C
+    size: 12366
+- name: croud_01
+  format: sprite_sheet
+  palette: croud
+  symbol: gCroud01Tiles
+  align: 4
+  cell: [128, 101]
+  anchor: [66, 86]
+  columns: 8
+  frames:
+  - symbol: gCroud01Frame0
+    pieces:
+    - [64x64, -27, -60]
+    - [32x32, -58, -52]
+    - [16x8, 5, 3]
+  - symbol: gCroud01Frame1
+    pieces:
+    - [64x64, -27, -54]
+    - [16x16, -42, -16]
+  - symbol: gCroud01Frame2
+    pieces:
+    - [64x64, -10, -54]
+    - [16x8, 6, -61]
+    - [8x16, -17, -14]
+  - symbol: gCroud01Frame3
+    pieces:
+    - [64x64, -10, -59]
+    - [16x16, 46, -35]
+    - [8x16, -17, -11]
+    - [16x8, 6, 4]
+  - symbol: gCroud01Frame4
+    pieces:
+    - [64x64, -26, -62]
+    - [16x16, 6, -6]
+    - [64x32, -19, -86]
+  - symbol: gCroud01Frame5
+    pieces:
+    - [64x64, -40, -61, {layer: 1}]
+    - [32x64, -66, -73, {layer: 2}]
+    - [8x8, -35, -73]
+    - [16x8, 8, 2]
+  - symbol: gCroud01Frame6
+    pieces:
+    - [64x32, -65, -55, {layer: 1}]
+    - [64x32, -65, -24]
+    - [32x32, -2, -24]
+    - [16x8, 7, 7]
+    - [16x8, -2, -31]
+    - [16x8, -22, -62]
+  - symbol: gCroud01Frame7
+    pieces:
+    - [64x64, -40, -52]
+    - [16x16, 16, -12]
+    - [32x16, -64, -4]
+    - [16x16, -23, -67]
+  - symbol: gCroud01Frame8
+    pieces:
+    - [64x64, -25, -59]
+    - [16x16, 7, -3]
+    - [32x8, -18, -66]
+  - symbol: gCroud01Frame9
+    pieces:
+    - [64x64, -24, -59]
+    - [16x16, 8, -3]
+    - [8x8, -31, -19]
+  animations:
+  - symbol: gCroud01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 2], [1, 3], [2, 6], [3, 14], [4, 2], [5, 3], [6, 6], [7, 12], [8, 6], [9, 4]]
+  - symbol: gCroud01Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 2], [1, 3], [2, 5], [3, 14], [4, 2], [5, 2], [6, 2], [7, 16], [8, 6], [9, 4]]
+  - symbol: gCroud01Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 2], [1, 3], [2, 5], [3, 14], [4, 2], [5, 2], [6, 2], [7, 16]]
+  us:
+    address: 0x08888BC8
+    size: 25852
+  jp:
+    address: 0x0887C1B0
+    size: 25852
+  eu:
+    address: 0x088B44EC
+    size: 25852
+- name: croud_02
+  format: sprite_sheet
+  palette: croud
+  symbol: gCroud02Tiles
+  align: 4
+  cell: [101, 113]
+  anchor: [59, 94]
+  columns: 8
+  frames:
+  - symbol: gCroud02Frame0
+    pieces:
+    - [64x64, -44, -52]
+    - [16x8, 4, 11]
+    - [16x32, -59, -36]
+  - symbol: gCroud02Frame1
+    pieces:
+    - [64x64, -35, -61]
+    - [16x16, 5, -5]
+    - [32x16, -50, -76, {layer: 1}]
+    - [32x16, -19, -76]
+    - [16x32, -50, -62, {layer: 2}]
+  - symbol: gCroud02Frame2
+    pieces:
+    - [64x32, -37, -27]
+    - [64x64, -42, -90]
+    - [16x16, 3, -3]
+  - symbol: gCroud02Frame3
+    pieces:
+    - [64x64, -37, -59]
+    - [16x32, 3, -90, {layer: 1}]
+    - [16x16, 3, -3]
+  - symbol: gCroud02Frame4
+    pieces:
+    - [64x64, -39, -61]
+    - [32x16, -7, -5]
+  - symbol: gCroud02Frame5
+    pieces:
+    - [64x64, -34, -54, {layer: 1}]
+    - [32x32, -58, -30, {layer: 2}]
+    - [16x8, 22, -22]
+  - symbol: gCroud02Frame6
+    pieces:
+    - [64x64, -33, -85]
+    - [32x32, -9, -22]
+    - [16x16, 21, -22, {layer: 1}]
+  - symbol: gCroud02Frame7
+    pieces:
+    - [16x16, 22, -22]
+    - [32x64, -9, -54]
+    - [32x16, -1, -62]
+    - [16x32, 15, -86]
+  - symbol: gCroud02Frame8
+    pieces:
+    - [32x64, -12, -63]
+    - [32x16, -12, -7]
+    - [16x32, -4, -94, {layer: 1}]
+    - [16x16, 4, -71, {layer: 2}]
+  - symbol: gCroud02Frame9
+    pieces:
+    - [64x64, -29, -62]
+    - [8x8, 34, -54]
+    - [32x8, -5, 1]
+  - symbol: gCroud02Frame10
+    pieces:
+    - [64x64, -27, -60]
+    - [16x16, 5, -4]
+    - [32x32, -58, -52]
+  animations:
+  - symbol: gCroud02Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 2], [1, 3], [2, 6], [3, 10], [4, 4], [5, 3], [6, 6], [7, 10], [8, 5], [9, 5], [10, 3]]
+  - symbol: gCroud02Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 3], [1, 3], [2, 3], [3, 9], [8, 3], [9, 3]]
+  us:
+    address: 0x0888F0C4
+    size: 26996
+  jp:
+    address: 0x088826AC
+    size: 26996
+  eu:
+    address: 0x088BA9E8
+    size: 26996
+- name: croud_10
+  format: sprite_sheet
+  palette: croud
+  symbol: gCroud10Tiles
+  align: 4
+  cell: [72, 64]
+  anchor: [28, 37]
+  columns: 3
+  frames:
+  - symbol: gCroud10Frame0
+    pieces:
+    - [64x64, -28, -37]
+    - [16x16, 28, -29]
+  - symbol: gCroud10Frame1
+    pieces:
+    - [64x64, -28, -37]
+    - [16x16, 28, -29]
+  - symbol: gCroud10Frame2
+    pieces:
+    - [64x64, -28, -37]
+    - [16x8, 28, -29]
+  animations:
+  - symbol: gCroud10Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [2, 2], [1, 4], [2, 2]]
+  us:
+    address: 0x08895A38
+    size: 6534
+  jp:
+    address: 0x08889020
+    size: 6534
+  eu:
+    address: 0x088C135C
+    size: 6534
+- name: croud_11
+  format: sprite_sheet
+  palette: croud
+  symbol: gCroud11Tiles
+  align: 4
+  cell: [121, 114]
+  anchor: [63, 86]
+  columns: 7
+  frames:
+  - symbol: gCroud11Frame0
+    pieces:
+    - [64x32, -28, -35]
+    - [16x16, 28, -27]
+    - [32x16, -4, -4]
+    - [8x8, -17, -4]
+  - symbol: gCroud11Frame1
+    pieces:
+    - [64x32, -34, -45]
+    - [32x32, -10, -21]
+    - [16x16, 22, -21]
+    - [8x8, 29, -42]
+  - symbol: gCroud11Frame2
+    pieces:
+    - [64x64, -21, -56]
+    - [16x16, 42, -56]
+    - [32x8, -13, 7]
+  - symbol: gCroud11Frame3
+    pieces:
+    - [64x64, -24, -48, {layer: 1}]
+    - [64x32, -24, -79, {layer: 2}]
+    - [32x8, -8, -86, {layer: 1}]
+  - symbol: gCroud11Frame4
+    pieces:
+    - [64x64, -63, -51]
+    - [32x32, 0, -27]
+    - [32x8, -8, 4, {layer: 1}]
+    - [16x16, -51, -66]
+  - symbol: gCroud11Frame5
+    pieces:
+    - [64x64, -38, -36]
+    - [32x32, -62, -12]
+    - [8x16, 25, -20]
+  - symbol: gCroud11Frame6
+    pieces:
+    - [64x32, -33, -35]
+    - [32x16, -9, -11]
+    - [8x8, -1, 4]
+    - [8x8, 22, -4]
+  animations:
+  - symbol: gCroud11Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 9], [3, 3], [4, 6], [5, 4], [6, 4]]
+  us:
+    address: 0x088973C0
+    size: 15636
+  jp:
+    address: 0x0888A9A8
+    size: 15636
+  eu:
+    address: 0x088C2CE4
+    size: 15636
+- name: croud_12
+  format: sprite_sheet
+  palette: croud
+  symbol: gCroud12Tiles
+  align: 4
+  cell: [117, 108]
+  anchor: [62, 64]
+  columns: 8
+  frames:
+  - symbol: gCroud12Frame0
+    pieces:
+    - [64x32, -28, -37]
+    - [16x16, 28, -29]
+    - [16x16, -20, -13]
+    - [32x16, -4, -6, {layer: 1}]
+  - symbol: gCroud12Frame1
+    pieces:
+    - [64x64, -42, -39]
+    - [8x32, -49, -39]
+    - [8x8, 21, -23]
+  - symbol: gCroud12Frame2
+    pieces:
+    - [64x64, -38, -29]
+    - [16x8, 18, -21]
+    - [32x64, -62, -21]
+  - symbol: gCroud12Frame3
+    pieces:
+    - [64x64, -23, -27]
+    - [32x8, -22, 36]
+    - [32x8, 9, 36]
+    - [32x8, -53, 36]
+  - symbol: gCroud12Frame4
+    pieces:
+    - [64x64, -24, -34]
+    - [16x32, 39, -10]
+    - [32x8, -8, 29]
+    - [8x8, -15, 29, {layer: 1}]
+  - symbol: gCroud12Frame5
+    pieces:
+    - [64x32, -23, -39]
+    - [32x32, -15, -15]
+  - symbol: gCroud12Frame6
+    pieces:
+    - [64x64, -30, -49, {layer: 1}]
+    - [16x16, -30, -64, {layer: 2}]
+  - symbol: gCroud12Frame7
+    pieces:
+    - [64x64, -28, -54]
+  animations:
+  - symbol: gCroud12Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 3], [2, 3], [3, 4], [4, 5], [5, 8], [6, 5], [7, 4]]
+  us:
+    address: 0x0889B0D4
+    size: 17744
+  jp:
+    address: 0x0888E6BC
+    size: 17744
+  eu:
+    address: 0x088C69F8
+    size: 17744
+- name: croud_13
+  format: sprite_sheet
+  palette: croud
+  symbol: gCroud13Tiles
+  align: 4
+  cell: [120, 104]
+  anchor: [70, 78]
+  columns: 8
+  frames:
+  - symbol: gCroud13Frame0
+    pieces:
+    - [16x16, 28, -21]
+    - [64x32, -28, -21]
+    - [8x8, 20, -28]
+    - [32x8, -28, -28]
+    - [32x8, -4, 10]
+  - symbol: gCroud13Frame1
+    pieces:
+    - [64x64, -27, -45]
+    - [32x16, -11, -60]
+  - symbol: gCroud13Frame2
+    pieces:
+    - [64x32, -26, -32]
+    - [32x32, -10, -8]
+    - [16x16, -18, -8]
+    - [8x16, 37, -32]
+    - [16x16, -41, -24, {layer: 1}]
+    - [8x8, -23, -39]
+  - symbol: gCroud13Frame3
+    pieces:
+    - [64x64, -39, -38]
+    - [32x32, 17, -38]
+    - [32x32, -70, -22, {layer: 1}]
+  - symbol: gCroud13Frame4
+    pieces:
+    - [64x32, -63, -51]
+    - [32x64, -15, -43]
+    - [32x32, 16, -43]
+  - symbol: gCroud13Frame5
+    pieces:
+    - [64x64, -15, -53, {layer: 1}]
+    - [32x16, -15, 3]
+    - [16x16, -30, -54, {layer: 2}]
+    - [32x16, -15, -61, {layer: 3}]
+    - [32x16, 17, -61, {layer: 2}]
+  - symbol: gCroud13Frame6
+    pieces:
+    - [64x64, -14, -52]
+    - [16x16, -6, 4]
+    - [32x8, 10, -59]
+    - [8x8, -21, -12]
+  - symbol: gCroud13Frame7
+    pieces:
+    - [64x64, -24, -47]
+    - [8x8, -1, 16]
+    - [32x32, -24, -78]
+  - symbol: gCroud13Frame8
+    pieces:
+    - [64x64, -24, -38]
+    - [8x16, -31, -30]
+  animations:
+  - symbol: gCroud13Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 3], [3, 3], [4, 3], [5, 6], [6, 6], [7, 3], [8, 3], [0, 2]]
+  us:
+    address: 0x0889F624
+    size: 21528
+  jp:
+    address: 0x08892C0C
+    size: 21528
+  eu:
+    address: 0x088CAF48
+    size: 21528

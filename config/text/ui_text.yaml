@@ -1,0 +1,270 @@
+pool: ui_text
+fragments:
+  us:
+  - name: riku_deck_names.inc
+    start: 0x0903414A
+    end: 0x090352DE
+    encoding: sjis
+    form: macro
+    stride: 224
+    size: 20
+    entries:
+    - RIKU_DECK_NAME_00
+    - RIKU_DECK_NAME_01
+    - RIKU_DECK_NAME_02
+    - RIKU_DECK_NAME_03
+    - RIKU_DECK_NAME_04
+    - RIKU_DECK_NAME_05
+    - RIKU_DECK_NAME_06
+    - RIKU_DECK_NAME_07
+    - RIKU_DECK_NAME_08
+    - RIKU_DECK_NAME_09
+    - RIKU_DECK_NAME_10
+    - RIKU_DECK_NAME_11
+    - RIKU_DECK_NAME_12
+    - RIKU_DECK_NAME_13
+    - RIKU_DECK_NAME_14
+    - RIKU_DECK_NAME_15
+    - RIKU_DECK_NAME_16
+    - RIKU_DECK_NAME_17
+    - RIKU_DECK_NAME_18
+    - RIKU_DECK_NAME_19
+    - RIKU_DECK_NAME_20
+  - name: deck_keyboard.inc
+    start: 0x09035742
+    end: 0x09035808
+    encoding: game
+    align: 2
+    ctype: const u16
+    count: exact
+    entries:
+    - gDeckKeyboardRow0
+    - gDeckKeyboardRow1
+    - gDeckKeyboardRow2
+    - gDeckKeyboardRow3
+    - gDeckKeyboardRow4
+    - gDeckKeyboardRow5
+    - gDeckKeyboardRow6
+  - name: premium_message.inc
+    start: 0x090362A4
+    end: 0x090362D2
+    encoding: game
+    align: 2
+    ctype: const u16
+    count: exact
+    entries:
+    - gPremiumCardMessageText
+  - name: deck_equip_suffix.inc
+    start: 0x0903C008
+    end: 0x0903C00C
+    encoding: game
+    align: 2
+    ctype: const u16
+    count: exact
+    entries:
+    - gDeckEquipSuffixText
+  - name: deck_names.inc
+    start: 0x09EE4AC8
+    end: 0x09EE4AF2
+    encoding: game
+    align: 2
+    ctype: u16
+    count: exact
+    entries:
+    - gDefaultDeckName0Text
+    - gDefaultDeckName1Text
+    - gDefaultDeckName2Text
+  jp:
+  - name: riku_deck_names.inc
+    start: 0x0900740E
+    end: 0x090085A2
+    encoding: sjis
+    form: macro
+    stride: 224
+    size: 20
+    entries:
+    - RIKU_DECK_NAME_00
+    - RIKU_DECK_NAME_01
+    - RIKU_DECK_NAME_02
+    - RIKU_DECK_NAME_03
+    - RIKU_DECK_NAME_04
+    - RIKU_DECK_NAME_05
+    - RIKU_DECK_NAME_06
+    - RIKU_DECK_NAME_07
+    - RIKU_DECK_NAME_08
+    - RIKU_DECK_NAME_09
+    - RIKU_DECK_NAME_10
+    - RIKU_DECK_NAME_11
+    - RIKU_DECK_NAME_12
+    - RIKU_DECK_NAME_13
+    - RIKU_DECK_NAME_14
+    - RIKU_DECK_NAME_15
+    - RIKU_DECK_NAME_16
+    - RIKU_DECK_NAME_17
+    - RIKU_DECK_NAME_18
+    - RIKU_DECK_NAME_19
+    - RIKU_DECK_NAME_20
+  - name: deck_names_shift_jis.inc
+    start: 0x090089B0
+    end: 0x090089D4
+    encoding: game
+    align: 4
+    ctype: const u8
+    form: string
+    count: slot
+    entries:
+    - gDefaultDeckName0TextJapanese
+    - gDefaultDeckName1TextJapanese
+    - gDefaultDeckName2TextJapanese
+  - name: deck_keyboard.inc
+    start: 0x09008A2C
+    end: 0x09008CA3
+    encoding: game
+    align: 4
+    ctype: const u8
+    form: string
+    entries:
+    - gDeckKeyboardHiraganaRow6
+    - gDeckKeyboardHiraganaRow5
+    - gDeckKeyboardHiraganaRow4
+    - gDeckKeyboardHiraganaRow3
+    - gDeckKeyboardHiraganaRow2
+    - gDeckKeyboardHiraganaRow1
+    - gDeckKeyboardHiraganaRow0
+    - gDeckKeyboardKatakanaRow6
+    - gDeckKeyboardKatakanaRow5
+    - gDeckKeyboardKatakanaRow4
+    - gDeckKeyboardKatakanaRow3
+    - gDeckKeyboardKatakanaRow2
+    - gDeckKeyboardKatakanaRow1
+    - gDeckKeyboardKatakanaRow0
+    - gDeckKeyboardAlphanumericRow6
+    - gDeckKeyboardAlphanumericRow5
+    - gDeckKeyboardAlphanumericRow4
+    - gDeckKeyboardAlphanumericRow3
+    - gDeckKeyboardAlphanumericRow2
+    - gDeckKeyboardAlphanumericRow1
+    - gDeckKeyboardAlphanumericRow0
+  - name: premium_message.inc
+    start: 0x09009748
+    end: 0x0900975D
+    encoding: game
+    align: 4
+    ctype: const u8
+    form: string
+    entries:
+    - gPremiumCardSuffixText
+    - gPremiumCardMessageText
+  - name: deck_equip_suffix.inc
+    start: 0x0900D48C
+    end: 0x0900D48F
+    encoding: game
+    align: 4
+    ctype: const u8
+    form: string
+    entries:
+    - gDeckEquipSuffixText
+  - name: deck_names.inc
+    start: 0x09EBC0E8
+    end: 0x09EBC112
+    encoding: latin16
+    align: 2
+    ctype: u16
+    count: exact
+    entries:
+    - gDefaultDeckName0Text
+    - gDefaultDeckName1Text
+    - gDefaultDeckName2Text
+  eu:
+  - name: riku_deck_names.inc
+    start: 0x090CD43E
+    end: 0x090CE5D2
+    encoding: sjis
+    form: macro
+    stride: 224
+    size: 20
+    entries:
+    - RIKU_DECK_NAME_00
+    - RIKU_DECK_NAME_01
+    - RIKU_DECK_NAME_02
+    - RIKU_DECK_NAME_03
+    - RIKU_DECK_NAME_04
+    - RIKU_DECK_NAME_05
+    - RIKU_DECK_NAME_06
+    - RIKU_DECK_NAME_07
+    - RIKU_DECK_NAME_08
+    - RIKU_DECK_NAME_09
+    - RIKU_DECK_NAME_10
+    - RIKU_DECK_NAME_11
+    - RIKU_DECK_NAME_12
+    - RIKU_DECK_NAME_13
+    - RIKU_DECK_NAME_14
+    - RIKU_DECK_NAME_15
+    - RIKU_DECK_NAME_16
+    - RIKU_DECK_NAME_17
+    - RIKU_DECK_NAME_18
+    - RIKU_DECK_NAME_19
+    - RIKU_DECK_NAME_20
+  - name: deck_keyboard.inc
+    start: 0x090CEA56
+    end: 0x090CEB1B
+    encoding: game
+    align: 1
+    ctype: const u8
+    count: exact
+    entries:
+    - gDeckKeyboardLetterRow0
+    - gDeckKeyboardLetterRow1
+    - gDeckKeyboardLetterRow2
+    - gDeckKeyboardLetterRow3
+    - gDeckKeyboardLetterRow4
+    - gDeckKeyboardLetterRow5
+    - gDeckKeyboardLetterRow6
+    - gDeckKeyboardLetterRow7
+    - gDeckKeyboardSymbolRow0
+    - gDeckKeyboardSymbolRow1
+    - gDeckKeyboardSymbolRow2
+    - gDeckKeyboardSymbolRow3
+    - gDeckKeyboardSymbolRow4
+    - gDeckKeyboardSymbolRow5
+    - gDeckKeyboardSymbolRow6
+  - name: premium_message.inc
+    start: 0x090CF648
+    end: 0x090CF64F
+    encoding: game
+    align: 1
+    ctype: const u8
+    count: exact
+    entries:
+    - gPremiumCardSuffixTextFrench
+    - gPremiumCardSuffixTextSpanish
+  - name: deck_equip_suffix.inc
+    start: 0x090D1884
+    end: 0x090D1886
+    encoding: game
+    align: 4
+    ctype: const u8
+    form: string
+    entries:
+    - gDeckEquipSuffixText
+  - name: link_deck_names.inc
+    start: 0x095DA860
+    end: 0x095DA86F
+    encoding: game
+    align: 1
+    ctype: const u8
+    count: exact
+    entries:
+    - gSioDebugDeckName0Text
+    - gSioDebugDeckName1Text
+  - name: deck_names.inc
+    start: 0x09F6FD74
+    end: 0x09F6FD89
+    encoding: game
+    align: 1
+    ctype: u8
+    count: exact
+    entries:
+    - gDefaultDeckName0Text
+    - gDefaultDeckName1Text
+    - gDefaultDeckName2Text

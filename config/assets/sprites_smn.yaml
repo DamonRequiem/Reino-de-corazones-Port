@@ -1,0 +1,581 @@
+group: sprites_smn
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_smn_frames.s
+    start: 0x088A4A3C
+    end: 0x088B629C
+    data_start: 0x09EDE790
+    data_end: 0x09EDE8CC
+  jp:
+  - name: sprites_smn_frames.s
+    start: 0x08898024
+    end: 0x088A9884
+    data_start: 0x09EB620C
+    data_end: 0x09EB6348
+  eu:
+  - name: sprites_smn_frames.s
+    start: 0x088D0360
+    end: 0x088E1BC0
+    data_start: 0x09F593E8
+    data_end: 0x09F59524
+entries:
+- name: gBanb00Frames
+  record: SpriteTable
+  items: [gBanb00Frame0, gBanb00Frame1, gBanb00Frame2, gBanb00Frame3, gBanb00Frame4, gBanb00Frame5, gBanb00Frame6, gBanb00Frame7]
+  us:
+    address: 0x09EDE790
+  jp:
+    address: 0x09EB620C
+  eu:
+    address: 0x09F593E8
+- name: gBanb00Anims
+  record: AnimTable
+  items: [gBanb00Anim0]
+  us:
+    address: 0x09EDE7B0
+  jp:
+    address: 0x09EB622C
+  eu:
+    address: 0x09F59408
+- name: gSmnTinkEffFrames
+  record: SpriteTable
+  items: [gSmnTinkEffFrame0, gSmnTinkEffFrame1, gSmnTinkEffFrame2, gSmnTinkEffFrame3, gSmnTinkEffFrame4, gSmnTinkEffFrame5, gSmnTinkEffFrame6, gSmnTinkEffFrame7, gSmnTinkEffFrame8, gSmnTinkEffFrame9, gSmnTinkEffFrame10, gSmnTinkEffFrame11]
+  us:
+    address: 0x09EDE7B4
+  jp:
+    address: 0x09EB6230
+  eu:
+    address: 0x09F5940C
+- name: gSmnTinkEffAnims
+  record: AnimTable
+  items: [gSmnTinkEffAnim0, gSmnTinkEffAnim1, gSmnTinkEffAnim2]
+  us:
+    address: 0x09EDE7E4
+  jp:
+    address: 0x09EB6260
+  eu:
+    address: 0x09F5943C
+- name: gShinba10Frames
+  record: SpriteTable
+  items: [gShinba10Frame0, gShinba10Frame1, gShinba10Frame2, gShinba10Frame3, gShinba10Frame4, gShinba10Frame5, gShinba10Frame6, gShinba10Frame7]
+  us:
+    address: 0x09EDE7F0
+  jp:
+    address: 0x09EB626C
+  eu:
+    address: 0x09F59448
+- name: gShinba10Anims
+  record: AnimTable
+  items: [gShinba10Anim0]
+  us:
+    address: 0x09EDE810
+  jp:
+    address: 0x09EB628C
+  eu:
+    address: 0x09F59468
+- name: gMushu10Frames
+  record: SpriteTable
+  items: [gMushu10Frame0, gMushu10Frame1, gMushu10Frame2, gMushu10Frame3, gMushu10Frame4, gMushu10Frame5, gMushu10Frame6, gMushu10Frame7]
+  us:
+    address: 0x09EDE814
+  jp:
+    address: 0x09EB6290
+  eu:
+    address: 0x09F5946C
+- name: gMushu10Anims
+  record: AnimTable
+  items: [gMushu10Anim0, gMushu10Anim1, gMushu10Anim2, gMushu10Anim3, gMushu10Anim4]
+  us:
+    address: 0x09EDE834
+  jp:
+    address: 0x09EB62B0
+  eu:
+    address: 0x09F5948C
+- name: gSmnDumboFrames
+  record: SpriteTable
+  items: [gSmnDumboFrame0, gSmnDumboFrame1, gSmnDumboFrame2, gSmnDumboFrame3, gSmnDumboFrame4, gSmnDumboFrame5, gSmnDumboFrame6, gSmnDumboFrame7, gSmnDumboFrame8]
+  us:
+    address: 0x09EDE848
+  jp:
+    address: 0x09EB62C4
+  eu:
+    address: 0x09F594A0
+- name: gSmnDumboAnims
+  record: AnimTable
+  items: [gSmnDumboAnim0, gSmnDumboAnim1, gSmnDumboAnim2]
+  us:
+    address: 0x09EDE86C
+  jp:
+    address: 0x09EB62E8
+  eu:
+    address: 0x09F594C4
+- name: gGenie00Frames
+  record: SpriteTable
+  items: [gGenie00Frame0, gGenie00Frame1, gGenie00Frame2, gGenie00Frame3, gGenie00Frame4, gGenie00Frame5, gGenie00Frame6, gGenie00Frame7]
+  us:
+    address: 0x09EDE878
+  jp:
+    address: 0x09EB62F4
+  eu:
+    address: 0x09F594D0
+- name: gGenie00Anims
+  record: AnimTable
+  items: [gGenie00Anim0, gGenie00Anim1]
+  us:
+    address: 0x09EDE898
+  jp:
+    address: 0x09EB6314
+  eu:
+    address: 0x09F594F0
+- name: gMickey10Frames
+  record: SpriteTable
+  items: [gMickey10Frame0, gMickey10Frame1, gMickey10Frame2, gMickey10Frame3, gMickey10Frame4, gMickey10Frame5, gMickey10Frame6, gMickey10Frame7]
+  us:
+    address: 0x09EDE8A0
+  jp:
+    address: 0x09EB631C
+  eu:
+    address: 0x09F594F8
+- name: gMickey10Anims
+  record: AnimTable
+  items: [gMickey10Anim0, gMickey10Anim1, gMickey10Anim2]
+  us:
+    address: 0x09EDE8C0
+  jp:
+    address: 0x09EB633C
+  eu:
+    address: 0x09F59518
+- name: banb_00
+  format: sprite_sheet
+  palette: banb
+  symbol: gBanb00Tiles
+  align: 4
+  cell: [41, 57]
+  anchor: [22, 52]
+  columns: 8
+  frames:
+  - symbol: gBanb00Frame0
+    pieces:
+    - [32x32, -20, -35]
+    - [16x8, -12, -4]
+    - [8x16, 11, -35]
+  - symbol: gBanb00Frame1
+    pieces:
+    - [32x32, -20, -48]
+    - [16x16, -22, -17]
+    - [8x8, -6, -17]
+  - symbol: gBanb00Frame2
+    pieces:
+    - [32x32, -20, -52]
+    - [8x8, -4, -21]
+    - [8x16, -20, -21]
+  - symbol: gBanb00Frame3
+    pieces:
+    - [32x32, -22, -46]
+    - [8x8, -22, -15]
+  - symbol: gBanb00Frame4
+    pieces:
+    - [32x32, -18, -35]
+  - symbol: gBanb00Frame5
+    pieces:
+    - [32x32, -18, -29]
+  - symbol: gBanb00Frame6
+    pieces:
+    - [32x32, -14, -27]
+  - symbol: gBanb00Frame7
+    pieces:
+    - [32x32, -16, -35]
+    - [16x8, -8, -4]
+  animations:
+  - symbol: gBanb00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [5, 5], [6, 5]]
+  us:
+    address: 0x088A4A3C
+    size: 4738
+  jp:
+    address: 0x08898024
+    size: 4738
+  eu:
+    address: 0x088D0360
+    size: 4738
+- name: gSmnTinkEffTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 8
+  frames:
+  - symbol: gSmnTinkEffFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gSmnTinkEffFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gSmnTinkEffFrame2
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gSmnTinkEffFrame3
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gSmnTinkEffFrame4
+    pieces:
+    - [16x16, -8, -8, {hflip: true}]
+  - symbol: gSmnTinkEffFrame5
+    pieces:
+    - [16x16, -8, -8, {hflip: true}]
+  - symbol: gSmnTinkEffFrame6
+    pieces:
+    - [16x16, -8, -8, {hflip: true}]
+  - symbol: gSmnTinkEffFrame7
+    pieces:
+    - [16x16, -8, -8, {hflip: true}]
+  - symbol: gSmnTinkEffFrame8
+    pieces:
+    - [16x16, -8, -8, {vflip: true}]
+  - symbol: gSmnTinkEffFrame9
+    pieces:
+    - [16x16, -8, -8, {vflip: true}]
+  - symbol: gSmnTinkEffFrame10
+    pieces:
+    - [16x16, -8, -8, {vflip: true}]
+  - symbol: gSmnTinkEffFrame11
+    pieces:
+    - [16x16, -8, -8, {vflip: true}]
+  animations:
+  - symbol: gSmnTinkEffAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6]]
+  - symbol: gSmnTinkEffAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 6], [5, 6], [6, 6], [7, 6]]
+  - symbol: gSmnTinkEffAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 6], [9, 6], [10, 6], [11, 6]]
+  us:
+    address: 0x088A5CC0
+    size: 698
+  jp:
+    address: 0x088992A8
+    size: 698
+  eu:
+    address: 0x088D15E4
+    size: 698
+- name: shinba_10
+  format: sprite_sheet
+  palette: shinba
+  symbol: gShinba10Tiles
+  align: 4
+  cell: [96, 75]
+  anchor: [43, 47]
+  columns: 8
+  frames:
+  - symbol: gShinba10Frame0
+    pieces:
+    - [64x64, -37, -44]
+    - [32x16, 11, -20]
+  - symbol: gShinba10Frame1
+    pieces:
+    - [64x64, -35, -37]
+    - [32x32, 21, -29]
+  - symbol: gShinba10Frame2
+    pieces:
+    - [64x64, -33, -36]
+    - [32x16, 15, -28]
+  - symbol: gShinba10Frame3
+    pieces:
+    - [64x64, -32, -40]
+    - [16x16, 24, -24]
+  - symbol: gShinba10Frame4
+    pieces:
+    - [64x64, -36, -45]
+    - [32x16, 12, -21]
+  - symbol: gShinba10Frame5
+    pieces:
+    - [64x64, -32, -47]
+    - [16x16, 24, -15]
+  - symbol: gShinba10Frame6
+    pieces:
+    - [64x64, -38, -43]
+    - [32x32, 10, -27]
+  - symbol: gShinba10Frame7
+    pieces:
+    - [64x64, -43, -41]
+    - [32x32, 13, -25]
+  animations:
+  - symbol: gShinba10Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 15], [1, 10], [2, 10], [3, 10], [4, 10], [5, 10], [6, 10], [7, 18]]
+  us:
+    address: 0x088A5F7C
+    size: 19110
+  jp:
+    address: 0x08899564
+    size: 19110
+  eu:
+    address: 0x088D18A0
+    size: 19110
+- name: mushu_10
+  format: sprite_sheet
+  palette: mushu
+  symbol: gMushu10Tiles
+  align: 4
+  cell: [53, 42]
+  anchor: [26, 33]
+  columns: 8
+  frames:
+  - symbol: gMushu10Frame0
+    pieces:
+    - [32x32, -14, -33]
+    - [16x8, 10, -17]
+    - [16x16, -6, -9]
+  - symbol: gMushu10Frame1
+    pieces:
+    - [32x32, -18, -27]
+    - [16x16, 6, -19]
+    - [16x16, -26, -27]
+  - symbol: gMushu10Frame2
+    pieces:
+    - [32x32, -20, -24]
+    - [16x16, 4, -16]
+  - symbol: gMushu10Frame3
+    pieces:
+    - [32x32, -13, -25]
+    - [16x16, 11, -9]
+  - symbol: gMushu10Frame4
+    pieces:
+    - [32x32, -15, -26]
+  - symbol: gMushu10Frame5
+    pieces:
+    - [32x32, -26, -23]
+    - [16x16, -2, -15]
+  - symbol: gMushu10Frame6
+    pieces:
+    - [32x32, -15, -26]
+    - [16x16, 9, -18]
+  - symbol: gMushu10Frame7
+    pieces:
+    - [32x32, -10, -27]
+  animations:
+  - symbol: gMushu10Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 13], [1, 9], [2, 9], [3, 11], [4, 9], [5, 20], [6, 9], [7, 10], [0, 10]]
+  - symbol: gMushu10Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 7], [2, 7], [3, 9], [4, 7], [5, 19], [6, 7], [7, 8], [0, 10]]
+  - symbol: gMushu10Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 12], [1, 8], [2, 8]]
+  - symbol: gMushu10Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 8], [4, 6], [5, 15], [4, 6]]
+  - symbol: gMushu10Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 9], [7, 10], [0, 10]]
+  us:
+    address: 0x088AAA24
+    size: 5326
+  jp:
+    address: 0x0889E00C
+    size: 5326
+  eu:
+    address: 0x088D6348
+    size: 5326
+- name: gSmnDumboTiles
+  format: sprite_sheet
+  align: 4
+  cell: [74, 76]
+  anchor: [48, 57]
+  columns: 8
+  frames:
+  - symbol: gSmnDumboFrame0
+    pieces:
+    - [64x64, -45, -45]
+  - symbol: gSmnDumboFrame1
+    pieces:
+    - [64x64, -46, -51]
+  - symbol: gSmnDumboFrame2
+    pieces:
+    - [64x64, -48, -49]
+  - symbol: gSmnDumboFrame3
+    pieces:
+    - [64x64, -43, -51]
+  - symbol: gSmnDumboFrame4
+    pieces:
+    - [64x64, -38, -54]
+  - symbol: gSmnDumboFrame5
+    pieces:
+    - [64x64, -42, -50]
+  - symbol: gSmnDumboFrame6
+    pieces:
+    - [64x64, -44, -46]
+  - symbol: gSmnDumboFrame7
+    pieces:
+    - [64x64, -42, -48]
+  - symbol: gSmnDumboFrame8
+    pieces:
+    - [64x64, -39, -57]
+  animations:
+  - symbol: gSmnDumboAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 7]]
+  - symbol: gSmnDumboAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]]
+  - symbol: gSmnDumboAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 7], [0, 4]]
+  us:
+    address: 0x088ABEF4
+    size: 18580
+  jp:
+    address: 0x0889F4DC
+    size: 18580
+  eu:
+    address: 0x088D7818
+    size: 18580
+- name: genie_00
+  format: sprite_sheet
+  palette: genie
+  symbol: gGenie00Tiles
+  align: 4
+  cell: [78, 127]
+  anchor: [46, 117]
+  columns: 8
+  frames:
+  - symbol: gGenie00Frame0
+    pieces:
+    - [64x64, -38, -54]
+    - [16x16, -14, -69]
+    - [8x8, -6, -76]
+  - symbol: gGenie00Frame1
+    pieces:
+    - [64x64, -32, -60]
+    - [16x16, -8, -75, {layer: 1}]
+  - symbol: gGenie00Frame2
+    pieces:
+    - [64x64, -46, -80]
+    - [32x32, -14, -24]
+  - symbol: gGenie00Frame3
+    pieces:
+    - [64x64, -34, -65]
+    - [32x32, -26, -96]
+  - symbol: gGenie00Frame4
+    pieces:
+    - [32x64, -25, -84]
+    - [16x32, 6, -60]
+    - [16x32, -26, -115]
+    - [32x16, -9, -22]
+    - [8x16, -9, -99]
+  - symbol: gGenie00Frame5
+    pieces:
+    - [32x64, -24, -84]
+    - [16x32, -24, -115]
+    - [8x16, -8, -99]
+    - [16x32, 7, -60]
+    - [32x16, -7, -23]
+  - symbol: gGenie00Frame6
+    pieces:
+    - [32x64, -23, -82]
+    - [16x32, 8, -66]
+    - [32x16, -4, -23, {layer: 1}]
+    - [16x32, -18, -113]
+  - symbol: gGenie00Frame7
+    pieces:
+    - [32x64, -22, -86]
+    - [32x16, -3, -23]
+    - [8x8, -10, -23, {layer: 1}]
+    - [8x32, 9, -62]
+    - [16x32, -20, -117]
+  animations:
+  - symbol: gGenie00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 15]]
+  - symbol: gGenie00Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 15]]
+  us:
+    address: 0x088B0788
+    size: 16948
+  jp:
+    address: 0x088A3D70
+    size: 16948
+  eu:
+    address: 0x088DC0AC
+    size: 16948
+- name: mickey_10
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickey10Tiles
+  align: 4
+  cell: [37, 50]
+  anchor: [16, 39]
+  columns: 8
+  frames:
+  - symbol: gMickey10Frame0
+    pieces:
+    - [32x32, -11, -34]
+    - [32x16, -11, -10]
+  - symbol: gMickey10Frame1
+    pieces:
+    - [32x32, -15, -39]
+    - [16x32, -7, -23]
+  - symbol: gMickey10Frame2
+    pieces:
+    - [32x32, -16, -27]
+    - [16x16, -8, -35]
+  - symbol: gMickey10Frame3
+    pieces:
+    - [32x32, -16, -25]
+    - [16x16, -16, -33]
+  - symbol: gMickey10Frame4
+    pieces:
+    - [32x32, -14, -27]
+    - [16x16, -6, -35]
+  - symbol: gMickey10Frame5
+    pieces:
+    - [32x32, -12, -29]
+    - [16x16, -4, -37]
+    - [16x16, -4, -5]
+  - symbol: gMickey10Frame6
+    pieces:
+    - [32x32, -13, -30]
+    - [16x16, -5, -38]
+    - [32x16, -13, -6]
+  - symbol: gMickey10Frame7
+    pieces:
+    - [32x32, -12, -31]
+    - [32x16, -12, -39]
+    - [32x16, -12, -7]
+  animations:
+  - symbol: gMickey10Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 14], [2, 7], [3, 15], [4, 11], [5, 5], [6, 5], [7, 15]]
+  - symbol: gMickey10Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gMickey10Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 7], [3, 15], [4, 11], [5, 5], [6, 5], [7, 15]]
+  us:
+    address: 0x088B49BC
+    size: 6368
+  jp:
+    address: 0x088A7FA4
+    size: 6368
+  eu:
+    address: 0x088E02E0
+    size: 6368

@@ -1,0 +1,1898 @@
+group: sprites_moogle_shop
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_moogle_shop_frames.s
+    start: 0x099A1F44
+    end: 0x099A7C98
+    data_start: 0x09EF9928
+    data_end: 0x09EF9AB8
+  - name: sprites_moogle_shop_tiles.s
+    start: 0x09A10A3C
+    end: 0x09A1E0DC
+  - name: sprites_moogle_shop_maps.s
+    start: 0x09A36EDC
+    end: 0x09A3C75C
+  - name: sprites_moogle_shop_palettes.s
+    start: 0x09A3D77C
+    end: 0x09A3DE7C
+  jp:
+  - name: sprites_moogle_shop_frames.s
+    start: 0x099569CC
+    end: 0x0995C720
+    data_start: 0x09ED0D14
+    data_end: 0x09ED0EA4
+  - name: sprites_moogle_shop_tiles.s
+    start: 0x099C54C4
+    end: 0x099D2B64
+  - name: sprites_moogle_shop_maps.s
+    start: 0x099EB964
+    end: 0x099F11E4
+  - name: sprites_moogle_shop_palettes.s
+    start: 0x099F2204
+    end: 0x099F2904
+  eu:
+  - name: sprites_moogle_shop_frames.s
+    start: 0x099AEC48
+    end: 0x099B5C1C
+    data_start: 0x09F85554
+    data_end: 0x09F85724
+  - name: sprites_moogle_shop_tiles.s
+    start: 0x09A60380
+    end: 0x09A6FCA0
+  - name: sprites_moogle_shop_maps.s
+    start: 0x09A89EA0
+    end: 0x09A9A220
+  - name: sprites_moogle_shop_palettes.s
+    start: 0x09A9B240
+    end: 0x09A9B940
+entries:
+- name: gMsChargeMoogleFrames
+  record: SpriteTable
+  items: [gMsChargeMoogleFrame0, gMsChargeMoogleFrame1, gMsChargeMoogleFrame2, gMsChargeMoogleFrame3, gMsChargeMoogleFrame4, gMsChargeMoogleFrame5, gMsChargeMoogleFrame6, gMsChargeMoogleFrame7, gMsChargeMoogleFrame8, gMsChargeMoogleFrame9, gMsChargeMoogleFrame10, gMsChargeMoogleFrame11, gMsChargeMoogleFrame12, gMsChargeMoogleFrame13, gMsChargeMoogleFrame14, gMsChargeMoogleFrame15, gMsChargeMoogleFrame16, gMsChargeMoogleFrame17, gMsChargeMoogleFrame18, gMsChargeMoogleFrame19]
+  us:
+    address: 0x09EF9928
+  jp:
+    address: 0x09ED0D14
+  eu:
+    address: 0x09F85554
+- name: gMsChargeMoogleAnims
+  record: AnimTable
+  items: [gMsChargeMoogleAnim0, gMsChargeMoogleAnim1, gMsChargeMoogleAnim2, gMsChargeMoogleAnim3]
+  us:
+    address: 0x09EF9978
+  jp:
+    address: 0x09ED0D64
+  eu:
+    address: 0x09F855A4
+- name: gMsTopBarFrames
+  record: SpriteTable
+  items: [gMsTopBarFrame0, gMsTopBarFrame1, gMsTopBarFrame2]
+  us:
+    address: 0x09EF9988
+  jp:
+    address: 0x09ED0D74
+  eu:
+    address: 0x09F855B4
+- name: gMsTopBarAnims
+  record: AnimTable
+  items: [gMsTopBarAnim0]
+  us:
+    address: 0x09EF9994
+  jp:
+    address: 0x09ED0D80
+  eu:
+    address: 0x09F855C0
+- name: gMsTopPacksFrames
+  record: SpriteTable
+  items: [gMsTopPacksFrame0]
+  us:
+    address: 0x09EF9998
+  jp:
+    address: 0x09ED0D84
+  eu:
+    address: 0x09F85604
+- name: gMsTopPacksAnims
+  record: AnimTable
+  items: [gMsTopPacksAnim0]
+  us:
+    address: 0x09EF999C
+  jp:
+    address: 0x09ED0D88
+  eu:
+    address: 0x09F85608
+- name: gMsTopPacksDimFrames
+  record: SpriteTable
+  items: [gMsTopPacksDimFrame0]
+  us:
+    address: 0x09EF99A0
+  jp:
+    address: 0x09ED0D8C
+  eu:
+    address: 0x09F8560C
+- name: gMsTopPacksDimAnims
+  record: AnimTable
+  items: [gMsTopPacksDimAnim0]
+  us:
+    address: 0x09EF99A4
+  jp:
+    address: 0x09ED0D90
+  eu:
+    address: 0x09F85610
+- name: gMsTopArrowFrames
+  record: SpriteTable
+  items: [gMsTopArrowFrame0, gMsTopArrowFrame1, gMsTopArrowFrame2, gMsTopArrowFrame3, gMsTopArrowFrame4, gMsTopArrowFrame5, gMsTopArrowFrame6, gMsTopArrowFrame7, gMsTopArrowFrame8, gMsTopArrowFrame9]
+  us:
+    address: 0x09EF99A8
+  jp:
+    address: 0x09ED0D94
+  eu:
+    address: 0x09F85614
+- name: gMsTopArrowAnims
+  record: AnimTable
+  items: [gMsTopArrowAnim0, gMsTopArrowAnim1]
+  us:
+    address: 0x09EF99D0
+  jp:
+    address: 0x09ED0DBC
+  eu:
+    address: 0x09F8563C
+- name: gMoogleShopCursorFrames
+  record: SpriteTable
+  items: [gMoogleShopCursorFrame0, gMoogleShopCursorFrame1, gMoogleShopCursorFrame2, gMoogleShopCursorFrame3, gMoogleShopCursorFrame4, gMoogleShopCursorFrame5, gMoogleShopCursorFrame6, gMoogleShopCursorFrame7]
+  us:
+    address: 0x09EF99D8
+  jp:
+    address: 0x09ED0DC4
+  eu:
+    address: 0x09F85644
+- name: gMoogleShopCursorAnims
+  record: AnimTable
+  items: [gMoogleShopCursorAnim0, gMoogleShopCursorAnim1]
+  us:
+    address: 0x09EF99F8
+  jp:
+    address: 0x09ED0DE4
+  eu:
+    address: 0x09F85664
+- name: gMooglePackTier0Frames
+  record: SpriteTable
+  items: [gMooglePackTier0Frame0]
+  us:
+    address: 0x09EF9A00
+  jp:
+    address: 0x09ED0DEC
+  eu:
+    address: 0x09F8566C
+- name: gMooglePackTier0Anims
+  record: AnimTable
+  items: [gMooglePackTier0Anim0]
+  us:
+    address: 0x09EF9A04
+  jp:
+    address: 0x09ED0DF0
+  eu:
+    address: 0x09F85670
+- name: gMooglePackTier1Frames
+  record: SpriteTable
+  items: [gMooglePackTier1Frame0]
+  us:
+    address: 0x09EF9A08
+  jp:
+    address: 0x09ED0DF4
+  eu:
+    address: 0x09F85674
+- name: gMooglePackTier1Anims
+  record: AnimTable
+  items: [gMooglePackTier1Anim0]
+  us:
+    address: 0x09EF9A0C
+  jp:
+    address: 0x09ED0DF8
+  eu:
+    address: 0x09F85678
+- name: gMooglePackTier2Frames
+  record: SpriteTable
+  items: [gMooglePackTier2Frame0]
+  us:
+    address: 0x09EF9A10
+  jp:
+    address: 0x09ED0DFC
+  eu:
+    address: 0x09F8567C
+- name: gMooglePackTier2Anims
+  record: AnimTable
+  items: [gMooglePackTier2Anim0]
+  us:
+    address: 0x09EF9A14
+  jp:
+    address: 0x09ED0E00
+  eu:
+    address: 0x09F85680
+- name: gMooglePackTier3Frames
+  record: SpriteTable
+  items: [gMooglePackTier3Frame0]
+  us:
+    address: 0x09EF9A18
+  jp:
+    address: 0x09ED0E04
+  eu:
+    address: 0x09F85684
+- name: gMooglePackTier3Anims
+  record: AnimTable
+  items: [gMooglePackTier3Anim0]
+  us:
+    address: 0x09EF9A1C
+  jp:
+    address: 0x09ED0E08
+  eu:
+    address: 0x09F85688
+- name: gMooglePackCardSpinFrames
+  record: SpriteTable
+  items: [gMooglePackCardSpinFrame0, gMooglePackCardSpinFrame1, gMooglePackCardSpinFrame2, gMooglePackCardSpinFrame3, gMooglePackCardSpinFrame4, gMooglePackCardSpinFrame5, gMooglePackCardSpinFrame6, gMooglePackCardSpinFrame7, gMooglePackCardSpinFrame8, gMooglePackCardSpinFrame9]
+  us:
+    address: 0x09EF9A20
+  jp:
+    address: 0x09ED0E0C
+  eu:
+    address: 0x09F8568C
+- name: gMooglePackCardSpinAnims
+  record: AnimTable
+  items: [gMooglePackCardSpinAnim0]
+  us:
+    address: 0x09EF9A48
+  jp:
+    address: 0x09ED0E34
+  eu:
+    address: 0x09F856B4
+- name: gMsShopHosiFrames
+  record: SpriteTable
+  items: [gMsShopHosiFrame0, gMsShopHosiFrame1, gMsShopHosiFrame2, gMsShopHosiFrame3, gMsShopHosiFrame4, gMsShopHosiFrame5]
+  us:
+    address: 0x09EF9A4C
+  jp:
+    address: 0x09ED0E38
+  eu:
+    address: 0x09F856B8
+- name: gMsShopHosiAnims
+  record: AnimTable
+  items: [gMsShopHosiAnim0]
+  us:
+    address: 0x09EF9A64
+  jp:
+    address: 0x09ED0E50
+  eu:
+    address: 0x09F856D0
+- name: gMsChargeHighlightFrames
+  record: SpriteTable
+  items: [gMsChargeHighlightFrame0, gMsChargeHighlightFrame1, gMsChargeHighlightFrame2, gMsChargeHighlightFrame3, gMsChargeHighlightFrame4, gMsChargeHighlightFrame5, gMsChargeHighlightFrame6, gMsChargeHighlightFrame7, gMsChargeHighlightFrame8, gMsChargeHighlightFrame9, gMsChargeHighlightFrame10, gMsChargeHighlightFrame11, gMsChargeHighlightFrame12, gMsChargeHighlightFrame13, gMsChargeHighlightFrame14]
+  us:
+    address: 0x09EF9A68
+  jp:
+    address: 0x09ED0E54
+  eu:
+    address: 0x09F856D4
+- name: gMsChargeHighlightAnims
+  record: AnimTable
+  items: [gMsChargeHighlightAnim0, gMsChargeHighlightAnim1, gMsChargeHighlightAnim2]
+  us:
+    address: 0x09EF9AA4
+  jp:
+    address: 0x09ED0E90
+  eu:
+    address: 0x09F85710
+- name: gMsChargeScrollbarFrames
+  record: SpriteTable
+  items: [gMsChargeScrollbarFrame0]
+  us:
+    address: 0x09EF9AB0
+  jp:
+    address: 0x09ED0E9C
+  eu:
+    address: 0x09F8571C
+- name: gMsChargeScrollbarAnims
+  record: AnimTable
+  items: [gMsChargeScrollbarAnim0]
+  us:
+    address: 0x09EF9AB4
+  jp:
+    address: 0x09ED0EA0
+  eu:
+    address: 0x09F85720
+- name: gMsTopBarFrenchFrames
+  record: SpriteTable
+  items: [gMsTopBarFrenchFrame0, gMsTopBarFrenchFrame1, gMsTopBarFrenchFrame2]
+  eu:
+    address: 0x09F855C4
+- name: gMsTopBarFrenchAnims
+  record: AnimTable
+  items: [gMsTopBarFrenchAnim0]
+  eu:
+    address: 0x09F855D0
+- name: gMsTopBarSpanishFrames
+  record: SpriteTable
+  items: [gMsTopBarSpanishFrame0, gMsTopBarSpanishFrame1, gMsTopBarSpanishFrame2]
+  eu:
+    address: 0x09F855D4
+- name: gMsTopBarSpanishAnims
+  record: AnimTable
+  items: [gMsTopBarSpanishAnim0]
+  eu:
+    address: 0x09F855E0
+- name: gMsTopBarItalianFrames
+  record: SpriteTable
+  items: [gMsTopBarItalianFrame0, gMsTopBarItalianFrame1, gMsTopBarItalianFrame2]
+  eu:
+    address: 0x09F855E4
+- name: gMsTopBarItalianAnims
+  record: AnimTable
+  items: [gMsTopBarItalianAnim0]
+  eu:
+    address: 0x09F855F0
+- name: gMsTopBarGermanFrames
+  record: SpriteTable
+  items: [gMsTopBarGermanFrame0, gMsTopBarGermanFrame1, gMsTopBarGermanFrame2]
+  eu:
+    address: 0x09F855F4
+- name: gMsTopBarGermanAnims
+  record: AnimTable
+  items: [gMsTopBarGermanAnim0]
+  eu:
+    address: 0x09F85600
+- name: gMsChargeMoogleTiles
+  format: sprite_sheet
+  align: 4
+  cell: [33, 60]
+  anchor: [16, 43]
+  columns: 8
+  frames:
+  - symbol: gMsChargeMoogleFrame0
+    pieces:
+    - [16x32, -3, -43, {layer: 1}]
+    - [32x16, -16, -20, {layer: 2}]
+    - [32x8, -16, -4]
+  - symbol: gMsChargeMoogleFrame1
+    pieces:
+    - [16x32, -3, -43, {layer: 1}]
+    - [32x16, -16, -20, {same: [0, 1]}]
+    - [32x8, -16, -4]
+  - symbol: gMsChargeMoogleFrame2
+    pieces:
+    - [16x32, -3, -43, {layer: 1}]
+    - [8x8, -11, -20, {layer: 1}]
+    - [32x16, -16, -20, {same: [0, 1]}]
+    - [32x8, -16, -4]
+  - symbol: gMsChargeMoogleFrame3
+    pieces:
+    - [16x32, -3, -43, {layer: 1}]
+    - [32x16, -16, -20, {same: [0, 1]}]
+    - [32x8, -16, -4]
+  - symbol: gMsChargeMoogleFrame4
+    pieces:
+    - [16x32, -3, -43, {layer: 1}]
+    - [32x16, -16, -20, {same: [0, 1]}]
+    - [32x8, -16, -4]
+  - symbol: gMsChargeMoogleFrame5
+    pieces:
+    - [8x8, 0, -42, {layer: 1}]
+    - [16x32, -3, -43, {layer: 2}]
+    - [32x16, -16, -20, {same: [0, 1]}]
+    - [32x8, -16, -4]
+  - symbol: gMsChargeMoogleFrame6
+    pieces:
+    - [8x8, 0, -43]
+    - [16x32, -3, -43, {same: [5, 1]}]
+    - [32x16, -16, -20, {same: [0, 1]}]
+    - [32x8, -16, -4]
+  - symbol: gMsChargeMoogleFrame7
+    pieces:
+    - [8x8, 1, -43, {same: [5, 0]}]
+    - [16x32, -3, -43, {same: [5, 1]}]
+    - [32x16, -16, -20, {same: [0, 1]}]
+    - [32x8, -16, -4]
+  - symbol: gMsChargeMoogleFrame8
+    pieces:
+    - [8x8, 1, -14, {same: [5, 0]}]
+    - [16x16, 1, -7, {layer: 1}]
+    - [16x8, 1, 9]
+  - symbol: gMsChargeMoogleFrame9
+    pieces:
+    - [8x8, 1, -14, {same: [5, 0]}]
+    - [16x16, 1, -7, {layer: 1}]
+    - [16x8, 1, 9, {fresh: true}]
+  - symbol: gMsChargeMoogleFrame10
+    pieces:
+    - [8x8, 1, -13, {same: [5, 0]}]
+    - [16x16, 1, -7, {same: [8, 1]}]
+    - [16x8, 1, 9, {same: [8, 2]}]
+  - symbol: gMsChargeMoogleFrame11
+    pieces:
+    - [8x8, 1, -13, {same: [5, 0]}]
+    - [16x16, 1, -7, {same: [9, 1]}]
+    - [16x8, 1, 9]
+  - symbol: gMsChargeMoogleFrame12
+    pieces:
+    - [8x8, 2, -12, {same: [5, 0]}]
+    - [16x16, 1, -7, {same: [8, 1]}]
+    - [16x8, 1, 9, {same: [8, 2]}]
+  - symbol: gMsChargeMoogleFrame13
+    pieces:
+    - [8x8, 2, -12, {same: [5, 0]}]
+    - [16x16, 1, -7, {same: [9, 1]}]
+    - [16x8, 1, 9]
+  - symbol: gMsChargeMoogleFrame14
+    pieces:
+    - [8x8, 3, -12, {same: [5, 0]}]
+    - [16x16, 1, -7, {same: [8, 1]}]
+    - [16x8, 1, 9, {same: [8, 2]}]
+  - symbol: gMsChargeMoogleFrame15
+    pieces:
+    - [8x8, 3, -12, {same: [5, 0]}]
+    - [16x16, 1, -7, {same: [9, 1]}]
+    - [16x8, 1, 9]
+  - symbol: gMsChargeMoogleFrame16
+    pieces:
+    - [8x8, 3, -13, {same: [5, 0]}]
+    - [16x16, 1, -7, {same: [8, 1]}]
+    - [16x8, 1, 9, {same: [8, 2]}]
+  - symbol: gMsChargeMoogleFrame17
+    pieces:
+    - [8x8, 3, -13, {same: [5, 0]}]
+    - [16x16, 1, -7, {same: [9, 1]}]
+    - [16x8, 1, 9]
+  - symbol: gMsChargeMoogleFrame18
+    pieces:
+    - [8x8, 2, -14]
+    - [16x16, 1, -7, {same: [8, 1]}]
+    - [16x8, 1, 9, {same: [8, 2]}]
+  - symbol: gMsChargeMoogleFrame19
+    pieces:
+    - [8x8, 2, -14]
+    - [16x16, 1, -7, {same: [9, 1]}]
+    - [16x8, 1, 9]
+  animations:
+  - symbol: gMsChargeMoogleAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 20], [5, 20], [6, 20], [7, 20]]
+  - symbol: gMsChargeMoogleAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 10], [2, 10], [3, 10], [4, 10]]
+  - symbol: gMsChargeMoogleAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 4], [3, 4], [4, 4]]
+  - symbol: gMsChargeMoogleAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 8], [9, 8], [18, 8], [19, 8], [16, 8], [17, 8], [14, 8], [15, 8], [12, 8], [13, 8], [10, 8], [11, 8]]
+  us:
+    address: 0x099A1F44
+    size: 2960
+  jp:
+    address: 0x099569CC
+    size: 2960
+  eu:
+    address: 0x099AEC48
+    size: 2960
+- name: gMsTopBarTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 16]
+  anchor: [128, 0]
+  columns: 3
+  frames:
+  - symbol: gMsTopBarFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [8x16, 96, 0]
+  - symbol: gMsTopBarFrame1
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gMsTopBarFrame2
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  animations:
+  - symbol: gMsTopBarAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x099A2AD4
+    size: 1166
+  jp:
+    address: 0x0995755C
+    size: 1166
+  eu:
+    address: 0x099AF7D8
+    size: 1166
+- name: gMsTopPacksTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 40]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMsTopPacksFrame0
+    pieces:
+    - [32x32, 0, 0]
+    - [16x32, 32, 0]
+    - [16x8, 16, 32]
+  animations:
+  - symbol: gMsTopPacksAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x099A2F64
+    size: 864
+  jp:
+    address: 0x099579EC
+    size: 864
+  eu:
+    address: 0x099B0EE8
+    size: 864
+- name: gMsTopPacksDimTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 40]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMsTopPacksDimFrame0
+    pieces:
+    - [32x32, 0, 0]
+    - [16x32, 32, 0]
+    - [16x8, 16, 32]
+  animations:
+  - symbol: gMsTopPacksDimAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x099A32C4
+    size: 864
+  jp:
+    address: 0x09957D4C
+    size: 864
+  eu:
+    address: 0x099B1248
+    size: 864
+- name: gMsTopArrowTiles
+  format: sprite_sheet
+  align: 4
+  cell: [72, 16]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gMsTopArrowFrame0
+    pieces:
+    - [16x16, 56, 0]
+    - [16x16, 0, 0, {hflip: true}]
+  - symbol: gMsTopArrowFrame1
+    pieces:
+    - [16x16, 56, 0]
+    - [16x16, 0, 0, {hflip: true}]
+  - symbol: gMsTopArrowFrame2
+    pieces:
+    - [16x16, 56, 0]
+    - [16x16, 0, 0, {hflip: true}]
+  - symbol: gMsTopArrowFrame3
+    pieces:
+    - [16x16, 56, 0]
+    - [16x16, 0, 0, {hflip: true}]
+  - symbol: gMsTopArrowFrame4
+    pieces:
+    - [16x16, 56, 0]
+    - [16x16, 0, 0, {hflip: true}]
+  - symbol: gMsTopArrowFrame5
+    pieces:
+    - [16x16, 0, 0, {hflip: true}]
+    - [16x16, 56, 0]
+  - symbol: gMsTopArrowFrame6
+    pieces:
+    - [16x16, 0, 0, {hflip: true}]
+    - [16x16, 56, 0]
+  - symbol: gMsTopArrowFrame7
+    pieces:
+    - [16x16, 0, 0, {hflip: true}]
+    - [16x16, 56, 0]
+  - symbol: gMsTopArrowFrame8
+    pieces:
+    - [16x16, 0, 0, {hflip: true}]
+    - [16x16, 56, 0]
+  - symbol: gMsTopArrowFrame9
+    pieces:
+    - [16x16, 0, 0, {hflip: true}]
+    - [16x16, 56, 0]
+  animations:
+  - symbol: gMsTopArrowAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 7], [2, 6], [3, 7], [4, 6]]
+  - symbol: gMsTopArrowAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 5], [6, 7], [7, 6], [8, 7], [9, 6]]
+  us:
+    address: 0x099A3624
+    size: 1492
+  jp:
+    address: 0x099580AC
+    size: 1492
+  eu:
+    address: 0x099B15A8
+    size: 1492
+- name: gMoogleShopCursorTiles
+  format: sprite_sheet
+  align: 4
+  cell: [27, 27]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gMoogleShopCursorFrame0
+    pieces:
+    - [16x16, 0, 0]
+    - [8x8, 10, 16]
+    - [8x8, 16, 8]
+  - symbol: gMoogleShopCursorFrame1
+    pieces:
+    - [16x16, 0, 1]
+    - [8x8, 10, 17]
+    - [8x8, 16, 9]
+  - symbol: gMoogleShopCursorFrame2
+    pieces:
+    - [16x16, 0, 2]
+    - [8x8, 10, 18]
+    - [8x8, 16, 10]
+  - symbol: gMoogleShopCursorFrame3
+    pieces:
+    - [16x16, 0, 3]
+    - [8x8, 10, 19]
+    - [8x8, 16, 11]
+  - symbol: gMoogleShopCursorFrame4
+    pieces:
+    - [16x16, 8, 0, {hflip: true}]
+    - [8x16, 0, 0, {hflip: true}]
+    - [16x8, 1, 16, {hflip: true}]
+  - symbol: gMoogleShopCursorFrame5
+    pieces:
+    - [16x16, 9, 0, {hflip: true}]
+    - [8x16, 1, 0, {hflip: true}]
+    - [16x8, 2, 16, {hflip: true}]
+  - symbol: gMoogleShopCursorFrame6
+    pieces:
+    - [16x16, 10, 0, {hflip: true}]
+    - [8x16, 2, 0, {hflip: true}]
+    - [16x8, 3, 16, {hflip: true}]
+  - symbol: gMoogleShopCursorFrame7
+    pieces:
+    - [16x16, 11, 0, {hflip: true}]
+    - [8x16, 3, 0, {hflip: true}]
+    - [16x8, 4, 16, {hflip: true}]
+  animations:
+  - symbol: gMoogleShopCursorAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 3], [2, 3], [3, 4], [2, 3], [1, 3]]
+  - symbol: gMoogleShopCursorAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4], [5, 3], [6, 3], [7, 4], [6, 3], [5, 3]]
+  us:
+    address: 0x099A3BF8
+    size: 684
+  jp:
+    address: 0x09958680
+    size: 684
+  eu:
+    address: 0x099B1B7C
+    size: 684
+- name: gMooglePackTier0Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [64, 40]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMooglePackTier0Frame0
+    pieces:
+    - [32x32, 0, 0]
+    - [32x16, 32, 8]
+    - [8x8, 24, 32]
+  animations:
+  - symbol: gMooglePackTier0Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x099A3EA4
+    size: 832
+  jp:
+    address: 0x0995892C
+    size: 832
+  eu:
+    address: 0x099B1E28
+    size: 832
+- name: gMooglePackTier1Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 40]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMooglePackTier1Frame0
+    pieces:
+    - [32x32, 8, 0]
+    - [8x16, 0, 0]
+    - [8x8, 26, 32]
+  animations:
+  - symbol: gMooglePackTier1Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x099A41E4
+    size: 640
+  jp:
+    address: 0x09958C6C
+    size: 640
+  eu:
+    address: 0x099B2168
+    size: 640
+- name: gMooglePackTier2Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 40]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMooglePackTier2Frame0
+    pieces:
+    - [32x32, 8, 0]
+    - [8x16, 0, 0]
+    - [8x8, 26, 32]
+  animations:
+  - symbol: gMooglePackTier2Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x099A4464
+    size: 640
+  jp:
+    address: 0x09958EEC
+    size: 640
+  eu:
+    address: 0x099B23E8
+    size: 640
+- name: gMooglePackTier3Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 48]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMooglePackTier3Frame0
+    pieces:
+    - [32x32, 16, 0]
+    - [16x16, 28, 32]
+    - [16x32, 0, 0]
+  animations:
+  - symbol: gMooglePackTier3Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x099A46E4
+    size: 928
+  jp:
+    address: 0x0995916C
+    size: 928
+  eu:
+    address: 0x099B2668
+    size: 928
+- name: gMooglePackCardSpinTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 48]
+  anchor: [24, 24]
+  columns: 8
+  frames:
+  - symbol: gMooglePackCardSpinFrame0
+    pieces:
+    - [32x32, -24, -8]
+    - [32x16, -16, -24]
+    - [16x16, 8, -8]
+    - [8x8, 8, 8]
+  - symbol: gMooglePackCardSpinFrame1
+    pieces:
+    - [32x32, -24, -8]
+    - [16x16, 8, -8]
+    - [8x8, 8, 8]
+    - [32x16, -16, -24]
+  - symbol: gMooglePackCardSpinFrame2
+    pieces:
+    - [16x32, -8, -8]
+    - [16x16, -8, -24]
+  - symbol: gMooglePackCardSpinFrame3
+    pieces:
+    - [32x32, -16, -8]
+    - [16x16, -8, -24]
+  - symbol: gMooglePackCardSpinFrame4
+    pieces:
+    - [32x32, -8, -8]
+    - [32x16, -16, -24]
+    - [16x16, -24, -8]
+    - [8x8, -16, 8]
+  - symbol: gMooglePackCardSpinFrame5
+    pieces:
+    - [32x32, -8, -8]
+    - [32x16, -16, -24]
+    - [16x16, -24, -8]
+    - [8x8, -16, 8]
+  - symbol: gMooglePackCardSpinFrame6
+    pieces:
+    - [32x32, -16, -8]
+    - [8x16, 16, 0]
+    - [8x8, -24, -8]
+    - [32x16, -16, -24]
+  - symbol: gMooglePackCardSpinFrame7
+    pieces:
+    - [16x32, -8, -8]
+    - [16x16, -8, -24]
+  - symbol: gMooglePackCardSpinFrame8
+    pieces:
+    - [32x32, -16, -8]
+    - [16x16, -8, -24]
+  - symbol: gMooglePackCardSpinFrame9
+    pieces:
+    - [32x32, -24, -8]
+    - [32x16, -16, -24]
+    - [16x16, 8, -8]
+    - [8x8, 8, 8]
+  animations:
+  - symbol: gMooglePackCardSpinAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8], [8, 8], [9, 8]]
+  us:
+    address: 0x099A4A84
+    size: 7830
+  jp:
+    address: 0x0995950C
+    size: 7830
+  eu:
+    address: 0x099B2A08
+    size: 7830
+- name: gMsShopHosiTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 6
+  frames:
+  - symbol: gMsShopHosiFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gMsShopHosiFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gMsShopHosiFrame2
+    pieces:
+    - [8x8, -4, -4]
+  - symbol: gMsShopHosiFrame3
+    pieces:
+    - [8x8, -4, -4]
+  - symbol: gMsShopHosiFrame4
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gMsShopHosiFrame5
+    pieces:
+    - [8x8, -4, -4]
+  animations:
+  - symbol: gMsShopHosiAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 2]]
+  us:
+    address: 0x099A691C
+    size: 550
+  jp:
+    address: 0x0995B3A4
+    size: 550
+  eu:
+    address: 0x099B48A0
+    size: 550
+- name: gMsChargeHighlightTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 40]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gMsChargeHighlightFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [16x16, 32, 0]
+  - symbol: gMsChargeHighlightFrame1
+    pieces:
+    - [32x16, 0, 0]
+    - [16x16, 32, 0]
+  - symbol: gMsChargeHighlightFrame2
+    pieces:
+    - [32x16, 0, 0]
+    - [16x16, 32, 0]
+  - symbol: gMsChargeHighlightFrame3
+    pieces:
+    - [32x8, 0, 4]
+    - [16x8, 32, 4]
+  - symbol: gMsChargeHighlightFrame4
+    pieces:
+    - [32x8, 4, 4]
+    - [8x8, 36, 4]
+  - symbol: gMsChargeHighlightFrame5
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMsChargeHighlightFrame6
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMsChargeHighlightFrame7
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMsChargeHighlightFrame8
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMsChargeHighlightFrame9
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMsChargeHighlightFrame10
+    pieces:
+    - [32x8, 0, 0]
+    - [8x32, 0, 8]
+    - [8x32, 24, 8]
+    - [16x8, 8, 32]
+  - symbol: gMsChargeHighlightFrame11
+    pieces:
+    - [32x8, 0, 0]
+    - [8x32, 0, 8]
+    - [8x32, 24, 8]
+    - [16x8, 8, 32]
+  - symbol: gMsChargeHighlightFrame12
+    pieces:
+    - [16x32, 0, 0]
+    - [16x32, 16, 0]
+    - [32x8, 0, 32]
+  - symbol: gMsChargeHighlightFrame13
+    pieces:
+    - [16x16, 8, 8]
+    - [16x8, 8, 24]
+  - symbol: gMsChargeHighlightFrame14
+    pieces:
+    - [16x16, 8, 8]
+    - [16x8, 8, 24]
+  animations:
+  - symbol: gMsChargeHighlightAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 4], [3, 4], [4, 3]]
+  - symbol: gMsChargeHighlightAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 5], [6, 7], [7, 6], [8, 7], [9, 6]]
+  - symbol: gMsChargeHighlightAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 5], [11, 5], [12, 4], [13, 4], [14, 3]]
+  us:
+    address: 0x099A6B44
+    size: 4382
+  jp:
+    address: 0x0995B5CC
+    size: 4382
+  eu:
+    address: 0x099B4AC8
+    size: 4382
+- name: gMsChargeScrollbarTiles
+  format: sprite_sheet
+  align: 4
+  cell: [8, 8]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMsChargeScrollbarFrame0
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gMsChargeScrollbarAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x099A7C64
+    size: 52
+  jp:
+    address: 0x0995C6EC
+    size: 52
+  eu:
+    address: 0x099B5BE8
+    size: 52
+- name: gMsTopBarFrenchTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 16]
+  anchor: [128, 0]
+  columns: 3
+  frames:
+  - symbol: gMsTopBarFrenchFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [8x16, 96, 0]
+  - symbol: gMsTopBarFrenchFrame1
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gMsTopBarFrenchFrame2
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  animations:
+  - symbol: gMsTopBarFrenchAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x099AFC68
+    size: 1166
+- name: gMsTopBarSpanishTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 16]
+  anchor: [128, 0]
+  columns: 3
+  frames:
+  - symbol: gMsTopBarSpanishFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [8x16, 96, 0]
+  - symbol: gMsTopBarSpanishFrame1
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gMsTopBarSpanishFrame2
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  animations:
+  - symbol: gMsTopBarSpanishAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x099B00F8
+    size: 1166
+- name: gMsTopBarItalianTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 16]
+  anchor: [128, 0]
+  columns: 3
+  frames:
+  - symbol: gMsTopBarItalianFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [16x16, 96, 0]
+  - symbol: gMsTopBarItalianFrame1
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gMsTopBarItalianFrame2
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  animations:
+  - symbol: gMsTopBarItalianAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x099B0588
+    size: 1230
+- name: gMsTopBarGermanTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 16]
+  anchor: [128, 0]
+  columns: 3
+  frames:
+  - symbol: gMsTopBarGermanFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [8x16, 96, 0]
+  - symbol: gMsTopBarGermanFrame1
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gMsTopBarGermanFrame2
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  animations:
+  - symbol: gMsTopBarGermanAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x099B0A58
+    size: 1166
+- name: gMsTopBgTiles
+  format: tiles4
+  us:
+    address: 0x09A10A3C
+    size: 6560
+  jp:
+    address: 0x099C54C4
+    size: 6560
+  eu:
+    address: 0x09A60380
+    size: 9408
+- name: gMsTopPointsDigitTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09A123DC
+    size: 320
+  jp:
+    address: 0x099C6E64
+    size: 320
+  eu:
+    address: 0x09A62840
+    size: 320
+- name: gMoogleShopBgTiles
+  format: tiles4
+  us:
+    address: 0x09A1251C
+    size: 26720
+  jp:
+    address: 0x099C6FA4
+    size: 26720
+  eu:
+    address: 0x09A62980
+    size: 26720
+- name: gMoogleShopPointsDigitTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09A18D7C
+    size: 320
+  jp:
+    address: 0x099CD804
+    size: 320
+  eu:
+    address: 0x09A691E0
+    size: 320
+- name: gMooglePackPriceDigitTiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09A18EBC
+    size: 640
+  jp:
+    address: 0x099CD944
+    size: 640
+  eu:
+    address: 0x09A69320
+    size: 640
+- name: gMsChargeBgTiles
+  format: tiles4
+  us:
+    address: 0x09A1913C
+    size: 19040
+  jp:
+    address: 0x099CDBC4
+    size: 19040
+  eu:
+    address: 0x09A695A0
+    size: 25024
+- name: gMsChargeDigitTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09A1DB9C
+    size: 320
+  jp:
+    address: 0x099D2624
+    size: 320
+  eu:
+    address: 0x09A6F760
+    size: 320
+- name: gMsChargeCardPointsDigitTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09A1DCDC
+    size: 320
+  jp:
+    address: 0x099D2764
+    size: 320
+  eu:
+    address: 0x09A6F8A0
+    size: 320
+- name: gMsChargeCategoryCountZeroTiles
+  format: tiles4
+  us:
+    address: 0x09A1DE1C
+    size: 32
+  jp:
+    address: 0x099D28A4
+    size: 32
+  eu:
+    address: 0x09A6F9E0
+    size: 32
+- name: gMsChargeCategoryCountDigitTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09A1DE3C
+    size: 320
+  jp:
+    address: 0x099D28C4
+    size: 320
+  eu:
+    address: 0x09A6FA00
+    size: 320
+- name: gMsChargeValueCountZeroTiles
+  format: tiles4
+  us:
+    address: 0x09A1DF7C
+    size: 32
+  jp:
+    address: 0x099D2A04
+    size: 32
+  eu:
+    address: 0x09A6FB40
+    size: 32
+- name: gMsChargeValueCountDigitTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09A1DF9C
+    size: 320
+  jp:
+    address: 0x099D2A24
+    size: 320
+  eu:
+    address: 0x09A6FB60
+    size: 320
+- name: gMsTopRoomBgMap
+  format: tilemap
+  us:
+    address: 0x09A36EDC
+    size: 1280
+  jp:
+    address: 0x099EB964
+    size: 1280
+  eu:
+    address: 0x09A89EA0
+    size: 1280
+- name: gMsTopSpotlightBgMap
+  format: tilemap
+  us:
+    address: 0x09A373DC
+    size: 1280
+  jp:
+    address: 0x099EBE64
+    size: 1280
+  eu:
+    address: 0x09A8A3A0
+    size: 1280
+- name: gMsTopBgMap
+  format: tilemap
+  us:
+    address: 0x09A378DC
+    size: 1280
+  jp:
+    address: 0x099EC364
+    size: 1280
+  eu:
+    address: 0x09A8A8A0
+    size: 1280
+- name: gMsTopBarBgMap
+  format: tilemap
+  us:
+    address: 0x09A37DDC
+    size: 1280
+  jp:
+    address: 0x099EC864
+    size: 1280
+  eu:
+    address: 0x09A8ADA0
+    size: 1280
+- name: gMoogleShopBgMap
+  format: tilemap
+  us:
+    address: 0x09A382DC
+    size: 1280
+  jp:
+    address: 0x099ECD64
+    size: 1280
+  eu:
+    address: 0x09A8DAA0
+    size: 1280
+- name: gMooglePackSelectionTopLeftMap
+  format: tilemap
+  us:
+    address: 0x09A387DC
+    size: 1280
+  jp:
+    address: 0x099ED264
+    size: 1280
+  eu:
+    address: 0x09A8DFA0
+    size: 1280
+- name: gMooglePackSelectionTopRightMap
+  format: tilemap
+  us:
+    address: 0x09A38CDC
+    size: 1280
+  jp:
+    address: 0x099ED764
+    size: 1280
+  eu:
+    address: 0x09A8E4A0
+    size: 1280
+- name: gMooglePackSelectionBottomLeftMap
+  format: tilemap
+  us:
+    address: 0x09A391DC
+    size: 1280
+  jp:
+    address: 0x099EDC64
+    size: 1280
+  eu:
+    address: 0x09A8E9A0
+    size: 1280
+- name: gMooglePackSelectionBottomRightMap
+  format: tilemap
+  us:
+    address: 0x09A396DC
+    size: 1280
+  jp:
+    address: 0x099EE164
+    size: 1280
+  eu:
+    address: 0x09A8EEA0
+    size: 1280
+- name: gMooglePackAttackMagicMap
+  format: tilemap
+  us:
+    address: 0x09A39BDC
+    size: 2048
+  jp:
+    address: 0x099EE664
+    size: 2048
+  eu:
+    address: 0x09A8F3A0
+    size: 2048
+- name: gMooglePackItemMixedMap
+  format: tilemap
+  us:
+    address: 0x09A3A3DC
+    size: 2048
+  jp:
+    address: 0x099EEE64
+    size: 2048
+  eu:
+    address: 0x09A8FBA0
+    size: 2048
+- name: gMoogleShopCategoryLabelsMap
+  format: tilemap
+  us:
+    address: 0x09A3ABDC
+    size: 384
+  jp:
+    address: 0x099EF664
+    size: 384
+  eu:
+    address: 0x09A903A0
+    size: 384
+- name: gMooglePackCardInfoMap
+  format: tilemap
+  us:
+    address: 0x09A3AD5C
+    size: 1280
+  jp:
+    address: 0x099EF7E4
+    size: 1280
+  eu:
+    address: 0x09A90520
+    size: 1280
+- name: gMsChargeBgMap
+  format: tilemap
+  us:
+    address: 0x09A3B25C
+    size: 1280
+  jp:
+    address: 0x099EFCE4
+    size: 1280
+  eu:
+    address: 0x09A94E20
+    size: 1280
+- name: gMsChargeTabMap
+  format: tilemap
+  us:
+    address: 0x09A3B75C
+    size: 256
+  jp:
+    address: 0x099F01E4
+    size: 256
+  eu:
+    address: 0x09A96720
+    size: 256
+- name: gMoogleShopBgSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09A90F20
+    size: 1280
+- name: gMsChargeValueCountBgMap
+  format: tilemap
+  us:
+    address: 0x09A3B85C
+    size: 1280
+  jp:
+    address: 0x099F02E4
+    size: 1280
+  eu:
+    address: 0x09A96B20
+    size: 1280
+- name: gMsChargeEnemyCountBgMap
+  format: tilemap
+  us:
+    address: 0x09A3BD5C
+    size: 1280
+  jp:
+    address: 0x099F07E4
+    size: 1280
+  eu:
+    address: 0x09A97020
+    size: 1280
+- name: gMsChargeWindowMap
+  format: tilemap
+  us:
+    address: 0x09A3C25C
+    size: 1280
+  jp:
+    address: 0x099F0CE4
+    size: 1280
+  eu:
+    address: 0x09A97520
+    size: 1280
+- name: gMsTopMoogleDimPalette
+  format: palette
+  us:
+    address: 0x09A3D77C
+    size: 32
+  jp:
+    address: 0x099F2204
+    size: 32
+  eu:
+    address: 0x09A9B240
+    size: 32
+- name: gMsTopBgPalette
+  format: palette
+  us:
+    address: 0x09A3D79C
+    size: 96
+  jp:
+    address: 0x099F2224
+    size: 96
+  eu:
+    address: 0x09A9B260
+    size: 96
+- name: gMsTopBarPalette
+  format: palette
+  us:
+    address: 0x09A3D7FC
+    size: 32
+  jp:
+    address: 0x099F2284
+    size: 32
+  eu:
+    address: 0x09A9B2C0
+    size: 32
+- name: gMsTopPacksPalette
+  format: palette
+  us:
+    address: 0x09A3D81C
+    size: 32
+  jp:
+    address: 0x099F22A4
+    size: 32
+  eu:
+    address: 0x09A9B2E0
+    size: 32
+- name: gMsTopPacksDimPalette
+  format: palette
+  us:
+    address: 0x09A3D83C
+    size: 32
+  jp:
+    address: 0x099F22C4
+    size: 32
+  eu:
+    address: 0x09A9B300
+    size: 32
+- name: gMsTopArrowPalette
+  format: palette
+  us:
+    address: 0x09A3D85C
+    size: 32
+  jp:
+    address: 0x099F22E4
+    size: 32
+  eu:
+    address: 0x09A9B320
+    size: 32
+- name: gMoogleShopBgPalette
+  format: palette
+  us:
+    address: 0x09A3D87C
+    size: 416
+  jp:
+    address: 0x099F2304
+    size: 416
+  eu:
+    address: 0x09A9B340
+    size: 416
+- name: gMooglePackCardInfoPalettes
+  format: palette
+  us:
+    address: 0x09A3DA1C
+    size: 96
+  jp:
+    address: 0x099F24A4
+    size: 96
+  eu:
+    address: 0x09A9B4E0
+    size: 96
+- name: gMoogleShopCursorPalette
+  format: palette
+  us:
+    address: 0x09A3DA7C
+    size: 32
+  jp:
+    address: 0x099F2504
+    size: 32
+  eu:
+    address: 0x09A9B540
+    size: 32
+- name: gMooglePackTier0Palette
+  format: palette
+  us:
+    address: 0x09A3DA9C
+    size: 32
+  jp:
+    address: 0x099F2524
+    size: 32
+  eu:
+    address: 0x09A9B560
+    size: 32
+- name: gMooglePackTier1Palette
+  format: palette
+  us:
+    address: 0x09A3DABC
+    size: 32
+  jp:
+    address: 0x099F2544
+    size: 32
+  eu:
+    address: 0x09A9B580
+    size: 32
+- name: gMooglePackTier2Palette
+  format: palette
+  us:
+    address: 0x09A3DADC
+    size: 32
+  jp:
+    address: 0x099F2564
+    size: 32
+  eu:
+    address: 0x09A9B5A0
+    size: 32
+- name: gMooglePackTier3Palette
+  format: palette
+  us:
+    address: 0x09A3DAFC
+    size: 32
+  jp:
+    address: 0x099F2584
+    size: 32
+  eu:
+    address: 0x09A9B5C0
+    size: 32
+- name: gMooglePackCardSpinPalettes
+  format: palette
+  us:
+    address: 0x09A3DB1C
+    size: 96
+  jp:
+    address: 0x099F25A4
+    size: 96
+  eu:
+    address: 0x09A9B5E0
+    size: 96
+- name: gMooglePackCategoryPalettes
+  format: palette
+  us:
+    address: 0x09A3DB7C
+    size: 96
+  jp:
+    address: 0x099F2604
+    size: 96
+  eu:
+    address: 0x09A9B640
+    size: 96
+- name: gMsChargeBgPalette
+  format: palette
+  us:
+    address: 0x09A3DBDC
+    size: 416
+  jp:
+    address: 0x099F2664
+    size: 416
+  eu:
+    address: 0x09A9B6A0
+    size: 416
+- name: gMsChargeCategoryBgPalettes
+  format: palette
+  us:
+    address: 0x09A3DD7C
+    size: 12
+  jp:
+    address: 0x099F2804
+    size: 12
+  eu:
+    address: 0x09A9B840
+    size: 12
+- name: gMsChargeValueOwnedPalette
+  format: palette
+  us:
+    address: 0x09A3DD88
+    size: 128
+  jp:
+    address: 0x099F2810
+    size: 128
+  eu:
+    address: 0x09A9B84C
+    size: 128
+- name: gMsChargeValueEmptyPalette
+  format: palette
+  us:
+    address: 0x09A3DE08
+    size: 116
+  jp:
+    address: 0x099F2890
+    size: 116
+  eu:
+    address: 0x09A9B8CC
+    size: 116
+- name: gMsTopBgFrenchMap
+  format: tilemap
+  eu:
+    address: 0x09A8B2A0
+    size: 1280
+- name: gMsTopBgSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09A8B7A0
+    size: 1280
+- name: gMsTopBgItalianMap
+  format: tilemap
+  eu:
+    address: 0x09A8BCA0
+    size: 1280
+- name: gMsTopBgGermanMap
+  format: tilemap
+  eu:
+    address: 0x09A8C1A0
+    size: 1280
+- name: gMsTopBarBgFrenchMap
+  format: tilemap
+  eu:
+    address: 0x09A8C6A0
+    size: 1280
+- name: gMsTopBarBgSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09A8CBA0
+    size: 1280
+- name: gMsTopBarBgItalianMap
+  format: tilemap
+  eu:
+    address: 0x09A8D0A0
+    size: 1280
+- name: gMsTopBarBgGermanMap
+  format: tilemap
+  eu:
+    address: 0x09A8D5A0
+    size: 1280
+- name: gMoogleShopBgFrenchMap
+  format: tilemap
+  eu:
+    address: 0x09A90A20
+    size: 1280
+- name: gMoogleShopBgItalianMap
+  format: tilemap
+  eu:
+    address: 0x09A91420
+    size: 1280
+- name: gMoogleShopBgGermanMap
+  format: tilemap
+  eu:
+    address: 0x09A91920
+    size: 1280
+- name: gMooglePackAttackMagicSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09A91E20
+    size: 2048
+- name: gMooglePackAttackMagicItalianMap
+  format: tilemap
+  eu:
+    address: 0x09A92620
+    size: 2048
+- name: gMooglePackAttackMagicGermanMap
+  format: tilemap
+  eu:
+    address: 0x09A92E20
+    size: 2048
+- name: gMooglePackItemMixedSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09A93620
+    size: 2048
+- name: gMooglePackItemMixedItalianMap
+  format: tilemap
+  eu:
+    address: 0x09A93E20
+    size: 2048
+- name: gMooglePackItemMixedGermanMap
+  format: tilemap
+  eu:
+    address: 0x09A94620
+    size: 2048
+- name: gMsChargeBgFrenchMap
+  format: tilemap
+  eu:
+    address: 0x09A95320
+    size: 1280
+- name: gMsChargeBgSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09A95820
+    size: 1280
+- name: gMsChargeBgItalianMap
+  format: tilemap
+  eu:
+    address: 0x09A95D20
+    size: 1280
+- name: gMsChargeBgGermanMap
+  format: tilemap
+  eu:
+    address: 0x09A96220
+    size: 1280
+- name: gMsChargeTabFrenchMap
+  format: tilemap
+  eu:
+    address: 0x09A96820
+    size: 256
+- name: gMsChargeTabGermanSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09A96920
+    size: 256
+- name: gMsChargeTabItalianMap
+  format: tilemap
+  eu:
+    address: 0x09A96A20
+    size: 256
+- name: gMsChargeValueCountBgFrenchMap
+  format: tilemap
+  eu:
+    address: 0x09A97A20
+    size: 1280
+- name: gMsChargeValueCountBgSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09A97F20
+    size: 1280
+- name: gMsChargeValueCountBgItalianMap
+  format: tilemap
+  eu:
+    address: 0x09A98420
+    size: 1280
+- name: gMsChargeValueCountBgGermanMap
+  format: tilemap
+  eu:
+    address: 0x09A98920
+    size: 1280
+- name: gMsChargeEnemyCountBgFrenchMap
+  format: tilemap
+  eu:
+    address: 0x09A98E20
+    size: 1280
+- name: gMsChargeEnemyCountBgSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09A99320
+    size: 1280
+- name: gMsChargeEnemyCountBgItalianMap
+  format: tilemap
+  eu:
+    address: 0x09A99820
+    size: 1280
+- name: gMsChargeEnemyCountBgGermanMap
+  format: tilemap
+  eu:
+    address: 0x09A99D20
+    size: 1280

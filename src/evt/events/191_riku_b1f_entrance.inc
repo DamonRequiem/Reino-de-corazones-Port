@@ -1,0 +1,90 @@
+#ifdef VERSION_US
+#include "event_191_text.inc"
+#endif
+
+static const MessageScriptEntry sEvent191Script[15] = {
+    { PORTRAIT_RIKU, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text00), 0, 100 },
+    { PORTRAIT_MICKEY, 1, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text01), 0, 280 },
+    { PORTRAIT_RIKU, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text02), 0, 320 },
+    { PORTRAIT_RIKU, 2, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text03), 0, 330 },
+    { PORTRAIT_MICKEY, 2, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text04), 0, 410 },
+    { PORTRAIT_RIKU, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text05), 0, 440 },
+    { PORTRAIT_RIKU, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text06), 0, 442 },
+    { PORTRAIT_RIKU, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text07), 0, 540 },
+    { PORTRAIT_MICKEY, 1, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text08), 0, 560 },
+    { PORTRAIT_RIKU, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text09), 0, 600 },
+    { PORTRAIT_MICKEY, 3, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text10), 0, 630 },
+    { PORTRAIT_MICKEY, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text11), 0, 632 },
+    { PORTRAIT_RIKU, 4, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text12), 0, 830 },
+    { PORTRAIT_MICKEY, 1, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text13), 0, 860 },
+    { PORTRAIT_RIKU, 4, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent191Text14), MSG_SCRIPT_FLAG_END, 920 },
+};
+
+#ifdef VERSION_JP
+#include "event_191_text.inc"
+#endif
+
+static const EvSoundCue sEvent191SoundCues[4] = {
+    { SONG_BGM_T13THFLOOR, 0, 0, 0 },
+    { SONG_SND_382, 360, 0, 0 },
+    { SONG_BGM_T13THFLOOR, 441, EV_SOUND_FLAG_FADE_OUT, 0 },
+    { SONG_BGM_EVENT4, 559, EV_SOUND_FLAG_FADE_IN | EV_SOUND_FLAG_END, 0 },
+};
+
+static const EventCameraKeyframe sEvent191Camera[1] = {
+    { -64537, 196096, 58880, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_END, 0, NULL },
+};
+
+static const EventCharaKeyframe sEvent191Track0[10] = {
+    { 558, 120, 202496, 68352, 0, 0, 2, NULL, NULL },
+    { 558, 250, 0, 0, 0, 0, 0, NULL, CreateBalloonTask },
+    { 558, 300, 0, 0, 0, 0, 5, NULL, NULL },
+    { 515, 595, 0, 0, 0, 0, 5, NULL, NULL },
+    { 532, 602, 0, 0, 0, 0, 5, NULL, NULL },
+    { 515, 650, 0, 0, 0, 0, 5, NULL, NULL },
+    { 515, 780, 0, 0, 0, 0, 0, NULL, CreateBalloonTask },
+    { 515, 890, 0, 0, 0, 0, 5, NULL, NULL },
+    { 540, 910, 0, 0, 0, 0, 5, NULL, NULL },
+    { 515, 5000, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent191Track1[3] = {
+    { 745, 350, 191232, 61952, 0, 0, 66, NULL, NULL },
+    { 749, 380, 0, 0, 0, 0, 64, EventCharaHop, NULL },
+    { 745, 5000, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent191Track2[3] = {
+    { 603, 300, 202496, 68352, 0, 0, 274, NULL, NULL },
+    { 591, 310, 0, 0, 0, 0, 258, NULL, NULL },
+    { 591, 5000, 0, 0, 0, 0, 98373, NULL, NULL },
+};
+
+static const EventCharaTrack sEvent191Tracks[3] = {
+    { sEvent191Track0, EVENT_CHARA_RIKU },
+    { sEvent191Track1, EVENT_CHARA_MICKEY },
+    { sEvent191Track2, EVENT_CHARA_B_STATES_1 },
+};
+
+const EventSequenceDef gEvent191 = {
+    ARRAY_COUNT(sEvent191Tracks),
+    sEvent191Tracks,
+    sEvent191Camera,
+    sEvent191Script,
+    sEvent191SoundCues,
+    NULL,
+    980,
+    TRUE,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    0,
+    EVENT_NONE,
+    0,
+    { 0, 0 },
+    EVENT_EXIT_NONE,
+    0,
+    WORLD_NONE,
+    POOH_LEVEL_NONE,
+};

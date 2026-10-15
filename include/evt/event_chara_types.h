@@ -1,0 +1,171 @@
+#ifndef GUARD_EVENT_CHARA_TYPES_H
+#define GUARD_EVENT_CHARA_TYPES_H
+
+#include "types.h"
+#include "taskpool.h"
+#include "battle_actor_types.h"
+#include "evt_object_types.h"
+#include "msg_types.h"
+
+enum EventCharaId {
+    EVENT_CHARA_SORA,
+    EVENT_CHARA_DONALD,
+    EVENT_CHARA_GOOFY,
+    EVENT_CHARA_ROBED_FIGURE,
+    EVENT_CHARA_CARD_SOLDIER_HEART,
+    EVENT_CHARA_CARD_SOLDIER_SPADE,
+    EVENT_CHARA_QUEEN_OF_HEARTS,
+    EVENT_CHARA_ALICE,
+    EVENT_CHARA_JIMINY_CRICKET,
+    EVENT_CHARA_PINOCCHIO,
+    EVENT_CHARA_MOOGLE,
+    EVENT_CHARA_WHITE_RABBIT,
+    EVENT_CHARA_ALADDIN,
+    EVENT_CHARA_JACK,
+    EVENT_CHARA_PETER_PAN,
+    EVENT_CHARA_ARIEL,
+    EVENT_CHARA_BEAST,
+    EVENT_CHARA_CHESHIRE_CAT,
+    EVENT_CHARA_GEPPETTO,
+    EVENT_CHARA_CLOUD,
+    EVENT_CHARA_URSULA,
+    EVENT_CHARA_OOGIE_BOOGIE,
+    EVENT_CHARA_BELLE,
+    EVENT_CHARA_PHILOCTETES,
+    EVENT_CHARA_HERCULES,
+    EVENT_CHARA_HADES,
+    EVENT_CHARA_HADES_ANGRY,
+    EVENT_CHARA_HADES_ANGRY_2,
+    EVENT_CHARA_DUMBO,
+    EVENT_CHARA_DR_FINKELSTEIN,
+    EVENT_CHARA_MALEFICENT,
+    EVENT_CHARA_BAMBI,
+    EVENT_CHARA_SIMBA,
+    EVENT_CHARA_MUSHU,
+    EVENT_CHARA_KAIRI,
+    EVENT_CHARA_NAMINE,
+    EVENT_CHARA_AERITH,
+    EVENT_CHARA_TINKER_BELL,
+    EVENT_CHARA_SEBASTIAN,
+    EVENT_CHARA_FLOUNDER,
+    EVENT_CHARA_SHADOW,
+    EVENT_CHARA_HALLOWEEN_TOWN_GATE_DOOR,
+    EVENT_CHARA_HALLOWEEN_TOWN_GATE_DOOR_2,
+    EVENT_CHARA_AXEL,
+    EVENT_CHARA_RIKU,
+    EVENT_CHARA_SALLY,
+    EVENT_CHARA_SALLY_2,
+    EVENT_CHARA_HOOK,
+    EVENT_CHARA_JASMINE,
+    EVENT_CHARA_B_STATES_0,
+    EVENT_CHARA_B_STATES_1,
+    EVENT_CHARA_B_STATES_2,
+    EVENT_CHARA_B_STATES_3,
+    EVENT_CHARA_GOOFY_2,
+    EVENT_CHARA_CID,
+    EVENT_CHARA_SELPHIE,
+    EVENT_CHARA_JAFAR,
+    EVENT_CHARA_LEON,
+    EVENT_CHARA_DONALD_2,
+    EVENT_CHARA_GENIE,
+    EVENT_CHARA_WAKKA,
+    EVENT_CHARA_TIDUS,
+    EVENT_CHARA_WENDY,
+    EVENT_CHARA_YUFFIE,
+    EVENT_CHARA_ANSEM,
+    EVENT_CHARA_RIKU_REPLICA,
+    EVENT_CHARA_STREET_LAMP,
+    EVENT_CHARA_VEXEN,
+    EVENT_CHARA_SMOKE_CLOUD,
+    EVENT_CHARA_MICKEY,
+    EVENT_CHARA_WINNIE_THE_POOH,
+    EVENT_CHARA_TRAP,
+    EVENT_CHARA_PIGLET,
+    EVENT_CHARA_OWL,
+    EVENT_CHARA_ROO,
+    EVENT_CHARA_EEYORE,
+    EVENT_CHARA_TIGGER,
+    EVENT_CHARA_RABBIT,
+    EVENT_CHARA_HEART,
+    EVENT_CHARA_MARLUXIA,
+    EVENT_CHARA_MARLUXIA_EFFECT,
+    EVENT_CHARA_LARXENE,
+    EVENT_CHARA_LEXAEUS,
+    EVENT_CHARA_ZEXION,
+    EVENT_CHARA_DIZ,
+    EVENT_CHARA_OMAMORI,
+    EVENT_CHARA_MAP_GIMMICK_44,
+    EVENT_CHARA_KOUKYU,
+    EVENT_CHARA_KOUKYU_2,
+    EVENT_CHARA_SHOUGEKIHA,
+    EVENT_CHARA_SHOUGEKIHA_2,
+    EVENT_CHARA_MALEFICENT_BALL,
+    EVENT_CHARA_SHOUGEKIHA_PURPLE,
+    EVENT_CHARA_B_STATES_4,
+    EVENT_CHARA_BOSS_TRICKMASTER = 95,
+    EVENT_CHARA_BOSS_PARASITE_CAGE,
+    EVENT_CHARA_BOSS_PARASITE_CAGE_2,
+    EVENT_CHARA_BOSS_OOGIE_BOOGIE,
+    EVENT_CHARA_BOSS_URSULA,
+    EVENT_CHARA_BOSS_MARLUXIA_2,
+    EVENT_CHARA_BOSS_JAFAR,
+    EVENT_CHARA_BOSS_DARKSIDE = 103,
+    EVENT_CHARA_BOSS_GUARD_ARMOR,
+    EVENT_CHARA_NONE = 0xFF
+};
+
+typedef struct EventSeqArg {
+    u32 eventId : 16;
+    u32 chara : 8;
+    u32 track : 8;
+} EventSeqArg;
+
+typedef struct EventCharaParams {
+    s16 spriteYOffset;
+    s16 slowSpeed;
+    s16 fastSpeed;
+    s16 unk_06;
+    s16 unk_08;
+    s16 unk_0A;
+} EventCharaParams;
+
+typedef struct EventCharaWork {
+    const EventCharaKeyframe* keyframes;
+    void* tiles;
+    void* palette;
+    void* gfx;
+    TaskPool tasks;
+    EventSeqArg arg;
+    EvtObj obj;
+    BtlObj actor;
+    u8 unk_164[0x18];
+    s32 animId;
+    s32 spriteX;
+    s32 spriteY;
+    s32 hopVelocity;
+    s32 unk_18C;
+    s32 startX;
+    s32 startZ;
+    s32 unk_198;
+    s32 speed;
+    u32 keyframe;
+    s32 steps;
+    u8 waitTimer;
+    u8 effectLevel;
+    u8 effectTimer;
+    u8 angle;
+    u8 lastAngle;
+    u8 moveMode;
+    u8 lastMoveMode;
+    u8 jumpPhase;
+    u8 bobPhase;
+    u8 spriteFlipX;
+    u8 callbackActive;
+    u8 usesBtlWork;
+    u8 hasObj;
+    u8 finished;
+    u8 visible;
+    u16 unk_1B8;
+} EventCharaWork;
+
+#endif

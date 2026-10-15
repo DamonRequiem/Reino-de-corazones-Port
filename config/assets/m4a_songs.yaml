@@ -1,0 +1,11733 @@
+group: m4a_songs
+types:
+  SongHeader:
+    header: m4a.h
+objects:
+  us:
+  - name: m4a_songs.s
+    start: 0x09D71554
+    end: 0x09ECE990
+  jp:
+  - name: m4a_songs.s
+    start: 0x09D4AA60
+    end: 0x09EA6C7C
+  eu:
+  - name: m4a_songs.s
+    start: 0x09DE1480
+    end: 0x09F3E8BC
+entries:
+- name: gSongSnd0
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09D71554
+    size: 4
+  jp:
+    address: 0x09D4AA60
+    size: 4
+  eu:
+    address: 0x09DE1480
+    size: 4
+- name: gSample0
+  format: sample
+  align: 4
+  us:
+    address: 0x09D71558
+    size: 4710
+  jp:
+    address: 0x09D4AA64
+    size: 4710
+  eu:
+    address: 0x09DE1484
+    size: 4710
+- name: gSample1
+  format: sample
+  align: 4
+  us:
+    address: 0x09D727C0
+    size: 4048
+  jp:
+    address: 0x09D4BCCC
+    size: 4048
+  eu:
+    address: 0x09DE26EC
+    size: 4048
+- name: gSample2
+  format: sample
+  align: 4
+  us:
+    address: 0x09D73790
+    size: 4717
+  jp:
+    address: 0x09D4CC9C
+    size: 4717
+  eu:
+    address: 0x09DE36BC
+    size: 4717
+- name: gSample3
+  format: sample
+  align: 4
+  us:
+    address: 0x09D74A00
+    size: 3898
+  jp:
+    address: 0x09D4DF0C
+    size: 3898
+  eu:
+    address: 0x09DE492C
+    size: 3898
+- name: gVoicegroup0Sample5
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7593C
+    size: 1688
+  jp:
+    address: 0x09D4EE48
+    size: 1688
+  eu:
+    address: 0x09DE5868
+    size: 1688
+- name: gVoicegroup0Sample6
+  format: sample
+  align: 4
+  us:
+    address: 0x09D75FD4
+    size: 1320
+  jp:
+    address: 0x09D4F4E0
+    size: 1320
+  eu:
+    address: 0x09DE5F00
+    size: 1320
+- name: gVoicegroup0Sample7
+  format: sample
+  align: 4
+  us:
+    address: 0x09D764FC
+    size: 884
+  jp:
+    address: 0x09D4FA08
+    size: 884
+  eu:
+    address: 0x09DE6428
+    size: 884
+- name: gVoicegroup0Sample8
+  format: sample
+  align: 4
+  us:
+    address: 0x09D76870
+    size: 6587
+  jp:
+    address: 0x09D4FD7C
+    size: 6587
+  eu:
+    address: 0x09DE679C
+    size: 6587
+- name: gVoicegroup0Sample10
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7822C
+    size: 2865
+  jp:
+    address: 0x09D51738
+    size: 2865
+  eu:
+    address: 0x09DE8158
+    size: 2865
+- name: gVoicegroup0Sample11
+  format: sample
+  align: 4
+  us:
+    address: 0x09D78D60
+    size: 4184
+  jp:
+    address: 0x09D5226C
+    size: 4184
+  eu:
+    address: 0x09DE8C8C
+    size: 4184
+- name: gVoicegroup0Sample13
+  format: sample
+  align: 4
+  us:
+    address: 0x09D79DB8
+    size: 1110
+  jp:
+    address: 0x09D532C4
+    size: 1110
+  eu:
+    address: 0x09DE9CE4
+    size: 1110
+- name: gVoicegroup0Sample14
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7A210
+    size: 1545
+  jp:
+    address: 0x09D5371C
+    size: 1545
+  eu:
+    address: 0x09DEA13C
+    size: 1545
+- name: gVoicegroup0Sample15
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7A81C
+    size: 3568
+  jp:
+    address: 0x09D53D28
+    size: 3568
+  eu:
+    address: 0x09DEA748
+    size: 3568
+- name: gVoicegroup0Sample16
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7B60C
+    size: 1064
+  jp:
+    address: 0x09D54B18
+    size: 1064
+  eu:
+    address: 0x09DEB538
+    size: 1064
+- name: gVoicegroup0Sample17
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7BA34
+    size: 1234
+  jp:
+    address: 0x09D54F40
+    size: 1234
+  eu:
+    address: 0x09DEB960
+    size: 1234
+- name: gVoicegroup0Sample19
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7BF08
+    size: 839
+  jp:
+    address: 0x09D55414
+    size: 839
+  eu:
+    address: 0x09DEBE34
+    size: 839
+- name: gVoicegroup0Sample20
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7C250
+    size: 612
+  jp:
+    address: 0x09D5575C
+    size: 612
+  eu:
+    address: 0x09DEC17C
+    size: 612
+- name: gVoicegroup0Sample22
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7C4B4
+    size: 2396
+  jp:
+    address: 0x09D559C0
+    size: 2396
+  eu:
+    address: 0x09DEC3E0
+    size: 2396
+- name: gVoicegroup0Sample23
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7CE10
+    size: 1946
+  jp:
+    address: 0x09D5631C
+    size: 1946
+  eu:
+    address: 0x09DECD3C
+    size: 1946
+- name: gVoicegroup0Sample24
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7D5AC
+    size: 1374
+  jp:
+    address: 0x09D56AB8
+    size: 1374
+  eu:
+    address: 0x09DED4D8
+    size: 1374
+- name: gVoicegroup0Sample25
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7DB0C
+    size: 1120
+  jp:
+    address: 0x09D57018
+    size: 1120
+  eu:
+    address: 0x09DEDA38
+    size: 1120
+- name: gVoicegroup0Sample26
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7DF6C
+    size: 2707
+  jp:
+    address: 0x09D57478
+    size: 2707
+  eu:
+    address: 0x09DEDE98
+    size: 2707
+- name: gVoicegroup0Sample28
+  format: sample
+  align: 4
+  us:
+    address: 0x09D7EA00
+    size: 6719
+  jp:
+    address: 0x09D57F0C
+    size: 6719
+  eu:
+    address: 0x09DEE92C
+    size: 6719
+- name: gVoicegroup0Sample29
+  format: sample
+  align: 4
+  us:
+    address: 0x09D80440
+    size: 5308
+  jp:
+    address: 0x09D5994C
+    size: 5308
+  eu:
+    address: 0x09DF036C
+    size: 5308
+- name: gVoicegroup0Sample30
+  format: sample
+  align: 4
+  us:
+    address: 0x09D818FC
+    size: 5563
+  jp:
+    address: 0x09D5AE08
+    size: 5563
+  eu:
+    address: 0x09DF1828
+    size: 5563
+- name: gVoicegroup0Sample31
+  format: sample
+  align: 4
+  us:
+    address: 0x09D82EB8
+    size: 5525
+  jp:
+    address: 0x09D5C3C4
+    size: 5525
+  eu:
+    address: 0x09DF2DE4
+    size: 5525
+- name: gVoicegroup0Sample32
+  format: sample
+  align: 4
+  us:
+    address: 0x09D84450
+    size: 3793
+  jp:
+    address: 0x09D5D95C
+    size: 3793
+  eu:
+    address: 0x09DF437C
+    size: 3793
+- name: gVoicegroup0Sample33
+  format: sample
+  align: 4
+  us:
+    address: 0x09D85324
+    size: 5117
+  jp:
+    address: 0x09D5E830
+    size: 5117
+  eu:
+    address: 0x09DF5250
+    size: 5117
+- name: gVoicegroup0Sample34
+  format: sample
+  align: 4
+  us:
+    address: 0x09D86724
+    size: 3630
+  jp:
+    address: 0x09D5FC30
+    size: 3630
+  eu:
+    address: 0x09DF6650
+    size: 3630
+- name: gSample29
+  format: sample
+  align: 4
+  us:
+    address: 0x09D87554
+    size: 6009
+  jp:
+    address: 0x09D60A60
+    size: 6009
+  eu:
+    address: 0x09DF7480
+    size: 6009
+- name: gVoicegroup0Sample37
+  format: sample
+  align: 4
+  us:
+    address: 0x09D88CD0
+    size: 5603
+  jp:
+    address: 0x09D621DC
+    size: 5603
+  eu:
+    address: 0x09DF8BFC
+    size: 5603
+- name: gVoicegroup0Sample38
+  format: sample
+  align: 4
+  us:
+    address: 0x09D8A2B4
+    size: 3872
+  jp:
+    address: 0x09D637C0
+    size: 3872
+  eu:
+    address: 0x09DFA1E0
+    size: 3872
+- name: gSample32
+  format: sample
+  align: 4
+  us:
+    address: 0x09D8B1D4
+    size: 8127
+  jp:
+    address: 0x09D646E0
+    size: 8127
+  eu:
+    address: 0x09DFB100
+    size: 8127
+- name: gVoicegroup0Sample40
+  format: sample
+  align: 4
+  us:
+    address: 0x09D8D194
+    size: 2330
+  jp:
+    address: 0x09D666A0
+    size: 2330
+  eu:
+    address: 0x09DFD0C0
+    size: 2330
+- name: gVoicegroup0Sample41
+  format: sample
+  align: 4
+  us:
+    address: 0x09D8DAB0
+    size: 1764
+  jp:
+    address: 0x09D66FBC
+    size: 1764
+  eu:
+    address: 0x09DFD9DC
+    size: 1764
+- name: gVoicegroup0Sample42
+  format: sample
+  align: 4
+  us:
+    address: 0x09D8E194
+    size: 928
+  jp:
+    address: 0x09D676A0
+    size: 928
+  eu:
+    address: 0x09DFE0C0
+    size: 928
+- name: gVoicegroup0Sample43
+  format: sample
+  align: 4
+  us:
+    address: 0x09D8E534
+    size: 2306
+  jp:
+    address: 0x09D67A40
+    size: 2306
+  eu:
+    address: 0x09DFE460
+    size: 2306
+- name: gVoicegroup0Sample45
+  format: sample
+  align: 4
+  us:
+    address: 0x09D8EE38
+    size: 2398
+  jp:
+    address: 0x09D68344
+    size: 2398
+  eu:
+    address: 0x09DFED64
+    size: 2398
+- name: gVoicegroup0Sample46
+  format: sample
+  align: 4
+  us:
+    address: 0x09D8F798
+    size: 1079
+  jp:
+    address: 0x09D68CA4
+    size: 1079
+  eu:
+    address: 0x09DFF6C4
+    size: 1079
+- name: gVoicegroup0Sample47
+  format: sample
+  align: 4
+  us:
+    address: 0x09D8FBD0
+    size: 1166
+  jp:
+    address: 0x09D690DC
+    size: 1166
+  eu:
+    address: 0x09DFFAFC
+    size: 1166
+- name: gVoicegroup0Sample48
+  format: sample
+  align: 4
+  us:
+    address: 0x09D90060
+    size: 1076
+  jp:
+    address: 0x09D6956C
+    size: 1076
+  eu:
+    address: 0x09DFFF8C
+    size: 1076
+- name: gVoicegroup0Sample49
+  format: sample
+  align: 4
+  us:
+    address: 0x09D90494
+    size: 1190
+  jp:
+    address: 0x09D699A0
+    size: 1190
+  eu:
+    address: 0x09E003C0
+    size: 1190
+- name: gSample42
+  format: sample
+  align: 4
+  us:
+    address: 0x09D9093C
+    size: 9923
+  jp:
+    address: 0x09D69E48
+    size: 9923
+  eu:
+    address: 0x09E00868
+    size: 9923
+- name: gSample43
+  format: sample
+  align: 4
+  us:
+    address: 0x09D93000
+    size: 8402
+  jp:
+    address: 0x09D6C50C
+    size: 8402
+  eu:
+    address: 0x09E02F2C
+    size: 8402
+- name: gSample44
+  format: sample
+  align: 4
+  us:
+    address: 0x09D950D4
+    size: 10957
+  jp:
+    address: 0x09D6E5E0
+    size: 10957
+  eu:
+    address: 0x09E05000
+    size: 10957
+- name: gSample45
+  format: sample
+  align: 4
+  us:
+    address: 0x09D97BA4
+    size: 7312
+  jp:
+    address: 0x09D710B0
+    size: 7312
+  eu:
+    address: 0x09E07AD0
+    size: 7312
+- name: gSample46
+  format: sample
+  align: 4
+  us:
+    address: 0x09D99834
+    size: 7718
+  jp:
+    address: 0x09D72D40
+    size: 7718
+  eu:
+    address: 0x09E09760
+    size: 7718
+- name: gSample47
+  format: sample
+  align: 4
+  us:
+    address: 0x09D9B65C
+    size: 6561
+  jp:
+    address: 0x09D74B68
+    size: 6561
+  eu:
+    address: 0x09E0B588
+    size: 6561
+- name: gVoicegroup0Sample59
+  format: sample
+  align: 4
+  us:
+    address: 0x09D9D000
+    size: 2242
+  jp:
+    address: 0x09D7650C
+    size: 2242
+  eu:
+    address: 0x09E0CF2C
+    size: 2242
+- name: gVoicegroup0Sample60
+  format: sample
+  align: 4
+  us:
+    address: 0x09D9D8C4
+    size: 2435
+  jp:
+    address: 0x09D76DD0
+    size: 2435
+  eu:
+    address: 0x09E0D7F0
+    size: 2435
+- name: gVoicegroup0Sample61
+  format: sample
+  align: 4
+  us:
+    address: 0x09D9E248
+    size: 2349
+  jp:
+    address: 0x09D77754
+    size: 2349
+  eu:
+    address: 0x09E0E174
+    size: 2349
+- name: gVoicegroup0Sample62
+  format: sample
+  align: 4
+  us:
+    address: 0x09D9EB78
+    size: 1812
+  jp:
+    address: 0x09D78084
+    size: 1812
+  eu:
+    address: 0x09E0EAA4
+    size: 1812
+- name: gVoicegroup0Sample64
+  format: sample
+  align: 4
+  us:
+    address: 0x09D9F28C
+    size: 2386
+  jp:
+    address: 0x09D78798
+    size: 2386
+  eu:
+    address: 0x09E0F1B8
+    size: 2386
+- name: gVoicegroup0Sample65
+  format: sample
+  align: 4
+  us:
+    address: 0x09D9FBE0
+    size: 1589
+  jp:
+    address: 0x09D790EC
+    size: 1589
+  eu:
+    address: 0x09E0FB0C
+    size: 1589
+- name: gVoicegroup0Sample67
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA0218
+    size: 2098
+  jp:
+    address: 0x09D79724
+    size: 2098
+  eu:
+    address: 0x09E10144
+    size: 2098
+- name: gVoicegroup0Sample68
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA0A4C
+    size: 2498
+  jp:
+    address: 0x09D79F58
+    size: 2498
+  eu:
+    address: 0x09E10978
+    size: 2498
+- name: gVoicegroup0Sample71
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA1410
+    size: 1449
+  jp:
+    address: 0x09D7A91C
+    size: 1449
+  eu:
+    address: 0x09E1133C
+    size: 1449
+- name: gVoicegroup0Sample72
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA19BC
+    size: 411
+  jp:
+    address: 0x09D7AEC8
+    size: 411
+  eu:
+    address: 0x09E118E8
+    size: 411
+- name: gVoicegroup0Sample73
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA1B58
+    size: 1980
+  jp:
+    address: 0x09D7B064
+    size: 1980
+  eu:
+    address: 0x09E11A84
+    size: 1980
+- name: gVoicegroup0Sample74
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA2314
+    size: 1555
+  jp:
+    address: 0x09D7B820
+    size: 1555
+  eu:
+    address: 0x09E12240
+    size: 1555
+- name: gVoicegroup0Sample76
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA2928
+    size: 6538
+  jp:
+    address: 0x09D7BE34
+    size: 6538
+  eu:
+    address: 0x09E12854
+    size: 6538
+- name: gVoicegroup0Sample77
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA42B4
+    size: 9393
+  jp:
+    address: 0x09D7D7C0
+    size: 9393
+  eu:
+    address: 0x09E141E0
+    size: 9393
+- name: gVoicegroup0Sample78
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA6768
+    size: 6782
+  jp:
+    address: 0x09D7FC74
+    size: 6782
+  eu:
+    address: 0x09E16694
+    size: 6782
+- name: gVoicegroup0Sample80
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA81E8
+    size: 1224
+  jp:
+    address: 0x09D816F4
+    size: 1224
+  eu:
+    address: 0x09E18114
+    size: 1224
+- name: gVoicegroup0Sample81
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA86B0
+    size: 459
+  jp:
+    address: 0x09D81BBC
+    size: 459
+  eu:
+    address: 0x09E185DC
+    size: 459
+- name: gVoicegroup0Sample82
+  format: sample
+  align: 4
+  us:
+    address: 0x09DA887C
+    size: 7522
+  jp:
+    address: 0x09D81D88
+    size: 7522
+  eu:
+    address: 0x09E187A8
+    size: 7522
+- name: gVoicegroup0Sample85
+  format: sample
+  align: 4
+  us:
+    address: 0x09DAA5E0
+    size: 8334
+  jp:
+    address: 0x09D83AEC
+    size: 8334
+  eu:
+    address: 0x09E1A50C
+    size: 8334
+- name: gVoicegroup0Sample86
+  format: sample
+  align: 4
+  us:
+    address: 0x09DAC670
+    size: 1993
+  jp:
+    address: 0x09D85B7C
+    size: 1993
+  eu:
+    address: 0x09E1C59C
+    size: 1993
+- name: gVoicegroup0Sample87
+  format: sample
+  align: 4
+  us:
+    address: 0x09DACE3C
+    size: 1924
+  jp:
+    address: 0x09D86348
+    size: 1924
+  eu:
+    address: 0x09E1CD68
+    size: 1924
+- name: gVoicegroup0Sample88
+  format: sample
+  align: 4
+  us:
+    address: 0x09DAD5C0
+    size: 1839
+  jp:
+    address: 0x09D86ACC
+    size: 1839
+  eu:
+    address: 0x09E1D4EC
+    size: 1839
+- name: gVoicegroup0Sample90
+  format: sample
+  align: 4
+  us:
+    address: 0x09DADCF0
+    size: 3887
+  jp:
+    address: 0x09D871FC
+    size: 3887
+  eu:
+    address: 0x09E1DC1C
+    size: 3887
+- name: gSample71
+  format: sample
+  align: 4
+  us:
+    address: 0x09DAEC20
+    size: 4434
+  jp:
+    address: 0x09D8812C
+    size: 4434
+  eu:
+    address: 0x09E1EB4C
+    size: 4434
+- name: gVoicegroup0Sample93
+  format: sample
+  align: 4
+  us:
+    address: 0x09DAFD74
+    size: 2531
+  jp:
+    address: 0x09D89280
+    size: 2531
+  eu:
+    address: 0x09E1FCA0
+    size: 2531
+- name: gSample73
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB0758
+    size: 2397
+  jp:
+    address: 0x09D89C64
+    size: 2397
+  eu:
+    address: 0x09E20684
+    size: 2397
+- name: gVoicegroup0Sample95
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB10B8
+    size: 6781
+  jp:
+    address: 0x09D8A5C4
+    size: 6781
+  eu:
+    address: 0x09E20FE4
+    size: 6781
+- name: gSample75
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB2B38
+    size: 750
+  jp:
+    address: 0x09D8C044
+    size: 750
+  eu:
+    address: 0x09E22A64
+    size: 750
+- name: gVoicegroup0Sample97
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB2E28
+    size: 3727
+  jp:
+    address: 0x09D8C334
+    size: 3727
+  eu:
+    address: 0x09E22D54
+    size: 3727
+- name: gVoicegroup0Sample98
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB3CB8
+    size: 5125
+  jp:
+    address: 0x09D8D1C4
+    size: 5125
+  eu:
+    address: 0x09E23BE4
+    size: 5125
+- name: gSample78
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB50C0
+    size: 1593
+  jp:
+    address: 0x09D8E5CC
+    size: 1593
+  eu:
+    address: 0x09E24FEC
+    size: 1593
+- name: gVoicegroup0Sample100
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB56FC
+    size: 830
+  jp:
+    address: 0x09D8EC08
+    size: 830
+  eu:
+    address: 0x09E25628
+    size: 830
+- name: gVoicegroup0Sample102
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB5A3C
+    size: 4544
+  jp:
+    address: 0x09D8EF48
+    size: 4544
+  eu:
+    address: 0x09E25968
+    size: 4544
+- name: gVoicegroup0Sample103
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB6BFC
+    size: 3888
+  jp:
+    address: 0x09D90108
+    size: 3888
+  eu:
+    address: 0x09E26B28
+    size: 3888
+- name: gVoicegroup0Sample106
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB7B2C
+    size: 3368
+  jp:
+    address: 0x09D91038
+    size: 3368
+  eu:
+    address: 0x09E27A58
+    size: 3368
+- name: gVoicegroup0Sample107
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB8854
+    size: 2924
+  jp:
+    address: 0x09D91D60
+    size: 2924
+  eu:
+    address: 0x09E28780
+    size: 2924
+- name: gVoicegroup0Sample109
+  format: sample
+  align: 4
+  us:
+    address: 0x09DB93C0
+    size: 5203
+  jp:
+    address: 0x09D928CC
+    size: 5203
+  eu:
+    address: 0x09E292EC
+    size: 5203
+- name: gVoicegroup0Sample110
+  format: sample
+  align: 4
+  us:
+    address: 0x09DBA814
+    size: 4214
+  jp:
+    address: 0x09D93D20
+    size: 4214
+  eu:
+    address: 0x09E2A740
+    size: 4214
+- name: gVoicegroup0Sample112
+  format: sample
+  align: 4
+  us:
+    address: 0x09DBB88C
+    size: 3181
+  jp:
+    address: 0x09D94D98
+    size: 3181
+  eu:
+    address: 0x09E2B7B8
+    size: 3181
+- name: gVoicegroup0Sample113
+  format: sample
+  align: 4
+  us:
+    address: 0x09DBC4FC
+    size: 3139
+  jp:
+    address: 0x09D95A08
+    size: 3139
+  eu:
+    address: 0x09E2C428
+    size: 3139
+- name: gVoicegroup0Sample114
+  format: sample
+  align: 4
+  us:
+    address: 0x09DBD140
+    size: 742
+  jp:
+    address: 0x09D9664C
+    size: 742
+  eu:
+    address: 0x09E2D06C
+    size: 742
+- name: gVoicegroup0Sample115
+  format: sample
+  align: 4
+  us:
+    address: 0x09DBD428
+    size: 1194
+  jp:
+    address: 0x09D96934
+    size: 1194
+  eu:
+    address: 0x09E2D354
+    size: 1194
+- name: gVoicegroup0Sample116
+  format: sample
+  align: 4
+  us:
+    address: 0x09DBD8D4
+    size: 1509
+  jp:
+    address: 0x09D96DE0
+    size: 1509
+  eu:
+    address: 0x09E2D800
+    size: 1509
+- name: gVoicegroup0Sample117
+  format: sample
+  align: 4
+  us:
+    address: 0x09DBDEBC
+    size: 1583
+  jp:
+    address: 0x09D973C8
+    size: 1583
+  eu:
+    address: 0x09E2DDE8
+    size: 1583
+- name: gVoicegroup0Sample118
+  format: sample
+  align: 4
+  us:
+    address: 0x09DBE4EC
+    size: 2087
+  jp:
+    address: 0x09D979F8
+    size: 2087
+  eu:
+    address: 0x09E2E418
+    size: 2087
+- name: gVoicegroup0Sample119
+  format: sample
+  align: 4
+  us:
+    address: 0x09DBED14
+    size: 7808
+  jp:
+    address: 0x09D98220
+    size: 7808
+  eu:
+    address: 0x09E2EC40
+    size: 7808
+- name: gVoicegroup0Sample120
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC0B94
+    size: 6910
+  jp:
+    address: 0x09D9A0A0
+    size: 6910
+  eu:
+    address: 0x09E30AC0
+    size: 6910
+- name: gVoicegroup0Sample122
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC2694
+    size: 1858
+  jp:
+    address: 0x09D9BBA0
+    size: 1858
+  eu:
+    address: 0x09E325C0
+    size: 1858
+- name: gVoicegroup0Sample123
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC2DD8
+    size: 5861
+  jp:
+    address: 0x09D9C2E4
+    size: 5861
+  eu:
+    address: 0x09E32D04
+    size: 5861
+- name: gVoicegroup0Sample124
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC44C0
+    size: 1814
+  jp:
+    address: 0x09D9D9CC
+    size: 1814
+  eu:
+    address: 0x09E343EC
+    size: 1814
+- name: gVoicegroup1Sample14
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC4BD8
+    size: 1972
+  jp:
+    address: 0x09D9E0E4
+    size: 1972
+  eu:
+    address: 0x09E34B04
+    size: 1972
+- name: gVoicegroup1Sample15
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC538C
+    size: 721
+  jp:
+    address: 0x09D9E898
+    size: 721
+  eu:
+    address: 0x09E352B8
+    size: 721
+- name: gVoicegroup1Sample16
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC5660
+    size: 5441
+  jp:
+    address: 0x09D9EB6C
+    size: 5441
+  eu:
+    address: 0x09E3558C
+    size: 5441
+- name: gVoicegroup1Sample17
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC6BA4
+    size: 994
+  jp:
+    address: 0x09DA00B0
+    size: 994
+  eu:
+    address: 0x09E36AD0
+    size: 994
+- name: gVoicegroup1Sample18
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC6F88
+    size: 5504
+  jp:
+    address: 0x09DA0494
+    size: 5504
+  eu:
+    address: 0x09E36EB4
+    size: 5504
+- name: gVoicegroup1Sample19
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC8508
+    size: 984
+  jp:
+    address: 0x09DA1A14
+    size: 984
+  eu:
+    address: 0x09E38434
+    size: 984
+- name: gVoicegroup1Sample20
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC88E0
+    size: 5462
+  jp:
+    address: 0x09DA1DEC
+    size: 5462
+  eu:
+    address: 0x09E3880C
+    size: 5462
+- name: gVoicegroup1Sample21
+  format: sample
+  align: 4
+  us:
+    address: 0x09DC9E38
+    size: 5199
+  jp:
+    address: 0x09DA3344
+    size: 5199
+  eu:
+    address: 0x09E39D64
+    size: 5199
+- name: gVoicegroup1Sample22
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCB288
+    size: 1267
+  jp:
+    address: 0x09DA4794
+    size: 1267
+  eu:
+    address: 0x09E3B1B4
+    size: 1267
+- name: gVoicegroup2Sample3
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCB77C
+    size: 2774
+  jp:
+    address: 0x09DA4C88
+    size: 2774
+  eu:
+    address: 0x09E3B6A8
+    size: 2774
+- name: gSample108
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCC254
+    size: 26
+  jp:
+    address: 0x09DA5760
+    size: 26
+  eu:
+    address: 0x09E3C180
+    size: 26
+- name: gSample109
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCC270
+    size: 2401
+  jp:
+    address: 0x09DA577C
+    size: 2401
+  eu:
+    address: 0x09E3C19C
+    size: 2401
+- name: gSample110
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCCBD4
+    size: 35
+  jp:
+    address: 0x09DA60E0
+    size: 35
+  eu:
+    address: 0x09E3CB00
+    size: 35
+- name: gVoicegroup2Sample7
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCCBF8
+    size: 1075
+  jp:
+    address: 0x09DA6104
+    size: 1075
+  eu:
+    address: 0x09E3CB24
+    size: 1075
+- name: gVoicegroup2Sample8
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCD02C
+    size: 3072
+  jp:
+    address: 0x09DA6538
+    size: 3072
+  eu:
+    address: 0x09E3CF58
+    size: 3072
+- name: gVoicegroup2Sample9
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCDC2C
+    size: 1223
+  jp:
+    address: 0x09DA7138
+    size: 1223
+  eu:
+    address: 0x09E3DB58
+    size: 1223
+- name: gVoicegroup2Sample10
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCE0F4
+    size: 1216
+  jp:
+    address: 0x09DA7600
+    size: 1216
+  eu:
+    address: 0x09E3E020
+    size: 1216
+- name: gVoicegroup2Sample11
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCE5B4
+    size: 2344
+  jp:
+    address: 0x09DA7AC0
+    size: 2344
+  eu:
+    address: 0x09E3E4E0
+    size: 2344
+- name: gVoicegroup2Sample12
+  format: sample
+  align: 4
+  us:
+    address: 0x09DCEEDC
+    size: 12515
+  jp:
+    address: 0x09DA83E8
+    size: 12515
+  eu:
+    address: 0x09E3EE08
+    size: 12515
+- name: gVoicegroup2Sample13
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD1FC0
+    size: 916
+  jp:
+    address: 0x09DAB4CC
+    size: 916
+  eu:
+    address: 0x09E41EEC
+    size: 916
+- name: gVoicegroup2Sample14
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD2354
+    size: 1431
+  jp:
+    address: 0x09DAB860
+    size: 1431
+  eu:
+    address: 0x09E42280
+    size: 1431
+- name: gVoicegroup2Sample15
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD28EC
+    size: 830
+  jp:
+    address: 0x09DABDF8
+    size: 830
+  eu:
+    address: 0x09E42818
+    size: 830
+- name: gVoicegroup2Sample16
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD2C2C
+    size: 810
+  jp:
+    address: 0x09DAC138
+    size: 810
+  eu:
+    address: 0x09E42B58
+    size: 810
+- name: gVoicegroup2Sample17
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD2F58
+    size: 1831
+  jp:
+    address: 0x09DAC464
+    size: 1831
+  eu:
+    address: 0x09E42E84
+    size: 1831
+- name: gVoicegroup2Sample18
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD3680
+    size: 2060
+  jp:
+    address: 0x09DACB8C
+    size: 2060
+  eu:
+    address: 0x09E435AC
+    size: 2060
+- name: gVoicegroup2Sample19
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD3E8C
+    size: 1926
+  jp:
+    address: 0x09DAD398
+    size: 1926
+  eu:
+    address: 0x09E43DB8
+    size: 1926
+- name: gVoicegroup2Sample20
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD4614
+    size: 326
+  jp:
+    address: 0x09DADB20
+    size: 326
+  eu:
+    address: 0x09E44540
+    size: 326
+- name: gVoicegroup2Sample21
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD475C
+    size: 1142
+  jp:
+    address: 0x09DADC68
+    size: 1142
+  eu:
+    address: 0x09E44688
+    size: 1142
+- name: gVoicegroup2Sample22
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD4BD4
+    size: 891
+  jp:
+    address: 0x09DAE0E0
+    size: 891
+  eu:
+    address: 0x09E44B00
+    size: 891
+- name: gVoicegroup2Sample23
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD4F50
+    size: 1275
+  jp:
+    address: 0x09DAE45C
+    size: 1275
+  eu:
+    address: 0x09E44E7C
+    size: 1275
+- name: gVoicegroup2Sample24
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD544C
+    size: 183
+  jp:
+    address: 0x09DAE958
+    size: 183
+  eu:
+    address: 0x09E45378
+    size: 183
+- name: gVoicegroup2Sample25
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD5504
+    size: 2935
+  jp:
+    address: 0x09DAEA10
+    size: 2935
+  eu:
+    address: 0x09E45430
+    size: 2935
+- name: gSample130
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD607C
+    size: 2597
+  jp:
+    address: 0x09DAF588
+    size: 2597
+  eu:
+    address: 0x09E45FA8
+    size: 2597
+- name: gVoicegroup2Sample27
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD6AA4
+    size: 1108
+  jp:
+    address: 0x09DAFFB0
+    size: 1108
+  eu:
+    address: 0x09E469D0
+    size: 1108
+- name: gVoicegroup2Sample28
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD6EF8
+    size: 1710
+  jp:
+    address: 0x09DB0404
+    size: 1710
+  eu:
+    address: 0x09E46E24
+    size: 1710
+- name: gVoicegroup2Sample29
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD75A8
+    size: 676
+  jp:
+    address: 0x09DB0AB4
+    size: 676
+  eu:
+    address: 0x09E474D4
+    size: 676
+- name: gVoicegroup2Sample30
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD784C
+    size: 737
+  jp:
+    address: 0x09DB0D58
+    size: 737
+  eu:
+    address: 0x09E47778
+    size: 737
+- name: gVoicegroup2Sample31
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD7B30
+    size: 1368
+  jp:
+    address: 0x09DB103C
+    size: 1368
+  eu:
+    address: 0x09E47A5C
+    size: 1368
+- name: gVoicegroup2Sample32
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD8088
+    size: 1195
+  jp:
+    address: 0x09DB1594
+    size: 1195
+  eu:
+    address: 0x09E47FB4
+    size: 1195
+- name: gVoicegroup2Sample33
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD8534
+    size: 1389
+  jp:
+    address: 0x09DB1A40
+    size: 1389
+  eu:
+    address: 0x09E48460
+    size: 1389
+- name: gVoicegroup2Sample34
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD8AA4
+    size: 1128
+  jp:
+    address: 0x09DB1FB0
+    size: 1128
+  eu:
+    address: 0x09E489D0
+    size: 1128
+- name: gVoicegroup2Sample35
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD8F0C
+    size: 1030
+  jp:
+    address: 0x09DB2418
+    size: 1030
+  eu:
+    address: 0x09E48E38
+    size: 1030
+- name: gVoicegroup2Sample36
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD9314
+    size: 1911
+  jp:
+    address: 0x09DB2820
+    size: 1911
+  eu:
+    address: 0x09E49240
+    size: 1911
+- name: gSample141
+  format: sample
+  align: 4
+  us:
+    address: 0x09DD9A8C
+    size: 3558
+  jp:
+    address: 0x09DB2F98
+    size: 3558
+  eu:
+    address: 0x09E499B8
+    size: 3558
+- name: gSample142
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDA874
+    size: 2749
+  jp:
+    address: 0x09DB3D80
+    size: 2749
+  eu:
+    address: 0x09E4A7A0
+    size: 2749
+- name: gSample143
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDB334
+    size: 4564
+  jp:
+    address: 0x09DB4840
+    size: 4564
+  eu:
+    address: 0x09E4B260
+    size: 4564
+- name: gVoicegroup2Sample41
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDC508
+    size: 3277
+  jp:
+    address: 0x09DB5A14
+    size: 3277
+  eu:
+    address: 0x09E4C434
+    size: 3277
+- name: gSample145
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDD1D8
+    size: 2259
+  jp:
+    address: 0x09DB66E4
+    size: 2259
+  eu:
+    address: 0x09E4D104
+    size: 2259
+- name: gSample146
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDDAAC
+    size: 2721
+  jp:
+    address: 0x09DB6FB8
+    size: 2721
+  eu:
+    address: 0x09E4D9D8
+    size: 2721
+- name: gVoicegroup2Sample44
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDE550
+    size: 1396
+  jp:
+    address: 0x09DB7A5C
+    size: 1396
+  eu:
+    address: 0x09E4E47C
+    size: 1396
+- name: gVoicegroup2Sample45
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDEAC4
+    size: 1291
+  jp:
+    address: 0x09DB7FD0
+    size: 1291
+  eu:
+    address: 0x09E4E9F0
+    size: 1291
+- name: gVoicegroup2Sample46
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDEFD0
+    size: 1674
+  jp:
+    address: 0x09DB84DC
+    size: 1674
+  eu:
+    address: 0x09E4EEFC
+    size: 1674
+- name: gVoicegroup2Sample47
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDF65C
+    size: 2009
+  jp:
+    address: 0x09DB8B68
+    size: 2009
+  eu:
+    address: 0x09E4F588
+    size: 2009
+- name: gVoicegroup2Sample48
+  format: sample
+  align: 4
+  us:
+    address: 0x09DDFE38
+    size: 3307
+  jp:
+    address: 0x09DB9344
+    size: 3307
+  eu:
+    address: 0x09E4FD64
+    size: 3307
+- name: gSample152
+  format: sample
+  align: 4
+  us:
+    address: 0x09DE0B24
+    size: 3483
+  jp:
+    address: 0x09DBA030
+    size: 3483
+  eu:
+    address: 0x09E50A50
+    size: 3483
+- name: gSample153
+  format: sample
+  align: 4
+  us:
+    address: 0x09DE18C0
+    size: 5999
+  jp:
+    address: 0x09DBADCC
+    size: 5999
+  eu:
+    address: 0x09E517EC
+    size: 5999
+- name: gSample154
+  format: sample
+  align: 4
+  us:
+    address: 0x09DE3030
+    size: 10258
+  jp:
+    address: 0x09DBC53C
+    size: 10258
+  eu:
+    address: 0x09E52F5C
+    size: 10258
+- name: gSample155
+  format: sample
+  align: 4
+  us:
+    address: 0x09DE5844
+    size: 9118
+  jp:
+    address: 0x09DBED50
+    size: 9118
+  eu:
+    address: 0x09E55770
+    size: 9118
+- name: gSample156
+  format: sample
+  align: 4
+  us:
+    address: 0x09DE7BE4
+    size: 7312
+  jp:
+    address: 0x09DC10F0
+    size: 7312
+  eu:
+    address: 0x09E57B10
+    size: 7312
+- name: gSample157
+  format: sample
+  align: 4
+  us:
+    address: 0x09DE9874
+    size: 11099
+  jp:
+    address: 0x09DC2D80
+    size: 11099
+  eu:
+    address: 0x09E597A0
+    size: 11099
+- name: gSample158
+  format: sample
+  align: 4
+  us:
+    address: 0x09DEC3D0
+    size: 13161
+  jp:
+    address: 0x09DC58DC
+    size: 13161
+  eu:
+    address: 0x09E5C2FC
+    size: 13161
+- name: gSample159
+  format: sample
+  align: 4
+  us:
+    address: 0x09DEF73C
+    size: 20424
+  jp:
+    address: 0x09DC8C48
+    size: 20424
+  eu:
+    address: 0x09E5F668
+    size: 20424
+- name: gSample160
+  format: sample
+  align: 4
+  us:
+    address: 0x09DF4704
+    size: 13792
+  jp:
+    address: 0x09DCDC10
+    size: 13792
+  eu:
+    address: 0x09E64630
+    size: 13792
+- name: gVoicegroup2Sample58
+  format: sample
+  align: 4
+  us:
+    address: 0x09DF7CE4
+    size: 1004
+  jp:
+    address: 0x09DD11F0
+    size: 1004
+  eu:
+    address: 0x09E67C10
+    size: 1004
+- name: gVoicegroup2Sample59
+  format: sample
+  align: 4
+  us:
+    address: 0x09DF80D0
+    size: 2510
+  jp:
+    address: 0x09DD15DC
+    size: 2510
+  eu:
+    address: 0x09E67FFC
+    size: 2510
+- name: gVoicegroup2Sample61
+  format: sample
+  align: 4
+  us:
+    address: 0x09DF8AA0
+    size: 833
+  jp:
+    address: 0x09DD1FAC
+    size: 833
+  eu:
+    address: 0x09E689CC
+    size: 833
+- name: gSample164
+  format: sample
+  align: 4
+  us:
+    address: 0x09DF8DE4
+    size: 5853
+  jp:
+    address: 0x09DD22F0
+    size: 5853
+  eu:
+    address: 0x09E68D10
+    size: 5853
+- name: gSample165
+  format: sample
+  align: 4
+  us:
+    address: 0x09DFA4C4
+    size: 204
+  jp:
+    address: 0x09DD39D0
+    size: 204
+  eu:
+    address: 0x09E6A3F0
+    size: 204
+- name: gSample166
+  format: sample
+  align: 4
+  us:
+    address: 0x09DFA590
+    size: 3317
+  jp:
+    address: 0x09DD3A9C
+    size: 3317
+  eu:
+    address: 0x09E6A4BC
+    size: 3317
+- name: gVoicegroup2Sample65
+  format: sample
+  align: 4
+  us:
+    address: 0x09DFB288
+    size: 2705
+  jp:
+    address: 0x09DD4794
+    size: 2705
+  eu:
+    address: 0x09E6B1B4
+    size: 2705
+- name: gVoicegroup2Sample66
+  format: sample
+  align: 4
+  us:
+    address: 0x09DFBD1C
+    size: 4641
+  jp:
+    address: 0x09DD5228
+    size: 4641
+  eu:
+    address: 0x09E6BC48
+    size: 4641
+- name: gSample169
+  format: sample
+  align: 4
+  us:
+    address: 0x09DFCF40
+    size: 1021
+  jp:
+    address: 0x09DD644C
+    size: 1021
+  eu:
+    address: 0x09E6CE6C
+    size: 1021
+- name: gVoicegroup2Sample68
+  format: sample
+  align: 4
+  us:
+    address: 0x09DFD340
+    size: 14329
+  jp:
+    address: 0x09DD684C
+    size: 14329
+  eu:
+    address: 0x09E6D26C
+    size: 14329
+- name: gVoicegroup2Sample69
+  format: sample
+  align: 4
+  us:
+    address: 0x09E00B3C
+    size: 2079
+  jp:
+    address: 0x09DDA048
+    size: 2079
+  eu:
+    address: 0x09E70A68
+    size: 2079
+- name: gSample172
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0135C
+    size: 7776
+  jp:
+    address: 0x09DDA868
+    size: 7776
+  eu:
+    address: 0x09E71288
+    size: 7776
+- name: gSample173
+  format: sample
+  align: 4
+  us:
+    address: 0x09E031BC
+    size: 7929
+  jp:
+    address: 0x09DDC6C8
+    size: 7929
+  eu:
+    address: 0x09E730E8
+    size: 7929
+- name: gSample174
+  format: sample
+  align: 4
+  us:
+    address: 0x09E050B8
+    size: 5218
+  jp:
+    address: 0x09DDE5C4
+    size: 5218
+  eu:
+    address: 0x09E74FE4
+    size: 5218
+- name: gVoicegroup2Sample74
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0651C
+    size: 2321
+  jp:
+    address: 0x09DDFA28
+    size: 2321
+  eu:
+    address: 0x09E76448
+    size: 2321
+- name: gVoicegroup2Sample77
+  format: sample
+  align: 4
+  us:
+    address: 0x09E06E30
+    size: 856
+  jp:
+    address: 0x09DE033C
+    size: 856
+  eu:
+    address: 0x09E76D5C
+    size: 856
+- name: gVoicegroup2Sample78
+  format: sample
+  align: 4
+  us:
+    address: 0x09E07188
+    size: 996
+  jp:
+    address: 0x09DE0694
+    size: 996
+  eu:
+    address: 0x09E770B4
+    size: 996
+- name: gVoicegroup2Sample79
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0756C
+    size: 1007
+  jp:
+    address: 0x09DE0A78
+    size: 1007
+  eu:
+    address: 0x09E77498
+    size: 1007
+- name: gVoicegroup2Sample80
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0795C
+    size: 1109
+  jp:
+    address: 0x09DE0E68
+    size: 1109
+  eu:
+    address: 0x09E77888
+    size: 1109
+- name: gVoicegroup2Sample81
+  format: sample
+  align: 4
+  us:
+    address: 0x09E07DB4
+    size: 1400
+  jp:
+    address: 0x09DE12C0
+    size: 1400
+  eu:
+    address: 0x09E77CE0
+    size: 1400
+- name: gVoicegroup2Sample82
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0832C
+    size: 1237
+  jp:
+    address: 0x09DE1838
+    size: 1237
+  eu:
+    address: 0x09E78258
+    size: 1237
+- name: gVoicegroup2Sample84
+  format: sample
+  align: 4
+  us:
+    address: 0x09E08804
+    size: 10665
+  jp:
+    address: 0x09DE1D10
+    size: 10665
+  eu:
+    address: 0x09E78730
+    size: 10665
+- name: gSample183
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0B1B0
+    size: 1173
+  jp:
+    address: 0x09DE46BC
+    size: 1173
+  eu:
+    address: 0x09E7B0DC
+    size: 1173
+- name: gSample184
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0B648
+    size: 846
+  jp:
+    address: 0x09DE4B54
+    size: 846
+  eu:
+    address: 0x09E7B574
+    size: 846
+- name: gSample185
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0B998
+    size: 5157
+  jp:
+    address: 0x09DE4EA4
+    size: 5157
+  eu:
+    address: 0x09E7B8C4
+    size: 5157
+- name: gSample186
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0CDC0
+    size: 5119
+  jp:
+    address: 0x09DE62CC
+    size: 5119
+  eu:
+    address: 0x09E7CCEC
+    size: 5119
+- name: gSample187
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0E1C0
+    size: 1333
+  jp:
+    address: 0x09DE76CC
+    size: 1333
+  eu:
+    address: 0x09E7E0EC
+    size: 1333
+- name: gSample188
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0E6F8
+    size: 2739
+  jp:
+    address: 0x09DE7C04
+    size: 2739
+  eu:
+    address: 0x09E7E624
+    size: 2739
+- name: gSample189
+  format: sample
+  align: 4
+  us:
+    address: 0x09E0F1AC
+    size: 3759
+  jp:
+    address: 0x09DE86B8
+    size: 3759
+  eu:
+    address: 0x09E7F0D8
+    size: 3759
+- name: gVoicegroup2Sample93
+  format: sample
+  align: 4
+  us:
+    address: 0x09E1005C
+    size: 6206
+  jp:
+    address: 0x09DE9568
+    size: 6206
+  eu:
+    address: 0x09E7FF88
+    size: 6206
+- name: gSample191
+  format: sample
+  align: 4
+  us:
+    address: 0x09E1189C
+    size: 4216
+  jp:
+    address: 0x09DEADA8
+    size: 4216
+  eu:
+    address: 0x09E817C8
+    size: 4216
+- name: gSample192
+  format: sample
+  align: 4
+  us:
+    address: 0x09E12914
+    size: 4938
+  jp:
+    address: 0x09DEBE20
+    size: 4938
+  eu:
+    address: 0x09E82840
+    size: 4938
+- name: gVoicegroup2Sample99
+  format: sample
+  align: 4
+  us:
+    address: 0x09E13C60
+    size: 1239
+  jp:
+    address: 0x09DED16C
+    size: 1239
+  eu:
+    address: 0x09E83B8C
+    size: 1239
+- name: gVoicegroup2Sample100
+  format: sample
+  align: 4
+  us:
+    address: 0x09E14138
+    size: 1510
+  jp:
+    address: 0x09DED644
+    size: 1510
+  eu:
+    address: 0x09E84064
+    size: 1510
+- name: gVoicegroup2Sample101
+  format: sample
+  align: 4
+  us:
+    address: 0x09E14720
+    size: 1230
+  jp:
+    address: 0x09DEDC2C
+    size: 1230
+  eu:
+    address: 0x09E8464C
+    size: 1230
+- name: gVoicegroup2Sample102
+  format: sample
+  align: 4
+  us:
+    address: 0x09E14BF0
+    size: 1185
+  jp:
+    address: 0x09DEE0FC
+    size: 1185
+  eu:
+    address: 0x09E84B1C
+    size: 1185
+- name: gSample197
+  format: sample
+  align: 4
+  us:
+    address: 0x09E15094
+    size: 8580
+  jp:
+    address: 0x09DEE5A0
+    size: 8580
+  eu:
+    address: 0x09E84FC0
+    size: 8580
+- name: gSample198
+  format: sample
+  align: 4
+  us:
+    address: 0x09E17218
+    size: 3438
+  jp:
+    address: 0x09DF0724
+    size: 3438
+  eu:
+    address: 0x09E87144
+    size: 3438
+- name: gSample199
+  format: sample
+  align: 4
+  us:
+    address: 0x09E17F88
+    size: 11455
+  jp:
+    address: 0x09DF1494
+    size: 11455
+  eu:
+    address: 0x09E87EB4
+    size: 11455
+- name: gVoicegroup2Sample108
+  format: sample
+  align: 4
+  us:
+    address: 0x09E1AC48
+    size: 8243
+  jp:
+    address: 0x09DF4154
+    size: 8243
+  eu:
+    address: 0x09E8AB74
+    size: 8243
+- name: gVoicegroup2Sample109
+  format: sample
+  align: 4
+  us:
+    address: 0x09E1CC7C
+    size: 9612
+  jp:
+    address: 0x09DF6188
+    size: 9612
+  eu:
+    address: 0x09E8CBA8
+    size: 9612
+- name: gVoicegroup2Sample111
+  format: sample
+  align: 4
+  us:
+    address: 0x09E1F208
+    size: 9158
+  jp:
+    address: 0x09DF8714
+    size: 9158
+  eu:
+    address: 0x09E8F134
+    size: 9158
+- name: gSample203
+  format: sample
+  align: 4
+  us:
+    address: 0x09E215D0
+    size: 5472
+  jp:
+    address: 0x09DFAADC
+    size: 5472
+  eu:
+    address: 0x09E914FC
+    size: 5472
+- name: gSample204
+  format: sample
+  align: 4
+  us:
+    address: 0x09E22B30
+    size: 4883
+  jp:
+    address: 0x09DFC03C
+    size: 4883
+  eu:
+    address: 0x09E92A5C
+    size: 4883
+- name: gVoicegroup2Sample117
+  format: sample
+  align: 4
+  us:
+    address: 0x09E23E44
+    size: 1156
+  jp:
+    address: 0x09DFD350
+    size: 1156
+  eu:
+    address: 0x09E93D70
+    size: 1156
+- name: gVoicegroup2Sample118
+  format: sample
+  align: 4
+  us:
+    address: 0x09E242C8
+    size: 1140
+  jp:
+    address: 0x09DFD7D4
+    size: 1140
+  eu:
+    address: 0x09E941F4
+    size: 1140
+- name: gVoicegroup2Sample119
+  format: sample
+  align: 4
+  us:
+    address: 0x09E2473C
+    size: 1055
+  jp:
+    address: 0x09DFDC48
+    size: 1055
+  eu:
+    address: 0x09E94668
+    size: 1055
+- name: gVoicegroup2Sample120
+  format: sample
+  align: 4
+  us:
+    address: 0x09E24B5C
+    size: 10008
+  jp:
+    address: 0x09DFE068
+    size: 10008
+  eu:
+    address: 0x09E94A88
+    size: 10008
+- name: gSample209
+  format: sample
+  align: 4
+  us:
+    address: 0x09E27274
+    size: 1648
+  jp:
+    address: 0x09E00780
+    size: 1648
+  eu:
+    address: 0x09E971A0
+    size: 1648
+- name: gSample210
+  format: sample
+  align: 4
+  us:
+    address: 0x09E278E4
+    size: 3277
+  jp:
+    address: 0x09E00DF0
+    size: 3277
+  eu:
+    address: 0x09E97810
+    size: 3277
+- name: gVoicegroup2Sample123
+  format: sample
+  align: 4
+  us:
+    address: 0x09E285B4
+    size: 2067
+  jp:
+    address: 0x09E01AC0
+    size: 2067
+  eu:
+    address: 0x09E984E0
+    size: 2067
+- name: gVoicegroup2Sample125
+  format: sample
+  align: 4
+  us:
+    address: 0x09E28DC8
+    size: 3699
+  jp:
+    address: 0x09E022D4
+    size: 3699
+  eu:
+    address: 0x09E98CF4
+    size: 3699
+- name: gVoicegroup2Sample126
+  format: sample
+  align: 4
+  us:
+    address: 0x09E29C3C
+    size: 10656
+  jp:
+    address: 0x09E03148
+    size: 10656
+  eu:
+    address: 0x09E99B68
+    size: 10656
+- name: gVoicegroup2Sample127
+  format: sample
+  align: 4
+  us:
+    address: 0x09E2C5DC
+    size: 4621
+  jp:
+    address: 0x09E05AE8
+    size: 4621
+  eu:
+    address: 0x09E9C508
+    size: 4621
+- name: gVoicegroup3Sample0
+  format: sample
+  align: 4
+  us:
+    address: 0x09E2D7EC
+    size: 3405
+  jp:
+    address: 0x09E06CF8
+    size: 2391
+  eu:
+    address: 0x09E9D718
+    size: 3405
+- name: gVoicegroup3Sample1
+  format: sample
+  align: 4
+  us:
+    address: 0x09E2E53C
+    size: 2811
+  jp:
+    address: 0x09E07650
+    size: 2301
+  eu:
+    address: 0x09E9E468
+    size: 2811
+- name: gVoicegroup3Sample2
+  format: sample
+  align: 4
+  us:
+    address: 0x09E2F038
+    size: 3050
+  jp:
+    address: 0x09E07F50
+    size: 2319
+  eu:
+    address: 0x09E9EF64
+    size: 3050
+- name: gVoicegroup3Sample3
+  format: sample
+  align: 4
+  us:
+    address: 0x09E2FC24
+    size: 3983
+  jp:
+    address: 0x09E08860
+    size: 2840
+  eu:
+    address: 0x09E9FB50
+    size: 3983
+- name: gVoicegroup3Sample5
+  format: sample
+  align: 4
+  us:
+    address: 0x09E30BB4
+    size: 4151
+  jp:
+    address: 0x09E09378
+    size: 4358
+  eu:
+    address: 0x09EA0AE0
+    size: 4151
+- name: gVoicegroup3Sample7
+  format: sample
+  align: 4
+  us:
+    address: 0x09E31BEC
+    size: 5075
+  jp:
+    address: 0x09E0A480
+    size: 6093
+  eu:
+    address: 0x09EA1B18
+    size: 5075
+- name: gVoicegroup3Sample8
+  format: sample
+  align: 4
+  us:
+    address: 0x09E32FC0
+    size: 4548
+  jp:
+    address: 0x09E0BC50
+    size: 5193
+  eu:
+    address: 0x09EA2EEC
+    size: 4548
+- name: gVoicegroup3Sample9
+  format: sample
+  align: 4
+  us:
+    address: 0x09E34184
+    size: 3757
+  jp:
+    address: 0x09E0D09C
+    size: 4239
+  eu:
+    address: 0x09EA40B0
+    size: 3757
+- name: gVoicegroup3Sample11
+  format: sample
+  align: 4
+  us:
+    address: 0x09E35034
+    size: 2456
+  jp:
+    address: 0x09E0E12C
+    size: 1857
+  eu:
+    address: 0x09EA4F60
+    size: 2456
+- name: gVoicegroup3Sample12
+  format: sample
+  align: 4
+  us:
+    address: 0x09E359CC
+    size: 5554
+  jp:
+    address: 0x09E0E870
+    size: 7581
+  eu:
+    address: 0x09EA58F8
+    size: 5554
+- name: gVoicegroup3Sample13
+  format: sample
+  align: 4
+  us:
+    address: 0x09E36F80
+    size: 13696
+  jp:
+    address: 0x09E10610
+    size: 8668
+  eu:
+    address: 0x09EA6EAC
+    size: 13696
+- name: gVoicegroup3Sample14
+  format: sample
+  align: 4
+  us:
+    address: 0x09E3A500
+    size: 3652
+  jp:
+    address: 0x09E127EC
+    size: 3369
+  eu:
+    address: 0x09EAA42C
+    size: 3652
+- name: gVoicegroup3Sample15
+  format: sample
+  align: 4
+  us:
+    address: 0x09E3B344
+    size: 4662
+  jp:
+    address: 0x09E13518
+    size: 4949
+  eu:
+    address: 0x09EAB270
+    size: 4662
+- name: gVoicegroup3Sample16
+  format: sample
+  align: 4
+  us:
+    address: 0x09E3C57C
+    size: 7060
+  jp:
+    address: 0x09E14870
+    size: 7657
+  eu:
+    address: 0x09EAC4A8
+    size: 7060
+- name: gVoicegroup3Sample17
+  format: sample
+  align: 4
+  us:
+    address: 0x09E3E110
+    size: 7001
+  jp:
+    address: 0x09E1665C
+    size: 4580
+  eu:
+    address: 0x09EAE03C
+    size: 7001
+- name: gVoicegroup3Sample18
+  format: sample
+  align: 4
+  us:
+    address: 0x09E3FC6C
+    size: 4768
+  jp:
+    address: 0x09E17840
+    size: 4845
+  eu:
+    address: 0x09EAFB98
+    size: 4768
+- name: gVoicegroup3Sample19
+  format: sample
+  align: 4
+  us:
+    address: 0x09E40F0C
+    size: 6088
+  jp:
+    address: 0x09E18B30
+    size: 4754
+  eu:
+    address: 0x09EB0E38
+    size: 6088
+- name: gVoicegroup3Sample20
+  format: sample
+  align: 4
+  us:
+    address: 0x09E426D4
+    size: 3691
+  jp:
+    address: 0x09E19DC4
+    size: 4539
+  eu:
+    address: 0x09EB2600
+    size: 3691
+- name: gVoicegroup3Sample21
+  format: sample
+  align: 4
+  us:
+    address: 0x09E43540
+    size: 4970
+  jp:
+    address: 0x09E1AF80
+    size: 6515
+  eu:
+    address: 0x09EB346C
+    size: 4970
+- name: gVoicegroup3Sample22
+  format: sample
+  align: 4
+  us:
+    address: 0x09E448AC
+    size: 5978
+  jp:
+    address: 0x09E1C8F4
+    size: 4496
+  eu:
+    address: 0x09EB47D8
+    size: 5978
+- name: gVoicegroup3Sample24
+  format: sample
+  align: 4
+  us:
+    address: 0x09E46008
+    size: 5142
+  jp:
+    address: 0x09E1DA84
+    size: 4776
+  eu:
+    address: 0x09EB5F34
+    size: 5142
+- name: gVoicegroup3Sample25
+  format: sample
+  align: 4
+  us:
+    address: 0x09E47420
+    size: 2664
+  jp:
+    address: 0x09E1ED2C
+    size: 2766
+  eu:
+    address: 0x09EB734C
+    size: 2664
+- name: gVoicegroup3Sample26
+  format: sample
+  align: 4
+  us:
+    address: 0x09E47E88
+    size: 2664
+  jp:
+    address: 0x09E1F7FC
+    size: 1946
+  eu:
+    address: 0x09EB7DB4
+    size: 2664
+- name: gVoicegroup3Sample27
+  format: sample
+  align: 4
+  us:
+    address: 0x09E488F0
+    size: 3755
+  jp:
+    address: 0x09E1FF98
+    size: 2071
+  eu:
+    address: 0x09EB881C
+    size: 3755
+- name: gVoicegroup3Sample28
+  format: sample
+  align: 4
+  us:
+    address: 0x09E4979C
+    size: 7551
+  jp:
+    address: 0x09E207B0
+    size: 7375
+  eu:
+    address: 0x09EB96C8
+    size: 7551
+- name: gVoicegroup3Sample29
+  format: sample
+  align: 4
+  us:
+    address: 0x09E4B51C
+    size: 4862
+  jp:
+    address: 0x09E22480
+    size: 5220
+  eu:
+    address: 0x09EBB448
+    size: 4862
+- name: gVoicegroup3Sample30
+  format: sample
+  align: 4
+  us:
+    address: 0x09E4C81C
+    size: 7483
+  jp:
+    address: 0x09E238E4
+    size: 5634
+  eu:
+    address: 0x09EBC748
+    size: 7483
+- name: gVoicegroup3Sample31
+  format: sample
+  align: 4
+  us:
+    address: 0x09E4E558
+    size: 6913
+  jp:
+    address: 0x09E24EE8
+    size: 5573
+  eu:
+    address: 0x09EBE484
+    size: 6913
+- name: gVoicegroup3Sample32
+  format: sample
+  align: 4
+  us:
+    address: 0x09E5005C
+    size: 5406
+  jp:
+    address: 0x09E264B0
+    size: 6164
+  eu:
+    address: 0x09EBFF88
+    size: 5406
+- name: gVoicegroup3Sample33
+  format: sample
+  align: 4
+  us:
+    address: 0x09E5157C
+    size: 3625
+  jp:
+    address: 0x09E27CC4
+    size: 1727
+  eu:
+    address: 0x09EC14A8
+    size: 3625
+- name: gVoicegroup3Sample34
+  format: sample
+  align: 4
+  us:
+    address: 0x09E523A8
+    size: 3863
+  jp:
+    address: 0x09E28384
+    size: 4485
+  eu:
+    address: 0x09EC22D4
+    size: 3863
+- name: gVoicegroup3Sample35
+  format: sample
+  align: 4
+  us:
+    address: 0x09E532C0
+    size: 8577
+  jp:
+    address: 0x09E2950C
+    size: 6505
+  eu:
+    address: 0x09EC31EC
+    size: 8577
+- name: gVoicegroup3Sample36
+  format: sample
+  align: 4
+  us:
+    address: 0x09E55444
+    size: 5715
+  jp:
+    address: 0x09E2AE78
+    size: 5101
+  eu:
+    address: 0x09EC5370
+    size: 5715
+- name: gVoicegroup3Sample37
+  format: sample
+  align: 4
+  us:
+    address: 0x09E56A98
+    size: 5918
+  jp:
+    address: 0x09E2C268
+    size: 4928
+  eu:
+    address: 0x09EC69C4
+    size: 5918
+- name: gVoicegroup3Sample38
+  format: sample
+  align: 4
+  us:
+    address: 0x09E581B8
+    size: 7331
+  jp:
+    address: 0x09E2D5A8
+    size: 5564
+  eu:
+    address: 0x09EC80E4
+    size: 7331
+- name: gVoicegroup3Sample39
+  format: sample
+  align: 4
+  us:
+    address: 0x09E59E5C
+    size: 9597
+  jp:
+    address: 0x09E2EB64
+    size: 9452
+  eu:
+    address: 0x09EC9D88
+    size: 9597
+- name: gVoicegroup3Sample40
+  format: sample
+  align: 4
+  us:
+    address: 0x09E5C3DC
+    size: 2937
+  jp:
+    address: 0x09E31050
+    size: 2758
+  eu:
+    address: 0x09ECC308
+    size: 2937
+- name: gVoicegroup3Sample41
+  format: sample
+  align: 4
+  us:
+    address: 0x09E5CF58
+    size: 3830
+  jp:
+    address: 0x09E31B18
+    size: 3527
+  eu:
+    address: 0x09ECCE84
+    size: 3830
+- name: gVoicegroup3Sample42
+  format: sample
+  align: 4
+  us:
+    address: 0x09E5DE50
+    size: 4954
+  jp:
+    address: 0x09E328E0
+    size: 6495
+  eu:
+    address: 0x09ECDD7C
+    size: 4954
+- name: gVoicegroup3Sample43
+  format: sample
+  align: 4
+  us:
+    address: 0x09E5F1AC
+    size: 7106
+  jp:
+    address: 0x09E34240
+    size: 4792
+  eu:
+    address: 0x09ECF0D8
+    size: 7106
+- name: gVoicegroup3Sample44
+  format: sample
+  align: 4
+  us:
+    address: 0x09E60D70
+    size: 1803
+  jp:
+    address: 0x09E354F8
+    size: 1332
+  eu:
+    address: 0x09ED0C9C
+    size: 1803
+- name: gVoicegroup3Sample45
+  format: sample
+  align: 4
+  us:
+    address: 0x09E6147C
+    size: 2800
+  jp:
+    address: 0x09E35A2C
+    size: 2886
+  eu:
+    address: 0x09ED13A8
+    size: 2800
+- name: gVoicegroup3Sample46
+  format: sample
+  align: 4
+  us:
+    address: 0x09E61F6C
+    size: 2010
+  jp:
+    address: 0x09E36574
+    size: 1898
+  eu:
+    address: 0x09ED1E98
+    size: 2010
+- name: gVoicegroup3Sample47
+  format: sample
+  align: 4
+  us:
+    address: 0x09E62748
+    size: 1584
+  jp:
+    address: 0x09E36CE0
+    size: 1801
+  eu:
+    address: 0x09ED2674
+    size: 1584
+- name: gVoicegroup3Sample48
+  format: sample
+  align: 4
+  us:
+    address: 0x09E62D78
+    size: 2007
+  jp:
+    address: 0x09E373EC
+    size: 1945
+  eu:
+    address: 0x09ED2CA4
+    size: 2007
+- name: gVoicegroup3Sample49
+  format: sample
+  align: 4
+  us:
+    address: 0x09E63550
+    size: 2070
+  jp:
+    address: 0x09E37B88
+    size: 2737
+  eu:
+    address: 0x09ED347C
+    size: 2070
+- name: gVoicegroup3Sample50
+  format: sample
+  align: 4
+  us:
+    address: 0x09E63D68
+    size: 1842
+  jp:
+    address: 0x09E3863C
+    size: 2605
+  eu:
+    address: 0x09ED3C94
+    size: 1842
+- name: gVoicegroup3Sample51
+  format: sample
+  align: 4
+  us:
+    address: 0x09E6449C
+    size: 5195
+  jp:
+    address: 0x09E3906C
+    size: 4182
+  eu:
+    address: 0x09ED43C8
+    size: 5195
+- name: gVoicegroup3Sample52
+  format: sample
+  align: 4
+  us:
+    address: 0x09E658E8
+    size: 9102
+  jp:
+    address: 0x09E3A0C4
+    size: 12592
+  eu:
+    address: 0x09ED5814
+    size: 9102
+- name: gVoicegroup3Sample53
+  format: sample
+  align: 4
+  us:
+    address: 0x09E67C78
+    size: 7108
+  jp:
+    address: 0x09E3D1F4
+    size: 4633
+  eu:
+    address: 0x09ED7BA4
+    size: 7108
+- name: gVoicegroup3Sample54
+  format: sample
+  align: 4
+  us:
+    address: 0x09E6983C
+    size: 5138
+  jp:
+    address: 0x09E3E410
+    size: 5984
+  eu:
+    address: 0x09ED9768
+    size: 5138
+- name: gVoicegroup3Sample55
+  format: sample
+  align: 4
+  us:
+    address: 0x09E6AC50
+    size: 1809
+  jp:
+    address: 0x09E3FB70
+    size: 2761
+  eu:
+    address: 0x09EDAB7C
+    size: 1809
+- name: gVoicegroup3Sample56
+  format: sample
+  align: 4
+  us:
+    address: 0x09E6B364
+    size: 10909
+  jp:
+    address: 0x09E4063C
+    size: 7157
+  eu:
+    address: 0x09EDB290
+    size: 10909
+- name: gVoicegroup3Sample57
+  format: sample
+  align: 4
+  us:
+    address: 0x09E6DE04
+    size: 11898
+  jp:
+    address: 0x09E42234
+    size: 10730
+  eu:
+    address: 0x09EDDD30
+    size: 11898
+- name: gVoicegroup3Sample58
+  format: sample
+  align: 4
+  us:
+    address: 0x09E70C80
+    size: 1981
+  jp:
+    address: 0x09E44C20
+    size: 1786
+  eu:
+    address: 0x09EE0BAC
+    size: 1981
+- name: gVoicegroup3Sample59
+  format: sample
+  align: 4
+  us:
+    address: 0x09E71440
+    size: 2671
+  jp:
+    address: 0x09E4531C
+    size: 1738
+  eu:
+    address: 0x09EE136C
+    size: 2671
+- name: gVoicegroup3Sample60
+  format: sample
+  align: 4
+  us:
+    address: 0x09E71EB0
+    size: 8041
+  jp:
+    address: 0x09E459E8
+    size: 8075
+  eu:
+    address: 0x09EE1DDC
+    size: 8041
+- name: gVoicegroup3Sample61
+  format: sample
+  align: 4
+  us:
+    address: 0x09E73E1C
+    size: 2123
+  jp:
+    address: 0x09E47974
+    size: 2414
+  eu:
+    address: 0x09EE3D48
+    size: 2123
+- name: gVoicegroup3Sample62
+  format: sample
+  align: 4
+  us:
+    address: 0x09E74668
+    size: 3830
+  jp:
+    address: 0x09E482E4
+    size: 2713
+  eu:
+    address: 0x09EE4594
+    size: 3830
+- name: gVoicegroup3Sample63
+  format: sample
+  align: 4
+  us:
+    address: 0x09E75560
+    size: 3196
+  jp:
+    address: 0x09E48D80
+    size: 4435
+  eu:
+    address: 0x09EE548C
+    size: 3196
+- name: gVoicegroup3Sample64
+  format: sample
+  align: 4
+  us:
+    address: 0x09E761DC
+    size: 13764
+  jp:
+    address: 0x09E49ED4
+    size: 6670
+  eu:
+    address: 0x09EE6108
+    size: 13764
+- name: gVoicegroup3Sample65
+  format: sample
+  align: 4
+  us:
+    address: 0x09E797A0
+    size: 1660
+  jp:
+    address: 0x09E4B8E4
+    size: 1693
+  eu:
+    address: 0x09EE96CC
+    size: 1660
+- name: gVoicegroup3Sample66
+  format: sample
+  align: 4
+  us:
+    address: 0x09E79E1C
+    size: 2884
+  jp:
+    address: 0x09E4BF84
+    size: 3094
+  eu:
+    address: 0x09EE9D48
+    size: 2884
+- name: gVoicegroup3Sample67
+  format: sample
+  align: 4
+  us:
+    address: 0x09E7A960
+    size: 3034
+  jp:
+    address: 0x09E4CB9C
+    size: 2916
+  eu:
+    address: 0x09EEA88C
+    size: 3034
+- name: gVoicegroup3Sample68
+  format: sample
+  align: 4
+  us:
+    address: 0x09E7B53C
+    size: 5137
+  jp:
+    address: 0x09E4D700
+    size: 6096
+  eu:
+    address: 0x09EEB468
+    size: 5137
+- name: gVoicegroup3Sample69
+  format: sample
+  align: 4
+  us:
+    address: 0x09E7C950
+    size: 3945
+  jp:
+    address: 0x09E4EED0
+    size: 3343
+  eu:
+    address: 0x09EEC87C
+    size: 3945
+- name: gVoicegroup3Sample70
+  format: sample
+  align: 4
+  us:
+    address: 0x09E7D8BC
+    size: 5879
+  jp:
+    address: 0x09E4FBE0
+    size: 4803
+  eu:
+    address: 0x09EED7E8
+    size: 5879
+- name: gVoicegroup3Sample71
+  format: sample
+  align: 4
+  us:
+    address: 0x09E7EFB4
+    size: 4681
+  jp:
+    address: 0x09E50EA4
+    size: 5801
+  eu:
+    address: 0x09EEEEE0
+    size: 4681
+- name: gVoicegroup3Sample72
+  format: sample
+  align: 4
+  us:
+    address: 0x09E80200
+    size: 4948
+  jp:
+    address: 0x09E52550
+    size: 6331
+  eu:
+    address: 0x09EF012C
+    size: 4948
+- name: gVoicegroup3Sample73
+  format: sample
+  align: 4
+  us:
+    address: 0x09E81554
+    size: 7050
+  jp:
+    address: 0x09E53E0C
+    size: 8087
+  eu:
+    address: 0x09EF1480
+    size: 7050
+- name: gVoicegroup3Sample74
+  format: sample
+  align: 4
+  us:
+    address: 0x09E830E0
+    size: 4752
+  jp:
+    address: 0x09E55DA4
+    size: 12418
+  eu:
+    address: 0x09EF300C
+    size: 4752
+- name: gVoicegroup3Sample75
+  format: sample
+  align: 4
+  us:
+    address: 0x09E84370
+    size: 1890
+  jp:
+    address: 0x09E58E28
+    size: 5309
+  eu:
+    address: 0x09EF429C
+    size: 1890
+- name: gVoicegroup3Sample76
+  format: sample
+  align: 4
+  us:
+    address: 0x09E84AD4
+    size: 1707
+  jp:
+    address: 0x09E5A2E8
+    size: 4031
+  eu:
+    address: 0x09EF4A00
+    size: 1707
+- name: gVoicegroup3Sample77
+  format: sample
+  align: 4
+  us:
+    address: 0x09E85180
+    size: 6502
+  jp:
+    address: 0x09E5B2A8
+    size: 5755
+  eu:
+    address: 0x09EF50AC
+    size: 6502
+- name: gVoicegroup3Sample78
+  format: sample
+  align: 4
+  us:
+    address: 0x09E86AE8
+    size: 1765
+  jp:
+    address: 0x09E5C924
+    size: 1765
+  eu:
+    address: 0x09EF6A14
+    size: 1765
+- name: gVoicegroup3Sample79
+  format: sample
+  align: 4
+  us:
+    address: 0x09E871D0
+    size: 6270
+  jp:
+    address: 0x09E5D00C
+    size: 9315
+  eu:
+    address: 0x09EF70FC
+    size: 6270
+- name: gVoicegroup3Sample80
+  format: sample
+  align: 4
+  us:
+    address: 0x09E88A50
+    size: 1227
+  jp:
+    address: 0x09E5F470
+    size: 1227
+  eu:
+    address: 0x09EF897C
+    size: 1227
+- name: gVoicegroup3Sample81
+  format: sample
+  align: 4
+  us:
+    address: 0x09E88F1C
+    size: 3668
+  jp:
+    address: 0x09E5F93C
+    size: 6480
+  eu:
+    address: 0x09EF8E48
+    size: 3668
+- name: gVoicegroup3Sample82
+  format: sample
+  align: 4
+  us:
+    address: 0x09E89D70
+    size: 2575
+  jp:
+    address: 0x09E6128C
+    size: 3948
+  eu:
+    address: 0x09EF9C9C
+    size: 2575
+- name: gVoicegroup3Sample83
+  format: sample
+  align: 4
+  us:
+    address: 0x09E8A780
+    size: 1869
+  jp:
+    address: 0x09E621F8
+    size: 3333
+  eu:
+    address: 0x09EFA6AC
+    size: 1869
+- name: gVoicegroup3Sample84
+  format: sample
+  align: 4
+  us:
+    address: 0x09E8AED0
+    size: 2543
+  jp:
+    address: 0x09E62F00
+    size: 5792
+  eu:
+    address: 0x09EFADFC
+    size: 2543
+- name: gVoicegroup3Sample85
+  format: sample
+  align: 4
+  us:
+    address: 0x09E8B8C0
+    size: 5589
+  jp:
+    address: 0x09E645A0
+    size: 6224
+  eu:
+    address: 0x09EFB7EC
+    size: 5589
+- name: gVoicegroup3Sample86
+  format: sample
+  align: 4
+  us:
+    address: 0x09E8CE98
+    size: 7895
+  jp:
+    address: 0x09E65DF0
+    size: 6048
+  eu:
+    address: 0x09EFCDC4
+    size: 7895
+- name: gVoicegroup3Sample87
+  format: sample
+  align: 4
+  us:
+    address: 0x09E8ED70
+    size: 7653
+  jp:
+    address: 0x09E67590
+    size: 4841
+  eu:
+    address: 0x09EFEC9C
+    size: 7653
+- name: gVoicegroup3Sample88
+  format: sample
+  align: 4
+  us:
+    address: 0x09E90B58
+    size: 4145
+  jp:
+    address: 0x09E6887C
+    size: 4138
+  eu:
+    address: 0x09F00A84
+    size: 4145
+- name: gVoicegroup3Sample89
+  format: sample
+  align: 4
+  us:
+    address: 0x09E91B8C
+    size: 1988
+  jp:
+    address: 0x09E698A8
+    size: 3475
+  eu:
+    address: 0x09F01AB8
+    size: 1988
+- name: gVoicegroup3Sample100
+  format: sample
+  align: 4
+  us:
+    address: 0x09E92350
+    size: 851
+  jp:
+    address: 0x09E6A63C
+    size: 851
+  eu:
+    address: 0x09F0227C
+    size: 851
+- name: gVoicegroup3Sample101
+  format: sample
+  align: 4
+  us:
+    address: 0x09E926A4
+    size: 1004
+  jp:
+    address: 0x09E6A990
+    size: 1004
+  eu:
+    address: 0x09F025D0
+    size: 1004
+- name: gVoicegroup3Sample102
+  format: sample
+  align: 4
+  us:
+    address: 0x09E92A90
+    size: 4368
+  jp:
+    address: 0x09E6AD7C
+    size: 4368
+  eu:
+    address: 0x09F029BC
+    size: 4368
+- name: gVoicegroup3Sample103
+  format: sample
+  align: 4
+  us:
+    address: 0x09E93BA0
+    size: 959
+  jp:
+    address: 0x09E6BE8C
+    size: 959
+  eu:
+    address: 0x09F03ACC
+    size: 959
+- name: gVoicegroup4Sample48
+  format: sample
+  align: 4
+  us:
+    address: 0x09E93F60
+    size: 2203
+  jp:
+    address: 0x09E6C24C
+    size: 2203
+  eu:
+    address: 0x09F03E8C
+    size: 2203
+- name: gVoicegroup4Sample49
+  format: sample
+  align: 4
+  us:
+    address: 0x09E947FC
+    size: 2561
+  jp:
+    address: 0x09E6CAE8
+    size: 2561
+  eu:
+    address: 0x09F04728
+    size: 2561
+- name: gVoicegroup4Sample50
+  format: sample
+  align: 4
+  us:
+    address: 0x09E95200
+    size: 1528
+  jp:
+    address: 0x09E6D4EC
+    size: 1528
+  eu:
+    address: 0x09F0512C
+    size: 1528
+- name: gVoicegroup4Sample51
+  format: sample
+  align: 4
+  us:
+    address: 0x09E957F8
+    size: 4021
+  jp:
+    address: 0x09E6DAE4
+    size: 4021
+  eu:
+    address: 0x09F05724
+    size: 4021
+- name: gVoicegroup4Sample52
+  format: sample
+  align: 4
+  us:
+    address: 0x09E967B0
+    size: 2353
+  jp:
+    address: 0x09E6EA9C
+    size: 2353
+  eu:
+    address: 0x09F066DC
+    size: 2353
+- name: gVoicegroup4Sample53
+  format: sample
+  align: 4
+  us:
+    address: 0x09E970E4
+    size: 2614
+  jp:
+    address: 0x09E6F3D0
+    size: 2614
+  eu:
+    address: 0x09F07010
+    size: 2614
+- name: gVoicegroup4Sample61
+  format: sample
+  align: 4
+  us:
+    address: 0x09E97B1C
+    size: 4400
+  jp:
+    address: 0x09E6FE08
+    size: 4400
+  eu:
+    address: 0x09F07A48
+    size: 4400
+- name: gVoicegroup4Sample62
+  format: sample
+  align: 4
+  us:
+    address: 0x09E98C4C
+    size: 4951
+  jp:
+    address: 0x09E70F38
+    size: 4951
+  eu:
+    address: 0x09F08B78
+    size: 4951
+- name: gVoicegroup4Sample63
+  format: sample
+  align: 4
+  us:
+    address: 0x09E99FA4
+    size: 7860
+  jp:
+    address: 0x09E72290
+    size: 7860
+  eu:
+    address: 0x09F09ED0
+    size: 7860
+- name: gVoicegroup4Sample64
+  format: sample
+  align: 4
+  us:
+    address: 0x09E9BE58
+    size: 11274
+  jp:
+    address: 0x09E74144
+    size: 11274
+  eu:
+    address: 0x09F0BD84
+    size: 11274
+- name: gVoicegroup4Sample67
+  format: sample
+  align: 4
+  us:
+    address: 0x09E9EA64
+    size: 3319
+  jp:
+    address: 0x09E76D50
+    size: 3319
+  eu:
+    address: 0x09F0E990
+    size: 3319
+- name: gVoicegroup5Sample0
+  format: sample
+  align: 4
+  us:
+    address: 0x09E9F75C
+    size: 1518
+  jp:
+    address: 0x09E77A48
+    size: 1518
+  eu:
+    address: 0x09F0F688
+    size: 1518
+- name: gVoicegroup5Sample1
+  format: sample
+  align: 4
+  us:
+    address: 0x09E9FD4C
+    size: 1671
+  jp:
+    address: 0x09E78038
+    size: 1671
+  eu:
+    address: 0x09F0FC78
+    size: 1671
+- name: gVoicegroup5Sample2
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA03D4
+    size: 1269
+  jp:
+    address: 0x09E786C0
+    size: 1269
+  eu:
+    address: 0x09F10300
+    size: 1269
+- name: gVoicegroup5Sample3
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA08CC
+    size: 1178
+  jp:
+    address: 0x09E78BB8
+    size: 1178
+  eu:
+    address: 0x09F107F8
+    size: 1178
+- name: gVoicegroup5Sample4
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA0D68
+    size: 1633
+  jp:
+    address: 0x09E79054
+    size: 1633
+  eu:
+    address: 0x09F10C94
+    size: 1633
+- name: gVoicegroup5Sample5
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA13CC
+    size: 1451
+  jp:
+    address: 0x09E796B8
+    size: 1451
+  eu:
+    address: 0x09F112F8
+    size: 1451
+- name: gVoicegroup5Sample6
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA1978
+    size: 1052
+  jp:
+    address: 0x09E79C64
+    size: 1052
+  eu:
+    address: 0x09F118A4
+    size: 1052
+- name: gVoicegroup5Sample7
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA1D94
+    size: 1013
+  jp:
+    address: 0x09E7A080
+    size: 1013
+  eu:
+    address: 0x09F11CC0
+    size: 1013
+- name: gVoicegroup5Sample8
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA218C
+    size: 1134
+  jp:
+    address: 0x09E7A478
+    size: 1134
+  eu:
+    address: 0x09F120B8
+    size: 1134
+- name: gVoicegroup5Sample9
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA25FC
+    size: 1165
+  jp:
+    address: 0x09E7A8E8
+    size: 1165
+  eu:
+    address: 0x09F12528
+    size: 1165
+- name: gVoicegroup5Sample10
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA2A8C
+    size: 1360
+  jp:
+    address: 0x09E7AD78
+    size: 1360
+  eu:
+    address: 0x09F129B8
+    size: 1360
+- name: gVoicegroup5Sample11
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA2FDC
+    size: 1148
+  jp:
+    address: 0x09E7B2C8
+    size: 1148
+  eu:
+    address: 0x09F12F08
+    size: 1148
+- name: gVoicegroup5Sample12
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA3458
+    size: 750
+  jp:
+    address: 0x09E7B744
+    size: 750
+  eu:
+    address: 0x09F13384
+    size: 750
+- name: gVoicegroup5Sample13
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA3748
+    size: 839
+  jp:
+    address: 0x09E7BA34
+    size: 839
+  eu:
+    address: 0x09F13674
+    size: 839
+- name: gVoicegroup5Sample14
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA3A90
+    size: 1338
+  jp:
+    address: 0x09E7BD7C
+    size: 1338
+  eu:
+    address: 0x09F139BC
+    size: 1338
+- name: gVoicegroup5Sample15
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA3FCC
+    size: 1254
+  jp:
+    address: 0x09E7C2B8
+    size: 1254
+  eu:
+    address: 0x09F13EF8
+    size: 1254
+- name: gVoicegroup5Sample16
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA44B4
+    size: 1496
+  jp:
+    address: 0x09E7C7A0
+    size: 1496
+  eu:
+    address: 0x09F143E0
+    size: 1496
+- name: gVoicegroup5Sample17
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA4A8C
+    size: 1182
+  jp:
+    address: 0x09E7CD78
+    size: 1182
+  eu:
+    address: 0x09F149B8
+    size: 1182
+- name: gVoicegroup5Sample18
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA4F2C
+    size: 1873
+  jp:
+    address: 0x09E7D218
+    size: 1873
+  eu:
+    address: 0x09F14E58
+    size: 1873
+- name: gVoicegroup5Sample19
+  format: sample
+  align: 4
+  us:
+    address: 0x09EA5680
+    size: 1436
+  jp:
+    address: 0x09E7D96C
+    size: 1436
+  eu:
+    address: 0x09F155AC
+    size: 1436
+- name: gSongBgmAliceBtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EA5C1C
+    size: 3096
+  jp:
+    address: 0x09E7DF08
+    size: 3096
+  eu:
+    address: 0x09F15B48
+    size: 3096
+- name: gSongBgmAliceField
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EA6834
+    size: 2160
+  jp:
+    address: 0x09E7EB20
+    size: 2160
+  eu:
+    address: 0x09F16760
+    size: 2160
+- name: gSongBgmBoss1World
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EA70A4
+    size: 2992
+  jp:
+    address: 0x09E7F390
+    size: 2992
+  eu:
+    address: 0x09F16FD0
+    size: 2992
+- name: gSongBgmEvent2
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EA7C54
+    size: 820
+  jp:
+    address: 0x09E7FF40
+    size: 820
+  eu:
+    address: 0x09F17B80
+    size: 820
+- name: gSongBgmEvent1
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EA7F88
+    size: 664
+  jp:
+    address: 0x09E80274
+    size: 664
+  eu:
+    address: 0x09F17EB4
+    size: 664
+- name: gSongBgmTitle
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EA8220
+    size: 1412
+  jp:
+    address: 0x09E8050C
+    size: 1412
+  eu:
+    address: 0x09F1814C
+    size: 1412
+- name: gSongBgmEvent3
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EA87A4
+    size: 904
+  jp:
+    address: 0x09E80A90
+    size: 904
+  eu:
+    address: 0x09F186D0
+    size: 904
+- name: gSongBgmPinocchioField
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EA8B2C
+    size: 2536
+  jp:
+    address: 0x09E80E18
+    size: 2536
+  eu:
+    address: 0x09F18A58
+    size: 2536
+- name: gSongBgmPinocchioBtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EA9514
+    size: 2916
+  jp:
+    address: 0x09E81800
+    size: 2916
+  eu:
+    address: 0x09F19440
+    size: 2916
+- name: gSongBgmPeterpanField
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EAA078
+    size: 1960
+  jp:
+    address: 0x09E82364
+    size: 1960
+  eu:
+    address: 0x09F19FA4
+    size: 1960
+- name: gSongBgmPeterpanBtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EAA820
+    size: 3068
+  jp:
+    address: 0x09E82B0C
+    size: 3068
+  eu:
+    address: 0x09F1A74C
+    size: 3068
+- name: gSongBgmTownBtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EAB41C
+    size: 2544
+  jp:
+    address: 0x09E83708
+    size: 2544
+  eu:
+    address: 0x09F1B348
+    size: 2544
+- name: gSongBgmTownField
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EABE0C
+    size: 1000
+  jp:
+    address: 0x09E840F8
+    size: 1000
+  eu:
+    address: 0x09F1BD38
+    size: 1000
+- name: gSongBgmBoss3Xiii
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EAC1F4
+    size: 2468
+  jp:
+    address: 0x09E844E0
+    size: 2468
+  eu:
+    address: 0x09F1C120
+    size: 2468
+- name: gSongBgmHalloweenField
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EACB98
+    size: 3356
+  jp:
+    address: 0x09E84E84
+    size: 3356
+  eu:
+    address: 0x09F1CAC4
+    size: 3356
+- name: gSongBgmHalloweenBtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EAD8B4
+    size: 3944
+  jp:
+    address: 0x09E85BA0
+    size: 3944
+  eu:
+    address: 0x09F1D7E0
+    size: 3944
+- name: gSongBgmMarmaidBattle
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EAE81C
+    size: 3284
+  jp:
+    address: 0x09E86B08
+    size: 3284
+  eu:
+    address: 0x09F1E748
+    size: 3284
+- name: gSongBgmEventXiii
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EAF4F0
+    size: 312
+  jp:
+    address: 0x09E877DC
+    size: 312
+  eu:
+    address: 0x09F1F41C
+    size: 312
+- name: gSongBgmEventNamine
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EAF628
+    size: 516
+  jp:
+    address: 0x09E87914
+    size: 516
+  eu:
+    address: 0x09F1F554
+    size: 516
+- name: gSongBgmHerculesBattle
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EAF82C
+    size: 4340
+  jp:
+    address: 0x09E87B18
+    size: 4340
+  eu:
+    address: 0x09F1F758
+    size: 4340
+- name: gSongBgmHerculesField
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB0920
+    size: 2064
+  jp:
+    address: 0x09E88C0C
+    size: 2064
+  eu:
+    address: 0x09F2084C
+    size: 2064
+- name: gSongBgmUnderthesea
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB1130
+    size: 3180
+  jp:
+    address: 0x09E8941C
+    size: 3180
+  eu:
+    address: 0x09F2105C
+    size: 3180
+- name: gSongBgmAladdinBattle
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB1D9C
+    size: 3012
+  jp:
+    address: 0x09E8A088
+    size: 3012
+  eu:
+    address: 0x09F21CC8
+    size: 3012
+- name: gSongBgmEvent4
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB2960
+    size: 528
+  jp:
+    address: 0x09E8AC4C
+    size: 528
+  eu:
+    address: 0x09F2288C
+    size: 528
+- name: gSongBgmHollowField
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB2B70
+    size: 3000
+  jp:
+    address: 0x09E8AE5C
+    size: 3000
+  eu:
+    address: 0x09F22A9C
+    size: 3000
+- name: gSongBgmHollowBattle
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB3728
+    size: 3496
+  jp:
+    address: 0x09E8BA14
+    size: 3496
+  eu:
+    address: 0x09F23654
+    size: 3496
+- name: gSongBgmEventSilence
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB44D0
+    size: 620
+  jp:
+    address: 0x09E8C7BC
+    size: 620
+  eu:
+    address: 0x09F243FC
+    size: 620
+- name: gSongBgmEventUnrest
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB473C
+    size: 420
+  jp:
+    address: 0x09E8CA28
+    size: 420
+  eu:
+    address: 0x09F24668
+    size: 420
+- name: gSongBgmRikuAnsem
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB48E0
+    size: 3708
+  jp:
+    address: 0x09E8CBCC
+    size: 3708
+  eu:
+    address: 0x09F2480C
+    size: 3708
+- name: gSongBgmT13thfloor
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB575C
+    size: 344
+  jp:
+    address: 0x09E8DA48
+    size: 344
+  eu:
+    address: 0x09F25688
+    size: 344
+- name: gSongBgmAladdinField
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB58B4
+    size: 2536
+  jp:
+    address: 0x09E8DBA0
+    size: 2536
+  eu:
+    address: 0x09F257E0
+    size: 2536
+- name: gSongBgmWinniethepooh
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB629C
+    size: 3684
+  jp:
+    address: 0x09E8E588
+    size: 3684
+  eu:
+    address: 0x09F261C8
+    size: 3684
+- name: gSongBgmDestinyField
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB7100
+    size: 1480
+  jp:
+    address: 0x09E8F3EC
+    size: 1480
+  eu:
+    address: 0x09F2702C
+    size: 1480
+- name: gSongBgmPoohgame
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB76C8
+    size: 2192
+  jp:
+    address: 0x09E8F9B4
+    size: 2192
+  eu:
+    address: 0x09F275F4
+    size: 2192
+- name: gSongBgmNiseriku
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB7F58
+    size: 2196
+  jp:
+    address: 0x09E90244
+    size: 2196
+  eu:
+    address: 0x09F27E84
+    size: 2196
+- name: gSongBgmTwilighttown
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB87EC
+    size: 2756
+  jp:
+    address: 0x09E90AD8
+    size: 2756
+  eu:
+    address: 0x09F28718
+    size: 2756
+- name: gSongBgmLastboss1
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB92B0
+    size: 2604
+  jp:
+    address: 0x09E9159C
+    size: 2604
+  eu:
+    address: 0x09F291DC
+    size: 2604
+- name: gSongBgmF13fForget
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EB9CDC
+    size: 1656
+  jp:
+    address: 0x09E91FC8
+    size: 1656
+  eu:
+    address: 0x09F29C08
+    size: 1656
+- name: gSongBgmF13fForgetBattle
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBA354
+    size: 2240
+  jp:
+    address: 0x09E92640
+    size: 2240
+  eu:
+    address: 0x09F2A280
+    size: 2240
+- name: gSongBgmDestinyBattle
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBAC14
+    size: 2384
+  jp:
+    address: 0x09E92F00
+    size: 2384
+  eu:
+    address: 0x09F2AB40
+    size: 2384
+- name: gSongBgmBossworld
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBB564
+    size: 2760
+  jp:
+    address: 0x09E93850
+    size: 2760
+  eu:
+    address: 0x09F2B490
+    size: 2760
+- name: gSongBgmLastboss2
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBC02C
+    size: 2764
+  jp:
+    address: 0x09E94318
+    size: 2764
+  eu:
+    address: 0x09F2BF58
+    size: 2764
+- name: gSongBgmTwilightBattle
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBCAF8
+    size: 2740
+  jp:
+    address: 0x09E94DE4
+    size: 2740
+  eu:
+    address: 0x09F2CA24
+    size: 2740
+- name: gSongSysClick
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD5AC
+    size: 28
+  jp:
+    address: 0x09E95898
+    size: 28
+  eu:
+    address: 0x09F2D4D8
+    size: 28
+- name: gSongSysKettei
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD5C8
+    size: 28
+  jp:
+    address: 0x09E958B4
+    size: 28
+  eu:
+    address: 0x09F2D4F4
+    size: 28
+- name: gSongSysCansel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD5E4
+    size: 28
+  jp:
+    address: 0x09E958D0
+    size: 28
+  eu:
+    address: 0x09F2D510
+    size: 28
+- name: gSongSysClose
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD600
+    size: 28
+  jp:
+    address: 0x09E958EC
+    size: 28
+  eu:
+    address: 0x09F2D52C
+    size: 28
+- name: gSongSysBeep
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD61C
+    size: 28
+  jp:
+    address: 0x09E95908
+    size: 28
+  eu:
+    address: 0x09F2D548
+    size: 28
+- name: gSongSysItemget
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD638
+    size: 28
+  jp:
+    address: 0x09E95924
+    size: 28
+  eu:
+    address: 0x09F2D564
+    size: 28
+- name: gSongSysPowerGet
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD654
+    size: 28
+  jp:
+    address: 0x09E95940
+    size: 28
+  eu:
+    address: 0x09F2D580
+    size: 28
+- name: gSongSysMoneyGet
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD670
+    size: 28
+  jp:
+    address: 0x09E9595C
+    size: 28
+  eu:
+    address: 0x09F2D59C
+    size: 28
+- name: gSongSysSrFootl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD68C
+    size: 28
+  jp:
+    address: 0x09E95978
+    size: 28
+  eu:
+    address: 0x09F2D5B8
+    size: 28
+- name: gSongSysSrFootr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD6A8
+    size: 28
+  jp:
+    address: 0x09E95994
+    size: 28
+  eu:
+    address: 0x09F2D5D4
+    size: 28
+- name: gSongSysSrJump
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD6C4
+    size: 40
+  jp:
+    address: 0x09E959B0
+    size: 40
+  eu:
+    address: 0x09F2D5F0
+    size: 40
+- name: gSongSysSrLand
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD6EC
+    size: 44
+  jp:
+    address: 0x09E959D8
+    size: 44
+  eu:
+    address: 0x09F2D618
+    size: 44
+- name: gSongSysSrIVo00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD718
+    size: 28
+  jp:
+    address: 0x09E95A04
+    size: 28
+  eu:
+    address: 0x09F2D644
+    size: 28
+- name: gSongSysSrIVo01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD734
+    size: 28
+  jp:
+    address: 0x09E95A20
+    size: 28
+  eu:
+    address: 0x09F2D660
+    size: 28
+- name: gSongSysSrAtVo00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD750
+    size: 28
+  jp:
+    address: 0x09E95A3C
+    size: 28
+  eu:
+    address: 0x09F2D67C
+    size: 28
+- name: gSongSysMessage
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD76C
+    size: 28
+  jp:
+    address: 0x09E95A58
+    size: 28
+  eu:
+    address: 0x09F2D698
+    size: 28
+- name: gSongSysFieldAtt00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD788
+    size: 84
+  jp:
+    address: 0x09E95A74
+    size: 84
+  eu:
+    address: 0x09F2D6B4
+    size: 84
+- name: gSongSysClicki02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD7DC
+    size: 88
+  jp:
+    address: 0x09E95AC8
+    size: 88
+  eu:
+    address: 0x09F2D708
+    size: 88
+- name: gSongSysDoor0
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD834
+    size: 376
+  jp:
+    address: 0x09E95B20
+    size: 376
+  eu:
+    address: 0x09F2D760
+    size: 376
+- name: gSongSysClicki04
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBD9AC
+    size: 164
+  jp:
+    address: 0x09E95C98
+    size: 164
+  eu:
+    address: 0x09F2D8D8
+    size: 164
+- name: gSongSysClicki04b
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDA50
+    size: 36
+  jp:
+    address: 0x09E95D3C
+    size: 36
+  eu:
+    address: 0x09F2D97C
+    size: 36
+- name: gSongSysSrStonel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDA74
+    size: 28
+  jp:
+    address: 0x09E95D60
+    size: 28
+  eu:
+    address: 0x09F2D9A0
+    size: 28
+- name: gSongSysSrStoner
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDA90
+    size: 28
+  jp:
+    address: 0x09E95D7C
+    size: 28
+  eu:
+    address: 0x09F2D9BC
+    size: 28
+- name: gSongSysSrStonejp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDAAC
+    size: 44
+  jp:
+    address: 0x09E95D98
+    size: 44
+  eu:
+    address: 0x09F2D9D8
+    size: 44
+- name: gSongSysSrStoneld
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDAD8
+    size: 44
+  jp:
+    address: 0x09E95DC4
+    size: 44
+  eu:
+    address: 0x09F2DA04
+    size: 44
+- name: gSongSysSrMudl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDB04
+    size: 28
+  jp:
+    address: 0x09E95DF0
+    size: 28
+  eu:
+    address: 0x09F2DA30
+    size: 28
+- name: gSongSysSrMudr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDB20
+    size: 28
+  jp:
+    address: 0x09E95E0C
+    size: 28
+  eu:
+    address: 0x09F2DA4C
+    size: 28
+- name: gSongSysSrMudjp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDB3C
+    size: 44
+  jp:
+    address: 0x09E95E28
+    size: 44
+  eu:
+    address: 0x09F2DA68
+    size: 44
+- name: gSongSysSrMudld
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDB68
+    size: 44
+  jp:
+    address: 0x09E95E54
+    size: 44
+  eu:
+    address: 0x09F2DA94
+    size: 44
+- name: gSongSysSrIronlwl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDB94
+    size: 28
+  jp:
+    address: 0x09E95E80
+    size: 28
+  eu:
+    address: 0x09F2DAC0
+    size: 28
+- name: gSongSysSrIronlwr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDBB0
+    size: 28
+  jp:
+    address: 0x09E95E9C
+    size: 28
+  eu:
+    address: 0x09F2DADC
+    size: 28
+- name: gSongSysSrIronlwjp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDBCC
+    size: 56
+  jp:
+    address: 0x09E95EB8
+    size: 56
+  eu:
+    address: 0x09F2DAF8
+    size: 56
+- name: gSongSysSrGrassup
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDC04
+    size: 28
+  jp:
+    address: 0x09E95EF0
+    size: 28
+  eu:
+    address: 0x09F2DB30
+    size: 28
+- name: gSongSysSrGrassjp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDC20
+    size: 56
+  jp:
+    address: 0x09E95F0C
+    size: 56
+  eu:
+    address: 0x09F2DB4C
+    size: 56
+- name: gSongSysSrStoneljp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDC58
+    size: 56
+  jp:
+    address: 0x09E95F44
+    size: 56
+  eu:
+    address: 0x09F2DB84
+    size: 56
+- name: gSongSysSrMudljp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDC90
+    size: 56
+  jp:
+    address: 0x09E95F7C
+    size: 56
+  eu:
+    address: 0x09F2DBBC
+    size: 56
+- name: gSongSysDeckset
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDCC8
+    size: 64
+  jp:
+    address: 0x09E95FB4
+    size: 64
+  eu:
+    address: 0x09F2DBF4
+    size: 64
+- name: gSongSysCardDelete
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDD08
+    size: 28
+  jp:
+    address: 0x09E95FF4
+    size: 28
+  eu:
+    address: 0x09F2DC34
+    size: 28
+- name: gSongSysGimicjp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDD24
+    size: 64
+  jp:
+    address: 0x09E96010
+    size: 64
+  eu:
+    address: 0x09F2DC50
+    size: 64
+- name: gSongSysKetei2
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDD64
+    size: 64
+  jp:
+    address: 0x09E96050
+    size: 64
+  eu:
+    address: 0x09F2DC90
+    size: 64
+- name: gSongSysSrCatch
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDDA4
+    size: 44
+  jp:
+    address: 0x09E96090
+    size: 44
+  eu:
+    address: 0x09F2DCD0
+    size: 44
+- name: gSongSysSrCatjp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDDD0
+    size: 48
+  jp:
+    address: 0x09E960BC
+    size: 48
+  eu:
+    address: 0x09F2DCFC
+    size: 48
+- name: gSongSysEncount
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDE00
+    size: 336
+  jp:
+    address: 0x09E960EC
+    size: 336
+  eu:
+    address: 0x09F2DD2C
+    size: 336
+- name: gSongSysObjBreak
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDF50
+    size: 76
+  jp:
+    address: 0x09E9623C
+    size: 76
+  eu:
+    address: 0x09F2DE7C
+    size: 76
+- name: gSongSysReload
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDF9C
+    size: 72
+  jp:
+    address: 0x09E96288
+    size: 72
+  eu:
+    address: 0x09F2DEC8
+    size: 72
+- name: gSongSysAlart
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBDFE4
+    size: 32
+  jp:
+    address: 0x09E962D0
+    size: 32
+  eu:
+    address: 0x09F2DF10
+    size: 32
+- name: gSongSysStart
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE004
+    size: 232
+  jp:
+    address: 0x09E962F0
+    size: 232
+  eu:
+    address: 0x09F2DF30
+    size: 232
+- name: gSongSysLvup
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE0EC
+    size: 636
+  jp:
+    address: 0x09E963D8
+    size: 636
+  eu:
+    address: 0x09F2E018
+    size: 636
+- name: gSongBgPoo
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE368
+    size: 216
+  jp:
+    address: 0x09E96654
+    size: 216
+  eu:
+    address: 0x09F2E294
+    size: 216
+- name: gSongVoSrAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE440
+    size: 28
+  jp:
+    address: 0x09E9672C
+    size: 28
+  eu:
+    address: 0x09F2E36C
+    size: 28
+- name: gSongVoSrAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE45C
+    size: 28
+  jp:
+    address: 0x09E96748
+    size: 28
+  eu:
+    address: 0x09F2E388
+    size: 28
+- name: gSongVoSrAttack02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE478
+    size: 28
+  jp:
+    address: 0x09E96764
+    size: 28
+  eu:
+    address: 0x09F2E3A4
+    size: 28
+- name: gSongVoSrAttack03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE494
+    size: 28
+  jp:
+    address: 0x09E96780
+    size: 28
+  eu:
+    address: 0x09F2E3C0
+    size: 28
+- name: gSongVoSrAttack05
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE4B0
+    size: 28
+  jp:
+    address: 0x09E9679C
+    size: 28
+  eu:
+    address: 0x09F2E3DC
+    size: 28
+- name: gSongVoSrAttack07
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE4CC
+    size: 28
+  jp:
+    address: 0x09E967B8
+    size: 28
+  eu:
+    address: 0x09F2E3F8
+    size: 28
+- name: gSongVoSrAttack08
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE4E8
+    size: 28
+  jp:
+    address: 0x09E967D4
+    size: 28
+  eu:
+    address: 0x09F2E414
+    size: 28
+- name: gSongVoSrDamage00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE504
+    size: 28
+  jp:
+    address: 0x09E967F0
+    size: 28
+  eu:
+    address: 0x09F2E430
+    size: 28
+- name: gSongVoSrDamage02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE520
+    size: 28
+  jp:
+    address: 0x09E9680C
+    size: 28
+  eu:
+    address: 0x09F2E44C
+    size: 28
+- name: gSongVoSrDamage03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE53C
+    size: 28
+  jp:
+    address: 0x09E96828
+    size: 28
+  eu:
+    address: 0x09F2E468
+    size: 28
+- name: gSongVoSrDeath00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE558
+    size: 28
+  jp:
+    address: 0x09E96844
+    size: 28
+  eu:
+    address: 0x09F2E484
+    size: 28
+- name: gSongVoSrFire00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE574
+    size: 28
+  jp:
+    address: 0x09E96860
+    size: 28
+  eu:
+    address: 0x09F2E4A0
+    size: 28
+- name: gSongVoSrBurizad00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE590
+    size: 28
+  jp:
+    address: 0x09E9687C
+    size: 28
+  eu:
+    address: 0x09F2E4BC
+    size: 28
+- name: gSongVoSrThnder00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE5AC
+    size: 28
+  jp:
+    address: 0x09E96898
+    size: 28
+  eu:
+    address: 0x09F2E4D8
+    size: 28
+- name: gSongVoSrCarel00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE5C8
+    size: 28
+  jp:
+    address: 0x09E968B4
+    size: 28
+  eu:
+    address: 0x09F2E4F4
+    size: 28
+- name: gSongVoSrGurabi00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE5E4
+    size: 28
+  jp:
+    address: 0x09E968D0
+    size: 28
+  eu:
+    address: 0x09F2E510
+    size: 28
+- name: gSongVoSrStop00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE600
+    size: 28
+  jp:
+    address: 0x09E968EC
+    size: 28
+  eu:
+    address: 0x09F2E52C
+    size: 28
+- name: gSongVoSrAiro00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE61C
+    size: 28
+  jp:
+    address: 0x09E96908
+    size: 28
+  eu:
+    address: 0x09F2E548
+    size: 28
+- name: gSongVoSrSummon00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE638
+    size: 28
+  jp:
+    address: 0x09E96924
+    size: 28
+  eu:
+    address: 0x09F2E564
+    size: 28
+- name: gSongVoSrSummon01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE654
+    size: 28
+  jp:
+    address: 0x09E96940
+    size: 28
+  eu:
+    address: 0x09F2E580
+    size: 28
+- name: gSongVoSrSummon03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE670
+    size: 28
+  jp:
+    address: 0x09E9695C
+    size: 28
+  eu:
+    address: 0x09F2E59C
+    size: 28
+- name: gSongVoKuAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE68C
+    size: 32
+  jp:
+    address: 0x09E96978
+    size: 32
+  eu:
+    address: 0x09F2E5B8
+    size: 32
+- name: gSongVoKuAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE6AC
+    size: 32
+  jp:
+    address: 0x09E96998
+    size: 32
+  eu:
+    address: 0x09F2E5D8
+    size: 32
+- name: gSongVoKuAttack02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE6CC
+    size: 32
+  jp:
+    address: 0x09E969B8
+    size: 32
+  eu:
+    address: 0x09F2E5F8
+    size: 32
+- name: gSongVoGfAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE6EC
+    size: 32
+  jp:
+    address: 0x09E969D8
+    size: 32
+  eu:
+    address: 0x09F2E618
+    size: 32
+- name: gSongVoDlAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE70C
+    size: 32
+  jp:
+    address: 0x09E969F8
+    size: 32
+  eu:
+    address: 0x09F2E638
+    size: 32
+- name: gSongVoSrSummon04
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE72C
+    size: 28
+  jp:
+    address: 0x09E96A18
+    size: 28
+  eu:
+    address: 0x09F2E658
+    size: 28
+- name: gSongVoSrSummon05
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE748
+    size: 28
+  jp:
+    address: 0x09E96A34
+    size: 28
+  eu:
+    address: 0x09F2E674
+    size: 28
+- name: gSongVoSrSummon06
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE764
+    size: 28
+  jp:
+    address: 0x09E96A50
+    size: 28
+  eu:
+    address: 0x09F2E690
+    size: 28
+- name: gSongVoSrAttack09
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE780
+    size: 28
+  jp:
+    address: 0x09E96A6C
+    size: 28
+  eu:
+    address: 0x09F2E6AC
+    size: 28
+- name: gSongVoSrSummon07
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE79C
+    size: 28
+  jp:
+    address: 0x09E96A88
+    size: 28
+  eu:
+    address: 0x09F2E6C8
+    size: 28
+- name: gSongVoSrSummon08
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE7B8
+    size: 28
+  jp:
+    address: 0x09E96AA4
+    size: 28
+  eu:
+    address: 0x09F2E6E4
+    size: 28
+- name: gSongVoSrSummon09
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE7D4
+    size: 28
+  jp:
+    address: 0x09E96AC0
+    size: 28
+  eu:
+    address: 0x09F2E700
+    size: 28
+- name: gSongVoSrSummon10
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE7F0
+    size: 28
+  jp:
+    address: 0x09E96ADC
+    size: 28
+  eu:
+    address: 0x09F2E71C
+    size: 28
+- name: gSongVoSrSummon11
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE80C
+    size: 28
+  jp:
+    address: 0x09E96AF8
+    size: 28
+  eu:
+    address: 0x09F2E738
+    size: 28
+- name: gSongVoBeAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE828
+    size: 32
+  jp:
+    address: 0x09E96B14
+    size: 32
+  eu:
+    address: 0x09F2E754
+    size: 32
+- name: gSongVoArAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE848
+    size: 32
+  jp:
+    address: 0x09E96B34
+    size: 32
+  eu:
+    address: 0x09F2E774
+    size: 32
+- name: gSongVoPpAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE868
+    size: 32
+  jp:
+    address: 0x09E96B54
+    size: 32
+  eu:
+    address: 0x09F2E794
+    size: 32
+- name: gSongVoAdAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE888
+    size: 32
+  jp:
+    address: 0x09E96B74
+    size: 32
+  eu:
+    address: 0x09F2E7B4
+    size: 32
+- name: gSongVoJcAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE8A8
+    size: 32
+  jp:
+    address: 0x09E96B94
+    size: 32
+  eu:
+    address: 0x09F2E7D4
+    size: 32
+- name: gSongVoJcAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE8C8
+    size: 32
+  jp:
+    address: 0x09E96BB4
+    size: 32
+  eu:
+    address: 0x09F2E7F4
+    size: 32
+- name: gSongVoGeAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE8E8
+    size: 32
+  jp:
+    address: 0x09E96BD4
+    size: 32
+  eu:
+    address: 0x09F2E814
+    size: 32
+- name: gSongVoGeAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE908
+    size: 32
+  jp:
+    address: 0x09E96BF4
+    size: 32
+  eu:
+    address: 0x09F2E834
+    size: 32
+- name: gSongVoGeAttack02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE928
+    size: 32
+  jp:
+    address: 0x09E96C14
+    size: 32
+  eu:
+    address: 0x09F2E854
+    size: 32
+- name: gSongVoHoVoice00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE948
+    size: 28
+  jp:
+    address: 0x09E96C34
+    size: 28
+  eu:
+    address: 0x09F2E874
+    size: 28
+- name: gSongVoHoVoice01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE964
+    size: 28
+  jp:
+    address: 0x09E96C50
+    size: 28
+  eu:
+    address: 0x09F2E890
+    size: 28
+- name: gSongSysChage
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBE980
+    size: 476
+  jp:
+    address: 0x09E96C6C
+    size: 476
+  eu:
+    address: 0x09F2E8AC
+    size: 476
+- name: gSongSysChagef1
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBEB5C
+    size: 76
+  jp:
+    address: 0x09E96E48
+    size: 76
+  eu:
+    address: 0x09F2EA88
+    size: 76
+- name: gSongSysChagef2
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBEBA8
+    size: 144
+  jp:
+    address: 0x09E96E94
+    size: 144
+  eu:
+    address: 0x09F2EAD4
+    size: 144
+- name: gSongSysCardlose
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBEC38
+    size: 48
+  jp:
+    address: 0x09E96F24
+    size: 48
+  eu:
+    address: 0x09F2EB64
+    size: 48
+- name: gSongSysDrow
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBEC68
+    size: 48
+  jp:
+    address: 0x09E96F54
+    size: 48
+  eu:
+    address: 0x09F2EB94
+    size: 48
+- name: gSongSysWorldselect
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBEC98
+    size: 36
+  jp:
+    address: 0x09E96F84
+    size: 36
+  eu:
+    address: 0x09F2EBC4
+    size: 36
+- name: gSongSysWorldstart
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBECBC
+    size: 160
+  jp:
+    address: 0x09E96FA8
+    size: 160
+  eu:
+    address: 0x09F2EBE8
+    size: 160
+- name: gSongSysMouguri
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBED5C
+    size: 40
+  jp:
+    address: 0x09E97048
+    size: 40
+  eu:
+    address: 0x09F2EC88
+    size: 40
+- name: gSongSysTresure
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBED84
+    size: 60
+  jp:
+    address: 0x09E97070
+    size: 60
+  eu:
+    address: 0x09F2ECB0
+    size: 60
+- name: gSongSysDoor2
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBEDC0
+    size: 68
+  jp:
+    address: 0x09E970AC
+    size: 68
+  eu:
+    address: 0x09F2ECEC
+    size: 68
+- name: gSongSysKaihuku
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBEE04
+    size: 40
+  jp:
+    address: 0x09E970F0
+    size: 40
+  eu:
+    address: 0x09F2ED30
+    size: 40
+- name: gSongSysSaveload
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBEE2C
+    size: 40
+  jp:
+    address: 0x09E97118
+    size: 40
+  eu:
+    address: 0x09F2ED58
+    size: 40
+- name: gSongSnd212
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBEE54
+    size: 464
+  jp:
+    address: 0x09E97140
+    size: 464
+  eu:
+    address: 0x09F2ED80
+    size: 464
+- name: gSongSnd213
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF024
+    size: 544
+  jp:
+    address: 0x09E97310
+    size: 544
+  eu:
+    address: 0x09F2EF50
+    size: 544
+- name: gSongSnd214
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF244
+    size: 100
+  jp:
+    address: 0x09E97530
+    size: 100
+  eu:
+    address: 0x09F2F170
+    size: 100
+- name: gSongSnd215
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF2A8
+    size: 88
+  jp:
+    address: 0x09E97594
+    size: 88
+  eu:
+    address: 0x09F2F1D4
+    size: 88
+- name: gSongSnd216
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF300
+    size: 84
+  jp:
+    address: 0x09E975EC
+    size: 84
+  eu:
+    address: 0x09F2F22C
+    size: 84
+- name: gSongSnd217
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF354
+    size: 108
+  jp:
+    address: 0x09E97640
+    size: 108
+  eu:
+    address: 0x09F2F280
+    size: 108
+- name: gSongSnd218
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF3C0
+    size: 92
+  jp:
+    address: 0x09E976AC
+    size: 92
+  eu:
+    address: 0x09F2F2EC
+    size: 92
+- name: gSongSnd219
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF41C
+    size: 132
+  jp:
+    address: 0x09E97708
+    size: 132
+  eu:
+    address: 0x09F2F348
+    size: 132
+- name: gSongSnd220
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF4A0
+    size: 120
+  jp:
+    address: 0x09E9778C
+    size: 120
+  eu:
+    address: 0x09F2F3CC
+    size: 120
+- name: gSongSnd221
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF518
+    size: 100
+  jp:
+    address: 0x09E97804
+    size: 100
+  eu:
+    address: 0x09F2F444
+    size: 100
+- name: gSongSnd222
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF57C
+    size: 96
+  jp:
+    address: 0x09E97868
+    size: 96
+  eu:
+    address: 0x09F2F4A8
+    size: 96
+- name: gSongSnd223
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF5DC
+    size: 120
+  jp:
+    address: 0x09E978C8
+    size: 120
+  eu:
+    address: 0x09F2F508
+    size: 120
+- name: gSongSnd224
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF654
+    size: 60
+  jp:
+    address: 0x09E97940
+    size: 60
+  eu:
+    address: 0x09F2F580
+    size: 60
+- name: gSongSnd225
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF690
+    size: 28
+  jp:
+    address: 0x09E9797C
+    size: 28
+  eu:
+    address: 0x09F2F5BC
+    size: 28
+- name: gSongSnd226
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF6AC
+    size: 28
+  jp:
+    address: 0x09E97998
+    size: 28
+  eu:
+    address: 0x09F2F5D8
+    size: 28
+- name: gSongSnd227
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF6C8
+    size: 28
+  jp:
+    address: 0x09E979B4
+    size: 28
+  eu:
+    address: 0x09F2F5F4
+    size: 28
+- name: gSongSnd228
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF6E4
+    size: 84
+  jp:
+    address: 0x09E979D0
+    size: 84
+  eu:
+    address: 0x09F2F610
+    size: 84
+- name: gSongSnd229
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF738
+    size: 116
+  jp:
+    address: 0x09E97A24
+    size: 116
+  eu:
+    address: 0x09F2F664
+    size: 116
+- name: gSongSnd230
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF7AC
+    size: 124
+  jp:
+    address: 0x09E97A98
+    size: 124
+  eu:
+    address: 0x09F2F6D8
+    size: 124
+- name: gSongSnd231
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF828
+    size: 124
+  jp:
+    address: 0x09E97B14
+    size: 124
+  eu:
+    address: 0x09F2F754
+    size: 124
+- name: gSongSnd232
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF8A4
+    size: 320
+  jp:
+    address: 0x09E97B90
+    size: 320
+  eu:
+    address: 0x09F2F7D0
+    size: 320
+- name: gSongSnd233
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBF9E4
+    size: 96
+  jp:
+    address: 0x09E97CD0
+    size: 96
+  eu:
+    address: 0x09F2F910
+    size: 96
+- name: gSongSnd234
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFA44
+    size: 104
+  jp:
+    address: 0x09E97D30
+    size: 104
+  eu:
+    address: 0x09F2F970
+    size: 104
+- name: gSongSnd235
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFAAC
+    size: 152
+  jp:
+    address: 0x09E97D98
+    size: 152
+  eu:
+    address: 0x09F2F9D8
+    size: 152
+- name: gSongVoLeAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFB44
+    size: 28
+  jp:
+    address: 0x09E97E30
+    size: 28
+  eu:
+    address: 0x09F2FA70
+    size: 28
+- name: gSongVoLeAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFB60
+    size: 28
+  jp:
+    address: 0x09E97E4C
+    size: 28
+  eu:
+    address: 0x09F2FA8C
+    size: 28
+- name: gSongVoHaAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFB7C
+    size: 28
+  jp:
+    address: 0x09E97E68
+    size: 28
+  eu:
+    address: 0x09F2FAA8
+    size: 28
+- name: gSongVoHaAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFB98
+    size: 28
+  jp:
+    address: 0x09E97E84
+    size: 28
+  eu:
+    address: 0x09F2FAC4
+    size: 28
+- name: gSongVoRkAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFBB4
+    size: 28
+  jp:
+    address: 0x09E97EA0
+    size: 28
+  eu:
+    address: 0x09F2FAE0
+    size: 28
+- name: gSongVoRkAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFBD0
+    size: 28
+  jp:
+    address: 0x09E97EBC
+    size: 28
+  eu:
+    address: 0x09F2FAFC
+    size: 28
+- name: gSongVoRkAttack03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFBEC
+    size: 28
+  jp:
+    address: 0x09E97ED8
+    size: 28
+  eu:
+    address: 0x09F2FB18
+    size: 28
+- name: gSongVoRkAttack05
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFC08
+    size: 28
+  jp:
+    address: 0x09E97EF4
+    size: 28
+  eu:
+    address: 0x09F2FB34
+    size: 28
+- name: gSongVoRkAttack06
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFC24
+    size: 28
+  jp:
+    address: 0x09E97F10
+    size: 28
+  eu:
+    address: 0x09F2FB50
+    size: 28
+- name: gSongVoRkAttack04
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFC40
+    size: 28
+  jp:
+    address: 0x09E97F2C
+    size: 28
+  eu:
+    address: 0x09F2FB6C
+    size: 28
+- name: gSongVoRkAttack07
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFC5C
+    size: 28
+  jp:
+    address: 0x09E97F48
+    size: 28
+  eu:
+    address: 0x09F2FB88
+    size: 28
+- name: gSongVoRkAttack02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFC78
+    size: 28
+  jp:
+    address: 0x09E97F64
+    size: 28
+  eu:
+    address: 0x09F2FBA4
+    size: 28
+- name: gSongVoRkAttack08
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFC94
+    size: 28
+  jp:
+    address: 0x09E97F80
+    size: 28
+  eu:
+    address: 0x09F2FBC0
+    size: 28
+- name: gSongVoRkDamage00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFCB0
+    size: 28
+  jp:
+    address: 0x09E97F9C
+    size: 28
+  eu:
+    address: 0x09F2FBDC
+    size: 28
+- name: gSongVoRkDamage01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFCCC
+    size: 28
+  jp:
+    address: 0x09E97FB8
+    size: 28
+  eu:
+    address: 0x09F2FBF8
+    size: 28
+- name: gSongVoRkDamage02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFCE8
+    size: 28
+  jp:
+    address: 0x09E97FD4
+    size: 28
+  eu:
+    address: 0x09F2FC14
+    size: 28
+- name: gSongVoRkDeath00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFD04
+    size: 28
+  jp:
+    address: 0x09E97FF0
+    size: 28
+  eu:
+    address: 0x09F2FC30
+    size: 28
+- name: gSongVoMkuAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFD20
+    size: 28
+  jp:
+    address: 0x09E9800C
+    size: 28
+  eu:
+    address: 0x09F2FC4C
+    size: 28
+- name: gSongVoMkuAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFD3C
+    size: 28
+  jp:
+    address: 0x09E98028
+    size: 28
+  eu:
+    address: 0x09F2FC68
+    size: 28
+- name: gSongVoMkuAttack02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFD58
+    size: 28
+  jp:
+    address: 0x09E98044
+    size: 28
+  eu:
+    address: 0x09F2FC84
+    size: 28
+- name: gSongVoAnAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFD74
+    size: 32
+  jp:
+    address: 0x09E98060
+    size: 32
+  eu:
+    address: 0x09F2FCA0
+    size: 32
+- name: gSongVoAnAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFD94
+    size: 32
+  jp:
+    address: 0x09E98080
+    size: 32
+  eu:
+    address: 0x09F2FCC0
+    size: 32
+- name: gSongVoBoAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFDB4
+    size: 28
+  jp:
+    address: 0x09E980A0
+    size: 28
+  eu:
+    address: 0x09F2FCE0
+    size: 28
+- name: gSongVoUrAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFDD0
+    size: 32
+  jp:
+    address: 0x09E980BC
+    size: 32
+  eu:
+    address: 0x09F2FCFC
+    size: 32
+- name: gSongVoEgDamage00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFDF0
+    size: 40
+  jp:
+    address: 0x09E980DC
+    size: 40
+  eu:
+    address: 0x09F2FD1C
+    size: 40
+- name: gSongVoVicAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFE18
+    size: 32
+  jp:
+    address: 0x09E98104
+    size: 32
+  eu:
+    address: 0x09F2FD44
+    size: 32
+- name: gSongVoVicAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFE38
+    size: 32
+  jp:
+    address: 0x09E98124
+    size: 32
+  eu:
+    address: 0x09F2FD64
+    size: 32
+- name: gSongVoVicAttack02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFE58
+    size: 32
+  jp:
+    address: 0x09E98144
+    size: 32
+  eu:
+    address: 0x09F2FD84
+    size: 32
+- name: gSongVoMarlAttack00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFE78
+    size: 32
+  jp:
+    address: 0x09E98164
+    size: 32
+  eu:
+    address: 0x09F2FDA4
+    size: 32
+- name: gSongVoMarlAttack01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFE98
+    size: 32
+  jp:
+    address: 0x09E98184
+    size: 32
+  eu:
+    address: 0x09F2FDC4
+    size: 32
+- name: gSongVoMarlAttack02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFEB8
+    size: 32
+  jp:
+    address: 0x09E981A4
+    size: 32
+  eu:
+    address: 0x09F2FDE4
+    size: 32
+- name: gSongVoMarlAttack03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFED8
+    size: 32
+  jp:
+    address: 0x09E981C4
+    size: 32
+  eu:
+    address: 0x09F2FE04
+    size: 32
+- name: gSongVoGeEvent00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFEF8
+    size: 32
+  jp:
+    address: 0x09E981E4
+    size: 32
+  eu:
+    address: 0x09F2FE24
+    size: 32
+- name: gSongSnd283
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFF18
+    size: 32
+  jp:
+    address: 0x09E98204
+    size: 32
+  eu:
+    address: 0x09F2FE44
+    size: 32
+- name: gSongSnd284
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFF38
+    size: 32
+  jp:
+    address: 0x09E98224
+    size: 32
+  eu:
+    address: 0x09F2FE64
+    size: 32
+- name: gSongSnd285
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFF58
+    size: 32
+  jp:
+    address: 0x09E98244
+    size: 32
+  eu:
+    address: 0x09F2FE84
+    size: 32
+- name: gSongSnd286
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFF78
+    size: 32
+  jp:
+    address: 0x09E98264
+    size: 32
+  eu:
+    address: 0x09F2FEA4
+    size: 32
+- name: gSongSnd287
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFF98
+    size: 32
+  jp:
+    address: 0x09E98284
+    size: 32
+  eu:
+    address: 0x09F2FEC4
+    size: 32
+- name: gSongSnd288
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFFB8
+    size: 32
+  jp:
+    address: 0x09E982A4
+    size: 32
+  eu:
+    address: 0x09F2FEE4
+    size: 32
+- name: gSongSnd289
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFFD8
+    size: 32
+  jp:
+    address: 0x09E982C4
+    size: 32
+  eu:
+    address: 0x09F2FF04
+    size: 32
+- name: gSongSnd290
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EBFFF8
+    size: 32
+  jp:
+    address: 0x09E982E4
+    size: 32
+  eu:
+    address: 0x09F2FF24
+    size: 32
+- name: gSongSnd291
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0018
+    size: 32
+  jp:
+    address: 0x09E98304
+    size: 32
+  eu:
+    address: 0x09F2FF44
+    size: 32
+- name: gSongSnd292
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0038
+    size: 40
+  jp:
+    address: 0x09E98324
+    size: 40
+  eu:
+    address: 0x09F2FF64
+    size: 40
+- name: gSongEvEv0100
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0060
+    size: 68
+  jp:
+    address: 0x09E9834C
+    size: 68
+  eu:
+    address: 0x09F2FF8C
+    size: 68
+- name: gSongEvEv0101
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC00A4
+    size: 56
+  jp:
+    address: 0x09E98390
+    size: 56
+  eu:
+    address: 0x09F2FFD0
+    size: 56
+- name: gSongEvEv0102
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC00DC
+    size: 36
+  jp:
+    address: 0x09E983C8
+    size: 36
+  eu:
+    address: 0x09F30008
+    size: 36
+- name: gSongEvEv0103
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0100
+    size: 104
+  jp:
+    address: 0x09E983EC
+    size: 104
+  eu:
+    address: 0x09F3002C
+    size: 104
+- name: gSongEvEv0104
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0168
+    size: 184
+  jp:
+    address: 0x09E98454
+    size: 184
+  eu:
+    address: 0x09F30094
+    size: 184
+- name: gSongEvEv0200
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0220
+    size: 64
+  jp:
+    address: 0x09E9850C
+    size: 64
+  eu:
+    address: 0x09F3014C
+    size: 64
+- name: gSongEvEv0201
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0260
+    size: 44
+  jp:
+    address: 0x09E9854C
+    size: 44
+  eu:
+    address: 0x09F3018C
+    size: 44
+- name: gSongEvEv0202
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC028C
+    size: 48
+  jp:
+    address: 0x09E98578
+    size: 48
+  eu:
+    address: 0x09F301B8
+    size: 48
+- name: gSongEvEv0203
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC02BC
+    size: 128
+  jp:
+    address: 0x09E985A8
+    size: 128
+  eu:
+    address: 0x09F301E8
+    size: 128
+- name: gSongEvEv0204
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC033C
+    size: 188
+  jp:
+    address: 0x09E98628
+    size: 188
+  eu:
+    address: 0x09F30268
+    size: 188
+- name: gSongEvEv1000
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC03F8
+    size: 112
+  jp:
+    address: 0x09E986E4
+    size: 112
+  eu:
+    address: 0x09F30324
+    size: 112
+- name: gSongEvEv1001
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0468
+    size: 68
+  jp:
+    address: 0x09E98754
+    size: 68
+  eu:
+    address: 0x09F30394
+    size: 68
+- name: gSongEvEv1002
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC04AC
+    size: 132
+  jp:
+    address: 0x09E98798
+    size: 132
+  eu:
+    address: 0x09F303D8
+    size: 132
+- name: gSongEvEv1003
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0530
+    size: 104
+  jp:
+    address: 0x09E9881C
+    size: 104
+  eu:
+    address: 0x09F3045C
+    size: 104
+- name: gSongEvEv1004
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0598
+    size: 240
+  jp:
+    address: 0x09E98884
+    size: 240
+  eu:
+    address: 0x09F304C4
+    size: 240
+- name: gSongEvEv1100
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0688
+    size: 324
+  jp:
+    address: 0x09E98974
+    size: 324
+  eu:
+    address: 0x09F305B4
+    size: 324
+- name: gSongEvEv1005
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC07CC
+    size: 44
+  jp:
+    address: 0x09E98AB8
+    size: 44
+  eu:
+    address: 0x09F306F8
+    size: 44
+- name: gSongEvEv0205
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC07F8
+    size: 256
+  jp:
+    address: 0x09E98AE4
+    size: 256
+  eu:
+    address: 0x09F30724
+    size: 256
+- name: gSongEvEv1200
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC08F8
+    size: 160
+  jp:
+    address: 0x09E98BE4
+    size: 160
+  eu:
+    address: 0x09F30824
+    size: 160
+- name: gSongEvEv3400
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0998
+    size: 52
+  jp:
+    address: 0x09E98C84
+    size: 52
+  eu:
+    address: 0x09F308C4
+    size: 52
+- name: gSongEvEv3401
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC09CC
+    size: 148
+  jp:
+    address: 0x09E98CB8
+    size: 148
+  eu:
+    address: 0x09F308F8
+    size: 148
+- name: gSongEvEv3402
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0A60
+    size: 320
+  jp:
+    address: 0x09E98D4C
+    size: 320
+  eu:
+    address: 0x09F3098C
+    size: 320
+- name: gSongEvEv3403
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0BA0
+    size: 156
+  jp:
+    address: 0x09E98E8C
+    size: 156
+  eu:
+    address: 0x09F30ACC
+    size: 156
+- name: gSongSnd324
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0C3C
+    size: 148
+  jp:
+    address: 0x09E98F28
+    size: 148
+  eu:
+    address: 0x09F30B68
+    size: 148
+- name: gSongEvNbWalk
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0CD0
+    size: 52
+  jp:
+    address: 0x09E98FBC
+    size: 52
+  eu:
+    address: 0x09F30BFC
+    size: 52
+- name: gSongSysPoWood
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0D04
+    size: 68
+  jp:
+    address: 0x09E98FF0
+    size: 68
+  eu:
+    address: 0x09F30C30
+    size: 68
+- name: gSongSysPoBloon
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0D48
+    size: 44
+  jp:
+    address: 0x09E99034
+    size: 44
+  eu:
+    address: 0x09F30C74
+    size: 44
+- name: gSongSysPoFall
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0D74
+    size: 120
+  jp:
+    address: 0x09E99060
+    size: 120
+  eu:
+    address: 0x09F30CA0
+    size: 120
+- name: gSongSnd329
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0DEC
+    size: 524
+  jp:
+    address: 0x09E990D8
+    size: 524
+  eu:
+    address: 0x09F30D18
+    size: 524
+- name: gSongEvWarpin
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC0FF8
+    size: 164
+  jp:
+    address: 0x09E992E4
+    size: 164
+  eu:
+    address: 0x09F30F24
+    size: 164
+- name: gSongEvWarpout
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC109C
+    size: 164
+  jp:
+    address: 0x09E99388
+    size: 164
+  eu:
+    address: 0x09F30FC8
+    size: 164
+- name: gSongEvFlash00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1140
+    size: 140
+  jp:
+    address: 0x09E9942C
+    size: 140
+  eu:
+    address: 0x09F3106C
+    size: 140
+- name: gSongEvWhoosh
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC11CC
+    size: 104
+  jp:
+    address: 0x09E994B8
+    size: 104
+  eu:
+    address: 0x09F310F8
+    size: 104
+- name: gSongEvCardthr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1234
+    size: 40
+  jp:
+    address: 0x09E99520
+    size: 40
+  eu:
+    address: 0x09F31160
+    size: 40
+- name: gSongEvFlash01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC125C
+    size: 56
+  jp:
+    address: 0x09E99548
+    size: 56
+  eu:
+    address: 0x09F31188
+    size: 56
+- name: gSongEvFlash02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1294
+    size: 92
+  jp:
+    address: 0x09E99580
+    size: 92
+  eu:
+    address: 0x09F311C0
+    size: 92
+- name: gSongEvCardfall
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC12F0
+    size: 500
+  jp:
+    address: 0x09E995DC
+    size: 500
+  eu:
+    address: 0x09F3121C
+    size: 500
+- name: gSongEvTwBell
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC14E4
+    size: 48
+  jp:
+    address: 0x09E997D0
+    size: 48
+  eu:
+    address: 0x09F31410
+    size: 48
+- name: gSongEvRumble
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1514
+    size: 476
+  jp:
+    address: 0x09E99800
+    size: 476
+  eu:
+    address: 0x09F31440
+    size: 476
+- name: gSongEvDlJump
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC16F0
+    size: 84
+  jp:
+    address: 0x09E999DC
+    size: 84
+  eu:
+    address: 0x09F3161C
+    size: 84
+- name: gSongEvGeEntry
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1744
+    size: 412
+  jp:
+    address: 0x09E99A30
+    size: 412
+  eu:
+    address: 0x09F31670
+    size: 412
+- name: gSongEvAlLand
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC18E0
+    size: 60
+  jp:
+    address: 0x09E99BCC
+    size: 60
+  eu:
+    address: 0x09F3180C
+    size: 60
+- name: gSongEvGeFootup
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC191C
+    size: 412
+  jp:
+    address: 0x09E99C08
+    size: 412
+  eu:
+    address: 0x09F31848
+    size: 412
+- name: gSongEvHukuroujump
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1AB8
+    size: 40
+  jp:
+    address: 0x09E99DA4
+    size: 40
+  eu:
+    address: 0x09F319E4
+    size: 40
+- name: gSongEvWhiteout
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1AE0
+    size: 544
+  jp:
+    address: 0x09E99DCC
+    size: 544
+  eu:
+    address: 0x09F31A0C
+    size: 544
+- name: gSongSnd346
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1D00
+    size: 432
+  jp:
+    address: 0x09E99FEC
+    size: 432
+  eu:
+    address: 0x09F31C2C
+    size: 432
+- name: gSongSnd347
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1EB0
+    size: 96
+  jp:
+    address: 0x09E9A19C
+    size: 96
+  eu:
+    address: 0x09F31DDC
+    size: 96
+- name: gSongSnd348
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1F10
+    size: 104
+  jp:
+    address: 0x09E9A1FC
+    size: 104
+  eu:
+    address: 0x09F31E3C
+    size: 104
+- name: gSongSnd349
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC1F78
+    size: 320
+  jp:
+    address: 0x09E9A264
+    size: 320
+  eu:
+    address: 0x09F31EA4
+    size: 320
+- name: gSongSnd350
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC20B8
+    size: 168
+  jp:
+    address: 0x09E9A3A4
+    size: 168
+  eu:
+    address: 0x09F31FE4
+    size: 168
+- name: gSongSnd351
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2160
+    size: 60
+  jp:
+    address: 0x09E9A44C
+    size: 60
+  eu:
+    address: 0x09F3208C
+    size: 60
+- name: gSongSnd352
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC219C
+    size: 652
+  jp:
+    address: 0x09E9A488
+    size: 652
+  eu:
+    address: 0x09F320C8
+    size: 652
+- name: gSongSnd353
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2428
+    size: 120
+  jp:
+    address: 0x09E9A714
+    size: 120
+  eu:
+    address: 0x09F32354
+    size: 120
+- name: gSongSnd354
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC24A0
+    size: 116
+  jp:
+    address: 0x09E9A78C
+    size: 116
+  eu:
+    address: 0x09F323CC
+    size: 116
+- name: gSongSnd355
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2514
+    size: 64
+  jp:
+    address: 0x09E9A800
+    size: 64
+  eu:
+    address: 0x09F32440
+    size: 64
+- name: gSongSnd356
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2554
+    size: 136
+  jp:
+    address: 0x09E9A840
+    size: 136
+  eu:
+    address: 0x09F32480
+    size: 136
+- name: gSongSnd357
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC25DC
+    size: 248
+  jp:
+    address: 0x09E9A8C8
+    size: 248
+  eu:
+    address: 0x09F32508
+    size: 248
+- name: gSongSnd358
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC26D4
+    size: 60
+  jp:
+    address: 0x09E9A9C0
+    size: 60
+  eu:
+    address: 0x09F32600
+    size: 60
+- name: gSongSnd359
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2710
+    size: 64
+  jp:
+    address: 0x09E9A9FC
+    size: 64
+  eu:
+    address: 0x09F3263C
+    size: 64
+- name: gSongSnd360
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2750
+    size: 124
+  jp:
+    address: 0x09E9AA3C
+    size: 124
+  eu:
+    address: 0x09F3267C
+    size: 124
+- name: gSongSnd361
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC27CC
+    size: 304
+  jp:
+    address: 0x09E9AAB8
+    size: 304
+  eu:
+    address: 0x09F326F8
+    size: 304
+- name: gSongSnd362
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC28FC
+    size: 184
+  jp:
+    address: 0x09E9ABE8
+    size: 184
+  eu:
+    address: 0x09F32828
+    size: 184
+- name: gSongSnd363
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC29B4
+    size: 172
+  jp:
+    address: 0x09E9ACA0
+    size: 172
+  eu:
+    address: 0x09F328E0
+    size: 172
+- name: gSongSnd364
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2A60
+    size: 420
+  jp:
+    address: 0x09E9AD4C
+    size: 420
+  eu:
+    address: 0x09F3298C
+    size: 420
+- name: gSongSnd365
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2C04
+    size: 128
+  jp:
+    address: 0x09E9AEF0
+    size: 128
+  eu:
+    address: 0x09F32B30
+    size: 128
+- name: gSongSnd366
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2C84
+    size: 344
+  jp:
+    address: 0x09E9AF70
+    size: 344
+  eu:
+    address: 0x09F32BB0
+    size: 344
+- name: gSongSnd367
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2DDC
+    size: 264
+  jp:
+    address: 0x09E9B0C8
+    size: 264
+  eu:
+    address: 0x09F32D08
+    size: 264
+- name: gSongSnd368
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC2EE4
+    size: 596
+  jp:
+    address: 0x09E9B1D0
+    size: 596
+  eu:
+    address: 0x09F32E10
+    size: 596
+- name: gSongSnd369
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC3138
+    size: 452
+  jp:
+    address: 0x09E9B424
+    size: 452
+  eu:
+    address: 0x09F33064
+    size: 452
+- name: gSongSnd370
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC32FC
+    size: 44
+  jp:
+    address: 0x09E9B5E8
+    size: 44
+  eu:
+    address: 0x09F33228
+    size: 44
+- name: gSongSnd371
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC3328
+    size: 1060
+  jp:
+    address: 0x09E9B614
+    size: 1060
+  eu:
+    address: 0x09F33254
+    size: 1060
+- name: gSongSnd372
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC374C
+    size: 220
+  jp:
+    address: 0x09E9BA38
+    size: 220
+  eu:
+    address: 0x09F33678
+    size: 220
+- name: gSongSnd373
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC3828
+    size: 72
+  jp:
+    address: 0x09E9BB14
+    size: 72
+  eu:
+    address: 0x09F33754
+    size: 72
+- name: gSongSnd374
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC3870
+    size: 68
+  jp:
+    address: 0x09E9BB5C
+    size: 68
+  eu:
+    address: 0x09F3379C
+    size: 68
+- name: gSongSnd375
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC38B4
+    size: 184
+  jp:
+    address: 0x09E9BBA0
+    size: 184
+  eu:
+    address: 0x09F337E0
+    size: 184
+- name: gSongSnd376
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC396C
+    size: 112
+  jp:
+    address: 0x09E9BC58
+    size: 112
+  eu:
+    address: 0x09F33898
+    size: 112
+- name: gSongSnd377
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC39DC
+    size: 892
+  jp:
+    address: 0x09E9BCC8
+    size: 892
+  eu:
+    address: 0x09F33908
+    size: 892
+- name: gSongSnd378
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC3D58
+    size: 336
+  jp:
+    address: 0x09E9C044
+    size: 336
+  eu:
+    address: 0x09F33C84
+    size: 336
+- name: gSongSnd379
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC3EA8
+    size: 348
+  jp:
+    address: 0x09E9C194
+    size: 348
+  eu:
+    address: 0x09F33DD4
+    size: 348
+- name: gSongSnd380
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4004
+    size: 364
+  jp:
+    address: 0x09E9C2F0
+    size: 364
+  eu:
+    address: 0x09F33F30
+    size: 364
+- name: gSongSnd381
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4170
+    size: 164
+  jp:
+    address: 0x09E9C45C
+    size: 164
+  eu:
+    address: 0x09F3409C
+    size: 164
+- name: gSongSnd382
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4214
+    size: 96
+  jp:
+    address: 0x09E9C500
+    size: 96
+  eu:
+    address: 0x09F34140
+    size: 96
+- name: gSongSnd383
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4274
+    size: 80
+  jp:
+    address: 0x09E9C560
+    size: 80
+  eu:
+    address: 0x09F341A0
+    size: 80
+- name: gSongSnd384
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC42C4
+    size: 72
+  jp:
+    address: 0x09E9C5B0
+    size: 72
+  eu:
+    address: 0x09F341F0
+    size: 72
+- name: gSongSnd385
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC430C
+    size: 796
+  jp:
+    address: 0x09E9C5F8
+    size: 796
+  eu:
+    address: 0x09F34238
+    size: 796
+- name: gSongSnd386
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4628
+    size: 288
+  jp:
+    address: 0x09E9C914
+    size: 288
+  eu:
+    address: 0x09F34554
+    size: 288
+- name: gSongSnd387
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4748
+    size: 184
+  jp:
+    address: 0x09E9CA34
+    size: 184
+  eu:
+    address: 0x09F34674
+    size: 184
+- name: gSongSnd388
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4800
+    size: 64
+  jp:
+    address: 0x09E9CAEC
+    size: 64
+  eu:
+    address: 0x09F3472C
+    size: 64
+- name: gSongSnd389
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4840
+    size: 140
+  jp:
+    address: 0x09E9CB2C
+    size: 140
+  eu:
+    address: 0x09F3476C
+    size: 140
+- name: gSongBtlSrAtt00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC48CC
+    size: 52
+  jp:
+    address: 0x09E9CBB8
+    size: 52
+  eu:
+    address: 0x09F347F8
+    size: 52
+- name: gSongBtlSrAtt01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4900
+    size: 52
+  jp:
+    address: 0x09E9CBEC
+    size: 52
+  eu:
+    address: 0x09F3482C
+    size: 52
+- name: gSongBtlSrAtt02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4934
+    size: 68
+  jp:
+    address: 0x09E9CC20
+    size: 68
+  eu:
+    address: 0x09F34860
+    size: 68
+- name: gSongBtlLtHit00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4978
+    size: 72
+  jp:
+    address: 0x09E9CC64
+    size: 72
+  eu:
+    address: 0x09F348A4
+    size: 72
+- name: gSongEfFire00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC49C0
+    size: 116
+  jp:
+    address: 0x09E9CCAC
+    size: 116
+  eu:
+    address: 0x09F348EC
+    size: 116
+- name: gSongEfFire01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4A34
+    size: 96
+  jp:
+    address: 0x09E9CD20
+    size: 96
+  eu:
+    address: 0x09F34960
+    size: 96
+- name: gSongEfFire02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4A94
+    size: 176
+  jp:
+    address: 0x09E9CD80
+    size: 176
+  eu:
+    address: 0x09F349C0
+    size: 176
+- name: gSongEfFire03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4B44
+    size: 284
+  jp:
+    address: 0x09E9CE30
+    size: 284
+  eu:
+    address: 0x09F34A70
+    size: 284
+- name: gSongEfBuriza00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4C60
+    size: 164
+  jp:
+    address: 0x09E9CF4C
+    size: 164
+  eu:
+    address: 0x09F34B8C
+    size: 164
+- name: gSongEfBuriza01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4D04
+    size: 72
+  jp:
+    address: 0x09E9CFF0
+    size: 72
+  eu:
+    address: 0x09F34C30
+    size: 72
+- name: gSongEfBuriza02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4D4C
+    size: 116
+  jp:
+    address: 0x09E9D038
+    size: 116
+  eu:
+    address: 0x09F34C78
+    size: 116
+- name: gSongEfBuriza03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4DC0
+    size: 168
+  jp:
+    address: 0x09E9D0AC
+    size: 168
+  eu:
+    address: 0x09F34CEC
+    size: 168
+- name: gSongEfThund00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4E68
+    size: 100
+  jp:
+    address: 0x09E9D154
+    size: 100
+  eu:
+    address: 0x09F34D94
+    size: 100
+- name: gSongEfThund01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4ECC
+    size: 48
+  jp:
+    address: 0x09E9D1B8
+    size: 48
+  eu:
+    address: 0x09F34DF8
+    size: 48
+- name: gSongEfThund02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4EFC
+    size: 152
+  jp:
+    address: 0x09E9D1E8
+    size: 152
+  eu:
+    address: 0x09F34E28
+    size: 152
+- name: gSongEfThund03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC4F94
+    size: 224
+  jp:
+    address: 0x09E9D280
+    size: 224
+  eu:
+    address: 0x09F34EC0
+    size: 224
+- name: gSongEfCarel00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5074
+    size: 40
+  jp:
+    address: 0x09E9D360
+    size: 40
+  eu:
+    address: 0x09F34FA0
+    size: 40
+- name: gSongEfCarel01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC509C
+    size: 84
+  jp:
+    address: 0x09E9D388
+    size: 84
+  eu:
+    address: 0x09F34FC8
+    size: 84
+- name: gSongEfCarel02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC50F0
+    size: 84
+  jp:
+    address: 0x09E9D3DC
+    size: 84
+  eu:
+    address: 0x09F3501C
+    size: 84
+- name: gSongEfPosion
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5144
+    size: 104
+  jp:
+    address: 0x09E9D430
+    size: 104
+  eu:
+    address: 0x09F35070
+    size: 104
+- name: gSongEfLimimov
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC51AC
+    size: 100
+  jp:
+    address: 0x09E9D498
+    size: 100
+  eu:
+    address: 0x09F350D8
+    size: 100
+- name: gSongEfMonDeath
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5210
+    size: 164
+  jp:
+    address: 0x09E9D4FC
+    size: 164
+  eu:
+    address: 0x09F3513C
+    size: 164
+- name: gSongEfGfhit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC52B4
+    size: 152
+  jp:
+    address: 0x09E9D5A0
+    size: 152
+  eu:
+    address: 0x09F351E0
+    size: 152
+- name: gSongEfKuAtt00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC534C
+    size: 204
+  jp:
+    address: 0x09E9D638
+    size: 204
+  eu:
+    address: 0x09F35278
+    size: 204
+- name: gSongEfKuAtt01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5418
+    size: 208
+  jp:
+    address: 0x09E9D704
+    size: 208
+  eu:
+    address: 0x09F35344
+    size: 208
+- name: gSongEfKuAtt02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC54E8
+    size: 152
+  jp:
+    address: 0x09E9D7D4
+    size: 152
+  eu:
+    address: 0x09F35414
+    size: 152
+- name: gSongBtlGfLoop
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5580
+    size: 172
+  jp:
+    address: 0x09E9D86C
+    size: 172
+  eu:
+    address: 0x09F354AC
+    size: 172
+- name: gSongBtlKuJump
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC562C
+    size: 436
+  jp:
+    address: 0x09E9D918
+    size: 436
+  eu:
+    address: 0x09F35558
+    size: 436
+- name: gSongBtlLbRumb
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC57E0
+    size: 136
+  jp:
+    address: 0x09E9DACC
+    size: 136
+  eu:
+    address: 0x09F3570C
+    size: 136
+- name: gSongBtlMonHit00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5868
+    size: 40
+  jp:
+    address: 0x09E9DB54
+    size: 40
+  eu:
+    address: 0x09F35794
+    size: 40
+- name: gSongBtlMonHit01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5890
+    size: 120
+  jp:
+    address: 0x09E9DB7C
+    size: 120
+  eu:
+    address: 0x09F357BC
+    size: 120
+- name: gSongBtlGard
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5908
+    size: 48
+  jp:
+    address: 0x09E9DBF4
+    size: 48
+  eu:
+    address: 0x09F35834
+    size: 48
+- name: gSongBtlSrFootl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5938
+    size: 28
+  jp:
+    address: 0x09E9DC24
+    size: 28
+  eu:
+    address: 0x09F35864
+    size: 28
+- name: gSongBtlSrFootr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5954
+    size: 28
+  jp:
+    address: 0x09E9DC40
+    size: 28
+  eu:
+    address: 0x09F35880
+    size: 28
+- name: gSongBtlSrJump
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5970
+    size: 28
+  jp:
+    address: 0x09E9DC5C
+    size: 28
+  eu:
+    address: 0x09F3589C
+    size: 28
+- name: gSongBtlSrLand
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC598C
+    size: 36
+  jp:
+    address: 0x09E9DC78
+    size: 36
+  eu:
+    address: 0x09F358B8
+    size: 36
+- name: gSongBtlSrStonel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC59B0
+    size: 28
+  jp:
+    address: 0x09E9DC9C
+    size: 28
+  eu:
+    address: 0x09F358DC
+    size: 28
+- name: gSongBtlSrStoner
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC59CC
+    size: 28
+  jp:
+    address: 0x09E9DCB8
+    size: 28
+  eu:
+    address: 0x09F358F8
+    size: 28
+- name: gSongBtlSrStonejp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC59E8
+    size: 24
+  jp:
+    address: 0x09E9DCD4
+    size: 24
+  eu:
+    address: 0x09F35914
+    size: 24
+- name: gSongBtlSrStoneld
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5A00
+    size: 36
+  jp:
+    address: 0x09E9DCEC
+    size: 36
+  eu:
+    address: 0x09F3592C
+    size: 36
+- name: gSongBtlSrMudl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5A24
+    size: 28
+  jp:
+    address: 0x09E9DD10
+    size: 28
+  eu:
+    address: 0x09F35950
+    size: 28
+- name: gSongBtlSrMudr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5A40
+    size: 28
+  jp:
+    address: 0x09E9DD2C
+    size: 28
+  eu:
+    address: 0x09F3596C
+    size: 28
+- name: gSongBtlSrMudjp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5A5C
+    size: 24
+  jp:
+    address: 0x09E9DD48
+    size: 24
+  eu:
+    address: 0x09F35988
+    size: 24
+- name: gSongBtlSrMudld
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5A74
+    size: 36
+  jp:
+    address: 0x09E9DD60
+    size: 36
+  eu:
+    address: 0x09F359A0
+    size: 36
+- name: gSongBtlRbGard
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5A98
+    size: 56
+  jp:
+    address: 0x09E9DD84
+    size: 56
+  eu:
+    address: 0x09F359C4
+    size: 56
+- name: gSongBtlMonHit02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5AD0
+    size: 40
+  jp:
+    address: 0x09E9DDBC
+    size: 40
+  eu:
+    address: 0x09F359FC
+    size: 40
+- name: gSongEfBossDeads
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5AF8
+    size: 88
+  jp:
+    address: 0x09E9DDE4
+    size: 88
+  eu:
+    address: 0x09F35A24
+    size: 88
+- name: gSongEfBossDeadl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5B50
+    size: 236
+  jp:
+    address: 0x09E9DE3C
+    size: 236
+  eu:
+    address: 0x09F35A7C
+    size: 236
+- name: gSongEfKuAtt03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5C3C
+    size: 88
+  jp:
+    address: 0x09E9DF28
+    size: 88
+  eu:
+    address: 0x09F35B68
+    size: 88
+- name: gSongBtlTableU
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5C94
+    size: 100
+  jp:
+    address: 0x09E9DF80
+    size: 100
+  eu:
+    address: 0x09F35BC0
+    size: 100
+- name: gSongEfKuAtt04
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5CF8
+    size: 84
+  jp:
+    address: 0x09E9DFE4
+    size: 84
+  eu:
+    address: 0x09F35C24
+    size: 84
+- name: gSongBtlDarkdead
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5D4C
+    size: 144
+  jp:
+    address: 0x09E9E038
+    size: 144
+  eu:
+    address: 0x09F35C78
+    size: 144
+- name: gSongEfBossDead1
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5DDC
+    size: 212
+  jp:
+    address: 0x09E9E0C8
+    size: 212
+  eu:
+    address: 0x09F35D08
+    size: 212
+- name: gSongEfBossDead2
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC5EB0
+    size: 740
+  jp:
+    address: 0x09E9E19C
+    size: 740
+  eu:
+    address: 0x09F35DDC
+    size: 740
+- name: gSongEfBossDead3
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6194
+    size: 348
+  jp:
+    address: 0x09E9E480
+    size: 348
+  eu:
+    address: 0x09F360C0
+    size: 348
+- name: gSongEfBossDead4
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC62F0
+    size: 920
+  jp:
+    address: 0x09E9E5DC
+    size: 920
+  eu:
+    address: 0x09F3621C
+    size: 920
+- name: gSongEfTaruBomb
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6688
+    size: 148
+  jp:
+    address: 0x09E9E974
+    size: 148
+  eu:
+    address: 0x09F365B4
+    size: 148
+- name: gSongEfMonUp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC671C
+    size: 44
+  jp:
+    address: 0x09E9EA08
+    size: 44
+  eu:
+    address: 0x09F36648
+    size: 44
+- name: gSongBtlMonSword00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6748
+    size: 44
+  jp:
+    address: 0x09E9EA34
+    size: 44
+  eu:
+    address: 0x09F36674
+    size: 44
+- name: gSongBtlMonSword01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6774
+    size: 52
+  jp:
+    address: 0x09E9EA60
+    size: 52
+  eu:
+    address: 0x09F366A0
+    size: 52
+- name: gSongBtlMonSword02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC67A8
+    size: 44
+  jp:
+    address: 0x09E9EA94
+    size: 44
+  eu:
+    address: 0x09F366D4
+    size: 44
+- name: gSongBtlWmOk
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC67D4
+    size: 48
+  jp:
+    address: 0x09E9EAC0
+    size: 48
+  eu:
+    address: 0x09F36700
+    size: 48
+- name: gSongEfGrabi00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6804
+    size: 216
+  jp:
+    address: 0x09E9EAF0
+    size: 216
+  eu:
+    address: 0x09F36730
+    size: 216
+- name: gSongEfGrabi01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC68DC
+    size: 288
+  jp:
+    address: 0x09E9EBC8
+    size: 288
+  eu:
+    address: 0x09F36808
+    size: 288
+- name: gSongEfGrabi02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC69FC
+    size: 76
+  jp:
+    address: 0x09E9ECE8
+    size: 76
+  eu:
+    address: 0x09F36928
+    size: 76
+- name: gSongEfSummonUp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6A48
+    size: 136
+  jp:
+    address: 0x09E9ED34
+    size: 136
+  eu:
+    address: 0x09F36974
+    size: 136
+- name: gSongBtlBbiJump
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6AD0
+    size: 32
+  jp:
+    address: 0x09E9EDBC
+    size: 32
+  eu:
+    address: 0x09F369FC
+    size: 32
+- name: gSongBtlLt2Sw
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6AF0
+    size: 52
+  jp:
+    address: 0x09E9EDDC
+    size: 52
+  eu:
+    address: 0x09F36A1C
+    size: 52
+- name: gSongEfLt2Hit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6B24
+    size: 56
+  jp:
+    address: 0x09E9EE10
+    size: 56
+  eu:
+    address: 0x09F36A50
+    size: 56
+- name: gSongEfSummonDown
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6B5C
+    size: 216
+  jp:
+    address: 0x09E9EE48
+    size: 216
+  eu:
+    address: 0x09F36A88
+    size: 216
+- name: gSongBtlLvup
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6C34
+    size: 400
+  jp:
+    address: 0x09E9EF20
+    size: 400
+  eu:
+    address: 0x09F36B60
+    size: 400
+- name: gSongBtlCarddeath
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6DC4
+    size: 60
+  jp:
+    address: 0x09E9F0B0
+    size: 60
+  eu:
+    address: 0x09F36CF0
+    size: 60
+- name: gSongEfLimitst
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6E00
+    size: 48
+  jp:
+    address: 0x09E9F0EC
+    size: 48
+  eu:
+    address: 0x09F36D2C
+    size: 48
+- name: gSongEfMonFire
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6E30
+    size: 112
+  jp:
+    address: 0x09E9F11C
+    size: 112
+  eu:
+    address: 0x09F36D5C
+    size: 112
+- name: gSongEfMonBuriza
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6EA0
+    size: 96
+  jp:
+    address: 0x09E9F18C
+    size: 96
+  eu:
+    address: 0x09F36DCC
+    size: 96
+- name: gSongBtlWarpin
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6F00
+    size: 212
+  jp:
+    address: 0x09E9F1EC
+    size: 212
+  eu:
+    address: 0x09F36E2C
+    size: 212
+- name: gSongBtlBoyoyon
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC6FD4
+    size: 120
+  jp:
+    address: 0x09E9F2C0
+    size: 120
+  eu:
+    address: 0x09F36F00
+    size: 120
+- name: gSongBtlKamituki
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC704C
+    size: 68
+  jp:
+    address: 0x09E9F338
+    size: 68
+  eu:
+    address: 0x09F36F78
+    size: 68
+- name: gSongBtlHaneHit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7090
+    size: 64
+  jp:
+    address: 0x09E9F37C
+    size: 64
+  eu:
+    address: 0x09F36FBC
+    size: 64
+- name: gSongBtlDfHit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC70D0
+    size: 124
+  jp:
+    address: 0x09E9F3BC
+    size: 124
+  eu:
+    address: 0x09F36FFC
+    size: 124
+- name: gSongBtlMonSword03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC714C
+    size: 72
+  jp:
+    address: 0x09E9F438
+    size: 72
+  eu:
+    address: 0x09F37078
+    size: 72
+- name: gSongBtlKaitenkiri
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7194
+    size: 112
+  jp:
+    address: 0x09E9F480
+    size: 112
+  eu:
+    address: 0x09F370C0
+    size: 112
+- name: gSongBtlYellowMov
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7204
+    size: 124
+  jp:
+    address: 0x09E9F4F0
+    size: 124
+  eu:
+    address: 0x09F37130
+    size: 124
+- name: gSongBtlYellowHit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7280
+    size: 60
+  jp:
+    address: 0x09E9F56C
+    size: 60
+  eu:
+    address: 0x09F371AC
+    size: 60
+- name: gSongBtlMonHit03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC72BC
+    size: 76
+  jp:
+    address: 0x09E9F5A8
+    size: 76
+  eu:
+    address: 0x09F371E8
+    size: 76
+- name: gSongBtlMonHit04
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7308
+    size: 68
+  jp:
+    address: 0x09E9F5F4
+    size: 68
+  eu:
+    address: 0x09F37234
+    size: 68
+- name: gSongBtlSimbaRoa0
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC734C
+    size: 32
+  jp:
+    address: 0x09E9F638
+    size: 32
+  eu:
+    address: 0x09F37278
+    size: 32
+- name: gSongBtlSimbaRoa1
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC736C
+    size: 32
+  jp:
+    address: 0x09E9F658
+    size: 32
+  eu:
+    address: 0x09F37298
+    size: 32
+- name: gSongBtlSimbaRoa2
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC738C
+    size: 32
+  jp:
+    address: 0x09E9F678
+    size: 32
+  eu:
+    address: 0x09F372B8
+    size: 32
+- name: gSongEfMuFire
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC73AC
+    size: 92
+  jp:
+    address: 0x09E9F698
+    size: 92
+  eu:
+    address: 0x09F372D8
+    size: 92
+- name: gSongEfDamboSploop
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7408
+    size: 276
+  jp:
+    address: 0x09E9F6F4
+    size: 276
+  eu:
+    address: 0x09F37334
+    size: 276
+- name: gSongEfTinkLoop
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC751C
+    size: 164
+  jp:
+    address: 0x09E9F808
+    size: 164
+  eu:
+    address: 0x09F37448
+    size: 164
+- name: gSongBtlArPunchhit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC75C0
+    size: 76
+  jp:
+    address: 0x09E9F8AC
+    size: 76
+  eu:
+    address: 0x09F374EC
+    size: 76
+- name: gSongBtlAdSwordhit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC760C
+    size: 124
+  jp:
+    address: 0x09E9F8F8
+    size: 124
+  eu:
+    address: 0x09F37538
+    size: 124
+- name: gSongBtlPpSwordhit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7688
+    size: 92
+  jp:
+    address: 0x09E9F974
+    size: 92
+  eu:
+    address: 0x09F375B4
+    size: 92
+- name: gSongBtlBuKaiten
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC76E4
+    size: 116
+  jp:
+    address: 0x09E9F9D0
+    size: 116
+  eu:
+    address: 0x09F37610
+    size: 116
+- name: gSongBtlBuTrap
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7758
+    size: 36
+  jp:
+    address: 0x09E9FA44
+    size: 36
+  eu:
+    address: 0x09F37684
+    size: 36
+- name: gSongBtlBuSaku
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC777C
+    size: 60
+  jp:
+    address: 0x09E9FA68
+    size: 60
+  eu:
+    address: 0x09F376A8
+    size: 60
+- name: gSongBtlBuKaifuku
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC77B8
+    size: 160
+  jp:
+    address: 0x09E9FAA4
+    size: 160
+  eu:
+    address: 0x09F376E4
+    size: 160
+- name: gSongBtlBuXai
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7858
+    size: 232
+  jp:
+    address: 0x09E9FB44
+    size: 232
+  eu:
+    address: 0x09F37784
+    size: 232
+- name: gSongBtlIronFootl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7940
+    size: 40
+  jp:
+    address: 0x09E9FC2C
+    size: 40
+  eu:
+    address: 0x09F3786C
+    size: 40
+- name: gSongBtlIronFootr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7968
+    size: 40
+  jp:
+    address: 0x09E9FC54
+    size: 40
+  eu:
+    address: 0x09F37894
+    size: 40
+- name: gSongBtlIronHit00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7990
+    size: 64
+  jp:
+    address: 0x09E9FC7C
+    size: 64
+  eu:
+    address: 0x09F378BC
+    size: 64
+- name: gSongBtlIronRumb
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC79D0
+    size: 128
+  jp:
+    address: 0x09E9FCBC
+    size: 128
+  eu:
+    address: 0x09F378FC
+    size: 128
+- name: gSongEfStop00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7A50
+    size: 116
+  jp:
+    address: 0x09E9FD3C
+    size: 116
+  eu:
+    address: 0x09F3797C
+    size: 116
+- name: gSongEfStop01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7AC4
+    size: 216
+  jp:
+    address: 0x09E9FDB0
+    size: 216
+  eu:
+    address: 0x09F379F0
+    size: 216
+- name: gSongEfStop02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7B9C
+    size: 184
+  jp:
+    address: 0x09E9FE88
+    size: 184
+  eu:
+    address: 0x09F37AC8
+    size: 184
+- name: gSongEfRappaCall
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7C54
+    size: 720
+  jp:
+    address: 0x09E9FF40
+    size: 720
+  eu:
+    address: 0x09F37B80
+    size: 720
+- name: gSongBtlMonHit05
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7F24
+    size: 72
+  jp:
+    address: 0x09EA0210
+    size: 72
+  eu:
+    address: 0x09F37E50
+    size: 72
+- name: gSongBtlMonHit06
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7F6C
+    size: 100
+  jp:
+    address: 0x09EA0258
+    size: 100
+  eu:
+    address: 0x09F37E98
+    size: 100
+- name: gSongEfBfgGass
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC7FD0
+    size: 248
+  jp:
+    address: 0x09EA02BC
+    size: 248
+  eu:
+    address: 0x09F37EFC
+    size: 248
+- name: gSongBtlSrSlip
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC80C8
+    size: 40
+  jp:
+    address: 0x09EA03B4
+    size: 40
+  eu:
+    address: 0x09F37FF4
+    size: 40
+- name: gSongBtlBwPachin
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC80F0
+    size: 56
+  jp:
+    address: 0x09EA03DC
+    size: 56
+  eu:
+    address: 0x09F3801C
+    size: 56
+- name: gSongBtlPkTaiata
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8128
+    size: 60
+  jp:
+    address: 0x09EA0414
+    size: 60
+  eu:
+    address: 0x09F38054
+    size: 60
+- name: gSongBtlPkBeem
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8164
+    size: 256
+  jp:
+    address: 0x09EA0450
+    size: 256
+  eu:
+    address: 0x09F38090
+    size: 256
+- name: gSongBtlSwordflash
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8264
+    size: 88
+  jp:
+    address: 0x09EA0550
+    size: 88
+  eu:
+    address: 0x09F38190
+    size: 88
+- name: gSongBtlMonSword04
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC82BC
+    size: 100
+  jp:
+    address: 0x09EA05A8
+    size: 100
+  eu:
+    address: 0x09F381E8
+    size: 100
+- name: gSongBtlIronbreak
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8320
+    size: 96
+  jp:
+    address: 0x09EA060C
+    size: 96
+  eu:
+    address: 0x09F3824C
+    size: 96
+- name: gSongBtlIronGimicbreak
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8380
+    size: 144
+  jp:
+    address: 0x09EA066C
+    size: 144
+  eu:
+    address: 0x09F382AC
+    size: 144
+- name: gSongBtlGmicOk
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8410
+    size: 192
+  jp:
+    address: 0x09EA06FC
+    size: 192
+  eu:
+    address: 0x09F3833C
+    size: 192
+- name: gSongBtlHaIkari
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC84D0
+    size: 148
+  jp:
+    address: 0x09EA07BC
+    size: 148
+  eu:
+    address: 0x09F383FC
+    size: 148
+- name: gSongBtlHaBallshot
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8564
+    size: 92
+  jp:
+    address: 0x09EA0850
+    size: 92
+  eu:
+    address: 0x09F38490
+    size: 92
+- name: gSongEfHaFingfire
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC85C0
+    size: 64
+  jp:
+    address: 0x09EA08AC
+    size: 64
+  eu:
+    address: 0x09F384EC
+    size: 64
+- name: gSongBtlBeAtt01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8600
+    size: 60
+  jp:
+    address: 0x09EA08EC
+    size: 60
+  eu:
+    address: 0x09F3852C
+    size: 60
+- name: gSongBtlBeAtt02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC863C
+    size: 124
+  jp:
+    address: 0x09EA0928
+    size: 124
+  eu:
+    address: 0x09F38568
+    size: 124
+- name: gSongBtlAnStandentry
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC86B8
+    size: 632
+  jp:
+    address: 0x09EA09A4
+    size: 632
+  eu:
+    address: 0x09F385E4
+    size: 632
+- name: gSongEfAnStandup
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8930
+    size: 212
+  jp:
+    address: 0x09EA0C1C
+    size: 212
+  eu:
+    address: 0x09F3885C
+    size: 212
+- name: gSongEfTlimit01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8A04
+    size: 96
+  jp:
+    address: 0x09EA0CF0
+    size: 96
+  eu:
+    address: 0x09F38930
+    size: 96
+- name: gSongEfTlimit02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8A64
+    size: 248
+  jp:
+    address: 0x09EA0D50
+    size: 248
+  eu:
+    address: 0x09F38990
+    size: 248
+- name: gSongEfTlimit03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8B5C
+    size: 76
+  jp:
+    address: 0x09EA0E48
+    size: 76
+  eu:
+    address: 0x09F38A88
+    size: 76
+- name: gSongEfTlimit04
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8BA8
+    size: 672
+  jp:
+    address: 0x09EA0E94
+    size: 672
+  eu:
+    address: 0x09F38AD4
+    size: 672
+- name: gSongBtlJfUp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8E48
+    size: 324
+  jp:
+    address: 0x09EA1134
+    size: 324
+  eu:
+    address: 0x09F38D74
+    size: 324
+- name: gSongBtlJfBallthr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC8F8C
+    size: 328
+  jp:
+    address: 0x09EA1278
+    size: 328
+  eu:
+    address: 0x09F38EB8
+    size: 328
+- name: gSongEfJfBallhit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC90D4
+    size: 88
+  jp:
+    address: 0x09EA13C0
+    size: 88
+  eu:
+    address: 0x09F39000
+    size: 88
+- name: gSongEfJfBeem
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC912C
+    size: 160
+  jp:
+    address: 0x09EA1418
+    size: 160
+  eu:
+    address: 0x09F39058
+    size: 160
+- name: gSongEfDbossDead
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC91CC
+    size: 840
+  jp:
+    address: 0x09EA14B8
+    size: 840
+  eu:
+    address: 0x09F390F8
+    size: 840
+- name: gSongEfRagna01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9514
+    size: 576
+  jp:
+    address: 0x09EA1800
+    size: 576
+  eu:
+    address: 0x09F39440
+    size: 576
+- name: gSongEfRagna02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9754
+    size: 236
+  jp:
+    address: 0x09EA1A40
+    size: 236
+  eu:
+    address: 0x09F39680
+    size: 236
+- name: gSongEfAnWave
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9840
+    size: 248
+  jp:
+    address: 0x09EA1B2C
+    size: 248
+  eu:
+    address: 0x09F3976C
+    size: 248
+- name: gSongBtlAnWavehit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9938
+    size: 160
+  jp:
+    address: 0x09EA1C24
+    size: 160
+  eu:
+    address: 0x09F39864
+    size: 160
+- name: gSongBtlUrBubble
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC99D8
+    size: 200
+  jp:
+    address: 0x09EA1CC4
+    size: 200
+  eu:
+    address: 0x09F39904
+    size: 200
+- name: gSongEfUrBubbhit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9AA0
+    size: 84
+  jp:
+    address: 0x09EA1D8C
+    size: 84
+  eu:
+    address: 0x09F399CC
+    size: 84
+- name: gSongEfUrBeem
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9AF4
+    size: 196
+  jp:
+    address: 0x09EA1DE0
+    size: 196
+  eu:
+    address: 0x09F39A20
+    size: 196
+- name: gSongEfStanimp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9BB8
+    size: 184
+  jp:
+    address: 0x09EA1EA4
+    size: 184
+  eu:
+    address: 0x09F39AE4
+    size: 184
+- name: gSongEfZantetsu
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9C70
+    size: 336
+  jp:
+    address: 0x09EA1F5C
+    size: 336
+  eu:
+    address: 0x09F39B9C
+    size: 336
+- name: gSongBtlVicSwordhit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9DC0
+    size: 92
+  jp:
+    address: 0x09EA20AC
+    size: 92
+  eu:
+    address: 0x09F39CEC
+    size: 92
+- name: gSongBtlVicIcep
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9E1C
+    size: 60
+  jp:
+    address: 0x09EA2108
+    size: 60
+  eu:
+    address: 0x09F39D48
+    size: 60
+- name: gSongBtlVicGroundice
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9E58
+    size: 92
+  jp:
+    address: 0x09EA2144
+    size: 92
+  eu:
+    address: 0x09F39D84
+    size: 92
+- name: gSongBtlVicIcefall
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9EB4
+    size: 128
+  jp:
+    address: 0x09EA21A0
+    size: 128
+  eu:
+    address: 0x09F39DE0
+    size: 128
+- name: gSongBtlAklWthr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9F34
+    size: 116
+  jp:
+    address: 0x09EA2220
+    size: 116
+  eu:
+    address: 0x09F39E60
+    size: 116
+- name: gSongBtlAklFireentry
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09EC9FA8
+    size: 156
+  jp:
+    address: 0x09EA2294
+    size: 156
+  eu:
+    address: 0x09F39ED4
+    size: 156
+- name: gSongBtlAklFirethr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA044
+    size: 304
+  jp:
+    address: 0x09EA2330
+    size: 304
+  eu:
+    address: 0x09F39F70
+    size: 304
+- name: gSongEfMlcSnichit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA174
+    size: 84
+  jp:
+    address: 0x09EA2460
+    size: 84
+  eu:
+    address: 0x09F3A0A0
+    size: 84
+- name: gSongBtlBanbihit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA1C8
+    size: 120
+  jp:
+    address: 0x09EA24B4
+    size: 120
+  eu:
+    address: 0x09F3A0F4
+    size: 120
+- name: gSongEfAklFirewall
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA240
+    size: 172
+  jp:
+    address: 0x09EA252C
+    size: 172
+  eu:
+    address: 0x09F3A16C
+    size: 172
+- name: gSongBtlRkHit00
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA2EC
+    size: 92
+  jp:
+    address: 0x09EA25D8
+    size: 92
+  eu:
+    address: 0x09F3A218
+    size: 92
+- name: gSongBtlRkHit01
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA348
+    size: 92
+  jp:
+    address: 0x09EA2634
+    size: 92
+  eu:
+    address: 0x09F3A274
+    size: 92
+- name: gSongBtlRkHit02
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA3A4
+    size: 96
+  jp:
+    address: 0x09EA2690
+    size: 96
+  eu:
+    address: 0x09F3A2D0
+    size: 96
+- name: gSongBtlRkHit03
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA404
+    size: 100
+  jp:
+    address: 0x09EA26F0
+    size: 100
+  eu:
+    address: 0x09F3A330
+    size: 100
+- name: gSongEfShocflor
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA468
+    size: 88
+  jp:
+    address: 0x09EA2754
+    size: 88
+  eu:
+    address: 0x09F3A394
+    size: 88
+- name: gSongEfXmas
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA4C0
+    size: 512
+  jp:
+    address: 0x09EA27AC
+    size: 512
+  eu:
+    address: 0x09F3A3EC
+    size: 512
+- name: gSongEfTeler
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA6C0
+    size: 84
+  jp:
+    address: 0x09EA29AC
+    size: 84
+  eu:
+    address: 0x09F3A5EC
+    size: 84
+- name: gSongEfHolly
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA714
+    size: 632
+  jp:
+    address: 0x09EA2A00
+    size: 632
+  eu:
+    address: 0x09F3A640
+    size: 632
+- name: gSongEfSync1
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECA98C
+    size: 396
+  jp:
+    address: 0x09EA2C78
+    size: 396
+  eu:
+    address: 0x09F3A8B8
+    size: 396
+- name: gSongEfSync2
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECAB18
+    size: 244
+  jp:
+    address: 0x09EA2E04
+    size: 244
+  eu:
+    address: 0x09F3AA44
+    size: 244
+- name: gSongEfBind
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECAC0C
+    size: 428
+  jp:
+    address: 0x09EA2EF8
+    size: 428
+  eu:
+    address: 0x09F3AB38
+    size: 428
+- name: gSongEfTrunedo
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECADB8
+    size: 412
+  jp:
+    address: 0x09EA30A4
+    size: 412
+  eu:
+    address: 0x09F3ACE4
+    size: 412
+- name: gSongEfKueik
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECAF54
+    size: 468
+  jp:
+    address: 0x09EA3240
+    size: 468
+  eu:
+    address: 0x09F3AE80
+    size: 468
+- name: gSongEfTelep
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB128
+    size: 240
+  jp:
+    address: 0x09EA3414
+    size: 240
+  eu:
+    address: 0x09F3B054
+    size: 240
+- name: gSongEfDrheet
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB218
+    size: 92
+  jp:
+    address: 0x09EA3504
+    size: 92
+  eu:
+    address: 0x09F3B144
+    size: 92
+- name: gSongBtlRkLimitentry
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB274
+    size: 36
+  jp:
+    address: 0x09EA3560
+    size: 36
+  eu:
+    address: 0x09F3B1A0
+    size: 36
+- name: gSongEfRkLimitmov
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB298
+    size: 244
+  jp:
+    address: 0x09EA3584
+    size: 244
+  eu:
+    address: 0x09F3B1C4
+    size: 244
+- name: gSongEfVicIcebreak
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB38C
+    size: 128
+  jp:
+    address: 0x09EA3678
+    size: 128
+  eu:
+    address: 0x09F3B2B8
+    size: 128
+- name: gSongEfRacBeementry
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB40C
+    size: 60
+  jp:
+    address: 0x09EA36F8
+    size: 60
+  eu:
+    address: 0x09F3B338
+    size: 60
+- name: gSongEfRacBeem
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB448
+    size: 116
+  jp:
+    address: 0x09EA3734
+    size: 116
+  eu:
+    address: 0x09F3B374
+    size: 116
+- name: gSongBtlRacHit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB4BC
+    size: 116
+  jp:
+    address: 0x09EA37A8
+    size: 116
+  eu:
+    address: 0x09F3B3E8
+    size: 116
+- name: gSongEfRac3tr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB530
+    size: 132
+  jp:
+    address: 0x09EA381C
+    size: 132
+  eu:
+    address: 0x09F3B45C
+    size: 132
+- name: gSongBtlDrgnBite
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB5B4
+    size: 100
+  jp:
+    address: 0x09EA38A0
+    size: 100
+  eu:
+    address: 0x09F3B4E0
+    size: 100
+- name: gSongEfDrgnFire
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB618
+    size: 260
+  jp:
+    address: 0x09EA3904
+    size: 260
+  eu:
+    address: 0x09F3B544
+    size: 260
+- name: gSongBtlDrgnRumb
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB71C
+    size: 100
+  jp:
+    address: 0x09EA3A08
+    size: 100
+  eu:
+    address: 0x09F3B648
+    size: 100
+- name: gSongBtlDrgnGimic
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB780
+    size: 104
+  jp:
+    address: 0x09EA3A6C
+    size: 104
+  eu:
+    address: 0x09F3B6AC
+    size: 104
+- name: gSongBtlMarlStamp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB7E8
+    size: 60
+  jp:
+    address: 0x09EA3AD4
+    size: 60
+  eu:
+    address: 0x09F3B714
+    size: 60
+- name: gSongEfMarlGround
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECB824
+    size: 508
+  jp:
+    address: 0x09EA3B10
+    size: 508
+  eu:
+    address: 0x09F3B750
+    size: 508
+- name: gSongBtlMarlGroundhit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECBA20
+    size: 180
+  jp:
+    address: 0x09EA3D0C
+    size: 180
+  eu:
+    address: 0x09F3B94C
+    size: 180
+- name: gSongEfMarlKamaef
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECBAD4
+    size: 224
+  jp:
+    address: 0x09EA3DC0
+    size: 224
+  eu:
+    address: 0x09F3BA00
+    size: 224
+- name: gSongBtlMarlEfehit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECBBB4
+    size: 140
+  jp:
+    address: 0x09EA3EA0
+    size: 140
+  eu:
+    address: 0x09F3BAE0
+    size: 140
+- name: gSongEfMarlHanabira
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECBC40
+    size: 640
+  jp:
+    address: 0x09EA3F2C
+    size: 640
+  eu:
+    address: 0x09F3BB6C
+    size: 640
+- name: gSongBtlEtcHit05
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECBEC0
+    size: 180
+  jp:
+    address: 0x09EA41AC
+    size: 180
+  eu:
+    address: 0x09F3BDEC
+    size: 180
+- name: gSongBtlLecHit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECBF74
+    size: 60
+  jp:
+    address: 0x09EA4260
+    size: 60
+  eu:
+    address: 0x09F3BEA0
+    size: 60
+- name: gSongBtlLecThrsw
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECBFB0
+    size: 280
+  jp:
+    address: 0x09EA429C
+    size: 280
+  eu:
+    address: 0x09F3BEDC
+    size: 280
+- name: gSongBtlLecThr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC0C8
+    size: 84
+  jp:
+    address: 0x09EA43B4
+    size: 84
+  eu:
+    address: 0x09F3BFF4
+    size: 84
+- name: gSongBtlLecThrhit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC11C
+    size: 88
+  jp:
+    address: 0x09EA4408
+    size: 88
+  eu:
+    address: 0x09F3C048
+    size: 88
+- name: gSongBtlLecWepup
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC174
+    size: 268
+  jp:
+    address: 0x09EA4460
+    size: 268
+  eu:
+    address: 0x09F3C0A0
+    size: 268
+- name: gSongBtlHaFireentry
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC280
+    size: 156
+  jp:
+    address: 0x09EA456C
+    size: 156
+  eu:
+    address: 0x09F3C1AC
+    size: 156
+- name: gSongBtlLecRockb1
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC31C
+    size: 236
+  jp:
+    address: 0x09EA4608
+    size: 236
+  eu:
+    address: 0x09F3C248
+    size: 236
+- name: gSongBtlLecRockb2
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC408
+    size: 128
+  jp:
+    address: 0x09EA46F4
+    size: 128
+  eu:
+    address: 0x09F3C334
+    size: 128
+- name: gSongBtlLecJmpkueiku
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC488
+    size: 108
+  jp:
+    address: 0x09EA4774
+    size: 108
+  eu:
+    address: 0x09F3C3B4
+    size: 108
+- name: gSongEfAiro
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC4F4
+    size: 128
+  jp:
+    address: 0x09EA47E0
+    size: 128
+  eu:
+    address: 0x09F3C420
+    size: 128
+- name: gSongEfAiroHit
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC574
+    size: 308
+  jp:
+    address: 0x09EA4860
+    size: 308
+  eu:
+    address: 0x09F3C4A0
+    size: 308
+- name: gSongEfDsAnkokupunch
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC6A8
+    size: 92
+  jp:
+    address: 0x09EA4994
+    size: 92
+  eu:
+    address: 0x09F3C5D4
+    size: 92
+- name: gSongEfDsBeem
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC704
+    size: 156
+  jp:
+    address: 0x09EA49F0
+    size: 156
+  eu:
+    address: 0x09F3C630
+    size: 156
+- name: gSongSnd701
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC7A0
+    size: 212
+  jp:
+    address: 0x09EA4A8C
+    size: 212
+  eu:
+    address: 0x09F3C6CC
+    size: 212
+- name: gSongSnd702
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECC874
+    size: 540
+  jp:
+    address: 0x09EA4B60
+    size: 540
+  eu:
+    address: 0x09F3C7A0
+    size: 540
+- name: gSongSnd703
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECCA90
+    size: 60
+  jp:
+    address: 0x09EA4D7C
+    size: 60
+  eu:
+    address: 0x09F3C9BC
+    size: 60
+- name: gSongSnd704
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECCACC
+    size: 256
+  jp:
+    address: 0x09EA4DB8
+    size: 256
+  eu:
+    address: 0x09F3C9F8
+    size: 256
+- name: gSongSnd705
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECCBCC
+    size: 236
+  jp:
+    address: 0x09EA4EB8
+    size: 236
+  eu:
+    address: 0x09F3CAF8
+    size: 236
+- name: gSongSnd706
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECCCB8
+    size: 332
+  jp:
+    address: 0x09EA4FA4
+    size: 332
+  eu:
+    address: 0x09F3CBE4
+    size: 332
+- name: gSongSnd707
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECCE04
+    size: 128
+  jp:
+    address: 0x09EA50F0
+    size: 128
+  eu:
+    address: 0x09F3CD30
+    size: 128
+- name: gSongSnd708
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECCE84
+    size: 68
+  jp:
+    address: 0x09EA5170
+    size: 68
+  eu:
+    address: 0x09F3CDB0
+    size: 68
+- name: gSongSnd709
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECCEC8
+    size: 400
+  jp:
+    address: 0x09EA51B4
+    size: 400
+  eu:
+    address: 0x09F3CDF4
+    size: 400
+- name: gSongSnd710
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECD058
+    size: 244
+  jp:
+    address: 0x09EA5344
+    size: 244
+  eu:
+    address: 0x09F3CF84
+    size: 244
+- name: gSongSnd711
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECD14C
+    size: 484
+  jp:
+    address: 0x09EA5438
+    size: 484
+  eu:
+    address: 0x09F3D078
+    size: 484
+- name: gSongSnd712
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECD330
+    size: 64
+  jp:
+    address: 0x09EA561C
+    size: 64
+  eu:
+    address: 0x09F3D25C
+    size: 64
+- name: gSongSnd713
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECD370
+    size: 940
+  jp:
+    address: 0x09EA565C
+    size: 940
+  eu:
+    address: 0x09F3D29C
+    size: 940
+- name: gSongSnd714
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECD71C
+    size: 108
+  jp:
+    address: 0x09EA5A08
+    size: 108
+  eu:
+    address: 0x09F3D648
+    size: 108
+- name: gSongSnd715
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECD788
+    size: 60
+  jp:
+    address: 0x09EA5A74
+    size: 60
+  eu:
+    address: 0x09F3D6B4
+    size: 60
+- name: gSongSnd716
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECD7C4
+    size: 332
+  jp:
+    address: 0x09EA5AB0
+    size: 332
+  eu:
+    address: 0x09F3D6F0
+    size: 332
+- name: gSongSnd717
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECD910
+    size: 92
+  jp:
+    address: 0x09EA5BFC
+    size: 92
+  eu:
+    address: 0x09F3D83C
+    size: 92
+- name: gSongSnd718
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECD96C
+    size: 576
+  jp:
+    address: 0x09EA5C58
+    size: 576
+  eu:
+    address: 0x09F3D898
+    size: 576
+- name: gSongSnd719
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECDBAC
+    size: 1012
+  jp:
+    address: 0x09EA5E98
+    size: 1012
+  eu:
+    address: 0x09F3DAD8
+    size: 1012
+- name: gSongSnd720
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECDFA0
+    size: 60
+  jp:
+    address: 0x09EA628C
+    size: 60
+  eu:
+    address: 0x09F3DECC
+    size: 60
+- name: gSongSnd721
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECDFDC
+    size: 304
+  jp:
+    address: 0x09EA62C8
+    size: 304
+  eu:
+    address: 0x09F3DF08
+    size: 304
+- name: gSongEvSrDirtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE10C
+    size: 28
+  jp:
+    address: 0x09EA63F8
+    size: 28
+  eu:
+    address: 0x09F3E038
+    size: 28
+- name: gSongEvSrDirtr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE128
+    size: 28
+  jp:
+    address: 0x09EA6414
+    size: 28
+  eu:
+    address: 0x09F3E054
+    size: 28
+- name: gSongEvSrDirtjp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE144
+    size: 40
+  jp:
+    address: 0x09EA6430
+    size: 40
+  eu:
+    address: 0x09F3E070
+    size: 40
+- name: gSongEvSrDirtld
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE16C
+    size: 44
+  jp:
+    address: 0x09EA6458
+    size: 44
+  eu:
+    address: 0x09F3E098
+    size: 44
+- name: gSongEvSrStonel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE198
+    size: 28
+  jp:
+    address: 0x09EA6484
+    size: 28
+  eu:
+    address: 0x09F3E0C4
+    size: 28
+- name: gSongEvSrStoner
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE1B4
+    size: 28
+  jp:
+    address: 0x09EA64A0
+    size: 28
+  eu:
+    address: 0x09F3E0E0
+    size: 28
+- name: gSongEvSrStonejp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE1D0
+    size: 44
+  jp:
+    address: 0x09EA64BC
+    size: 44
+  eu:
+    address: 0x09F3E0FC
+    size: 44
+- name: gSongEvSrStoneld
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE1FC
+    size: 44
+  jp:
+    address: 0x09EA64E8
+    size: 44
+  eu:
+    address: 0x09F3E128
+    size: 44
+- name: gSongEvSrMudl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE228
+    size: 28
+  jp:
+    address: 0x09EA6514
+    size: 28
+  eu:
+    address: 0x09F3E154
+    size: 28
+- name: gSongEvSrMudr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE244
+    size: 28
+  jp:
+    address: 0x09EA6530
+    size: 28
+  eu:
+    address: 0x09F3E170
+    size: 28
+- name: gSongEvSrMudjp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE260
+    size: 44
+  jp:
+    address: 0x09EA654C
+    size: 44
+  eu:
+    address: 0x09F3E18C
+    size: 44
+- name: gSongEvSrMudld
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE28C
+    size: 44
+  jp:
+    address: 0x09EA6578
+    size: 44
+  eu:
+    address: 0x09F3E1B8
+    size: 44
+- name: gSongEvDlStoneL
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE2B8
+    size: 28
+  jp:
+    address: 0x09EA65A4
+    size: 28
+  eu:
+    address: 0x09F3E1E4
+    size: 28
+- name: gSongEvDlStoneR
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE2D4
+    size: 28
+  jp:
+    address: 0x09EA65C0
+    size: 28
+  eu:
+    address: 0x09F3E200
+    size: 28
+- name: gSongEvGfStoneL
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE2F0
+    size: 28
+  jp:
+    address: 0x09EA65DC
+    size: 28
+  eu:
+    address: 0x09F3E21C
+    size: 28
+- name: gSongEvGfStoneR
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE30C
+    size: 28
+  jp:
+    address: 0x09EA65F8
+    size: 28
+  eu:
+    address: 0x09F3E238
+    size: 28
+- name: gSongEvDlDirtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE328
+    size: 28
+  jp:
+    address: 0x09EA6614
+    size: 28
+  eu:
+    address: 0x09F3E254
+    size: 28
+- name: gSongEvDlDirtr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE344
+    size: 28
+  jp:
+    address: 0x09EA6630
+    size: 28
+  eu:
+    address: 0x09F3E270
+    size: 28
+- name: gSongEvGfDirtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE360
+    size: 28
+  jp:
+    address: 0x09EA664C
+    size: 28
+  eu:
+    address: 0x09F3E28C
+    size: 28
+- name: gSongEvGfDirtr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE37C
+    size: 28
+  jp:
+    address: 0x09EA6668
+    size: 28
+  eu:
+    address: 0x09F3E2A8
+    size: 28
+- name: gSongEvDlMudl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE398
+    size: 28
+  jp:
+    address: 0x09EA6684
+    size: 28
+  eu:
+    address: 0x09F3E2C4
+    size: 28
+- name: gSongEvDlMudr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE3B4
+    size: 28
+  jp:
+    address: 0x09EA66A0
+    size: 28
+  eu:
+    address: 0x09F3E2E0
+    size: 28
+- name: gSongEvGfMudl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE3D0
+    size: 28
+  jp:
+    address: 0x09EA66BC
+    size: 28
+  eu:
+    address: 0x09F3E2FC
+    size: 28
+- name: gSongEvGfMudr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE3EC
+    size: 28
+  jp:
+    address: 0x09EA66D8
+    size: 28
+  eu:
+    address: 0x09F3E318
+    size: 28
+- name: gSongEvPiFootl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE408
+    size: 28
+  jp:
+    address: 0x09EA66F4
+    size: 28
+  eu:
+    address: 0x09F3E334
+    size: 28
+- name: gSongEvPiFootr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE424
+    size: 28
+  jp:
+    address: 0x09EA6710
+    size: 28
+  eu:
+    address: 0x09F3E350
+    size: 28
+- name: gSongSysPooFootl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE440
+    size: 28
+  jp:
+    address: 0x09EA672C
+    size: 28
+  eu:
+    address: 0x09F3E36C
+    size: 28
+- name: gSongSysPooFootr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE45C
+    size: 28
+  jp:
+    address: 0x09EA6748
+    size: 28
+  eu:
+    address: 0x09F3E388
+    size: 28
+- name: gSongEvManDirtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE478
+    size: 28
+  jp:
+    address: 0x09EA6764
+    size: 28
+  eu:
+    address: 0x09F3E3A4
+    size: 28
+- name: gSongEvManDirtr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE494
+    size: 28
+  jp:
+    address: 0x09EA6780
+    size: 28
+  eu:
+    address: 0x09F3E3C0
+    size: 28
+- name: gSongEvManStonel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE4B0
+    size: 28
+  jp:
+    address: 0x09EA679C
+    size: 28
+  eu:
+    address: 0x09F3E3DC
+    size: 28
+- name: gSongEvManStoner
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE4CC
+    size: 28
+  jp:
+    address: 0x09EA67B8
+    size: 28
+  eu:
+    address: 0x09F3E3F8
+    size: 28
+- name: gSongEvManMudl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE4E8
+    size: 28
+  jp:
+    address: 0x09EA67D4
+    size: 28
+  eu:
+    address: 0x09F3E414
+    size: 28
+- name: gSongEvManMudr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE504
+    size: 28
+  jp:
+    address: 0x09EA67F0
+    size: 28
+  eu:
+    address: 0x09F3E430
+    size: 28
+- name: gSongEvManWoodl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE520
+    size: 28
+  jp:
+    address: 0x09EA680C
+    size: 28
+  eu:
+    address: 0x09F3E44C
+    size: 28
+- name: gSongEvManWoodr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE53C
+    size: 28
+  jp:
+    address: 0x09EA6828
+    size: 28
+  eu:
+    address: 0x09F3E468
+    size: 28
+- name: gSongEvManMarblel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE558
+    size: 28
+  jp:
+    address: 0x09EA6844
+    size: 28
+  eu:
+    address: 0x09F3E484
+    size: 28
+- name: gSongEvManMarbler
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE574
+    size: 28
+  jp:
+    address: 0x09EA6860
+    size: 28
+  eu:
+    address: 0x09F3E4A0
+    size: 28
+- name: gSongEvMan2Dirtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE590
+    size: 28
+  jp:
+    address: 0x09EA687C
+    size: 28
+  eu:
+    address: 0x09F3E4BC
+    size: 28
+- name: gSongEvMan2Dirtr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE5AC
+    size: 28
+  jp:
+    address: 0x09EA6898
+    size: 28
+  eu:
+    address: 0x09F3E4D8
+    size: 28
+- name: gSongEvMan2Stonel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE5C8
+    size: 28
+  jp:
+    address: 0x09EA68B4
+    size: 28
+  eu:
+    address: 0x09F3E4F4
+    size: 28
+- name: gSongEvMan2Stoner
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE5E4
+    size: 28
+  jp:
+    address: 0x09EA68D0
+    size: 28
+  eu:
+    address: 0x09F3E510
+    size: 28
+- name: gSongEvWomanDirtL
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE600
+    size: 28
+  jp:
+    address: 0x09EA68EC
+    size: 28
+  eu:
+    address: 0x09F3E52C
+    size: 28
+- name: gSongEvWomanDirtR
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE61C
+    size: 28
+  jp:
+    address: 0x09EA6908
+    size: 28
+  eu:
+    address: 0x09F3E548
+    size: 28
+- name: gSongEvWomanStonel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE638
+    size: 28
+  jp:
+    address: 0x09EA6924
+    size: 28
+  eu:
+    address: 0x09F3E564
+    size: 28
+- name: gSongEvWomanStoner
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE654
+    size: 28
+  jp:
+    address: 0x09EA6940
+    size: 28
+  eu:
+    address: 0x09F3E580
+    size: 28
+- name: gSongEvManRmarblel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE670
+    size: 32
+  jp:
+    address: 0x09EA695C
+    size: 32
+  eu:
+    address: 0x09F3E59C
+    size: 32
+- name: gSongEvManRmarbler
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE690
+    size: 32
+  jp:
+    address: 0x09EA697C
+    size: 32
+  eu:
+    address: 0x09F3E5BC
+    size: 32
+- name: gSongEvWomanRstonel
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE6B0
+    size: 32
+  jp:
+    address: 0x09EA699C
+    size: 32
+  eu:
+    address: 0x09F3E5DC
+    size: 32
+- name: gSongEvWomanRstoner
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE6D0
+    size: 32
+  jp:
+    address: 0x09EA69BC
+    size: 32
+  eu:
+    address: 0x09F3E5FC
+    size: 32
+- name: gSongEvWoman2Dirtl
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE6F0
+    size: 28
+  jp:
+    address: 0x09EA69DC
+    size: 28
+  eu:
+    address: 0x09F3E61C
+    size: 28
+- name: gSongEvWoman2Dirtr
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE70C
+    size: 28
+  jp:
+    address: 0x09EA69F8
+    size: 28
+  eu:
+    address: 0x09F3E638
+    size: 28
+- name: gSongSysTiggerJp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE728
+    size: 36
+  jp:
+    address: 0x09EA6A14
+    size: 36
+  eu:
+    address: 0x09F3E654
+    size: 36
+- name: gSongSysLuJp
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE74C
+    size: 152
+  jp:
+    address: 0x09EA6A38
+    size: 152
+  eu:
+    address: 0x09F3E678
+    size: 152
+- name: gSongSnd954
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE7E4
+    size: 60
+  jp:
+    address: 0x09EA6AD0
+    size: 60
+  eu:
+    address: 0x09F3E710
+    size: 60
+- name: gSongSnd955
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE820
+    size: 60
+  jp:
+    address: 0x09EA6B0C
+    size: 60
+  eu:
+    address: 0x09F3E74C
+    size: 60
+- name: gSongSnd956
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE85C
+    size: 60
+  jp:
+    address: 0x09EA6B48
+    size: 60
+  eu:
+    address: 0x09F3E788
+    size: 60
+- name: gSongSnd957
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE898
+    size: 60
+  jp:
+    address: 0x09EA6B84
+    size: 60
+  eu:
+    address: 0x09F3E7C4
+    size: 60
+- name: gSongSnd958
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE8D4
+    size: 28
+  jp:
+    address: 0x09EA6BC0
+    size: 28
+  eu:
+    address: 0x09F3E800
+    size: 28
+- name: gSongSnd959
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE8F0
+    size: 28
+  jp:
+    address: 0x09EA6BDC
+    size: 28
+  eu:
+    address: 0x09F3E81C
+    size: 28
+- name: gSongSnd960
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE90C
+    size: 68
+  jp:
+    address: 0x09EA6BF8
+    size: 68
+  eu:
+    address: 0x09F3E838
+    size: 68
+- name: gSongSnd961
+  format: song
+  align: 4
+  type: SongHeader
+  us:
+    address: 0x09ECE950
+    size: 64
+  jp:
+    address: 0x09EA6C3C
+    size: 64
+  eu:
+    address: 0x09F3E87C
+    size: 64

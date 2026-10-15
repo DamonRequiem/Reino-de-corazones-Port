@@ -1,0 +1,2075 @@
+pool: localized_names
+types:
+  JiminyLocalizedName:
+    fields:
+    - {name: strings, type: ptr, count: 5}
+  LocalizedText:
+    fields:
+    - {name: strings, type: ptr, count: 5}
+formats:
+  world_names: {encoding: game, align: 1, ctype: const JiminyTextChar, header: jiminy_types.h}
+  names: {encoding: game, align: 1, ctype: const JiminyTextChar, count: exact, header: jiminy_types.h}
+fragments:
+  eu:
+  - name: world_names.inc
+    format: world_names
+    start: 0x0888E310
+    end: 0x0888E4D4
+    entries:
+    - gWorldNameTraverseTown
+    - gWorldNameTraverseTownFrench
+    - gWorldNameTraverseTownGerman
+    - gWorldNameTraverseTownItalian
+    - gWorldNameTraverseTownSpanish
+    - {name: gWorldNameTraverseTownByLanguage, record: JiminyLocalizedName, strings: [gWorldNameTraverseTown, gWorldNameTraverseTownFrench, gWorldNameTraverseTownGerman, gWorldNameTraverseTownItalian, gWorldNameTraverseTownSpanish]}
+    - gWorldNameAgrabah
+    - gWorldNameAgrabahFrench
+    - gWorldNameAgrabahGerman
+    - gWorldNameAgrabahItalian
+    - gWorldNameAgrabahSpanish
+    - {name: gWorldNameAgrabahByLanguage, record: JiminyLocalizedName, strings: [gWorldNameAgrabah, gWorldNameAgrabahFrench, gWorldNameAgrabahGerman, gWorldNameAgrabahItalian, gWorldNameAgrabahSpanish]}
+    - gWorldNameWonderland
+    - gWorldNameWonderlandFrench
+    - gWorldNameWonderlandGerman
+    - gWorldNameWonderlandItalian
+    - gWorldNameWonderlandSpanish
+    - {name: gWorldNameWonderlandByLanguage, record: JiminyLocalizedName, strings: [gWorldNameWonderland, gWorldNameWonderlandFrench, gWorldNameWonderlandGerman, gWorldNameWonderlandItalian, gWorldNameWonderlandSpanish]}
+    - gWorldNameMonstro
+    - gWorldNameMonstroFrench
+    - gWorldNameMonstroGerman
+    - gWorldNameMonstroItalian
+    - gWorldNameMonstroSpanish
+    - {name: gWorldNameMonstroByLanguage, record: JiminyLocalizedName, strings: [gWorldNameMonstro, gWorldNameMonstroFrench, gWorldNameMonstroGerman, gWorldNameMonstroItalian, gWorldNameMonstroSpanish]}
+    - gWorldNameHalloweenTown
+    - gWorldNameHalloweenTownFrench
+    - gWorldNameHalloweenTownGerman
+    - gWorldNameHalloweenTownItalian
+    - gWorldNameHalloweenTownSpanish
+    - {name: gWorldNameHalloweenTownByLanguage, record: JiminyLocalizedName, strings: [gWorldNameHalloweenTown, gWorldNameHalloweenTownFrench, gWorldNameHalloweenTownGerman, gWorldNameHalloweenTownItalian, gWorldNameHalloweenTownSpanish]}
+  - name: localized_names.inc
+    format: names
+    start: 0x0888E4D4
+    end: 0x088964C0
+    entries:
+    - gWorldNameOlympusColiseum
+    - gWorldNameOlympusColiseumFrench
+    - gWorldNameOlympusColiseumGerman
+    - gWorldNameOlympusColiseumItalian
+    - gWorldNameOlympusColiseumSpanish
+    - {name: gWorldNameOlympusColiseumByLanguage, record: JiminyLocalizedName, strings: [gWorldNameOlympusColiseum, gWorldNameOlympusColiseumFrench, gWorldNameOlympusColiseumGerman, gWorldNameOlympusColiseumItalian, gWorldNameOlympusColiseumSpanish]}
+    - gWorldNameAtlantica
+    - gWorldNameAtlanticaFrench
+    - gWorldNameAtlanticaGerman
+    - gWorldNameAtlanticaItalian
+    - gWorldNameAtlanticaSpanish
+    - {name: gWorldNameAtlanticaByLanguage, record: JiminyLocalizedName, strings: [gWorldNameAtlantica, gWorldNameAtlanticaFrench, gWorldNameAtlanticaGerman, gWorldNameAtlanticaItalian, gWorldNameAtlanticaSpanish]}
+    - gWorldNameNeverLand
+    - gWorldNameNeverLandFrench
+    - gWorldNameNeverLandGerman
+    - gWorldNameNeverLandItalian
+    - gWorldNameNeverLandSpanish
+    - {name: gWorldNameNeverLandByLanguage, record: JiminyLocalizedName, strings: [gWorldNameNeverLand, gWorldNameNeverLandFrench, gWorldNameNeverLandGerman, gWorldNameNeverLandItalian, gWorldNameNeverLandSpanish]}
+    - gWorldName100AcreWood
+    - gWorldName100AcreWoodFrench
+    - gWorldName100AcreWoodGerman
+    - gWorldName100AcreWoodItalian
+    - gWorldName100AcreWoodSpanish
+    - {name: gWorldName100AcreWoodByLanguage, record: JiminyLocalizedName, strings: [gWorldName100AcreWood, gWorldName100AcreWoodFrench, gWorldName100AcreWoodGerman, gWorldName100AcreWoodItalian, gWorldName100AcreWoodSpanish]}
+    - gWorldNameHollowBastion
+    - gWorldNameHollowBastionFrench
+    - gWorldNameHollowBastionGerman
+    - gWorldNameHollowBastionItalian
+    - gWorldNameHollowBastionSpanish
+    - {name: gWorldNameHollowBastionByLanguage, record: JiminyLocalizedName, strings: [gWorldNameHollowBastion, gWorldNameHollowBastionFrench, gWorldNameHollowBastionGerman, gWorldNameHollowBastionItalian, gWorldNameHollowBastionSpanish]}
+    - gWorldNameDestinyIslands
+    - gWorldNameDestinyIslandsFrench
+    - gWorldNameDestinyIslandsGerman
+    - gWorldNameDestinyIslandsItalian
+    - gWorldNameDestinyIslandsSpanish
+    - {name: gWorldNameDestinyIslandsByLanguage, record: JiminyLocalizedName, strings: [gWorldNameDestinyIslands, gWorldNameDestinyIslandsFrench, gWorldNameDestinyIslandsGerman, gWorldNameDestinyIslandsItalian, gWorldNameDestinyIslandsSpanish]}
+    - gWorldNameTwilightTown
+    - gWorldNameTwilightTownFrench
+    - gWorldNameTwilightTownGerman
+    - gWorldNameTwilightTownItalian
+    - gWorldNameTwilightTownSpanish
+    - {name: gWorldNameTwilightTownByLanguage, record: JiminyLocalizedName, strings: [gWorldNameTwilightTown, gWorldNameTwilightTownFrench, gWorldNameTwilightTownGerman, gWorldNameTwilightTownItalian, gWorldNameTwilightTownSpanish]}
+    - gWorldNameCastleOblivion
+    - gWorldNameCastleOblivionFrench
+    - gWorldNameCastleOblivionGerman
+    - gWorldNameCastleOblivionItalian
+    - gWorldNameCastleOblivionSpanish
+    - {name: gWorldNameCastleOblivionByLanguage, record: JiminyLocalizedName, strings: [gWorldNameCastleOblivion, gWorldNameCastleOblivionFrench, gWorldNameCastleOblivionGerman, gWorldNameCastleOblivionItalian, gWorldNameCastleOblivionSpanish]}
+    - gCardNameKingdomKey
+    - gCardNameKingdomKeyFrench
+    - gCardNameKingdomKeyGerman
+    - gCardNameKingdomKeyItalian
+    - gCardNameKingdomKeySpanish
+    - {name: gCardNameKingdomKeyByLanguage, record: JiminyLocalizedName, strings: [gCardNameKingdomKey, gCardNameKingdomKeyFrench, gCardNameKingdomKeyGerman, gCardNameKingdomKeyItalian, gCardNameKingdomKeySpanish]}
+    - gCardNameThreeWishes
+    - gCardNameThreeWishesFrench
+    - gCardNameThreeWishesGerman
+    - gCardNameThreeWishesItalian
+    - gCardNameThreeWishesSpanish
+    - {name: gCardNameThreeWishesByLanguage, record: JiminyLocalizedName, strings: [gCardNameThreeWishes, gCardNameThreeWishesFrench, gCardNameThreeWishesGerman, gCardNameThreeWishesItalian, gCardNameThreeWishesSpanish]}
+    - gCardNameCrabclaw
+    - gCardNameCrabclawFrench
+    - gCardNameCrabclawGerman
+    - gCardNameCrabclawItalian
+    - gCardNameCrabclawSpanish
+    - {name: gCardNameCrabclawByLanguage, record: JiminyLocalizedName, strings: [gCardNameCrabclaw, gCardNameCrabclawFrench, gCardNameCrabclawGerman, gCardNameCrabclawItalian, gCardNameCrabclawSpanish]}
+    - gCardNamePumpkinhead
+    - gCardNamePumpkinheadFrench
+    - gCardNamePumpkinheadGerman
+    - gCardNamePumpkinheadItalian
+    - gCardNamePumpkinheadSpanish
+    - {name: gCardNamePumpkinheadByLanguage, record: JiminyLocalizedName, strings: [gCardNamePumpkinhead, gCardNamePumpkinheadFrench, gCardNamePumpkinheadGerman, gCardNamePumpkinheadItalian, gCardNamePumpkinheadSpanish]}
+    - gCardNameFairyHarp
+    - gCardNameFairyHarpFrench
+    - gCardNameFairyHarpGerman
+    - gCardNameFairyHarpItalian
+    - gCardNameFairyHarpSpanish
+    - {name: gCardNameFairyHarpByLanguage, record: JiminyLocalizedName, strings: [gCardNameFairyHarp, gCardNameFairyHarpFrench, gCardNameFairyHarpGerman, gCardNameFairyHarpItalian, gCardNameFairyHarpSpanish]}
+    - gCardNameWishingStar
+    - gCardNameWishingStarFrench
+    - gCardNameWishingStarGerman
+    - gCardNameWishingStarItalian
+    - gCardNameWishingStarSpanish
+    - {name: gCardNameWishingStarByLanguage, record: JiminyLocalizedName, strings: [gCardNameWishingStar, gCardNameWishingStarFrench, gCardNameWishingStarGerman, gCardNameWishingStarItalian, gCardNameWishingStarSpanish]}
+    - gCardNameSpellbinder
+    - gCardNameSpellbinderFrench
+    - gCardNameSpellbinderGerman
+    - gCardNameSpellbinderItalian
+    - gCardNameSpellbinderSpanish
+    - {name: gCardNameSpellbinderByLanguage, record: JiminyLocalizedName, strings: [gCardNameSpellbinder, gCardNameSpellbinderFrench, gCardNameSpellbinderGerman, gCardNameSpellbinderItalian, gCardNameSpellbinderSpanish]}
+    - gCardNameMetalChocobo
+    - gCardNameMetalChocoboFrench
+    - gCardNameMetalChocoboGerman
+    - gCardNameMetalChocoboItalian
+    - gCardNameMetalChocoboSpanish
+    - {name: gCardNameMetalChocoboByLanguage, record: JiminyLocalizedName, strings: [gCardNameMetalChocobo, gCardNameMetalChocoboFrench, gCardNameMetalChocoboGerman, gCardNameMetalChocoboItalian, gCardNameMetalChocoboSpanish]}
+    - gCardNameOlympia
+    - gCardNameOlympiaFrench
+    - gCardNameOlympiaGerman
+    - gCardNameOlympiaItalian
+    - gCardNameOlympiaSpanish
+    - {name: gCardNameOlympiaByLanguage, record: JiminyLocalizedName, strings: [gCardNameOlympia, gCardNameOlympiaFrench, gCardNameOlympiaGerman, gCardNameOlympiaItalian, gCardNameOlympiaSpanish]}
+    - gCardNameLionheart
+    - gCardNameLionheartFrench
+    - gCardNameLionheartGerman
+    - gCardNameLionheartItalian
+    - gCardNameLionheartSpanish
+    - {name: gCardNameLionheartByLanguage, record: JiminyLocalizedName, strings: [gCardNameLionheart, gCardNameLionheartFrench, gCardNameLionheartGerman, gCardNameLionheartItalian, gCardNameLionheartSpanish]}
+    - gCardNameLadyLuck
+    - gCardNameLadyLuckFrench
+    - gCardNameLadyLuckGerman
+    - gCardNameLadyLuckItalian
+    - gCardNameLadyLuckSpanish
+    - {name: gCardNameLadyLuckByLanguage, record: JiminyLocalizedName, strings: [gCardNameLadyLuck, gCardNameLadyLuckFrench, gCardNameLadyLuckGerman, gCardNameLadyLuckItalian, gCardNameLadyLuckSpanish]}
+    - gCardNameDivineRose
+    - gCardNameDivineRoseFrench
+    - gCardNameDivineRoseGerman
+    - gCardNameDivineRoseItalian
+    - gCardNameDivineRoseSpanish
+    - {name: gCardNameDivineRoseByLanguage, record: JiminyLocalizedName, strings: [gCardNameDivineRose, gCardNameDivineRoseFrench, gCardNameDivineRoseGerman, gCardNameDivineRoseItalian, gCardNameDivineRoseSpanish]}
+    - gCardNameOathkeeper
+    - gCardNameOathkeeperFrench
+    - gCardNameOathkeeperGerman
+    - gCardNameOathkeeperItalian
+    - gCardNameOathkeeperSpanish
+    - {name: gCardNameOathkeeperByLanguage, record: JiminyLocalizedName, strings: [gCardNameOathkeeper, gCardNameOathkeeperFrench, gCardNameOathkeeperGerman, gCardNameOathkeeperItalian, gCardNameOathkeeperSpanish]}
+    - gCardNameOblivion
+    - gCardNameOblivionFrench
+    - gCardNameOblivionGerman
+    - gCardNameOblivionItalian
+    - gCardNameOblivionSpanish
+    - {name: gCardNameOblivionByLanguage, record: JiminyLocalizedName, strings: [gCardNameOblivion, gCardNameOblivionFrench, gCardNameOblivionGerman, gCardNameOblivionItalian, gCardNameOblivionSpanish]}
+    - gCardNameUltimaWeapon
+    - gCardNameUltimaWeaponFrench
+    - gCardNameUltimaWeaponGerman
+    - gCardNameUltimaWeaponItalian
+    - gCardNameUltimaWeaponSpanish
+    - {name: gCardNameUltimaWeaponByLanguage, record: JiminyLocalizedName, strings: [gCardNameUltimaWeapon, gCardNameUltimaWeaponFrench, gCardNameUltimaWeaponGerman, gCardNameUltimaWeaponItalian, gCardNameUltimaWeaponSpanish]}
+    - gCardNameDiamondDust
+    - gCardNameDiamondDustFrench
+    - gCardNameDiamondDustGerman
+    - gCardNameDiamondDustItalian
+    - gCardNameDiamondDustSpanish
+    - {name: gCardNameDiamondDustByLanguage, record: JiminyLocalizedName, strings: [gCardNameDiamondDust, gCardNameDiamondDustFrench, gCardNameDiamondDustGerman, gCardNameDiamondDustItalian, gCardNameDiamondDustSpanish]}
+    - gCardNameOneWingedAngel
+    - gCardNameOneWingedAngelFrench
+    - gCardNameOneWingedAngelGerman
+    - gCardNameOneWingedAngelItalian
+    - gCardNameOneWingedAngelSpanish
+    - {name: gCardNameOneWingedAngelByLanguage, record: JiminyLocalizedName, strings: [gCardNameOneWingedAngel, gCardNameOneWingedAngelFrench, gCardNameOneWingedAngelGerman, gCardNameOneWingedAngelItalian, gCardNameOneWingedAngelSpanish]}
+    - gCardNameFire
+    - gCardNameFireFrench
+    - gCardNameFireGerman
+    - gCardNameFireItalian
+    - gCardNameFireSpanish
+    - {name: gCardNameFireByLanguage, record: JiminyLocalizedName, strings: [gCardNameFire, gCardNameFireFrench, gCardNameFireGerman, gCardNameFireItalian, gCardNameFireSpanish]}
+    - gCardNameBlizzard
+    - gCardNameBlizzardFrench
+    - gCardNameBlizzardGerman
+    - gCardNameBlizzardItalian
+    - gCardNameBlizzardSpanish
+    - {name: gCardNameBlizzardByLanguage, record: JiminyLocalizedName, strings: [gCardNameBlizzard, gCardNameBlizzardFrench, gCardNameBlizzardGerman, gCardNameBlizzardItalian, gCardNameBlizzardSpanish]}
+    - gCardNameThunder
+    - gCardNameThunderFrench
+    - gCardNameThunderGerman
+    - gCardNameThunderItalian
+    - gCardNameThunderSpanish
+    - {name: gCardNameThunderByLanguage, record: JiminyLocalizedName, strings: [gCardNameThunder, gCardNameThunderFrench, gCardNameThunderGerman, gCardNameThunderItalian, gCardNameThunderSpanish]}
+    - gCardNameCure
+    - gCardNameCureFrench
+    - gCardNameCureGerman
+    - gCardNameCureItalian
+    - gCardNameCureSpanish
+    - {name: gCardNameCureByLanguage, record: JiminyLocalizedName, strings: [gCardNameCure, gCardNameCureFrench, gCardNameCureGerman, gCardNameCureItalian, gCardNameCureSpanish]}
+    - gCardNameGravity
+    - gCardNameGravityFrench
+    - gCardNameGravityGerman
+    - gCardNameGravityItalian
+    - gCardNameGravitySpanish
+    - {name: gCardNameGravityByLanguage, record: JiminyLocalizedName, strings: [gCardNameGravity, gCardNameGravityFrench, gCardNameGravityGerman, gCardNameGravityItalian, gCardNameGravitySpanish]}
+    - gCardNameStop
+    - gCardNameStopFrench
+    - gCardNameStopGerman
+    - gCardNameStopItalian
+    - gCardNameStopSpanish
+    - {name: gCardNameStopByLanguage, record: JiminyLocalizedName, strings: [gCardNameStop, gCardNameStopFrench, gCardNameStopGerman, gCardNameStopItalian, gCardNameStopSpanish]}
+    - gCardNameAero
+    - gCardNameAeroFrench
+    - gCardNameAeroGerman
+    - gCardNameAeroItalian
+    - gCardNameAeroSpanish
+    - {name: gCardNameAeroByLanguage, record: JiminyLocalizedName, strings: [gCardNameAero, gCardNameAeroFrench, gCardNameAeroGerman, gCardNameAeroItalian, gCardNameAeroSpanish]}
+    - gCardNameSimba
+    - gCardNameSimbaFrench
+    - gCardNameSimbaGerman
+    - gCardNameSimbaItalian
+    - gCardNameSimbaSpanish
+    - {name: gCardNameSimbaByLanguage, record: JiminyLocalizedName, strings: [gCardNameSimba, gCardNameSimbaFrench, gCardNameSimbaGerman, gCardNameSimbaItalian, gCardNameSimbaSpanish]}
+    - gCardNameGenie
+    - gCardNameGenieFrench
+    - gCardNameGenieGerman
+    - gCardNameGenieItalian
+    - gCardNameGenieSpanish
+    - {name: gCardNameGenieByLanguage, record: JiminyLocalizedName, strings: [gCardNameGenie, gCardNameGenieFrench, gCardNameGenieGerman, gCardNameGenieItalian, gCardNameGenieSpanish]}
+    - gCardNameBambi
+    - gCardNameBambiFrench
+    - gCardNameBambiGerman
+    - gCardNameBambiItalian
+    - gCardNameBambiSpanish
+    - {name: gCardNameBambiByLanguage, record: JiminyLocalizedName, strings: [gCardNameBambi, gCardNameBambiFrench, gCardNameBambiGerman, gCardNameBambiItalian, gCardNameBambiSpanish]}
+    - gCardNameDumbo
+    - gCardNameDumboFrench
+    - gCardNameDumboGerman
+    - gCardNameDumboItalian
+    - gCardNameDumboSpanish
+    - {name: gCardNameDumboByLanguage, record: JiminyLocalizedName, strings: [gCardNameDumbo, gCardNameDumboFrench, gCardNameDumboGerman, gCardNameDumboItalian, gCardNameDumboSpanish]}
+    - gCardNameTinkerBell
+    - gCardNameTinkerBellFrench
+    - gCardNameTinkerBellGerman
+    - gCardNameTinkerBellItalian
+    - gCardNameTinkerBellSpanish
+    - {name: gCardNameTinkerBellByLanguage, record: JiminyLocalizedName, strings: [gCardNameTinkerBell, gCardNameTinkerBellFrench, gCardNameTinkerBellGerman, gCardNameTinkerBellItalian, gCardNameTinkerBellSpanish]}
+    - gCardNameMushu
+    - gCardNameMushuFrench
+    - gCardNameMushuGerman
+    - gCardNameMushuItalian
+    - gCardNameMushuSpanish
+    - {name: gCardNameMushuByLanguage, record: JiminyLocalizedName, strings: [gCardNameMushu, gCardNameMushuFrench, gCardNameMushuGerman, gCardNameMushuItalian, gCardNameMushuSpanish]}
+    - gCardNameCloud
+    - gCardNameCloudFrench
+    - gCardNameCloudGerman
+    - gCardNameCloudItalian
+    - gCardNameCloudSpanish
+    - {name: gCardNameCloudByLanguage, record: JiminyLocalizedName, strings: [gCardNameCloud, gCardNameCloudFrench, gCardNameCloudGerman, gCardNameCloudItalian, gCardNameCloudSpanish]}
+    - gCardNamePotion
+    - gCardNamePotionFrench
+    - gCardNamePotionGerman
+    - gCardNamePotionItalian
+    - gCardNamePotionSpanish
+    - {name: gCardNamePotionByLanguage, record: JiminyLocalizedName, strings: [gCardNamePotion, gCardNamePotionFrench, gCardNamePotionGerman, gCardNamePotionItalian, gCardNamePotionSpanish]}
+    - gCardNameHiPotion
+    - gCardNameHiPotionFrench
+    - gCardNameHiPotionGerman
+    - gCardNameHiPotionItalian
+    - gCardNameHiPotionSpanish
+    - {name: gCardNameHiPotionByLanguage, record: JiminyLocalizedName, strings: [gCardNameHiPotion, gCardNameHiPotionFrench, gCardNameHiPotionGerman, gCardNameHiPotionItalian, gCardNameHiPotionSpanish]}
+    - gCardNameMegaPotion
+    - gCardNameMegaPotionFrench
+    - gCardNameMegaPotionGerman
+    - gCardNameMegaPotionItalian
+    - gCardNameMegaPotionSpanish
+    - {name: gCardNameMegaPotionByLanguage, record: JiminyLocalizedName, strings: [gCardNameMegaPotion, gCardNameMegaPotionFrench, gCardNameMegaPotionGerman, gCardNameMegaPotionItalian, gCardNameMegaPotionSpanish]}
+    - gCardNameEther
+    - gCardNameEtherFrench
+    - gCardNameEtherGerman
+    - gCardNameEtherItalian
+    - gCardNameEtherSpanish
+    - {name: gCardNameEtherByLanguage, record: JiminyLocalizedName, strings: [gCardNameEther, gCardNameEtherFrench, gCardNameEtherGerman, gCardNameEtherItalian, gCardNameEtherSpanish]}
+    - gCardNameMegaEther
+    - gCardNameMegaEtherFrench
+    - gCardNameMegaEtherGerman
+    - gCardNameMegaEtherItalian
+    - gCardNameMegaEtherSpanish
+    - {name: gCardNameMegaEtherByLanguage, record: JiminyLocalizedName, strings: [gCardNameMegaEther, gCardNameMegaEtherFrench, gCardNameMegaEtherGerman, gCardNameMegaEtherItalian, gCardNameMegaEtherSpanish]}
+    - gCardNameElixir
+    - gCardNameElixirFrench
+    - gCardNameElixirGerman
+    - gCardNameElixirItalian
+    - gCardNameElixirSpanish
+    - {name: gCardNameElixirByLanguage, record: JiminyLocalizedName, strings: [gCardNameElixir, gCardNameElixirFrench, gCardNameElixirGerman, gCardNameElixirItalian, gCardNameElixirSpanish]}
+    - gCardNameMegalixir
+    - gCardNameMegalixirFrench
+    - gCardNameMegalixirGerman
+    - gCardNameMegalixirItalian
+    - gCardNameMegalixirSpanish
+    - {name: gCardNameMegalixirByLanguage, record: JiminyLocalizedName, strings: [gCardNameMegalixir, gCardNameMegalixirFrench, gCardNameMegalixirGerman, gCardNameMegalixirItalian, gCardNameMegalixirSpanish]}
+    - gCardNameDonaldDuck
+    - gCardNameDonaldDuckFrench
+    - gCardNameDonaldDuckGerman
+    - gCardNameDonaldDuckItalian
+    - gCardNameDonaldDuckSpanish
+    - {name: gCardNameDonaldDuckByLanguage, record: JiminyLocalizedName, strings: [gCardNameDonaldDuck, gCardNameDonaldDuckFrench, gCardNameDonaldDuckGerman, gCardNameDonaldDuckItalian, gCardNameDonaldDuckSpanish]}
+    - gCardNameGoofy
+    - gCardNameGoofyFrench
+    - gCardNameGoofyGerman
+    - gCardNameGoofyItalian
+    - gCardNameGoofySpanish
+    - {name: gCardNameGoofyByLanguage, record: JiminyLocalizedName, strings: [gCardNameGoofy, gCardNameGoofyFrench, gCardNameGoofyGerman, gCardNameGoofyItalian, gCardNameGoofySpanish]}
+    - gCharacterNameJiminyCricket
+    - gCharacterNameJiminyCricketFrench
+    - gCharacterNameJiminyCricketGerman
+    - gCharacterNameJiminyCricketItalian
+    - gCharacterNameJiminyCricketSpanish
+    - {name: gCharacterNameJiminyCricketByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameJiminyCricket, gCharacterNameJiminyCricketFrench, gCharacterNameJiminyCricketGerman, gCharacterNameJiminyCricketItalian, gCharacterNameJiminyCricketSpanish]}
+    - gCardNameAladdin
+    - gCardNameAladdinFrench
+    - gCardNameAladdinGerman
+    - gCardNameAladdinItalian
+    - gCardNameAladdinSpanish
+    - {name: gCardNameAladdinByLanguage, record: JiminyLocalizedName, strings: [gCardNameAladdin, gCardNameAladdinFrench, gCardNameAladdinGerman, gCardNameAladdinItalian, gCardNameAladdinSpanish]}
+    - gCardNameAriel
+    - gCardNameArielFrench
+    - gCardNameArielGerman
+    - gCardNameArielItalian
+    - gCardNameArielSpanish
+    - {name: gCardNameArielByLanguage, record: JiminyLocalizedName, strings: [gCardNameAriel, gCardNameArielFrench, gCardNameArielGerman, gCardNameArielItalian, gCardNameArielSpanish]}
+    - gCardNameJack
+    - gCardNameJackFrench
+    - gCardNameJackGerman
+    - gCardNameJackItalian
+    - gCardNameJackSpanish
+    - {name: gCardNameJackByLanguage, record: JiminyLocalizedName, strings: [gCardNameJack, gCardNameJackFrench, gCardNameJackGerman, gCardNameJackItalian, gCardNameJackSpanish]}
+    - gCardNamePeterPan
+    - gCardNamePeterPanFrench
+    - gCardNamePeterPanGerman
+    - gCardNamePeterPanItalian
+    - gCardNamePeterPanSpanish
+    - {name: gCardNamePeterPanByLanguage, record: JiminyLocalizedName, strings: [gCardNamePeterPan, gCardNamePeterPanFrench, gCardNamePeterPanGerman, gCardNamePeterPanItalian, gCardNamePeterPanSpanish]}
+    - gCardNameBeast
+    - gCardNameBeastFrench
+    - gCardNameBeastGerman
+    - gCardNameBeastItalian
+    - gCardNameBeastSpanish
+    - {name: gCardNameBeastByLanguage, record: JiminyLocalizedName, strings: [gCardNameBeast, gCardNameBeastFrench, gCardNameBeastGerman, gCardNameBeastItalian, gCardNameBeastSpanish]}
+    - gCharacterNameMoogles
+    - gCharacterNameMooglesFrench
+    - gCharacterNameMooglesGerman
+    - gCharacterNameMooglesItalian
+    - gCharacterNameMooglesSpanish
+    - {name: gCharacterNameMooglesByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameMoogles, gCharacterNameMooglesFrench, gCharacterNameMooglesGerman, gCharacterNameMooglesItalian, gCharacterNameMooglesSpanish]}
+    - gCharacterNameSora
+    - gCharacterNameSoraFrench
+    - gCharacterNameSoraGerman
+    - gCharacterNameSoraItalian
+    - gCharacterNameSoraSpanish
+    - {name: gCharacterNameSoraByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameSora, gCharacterNameSoraFrench, gCharacterNameSoraGerman, gCharacterNameSoraItalian, gCharacterNameSoraSpanish]}
+    - gEnemyNameRiku
+    - gEnemyNameRikuFrench
+    - gEnemyNameRikuGerman
+    - gEnemyNameRikuItalian
+    - gEnemyNameRikuSpanish
+    - {name: gEnemyNameRikuByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameRiku, gEnemyNameRikuFrench, gEnemyNameRikuGerman, gEnemyNameRikuItalian, gEnemyNameRikuSpanish]}
+    - gCharacterNameKairi
+    - gCharacterNameKairiFrench
+    - gCharacterNameKairiGerman
+    - gCharacterNameKairiItalian
+    - gCharacterNameKairiSpanish
+    - {name: gCharacterNameKairiByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameKairi, gCharacterNameKairiFrench, gCharacterNameKairiGerman, gCharacterNameKairiItalian, gCharacterNameKairiSpanish]}
+    - gCharacterNameNamine
+    - gCharacterNameNamineFrench
+    - gCharacterNameNamineGerman
+    - gCharacterNameNamineItalian
+    - gCharacterNameNamineSpanish
+    - {name: gCharacterNameNamineByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameNamine, gCharacterNameNamineFrench, gCharacterNameNamineGerman, gCharacterNameNamineItalian, gCharacterNameNamineSpanish]}
+    - gCharacterNameYuffie
+    - gCharacterNameYuffieFrench
+    - gCharacterNameYuffieGerman
+    - gCharacterNameYuffieItalian
+    - gCharacterNameYuffieSpanish
+    - {name: gCharacterNameYuffieByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameYuffie, gCharacterNameYuffieFrench, gCharacterNameYuffieGerman, gCharacterNameYuffieItalian, gCharacterNameYuffieSpanish]}
+    - gCharacterNameAerith
+    - gCharacterNameAerithFrench
+    - gCharacterNameAerithGerman
+    - gCharacterNameAerithItalian
+    - gCharacterNameAerithSpanish
+    - {name: gCharacterNameAerithByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameAerith, gCharacterNameAerithFrench, gCharacterNameAerithGerman, gCharacterNameAerithItalian, gCharacterNameAerithSpanish]}
+    - gCharacterNameWakka
+    - gCharacterNameWakkaFrench
+    - gCharacterNameWakkaGerman
+    - gCharacterNameWakkaItalian
+    - gCharacterNameWakkaSpanish
+    - {name: gCharacterNameWakkaByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameWakka, gCharacterNameWakkaFrench, gCharacterNameWakkaGerman, gCharacterNameWakkaItalian, gCharacterNameWakkaSpanish]}
+    - gCharacterNameLeon
+    - gCharacterNameLeonFrench
+    - gCharacterNameLeonGerman
+    - gCharacterNameLeonItalian
+    - gCharacterNameLeonSpanish
+    - {name: gCharacterNameLeonByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameLeon, gCharacterNameLeonFrench, gCharacterNameLeonGerman, gCharacterNameLeonItalian, gCharacterNameLeonSpanish]}
+    - gCharacterNameSelphie
+    - gCharacterNameSelphieFrench
+    - gCharacterNameSelphieGerman
+    - gCharacterNameSelphieItalian
+    - gCharacterNameSelphieSpanish
+    - {name: gCharacterNameSelphieByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameSelphie, gCharacterNameSelphieFrench, gCharacterNameSelphieGerman, gCharacterNameSelphieItalian, gCharacterNameSelphieSpanish]}
+    - gCharacterNameTidus
+    - gCharacterNameTidusFrench
+    - gCharacterNameTidusGerman
+    - gCharacterNameTidusItalian
+    - gCharacterNameTidusSpanish
+    - {name: gCharacterNameTidusByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameTidus, gCharacterNameTidusFrench, gCharacterNameTidusGerman, gCharacterNameTidusItalian, gCharacterNameTidusSpanish]}
+    - gCharacterNameCid
+    - gCharacterNameCidFrench
+    - gCharacterNameCidGerman
+    - gCharacterNameCidItalian
+    - gCharacterNameCidSpanish
+    - {name: gCharacterNameCidByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameCid, gCharacterNameCidFrench, gCharacterNameCidGerman, gCharacterNameCidItalian, gCharacterNameCidSpanish]}
+    - gEnemyNameLarxene
+    - gEnemyNameLarxeneFrench
+    - gEnemyNameLarxeneGerman
+    - gEnemyNameLarxeneItalian
+    - gEnemyNameLarxeneSpanish
+    - {name: gEnemyNameLarxeneByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameLarxene, gEnemyNameLarxeneFrench, gEnemyNameLarxeneGerman, gEnemyNameLarxeneItalian, gEnemyNameLarxeneSpanish]}
+    - gEnemyNameAxel
+    - gEnemyNameAxelFrench
+    - gEnemyNameAxelGerman
+    - gEnemyNameAxelItalian
+    - gEnemyNameAxelSpanish
+    - {name: gEnemyNameAxelByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameAxel, gEnemyNameAxelFrench, gEnemyNameAxelGerman, gEnemyNameAxelItalian, gEnemyNameAxelSpanish]}
+    - gEnemyNameVexen
+    - gEnemyNameVexenFrench
+    - gEnemyNameVexenGerman
+    - gEnemyNameVexenItalian
+    - gEnemyNameVexenSpanish
+    - {name: gEnemyNameVexenByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameVexen, gEnemyNameVexenFrench, gEnemyNameVexenGerman, gEnemyNameVexenItalian, gEnemyNameVexenSpanish]}
+    - gEnemyNameMarluxia
+    - gEnemyNameMarluxiaFrench
+    - gEnemyNameMarluxiaGerman
+    - gEnemyNameMarluxiaItalian
+    - gEnemyNameMarluxiaSpanish
+    - {name: gEnemyNameMarluxiaByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameMarluxia, gEnemyNameMarluxiaFrench, gEnemyNameMarluxiaGerman, gEnemyNameMarluxiaItalian, gEnemyNameMarluxiaSpanish]}
+    - gJiminyMenuHeartlessName
+    - gJiminyMenuHeartlessNameFrench
+    - gJiminyMenuHeartlessNameGerman
+    - gJiminyMenuHeartlessNameItalian
+    - gJiminyMenuHeartlessNameSpanish
+    - {name: gJiminyMenuHeartlessNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuHeartlessName, gJiminyMenuHeartlessNameFrench, gJiminyMenuHeartlessNameGerman, gJiminyMenuHeartlessNameItalian, gJiminyMenuHeartlessNameSpanish]}
+    - gEnemyNameShadow
+    - gEnemyNameShadowFrench
+    - gEnemyNameShadowGerman
+    - gEnemyNameShadowItalian
+    - gEnemyNameShadowSpanish
+    - {name: gEnemyNameShadowByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameShadow, gEnemyNameShadowFrench, gEnemyNameShadowGerman, gEnemyNameShadowItalian, gEnemyNameShadowSpanish]}
+    - gEnemyNameSoldier
+    - gEnemyNameSoldierFrench
+    - gEnemyNameSoldierGerman
+    - gEnemyNameSoldierItalian
+    - gEnemyNameSoldierSpanish
+    - {name: gEnemyNameSoldierByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameSoldier, gEnemyNameSoldierFrench, gEnemyNameSoldierGerman, gEnemyNameSoldierItalian, gEnemyNameSoldierSpanish]}
+    - gEnemyNamePowerwild
+    - gEnemyNamePowerwildFrench
+    - gEnemyNamePowerwildGerman
+    - gEnemyNamePowerwildItalian
+    - gEnemyNamePowerwildSpanish
+    - {name: gEnemyNamePowerwildByLanguage, record: JiminyLocalizedName, strings: [gEnemyNamePowerwild, gEnemyNamePowerwildFrench, gEnemyNamePowerwildGerman, gEnemyNamePowerwildItalian, gEnemyNamePowerwildSpanish]}
+    - gEnemyNameBouncywild
+    - gEnemyNameBouncywildFrench
+    - gEnemyNameBouncywildGerman
+    - gEnemyNameBouncywildItalian
+    - gEnemyNameBouncywildSpanish
+    - {name: gEnemyNameBouncywildByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameBouncywild, gEnemyNameBouncywildFrench, gEnemyNameBouncywildGerman, gEnemyNameBouncywildItalian, gEnemyNameBouncywildSpanish]}
+    - gEnemyNameLargeBody
+    - gEnemyNameLargeBodyFrench
+    - gEnemyNameLargeBodyGerman
+    - gEnemyNameLargeBodyItalian
+    - gEnemyNameLargeBodySpanish
+    - {name: gEnemyNameLargeBodyByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameLargeBody, gEnemyNameLargeBodyFrench, gEnemyNameLargeBodyGerman, gEnemyNameLargeBodyItalian, gEnemyNameLargeBodySpanish]}
+    - gEnemyNameFatBandit
+    - gEnemyNameFatBanditFrench
+    - gEnemyNameFatBanditGerman
+    - gEnemyNameFatBanditItalian
+    - gEnemyNameFatBanditSpanish
+    - {name: gEnemyNameFatBanditByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameFatBandit, gEnemyNameFatBanditFrench, gEnemyNameFatBanditGerman, gEnemyNameFatBanditItalian, gEnemyNameFatBanditSpanish]}
+    - gEnemyNameSeaNeon
+    - gEnemyNameSeaNeonFrench
+    - gEnemyNameSeaNeonGerman
+    - gEnemyNameSeaNeonItalian
+    - gEnemyNameSeaNeonSpanish
+    - {name: gEnemyNameSeaNeonByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameSeaNeon, gEnemyNameSeaNeonFrench, gEnemyNameSeaNeonGerman, gEnemyNameSeaNeonItalian, gEnemyNameSeaNeonSpanish]}
+    - gEnemyNameBandit
+    - gEnemyNameBanditFrench
+    - gEnemyNameBanditGerman
+    - gEnemyNameBanditItalian
+    - gEnemyNameBanditSpanish
+    - {name: gEnemyNameBanditByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameBandit, gEnemyNameBanditFrench, gEnemyNameBanditGerman, gEnemyNameBanditItalian, gEnemyNameBanditSpanish]}
+    - gEnemyNamePirate
+    - gEnemyNamePirateFrench
+    - gEnemyNamePirateGerman
+    - gEnemyNamePirateItalian
+    - gEnemyNamePirateSpanish
+    - {name: gEnemyNamePirateByLanguage, record: JiminyLocalizedName, strings: [gEnemyNamePirate, gEnemyNamePirateFrench, gEnemyNamePirateGerman, gEnemyNamePirateItalian, gEnemyNamePirateSpanish]}
+    - gEnemyNameRedNocturne
+    - gEnemyNameRedNocturneFrench
+    - gEnemyNameRedNocturneGerman
+    - gEnemyNameRedNocturneItalian
+    - gEnemyNameRedNocturneSpanish
+    - {name: gEnemyNameRedNocturneByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameRedNocturne, gEnemyNameRedNocturneFrench, gEnemyNameRedNocturneGerman, gEnemyNameRedNocturneItalian, gEnemyNameRedNocturneSpanish]}
+    - gEnemyNameBlueRhapsody
+    - gEnemyNameBlueRhapsodyFrench
+    - gEnemyNameBlueRhapsodyGerman
+    - gEnemyNameBlueRhapsodyItalian
+    - gEnemyNameBlueRhapsodySpanish
+    - {name: gEnemyNameBlueRhapsodyByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameBlueRhapsody, gEnemyNameBlueRhapsodyFrench, gEnemyNameBlueRhapsodyGerman, gEnemyNameBlueRhapsodyItalian, gEnemyNameBlueRhapsodySpanish]}
+    - gEnemyNameYellowOpera
+    - gEnemyNameYellowOperaFrench
+    - gEnemyNameYellowOperaGerman
+    - gEnemyNameYellowOperaItalian
+    - gEnemyNameYellowOperaSpanish
+    - {name: gEnemyNameYellowOperaByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameYellowOpera, gEnemyNameYellowOperaFrench, gEnemyNameYellowOperaGerman, gEnemyNameYellowOperaItalian, gEnemyNameYellowOperaSpanish]}
+    - gEnemyNameGreenRequiem
+    - gEnemyNameGreenRequiemFrench
+    - gEnemyNameGreenRequiemGerman
+    - gEnemyNameGreenRequiemItalian
+    - gEnemyNameGreenRequiemSpanish
+    - {name: gEnemyNameGreenRequiemByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameGreenRequiem, gEnemyNameGreenRequiemFrench, gEnemyNameGreenRequiemGerman, gEnemyNameGreenRequiemItalian, gEnemyNameGreenRequiemSpanish]}
+    - gEnemyNameWizard
+    - gEnemyNameWizardFrench
+    - gEnemyNameWizardGerman
+    - gEnemyNameWizardItalian
+    - gEnemyNameWizardSpanish
+    - {name: gEnemyNameWizardByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameWizard, gEnemyNameWizardFrench, gEnemyNameWizardGerman, gEnemyNameWizardItalian, gEnemyNameWizardSpanish]}
+    - gEnemyNameAirSoldier
+    - gEnemyNameAirSoldierFrench
+    - gEnemyNameAirSoldierGerman
+    - gEnemyNameAirSoldierItalian
+    - gEnemyNameAirSoldierSpanish
+    - {name: gEnemyNameAirSoldierByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameAirSoldier, gEnemyNameAirSoldierFrench, gEnemyNameAirSoldierGerman, gEnemyNameAirSoldierItalian, gEnemyNameAirSoldierSpanish]}
+    - gEnemyNameBarrelSpider
+    - gEnemyNameBarrelSpiderFrench
+    - gEnemyNameBarrelSpiderGerman
+    - gEnemyNameBarrelSpiderItalian
+    - gEnemyNameBarrelSpiderSpanish
+    - {name: gEnemyNameBarrelSpiderByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameBarrelSpider, gEnemyNameBarrelSpiderFrench, gEnemyNameBarrelSpiderGerman, gEnemyNameBarrelSpiderItalian, gEnemyNameBarrelSpiderSpanish]}
+    - gEnemyNameWightKnight
+    - gEnemyNameWightKnightFrench
+    - gEnemyNameWightKnightGerman
+    - gEnemyNameWightKnightItalian
+    - gEnemyNameWightKnightSpanish
+    - {name: gEnemyNameWightKnightByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameWightKnight, gEnemyNameWightKnightFrench, gEnemyNameWightKnightGerman, gEnemyNameWightKnightItalian, gEnemyNameWightKnightSpanish]}
+    - gEnemyNameAirPirate
+    - gEnemyNameAirPirateFrench
+    - gEnemyNameAirPirateGerman
+    - gEnemyNameAirPirateItalian
+    - gEnemyNameAirPirateSpanish
+    - {name: gEnemyNameAirPirateByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameAirPirate, gEnemyNameAirPirateFrench, gEnemyNameAirPirateGerman, gEnemyNameAirPirateItalian, gEnemyNameAirPirateSpanish]}
+    - gEnemyNameGargoyle
+    - gEnemyNameGargoyleFrench
+    - gEnemyNameGargoyleGerman
+    - gEnemyNameGargoyleItalian
+    - gEnemyNameGargoyleSpanish
+    - {name: gEnemyNameGargoyleByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameGargoyle, gEnemyNameGargoyleFrench, gEnemyNameGargoyleGerman, gEnemyNameGargoyleItalian, gEnemyNameGargoyleSpanish]}
+    - gEnemyNameSearchGhost
+    - gEnemyNameSearchGhostFrench
+    - gEnemyNameSearchGhostGerman
+    - gEnemyNameSearchGhostItalian
+    - gEnemyNameSearchGhostSpanish
+    - {name: gEnemyNameSearchGhostByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameSearchGhost, gEnemyNameSearchGhostFrench, gEnemyNameSearchGhostGerman, gEnemyNameSearchGhostItalian, gEnemyNameSearchGhostSpanish]}
+    - gEnemyNameAquatank
+    - gEnemyNameAquatankFrench
+    - gEnemyNameAquatankGerman
+    - gEnemyNameAquatankItalian
+    - gEnemyNameAquatankSpanish
+    - {name: gEnemyNameAquatankByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameAquatank, gEnemyNameAquatankFrench, gEnemyNameAquatankGerman, gEnemyNameAquatankItalian, gEnemyNameAquatankSpanish]}
+    - gEnemyNameScrewdiver
+    - gEnemyNameScrewdiverFrench
+    - gEnemyNameScrewdiverGerman
+    - gEnemyNameScrewdiverItalian
+    - gEnemyNameScrewdiverSpanish
+    - {name: gEnemyNameScrewdiverByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameScrewdiver, gEnemyNameScrewdiverFrench, gEnemyNameScrewdiverGerman, gEnemyNameScrewdiverItalian, gEnemyNameScrewdiverSpanish]}
+    - gEnemyNameDarkball
+    - gEnemyNameDarkballFrench
+    - gEnemyNameDarkballGerman
+    - gEnemyNameDarkballItalian
+    - gEnemyNameDarkballSpanish
+    - {name: gEnemyNameDarkballByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameDarkball, gEnemyNameDarkballFrench, gEnemyNameDarkballGerman, gEnemyNameDarkballItalian, gEnemyNameDarkballSpanish]}
+    - gEnemyNameWyvern
+    - gEnemyNameWyvernFrench
+    - gEnemyNameWyvernGerman
+    - gEnemyNameWyvernItalian
+    - gEnemyNameWyvernSpanish
+    - {name: gEnemyNameWyvernByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameWyvern, gEnemyNameWyvernFrench, gEnemyNameWyvernGerman, gEnemyNameWyvernItalian, gEnemyNameWyvernSpanish]}
+    - gEnemyNameDefender
+    - gEnemyNameDefenderFrench
+    - gEnemyNameDefenderGerman
+    - gEnemyNameDefenderItalian
+    - gEnemyNameDefenderSpanish
+    - {name: gEnemyNameDefenderByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameDefender, gEnemyNameDefenderFrench, gEnemyNameDefenderGerman, gEnemyNameDefenderItalian, gEnemyNameDefenderSpanish]}
+    - gEnemyNameWhiteMushroom
+    - gEnemyNameWhiteMushroomFrench
+    - gEnemyNameWhiteMushroomGerman
+    - gEnemyNameWhiteMushroomItalian
+    - gEnemyNameWhiteMushroomSpanish
+    - {name: gEnemyNameWhiteMushroomByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameWhiteMushroom, gEnemyNameWhiteMushroomFrench, gEnemyNameWhiteMushroomGerman, gEnemyNameWhiteMushroomItalian, gEnemyNameWhiteMushroomSpanish]}
+    - gEnemyNameBlackFungus
+    - gEnemyNameBlackFungusFrench
+    - gEnemyNameBlackFungusGerman
+    - gEnemyNameBlackFungusItalian
+    - gEnemyNameBlackFungusSpanish
+    - {name: gEnemyNameBlackFungusByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameBlackFungus, gEnemyNameBlackFungusFrench, gEnemyNameBlackFungusGerman, gEnemyNameBlackFungusItalian, gEnemyNameBlackFungusSpanish]}
+    - gEnemyNameCreeperPlant
+    - gEnemyNameCreeperPlantFrench
+    - gEnemyNameCreeperPlantGerman
+    - gEnemyNameCreeperPlantItalian
+    - gEnemyNameCreeperPlantSpanish
+    - {name: gEnemyNameCreeperPlantByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameCreeperPlant, gEnemyNameCreeperPlantFrench, gEnemyNameCreeperPlantGerman, gEnemyNameCreeperPlantItalian, gEnemyNameCreeperPlantSpanish]}
+    - gEnemyNameTornadoStep
+    - gEnemyNameTornadoStepFrench
+    - gEnemyNameTornadoStepGerman
+    - gEnemyNameTornadoStepItalian
+    - gEnemyNameTornadoStepSpanish
+    - {name: gEnemyNameTornadoStepByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameTornadoStep, gEnemyNameTornadoStepFrench, gEnemyNameTornadoStepGerman, gEnemyNameTornadoStepItalian, gEnemyNameTornadoStepSpanish]}
+    - gEnemyNameCrescendo
+    - gEnemyNameCrescendoFrench
+    - gEnemyNameCrescendoGerman
+    - gEnemyNameCrescendoItalian
+    - gEnemyNameCrescendoSpanish
+    - {name: gEnemyNameCrescendoByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameCrescendo, gEnemyNameCrescendoFrench, gEnemyNameCrescendoGerman, gEnemyNameCrescendoItalian, gEnemyNameCrescendoSpanish]}
+    - gEnemyNameNeoshadow
+    - gEnemyNameNeoshadowFrench
+    - gEnemyNameNeoshadowGerman
+    - gEnemyNameNeoshadowItalian
+    - gEnemyNameNeoshadowSpanish
+    - {name: gEnemyNameNeoshadowByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameNeoshadow, gEnemyNameNeoshadowFrench, gEnemyNameNeoshadowGerman, gEnemyNameNeoshadowItalian, gEnemyNameNeoshadowSpanish]}
+    - gEnemyNameGuardArmor
+    - gEnemyNameGuardArmorFrench
+    - gEnemyNameGuardArmorGerman
+    - gEnemyNameGuardArmorItalian
+    - gEnemyNameGuardArmorSpanish
+    - {name: gEnemyNameGuardArmorByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameGuardArmor, gEnemyNameGuardArmorFrench, gEnemyNameGuardArmorGerman, gEnemyNameGuardArmorItalian, gEnemyNameGuardArmorSpanish]}
+    - gEnemyNameHades
+    - gEnemyNameHadesFrench
+    - gEnemyNameHadesGerman
+    - gEnemyNameHadesItalian
+    - gEnemyNameHadesSpanish
+    - {name: gEnemyNameHadesByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameHades, gEnemyNameHadesFrench, gEnemyNameHadesGerman, gEnemyNameHadesItalian, gEnemyNameHadesSpanish]}
+    - gEnemyNameTrickmaster
+    - gEnemyNameTrickmasterFrench
+    - gEnemyNameTrickmasterGerman
+    - gEnemyNameTrickmasterItalian
+    - gEnemyNameTrickmasterSpanish
+    - {name: gEnemyNameTrickmasterByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameTrickmaster, gEnemyNameTrickmasterFrench, gEnemyNameTrickmasterGerman, gEnemyNameTrickmasterItalian, gEnemyNameTrickmasterSpanish]}
+    - gEnemyNameJafar
+    - gEnemyNameJafarFrench
+    - gEnemyNameJafarGerman
+    - gEnemyNameJafarItalian
+    - gEnemyNameJafarSpanish
+    - {name: gEnemyNameJafarByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameJafar, gEnemyNameJafarFrench, gEnemyNameJafarGerman, gEnemyNameJafarItalian, gEnemyNameJafarSpanish]}
+    - gEnemyNameUrsula
+    - gEnemyNameUrsulaFrench
+    - gEnemyNameUrsulaGerman
+    - gEnemyNameUrsulaItalian
+    - gEnemyNameUrsulaSpanish
+    - {name: gEnemyNameUrsulaByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameUrsula, gEnemyNameUrsulaFrench, gEnemyNameUrsulaGerman, gEnemyNameUrsulaItalian, gEnemyNameUrsulaSpanish]}
+    - gEnemyNameOogieBoogie
+    - gEnemyNameOogieBoogieFrench
+    - gEnemyNameOogieBoogieGerman
+    - gEnemyNameOogieBoogieItalian
+    - gEnemyNameOogieBoogieSpanish
+    - {name: gEnemyNameOogieBoogieByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameOogieBoogie, gEnemyNameOogieBoogieFrench, gEnemyNameOogieBoogieGerman, gEnemyNameOogieBoogieItalian, gEnemyNameOogieBoogieSpanish]}
+    - gEnemyNameParasiteCage
+    - gEnemyNameParasiteCageFrench
+    - gEnemyNameParasiteCageGerman
+    - gEnemyNameParasiteCageItalian
+    - gEnemyNameParasiteCageSpanish
+    - {name: gEnemyNameParasiteCageByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameParasiteCage, gEnemyNameParasiteCageFrench, gEnemyNameParasiteCageGerman, gEnemyNameParasiteCageItalian, gEnemyNameParasiteCageSpanish]}
+    - gEnemyNameHook
+    - gEnemyNameHookFrench
+    - gEnemyNameHookGerman
+    - gEnemyNameHookItalian
+    - gEnemyNameHookSpanish
+    - {name: gEnemyNameHookByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameHook, gEnemyNameHookFrench, gEnemyNameHookGerman, gEnemyNameHookItalian, gEnemyNameHookSpanish]}
+    - gEnemyNameDragonMaleficent
+    - gEnemyNameDragonMaleficentFrench
+    - gEnemyNameDragonMaleficentGerman
+    - gEnemyNameDragonMaleficentItalian
+    - gEnemyNameDragonMaleficentSpanish
+    - {name: gEnemyNameDragonMaleficentByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameDragonMaleficent, gEnemyNameDragonMaleficentFrench, gEnemyNameDragonMaleficentGerman, gEnemyNameDragonMaleficentItalian, gEnemyNameDragonMaleficentSpanish]}
+    - gEnemyNameDarkside
+    - gEnemyNameDarksideFrench
+    - gEnemyNameDarksideGerman
+    - gEnemyNameDarksideItalian
+    - gEnemyNameDarksideSpanish
+    - {name: gEnemyNameDarksideByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameDarkside, gEnemyNameDarksideFrench, gEnemyNameDarksideGerman, gEnemyNameDarksideItalian, gEnemyNameDarksideSpanish]}
+    - gLevelUpHpBoostText
+    - gLevelUpHpBoostTextFrench
+    - gLevelUpHpBoostTextGerman
+    - gLevelUpHpBoostTextItalian
+    - gLevelUpHpBoostTextSpanish
+    - {name: gLevelUpHpBoostTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpHpBoostText, gLevelUpHpBoostTextFrench, gLevelUpHpBoostTextGerman, gLevelUpHpBoostTextItalian, gLevelUpHpBoostTextSpanish]}
+    - gLevelUpCpBoostText
+    - gLevelUpCpBoostTextFrench
+    - gLevelUpCpBoostTextGerman
+    - gLevelUpCpBoostTextItalian
+    - gLevelUpCpBoostTextSpanish
+    - {name: gLevelUpCpBoostTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpCpBoostText, gLevelUpCpBoostTextFrench, gLevelUpCpBoostTextGerman, gLevelUpCpBoostTextItalian, gLevelUpCpBoostTextSpanish]}
+    - gLevelUpSleightsText
+    - gLevelUpSleightsTextFrench
+    - gLevelUpSleightsTextGerman
+    - gLevelUpSleightsTextItalian
+    - gLevelUpSleightsTextSpanish
+    - {name: gLevelUpSleightsTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpSleightsText, gLevelUpSleightsTextFrench, gLevelUpSleightsTextGerman, gLevelUpSleightsTextItalian, gLevelUpSleightsTextSpanish]}
+    - gLevelUpRaiseSoraHpText
+    - gLevelUpRaiseSoraHpTextFrench
+    - gLevelUpRaiseSoraHpTextGerman
+    - gLevelUpRaiseSoraHpTextItalian
+    - gLevelUpRaiseSoraHpTextSpanish
+    - {name: gLevelUpRaiseSoraHpTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpRaiseSoraHpText, gLevelUpRaiseSoraHpTextFrench, gLevelUpRaiseSoraHpTextGerman, gLevelUpRaiseSoraHpTextItalian, gLevelUpRaiseSoraHpTextSpanish]}
+    - gLevelUpRaiseSoraCpText
+    - gLevelUpRaiseSoraCpTextFrench
+    - gLevelUpRaiseSoraCpTextGerman
+    - gLevelUpRaiseSoraCpTextItalian
+    - gLevelUpRaiseSoraCpTextSpanish
+    - {name: gLevelUpRaiseSoraCpTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpRaiseSoraCpText, gLevelUpRaiseSoraCpTextFrench, gLevelUpRaiseSoraCpTextGerman, gLevelUpRaiseSoraCpTextItalian, gLevelUpRaiseSoraCpTextSpanish]}
+    - gCharacterNameJasmine
+    - gCharacterNameJasmineFrench
+    - gCharacterNameJasmineGerman
+    - gCharacterNameJasmineItalian
+    - gCharacterNameJasmineSpanish
+    - {name: gCharacterNameJasmineByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameJasmine, gCharacterNameJasmineFrench, gCharacterNameJasmineGerman, gCharacterNameJasmineItalian, gCharacterNameJasmineSpanish]}
+    - gCharacterNameIago
+    - gCharacterNameIagoFrench
+    - gCharacterNameIagoGerman
+    - gCharacterNameIagoItalian
+    - gCharacterNameIagoSpanish
+    - {name: gCharacterNameIagoByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameIago, gCharacterNameIagoFrench, gCharacterNameIagoGerman, gCharacterNameIagoItalian, gCharacterNameIagoSpanish]}
+    - gCharacterNameJafarGenie
+    - gCharacterNameJafarGenieFrench
+    - gCharacterNameJafarGenieGerman
+    - gCharacterNameJafarGenieItalian
+    - gCharacterNameJafarGenieSpanish
+    - {name: gCharacterNameJafarGenieByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameJafarGenie, gCharacterNameJafarGenieFrench, gCharacterNameJafarGenieGerman, gCharacterNameJafarGenieItalian, gCharacterNameJafarGenieSpanish]}
+    - gCharacterNameSally
+    - gCharacterNameSallyFrench
+    - gCharacterNameSallyGerman
+    - gCharacterNameSallyItalian
+    - gCharacterNameSallySpanish
+    - {name: gCharacterNameSallyByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameSally, gCharacterNameSallyFrench, gCharacterNameSallyGerman, gCharacterNameSallyItalian, gCharacterNameSallySpanish]}
+    - gCharacterNameDrFinkelstein
+    - gCharacterNameDrFinkelsteinFrench
+    - gCharacterNameDrFinkelsteinGerman
+    - gCharacterNameDrFinkelsteinItalian
+    - gCharacterNameDrFinkelsteinSpanish
+    - {name: gCharacterNameDrFinkelsteinByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameDrFinkelstein, gCharacterNameDrFinkelsteinFrench, gCharacterNameDrFinkelsteinGerman, gCharacterNameDrFinkelsteinItalian, gCharacterNameDrFinkelsteinSpanish]}
+    - gCharacterNamePinocchio
+    - gCharacterNamePinocchioFrench
+    - gCharacterNamePinocchioGerman
+    - gCharacterNamePinocchioItalian
+    - gCharacterNamePinocchioSpanish
+    - {name: gCharacterNamePinocchioByLanguage, record: JiminyLocalizedName, strings: [gCharacterNamePinocchio, gCharacterNamePinocchioFrench, gCharacterNamePinocchioGerman, gCharacterNamePinocchioItalian, gCharacterNamePinocchioSpanish]}
+    - gCharacterNameGeppetto
+    - gCharacterNameGeppettoFrench
+    - gCharacterNameGeppettoGerman
+    - gCharacterNameGeppettoItalian
+    - gCharacterNameGeppettoSpanish
+    - {name: gCharacterNameGeppettoByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameGeppetto, gCharacterNameGeppettoFrench, gCharacterNameGeppettoGerman, gCharacterNameGeppettoItalian, gCharacterNameGeppettoSpanish]}
+    - gCharacterNameHercules
+    - gCharacterNameHerculesFrench
+    - gCharacterNameHerculesGerman
+    - gCharacterNameHerculesItalian
+    - gCharacterNameHerculesSpanish
+    - {name: gCharacterNameHerculesByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameHercules, gCharacterNameHerculesFrench, gCharacterNameHerculesGerman, gCharacterNameHerculesItalian, gCharacterNameHerculesSpanish]}
+    - gCharacterNamePhiloctetes
+    - gCharacterNamePhiloctetesFrench
+    - gCharacterNamePhiloctetesGerman
+    - gCharacterNamePhiloctetesItalian
+    - gCharacterNamePhiloctetesSpanish
+    - {name: gCharacterNamePhiloctetesByLanguage, record: JiminyLocalizedName, strings: [gCharacterNamePhiloctetes, gCharacterNamePhiloctetesFrench, gCharacterNamePhiloctetesGerman, gCharacterNamePhiloctetesItalian, gCharacterNamePhiloctetesSpanish]}
+    - gCharacterNameAlice
+    - gCharacterNameAliceFrench
+    - gCharacterNameAliceGerman
+    - gCharacterNameAliceItalian
+    - gCharacterNameAliceSpanish
+    - {name: gCharacterNameAliceByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameAlice, gCharacterNameAliceFrench, gCharacterNameAliceGerman, gCharacterNameAliceItalian, gCharacterNameAliceSpanish]}
+    - gCharacterNameQueenOfHearts
+    - gCharacterNameQueenOfHeartsFrench
+    - gCharacterNameQueenOfHeartsGerman
+    - gCharacterNameQueenOfHeartsItalian
+    - gCharacterNameQueenOfHeartsSpanish
+    - {name: gCharacterNameQueenOfHeartsByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameQueenOfHearts, gCharacterNameQueenOfHeartsFrench, gCharacterNameQueenOfHeartsGerman, gCharacterNameQueenOfHeartsItalian, gCharacterNameQueenOfHeartsSpanish]}
+    - gCharacterNameWhiteRabbit
+    - gCharacterNameWhiteRabbitFrench
+    - gCharacterNameWhiteRabbitGerman
+    - gCharacterNameWhiteRabbitItalian
+    - gCharacterNameWhiteRabbitSpanish
+    - {name: gCharacterNameWhiteRabbitByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameWhiteRabbit, gCharacterNameWhiteRabbitFrench, gCharacterNameWhiteRabbitGerman, gCharacterNameWhiteRabbitItalian, gCharacterNameWhiteRabbitSpanish]}
+    - gCharacterNameCardOfSpades
+    - gCharacterNameCardOfSpadesFrench
+    - gCharacterNameCardOfSpadesGerman
+    - gCharacterNameCardOfSpadesItalian
+    - gCharacterNameCardOfSpadesSpanish
+    - {name: gCharacterNameCardOfSpadesByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameCardOfSpades, gCharacterNameCardOfSpadesFrench, gCharacterNameCardOfSpadesGerman, gCharacterNameCardOfSpadesItalian, gCharacterNameCardOfSpadesSpanish]}
+    - gCharacterNameCardOfHearts
+    - gCharacterNameCardOfHeartsFrench
+    - gCharacterNameCardOfHeartsGerman
+    - gCharacterNameCardOfHeartsItalian
+    - gCharacterNameCardOfHeartsSpanish
+    - {name: gCharacterNameCardOfHeartsByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameCardOfHearts, gCharacterNameCardOfHeartsFrench, gCharacterNameCardOfHeartsGerman, gCharacterNameCardOfHeartsItalian, gCharacterNameCardOfHeartsSpanish]}
+    - gCharacterNameCheshireCat
+    - gCharacterNameCheshireCatFrench
+    - gCharacterNameCheshireCatGerman
+    - gCharacterNameCheshireCatItalian
+    - gCharacterNameCheshireCatSpanish
+    - {name: gCharacterNameCheshireCatByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameCheshireCat, gCharacterNameCheshireCatFrench, gCharacterNameCheshireCatGerman, gCharacterNameCheshireCatItalian, gCharacterNameCheshireCatSpanish]}
+    - gCharacterNameSebastian
+    - gCharacterNameSebastianFrench
+    - gCharacterNameSebastianGerman
+    - gCharacterNameSebastianItalian
+    - gCharacterNameSebastianSpanish
+    - {name: gCharacterNameSebastianByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameSebastian, gCharacterNameSebastianFrench, gCharacterNameSebastianGerman, gCharacterNameSebastianItalian, gCharacterNameSebastianSpanish]}
+    - gCharacterNameFlounder
+    - gCharacterNameFlounderFrench
+    - gCharacterNameFlounderGerman
+    - gCharacterNameFlounderItalian
+    - gCharacterNameFlounderSpanish
+    - {name: gCharacterNameFlounderByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameFlounder, gCharacterNameFlounderFrench, gCharacterNameFlounderGerman, gCharacterNameFlounderItalian, gCharacterNameFlounderSpanish]}
+    - gCharacterNameWendy
+    - gCharacterNameWendyFrench
+    - gCharacterNameWendyGerman
+    - gCharacterNameWendyItalian
+    - gCharacterNameWendySpanish
+    - {name: gCharacterNameWendyByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameWendy, gCharacterNameWendyFrench, gCharacterNameWendyGerman, gCharacterNameWendyItalian, gCharacterNameWendySpanish]}
+    - gCharacterNameHook
+    - gCharacterNameHookFrench
+    - gCharacterNameHookGerman
+    - gCharacterNameHookItalian
+    - gCharacterNameHookSpanish
+    - {name: gCharacterNameHookByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameHook, gCharacterNameHookFrench, gCharacterNameHookGerman, gCharacterNameHookItalian, gCharacterNameHookSpanish]}
+    - gCharacterNameBelle
+    - gCharacterNameBelleFrench
+    - gCharacterNameBelleGerman
+    - gCharacterNameBelleItalian
+    - gCharacterNameBelleSpanish
+    - {name: gCharacterNameBelleByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameBelle, gCharacterNameBelleFrench, gCharacterNameBelleGerman, gCharacterNameBelleItalian, gCharacterNameBelleSpanish]}
+    - gCharacterNameMaleficent
+    - gCharacterNameMaleficentFrench
+    - gCharacterNameMaleficentGerman
+    - gCharacterNameMaleficentItalian
+    - gCharacterNameMaleficentSpanish
+    - {name: gCharacterNameMaleficentByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameMaleficent, gCharacterNameMaleficentFrench, gCharacterNameMaleficentGerman, gCharacterNameMaleficentItalian, gCharacterNameMaleficentSpanish]}
+    - gCharacterNameWinnieThePooh
+    - gCharacterNameWinnieThePoohFrench
+    - gCharacterNameWinnieThePoohGerman
+    - gCharacterNameWinnieThePoohItalian
+    - gCharacterNameWinnieThePoohSpanish
+    - {name: gCharacterNameWinnieThePoohByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameWinnieThePooh, gCharacterNameWinnieThePoohFrench, gCharacterNameWinnieThePoohGerman, gCharacterNameWinnieThePoohItalian, gCharacterNameWinnieThePoohSpanish]}
+    - gCharacterNamePiglet
+    - gCharacterNamePigletFrench
+    - gCharacterNamePigletGerman
+    - gCharacterNamePigletItalian
+    - gCharacterNamePigletSpanish
+    - {name: gCharacterNamePigletByLanguage, record: JiminyLocalizedName, strings: [gCharacterNamePiglet, gCharacterNamePigletFrench, gCharacterNamePigletGerman, gCharacterNamePigletItalian, gCharacterNamePigletSpanish]}
+    - gCharacterNameOwl
+    - gCharacterNameOwlFrench
+    - gCharacterNameOwlGerman
+    - gCharacterNameOwlItalian
+    - gCharacterNameOwlSpanish
+    - {name: gCharacterNameOwlByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameOwl, gCharacterNameOwlFrench, gCharacterNameOwlGerman, gCharacterNameOwlItalian, gCharacterNameOwlSpanish]}
+    - gCharacterNameRoo
+    - gCharacterNameRooFrench
+    - gCharacterNameRooGerman
+    - gCharacterNameRooItalian
+    - gCharacterNameRooSpanish
+    - {name: gCharacterNameRooByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameRoo, gCharacterNameRooFrench, gCharacterNameRooGerman, gCharacterNameRooItalian, gCharacterNameRooSpanish]}
+    - gCharacterNameEeyore
+    - gCharacterNameEeyoreFrench
+    - gCharacterNameEeyoreGerman
+    - gCharacterNameEeyoreItalian
+    - gCharacterNameEeyoreSpanish
+    - {name: gCharacterNameEeyoreByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameEeyore, gCharacterNameEeyoreFrench, gCharacterNameEeyoreGerman, gCharacterNameEeyoreItalian, gCharacterNameEeyoreSpanish]}
+    - gCharacterNameTigger
+    - gCharacterNameTiggerFrench
+    - gCharacterNameTiggerGerman
+    - gCharacterNameTiggerItalian
+    - gCharacterNameTiggerSpanish
+    - {name: gCharacterNameTiggerByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameTigger, gCharacterNameTiggerFrench, gCharacterNameTiggerGerman, gCharacterNameTiggerItalian, gCharacterNameTiggerSpanish]}
+    - gCharacterNameRabbit
+    - gCharacterNameRabbitFrench
+    - gCharacterNameRabbitGerman
+    - gCharacterNameRabbitItalian
+    - gCharacterNameRabbitSpanish
+    - {name: gCharacterNameRabbitByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameRabbit, gCharacterNameRabbitFrench, gCharacterNameRabbitGerman, gCharacterNameRabbitItalian, gCharacterNameRabbitSpanish]}
+    - gYesChoiceText
+    - gYesChoiceTextFrench
+    - gYesChoiceTextGerman
+    - gYesChoiceTextItalian
+    - gYesChoiceTextSpanish
+    - {name: gYesChoiceTextByLanguage, record: JiminyLocalizedName, strings: [gYesChoiceText, gYesChoiceTextFrench, gYesChoiceTextGerman, gYesChoiceTextItalian, gYesChoiceTextSpanish]}
+    - gNoChoiceText
+    - gNoChoiceTextFrench
+    - gNoChoiceTextGerman
+    - gNoChoiceTextItalian
+    - gNoChoiceTextSpanish
+    - {name: gNoChoiceTextByLanguage, record: JiminyLocalizedName, strings: [gNoChoiceText, gNoChoiceTextFrench, gNoChoiceTextGerman, gNoChoiceTextItalian, gNoChoiceTextSpanish]}
+    - gDeleteCardConfirmText
+    - gDeleteCardConfirmTextFrench
+    - gDeleteCardConfirmTextGerman
+    - gDeleteCardConfirmTextItalian
+    - gDeleteCardConfirmTextSpanish
+    - {name: gDeleteCardConfirmTextByLanguage, record: JiminyLocalizedName, strings: [gDeleteCardConfirmText, gDeleteCardConfirmTextFrench, gDeleteCardConfirmTextGerman, gDeleteCardConfirmTextItalian, gDeleteCardConfirmTextSpanish]}
+    - gMsChargeConfirmText
+    - gMsChargeConfirmTextFrench
+    - gMsChargeConfirmTextGerman
+    - gMsChargeConfirmTextItalian
+    - gMsChargeConfirmTextSpanish
+    - {name: gMsChargeConfirmTextByLanguage, record: JiminyLocalizedName, strings: [gMsChargeConfirmText, gMsChargeConfirmTextFrench, gMsChargeConfirmTextGerman, gMsChargeConfirmTextItalian, gMsChargeConfirmTextSpanish]}
+    - gEnemyNameLexaeus
+    - gEnemyNameLexaeusFrench
+    - gEnemyNameLexaeusGerman
+    - gEnemyNameLexaeusItalian
+    - gEnemyNameLexaeusSpanish
+    - {name: gEnemyNameLexaeusByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameLexaeus, gEnemyNameLexaeusFrench, gEnemyNameLexaeusGerman, gEnemyNameLexaeusItalian, gEnemyNameLexaeusSpanish]}
+    - gEnemyNameAnsem
+    - gEnemyNameAnsemFrench
+    - gEnemyNameAnsemGerman
+    - gEnemyNameAnsemItalian
+    - gEnemyNameAnsemSpanish
+    - {name: gEnemyNameAnsemByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameAnsem, gEnemyNameAnsemFrench, gEnemyNameAnsemGerman, gEnemyNameAnsemItalian, gEnemyNameAnsemSpanish]}
+    - gCardNameKing
+    - gCardNameKingFrench
+    - gCardNameKingGerman
+    - gCardNameKingItalian
+    - gCardNameKingSpanish
+    - {name: gCardNameKingByLanguage, record: JiminyLocalizedName, strings: [gCardNameKing, gCardNameKingFrench, gCardNameKingGerman, gCardNameKingItalian, gCardNameKingSpanish]}
+    - gCardNameSoulEater
+    - gCardNameSoulEaterFrench
+    - gCardNameSoulEaterGerman
+    - gCardNameSoulEaterItalian
+    - gCardNameSoulEaterSpanish
+    - {name: gCardNameSoulEaterByLanguage, record: JiminyLocalizedName, strings: [gCardNameSoulEater, gCardNameSoulEaterFrench, gCardNameSoulEaterGerman, gCardNameSoulEaterItalian, gCardNameSoulEaterSpanish]}
+    - gLevelUpAttackBoostText
+    - gLevelUpAttackBoostTextFrench
+    - gLevelUpAttackBoostTextGerman
+    - gLevelUpAttackBoostTextItalian
+    - gLevelUpAttackBoostTextSpanish
+    - {name: gLevelUpAttackBoostTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpAttackBoostText, gLevelUpAttackBoostTextFrench, gLevelUpAttackBoostTextGerman, gLevelUpAttackBoostTextItalian, gLevelUpAttackBoostTextSpanish]}
+    - gLevelUpDarknessBoostText
+    - gLevelUpDarknessBoostTextFrench
+    - gLevelUpDarknessBoostTextGerman
+    - gLevelUpDarknessBoostTextItalian
+    - gLevelUpDarknessBoostTextSpanish
+    - {name: gLevelUpDarknessBoostTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpDarknessBoostText, gLevelUpDarknessBoostTextFrench, gLevelUpDarknessBoostTextGerman, gLevelUpDarknessBoostTextItalian, gLevelUpDarknessBoostTextSpanish]}
+    - gLevelUpRaiseRikuHpText
+    - gLevelUpRaiseRikuHpTextFrench
+    - gLevelUpRaiseRikuHpTextGerman
+    - gLevelUpRaiseRikuHpTextItalian
+    - gLevelUpRaiseRikuHpTextSpanish
+    - {name: gLevelUpRaiseRikuHpTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpRaiseRikuHpText, gLevelUpRaiseRikuHpTextFrench, gLevelUpRaiseRikuHpTextGerman, gLevelUpRaiseRikuHpTextItalian, gLevelUpRaiseRikuHpTextSpanish]}
+    - gLevelUpRaiseRikuApText
+    - gLevelUpRaiseRikuApTextFrench
+    - gLevelUpRaiseRikuApTextGerman
+    - gLevelUpRaiseRikuApTextItalian
+    - gLevelUpRaiseRikuApTextSpanish
+    - {name: gLevelUpRaiseRikuApTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpRaiseRikuApText, gLevelUpRaiseRikuApTextFrench, gLevelUpRaiseRikuApTextGerman, gLevelUpRaiseRikuApTextItalian, gLevelUpRaiseRikuApTextSpanish]}
+    - gLevelUpRaiseRikuDpText
+    - gLevelUpRaiseRikuDpTextFrench
+    - gLevelUpRaiseRikuDpTextGerman
+    - gLevelUpRaiseRikuDpTextItalian
+    - gLevelUpRaiseRikuDpTextSpanish
+    - {name: gLevelUpRaiseRikuDpTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpRaiseRikuDpText, gLevelUpRaiseRikuDpTextFrench, gLevelUpRaiseRikuDpTextGerman, gLevelUpRaiseRikuDpTextItalian, gLevelUpRaiseRikuDpTextSpanish]}
+    - gLvupMsgIncreasedText
+    - gLvupMsgIncreasedTextFrench
+    - gLvupMsgIncreasedTextGerman
+    - gLvupMsgIncreasedTextItalian
+    - gLvupMsgIncreasedTextSpanish
+    - {name: gLvupMsgIncreasedTextByLanguage, record: JiminyLocalizedName, strings: [gLvupMsgIncreasedText, gLvupMsgIncreasedTextFrench, gLvupMsgIncreasedTextGerman, gLvupMsgIncreasedTextItalian, gLvupMsgIncreasedTextSpanish]}
+    - gLvupMsgHpText
+    - gLvupMsgHpTextFrench
+    - gLvupMsgHpTextGerman
+    - gLvupMsgHpTextItalian
+    - gLvupMsgHpTextSpanish
+    - {name: gLvupMsgHpTextByLanguage, record: JiminyLocalizedName, strings: [gLvupMsgHpText, gLvupMsgHpTextFrench, gLvupMsgHpTextGerman, gLvupMsgHpTextItalian, gLvupMsgHpTextSpanish]}
+    - gLvupMsgDpText
+    - gLvupMsgDpTextFrench
+    - gLvupMsgDpTextGerman
+    - gLvupMsgDpTextItalian
+    - gLvupMsgDpTextSpanish
+    - {name: gLvupMsgDpTextByLanguage, record: JiminyLocalizedName, strings: [gLvupMsgDpText, gLvupMsgDpTextFrench, gLvupMsgDpTextGerman, gLvupMsgDpTextItalian, gLvupMsgDpTextSpanish]}
+    - gLvupMsgCpText
+    - gLvupMsgCpTextFrench
+    - gLvupMsgCpTextGerman
+    - gLvupMsgCpTextItalian
+    - gLvupMsgCpTextSpanish
+    - {name: gLvupMsgCpTextByLanguage, record: JiminyLocalizedName, strings: [gLvupMsgCpText, gLvupMsgCpTextFrench, gLvupMsgCpTextGerman, gLvupMsgCpTextItalian, gLvupMsgCpTextSpanish]}
+    - gLvupMsgApText
+    - gLvupMsgApTextFrench
+    - gLvupMsgApTextGerman
+    - gLvupMsgApTextItalian
+    - gLvupMsgApTextSpanish
+    - {name: gLvupMsgApTextByLanguage, record: JiminyLocalizedName, strings: [gLvupMsgApText, gLvupMsgApTextFrench, gLvupMsgApTextGerman, gLvupMsgApTextItalian, gLvupMsgApTextSpanish]}
+    - gLevelUpLearnSleightText
+    - gLevelUpLearnSleightTextFrench
+    - gLevelUpLearnSleightTextGerman
+    - gLevelUpLearnSleightTextItalian
+    - gLevelUpLearnSleightTextSpanish
+    - {name: gLevelUpLearnSleightTextByLanguage, record: JiminyLocalizedName, strings: [gLevelUpLearnSleightText, gLevelUpLearnSleightTextFrench, gLevelUpLearnSleightTextGerman, gLevelUpLearnSleightTextItalian, gLevelUpLearnSleightTextSpanish]}
+    - gSioBtlConnectText
+    - gSioBtlConnectTextFrench
+    - gSioBtlConnectTextGerman
+    - gSioBtlConnectTextItalian
+    - gSioBtlConnectTextSpanish
+    - {name: gSioBtlConnectTextByLanguage, record: JiminyLocalizedName, strings: [gSioBtlConnectText, gSioBtlConnectTextFrench, gSioBtlConnectTextGerman, gSioBtlConnectTextItalian, gSioBtlConnectTextSpanish]}
+    - gSioBtlWaitingText
+    - gSioBtlWaitingTextFrench
+    - gSioBtlWaitingTextGerman
+    - gSioBtlWaitingTextItalian
+    - gSioBtlWaitingTextSpanish
+    - {name: gSioBtlWaitingTextByLanguage, record: JiminyLocalizedName, strings: [gSioBtlWaitingText, gSioBtlWaitingTextFrench, gSioBtlWaitingTextGerman, gSioBtlWaitingTextItalian, gSioBtlWaitingTextSpanish]}
+    - gSioBtlReadyText
+    - gSioBtlReadyTextFrench
+    - gSioBtlReadyTextGerman
+    - gSioBtlReadyTextItalian
+    - gSioBtlReadyTextSpanish
+    - {name: gSioBtlReadyTextByLanguage, record: JiminyLocalizedName, strings: [gSioBtlReadyText, gSioBtlReadyTextFrench, gSioBtlReadyTextGerman, gSioBtlReadyTextItalian, gSioBtlReadyTextSpanish]}
+    - gSioBtlSendingDeckText
+    - gSioBtlSendingDeckTextFrench
+    - gSioBtlSendingDeckTextGerman
+    - gSioBtlSendingDeckTextItalian
+    - gSioBtlSendingDeckTextSpanish
+    - {name: gSioBtlSendingDeckTextByLanguage, record: JiminyLocalizedName, strings: [gSioBtlSendingDeckText, gSioBtlSendingDeckTextFrench, gSioBtlSendingDeckTextGerman, gSioBtlSendingDeckTextItalian, gSioBtlSendingDeckTextSpanish]}
+    - gSioChgConnectText
+    - gSioChgConnectTextFrench
+    - gSioChgConnectTextGerman
+    - gSioChgConnectTextItalian
+    - gSioChgConnectTextSpanish
+    - {name: gSioChgConnectTextByLanguage, record: JiminyLocalizedName, strings: [gSioChgConnectText, gSioChgConnectTextFrench, gSioChgConnectTextGerman, gSioChgConnectTextItalian, gSioChgConnectTextSpanish]}
+    - gSioSavingText
+    - gSioSavingTextFrench
+    - gSioSavingTextGerman
+    - gSioSavingTextItalian
+    - gSioSavingTextSpanish
+    - {name: gSioSavingTextByLanguage, record: JiminyLocalizedName, strings: [gSioSavingText, gSioSavingTextFrench, gSioSavingTextGerman, gSioSavingTextItalian, gSioSavingTextSpanish]}
+    - gSioSaveCompleteText
+    - gSioSaveCompleteTextFrench
+    - gSioSaveCompleteTextGerman
+    - gSioSaveCompleteTextItalian
+    - gSioSaveCompleteTextSpanish
+    - {name: gSioSaveCompleteTextByLanguage, record: JiminyLocalizedName, strings: [gSioSaveCompleteText, gSioSaveCompleteTextFrench, gSioSaveCompleteTextGerman, gSioSaveCompleteTextItalian, gSioSaveCompleteTextSpanish]}
+    - gSioChgWaitingText
+    - gSioChgWaitingTextFrench
+    - gSioChgWaitingTextGerman
+    - gSioChgWaitingTextItalian
+    - gSioChgWaitingTextSpanish
+    - {name: gSioChgWaitingTextByLanguage, record: JiminyLocalizedName, strings: [gSioChgWaitingText, gSioChgWaitingTextFrench, gSioChgWaitingTextGerman, gSioChgWaitingTextItalian, gSioChgWaitingTextSpanish]}
+    - gSioChgSwapConfirmText
+    - gSioChgSwapConfirmTextFrench
+    - gSioChgSwapConfirmTextGerman
+    - gSioChgSwapConfirmTextItalian
+    - gSioChgSwapConfirmTextSpanish
+    - {name: gSioChgSwapConfirmTextByLanguage, record: JiminyLocalizedName, strings: [gSioChgSwapConfirmText, gSioChgSwapConfirmTextFrench, gSioChgSwapConfirmTextGerman, gSioChgSwapConfirmTextItalian, gSioChgSwapConfirmTextSpanish]}
+    - gSioChgSwappingText
+    - gSioChgSwappingTextFrench
+    - gSioChgSwappingTextGerman
+    - gSioChgSwappingTextItalian
+    - gSioChgSwappingTextSpanish
+    - {name: gSioChgSwappingTextByLanguage, record: JiminyLocalizedName, strings: [gSioChgSwappingText, gSioChgSwappingTextFrench, gSioChgSwappingTextGerman, gSioChgSwappingTextItalian, gSioChgSwappingTextSpanish]}
+    - gSioChgSwapCompleteText
+    - gSioChgSwapCompleteTextFrench
+    - gSioChgSwapCompleteTextGerman
+    - gSioChgSwapCompleteTextItalian
+    - gSioChgSwapCompleteTextSpanish
+    - {name: gSioChgSwapCompleteTextByLanguage, record: JiminyLocalizedName, strings: [gSioChgSwapCompleteText, gSioChgSwapCompleteTextFrench, gSioChgSwapCompleteTextGerman, gSioChgSwapCompleteTextItalian, gSioChgSwapCompleteTextSpanish]}
+    - gSioChgSaveCompleteText
+    - gSioChgSaveCompleteTextFrench
+    - gSioChgSaveCompleteTextGerman
+    - gSioChgSaveCompleteTextItalian
+    - gSioChgSaveCompleteTextSpanish
+    - {name: gSioChgSaveCompleteTextByLanguage, record: JiminyLocalizedName, strings: [gSioChgSaveCompleteText, gSioChgSaveCompleteTextFrench, gSioChgSaveCompleteTextGerman, gSioChgSaveCompleteTextItalian, gSioChgSaveCompleteTextSpanish]}
+    - gSioChgFailedPointsText
+    - gSioChgFailedPointsTextFrench
+    - gSioChgFailedPointsTextGerman
+    - gSioChgFailedPointsTextItalian
+    - gSioChgFailedPointsTextSpanish
+    - {name: gSioChgFailedPointsTextByLanguage, record: JiminyLocalizedName, strings: [gSioChgFailedPointsText, gSioChgFailedPointsTextFrench, gSioChgFailedPointsTextGerman, gSioChgFailedPointsTextItalian, gSioChgFailedPointsTextSpanish]}
+    - gSioChgFailedFullText
+    - gSioChgFailedFullTextFrench
+    - gSioChgFailedFullTextGerman
+    - gSioChgFailedFullTextItalian
+    - gSioChgFailedFullTextSpanish
+    - {name: gSioChgFailedFullTextByLanguage, record: JiminyLocalizedName, strings: [gSioChgFailedFullText, gSioChgFailedFullTextFrench, gSioChgFailedFullTextGerman, gSioChgFailedFullTextItalian, gSioChgFailedFullTextSpanish]}
+    - gSioErrorText
+    - gSioErrorTextFrench
+    - gSioErrorTextGerman
+    - gSioErrorTextItalian
+    - gSioErrorTextSpanish
+    - {name: gSioErrorTextByLanguage, record: JiminyLocalizedName, strings: [gSioErrorText, gSioErrorTextFrench, gSioErrorTextGerman, gSioErrorTextItalian, gSioErrorTextSpanish]}
+    - gJiminyMenuAttackCardsName
+    - gJiminyMenuAttackCardsNameFrench
+    - gJiminyMenuAttackCardsNameGerman
+    - gJiminyMenuAttackCardsNameItalian
+    - gJiminyMenuAttackCardsNameSpanish
+    - {name: gJiminyMenuAttackCardsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuAttackCardsName, gJiminyMenuAttackCardsNameFrench, gJiminyMenuAttackCardsNameGerman, gJiminyMenuAttackCardsNameItalian, gJiminyMenuAttackCardsNameSpanish]}
+    - gJiminyMenuMagicCardsName
+    - gJiminyMenuMagicCardsNameFrench
+    - gJiminyMenuMagicCardsNameGerman
+    - gJiminyMenuMagicCardsNameItalian
+    - gJiminyMenuMagicCardsNameSpanish
+    - {name: gJiminyMenuMagicCardsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuMagicCardsName, gJiminyMenuMagicCardsNameFrench, gJiminyMenuMagicCardsNameGerman, gJiminyMenuMagicCardsNameItalian, gJiminyMenuMagicCardsNameSpanish]}
+    - gJiminyMenuItemCardsName
+    - gJiminyMenuItemCardsNameFrench
+    - gJiminyMenuItemCardsNameGerman
+    - gJiminyMenuItemCardsNameItalian
+    - gJiminyMenuItemCardsNameSpanish
+    - {name: gJiminyMenuItemCardsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuItemCardsName, gJiminyMenuItemCardsNameFrench, gJiminyMenuItemCardsNameGerman, gJiminyMenuItemCardsNameItalian, gJiminyMenuItemCardsNameSpanish]}
+    - gJiminyMenuFriendCardsName
+    - gJiminyMenuFriendCardsNameFrench
+    - gJiminyMenuFriendCardsNameGerman
+    - gJiminyMenuFriendCardsNameItalian
+    - gJiminyMenuFriendCardsNameSpanish
+    - {name: gJiminyMenuFriendCardsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuFriendCardsName, gJiminyMenuFriendCardsNameFrench, gJiminyMenuFriendCardsNameGerman, gJiminyMenuFriendCardsNameItalian, gJiminyMenuFriendCardsNameSpanish]}
+    - gJiminyMenuEnemyCardsName
+    - gJiminyMenuEnemyCardsNameFrench
+    - gJiminyMenuEnemyCardsNameGerman
+    - gJiminyMenuEnemyCardsNameItalian
+    - gJiminyMenuEnemyCardsNameSpanish
+    - {name: gJiminyMenuEnemyCardsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuEnemyCardsName, gJiminyMenuEnemyCardsNameFrench, gJiminyMenuEnemyCardsNameGerman, gJiminyMenuEnemyCardsNameItalian, gJiminyMenuEnemyCardsNameSpanish]}
+    - gJiminyMenuMapCardsName
+    - gJiminyMenuMapCardsNameFrench
+    - gJiminyMenuMapCardsNameGerman
+    - gJiminyMenuMapCardsNameItalian
+    - gJiminyMenuMapCardsNameSpanish
+    - {name: gJiminyMenuMapCardsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuMapCardsName, gJiminyMenuMapCardsNameFrench, gJiminyMenuMapCardsNameGerman, gJiminyMenuMapCardsNameItalian, gJiminyMenuMapCardsNameSpanish]}
+    - gJiminyChooseEntryText
+    - gJiminyChooseEntryTextFrench
+    - gJiminyChooseEntryTextGerman
+    - gJiminyChooseEntryTextItalian
+    - gJiminyChooseEntryTextSpanish
+    - {name: gJiminyChooseEntryTextByLanguage, record: JiminyLocalizedName, strings: [gJiminyChooseEntryText, gJiminyChooseEntryTextFrench, gJiminyChooseEntryTextGerman, gJiminyChooseEntryTextItalian, gJiminyChooseEntryTextSpanish]}
+    - gJiminyMenuCharacters1Name
+    - gJiminyMenuCharacters1NameFrench
+    - gJiminyMenuCharacters1NameGerman
+    - gJiminyMenuCharacters1NameItalian
+    - gJiminyMenuCharacters1NameSpanish
+    - {name: gJiminyMenuCharacters1NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuCharacters1Name, gJiminyMenuCharacters1NameFrench, gJiminyMenuCharacters1NameGerman, gJiminyMenuCharacters1NameItalian, gJiminyMenuCharacters1NameSpanish]}
+    - gJiminyMenuCharacters2Name
+    - gJiminyMenuCharacters2NameFrench
+    - gJiminyMenuCharacters2NameGerman
+    - gJiminyMenuCharacters2NameItalian
+    - gJiminyMenuCharacters2NameSpanish
+    - {name: gJiminyMenuCharacters2NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuCharacters2Name, gJiminyMenuCharacters2NameFrench, gJiminyMenuCharacters2NameGerman, gJiminyMenuCharacters2NameItalian, gJiminyMenuCharacters2NameSpanish]}
+    - gJiminyStoryTale1Name
+    - gJiminyStoryTale1NameFrench
+    - gJiminyStoryTale1NameGerman
+    - gJiminyStoryTale1NameItalian
+    - gJiminyStoryTale1NameSpanish
+    - {name: gJiminyStoryTale1NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyStoryTale1Name, gJiminyStoryTale1NameFrench, gJiminyStoryTale1NameGerman, gJiminyStoryTale1NameItalian, gJiminyStoryTale1NameSpanish]}
+    - gJiminyStoryTale2Name
+    - gJiminyStoryTale2NameFrench
+    - gJiminyStoryTale2NameGerman
+    - gJiminyStoryTale2NameItalian
+    - gJiminyStoryTale2NameSpanish
+    - {name: gJiminyStoryTale2NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyStoryTale2Name, gJiminyStoryTale2NameFrench, gJiminyStoryTale2NameGerman, gJiminyStoryTale2NameItalian, gJiminyStoryTale2NameSpanish]}
+    - gJiminyStoryTale3Name
+    - gJiminyStoryTale3NameFrench
+    - gJiminyStoryTale3NameGerman
+    - gJiminyStoryTale3NameItalian
+    - gJiminyStoryTale3NameSpanish
+    - {name: gJiminyStoryTale3NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyStoryTale3Name, gJiminyStoryTale3NameFrench, gJiminyStoryTale3NameGerman, gJiminyStoryTale3NameItalian, gJiminyStoryTale3NameSpanish]}
+    - gJiminyStoryTale4Name
+    - gJiminyStoryTale4NameFrench
+    - gJiminyStoryTale4NameGerman
+    - gJiminyStoryTale4NameItalian
+    - gJiminyStoryTale4NameSpanish
+    - {name: gJiminyStoryTale4NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyStoryTale4Name, gJiminyStoryTale4NameFrench, gJiminyStoryTale4NameGerman, gJiminyStoryTale4NameItalian, gJiminyStoryTale4NameSpanish]}
+    - gJiminyMenuStoryName
+    - gJiminyMenuStoryNameFrench
+    - gJiminyMenuStoryNameGerman
+    - gJiminyMenuStoryNameItalian
+    - gJiminyMenuStoryNameSpanish
+    - {name: gJiminyMenuStoryNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuStoryName, gJiminyMenuStoryNameFrench, gJiminyMenuStoryNameGerman, gJiminyMenuStoryNameItalian, gJiminyMenuStoryNameSpanish]}
+    - gJiminyMenuCardIndexName
+    - gJiminyMenuCardIndexNameFrench
+    - gJiminyMenuCardIndexNameGerman
+    - gJiminyMenuCardIndexNameItalian
+    - gJiminyMenuCardIndexNameSpanish
+    - {name: gJiminyMenuCardIndexNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuCardIndexName, gJiminyMenuCardIndexNameFrench, gJiminyMenuCardIndexNameGerman, gJiminyMenuCardIndexNameItalian, gJiminyMenuCardIndexNameSpanish]}
+    - gJiminyMenuCharactersName
+    - gJiminyMenuCharactersNameFrench
+    - gJiminyMenuCharactersNameGerman
+    - gJiminyMenuCharactersNameItalian
+    - gJiminyMenuCharactersNameSpanish
+    - {name: gJiminyMenuCharactersNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuCharactersName, gJiminyMenuCharactersNameFrench, gJiminyMenuCharactersNameGerman, gJiminyMenuCharactersNameItalian, gJiminyMenuCharactersNameSpanish]}
+    - {name: gWorldNameCastleOblivionHall, ctype: const u8}
+    - {name: gWorldNameCastleOblivionHallFrench, ctype: const u8}
+    - {name: gWorldNameCastleOblivionHallGerman, ctype: const u8}
+    - {name: gWorldNameCastleOblivionHallItalian, ctype: const u8}
+    - {name: gWorldNameCastleOblivionHallSpanish, ctype: const u8}
+    - {name: gWorldNameCastleOblivionHallByLanguage, record: LocalizedText, strings: [gWorldNameCastleOblivionHall, gWorldNameCastleOblivionHallFrench, gWorldNameCastleOblivionHallGerman, gWorldNameCastleOblivionHallItalian, gWorldNameCastleOblivionHallSpanish]}
+    - gNewGameSlotMenuText
+    - gNewGameSlotMenuTextFrench
+    - gNewGameSlotMenuTextGerman
+    - gNewGameSlotMenuTextItalian
+    - gNewGameSlotMenuTextSpanish
+    - {name: gNewGameSlotMenuTextByLanguage, record: JiminyLocalizedName, strings: [gNewGameSlotMenuText, gNewGameSlotMenuTextFrench, gNewGameSlotMenuTextGerman, gNewGameSlotMenuTextItalian, gNewGameSlotMenuTextSpanish]}
+    - gMapQuickSaveConfirmText
+    - gMapQuickSaveConfirmTextFrench
+    - gMapQuickSaveConfirmTextGerman
+    - gMapQuickSaveConfirmTextItalian
+    - gMapQuickSaveConfirmTextSpanish
+    - {name: gMapQuickSaveConfirmTextByLanguage, record: JiminyLocalizedName, strings: [gMapQuickSaveConfirmText, gMapQuickSaveConfirmTextFrench, gMapQuickSaveConfirmTextGerman, gMapQuickSaveConfirmTextItalian, gMapQuickSaveConfirmTextSpanish]}
+    - gMapSaveConfirmText
+    - gMapSaveConfirmTextFrench
+    - gMapSaveConfirmTextGerman
+    - gMapSaveConfirmTextItalian
+    - gMapSaveConfirmTextSpanish
+    - {name: gMapSaveConfirmTextByLanguage, record: JiminyLocalizedName, strings: [gMapSaveConfirmText, gMapSaveConfirmTextFrench, gMapSaveConfirmTextGerman, gMapSaveConfirmTextItalian, gMapSaveConfirmTextSpanish]}
+    - gMapSaveCompleteText
+    - gMapSaveCompleteTextFrench
+    - gMapSaveCompleteTextGerman
+    - gMapSaveCompleteTextItalian
+    - gMapSaveCompleteTextSpanish
+    - {name: gMapSaveCompleteTextByLanguage, record: JiminyLocalizedName, strings: [gMapSaveCompleteText, gMapSaveCompleteTextFrench, gMapSaveCompleteTextGerman, gMapSaveCompleteTextItalian, gMapSaveCompleteTextSpanish]}
+    - gRoomNameTeemingDarkness
+    - gRoomNameTeemingDarknessFrench
+    - gRoomNameTeemingDarknessGerman
+    - gRoomNameTeemingDarknessItalian
+    - gRoomNameTeemingDarknessSpanish
+    - {name: gRoomNameTeemingDarknessByLanguage, record: JiminyLocalizedName, strings: [gRoomNameTeemingDarkness, gRoomNameTeemingDarknessFrench, gRoomNameTeemingDarknessGerman, gRoomNameTeemingDarknessItalian, gRoomNameTeemingDarknessSpanish]}
+    - gRoomNameTranquilDarkness
+    - gRoomNameTranquilDarknessFrench
+    - gRoomNameTranquilDarknessGerman
+    - gRoomNameTranquilDarknessItalian
+    - gRoomNameTranquilDarknessSpanish
+    - {name: gRoomNameTranquilDarknessByLanguage, record: JiminyLocalizedName, strings: [gRoomNameTranquilDarkness, gRoomNameTranquilDarknessFrench, gRoomNameTranquilDarknessGerman, gRoomNameTranquilDarknessItalian, gRoomNameTranquilDarknessSpanish]}
+    - gRoomNameGuardedTrove
+    - gRoomNameGuardedTroveFrench
+    - gRoomNameGuardedTroveGerman
+    - gRoomNameGuardedTroveItalian
+    - gRoomNameGuardedTroveSpanish
+    - {name: gRoomNameGuardedTroveByLanguage, record: JiminyLocalizedName, strings: [gRoomNameGuardedTrove, gRoomNameGuardedTroveFrench, gRoomNameGuardedTroveGerman, gRoomNameGuardedTroveItalian, gRoomNameGuardedTroveSpanish]}
+    - gRoomNameLoomingDarkness
+    - gRoomNameLoomingDarknessFrench
+    - gRoomNameLoomingDarknessGerman
+    - gRoomNameLoomingDarknessItalian
+    - gRoomNameLoomingDarknessSpanish
+    - {name: gRoomNameLoomingDarknessByLanguage, record: JiminyLocalizedName, strings: [gRoomNameLoomingDarkness, gRoomNameLoomingDarknessFrench, gRoomNameLoomingDarknessGerman, gRoomNameLoomingDarknessItalian, gRoomNameLoomingDarknessSpanish]}
+    - gRoomNameSleepingDarkness
+    - gRoomNameSleepingDarknessFrench
+    - gRoomNameSleepingDarknessGerman
+    - gRoomNameSleepingDarknessItalian
+    - gRoomNameSleepingDarknessSpanish
+    - {name: gRoomNameSleepingDarknessByLanguage, record: JiminyLocalizedName, strings: [gRoomNameSleepingDarkness, gRoomNameSleepingDarknessFrench, gRoomNameSleepingDarknessGerman, gRoomNameSleepingDarknessItalian, gRoomNameSleepingDarknessSpanish]}
+    - gRoomNameMomentsReprieve
+    - gRoomNameMomentsReprieveFrench
+    - gRoomNameMomentsReprieveGerman
+    - gRoomNameMomentsReprieveItalian
+    - gRoomNameMomentsReprieveSpanish
+    - {name: gRoomNameMomentsReprieveByLanguage, record: JiminyLocalizedName, strings: [gRoomNameMomentsReprieve, gRoomNameMomentsReprieveFrench, gRoomNameMomentsReprieveGerman, gRoomNameMomentsReprieveItalian, gRoomNameMomentsReprieveSpanish]}
+    - gRoomNameFeebleDarkness
+    - gRoomNameFeebleDarknessFrench
+    - gRoomNameFeebleDarknessGerman
+    - gRoomNameFeebleDarknessItalian
+    - gRoomNameFeebleDarknessSpanish
+    - {name: gRoomNameFeebleDarknessByLanguage, record: JiminyLocalizedName, strings: [gRoomNameFeebleDarkness, gRoomNameFeebleDarknessFrench, gRoomNameFeebleDarknessGerman, gRoomNameFeebleDarknessItalian, gRoomNameFeebleDarknessSpanish]}
+    - gRoomNameAlmightyDarkness
+    - gRoomNameAlmightyDarknessFrench
+    - gRoomNameAlmightyDarknessGerman
+    - gRoomNameAlmightyDarknessItalian
+    - gRoomNameAlmightyDarknessSpanish
+    - {name: gRoomNameAlmightyDarknessByLanguage, record: JiminyLocalizedName, strings: [gRoomNameAlmightyDarkness, gRoomNameAlmightyDarknessFrench, gRoomNameAlmightyDarknessGerman, gRoomNameAlmightyDarknessItalian, gRoomNameAlmightyDarknessSpanish]}
+    - gRoomNameCalmBounty
+    - gRoomNameCalmBountyFrench
+    - gRoomNameCalmBountyGerman
+    - gRoomNameCalmBountyItalian
+    - gRoomNameCalmBountySpanish
+    - {name: gRoomNameCalmBountyByLanguage, record: JiminyLocalizedName, strings: [gRoomNameCalmBounty, gRoomNameCalmBountyFrench, gRoomNameCalmBountyGerman, gRoomNameCalmBountyItalian, gRoomNameCalmBountySpanish]}
+    - gRoomNameFalseBounty
+    - gRoomNameFalseBountyFrench
+    - gRoomNameFalseBountyGerman
+    - gRoomNameFalseBountyItalian
+    - gRoomNameFalseBountySpanish
+    - {name: gRoomNameFalseBountyByLanguage, record: JiminyLocalizedName, strings: [gRoomNameFalseBounty, gRoomNameFalseBountyFrench, gRoomNameFalseBountyGerman, gRoomNameFalseBountyItalian, gRoomNameFalseBountySpanish]}
+    - gRoomNameMoogleRoom
+    - gRoomNameMoogleRoomFrench
+    - gRoomNameMoogleRoomGerman
+    - gRoomNameMoogleRoomItalian
+    - gRoomNameMoogleRoomSpanish
+    - {name: gRoomNameMoogleRoomByLanguage, record: JiminyLocalizedName, strings: [gRoomNameMoogleRoom, gRoomNameMoogleRoomFrench, gRoomNameMoogleRoomGerman, gRoomNameMoogleRoomItalian, gRoomNameMoogleRoomSpanish]}
+    - gRoomNameSorcerousWaking
+    - gRoomNameSorcerousWakingFrench
+    - gRoomNameSorcerousWakingGerman
+    - gRoomNameSorcerousWakingItalian
+    - gRoomNameSorcerousWakingSpanish
+    - {name: gRoomNameSorcerousWakingByLanguage, record: JiminyLocalizedName, strings: [gRoomNameSorcerousWaking, gRoomNameSorcerousWakingFrench, gRoomNameSorcerousWakingGerman, gRoomNameSorcerousWakingItalian, gRoomNameSorcerousWakingSpanish]}
+    - gRoomNameMartialWaking
+    - gRoomNameMartialWakingFrench
+    - gRoomNameMartialWakingGerman
+    - gRoomNameMartialWakingItalian
+    - gRoomNameMartialWakingSpanish
+    - {name: gRoomNameMartialWakingByLanguage, record: JiminyLocalizedName, strings: [gRoomNameMartialWaking, gRoomNameMartialWakingFrench, gRoomNameMartialWakingGerman, gRoomNameMartialWakingItalian, gRoomNameMartialWakingSpanish]}
+    - gRoomNameAlchemicWaking
+    - gRoomNameAlchemicWakingFrench
+    - gRoomNameAlchemicWakingGerman
+    - gRoomNameAlchemicWakingItalian
+    - gRoomNameAlchemicWakingSpanish
+    - {name: gRoomNameAlchemicWakingByLanguage, record: JiminyLocalizedName, strings: [gRoomNameAlchemicWaking, gRoomNameAlchemicWakingFrench, gRoomNameAlchemicWakingGerman, gRoomNameAlchemicWakingItalian, gRoomNameAlchemicWakingSpanish]}
+    - gRoomNameMeetingGround
+    - gRoomNameMeetingGroundFrench
+    - gRoomNameMeetingGroundGerman
+    - gRoomNameMeetingGroundItalian
+    - gRoomNameMeetingGroundSpanish
+    - {name: gRoomNameMeetingGroundByLanguage, record: JiminyLocalizedName, strings: [gRoomNameMeetingGround, gRoomNameMeetingGroundFrench, gRoomNameMeetingGroundGerman, gRoomNameMeetingGroundItalian, gRoomNameMeetingGroundSpanish]}
+    - gRoomNameMinglingWorlds
+    - gRoomNameMinglingWorldsFrench
+    - gRoomNameMinglingWorldsGerman
+    - gRoomNameMinglingWorldsItalian
+    - gRoomNameMinglingWorldsSpanish
+    - {name: gRoomNameMinglingWorldsByLanguage, record: JiminyLocalizedName, strings: [gRoomNameMinglingWorlds, gRoomNameMinglingWorldsFrench, gRoomNameMinglingWorldsGerman, gRoomNameMinglingWorldsItalian, gRoomNameMinglingWorldsSpanish]}
+    - gRoomNameStrongInitiative
+    - gRoomNameStrongInitiativeFrench
+    - gRoomNameStrongInitiativeGerman
+    - gRoomNameStrongInitiativeItalian
+    - gRoomNameStrongInitiativeSpanish
+    - {name: gRoomNameStrongInitiativeByLanguage, record: JiminyLocalizedName, strings: [gRoomNameStrongInitiative, gRoomNameStrongInitiativeFrench, gRoomNameStrongInitiativeGerman, gRoomNameStrongInitiativeItalian, gRoomNameStrongInitiativeSpanish]}
+    - gRoomNameLastingDaze
+    - gRoomNameLastingDazeFrench
+    - gRoomNameLastingDazeGerman
+    - gRoomNameLastingDazeItalian
+    - gRoomNameLastingDazeSpanish
+    - {name: gRoomNameLastingDazeByLanguage, record: JiminyLocalizedName, strings: [gRoomNameLastingDaze, gRoomNameLastingDazeFrench, gRoomNameLastingDazeGerman, gRoomNameLastingDazeItalian, gRoomNameLastingDazeSpanish]}
+    - gRoomNameStagnantSpace
+    - gRoomNameStagnantSpaceFrench
+    - gRoomNameStagnantSpaceGerman
+    - gRoomNameStagnantSpaceItalian
+    - gRoomNameStagnantSpaceSpanish
+    - {name: gRoomNameStagnantSpaceByLanguage, record: JiminyLocalizedName, strings: [gRoomNameStagnantSpace, gRoomNameStagnantSpaceFrench, gRoomNameStagnantSpaceGerman, gRoomNameStagnantSpaceItalian, gRoomNameStagnantSpaceSpanish]}
+    - gRoomNamePremiumRoom
+    - gRoomNamePremiumRoomFrench
+    - gRoomNamePremiumRoomGerman
+    - gRoomNamePremiumRoomItalian
+    - gRoomNamePremiumRoomSpanish
+    - {name: gRoomNamePremiumRoomByLanguage, record: JiminyLocalizedName, strings: [gRoomNamePremiumRoom, gRoomNamePremiumRoomFrench, gRoomNamePremiumRoomGerman, gRoomNamePremiumRoomItalian, gRoomNamePremiumRoomSpanish]}
+    - gRoomNameWhiteRoom
+    - gRoomNameWhiteRoomFrench
+    - gRoomNameWhiteRoomGerman
+    - gRoomNameWhiteRoomItalian
+    - gRoomNameWhiteRoomSpanish
+    - {name: gRoomNameWhiteRoomByLanguage, record: JiminyLocalizedName, strings: [gRoomNameWhiteRoom, gRoomNameWhiteRoomFrench, gRoomNameWhiteRoomGerman, gRoomNameWhiteRoomItalian, gRoomNameWhiteRoomSpanish]}
+    - gRoomNameBlackRoom
+    - gRoomNameBlackRoomFrench
+    - gRoomNameBlackRoomGerman
+    - gRoomNameBlackRoomItalian
+    - gRoomNameBlackRoomSpanish
+    - {name: gRoomNameBlackRoomByLanguage, record: JiminyLocalizedName, strings: [gRoomNameBlackRoom, gRoomNameBlackRoomFrench, gRoomNameBlackRoomGerman, gRoomNameBlackRoomItalian, gRoomNameBlackRoomSpanish]}
+    - gRoomNameKeyOfBeginnings
+    - gRoomNameKeyOfBeginningsFrench
+    - gRoomNameKeyOfBeginningsGerman
+    - gRoomNameKeyOfBeginningsItalian
+    - gRoomNameKeyOfBeginningsSpanish
+    - {name: gRoomNameKeyOfBeginningsByLanguage, record: JiminyLocalizedName, strings: [gRoomNameKeyOfBeginnings, gRoomNameKeyOfBeginningsFrench, gRoomNameKeyOfBeginningsGerman, gRoomNameKeyOfBeginningsItalian, gRoomNameKeyOfBeginningsSpanish]}
+    - gRoomNameKeyOfGuidance
+    - gRoomNameKeyOfGuidanceFrench
+    - gRoomNameKeyOfGuidanceGerman
+    - gRoomNameKeyOfGuidanceItalian
+    - gRoomNameKeyOfGuidanceSpanish
+    - {name: gRoomNameKeyOfGuidanceByLanguage, record: JiminyLocalizedName, strings: [gRoomNameKeyOfGuidance, gRoomNameKeyOfGuidanceFrench, gRoomNameKeyOfGuidanceGerman, gRoomNameKeyOfGuidanceItalian, gRoomNameKeyOfGuidanceSpanish]}
+    - gRoomNameKeyToTruth
+    - gRoomNameKeyToTruthFrench
+    - gRoomNameKeyToTruthGerman
+    - gRoomNameKeyToTruthItalian
+    - gRoomNameKeyToTruthSpanish
+    - {name: gRoomNameKeyToTruthByLanguage, record: JiminyLocalizedName, strings: [gRoomNameKeyToTruth, gRoomNameKeyToTruthFrench, gRoomNameKeyToTruthGerman, gRoomNameKeyToTruthItalian, gRoomNameKeyToTruthSpanish]}
+    - gRoomNameKeyToRewards
+    - gRoomNameKeyToRewardsFrench
+    - gRoomNameKeyToRewardsGerman
+    - gRoomNameKeyToRewardsItalian
+    - gRoomNameKeyToRewardsSpanish
+    - {name: gRoomNameKeyToRewardsByLanguage, record: JiminyLocalizedName, strings: [gRoomNameKeyToRewards, gRoomNameKeyToRewardsFrench, gRoomNameKeyToRewardsGerman, gRoomNameKeyToRewardsItalian, gRoomNameKeyToRewardsSpanish]}
+    - {name: gRoomNameUnknownPlace, ctype: const u8}
+    - {name: gRoomNameUnknownPlaceFrench, ctype: const u8}
+    - {name: gRoomNameUnknownPlaceGerman, ctype: const u8}
+    - {name: gRoomNameUnknownPlaceItalian, ctype: const u8}
+    - {name: gRoomNameUnknownPlaceSpanish, ctype: const u8}
+    - {name: gRoomNameUnknownPlaceByLanguage, record: LocalizedText, strings: [gRoomNameUnknownPlace, gRoomNameUnknownPlaceFrench, gRoomNameUnknownPlaceGerman, gRoomNameUnknownPlaceItalian, gRoomNameUnknownPlaceSpanish]}
+    - {name: gRoomNameHiddenChamber, ctype: const u8}
+    - {name: gRoomNameHiddenChamberFrench, ctype: const u8}
+    - {name: gRoomNameHiddenChamberGerman, ctype: const u8}
+    - {name: gRoomNameHiddenChamberItalian, ctype: const u8}
+    - {name: gRoomNameHiddenChamberSpanish, ctype: const u8}
+    - {name: gRoomNameHiddenChamberByLanguage, record: LocalizedText, strings: [gRoomNameHiddenChamber, gRoomNameHiddenChamberFrench, gRoomNameHiddenChamberGerman, gRoomNameHiddenChamberItalian, gRoomNameHiddenChamberSpanish]}
+    - {name: gFloorName1, ctype: const u8}
+    - {name: gFloorName1French, ctype: const u8}
+    - {name: gFloorName1German, ctype: const u8}
+    - {name: gFloorName1Italian, ctype: const u8}
+    - {name: gFloorName1Spanish, ctype: const u8}
+    - {name: gFloorName1ByLanguage, record: LocalizedText, strings: [gFloorName1, gFloorName1French, gFloorName1German, gFloorName1Italian, gFloorName1Spanish]}
+    - {name: gFloorName2, ctype: const u8}
+    - {name: gFloorName2French, ctype: const u8}
+    - {name: gFloorName2German, ctype: const u8}
+    - {name: gFloorName2Italian, ctype: const u8}
+    - {name: gFloorName2Spanish, ctype: const u8}
+    - {name: gFloorName2ByLanguage, record: LocalizedText, strings: [gFloorName2, gFloorName2French, gFloorName2German, gFloorName2Italian, gFloorName2Spanish]}
+    - {name: gFloorName3, ctype: const u8}
+    - {name: gFloorName3French, ctype: const u8}
+    - {name: gFloorName3German, ctype: const u8}
+    - {name: gFloorName3Italian, ctype: const u8}
+    - {name: gFloorName3Spanish, ctype: const u8}
+    - {name: gFloorName3ByLanguage, record: LocalizedText, strings: [gFloorName3, gFloorName3French, gFloorName3German, gFloorName3Italian, gFloorName3Spanish]}
+    - {name: gFloorName4, ctype: const u8}
+    - {name: gFloorName4French, ctype: const u8}
+    - {name: gFloorName4German, ctype: const u8}
+    - {name: gFloorName4Italian, ctype: const u8}
+    - {name: gFloorName4Spanish, ctype: const u8}
+    - {name: gFloorName4ByLanguage, record: LocalizedText, strings: [gFloorName4, gFloorName4French, gFloorName4German, gFloorName4Italian, gFloorName4Spanish]}
+    - {name: gFloorName5, ctype: const u8}
+    - {name: gFloorName5French, ctype: const u8}
+    - {name: gFloorName5German, ctype: const u8}
+    - {name: gFloorName5Italian, ctype: const u8}
+    - {name: gFloorName5Spanish, ctype: const u8}
+    - {name: gFloorName5ByLanguage, record: LocalizedText, strings: [gFloorName5, gFloorName5French, gFloorName5German, gFloorName5Italian, gFloorName5Spanish]}
+    - {name: gFloorName6, ctype: const u8}
+    - {name: gFloorName6French, ctype: const u8}
+    - {name: gFloorName6German, ctype: const u8}
+    - {name: gFloorName6Italian, ctype: const u8}
+    - {name: gFloorName6Spanish, ctype: const u8}
+    - {name: gFloorName6ByLanguage, record: LocalizedText, strings: [gFloorName6, gFloorName6French, gFloorName6German, gFloorName6Italian, gFloorName6Spanish]}
+    - {name: gFloorName7, ctype: const u8}
+    - {name: gFloorName7French, ctype: const u8}
+    - {name: gFloorName7German, ctype: const u8}
+    - {name: gFloorName7Italian, ctype: const u8}
+    - {name: gFloorName7Spanish, ctype: const u8}
+    - {name: gFloorName7ByLanguage, record: LocalizedText, strings: [gFloorName7, gFloorName7French, gFloorName7German, gFloorName7Italian, gFloorName7Spanish]}
+    - {name: gFloorName8, ctype: const u8}
+    - {name: gFloorName8French, ctype: const u8}
+    - {name: gFloorName8German, ctype: const u8}
+    - {name: gFloorName8Italian, ctype: const u8}
+    - {name: gFloorName8Spanish, ctype: const u8}
+    - {name: gFloorName8ByLanguage, record: LocalizedText, strings: [gFloorName8, gFloorName8French, gFloorName8German, gFloorName8Italian, gFloorName8Spanish]}
+    - {name: gFloorName9, ctype: const u8}
+    - {name: gFloorName9French, ctype: const u8}
+    - {name: gFloorName9German, ctype: const u8}
+    - {name: gFloorName9Italian, ctype: const u8}
+    - {name: gFloorName9Spanish, ctype: const u8}
+    - {name: gFloorName9ByLanguage, record: LocalizedText, strings: [gFloorName9, gFloorName9French, gFloorName9German, gFloorName9Italian, gFloorName9Spanish]}
+    - {name: gFloorName10, ctype: const u8}
+    - {name: gFloorName10French, ctype: const u8}
+    - {name: gFloorName10German, ctype: const u8}
+    - {name: gFloorName10Italian, ctype: const u8}
+    - {name: gFloorName10Spanish, ctype: const u8}
+    - {name: gFloorName10ByLanguage, record: LocalizedText, strings: [gFloorName10, gFloorName10French, gFloorName10German, gFloorName10Italian, gFloorName10Spanish]}
+    - {name: gFloorName11, ctype: const u8}
+    - {name: gFloorName11French, ctype: const u8}
+    - {name: gFloorName11German, ctype: const u8}
+    - {name: gFloorName11Italian, ctype: const u8}
+    - {name: gFloorName11Spanish, ctype: const u8}
+    - {name: gFloorName11ByLanguage, record: LocalizedText, strings: [gFloorName11, gFloorName11French, gFloorName11German, gFloorName11Italian, gFloorName11Spanish]}
+    - {name: gFloorName12, ctype: const u8}
+    - {name: gFloorName12French, ctype: const u8}
+    - {name: gFloorName12German, ctype: const u8}
+    - {name: gFloorName12Italian, ctype: const u8}
+    - {name: gFloorName12Spanish, ctype: const u8}
+    - {name: gFloorName12ByLanguage, record: LocalizedText, strings: [gFloorName12, gFloorName12French, gFloorName12German, gFloorName12Italian, gFloorName12Spanish]}
+    - {name: gFloorName13, ctype: const u8}
+    - {name: gFloorName13French, ctype: const u8}
+    - {name: gFloorName13German, ctype: const u8}
+    - {name: gFloorName13Italian, ctype: const u8}
+    - {name: gFloorName13Spanish, ctype: const u8}
+    - {name: gFloorName13ByLanguage, record: LocalizedText, strings: [gFloorName13, gFloorName13French, gFloorName13German, gFloorName13Italian, gFloorName13Spanish]}
+    - {name: gBasementFloorName12, ctype: const u8}
+    - {name: gBasementFloorName12French, ctype: const u8}
+    - {name: gBasementFloorName12German, ctype: const u8}
+    - {name: gBasementFloorName12Italian, ctype: const u8}
+    - {name: gBasementFloorName12Spanish, ctype: const u8}
+    - {name: gBasementFloorName12ByLanguage, record: LocalizedText, strings: [gBasementFloorName12, gBasementFloorName12French, gBasementFloorName12German, gBasementFloorName12Italian, gBasementFloorName12Spanish]}
+    - {name: gBasementFloorName11, ctype: const u8}
+    - {name: gBasementFloorName11French, ctype: const u8}
+    - {name: gBasementFloorName11German, ctype: const u8}
+    - {name: gBasementFloorName11Italian, ctype: const u8}
+    - {name: gBasementFloorName11Spanish, ctype: const u8}
+    - {name: gBasementFloorName11ByLanguage, record: LocalizedText, strings: [gBasementFloorName11, gBasementFloorName11French, gBasementFloorName11German, gBasementFloorName11Italian, gBasementFloorName11Spanish]}
+    - {name: gBasementFloorName10, ctype: const u8}
+    - {name: gBasementFloorName10French, ctype: const u8}
+    - {name: gBasementFloorName10German, ctype: const u8}
+    - {name: gBasementFloorName10Italian, ctype: const u8}
+    - {name: gBasementFloorName10Spanish, ctype: const u8}
+    - {name: gBasementFloorName10ByLanguage, record: LocalizedText, strings: [gBasementFloorName10, gBasementFloorName10French, gBasementFloorName10German, gBasementFloorName10Italian, gBasementFloorName10Spanish]}
+    - {name: gBasementFloorName9, ctype: const u8}
+    - {name: gBasementFloorName9French, ctype: const u8}
+    - {name: gBasementFloorName9German, ctype: const u8}
+    - {name: gBasementFloorName9Italian, ctype: const u8}
+    - {name: gBasementFloorName9Spanish, ctype: const u8}
+    - {name: gBasementFloorName9ByLanguage, record: LocalizedText, strings: [gBasementFloorName9, gBasementFloorName9French, gBasementFloorName9German, gBasementFloorName9Italian, gBasementFloorName9Spanish]}
+    - {name: gBasementFloorName8, ctype: const u8}
+    - {name: gBasementFloorName8French, ctype: const u8}
+    - {name: gBasementFloorName8German, ctype: const u8}
+    - {name: gBasementFloorName8Italian, ctype: const u8}
+    - {name: gBasementFloorName8Spanish, ctype: const u8}
+    - {name: gBasementFloorName8ByLanguage, record: LocalizedText, strings: [gBasementFloorName8, gBasementFloorName8French, gBasementFloorName8German, gBasementFloorName8Italian, gBasementFloorName8Spanish]}
+    - {name: gBasementFloorName7, ctype: const u8}
+    - {name: gBasementFloorName7French, ctype: const u8}
+    - {name: gBasementFloorName7German, ctype: const u8}
+    - {name: gBasementFloorName7Italian, ctype: const u8}
+    - {name: gBasementFloorName7Spanish, ctype: const u8}
+    - {name: gBasementFloorName7ByLanguage, record: LocalizedText, strings: [gBasementFloorName7, gBasementFloorName7French, gBasementFloorName7German, gBasementFloorName7Italian, gBasementFloorName7Spanish]}
+    - {name: gBasementFloorName6, ctype: const u8}
+    - {name: gBasementFloorName6French, ctype: const u8}
+    - {name: gBasementFloorName6German, ctype: const u8}
+    - {name: gBasementFloorName6Italian, ctype: const u8}
+    - {name: gBasementFloorName6Spanish, ctype: const u8}
+    - {name: gBasementFloorName6ByLanguage, record: LocalizedText, strings: [gBasementFloorName6, gBasementFloorName6French, gBasementFloorName6German, gBasementFloorName6Italian, gBasementFloorName6Spanish]}
+    - {name: gBasementFloorName5, ctype: const u8}
+    - {name: gBasementFloorName5French, ctype: const u8}
+    - {name: gBasementFloorName5German, ctype: const u8}
+    - {name: gBasementFloorName5Italian, ctype: const u8}
+    - {name: gBasementFloorName5Spanish, ctype: const u8}
+    - {name: gBasementFloorName5ByLanguage, record: LocalizedText, strings: [gBasementFloorName5, gBasementFloorName5French, gBasementFloorName5German, gBasementFloorName5Italian, gBasementFloorName5Spanish]}
+    - {name: gBasementFloorName4, ctype: const u8}
+    - {name: gBasementFloorName4French, ctype: const u8}
+    - {name: gBasementFloorName4German, ctype: const u8}
+    - {name: gBasementFloorName4Italian, ctype: const u8}
+    - {name: gBasementFloorName4Spanish, ctype: const u8}
+    - {name: gBasementFloorName4ByLanguage, record: LocalizedText, strings: [gBasementFloorName4, gBasementFloorName4French, gBasementFloorName4German, gBasementFloorName4Italian, gBasementFloorName4Spanish]}
+    - {name: gBasementFloorName3, ctype: const u8}
+    - {name: gBasementFloorName3French, ctype: const u8}
+    - {name: gBasementFloorName3German, ctype: const u8}
+    - {name: gBasementFloorName3Italian, ctype: const u8}
+    - {name: gBasementFloorName3Spanish, ctype: const u8}
+    - {name: gBasementFloorName3ByLanguage, record: LocalizedText, strings: [gBasementFloorName3, gBasementFloorName3French, gBasementFloorName3German, gBasementFloorName3Italian, gBasementFloorName3Spanish]}
+    - {name: gBasementFloorName2, ctype: const u8}
+    - {name: gBasementFloorName2French, ctype: const u8}
+    - {name: gBasementFloorName2German, ctype: const u8}
+    - {name: gBasementFloorName2Italian, ctype: const u8}
+    - {name: gBasementFloorName2Spanish, ctype: const u8}
+    - {name: gBasementFloorName2ByLanguage, record: LocalizedText, strings: [gBasementFloorName2, gBasementFloorName2French, gBasementFloorName2German, gBasementFloorName2Italian, gBasementFloorName2Spanish]}
+    - {name: gBasementFloorName1, ctype: const u8}
+    - {name: gBasementFloorName1French, ctype: const u8}
+    - {name: gBasementFloorName1German, ctype: const u8}
+    - {name: gBasementFloorName1Italian, ctype: const u8}
+    - {name: gBasementFloorName1Spanish, ctype: const u8}
+    - {name: gBasementFloorName1ByLanguage, record: LocalizedText, strings: [gBasementFloorName1, gBasementFloorName1French, gBasementFloorName1German, gBasementFloorName1Italian, gBasementFloorName1Spanish]}
+    - gEnemyCardEffectNameIncrementor
+    - gEnemyCardEffectNameIncrementorFrench
+    - gEnemyCardEffectNameIncrementorGerman
+    - gEnemyCardEffectNameIncrementorItalian
+    - gEnemyCardEffectNameIncrementorSpanish
+    - {name: gEnemyCardEffectNameIncrementorByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameIncrementor, gEnemyCardEffectNameIncrementorFrench, gEnemyCardEffectNameIncrementorGerman, gEnemyCardEffectNameIncrementorItalian, gEnemyCardEffectNameIncrementorSpanish]}
+    - gEnemyCardEffectNameComboPlus
+    - gEnemyCardEffectNameComboPlusFrench
+    - gEnemyCardEffectNameComboPlusGerman
+    - gEnemyCardEffectNameComboPlusItalian
+    - gEnemyCardEffectNameComboPlusSpanish
+    - {name: gEnemyCardEffectNameComboPlusByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameComboPlus, gEnemyCardEffectNameComboPlusFrench, gEnemyCardEffectNameComboPlusGerman, gEnemyCardEffectNameComboPlusItalian, gEnemyCardEffectNameComboPlusSpanish]}
+    - gEnemyCardEffectNameRetrograde
+    - gEnemyCardEffectNameRetrogradeFrench
+    - gEnemyCardEffectNameRetrogradeGerman
+    - gEnemyCardEffectNameRetrogradeItalian
+    - gEnemyCardEffectNameRetrogradeSpanish
+    - {name: gEnemyCardEffectNameRetrogradeByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameRetrograde, gEnemyCardEffectNameRetrogradeFrench, gEnemyCardEffectNameRetrogradeGerman, gEnemyCardEffectNameRetrogradeItalian, gEnemyCardEffectNameRetrogradeSpanish]}
+    - gEnemyCardEffectNameDraw
+    - gEnemyCardEffectNameDrawFrench
+    - gEnemyCardEffectNameDrawGerman
+    - gEnemyCardEffectNameDrawItalian
+    - gEnemyCardEffectNameDrawSpanish
+    - {name: gEnemyCardEffectNameDrawByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameDraw, gEnemyCardEffectNameDrawFrench, gEnemyCardEffectNameDrawGerman, gEnemyCardEffectNameDrawItalian, gEnemyCardEffectNameDrawSpanish]}
+    - gEnemyCardEffectNameBackAttack
+    - gEnemyCardEffectNameBackAttackFrench
+    - gEnemyCardEffectNameBackAttackGerman
+    - gEnemyCardEffectNameBackAttackItalian
+    - gEnemyCardEffectNameBackAttackSpanish
+    - {name: gEnemyCardEffectNameBackAttackByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameBackAttack, gEnemyCardEffectNameBackAttackFrench, gEnemyCardEffectNameBackAttackGerman, gEnemyCardEffectNameBackAttackItalian, gEnemyCardEffectNameBackAttackSpanish]}
+    - gEnemyCardEffectNameGuard
+    - gEnemyCardEffectNameGuardFrench
+    - gEnemyCardEffectNameGuardGerman
+    - gEnemyCardEffectNameGuardItalian
+    - gEnemyCardEffectNameGuardSpanish
+    - {name: gEnemyCardEffectNameGuardByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameGuard, gEnemyCardEffectNameGuardFrench, gEnemyCardEffectNameGuardGerman, gEnemyCardEffectNameGuardItalian, gEnemyCardEffectNameGuardSpanish]}
+    - gEnemyCardEffectNameRandomizer
+    - gEnemyCardEffectNameRandomizerFrench
+    - gEnemyCardEffectNameRandomizerGerman
+    - gEnemyCardEffectNameRandomizerItalian
+    - gEnemyCardEffectNameRandomizerSpanish
+    - {name: gEnemyCardEffectNameRandomizerByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameRandomizer, gEnemyCardEffectNameRandomizerFrench, gEnemyCardEffectNameRandomizerGerman, gEnemyCardEffectNameRandomizerItalian, gEnemyCardEffectNameRandomizerSpanish]}
+    - gEnemyCardEffectNameComboFinish
+    - gEnemyCardEffectNameComboFinishFrench
+    - gEnemyCardEffectNameComboFinishGerman
+    - gEnemyCardEffectNameComboFinishItalian
+    - gEnemyCardEffectNameComboFinishSpanish
+    - {name: gEnemyCardEffectNameComboFinishByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameComboFinish, gEnemyCardEffectNameComboFinishFrench, gEnemyCardEffectNameComboFinishGerman, gEnemyCardEffectNameComboFinishItalian, gEnemyCardEffectNameComboFinishSpanish]}
+    - gEnemyCardEffectNameAllZeros
+    - gEnemyCardEffectNameAllZerosFrench
+    - gEnemyCardEffectNameAllZerosGerman
+    - gEnemyCardEffectNameAllZerosItalian
+    - gEnemyCardEffectNameAllZerosSpanish
+    - {name: gEnemyCardEffectNameAllZerosByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameAllZeros, gEnemyCardEffectNameAllZerosFrench, gEnemyCardEffectNameAllZerosGerman, gEnemyCardEffectNameAllZerosItalian, gEnemyCardEffectNameAllZerosSpanish]}
+    - gEnemyCardEffectNameFireBoost
+    - gEnemyCardEffectNameFireBoostFrench
+    - gEnemyCardEffectNameFireBoostGerman
+    - gEnemyCardEffectNameFireBoostItalian
+    - gEnemyCardEffectNameFireBoostSpanish
+    - {name: gEnemyCardEffectNameFireBoostByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameFireBoost, gEnemyCardEffectNameFireBoostFrench, gEnemyCardEffectNameFireBoostGerman, gEnemyCardEffectNameFireBoostItalian, gEnemyCardEffectNameFireBoostSpanish]}
+    - gEnemyCardEffectNameBlizzardBoost
+    - gEnemyCardEffectNameBlizzardBoostFrench
+    - gEnemyCardEffectNameBlizzardBoostGerman
+    - gEnemyCardEffectNameBlizzardBoostItalian
+    - gEnemyCardEffectNameBlizzardBoostSpanish
+    - {name: gEnemyCardEffectNameBlizzardBoostByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameBlizzardBoost, gEnemyCardEffectNameBlizzardBoostFrench, gEnemyCardEffectNameBlizzardBoostGerman, gEnemyCardEffectNameBlizzardBoostItalian, gEnemyCardEffectNameBlizzardBoostSpanish]}
+    - gEnemyCardEffectNameThunderBoost
+    - gEnemyCardEffectNameThunderBoostFrench
+    - gEnemyCardEffectNameThunderBoostGerman
+    - gEnemyCardEffectNameThunderBoostItalian
+    - gEnemyCardEffectNameThunderBoostSpanish
+    - {name: gEnemyCardEffectNameThunderBoostByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameThunderBoost, gEnemyCardEffectNameThunderBoostFrench, gEnemyCardEffectNameThunderBoostGerman, gEnemyCardEffectNameThunderBoostItalian, gEnemyCardEffectNameThunderBoostSpanish]}
+    - gEnemyCardEffectNameCureBoost
+    - gEnemyCardEffectNameCureBoostFrench
+    - gEnemyCardEffectNameCureBoostGerman
+    - gEnemyCardEffectNameCureBoostItalian
+    - gEnemyCardEffectNameCureBoostSpanish
+    - {name: gEnemyCardEffectNameCureBoostByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameCureBoost, gEnemyCardEffectNameCureBoostFrench, gEnemyCardEffectNameCureBoostGerman, gEnemyCardEffectNameCureBoostItalian, gEnemyCardEffectNameCureBoostSpanish]}
+    - gEnemyCardEffectNameSummonBoost
+    - gEnemyCardEffectNameSummonBoostFrench
+    - gEnemyCardEffectNameSummonBoostGerman
+    - gEnemyCardEffectNameSummonBoostItalian
+    - gEnemyCardEffectNameSummonBoostSpanish
+    - {name: gEnemyCardEffectNameSummonBoostByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameSummonBoost, gEnemyCardEffectNameSummonBoostFrench, gEnemyCardEffectNameSummonBoostGerman, gEnemyCardEffectNameSummonBoostItalian, gEnemyCardEffectNameSummonBoostSpanish]}
+    - gEnemyCardEffectNameBerserk
+    - gEnemyCardEffectNameBerserkFrench
+    - gEnemyCardEffectNameBerserkGerman
+    - gEnemyCardEffectNameBerserkItalian
+    - gEnemyCardEffectNameBerserkSpanish
+    - {name: gEnemyCardEffectNameBerserkByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameBerserk, gEnemyCardEffectNameBerserkFrench, gEnemyCardEffectNameBerserkGerman, gEnemyCardEffectNameBerserkItalian, gEnemyCardEffectNameBerserkSpanish]}
+    - gEnemyCardEffectNameBio
+    - gEnemyCardEffectNameBioFrench
+    - gEnemyCardEffectNameBioGerman
+    - gEnemyCardEffectNameBioItalian
+    - gEnemyCardEffectNameBioSpanish
+    - {name: gEnemyCardEffectNameBioByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameBio, gEnemyCardEffectNameBioFrench, gEnemyCardEffectNameBioGerman, gEnemyCardEffectNameBioItalian, gEnemyCardEffectNameBioSpanish]}
+    - gEnemyCardEffectNameVanish
+    - gEnemyCardEffectNameVanishFrench
+    - gEnemyCardEffectNameVanishGerman
+    - gEnemyCardEffectNameVanishItalian
+    - gEnemyCardEffectNameVanishSpanish
+    - {name: gEnemyCardEffectNameVanishByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameVanish, gEnemyCardEffectNameVanishFrench, gEnemyCardEffectNameVanishGerman, gEnemyCardEffectNameVanishItalian, gEnemyCardEffectNameVanishSpanish]}
+    - gEnemyCardEffectNameItemBracer
+    - gEnemyCardEffectNameItemBracerFrench
+    - gEnemyCardEffectNameItemBracerGerman
+    - gEnemyCardEffectNameItemBracerItalian
+    - gEnemyCardEffectNameItemBracerSpanish
+    - {name: gEnemyCardEffectNameItemBracerByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameItemBracer, gEnemyCardEffectNameItemBracerFrench, gEnemyCardEffectNameItemBracerGerman, gEnemyCardEffectNameItemBracerItalian, gEnemyCardEffectNameItemBracerSpanish]}
+    - gEnemyCardEffectNameFloat
+    - gEnemyCardEffectNameFloatFrench
+    - gEnemyCardEffectNameFloatGerman
+    - gEnemyCardEffectNameFloatItalian
+    - gEnemyCardEffectNameFloatSpanish
+    - {name: gEnemyCardEffectNameFloatByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameFloat, gEnemyCardEffectNameFloatFrench, gEnemyCardEffectNameFloatGerman, gEnemyCardEffectNameFloatItalian, gEnemyCardEffectNameFloatSpanish]}
+    - gEnemyCardEffectNameDrain
+    - gEnemyCardEffectNameDrainFrench
+    - gEnemyCardEffectNameDrainGerman
+    - gEnemyCardEffectNameDrainItalian
+    - gEnemyCardEffectNameDrainSpanish
+    - {name: gEnemyCardEffectNameDrainByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameDrain, gEnemyCardEffectNameDrainFrench, gEnemyCardEffectNameDrainGerman, gEnemyCardEffectNameDrainItalian, gEnemyCardEffectNameDrainSpanish]}
+    - gEnemyCardEffectNameLeafBracer
+    - gEnemyCardEffectNameLeafBracerFrench
+    - gEnemyCardEffectNameLeafBracerGerman
+    - gEnemyCardEffectNameLeafBracerItalian
+    - gEnemyCardEffectNameLeafBracerSpanish
+    - {name: gEnemyCardEffectNameLeafBracerByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameLeafBracer, gEnemyCardEffectNameLeafBracerFrench, gEnemyCardEffectNameLeafBracerGerman, gEnemyCardEffectNameLeafBracerItalian, gEnemyCardEffectNameLeafBracerSpanish]}
+    - gEnemyCardEffectNameDecrementor
+    - gEnemyCardEffectNameDecrementorFrench
+    - gEnemyCardEffectNameDecrementorGerman
+    - gEnemyCardEffectNameDecrementorItalian
+    - gEnemyCardEffectNameDecrementorSpanish
+    - {name: gEnemyCardEffectNameDecrementorByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameDecrementor, gEnemyCardEffectNameDecrementorFrench, gEnemyCardEffectNameDecrementorGerman, gEnemyCardEffectNameDecrementorItalian, gEnemyCardEffectNameDecrementorSpanish]}
+    - gEnemyCardEffectNameCardblind
+    - gEnemyCardEffectNameCardblindFrench
+    - gEnemyCardEffectNameCardblindGerman
+    - gEnemyCardEffectNameCardblindItalian
+    - gEnemyCardEffectNameCardblindSpanish
+    - {name: gEnemyCardEffectNameCardblindByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameCardblind, gEnemyCardEffectNameCardblindFrench, gEnemyCardEffectNameCardblindGerman, gEnemyCardEffectNameCardblindItalian, gEnemyCardEffectNameCardblindSpanish]}
+    - gEnemyCardEffectNameReloadLock
+    - gEnemyCardEffectNameReloadLockFrench
+    - gEnemyCardEffectNameReloadLockGerman
+    - gEnemyCardEffectNameReloadLockItalian
+    - gEnemyCardEffectNameReloadLockSpanish
+    - {name: gEnemyCardEffectNameReloadLockByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameReloadLock, gEnemyCardEffectNameReloadLockFrench, gEnemyCardEffectNameReloadLockGerman, gEnemyCardEffectNameReloadLockItalian, gEnemyCardEffectNameReloadLockSpanish]}
+    - gEnemyCardEffectNameProtect
+    - gEnemyCardEffectNameProtectFrench
+    - gEnemyCardEffectNameProtectGerman
+    - gEnemyCardEffectNameProtectItalian
+    - gEnemyCardEffectNameProtectSpanish
+    - {name: gEnemyCardEffectNameProtectByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameProtect, gEnemyCardEffectNameProtectFrench, gEnemyCardEffectNameProtectGerman, gEnemyCardEffectNameProtectItalian, gEnemyCardEffectNameProtectSpanish]}
+    - gEnemyCardEffectNameHyperHealing
+    - gEnemyCardEffectNameHyperHealingFrench
+    - gEnemyCardEffectNameHyperHealingGerman
+    - gEnemyCardEffectNameHyperHealingItalian
+    - gEnemyCardEffectNameHyperHealingSpanish
+    - {name: gEnemyCardEffectNameHyperHealingByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameHyperHealing, gEnemyCardEffectNameHyperHealingFrench, gEnemyCardEffectNameHyperHealingGerman, gEnemyCardEffectNameHyperHealingItalian, gEnemyCardEffectNameHyperHealingSpanish]}
+    - gEnemyCardEffectNameRandomFlush
+    - gEnemyCardEffectNameRandomFlushFrench
+    - gEnemyCardEffectNameRandomFlushGerman
+    - gEnemyCardEffectNameRandomFlushItalian
+    - gEnemyCardEffectNameRandomFlushSpanish
+    - {name: gEnemyCardEffectNameRandomFlushByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameRandomFlush, gEnemyCardEffectNameRandomFlushFrench, gEnemyCardEffectNameRandomFlushGerman, gEnemyCardEffectNameRandomFlushItalian, gEnemyCardEffectNameRandomFlushSpanish]}
+    - gEnemyCardEffectNameReloadKinesis
+    - gEnemyCardEffectNameReloadKinesisFrench
+    - gEnemyCardEffectNameReloadKinesisGerman
+    - gEnemyCardEffectNameReloadKinesisItalian
+    - gEnemyCardEffectNameReloadKinesisSpanish
+    - {name: gEnemyCardEffectNameReloadKinesisByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameReloadKinesis, gEnemyCardEffectNameReloadKinesisFrench, gEnemyCardEffectNameReloadKinesisGerman, gEnemyCardEffectNameReloadKinesisItalian, gEnemyCardEffectNameReloadKinesisSpanish]}
+    - gEnemyCardEffectNameReloadHaste
+    - gEnemyCardEffectNameReloadHasteFrench
+    - gEnemyCardEffectNameReloadHasteGerman
+    - gEnemyCardEffectNameReloadHasteItalian
+    - gEnemyCardEffectNameReloadHasteSpanish
+    - {name: gEnemyCardEffectNameReloadHasteByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameReloadHaste, gEnemyCardEffectNameReloadHasteFrench, gEnemyCardEffectNameReloadHasteGerman, gEnemyCardEffectNameReloadHasteItalian, gEnemyCardEffectNameReloadHasteSpanish]}
+    - gEnemyCardEffectNameAutoReload
+    - gEnemyCardEffectNameAutoReloadFrench
+    - gEnemyCardEffectNameAutoReloadGerman
+    - gEnemyCardEffectNameAutoReloadItalian
+    - gEnemyCardEffectNameAutoReloadSpanish
+    - {name: gEnemyCardEffectNameAutoReloadByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameAutoReload, gEnemyCardEffectNameAutoReloadFrench, gEnemyCardEffectNameAutoReloadGerman, gEnemyCardEffectNameAutoReloadItalian, gEnemyCardEffectNameAutoReloadSpanish]}
+    - gEnemyCardEffectNameQuickReload
+    - gEnemyCardEffectNameQuickReloadFrench
+    - gEnemyCardEffectNameQuickReloadGerman
+    - gEnemyCardEffectNameQuickReloadItalian
+    - gEnemyCardEffectNameQuickReloadSpanish
+    - {name: gEnemyCardEffectNameQuickReloadByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameQuickReload, gEnemyCardEffectNameQuickReloadFrench, gEnemyCardEffectNameQuickReloadGerman, gEnemyCardEffectNameQuickReloadItalian, gEnemyCardEffectNameQuickReloadSpanish]}
+    - gEnemyCardEffectNameWideAttack
+    - gEnemyCardEffectNameWideAttackFrench
+    - gEnemyCardEffectNameWideAttackGerman
+    - gEnemyCardEffectNameWideAttackItalian
+    - gEnemyCardEffectNameWideAttackSpanish
+    - {name: gEnemyCardEffectNameWideAttackByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameWideAttack, gEnemyCardEffectNameWideAttackFrench, gEnemyCardEffectNameWideAttackGerman, gEnemyCardEffectNameWideAttackItalian, gEnemyCardEffectNameWideAttackSpanish]}
+    - gEnemyCardEffectNameMagicBoost
+    - gEnemyCardEffectNameMagicBoostFrench
+    - gEnemyCardEffectNameMagicBoostGerman
+    - gEnemyCardEffectNameMagicBoostItalian
+    - gEnemyCardEffectNameMagicBoostSpanish
+    - {name: gEnemyCardEffectNameMagicBoostByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameMagicBoost, gEnemyCardEffectNameMagicBoostFrench, gEnemyCardEffectNameMagicBoostGerman, gEnemyCardEffectNameMagicBoostItalian, gEnemyCardEffectNameMagicBoostSpanish]}
+    - gEnemyCardEffectNameAttackBracer
+    - gEnemyCardEffectNameAttackBracerFrench
+    - gEnemyCardEffectNameAttackBracerGerman
+    - gEnemyCardEffectNameAttackBracerItalian
+    - gEnemyCardEffectNameAttackBracerSpanish
+    - {name: gEnemyCardEffectNameAttackBracerByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameAttackBracer, gEnemyCardEffectNameAttackBracerFrench, gEnemyCardEffectNameAttackBracerGerman, gEnemyCardEffectNameAttackBracerItalian, gEnemyCardEffectNameAttackBracerSpanish]}
+    - gEnemyCardEffectNameMimic
+    - gEnemyCardEffectNameMimicFrench
+    - gEnemyCardEffectNameMimicGerman
+    - gEnemyCardEffectNameMimicItalian
+    - gEnemyCardEffectNameMimicSpanish
+    - {name: gEnemyCardEffectNameMimicByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameMimic, gEnemyCardEffectNameMimicFrench, gEnemyCardEffectNameMimicGerman, gEnemyCardEffectNameMimicItalian, gEnemyCardEffectNameMimicSpanish]}
+    - gEnemyCardEffectNameShell
+    - gEnemyCardEffectNameShellFrench
+    - gEnemyCardEffectNameShellGerman
+    - gEnemyCardEffectNameShellItalian
+    - gEnemyCardEffectNameShellSpanish
+    - {name: gEnemyCardEffectNameShellByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameShell, gEnemyCardEffectNameShellFrench, gEnemyCardEffectNameShellGerman, gEnemyCardEffectNameShellItalian, gEnemyCardEffectNameShellSpanish]}
+    - gEnemyCardEffectNameRegen
+    - gEnemyCardEffectNameRegenFrench
+    - gEnemyCardEffectNameRegenGerman
+    - gEnemyCardEffectNameRegenItalian
+    - gEnemyCardEffectNameRegenSpanish
+    - {name: gEnemyCardEffectNameRegenByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameRegen, gEnemyCardEffectNameRegenFrench, gEnemyCardEffectNameRegenGerman, gEnemyCardEffectNameRegenItalian, gEnemyCardEffectNameRegenSpanish]}
+    - gEnemyCardEffectNameDispel
+    - gEnemyCardEffectNameDispelFrench
+    - gEnemyCardEffectNameDispelGerman
+    - gEnemyCardEffectNameDispelItalian
+    - gEnemyCardEffectNameDispelSpanish
+    - {name: gEnemyCardEffectNameDispelByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameDispel, gEnemyCardEffectNameDispelFrench, gEnemyCardEffectNameDispelGerman, gEnemyCardEffectNameDispelItalian, gEnemyCardEffectNameDispelSpanish]}
+    - gEnemyCardEffectNameSecondChance
+    - gEnemyCardEffectNameSecondChanceFrench
+    - gEnemyCardEffectNameSecondChanceGerman
+    - gEnemyCardEffectNameSecondChanceItalian
+    - gEnemyCardEffectNameSecondChanceSpanish
+    - {name: gEnemyCardEffectNameSecondChanceByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameSecondChance, gEnemyCardEffectNameSecondChanceFrench, gEnemyCardEffectNameSecondChanceGerman, gEnemyCardEffectNameSecondChanceItalian, gEnemyCardEffectNameSecondChanceSpanish]}
+    - gEnemyCardEffectNameOverdrive
+    - gEnemyCardEffectNameOverdriveFrench
+    - gEnemyCardEffectNameOverdriveGerman
+    - gEnemyCardEffectNameOverdriveItalian
+    - gEnemyCardEffectNameOverdriveSpanish
+    - {name: gEnemyCardEffectNameOverdriveByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameOverdrive, gEnemyCardEffectNameOverdriveFrench, gEnemyCardEffectNameOverdriveGerman, gEnemyCardEffectNameOverdriveItalian, gEnemyCardEffectNameOverdriveSpanish]}
+    - gEnemyCardEffectNameAttackHaste
+    - gEnemyCardEffectNameAttackHasteFrench
+    - gEnemyCardEffectNameAttackHasteGerman
+    - gEnemyCardEffectNameAttackHasteItalian
+    - gEnemyCardEffectNameAttackHasteSpanish
+    - {name: gEnemyCardEffectNameAttackHasteByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameAttackHaste, gEnemyCardEffectNameAttackHasteFrench, gEnemyCardEffectNameAttackHasteGerman, gEnemyCardEffectNameAttackHasteItalian, gEnemyCardEffectNameAttackHasteSpanish]}
+    - gEnemyCardEffectNameQuickRecovery
+    - gEnemyCardEffectNameQuickRecoveryFrench
+    - gEnemyCardEffectNameQuickRecoveryGerman
+    - gEnemyCardEffectNameQuickRecoveryItalian
+    - gEnemyCardEffectNameQuickRecoverySpanish
+    - {name: gEnemyCardEffectNameQuickRecoveryByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameQuickRecovery, gEnemyCardEffectNameQuickRecoveryFrench, gEnemyCardEffectNameQuickRecoveryGerman, gEnemyCardEffectNameQuickRecoveryItalian, gEnemyCardEffectNameQuickRecoverySpanish]}
+    - gEnemyCardEffectNameSleightblind
+    - gEnemyCardEffectNameSleightblindFrench
+    - gEnemyCardEffectNameSleightblindGerman
+    - gEnemyCardEffectNameSleightblindItalian
+    - gEnemyCardEffectNameSleightblindSpanish
+    - {name: gEnemyCardEffectNameSleightblindByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameSleightblind, gEnemyCardEffectNameSleightblindFrench, gEnemyCardEffectNameSleightblindGerman, gEnemyCardEffectNameSleightblindItalian, gEnemyCardEffectNameSleightblindSpanish]}
+    - gEnemyCardEffectNameSleightLock
+    - gEnemyCardEffectNameSleightLockFrench
+    - gEnemyCardEffectNameSleightLockGerman
+    - gEnemyCardEffectNameSleightLockItalian
+    - gEnemyCardEffectNameSleightLockSpanish
+    - {name: gEnemyCardEffectNameSleightLockByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameSleightLock, gEnemyCardEffectNameSleightLockFrench, gEnemyCardEffectNameSleightLockGerman, gEnemyCardEffectNameSleightLockItalian, gEnemyCardEffectNameSleightLockSpanish]}
+    - gEnemyCardEffectNameAutoLife
+    - gEnemyCardEffectNameAutoLifeFrench
+    - gEnemyCardEffectNameAutoLifeGerman
+    - gEnemyCardEffectNameAutoLifeItalian
+    - gEnemyCardEffectNameAutoLifeSpanish
+    - {name: gEnemyCardEffectNameAutoLifeByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameAutoLife, gEnemyCardEffectNameAutoLifeFrench, gEnemyCardEffectNameAutoLifeGerman, gEnemyCardEffectNameAutoLifeItalian, gEnemyCardEffectNameAutoLifeSpanish]}
+    - gEnemyCardEffectNameDoubleSleight
+    - gEnemyCardEffectNameDoubleSleightFrench
+    - gEnemyCardEffectNameDoubleSleightGerman
+    - gEnemyCardEffectNameDoubleSleightItalian
+    - gEnemyCardEffectNameDoubleSleightSpanish
+    - {name: gEnemyCardEffectNameDoubleSleightByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameDoubleSleight, gEnemyCardEffectNameDoubleSleightFrench, gEnemyCardEffectNameDoubleSleightGerman, gEnemyCardEffectNameDoubleSleightItalian, gEnemyCardEffectNameDoubleSleightSpanish]}
+    - gEnemyCardEffectNameValueBreak
+    - gEnemyCardEffectNameValueBreakFrench
+    - gEnemyCardEffectNameValueBreakGerman
+    - gEnemyCardEffectNameValueBreakItalian
+    - gEnemyCardEffectNameValueBreakSpanish
+    - {name: gEnemyCardEffectNameValueBreakByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameValueBreak, gEnemyCardEffectNameValueBreakFrench, gEnemyCardEffectNameValueBreakGerman, gEnemyCardEffectNameValueBreakItalian, gEnemyCardEffectNameValueBreakSpanish]}
+    - gEnemyCardEffectNameDash
+    - gEnemyCardEffectNameDashFrench
+    - gEnemyCardEffectNameDashGerman
+    - gEnemyCardEffectNameDashItalian
+    - gEnemyCardEffectNameDashSpanish
+    - {name: gEnemyCardEffectNameDashByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameDash, gEnemyCardEffectNameDashFrench, gEnemyCardEffectNameDashGerman, gEnemyCardEffectNameDashItalian, gEnemyCardEffectNameDashSpanish]}
+    - gEnemyCardEffectNameWarpBreak
+    - gEnemyCardEffectNameWarpBreakFrench
+    - gEnemyCardEffectNameWarpBreakGerman
+    - gEnemyCardEffectNameWarpBreakItalian
+    - gEnemyCardEffectNameWarpBreakSpanish
+    - {name: gEnemyCardEffectNameWarpBreakByLanguage, record: JiminyLocalizedName, strings: [gEnemyCardEffectNameWarpBreak, gEnemyCardEffectNameWarpBreakFrench, gEnemyCardEffectNameWarpBreakGerman, gEnemyCardEffectNameWarpBreakItalian, gEnemyCardEffectNameWarpBreakSpanish]}
+    - gCharacterNameZexion
+    - gCharacterNameZexionFrench
+    - gCharacterNameZexionGerman
+    - gCharacterNameZexionItalian
+    - gCharacterNameZexionSpanish
+    - {name: gCharacterNameZexionByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameZexion, gCharacterNameZexionFrench, gCharacterNameZexionGerman, gCharacterNameZexionItalian, gCharacterNameZexionSpanish]}
+    - gJiminyRikuStoryTale1Name
+    - gJiminyRikuStoryTale1NameFrench
+    - gJiminyRikuStoryTale1NameGerman
+    - gJiminyRikuStoryTale1NameItalian
+    - gJiminyRikuStoryTale1NameSpanish
+    - {name: gJiminyRikuStoryTale1NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyRikuStoryTale1Name, gJiminyRikuStoryTale1NameFrench, gJiminyRikuStoryTale1NameGerman, gJiminyRikuStoryTale1NameItalian, gJiminyRikuStoryTale1NameSpanish]}
+    - gJiminyRikuStoryTale2Name
+    - gJiminyRikuStoryTale2NameFrench
+    - gJiminyRikuStoryTale2NameGerman
+    - gJiminyRikuStoryTale2NameItalian
+    - gJiminyRikuStoryTale2NameSpanish
+    - {name: gJiminyRikuStoryTale2NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyRikuStoryTale2Name, gJiminyRikuStoryTale2NameFrench, gJiminyRikuStoryTale2NameGerman, gJiminyRikuStoryTale2NameItalian, gJiminyRikuStoryTale2NameSpanish]}
+    - gJiminyRikuStoryTale3Name
+    - gJiminyRikuStoryTale3NameFrench
+    - gJiminyRikuStoryTale3NameGerman
+    - gJiminyRikuStoryTale3NameItalian
+    - gJiminyRikuStoryTale3NameSpanish
+    - {name: gJiminyRikuStoryTale3NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyRikuStoryTale3Name, gJiminyRikuStoryTale3NameFrench, gJiminyRikuStoryTale3NameGerman, gJiminyRikuStoryTale3NameItalian, gJiminyRikuStoryTale3NameSpanish]}
+    - gJiminyRikuStoryTale4Name
+    - gJiminyRikuStoryTale4NameFrench
+    - gJiminyRikuStoryTale4NameGerman
+    - gJiminyRikuStoryTale4NameItalian
+    - gJiminyRikuStoryTale4NameSpanish
+    - {name: gJiminyRikuStoryTale4NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyRikuStoryTale4Name, gJiminyRikuStoryTale4NameFrench, gJiminyRikuStoryTale4NameGerman, gJiminyRikuStoryTale4NameItalian, gJiminyRikuStoryTale4NameSpanish]}
+    - gJiminyRikuStoryTale5Name
+    - gJiminyRikuStoryTale5NameFrench
+    - gJiminyRikuStoryTale5NameGerman
+    - gJiminyRikuStoryTale5NameItalian
+    - gJiminyRikuStoryTale5NameSpanish
+    - {name: gJiminyRikuStoryTale5NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyRikuStoryTale5Name, gJiminyRikuStoryTale5NameFrench, gJiminyRikuStoryTale5NameGerman, gJiminyRikuStoryTale5NameItalian, gJiminyRikuStoryTale5NameSpanish]}
+    - gJiminyRikuStoryTale6Name
+    - gJiminyRikuStoryTale6NameFrench
+    - gJiminyRikuStoryTale6NameGerman
+    - gJiminyRikuStoryTale6NameItalian
+    - gJiminyRikuStoryTale6NameSpanish
+    - {name: gJiminyRikuStoryTale6NameByLanguage, record: JiminyLocalizedName, strings: [gJiminyRikuStoryTale6Name, gJiminyRikuStoryTale6NameFrench, gJiminyRikuStoryTale6NameGerman, gJiminyRikuStoryTale6NameItalian, gJiminyRikuStoryTale6NameSpanish]}
+    - gCharacterNameRikuReplica
+    - gCharacterNameRikuReplicaFrench
+    - gCharacterNameRikuReplicaGerman
+    - gCharacterNameRikuReplicaItalian
+    - gCharacterNameRikuReplicaSpanish
+    - {name: gCharacterNameRikuReplicaByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameRikuReplica, gCharacterNameRikuReplicaFrench, gCharacterNameRikuReplicaGerman, gCharacterNameRikuReplicaItalian, gCharacterNameRikuReplicaSpanish]}
+    - gCharacterNameDiZ
+    - gCharacterNameDiZFrench
+    - gCharacterNameDiZGerman
+    - gCharacterNameDiZItalian
+    - gCharacterNameDiZSpanish
+    - {name: gCharacterNameDiZByLanguage, record: JiminyLocalizedName, strings: [gCharacterNameDiZ, gCharacterNameDiZFrench, gCharacterNameDiZGerman, gCharacterNameDiZItalian, gCharacterNameDiZSpanish]}
+    - gJiminyMenuPremiumCardsName
+    - gJiminyMenuPremiumCardsNameFrench
+    - gJiminyMenuPremiumCardsNameGerman
+    - gJiminyMenuPremiumCardsNameItalian
+    - gJiminyMenuPremiumCardsNameSpanish
+    - {name: gJiminyMenuPremiumCardsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMenuPremiumCardsName, gJiminyMenuPremiumCardsNameFrench, gJiminyMenuPremiumCardsNameGerman, gJiminyMenuPremiumCardsNameItalian, gJiminyMenuPremiumCardsNameSpanish]}
+    - gJiminyPremiumCardsName
+    - gJiminyPremiumCardsNameFrench
+    - gJiminyPremiumCardsNameGerman
+    - gJiminyPremiumCardsNameItalian
+    - gJiminyPremiumCardsNameSpanish
+    - {name: gJiminyPremiumCardsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyPremiumCardsName, gJiminyPremiumCardsNameFrench, gJiminyPremiumCardsNameGerman, gJiminyPremiumCardsNameItalian, gJiminyPremiumCardsNameSpanish]}
+    - gMapInspectNoticeText
+    - gMapInspectNoticeTextFrench
+    - gMapInspectNoticeTextGerman
+    - gMapInspectNoticeTextItalian
+    - gMapInspectNoticeTextSpanish
+    - {name: gMapInspectNoticeTextByLanguage, record: JiminyLocalizedName, strings: [gMapInspectNoticeText, gMapInspectNoticeTextFrench, gMapInspectNoticeTextGerman, gMapInspectNoticeTextItalian, gMapInspectNoticeTextSpanish]}
+    - gMsChargeNoticeText
+    - gMsChargeNoticeTextFrench
+    - gMsChargeNoticeTextGerman
+    - gMsChargeNoticeTextItalian
+    - gMsChargeNoticeTextSpanish
+    - {name: gMsChargeNoticeTextByLanguage, record: JiminyLocalizedName, strings: [gMsChargeNoticeText, gMsChargeNoticeTextFrench, gMsChargeNoticeTextGerman, gMsChargeNoticeTextItalian, gMsChargeNoticeTextSpanish]}
+    - gEnemyNameCardSoldier
+    - gEnemyNameCardSoldierFrench
+    - gEnemyNameCardSoldierGerman
+    - gEnemyNameCardSoldierItalian
+    - gEnemyNameCardSoldierSpanish
+    - {name: gEnemyNameCardSoldierByLanguage, record: JiminyLocalizedName, strings: [gEnemyNameCardSoldier, gEnemyNameCardSoldierFrench, gEnemyNameCardSoldierGerman, gEnemyNameCardSoldierItalian, gEnemyNameCardSoldierSpanish]}
+    - gDeckEquipText
+    - gDeckEquipTextFrench
+    - gDeckEquipTextGerman
+    - gDeckEquipTextItalian
+    - gDeckEquipTextSpanish
+    - {name: gDeckEquipTextByLanguage, record: JiminyLocalizedName, strings: [gDeckEquipText, gDeckEquipTextFrench, gDeckEquipTextGerman, gDeckEquipTextItalian, gDeckEquipTextSpanish]}
+    - gDeckErrorCpText
+    - gDeckErrorCpTextFrench
+    - gDeckErrorCpTextGerman
+    - gDeckErrorCpTextItalian
+    - gDeckErrorCpTextSpanish
+    - {name: gDeckErrorCpTextByLanguage, record: JiminyLocalizedName, strings: [gDeckErrorCpText, gDeckErrorCpTextFrench, gDeckErrorCpTextGerman, gDeckErrorCpTextItalian, gDeckErrorCpTextSpanish]}
+    - gDeckErrorNoAttackCardText
+    - gDeckErrorNoAttackCardTextFrench
+    - gDeckErrorNoAttackCardTextGerman
+    - gDeckErrorNoAttackCardTextItalian
+    - gDeckErrorNoAttackCardTextSpanish
+    - {name: gDeckErrorNoAttackCardTextByLanguage, record: JiminyLocalizedName, strings: [gDeckErrorNoAttackCardText, gDeckErrorNoAttackCardTextFrench, gDeckErrorNoAttackCardTextGerman, gDeckErrorNoAttackCardTextItalian, gDeckErrorNoAttackCardTextSpanish]}
+    - gDeckErrorLastAttackCardText
+    - gDeckErrorLastAttackCardTextFrench
+    - gDeckErrorLastAttackCardTextGerman
+    - gDeckErrorLastAttackCardTextItalian
+    - gDeckErrorLastAttackCardTextSpanish
+    - {name: gDeckErrorLastAttackCardTextByLanguage, record: JiminyLocalizedName, strings: [gDeckErrorLastAttackCardText, gDeckErrorLastAttackCardTextFrench, gDeckErrorLastAttackCardTextGerman, gDeckErrorLastAttackCardTextItalian, gDeckErrorLastAttackCardTextSpanish]}
+    - gDeckErrorDeckFullText
+    - gDeckErrorDeckFullTextFrench
+    - gDeckErrorDeckFullTextGerman
+    - gDeckErrorDeckFullTextItalian
+    - gDeckErrorDeckFullTextSpanish
+    - {name: gDeckErrorDeckFullTextByLanguage, record: JiminyLocalizedName, strings: [gDeckErrorDeckFullText, gDeckErrorDeckFullTextFrench, gDeckErrorDeckFullTextGerman, gDeckErrorDeckFullTextItalian, gDeckErrorDeckFullTextSpanish]}
+    - gDeckClearConfirmText
+    - gDeckClearConfirmTextFrench
+    - gDeckClearConfirmTextGerman
+    - gDeckClearConfirmTextItalian
+    - gDeckClearConfirmTextSpanish
+    - {name: gDeckClearConfirmTextByLanguage, record: JiminyLocalizedName, strings: [gDeckClearConfirmText, gDeckClearConfirmTextFrench, gDeckClearConfirmTextGerman, gDeckClearConfirmTextItalian, gDeckClearConfirmTextSpanish]}
+    - gLvupMsgHpIncreasedText
+    - gLvupMsgHpIncreasedTextFrench
+    - gLvupMsgHpIncreasedTextGerman
+    - gLvupMsgHpIncreasedTextItalian
+    - gLvupMsgHpIncreasedTextSpanish
+    - {name: gLvupMsgHpIncreasedTextByLanguage, record: JiminyLocalizedName, strings: [gLvupMsgHpIncreasedText, gLvupMsgHpIncreasedTextFrench, gLvupMsgHpIncreasedTextGerman, gLvupMsgHpIncreasedTextItalian, gLvupMsgHpIncreasedTextSpanish]}
+    - gJiminyStoryWonderlandName
+    - gJiminyStoryWonderlandNameFrench
+    - gJiminyStoryWonderlandNameGerman
+    - gJiminyStoryWonderlandNameItalian
+    - gJiminyStoryWonderlandNameSpanish
+    - {name: gJiminyStoryWonderlandNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyStoryWonderlandName, gJiminyStoryWonderlandNameFrench, gJiminyStoryWonderlandNameGerman, gJiminyStoryWonderlandNameItalian, gJiminyStoryWonderlandNameSpanish]}
+    - gJiminyStory100AcreWoodName
+    - gJiminyStory100AcreWoodNameFrench
+    - gJiminyStory100AcreWoodNameGerman
+    - gJiminyStory100AcreWoodNameItalian
+    - gJiminyStory100AcreWoodNameSpanish
+    - {name: gJiminyStory100AcreWoodNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyStory100AcreWoodName, gJiminyStory100AcreWoodNameFrench, gJiminyStory100AcreWoodNameGerman, gJiminyStory100AcreWoodNameItalian, gJiminyStory100AcreWoodNameSpanish]}
+    - gJiminyStoryCastleOblivionName
+    - gJiminyStoryCastleOblivionNameFrench
+    - gJiminyStoryCastleOblivionNameGerman
+    - gJiminyStoryCastleOblivionNameItalian
+    - gJiminyStoryCastleOblivionNameSpanish
+    - {name: gJiminyStoryCastleOblivionNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyStoryCastleOblivionName, gJiminyStoryCastleOblivionNameFrench, gJiminyStoryCastleOblivionNameGerman, gJiminyStoryCastleOblivionNameItalian, gJiminyStoryCastleOblivionNameSpanish]}
+    - gJiminyMapCardTeemingDarknessName
+    - gJiminyMapCardTeemingDarknessNameFrench
+    - gJiminyMapCardTeemingDarknessNameGerman
+    - gJiminyMapCardTeemingDarknessNameItalian
+    - gJiminyMapCardTeemingDarknessNameSpanish
+    - {name: gJiminyMapCardTeemingDarknessNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardTeemingDarknessName, gJiminyMapCardTeemingDarknessNameFrench, gJiminyMapCardTeemingDarknessNameGerman, gJiminyMapCardTeemingDarknessNameItalian, gJiminyMapCardTeemingDarknessNameSpanish]}
+    - gJiminyMapCardLoomingDarknessName
+    - gJiminyMapCardLoomingDarknessNameFrench
+    - gJiminyMapCardLoomingDarknessNameGerman
+    - gJiminyMapCardLoomingDarknessNameItalian
+    - gJiminyMapCardLoomingDarknessNameSpanish
+    - {name: gJiminyMapCardLoomingDarknessNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardLoomingDarknessName, gJiminyMapCardLoomingDarknessNameFrench, gJiminyMapCardLoomingDarknessNameGerman, gJiminyMapCardLoomingDarknessNameItalian, gJiminyMapCardLoomingDarknessNameSpanish]}
+    - gJiminyMapCardAlmightyDarknessName
+    - gJiminyMapCardAlmightyDarknessNameFrench
+    - gJiminyMapCardAlmightyDarknessNameGerman
+    - gJiminyMapCardAlmightyDarknessNameItalian
+    - gJiminyMapCardAlmightyDarknessNameSpanish
+    - {name: gJiminyMapCardAlmightyDarknessNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardAlmightyDarknessName, gJiminyMapCardAlmightyDarknessNameFrench, gJiminyMapCardAlmightyDarknessNameGerman, gJiminyMapCardAlmightyDarknessNameItalian, gJiminyMapCardAlmightyDarknessNameSpanish]}
+    - gJiminyMapCardAlchemicWakingName
+    - gJiminyMapCardAlchemicWakingNameFrench
+    - gJiminyMapCardAlchemicWakingNameGerman
+    - gJiminyMapCardAlchemicWakingNameItalian
+    - gJiminyMapCardAlchemicWakingNameSpanish
+    - {name: gJiminyMapCardAlchemicWakingNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardAlchemicWakingName, gJiminyMapCardAlchemicWakingNameFrench, gJiminyMapCardAlchemicWakingNameGerman, gJiminyMapCardAlchemicWakingNameItalian, gJiminyMapCardAlchemicWakingNameSpanish]}
+    - gJiminyMapCardMeetingGroundName
+    - gJiminyMapCardMeetingGroundNameFrench
+    - gJiminyMapCardMeetingGroundNameGerman
+    - gJiminyMapCardMeetingGroundNameItalian
+    - gJiminyMapCardMeetingGroundNameSpanish
+    - {name: gJiminyMapCardMeetingGroundNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardMeetingGroundName, gJiminyMapCardMeetingGroundNameFrench, gJiminyMapCardMeetingGroundNameGerman, gJiminyMapCardMeetingGroundNameItalian, gJiminyMapCardMeetingGroundNameSpanish]}
+    - gJiminyMapCardLastingDazeName
+    - gJiminyMapCardLastingDazeNameFrench
+    - gJiminyMapCardLastingDazeNameGerman
+    - gJiminyMapCardLastingDazeNameItalian
+    - gJiminyMapCardLastingDazeNameSpanish
+    - {name: gJiminyMapCardLastingDazeNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardLastingDazeName, gJiminyMapCardLastingDazeNameFrench, gJiminyMapCardLastingDazeNameGerman, gJiminyMapCardLastingDazeNameItalian, gJiminyMapCardLastingDazeNameSpanish]}
+    - gJiminyMapCardStagnantSpaceName
+    - gJiminyMapCardStagnantSpaceNameFrench
+    - gJiminyMapCardStagnantSpaceNameGerman
+    - gJiminyMapCardStagnantSpaceNameItalian
+    - gJiminyMapCardStagnantSpaceNameSpanish
+    - {name: gJiminyMapCardStagnantSpaceNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardStagnantSpaceName, gJiminyMapCardStagnantSpaceNameFrench, gJiminyMapCardStagnantSpaceNameGerman, gJiminyMapCardStagnantSpaceNameItalian, gJiminyMapCardStagnantSpaceNameSpanish]}
+    - gJiminyMapCardKeyOfBeginningsName
+    - gJiminyMapCardKeyOfBeginningsNameFrench
+    - gJiminyMapCardKeyOfBeginningsNameGerman
+    - gJiminyMapCardKeyOfBeginningsNameItalian
+    - gJiminyMapCardKeyOfBeginningsNameSpanish
+    - {name: gJiminyMapCardKeyOfBeginningsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardKeyOfBeginningsName, gJiminyMapCardKeyOfBeginningsNameFrench, gJiminyMapCardKeyOfBeginningsNameGerman, gJiminyMapCardKeyOfBeginningsNameItalian, gJiminyMapCardKeyOfBeginningsNameSpanish]}
+    - gJiminyMapCardKeyOfGuidanceName
+    - gJiminyMapCardKeyOfGuidanceNameFrench
+    - gJiminyMapCardKeyOfGuidanceNameGerman
+    - gJiminyMapCardKeyOfGuidanceNameItalian
+    - gJiminyMapCardKeyOfGuidanceNameSpanish
+    - {name: gJiminyMapCardKeyOfGuidanceNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardKeyOfGuidanceName, gJiminyMapCardKeyOfGuidanceNameFrench, gJiminyMapCardKeyOfGuidanceNameGerman, gJiminyMapCardKeyOfGuidanceNameItalian, gJiminyMapCardKeyOfGuidanceNameSpanish]}
+    - gJiminyMapCardKeyToTruthName
+    - gJiminyMapCardKeyToTruthNameFrench
+    - gJiminyMapCardKeyToTruthNameGerman
+    - gJiminyMapCardKeyToTruthNameItalian
+    - gJiminyMapCardKeyToTruthNameSpanish
+    - {name: gJiminyMapCardKeyToTruthNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardKeyToTruthName, gJiminyMapCardKeyToTruthNameFrench, gJiminyMapCardKeyToTruthNameGerman, gJiminyMapCardKeyToTruthNameItalian, gJiminyMapCardKeyToTruthNameSpanish]}
+    - gJiminyMapCardKeyToRewardsName
+    - gJiminyMapCardKeyToRewardsNameFrench
+    - gJiminyMapCardKeyToRewardsNameGerman
+    - gJiminyMapCardKeyToRewardsNameItalian
+    - gJiminyMapCardKeyToRewardsNameSpanish
+    - {name: gJiminyMapCardKeyToRewardsNameByLanguage, record: JiminyLocalizedName, strings: [gJiminyMapCardKeyToRewardsName, gJiminyMapCardKeyToRewardsNameFrench, gJiminyMapCardKeyToRewardsNameGerman, gJiminyMapCardKeyToRewardsNameItalian, gJiminyMapCardKeyToRewardsNameSpanish]}

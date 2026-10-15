@@ -1,0 +1,219 @@
+pool: event_name_text
+objects:
+  us:
+    name: event_name_text.s
+    start: 0x0902FCE8
+    end: 0x09032484
+    encoding: sjis
+    align: 4
+    ctype: const char
+  jp:
+    name: event_name_text.s
+    start: 0x09002FAC
+    end: 0x09005748
+    encoding: sjis
+    align: 4
+    ctype: const char
+  eu:
+    name: event_name_text.s
+    start: 0x090C9044
+    end: 0x090CB778
+    encoding: sjis
+    align: 4
+    ctype: const char
+entries:
+- gEventName196
+- gEventName195
+- gEventName194
+- gEventName193
+- gEventName192
+- gEventName191
+- gEventName190
+- gEventName189
+- gEventName188
+- gEventName187
+- gEventName186
+- gEventName185
+- gEventName184
+- gEventName183
+- gEventName182
+- gEventName181
+- gEventName180
+- gEventName179
+- gEventName178
+- gEventName177
+- gEventName176
+- gEventName175
+- gEventName174
+- gEventName173
+- gEventName172
+- gEventName171
+- gEventName170
+- gEventName169
+- gEventName168
+- gEventName167
+- gEventName166
+- gEventName165
+- gEventName164
+- gEventName163
+- gEventName162
+- gEventName161
+- gEventName160
+- gEventName159
+- gEventName158
+- gEventName157
+- gEventName156
+- gEventName155
+- gEventName154
+- gEventName153
+- gEventName152
+- gEventName151
+- gEventName150
+- gEventName149
+- gEventName148
+- gEventName147
+- gEventName146
+- gEventName145
+- gEventName144
+- gEventName143
+- gEventName142
+- gEventName141
+- gEventName140
+- gEventName139
+- gEventName138
+- gEventName137
+- gEventName136
+- gEventName135
+- gEventName134
+- gEventName133
+- gEventName132
+- gEventName131
+- gEventName130
+- gEventName129
+- {name: gEventName128, versions: [us, jp]}
+- {name: gEventName127, versions: [us, jp]}
+- gEventName126
+- gEventName125
+- gEventName124
+- gEventName123
+- gEventName122
+- gEventName121
+- gEventName120
+- gEventName119
+- gEventName118
+- gEventName117
+- gEventName116
+- gEventName115
+- gEventName114
+- gEventName113
+- gEventName112
+- gEventName111
+- gEventName110
+- gEventName109
+- gEventName108
+- gEventName107
+- gEventName106
+- gEventName105
+- gEventName104
+- gEventName103
+- gEventName102
+- gEventName101
+- gEventName100
+- gEventName099
+- gEventName098
+- gEventName097
+- gEventName096
+- gEventName095
+- gEventName094
+- gEventName093
+- gEventName091
+- gEventName090
+- gEventName089
+- gEventName088
+- gEventName087
+- gEventName086
+- gEventName085
+- gEventName084
+- gEventName083
+- gEventName082
+- gEventName081
+- gEventName080
+- gEventName079
+- gEventName078
+- gEventName077
+- gEventName076
+- gEventName075
+- gEventName074
+- gEventName073
+- gEventName072
+- gEventName071
+- gEventName070
+- gEventName069
+- gEventName068
+- gEventName067
+- gEventName066
+- gEventName065
+- gEventName064
+- gEventName063
+- gEventName061
+- gEventName060
+- gEventName059
+- gEventName058
+- gEventName057
+- gEventName056
+- gEventName055
+- gEventName054
+- gEventName053
+- gEventName052
+- gEventName051
+- gEventName050
+- gEventName049
+- gEventName048
+- gEventName047
+- gEventName046
+- gEventName045
+- gEventName044
+- gEventName043
+- gEventName042
+- gEventName041
+- gEventName040
+- gEventName039
+- gEventName038
+- gEventName037
+- gEventName036
+- gEventName035
+- gEventName034
+- gEventName033
+- gEventName032
+- gEventName031
+- gEventName030
+- gEventName029
+- gEventName028
+- gEventName027
+- gEventName026
+- gEventName025
+- gEventName024
+- gEventName023
+- gEventName022
+- gEventName021
+- gEventName020
+- gEventName019
+- gEventName018
+- gEventName017
+- gEventName016
+- gEventName015
+- gEventName014
+- gEventName013
+- gEventName012
+- gEventName011
+- gEventName010
+- gEventName009
+- gEventName008
+- gEventName007
+- gEventName006
+- gEventName005
+- gEventName004
+- gEventName003
+- gEventName002
+- gEventName001
+- gEventName000

@@ -1,0 +1,874 @@
+group: sprites_frd
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_frd_frames.s
+    start: 0x0886AD30
+    end: 0x08885B78
+    data_start: 0x09EDE4F0
+    data_end: 0x09EDE688
+  jp:
+  - name: sprites_frd_frames.s
+    start: 0x0885E318
+    end: 0x08879160
+    data_start: 0x09EB5F6C
+    data_end: 0x09EB6104
+  eu:
+  - name: sprites_frd_frames.s
+    start: 0x08896654
+    end: 0x088B149C
+    data_start: 0x09F59148
+    data_end: 0x09F592E0
+entries:
+- name: gGoofy05Frames
+  record: SpriteTable
+  items: [gGoofy05Frame0, gGoofy05Frame1, gGoofy05Frame2, gGoofy05Frame3, gGoofy05Frame4, gGoofy05Frame5, gGoofy05Frame6]
+  us:
+    address: 0x09EDE4F0
+  jp:
+    address: 0x09EB5F6C
+  eu:
+    address: 0x09F59148
+- name: gGoofy05Anims
+  record: AnimTable
+  items: [gGoofy05Anim0, gGoofy05Anim1, gGoofy05Anim2]
+  us:
+    address: 0x09EDE50C
+  jp:
+    address: 0x09EB5F88
+  eu:
+    address: 0x09F59164
+- name: gGoofy14Frames
+  record: SpriteTable
+  items: [gGoofy14Frame0, gGoofy14Frame1, gGoofy14Frame2, gGoofy14Frame3, gGoofy14Frame4, gGoofy14Frame5, gGoofy14Frame6]
+  us:
+    address: 0x09EDE518
+  jp:
+    address: 0x09EB5F94
+  eu:
+    address: 0x09F59170
+- name: gGoofy14Anims
+  record: AnimTable
+  items: [gGoofy14Anim0]
+  us:
+    address: 0x09EDE534
+  jp:
+    address: 0x09EB5FB0
+  eu:
+    address: 0x09F5918C
+- name: gGoofy16Frames
+  record: SpriteTable
+  items: [gGoofy16Frame0, gGoofy16Frame1]
+  us:
+    address: 0x09EDE538
+  jp:
+    address: 0x09EB5FB4
+  eu:
+    address: 0x09F59190
+- name: gGoofy16Anims
+  record: AnimTable
+  items: [gGoofy16Anim0, gGoofy16Anim1]
+  us:
+    address: 0x09EDE540
+  jp:
+    address: 0x09EB5FBC
+  eu:
+    address: 0x09F59198
+- name: gDonaBtLl00Frames
+  record: SpriteTable
+  items: [gDonaBtLl00Frame0, gDonaBtLl00Frame1, gDonaBtLl00Frame2, gDonaBtLl00Frame3, gDonaBtLl00Frame4, gDonaBtLl00Frame5, gDonaBtLl00Frame6, gDonaBtLl00Frame7, gDonaBtLl00Frame8, gDonaBtLl00Frame9, gDonaBtLl00Frame10, gDonaBtLl00Frame11, gDonaBtLl00Frame12, gDonaBtLl00Frame13, gDonaBtLl00Frame14]
+  us:
+    address: 0x09EDE548
+  jp:
+    address: 0x09EB5FC4
+  eu:
+    address: 0x09F591A0
+- name: gDonaBtLl00Anims
+  record: AnimTable
+  items: [gDonaBtLl00Anim0, gDonaBtLl00Anim1, gDonaBtLl00Anim2, gDonaBtLl00Anim3]
+  us:
+    address: 0x09EDE584
+  jp:
+    address: 0x09EB6000
+  eu:
+    address: 0x09F591DC
+- name: gFrdJackFrames
+  record: SpriteTable
+  items: [gFrdJackFrame0, gFrdJackFrame1, gFrdJackFrame2, gFrdJackFrame3, gFrdJackFrame4, gFrdJackFrame5, gFrdJackFrame6, gFrdJackFrame7]
+  us:
+    address: 0x09EDE594
+  jp:
+    address: 0x09EB6010
+  eu:
+    address: 0x09F591EC
+- name: gFrdJackAnims
+  record: AnimTable
+  items: [gFrdJackAnim0, gFrdJackAnim1, gFrdJackAnim2, gFrdJackAnim3, gFrdJackAnim4]
+  us:
+    address: 0x09EDE5B4
+  jp:
+    address: 0x09EB6030
+  eu:
+    address: 0x09F5920C
+- name: gFrdArielFrames
+  record: SpriteTable
+  items: [gFrdArielFrame0, gFrdArielFrame1, gFrdArielFrame2, gFrdArielFrame3, gFrdArielFrame4, gFrdArielFrame5, gFrdArielFrame6, gFrdArielFrame7, gFrdArielFrame8, gFrdArielFrame9]
+  us:
+    address: 0x09EDE5C8
+  jp:
+    address: 0x09EB6044
+  eu:
+    address: 0x09F59220
+- name: gFrdArielAnims
+  record: AnimTable
+  items: [gFrdArielAnim0, gFrdArielAnim1, gFrdArielAnim2]
+  us:
+    address: 0x09EDE5F0
+  jp:
+    address: 0x09EB606C
+  eu:
+    address: 0x09F59248
+- name: gAladdin10Frames
+  record: SpriteTable
+  items: [gAladdin10Frame0, gAladdin10Frame1, gAladdin10Frame2, gAladdin10Frame3, gAladdin10Frame4, gAladdin10Frame5, gAladdin10Frame6, gAladdin10Frame7, gAladdin10Frame8, gAladdin10Frame9, gAladdin10Frame10, gAladdin10Frame11, gAladdin10Frame12]
+  us:
+    address: 0x09EDE5FC
+  jp:
+    address: 0x09EB6078
+  eu:
+    address: 0x09F59254
+- name: gAladdin10Anims
+  record: AnimTable
+  items: [gAladdin10Anim0, gAladdin10Anim1, gAladdin10Anim2]
+  us:
+    address: 0x09EDE630
+  jp:
+    address: 0x09EB60AC
+  eu:
+    address: 0x09F59288
+- name: gPeterTukiFrames
+  record: SpriteTable
+  items: [gPeterTukiFrame0, gPeterTukiFrame1, gPeterTukiFrame2, gPeterTukiFrame3, gPeterTukiFrame4, gPeterTukiFrame5]
+  us:
+    address: 0x09EDE63C
+  jp:
+    address: 0x09EB60B8
+  eu:
+    address: 0x09F59294
+- name: gPeterTukiAnims
+  record: AnimTable
+  items: [gPeterTukiAnim0, gPeterTukiAnim1, gPeterTukiAnim2, gPeterTukiAnim3]
+  us:
+    address: 0x09EDE654
+  jp:
+    address: 0x09EB60D0
+  eu:
+    address: 0x09F592AC
+- name: gFelosiaslangeFrames
+  record: SpriteTable
+  items: [gFelosiaslangeFrame0, gFelosiaslangeFrame1, gFelosiaslangeFrame2, gFelosiaslangeFrame3, gFelosiaslangeFrame4, gFelosiaslangeFrame5, gFelosiaslangeFrame6]
+  us:
+    address: 0x09EDE664
+  jp:
+    address: 0x09EB60E0
+  eu:
+    address: 0x09F592BC
+- name: gFelosiaslangeAnims
+  record: AnimTable
+  items: [gFelosiaslangeAnim0, gFelosiaslangeAnim1]
+  us:
+    address: 0x09EDE680
+  jp:
+    address: 0x09EB60FC
+  eu:
+    address: 0x09F592D8
+- name: goofy_05
+  format: sprite_sheet
+  palette: goofy
+  symbol: gGoofy05Tiles
+  align: 4
+  cell: [86, 78]
+  anchor: [41, 70]
+  columns: 7
+  frames:
+  - symbol: gGoofy05Frame0
+    pieces:
+    - [32x64, -15, -70]
+    - [32x16, -31, -30]
+    - [32x16, -15, -14]
+    - [16x32, 9, -62]
+  - symbol: gGoofy05Frame1
+    pieces:
+    - [32x64, -6, -56]
+    - [16x32, 18, -48]
+    - [32x32, -22, -40]
+    - [16x8, -14, -8]
+  - symbol: gGoofy05Frame2
+    pieces:
+    - [32x64, -8, -63]
+    - [16x32, -16, -31]
+  - symbol: gGoofy05Frame3
+    pieces:
+    - [64x64, -41, -61, {layer: 1}]
+    - [8x32, 22, -61, {layer: 2}]
+  - symbol: gGoofy05Frame4
+    pieces:
+    - [64x64, -31, -61]
+    - [16x8, -7, -67, {layer: 1}]
+  - symbol: gGoofy05Frame5
+    pieces:
+    - [64x64, -25, -61]
+    - [8x16, 37, -46, {layer: 1}]
+    - [8x16, -37, -45]
+  - symbol: gGoofy05Frame6
+    pieces:
+    - [64x64, -32, -62, {layer: 1}]
+    - [8x32, 31, -59, {layer: 2}]
+  animations:
+  - symbol: gGoofy05Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7]]
+  - symbol: gGoofy05Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 13], [2, 7]]
+  - symbol: gGoofy05Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 6], [4, 6], [5, 6], [6, 6]]
+  us:
+    address: 0x0886AD30
+    size: 13756
+  jp:
+    address: 0x0885E318
+    size: 13756
+  eu:
+    address: 0x08896654
+    size: 13756
+- name: goofy_14
+  format: sprite_sheet
+  palette: goofy
+  symbol: gGoofy14Tiles
+  align: 4
+  cell: [92, 83]
+  anchor: [44, 72]
+  columns: 7
+  frames:
+  - symbol: gGoofy14Frame0
+    pieces:
+    - [32x64, -17, -54]
+    - [32x32, -33, -38]
+    - [16x16, -25, -46]
+  - symbol: gGoofy14Frame1
+    pieces:
+    - [32x64, -19, -72]
+    - [16x32, -27, -48]
+    - [16x32, -3, -24]
+  - symbol: gGoofy14Frame2
+    pieces:
+    - [32x64, -16, -65]
+    - [16x16, 0, -9]
+    - [16x32, -24, -41]
+  - symbol: gGoofy14Frame3
+    pieces:
+    - [32x64, -8, -72]
+    - [32x32, 16, -56]
+    - [16x16, 16, -72]
+    - [16x32, -16, -56]
+    - [32x32, -8, -24]
+  - symbol: gGoofy14Frame4
+    pieces:
+    - [64x64, -32, -57]
+  - symbol: gGoofy14Frame5
+    pieces:
+    - [64x64, -44, -53]
+    - [16x16, 12, -13]
+  - symbol: gGoofy14Frame6
+    pieces:
+    - [64x64, -31, -55]
+  animations:
+  - symbol: gGoofy14Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9], [2, 10], [3, 11], [4, 9], [5, 13], [6, 9]]
+  us:
+    address: 0x0886E2EC
+    size: 13482
+  jp:
+    address: 0x088618D4
+    size: 13482
+  eu:
+    address: 0x08899C10
+    size: 13482
+- name: goofy_16
+  format: sprite_sheet
+  palette: goofy
+  symbol: gGoofy16Tiles
+  align: 4
+  cell: [42, 81]
+  anchor: [26, 65]
+  columns: 2
+  frames:
+  - symbol: gGoofy16Frame0
+    pieces:
+    - [32x64, -16, -65]
+    - [16x16, 0, -9]
+    - [16x32, -24, -41]
+  - symbol: gGoofy16Frame1
+    pieces:
+    - [32x64, -18, -64]
+    - [16x32, -26, -40]
+    - [16x32, -2, -16]
+  animations:
+  - symbol: gGoofy16Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 13]]
+  - symbol: gGoofy16Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 8]]
+  us:
+    address: 0x08871798
+    size: 3008
+  jp:
+    address: 0x08864D80
+    size: 3008
+  eu:
+    address: 0x0889D0BC
+    size: 3008
+- name: dona_bt_ll00
+  format: sprite_sheet
+  palette: donald
+  symbol: gDonaBtLl00Tiles
+  align: 4
+  cell: [72, 90]
+  anchor: [49, 72]
+  columns: 8
+  frames:
+  - symbol: gDonaBtLl00Frame0
+    pieces:
+    - [32x32, -17, -29]
+    - [16x16, -9, 2]
+  - symbol: gDonaBtLl00Frame1
+    pieces:
+    - [32x32, -20, -43]
+    - [16x16, -28, -35]
+    - [32x16, -20, -12, {layer: 1}]
+  - symbol: gDonaBtLl00Frame2
+    pieces:
+    - [32x32, -14, -55]
+    - [32x16, -14, -24, {layer: 1}]
+  - symbol: gDonaBtLl00Frame3
+    pieces:
+    - [32x32, -13, -49]
+    - [32x16, -13, -18]
+  - symbol: gDonaBtLl00Frame4
+    pieces:
+    - [32x32, -37, -38]
+    - [32x32, -21, -22]
+    - [16x8, -13, -30]
+  - symbol: gDonaBtLl00Frame5
+    pieces:
+    - [32x32, -22, -23]
+    - [32x16, -46, -7]
+    - [16x8, -6, 8]
+  - symbol: gDonaBtLl00Frame6
+    pieces:
+    - [32x32, -25, -21]
+    - [32x16, -49, -5]
+  - symbol: gDonaBtLl00Frame7
+    pieces:
+    - [32x32, -17, -28, {same: [0, 0]}]
+    - [32x16, -17, -4, {layer: 1}]
+  - symbol: gDonaBtLl00Frame8
+    pieces:
+    - [32x32, -19, -35]
+    - [32x16, -19, -4]
+    - [8x16, -26, -35]
+  - symbol: gDonaBtLl00Frame9
+    pieces:
+    - [32x32, -15, -33]
+    - [32x8, -15, -2]
+  - symbol: gDonaBtLl00Frame10
+    pieces:
+    - [32x32, -17, -29]
+    - [32x8, -17, 2]
+  - symbol: gDonaBtLl00Frame11
+    pieces:
+    - [32x32, -19, -32]
+    - [32x16, -19, -1]
+    - [16x8, -34, -24]
+  - symbol: gDonaBtLl00Frame12
+    pieces:
+    - [32x32, -9, -38]
+    - [32x32, -9, -69]
+  - symbol: gDonaBtLl00Frame13
+    pieces:
+    - [32x32, -9, -41]
+    - [32x32, -9, -72]
+  - symbol: gDonaBtLl00Frame14
+    pieces:
+    - [32x32, -11, -21]
+    - [32x32, -19, -52]
+  animations:
+  - symbol: gDonaBtLl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 7], [6, 6], [4, 6], [3, 6], [1, 6], [7, 6], [0, 6]]
+  - symbol: gDonaBtLl00Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [8, 7], [9, 7], [10, 7], [11, 8], [12, 9], [13, 10], [12, 7], [14, 7], [7, 7], [0, 7]]
+  - symbol: gDonaBtLl00Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gDonaBtLl00Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 6]]
+  us:
+    address: 0x08872358
+    size: 11402
+  jp:
+    address: 0x08865940
+    size: 11402
+  eu:
+    address: 0x0889DC7C
+    size: 11402
+- name: gFrdJackTiles
+  format: sprite_sheet
+  align: 4
+  cell: [94, 76]
+  anchor: [48, 69]
+  columns: 8
+  frames:
+  - symbol: gFrdJackFrame0
+    pieces:
+    - [32x32, -11, -29]
+    - [8x16, -18, -21]
+    - [32x16, -19, -44]
+    - [16x8, -19, -51]
+    - [8x16, -26, -52, {layer: 1}]
+  - symbol: gFrdJackFrame1
+    pieces:
+    - [32x64, -7, -57]
+  - symbol: gFrdJackFrame2
+    pieces:
+    - [32x32, -10, -62]
+    - [16x8, 6, -69]
+    - [16x16, 21, -54]
+    - [8x16, 36, -54]
+    - [16x16, 30, -39]
+    - [8x32, 14, -30]
+    - [16x16, 14, -38]
+    - [16x16, -18, -30]
+    - [16x16, -10, -38]
+  - symbol: gFrdJackFrame3
+    pieces:
+    - [32x64, -13, -65]
+    - [16x16, 11, -9]
+  - symbol: gFrdJackFrame4
+    pieces:
+    - [32x64, -17, -58]
+    - [8x16, 14, -10]
+    - [32x16, -48, -42]
+    - [8x8, -24, -49]
+  - symbol: gFrdJackFrame5
+    pieces:
+    - [32x64, -10, -58]
+    - [32x16, -41, -34, {layer: 1}]
+    - [8x8, -17, -41]
+  - symbol: gFrdJackFrame6
+    pieces:
+    - [64x32, -26, -49]
+    - [32x16, -10, -18]
+    - [8x8, 14, -3]
+    - [8x8, 14, -56, {layer: 1}]
+  - symbol: gFrdJackFrame7
+    pieces:
+    - [32x32, -9, -45]
+    - [32x16, -9, -14]
+    - [16x8, 7, -52]
+    - [16x16, 22, -29]
+    - [16x16, -24, -45]
+    - [8x8, -16, -30, {layer: 1}]
+  animations:
+  - symbol: gFrdJackAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 10], [2, 11], [3, 8], [4, 7], [5, 16], [6, 8], [7, 10]]
+  - symbol: gFrdJackAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gFrdJackAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gFrdJackAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gFrdJackAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [7, 4]]
+  us:
+    address: 0x08874FE4
+    size: 10014
+  jp:
+    address: 0x088685CC
+    size: 10014
+  eu:
+    address: 0x088A0908
+    size: 10014
+- name: gFrdArielTiles
+  format: sprite_sheet
+  align: 4
+  cell: [88, 62]
+  anchor: [28, 36]
+  columns: 8
+  frames:
+  - symbol: gFrdArielFrame0
+    pieces:
+    - [64x32, -28, -30]
+    - [32x16, 28, -14]
+    - [16x16, -12, 0]
+  - symbol: gFrdArielFrame1
+    pieces:
+    - [64x32, -28, -19]
+    - [32x16, 28, -19]
+  - symbol: gFrdArielFrame2
+    pieces:
+    - [64x32, -25, -17, {layer: 1}]
+    - [8x16, -9, -31]
+    - [16x16, 37, -17, {layer: 2}]
+  - symbol: gFrdArielFrame3
+    pieces:
+    - [64x32, -28, -25]
+    - [32x16, 28, -17]
+  - symbol: gFrdArielFrame4
+    pieces:
+    - [32x32, -18, -36]
+    - [32x32, -2, -6]
+    - [8x8, 12, -20]
+  - symbol: gFrdArielFrame5
+    pieces:
+    - [32x32, -25, -34]
+    - [16x32, -1, -10]
+    - [8x16, 5, -25]
+  - symbol: gFrdArielFrame6
+    pieces:
+    - [32x32, -16, -23]
+    - [8x32, 15, -23]
+    - [32x8, -8, 8]
+  - symbol: gFrdArielFrame7
+    pieces:
+    - [32x32, -12, -25]
+    - [16x32, 18, -25]
+  - symbol: gFrdArielFrame8
+    pieces:
+    - [64x32, -26, -25]
+  - symbol: gFrdArielFrame9
+    pieces:
+    - [64x32, -26, -26]
+    - [32x16, 22, -18]
+  animations:
+  - symbol: gFrdArielAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 5], [3, 5]]
+  - symbol: gFrdArielAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gFrdArielAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 8], [6, 9], [7, 10], [8, 7], [9, 6]]
+  us:
+    address: 0x08877704
+    size: 11154
+  jp:
+    address: 0x0886ACEC
+    size: 11154
+  eu:
+    address: 0x088A3028
+    size: 11154
+- name: aladdin_10
+  format: sprite_sheet
+  palette: aladdin
+  symbol: gAladdin10Tiles
+  align: 4
+  cell: [87, 105]
+  anchor: [57, 91]
+  columns: 8
+  frames:
+  - symbol: gAladdin10Frame0
+    pieces:
+    - [32x64, -15, -57, {layer: 1}]
+    - [16x32, -23, -33]
+    - [16x16, 9, -9, {layer: 1}]
+    - [16x8, 9, 6, {layer: 2}]
+  - symbol: gAladdin10Frame1
+    pieces:
+    - [32x64, -12, -51]
+    - [16x32, 12, -35]
+    - [16x32, -20, -35]
+  - symbol: gAladdin10Frame2
+    pieces:
+    - [32x64, -17, -55]
+  - symbol: gAladdin10Frame3
+    pieces:
+    - [32x64, -20, -61]
+    - [16x16, -28, -29]
+    - [16x32, 4, -45]
+    - [16x16, 4, -13]
+  - symbol: gAladdin10Frame4
+    pieces:
+    - [64x64, -42, -69]
+    - [16x16, 14, -29]
+    - [16x32, -57, -77]
+    - [8x8, -49, -45]
+  - symbol: gAladdin10Frame5
+    pieces:
+    - [64x64, -37, -60]
+    - [16x8, -45, -28]
+  - symbol: gAladdin10Frame6
+    pieces:
+    - [32x64, -21, -57]
+    - [16x32, -29, -57]
+    - [16x16, 3, -33]
+  - symbol: gAladdin10Frame7
+    pieces:
+    - [32x64, -23, -57]
+    - [16x32, 1, -25]
+    - [16x16, -31, -57]
+    - [8x16, -23, -72, {layer: 1}]
+  - symbol: gAladdin10Frame8
+    pieces:
+    - [64x64, -38, -65]
+    - [16x32, -53, -81]
+  - symbol: gAladdin10Frame9
+    pieces:
+    - [64x64, -43, -59]
+    - [16x16, 13, -27]
+    - [16x16, -51, -19]
+  - symbol: gAladdin10Frame10
+    pieces:
+    - [64x64, -43, -58]
+    - [16x16, -51, -50]
+    - [16x16, 13, -26]
+  - symbol: gAladdin10Frame11
+    pieces:
+    - [32x64, -21, -61]
+    - [16x16, 3, -21]
+    - [16x32, -29, -61]
+    - [16x32, -29, -91]
+  - symbol: gAladdin10Frame12
+    pieces:
+    - [64x64, -44, -61]
+    - [16x16, -36, -76, {layer: 1}]
+  animations:
+  - symbol: gAladdin10Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 7], [2, 7], [3, 8]]
+  - symbol: gAladdin10Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6]]
+  - symbol: gAladdin10Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 10]]
+  us:
+    address: 0x0887A298
+    size: 24136
+  jp:
+    address: 0x0886D880
+    size: 24136
+  eu:
+    address: 0x088A5BBC
+    size: 24136
+- name: peter_tuki
+  format: sprite_sheet
+  palette: peter
+  symbol: gPeterTukiTiles
+  align: 4
+  cell: [94, 79]
+  anchor: [54, 80]
+  columns: 6
+  frames:
+  - symbol: gPeterTukiFrame0
+    pieces:
+    - [32x64, -20, -65, {hflip: true}]
+    - [8x16, -8, -80, {hflip: true}]
+    - [8x8, -27, -41, {hflip: true}]
+  - symbol: gPeterTukiFrame1
+    pieces:
+    - [32x64, -20, -68, {hflip: true}]
+    - [8x8, -7, -75, {hflip: true}]
+    - [8x8, -27, -47, {hflip: true}]
+  - symbol: gPeterTukiFrame2
+    pieces:
+    - [32x64, -9, -68, {hflip: true}]
+    - [8x8, 4, -75, {hflip: true}]
+    - [8x8, -16, -47, {hflip: true}]
+  - symbol: gPeterTukiFrame3
+    pieces:
+    - [32x32, -23, -46, {hflip: true}]
+    - [32x16, 8, -30, {hflip: true}]
+    - [8x8, 8, -37, {hflip: true}]
+    - [16x16, -23, -61, {hflip: true}]
+  - symbol: gPeterTukiFrame4
+    pieces:
+    - [32x16, -1, -28, {hflip: true}]
+    - [32x32, -32, -44, {hflip: true}]
+    - [8x8, -39, -37, {hflip: true}]
+    - [16x8, -47, -21, {hflip: true}]
+    - [8x8, -54, -21, {hflip: true}]
+  - symbol: gPeterTukiFrame5
+    pieces:
+    - [32x32, -29, -55, {hflip: true}]
+    - [8x8, -21, -62, {hflip: true}]
+    - [8x16, -36, -44, {hflip: true}]
+    - [8x8, 2, -44, {hflip: true}]
+    - [8x16, 2, -39, {hflip: true, layer: 1}]
+    - [32x16, -13, -24, {hflip: true}]
+    - [8x8, 10, -9, {hflip: true}]
+  animations:
+  - symbol: gPeterTukiAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gPeterTukiAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 3], [2, 6], [3, 6]]
+  - symbol: gPeterTukiAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gPeterTukiAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 8]]
+  us:
+    address: 0x088800E0
+    size: 5246
+  jp:
+    address: 0x088736C8
+    size: 5246
+  eu:
+    address: 0x088ABA04
+    size: 5246
+- name: felosiaslange
+  format: sprite_sheet
+  palette: beast
+  symbol: gFelosiaslangeTiles
+  align: 4
+  cell: [118, 88]
+  anchor: [61, 78]
+  columns: 7
+  frames:
+  - symbol: gFelosiaslangeFrame0
+    pieces:
+    - [64x32, -41, -49]
+    - [16x32, 22, -49]
+    - [32x16, -25, -64]
+    - [8x8, -32, -56]
+    - [16x16, -26, -18]
+    - [16x16, -41, -11]
+    - [8x8, -33, -18]
+    - [32x16, 7, -18, {layer: 1}]
+    - [8x8, 0, -18]
+    - [16x8, 23, -3]
+    - [8x32, 37, -41, {layer: 2}]
+    - [8x16, 44, -25]
+    - [16x16, 6, -64]
+  - symbol: gFelosiaslangeFrame1
+    pieces:
+    - [64x32, -35, -52, {layer: 1}]
+    - [32x8, -20, -59, {layer: 2}]
+    - [8x8, 11, -59, {layer: 2}]
+    - [8x32, -42, -37, {layer: 1}]
+    - [32x16, -35, -21, {layer: 2}]
+    - [32x16, -4, -21]
+    - [32x8, -42, -6, {layer: 2}]
+    - [8x32, 27, -45, {layer: 2}]
+    - [8x8, 27, -13, {layer: 1}]
+    - [32x16, 5, -6, {layer: 1}]
+    - [16x16, 35, -29]
+  - symbol: gFelosiaslangeFrame2
+    pieces:
+    - [64x32, -49, -56]
+    - [32x8, -32, -63]
+    - [16x8, -1, -63]
+    - [32x16, -32, -25]
+    - [32x16, -1, -25]
+    - [32x8, -32, -10]
+    - [32x8, -1, -10, {layer: 1}]
+    - [8x32, 14, -56]
+    - [8x8, 21, -47, {layer: 1}]
+    - [16x16, 21, -40, {layer: 2}]
+    - [8x32, 29, -25, {layer: 2}]
+    - [16x16, 36, -32, {layer: 1}]
+    - [8x8, 23, -3, {layer: 1}]
+  - symbol: gFelosiaslangeFrame3
+    pieces:
+    - [64x32, -46, -67]
+    - [16x16, -61, -59]
+    - [16x8, -61, -44]
+    - [32x32, 17, -67]
+    - [32x8, -29, -74]
+    - [32x8, -21, -36]
+    - [32x16, 10, -36]
+    - [16x16, 41, -36]
+    - [32x8, 2, -74]
+  - symbol: gFelosiaslangeFrame4
+    pieces:
+    - [32x16, -61, -27]
+    - [64x32, -38, -58]
+    - [16x8, -30, -27]
+    - [8x8, -15, -27]
+    - [8x8, -45, -34]
+    - [16x16, -53, -49]
+    - [32x16, 2, -73]
+    - [16x16, -13, -73]
+    - [16x8, -28, -65]
+    - [16x16, 40, -50]
+    - [8x8, 33, -65]
+    - [16x32, 25, -58]
+  - symbol: gFelosiaslangeFrame5
+    pieces:
+    - [64x32, -40, -48]
+    - [32x16, -48, -17]
+    - [8x16, -47, -39]
+    - [32x16, -24, -63]
+    - [32x16, 7, -63]
+    - [8x8, -31, -55]
+    - [16x16, 38, -63]
+    - [32x16, -1, -78]
+    - [8x8, -8, -70]
+    - [8x16, 23, -48]
+    - [8x8, 30, -48]
+    - [16x16, 23, -33]
+  - symbol: gFelosiaslangeFrame6
+    pieces:
+    - [64x32, -31, -51]
+    - [32x8, -31, -58]
+    - [8x8, 0, -58]
+    - [16x32, -46, -51]
+    - [32x16, 16, -20]
+    - [32x16, -15, -20]
+    - [16x16, -30, -20]
+    - [8x8, -37, -20]
+    - [32x8, -31, -5]
+    - [32x8, 17, -5]
+  animations:
+  - symbol: gFelosiaslangeAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8]]
+  - symbol: gFelosiaslangeAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 8], [6, 8], [2, 8], [3, 8], [4, 8], [5, 8]]
+  us:
+    address: 0x08881560
+    size: 17944
+  jp:
+    address: 0x08874B48
+    size: 17944
+  eu:
+    address: 0x088ACE84
+    size: 17944

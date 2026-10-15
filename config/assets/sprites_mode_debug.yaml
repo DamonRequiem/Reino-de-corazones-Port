@@ -1,0 +1,221 @@
+group: sprites_mode_debug
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_mode_debug_frames.s
+    start: 0x0895085C
+    end: 0x08950BE4
+    data_start: 0x09EDF764
+    data_end: 0x09EDF778
+  - name: sprites_mode_debug_tiles.s
+    start: 0x08C6B0C4
+    end: 0x08C78824
+  - name: sprites_mode_debug_maps.s
+    start: 0x08EEE384
+    end: 0x08EEF384
+  - name: sprites_mode_debug_palettes.s
+    start: 0x08F683C4
+    end: 0x08F68624
+  jp:
+  - name: sprites_mode_debug_frames.s
+    start: 0x08943E44
+    end: 0x089441CC
+    data_start: 0x09EB71E0
+    data_end: 0x09EB71F4
+  - name: sprites_mode_debug_tiles.s
+    start: 0x08C5E6AC
+    end: 0x08C6BE0C
+  - name: sprites_mode_debug_maps.s
+    start: 0x08EE188C
+    end: 0x08EE288C
+  - name: sprites_mode_debug_palettes.s
+    start: 0x08F5B8CC
+    end: 0x08F5BB2C
+  eu:
+  - name: sprites_mode_debug_frames.s
+    start: 0x0897C180
+    end: 0x0897C508
+    data_start: 0x09F5A3BC
+    data_end: 0x09F5A3D0
+  - name: sprites_mode_debug_palettes.s
+    start: 0x08F6491C
+    end: 0x08F64B7C
+  - name: sprites_mode_debug_tiles.s
+    start: 0x08F6A73C
+    end: 0x08F6EF3C
+  - name: sprites_mode_debug_maps.s
+    start: 0x08F79038
+    end: 0x08F79520
+entries:
+- name: gDebugMenuCursorFrames
+  record: SpriteTable
+  items: [gDebugMenuCursorFrame0, gDebugMenuCursorFrame1, gDebugMenuCursorFrame2, gDebugMenuCursorFrame3]
+  us:
+    address: 0x09EDF764
+  jp:
+    address: 0x09EB71E0
+  eu:
+    address: 0x09F5A3BC
+- name: gDebugMenuCursorAnims
+  record: AnimTable
+  items: [gDebugMenuCursorAnim0]
+  us:
+    address: 0x09EDF774
+  jp:
+    address: 0x09EB71F0
+  eu:
+    address: 0x09F5A3CC
+- name: gDebugMenuCursorTiles
+  format: sprite_sheet
+  align: 4
+  cell: [104, 16]
+  anchor: [0, 0]
+  columns: 4
+  frames:
+  - symbol: gDebugMenuCursorFrame0
+    pieces:
+    - [16x16, 0, 0]
+    - [32x8, 16, 8]
+    - [32x8, 48, 8]
+    - [16x8, 80, 8]
+    - [8x8, 96, 8]
+  - symbol: gDebugMenuCursorFrame1
+    pieces:
+    - [32x8, 16, 8]
+    - [32x8, 48, 8]
+    - [16x8, 80, 8]
+    - [8x8, 96, 8]
+    - [16x16, 0, 0]
+  - symbol: gDebugMenuCursorFrame2
+    pieces:
+    - [32x8, 16, 8]
+    - [32x8, 48, 8]
+    - [16x8, 80, 8]
+    - [8x8, 96, 8]
+    - [16x16, 0, 0]
+  - symbol: gDebugMenuCursorFrame3
+    pieces:
+    - [32x8, 16, 8]
+    - [32x8, 48, 8]
+    - [16x8, 80, 8]
+    - [8x8, 96, 8]
+    - [16x16, 0, 0]
+  animations:
+  - symbol: gDebugMenuCursorAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [1, 8], [0, 8], [3, 8]]
+  us:
+    address: 0x0895085C
+    size: 902
+  jp:
+    address: 0x08943E44
+    size: 902
+  eu:
+    address: 0x0897C180
+    size: 902
+- name: gDebugCheckerBgTiles
+  format: tiles4
+  us:
+    address: 0x08C6B0C4
+    size: 31776
+  jp:
+    address: 0x08C5E6AC
+    size: 31776
+  eu:
+    address: 0x08F6A73C
+    size: 3776
+    compress: lz77
+- name: gDebugMenuBgTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x08C72CE4
+    size: 23360
+  jp:
+    address: 0x08C662CC
+    size: 23360
+  eu:
+    address: 0x08F6B5FC
+    size: 14656
+    compress: lz77
+- name: gDebugCheckerBgMap
+  format: tilemap
+  us:
+    address: 0x08EEE384
+    size: 2048
+  jp:
+    address: 0x08EE188C
+    size: 2048
+  eu:
+    address: 0x08F79038
+    size: 260
+    compress: lz77
+- name: gDebugMenuBgMap
+  format: tilemap
+  us:
+    address: 0x08EEEB84
+    size: 2048
+  jp:
+    address: 0x08EE208C
+    size: 2048
+  eu:
+    address: 0x08F7913C
+    size: 996
+    compress: lz77
+- name: gDebugCheckerBgPalette
+  format: palette
+  us:
+    address: 0x08F683C4
+    size: 32
+  jp:
+    address: 0x08F5B8CC
+    size: 32
+  eu:
+    address: 0x08F6491C
+    size: 32
+- name: gDebugMenuBgPalette
+  format: palette
+  us:
+    address: 0x08F683E4
+    size: 512
+  jp:
+    address: 0x08F5B8EC
+    size: 512
+  eu:
+    address: 0x08F6493C
+    size: 512
+- name: gDebugMenuCursorPalette
+  format: palette
+  us:
+    address: 0x08F685E4
+    size: 32
+  jp:
+    address: 0x08F5BAEC
+    size: 32
+  eu:
+    address: 0x08F64B3C
+    size: 32
+- name: gDebugMenuTextPalette
+  format: palette
+  const: true
+  us:
+    address: 0x08F68604
+    size: 32
+  jp:
+    address: 0x08F5BB0C
+    size: 32
+  eu:
+    address: 0x08F64B5C
+    size: 32

@@ -1,0 +1,351 @@
+group: link_menus
+types: {}
+objects:
+  us:
+  - name: link_menu_tiles.s
+    start: 0x096ACA44
+    end: 0x096B6464
+  - name: link_menu_maps.s
+    start: 0x096F5464
+    end: 0x096FAC64
+  - name: link_menu_palettes.s
+    start: 0x096FBF24
+    end: 0x096FC004
+  jp:
+  - name: link_menu_tiles.s
+    start: 0x09665220
+    end: 0x0966EC40
+  - name: link_menu_maps.s
+    start: 0x096ADC40
+    end: 0x096B3440
+  - name: link_menu_palettes.s
+    start: 0x096B4700
+    end: 0x096B47E0
+  eu:
+  - name: link_menu_tiles.s
+    start: 0x096769CC
+    end: 0x0967E18C
+  - name: link_menu_maps_1.s
+    start: 0x096BD18C
+    end: 0x096C118C
+  - name: link_menu_maps_2.s
+    start: 0x096C118C
+    end: 0x096C818C
+entries:
+- name: gSioBgTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x096ACA44
+    size: 3008
+  jp:
+    address: 0x09665220
+    size: 3008
+  eu:
+    address: 0x096769CC
+    size: 3008
+- name: gSioMsgWinTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x096AD604
+    size: 320
+  jp:
+    address: 0x09665DE0
+    size: 320
+  eu:
+    address: 0x0967758C
+    size: 320
+- name: gSioBtlBgTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x096AD744
+    size: 8192
+  jp:
+    address: 0x09665F20
+    size: 8192
+  eu:
+    address: 0x0967818C
+    size: 8192
+- name: gSioBtlVsTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x096AF744
+    size: 8192
+  jp:
+    address: 0x09667F20
+    size: 8192
+  eu:
+    address: 0x0967A18C
+    size: 8192
+- name: gSioBtlCardgetBgTiles
+  format: tiles4
+  us:
+    address: 0x096B1744
+    size: 2528
+  jp:
+    address: 0x09669F20
+    size: 2528
+  eu:
+    address: 0x0967C18C
+    size: 8192
+- name: gSioBtlOptionDigitTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x096B2124
+    size: 1344
+  jp:
+    address: 0x0966A900
+    size: 1344
+  eu:
+    address: 0x096776CC
+    size: 1344
+- name: gSioBtlOptionReadyTiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x096B2664
+    size: 1408
+  jp:
+    address: 0x0966AE40
+    size: 1408
+  eu:
+    address: 0x09677C0C
+    size: 1408
+- name: gSioChgCardBgTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x096B2BE4
+    size: 8192
+  jp:
+    address: 0x0966B3C0
+    size: 8192
+- name: gSioChgCardTitleTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x096B4BE4
+    size: 4544
+  jp:
+    address: 0x0966D3C0
+    size: 4544
+- name: gSioChgCardDigitTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x096B5DA4
+    size: 320
+  jp:
+    address: 0x0966E580
+    size: 320
+- name: gSioChgCardReadyTiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x096B5EE4
+    size: 1408
+  jp:
+    address: 0x0966E6C0
+    size: 1408
+- name: gSioBattleBgMap
+  format: tilemap
+  us:
+    address: 0x096F5464
+    size: 2048
+  jp:
+    address: 0x096ADC40
+    size: 2048
+  eu:
+    address: 0x096BD18C
+    size: 2048
+- name: gSioConnectBgMap
+  format: tilemap
+  us:
+    address: 0x096F5C64
+    size: 2048
+  jp:
+    address: 0x096AE440
+    size: 2048
+  eu:
+    address: 0x096BD98C
+    size: 2048
+- name: gSioMsgWinMap
+  format: tilemap
+  us:
+    address: 0x096F6464
+    size: 2048
+  jp:
+    address: 0x096AEC40
+    size: 2048
+  eu:
+    address: 0x096BE18C
+    size: 2048
+- name: gSioBtlOptionBg0Map
+  format: tilemap
+  us:
+    address: 0x096F6C64
+    size: 2048
+  jp:
+    address: 0x096AF440
+    size: 2048
+  eu:
+    address: 0x096C118C
+    size: 2048
+- name: gSioBtlOptionBg1Map
+  format: tilemap
+  us:
+    address: 0x096F7464
+    size: 2048
+  jp:
+    address: 0x096AFC40
+    size: 2048
+  eu:
+    address: 0x096BE98C
+    size: 2048
+- name: gSioBtlCardgetBgMap
+  format: tilemap
+  us:
+    address: 0x096F7C64
+    size: 2048
+  jp:
+    address: 0x096B0440
+    size: 2048
+  eu:
+    address: 0x096BF18C
+    size: 2048
+- name: gSioBtlCardget2PWinMap
+  format: tilemap
+  us:
+    address: 0x096F8464
+    size: 2048
+  jp:
+    address: 0x096B0C40
+    size: 2048
+  eu:
+    address: 0x096BF98C
+    size: 2048
+- name: gSioBtlCardget1PWinMap
+  format: tilemap
+  us:
+    address: 0x096F8C64
+    size: 2048
+  jp:
+    address: 0x096B1440
+    size: 2048
+  eu:
+    address: 0x096C018C
+    size: 2048
+- name: gSioChgCardBg2Map
+  format: tilemap
+  us:
+    address: 0x096F9464
+    size: 2048
+  jp:
+    address: 0x096B1C40
+    size: 2048
+- name: gSioChgCardBg1Map
+  format: tilemap
+  us:
+    address: 0x096F9C64
+    size: 2048
+  jp:
+    address: 0x096B2440
+    size: 2048
+- name: gSioChgCardBg0Map
+  format: tilemap
+  us:
+    address: 0x096FA464
+    size: 2048
+  jp:
+    address: 0x096B2C40
+    size: 2048
+- name: gUnk_096FBF24
+  format: palette
+  us:
+    address: 0x096FBF24
+    size: 96
+  jp:
+    address: 0x096B4700
+    size: 96
+- name: gSioChgCardCategoryPalettes
+  format: palette
+  us:
+    address: 0x096FBF84
+    size: 128
+  jp:
+    address: 0x096B4760
+    size: 128
+- name: gUnkEu_096C098C
+  format: tilemap
+  eu:
+    address: 0x096C098C
+    size: 2048
+- name: gSioBtlOptionBg0FrenchMap
+  format: tilemap
+  eu:
+    address: 0x096C198C
+    size: 2048
+- name: gSioBtlOptionBg0SpanishMap
+  format: tilemap
+  eu:
+    address: 0x096C218C
+    size: 2048
+- name: gSioBtlOptionBg0ItalianMap
+  format: tilemap
+  eu:
+    address: 0x096C298C
+    size: 2048
+- name: gSioBtlOptionBg0GermanMap
+  format: tilemap
+  eu:
+    address: 0x096C318C
+    size: 2048
+- name: gSioBtlOptionBg1FrenchMap
+  format: tilemap
+  eu:
+    address: 0x096C398C
+    size: 2048
+- name: gSioBtlOptionBg1SpanishMap
+  format: tilemap
+  eu:
+    address: 0x096C418C
+    size: 2048
+- name: gSioBtlOptionBg1ItalianMap
+  format: tilemap
+  eu:
+    address: 0x096C498C
+    size: 2048
+- name: gSioBtlOptionBg1GermanMap
+  format: tilemap
+  eu:
+    address: 0x096C518C
+    size: 2048
+- name: gSioBtlCardgetBgFrenchMap
+  format: tilemap
+  eu:
+    address: 0x096C598C
+    size: 2048
+- name: gSioBtlCardgetBgSpanishMap
+  format: tilemap
+  eu:
+    address: 0x096C618C
+    size: 2048
+- name: gSioBtlCardgetBgItalianMap
+  format: tilemap
+  eu:
+    address: 0x096C698C
+    size: 2048
+- name: gSioBtlCardgetBgGermanMap
+  format: tilemap
+  eu:
+    address: 0x096C718C
+    size: 2048
+- name: gSysMsgWinFrenchSpanishMap
+  format: tilemap
+  eu:
+    address: 0x096C798C
+    size: 2048

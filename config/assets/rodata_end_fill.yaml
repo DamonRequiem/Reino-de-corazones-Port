@@ -1,0 +1,29 @@
+group: rodata_end_fill
+types: {}
+objects:
+  us:
+  - name: rodata_end_fill.s
+    start: 0x09ECE990
+    end: 0x09ECEA90
+  jp:
+  - name: rodata_end_fill.s
+    start: 0x09EA6C7C
+    end: 0x09EA6D7C
+  eu:
+  - name: rodata_end_fill.s
+    start: 0x09F3E8BC
+    end: 0x09F3E9BC
+entries:
+- name: gRodataEndFill
+  format: fill
+  value: 0xFF
+  declare: false
+  us:
+    address: 0x09ECE990
+    size: 256
+  jp:
+    address: 0x09EA6C7C
+    size: 256
+  eu:
+    address: 0x09F3E8BC
+    size: 256

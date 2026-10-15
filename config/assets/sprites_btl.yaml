@@ -1,0 +1,2699 @@
+group: sprites_btl
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_btl_frames_1.s
+    start: 0x08908BFC
+    end: 0x0891A0DC
+    data_start: 0x09EDF1C0
+    data_end: 0x09EDF308
+  - name: sprites_btl_frames_2.s
+    start: 0x08925AB4
+    end: 0x08927764
+    data_start: 0x09EDF3E8
+    data_end: 0x09EDF404
+  - name: sprites_btl_frames_3.s
+    start: 0x08B1D828
+    end: 0x08B24C98
+    data_start: 0x09EE10E0
+    data_end: 0x09EE14D4
+  - name: sprites_btl_palettes.s
+    start: 0x08F6DD04
+    end: 0x08F6DD44
+  jp:
+  - name: sprites_btl_frames_1.s
+    start: 0x088FC1E4
+    end: 0x0890D6C4
+    data_start: 0x09EB6C3C
+    data_end: 0x09EB6D84
+  - name: sprites_btl_frames_2.s
+    start: 0x0891909C
+    end: 0x0891AD4C
+    data_start: 0x09EB6E64
+    data_end: 0x09EB6E80
+  - name: sprites_btl_frames_3.s
+    start: 0x08B10E10
+    end: 0x08B18280
+    data_start: 0x09EB8B5C
+    data_end: 0x09EB8F50
+  - name: sprites_btl_palettes.s
+    start: 0x08F6120C
+    end: 0x08F6124C
+  eu:
+  - name: sprites_btl_frames_1.s
+    start: 0x08934520
+    end: 0x08945A00
+    data_start: 0x09F59E18
+    data_end: 0x09F59F60
+  - name: sprites_btl_frames_2.s
+    start: 0x089513D8
+    end: 0x08953088
+    data_start: 0x09F5A040
+    data_end: 0x09F5A05C
+  - name: sprites_btl_frames_3.s
+    start: 0x08B4914C
+    end: 0x08B4FB78
+    data_start: 0x09F5BD38
+    data_end: 0x09F5C0EC
+  - name: sprites_btl_palettes.s
+    start: 0x08F6A25C
+    end: 0x08F6A29C
+entries:
+- name: gSor1ll70Frames
+  record: SpriteTable
+  items: [gSor1ll70Frame0, gSor1ll70Frame1, gSor1ll70Frame2, gSor1ll70Frame3, gSor1ll70Frame4, gSor1ll70Frame5, gSor1ll70Frame6, gSor1ll70Frame7, gSor1ll70Frame8, gSor1ll70Frame9, gSor1ll70Frame10, gSor1ll70Frame11, gSor1ll70Frame12, gSor1ll70Frame13]
+  us:
+    address: 0x09EDF1C0
+  jp:
+    address: 0x09EB6C3C
+  eu:
+    address: 0x09F59E18
+- name: gSor1ll70Anims
+  record: AnimTable
+  items: [gSor1ll70Anim0, gSor1ll70Anim1, gSor1ll70Anim2, gSor1ll70Anim3, gSor1ll70Anim4]
+  us:
+    address: 0x09EDF1F8
+  jp:
+    address: 0x09EB6C74
+  eu:
+    address: 0x09F59E50
+- name: gSor1ll71Frames
+  record: SpriteTable
+  items: [gSor1ll71Frame0, gSor1ll71Frame1, gSor1ll71Frame2, gSor1ll71Frame3, gSor1ll71Frame4, gSor1ll71Frame5, gSor1ll71Frame6, gSor1ll71Frame7, gSor1ll71Frame8, gSor1ll71Frame9, gSor1ll71Frame10, gSor1ll71Frame11, gSor1ll71Frame12, gSor1ll71Frame13]
+  us:
+    address: 0x09EDF20C
+  jp:
+    address: 0x09EB6C88
+  eu:
+    address: 0x09F59E64
+- name: gSor1ll71Anims
+  record: AnimTable
+  items: [gSor1ll71Anim0]
+  us:
+    address: 0x09EDF244
+  jp:
+    address: 0x09EB6CC0
+  eu:
+    address: 0x09F59E9C
+- name: gSor1ll72Frames
+  record: SpriteTable
+  items: [gSor1ll72Frame0, gSor1ll72Frame1, gSor1ll72Frame2, gSor1ll72Frame3, gSor1ll72Frame4, gSor1ll72Frame5, gSor1ll72Frame6, gSor1ll72Frame7]
+  us:
+    address: 0x09EDF248
+  jp:
+    address: 0x09EB6CC4
+  eu:
+    address: 0x09F59EA0
+- name: gSor1ll72Anims
+  record: AnimTable
+  items: [gSor1ll72Anim0]
+  us:
+    address: 0x09EDF268
+  jp:
+    address: 0x09EB6CE4
+  eu:
+    address: 0x09F59EC0
+- name: gSor1ll73Frames
+  record: SpriteTable
+  items: [gSor1ll73Frame0, gSor1ll73Frame1, gSor1ll73Frame2, gSor1ll73Frame3, gSor1ll73Frame4, gSor1ll73Frame5, gSor1ll73Frame6, gSor1ll73Frame7, gSor1ll73Frame8]
+  us:
+    address: 0x09EDF26C
+  jp:
+    address: 0x09EB6CE8
+  eu:
+    address: 0x09F59EC4
+- name: gSor1ll73Anims
+  record: AnimTable
+  items: [gSor1ll73Anim0]
+  us:
+    address: 0x09EDF290
+  jp:
+    address: 0x09EB6D0C
+  eu:
+    address: 0x09F59EE8
+- name: gSor1ll74Frames
+  record: SpriteTable
+  items: [gSor1ll74Frame0, gSor1ll74Frame1, gSor1ll74Frame2, gSor1ll74Frame3, gSor1ll74Frame4, gSor1ll74Frame5, gSor1ll74Frame6, gSor1ll74Frame7, gSor1ll74Frame8, gSor1ll74Frame9, gSor1ll74Frame10, gSor1ll74Frame11]
+  us:
+    address: 0x09EDF294
+  jp:
+    address: 0x09EB6D10
+  eu:
+    address: 0x09F59EEC
+- name: gSor1ll74Anims
+  record: AnimTable
+  items: [gSor1ll74Anim0, gSor1ll74Anim1, gSor1ll74Anim2]
+  us:
+    address: 0x09EDF2C4
+  jp:
+    address: 0x09EB6D40
+  eu:
+    address: 0x09F59F1C
+- name: gSor1ll75Frames
+  record: SpriteTable
+  items: [gSor1ll75Frame0, gSor1ll75Frame1, gSor1ll75Frame2, gSor1ll75Frame3, gSor1ll75Frame4, gSor1ll75Frame5, gSor1ll75Frame6, gSor1ll75Frame7, gSor1ll75Frame8, gSor1ll75Frame9, gSor1ll75Frame10]
+  us:
+    address: 0x09EDF2D0
+  jp:
+    address: 0x09EB6D4C
+  eu:
+    address: 0x09F59F28
+- name: gSor1ll75Anims
+  record: AnimTable
+  items: [gSor1ll75Anim0, gSor1ll75Anim1, gSor1ll75Anim2]
+  us:
+    address: 0x09EDF2FC
+  jp:
+    address: 0x09EB6D78
+  eu:
+    address: 0x09F59F54
+- name: gBtlRikuStartFrames
+  record: SpriteTable
+  items: [gBtlRikuStartFrame0, gBtlRikuStartFrame1, gBtlRikuStartFrame2, gBtlRikuStartFrame3, gBtlRikuStartFrame4, gBtlRikuStartFrame5]
+  us:
+    address: 0x09EDF3E8
+  jp:
+    address: 0x09EB6E64
+  eu:
+    address: 0x09F5A040
+- name: gBtlRikuStartAnims
+  record: AnimTable
+  items: [gBtlRikuStartAnim0]
+  us:
+    address: 0x09EDF400
+  jp:
+    address: 0x09EB6E7C
+  eu:
+    address: 0x09F5A058
+- name: gEmy8311bFrames
+  record: SpriteTable
+  items: [gEmy8311bFrame0, gEmy8311bFrame1]
+  us:
+    address: 0x09EE10E0
+  jp:
+    address: 0x09EB8B5C
+  eu:
+    address: 0x09F5BD38
+- name: gEmy8311bAnims
+  record: AnimTable
+  items: [gEmy8311bAnim0]
+  us:
+    address: 0x09EE10E8
+  jp:
+    address: 0x09EB8B64
+  eu:
+    address: 0x09F5BD40
+- name: gBtlLockonFrames
+  record: SpriteTable
+  items: [gBtlLockonFrame0, gBtlLockonFrame1, gBtlLockonFrame2]
+  us:
+    address: 0x09EE10EC
+  jp:
+    address: 0x09EB8B68
+  eu:
+    address: 0x09F5BD44
+- name: gBtlLockonAnims
+  record: AnimTable
+  items: [gBtlLockonAnim0]
+  us:
+    address: 0x09EE10F8
+  jp:
+    address: 0x09EB8B74
+  eu:
+    address: 0x09F5BD50
+- name: gUnk_09EE10FC
+  record: SpriteTable
+  items: [gUnk_08B1DA3C, gUnk_08B1DA46, gUnk_08B1DA50]
+  us:
+    address: 0x09EE10FC
+  jp:
+    address: 0x09EB8B78
+  eu:
+    address: 0x09F5BD54
+- name: gUnk_09EE1108
+  record: AnimTable
+  items: [gUnk_08B1DA5A]
+  us:
+    address: 0x09EE1108
+  jp:
+    address: 0x09EB8B84
+  eu:
+    address: 0x09F5BD60
+- name: gUnk_09EE110C
+  record: SpriteTable
+  items: [gUnk_08B1DBF0, gUnk_08B1DC00]
+  us:
+    address: 0x09EE110C
+  jp:
+    address: 0x09EB8B88
+  eu:
+    address: 0x09F5BD64
+- name: gUnk_09EE1114
+  record: AnimTable
+  items: [gUnk_08B1DC0A, gUnk_08B1DC14]
+  us:
+    address: 0x09EE1114
+  jp:
+    address: 0x09EB8B90
+  eu:
+    address: 0x09F5BD6C
+- name: gUnk_09EE111C
+  record: SpriteTable
+  items: [gUnk_08B1DDA0, gUnk_08B1DDAA, gUnk_08B1DDB4, gUnk_08B1DDBE, gUnk_08B1DDDA, gUnk_08B1DDEA, gUnk_08B1DE06, gUnk_08B1DE16, gUnk_08B1DE32]
+  us:
+    address: 0x09EE111C
+  jp:
+    address: 0x09EB8B98
+  eu:
+    address: 0x09F5BD74
+- name: gUnk_09EE1140
+  record: AnimTable
+  items: [gUnk_08B1DE42, gUnk_08B1DE4C, gUnk_08B1DE56, gUnk_08B1DE6C, gUnk_08B1DE82, gUnk_08B1DE8C, gUnk_08B1DE96]
+  us:
+    address: 0x09EE1140
+  jp:
+    address: 0x09EB8BBC
+  eu:
+    address: 0x09F5BD98
+- name: gBtlPauseFrames
+  record: SpriteTable
+  items: [gBtlPauseFrame0, gBtlPauseFrame1]
+  us:
+    address: 0x09EE115C
+  jp:
+    address: 0x09EB8BD8
+  eu:
+    address: 0x09F5BDB4
+- name: gBtlPauseAnims
+  record: AnimTable
+  items: [gBtlPauseAnim0, gBtlPauseAnim1]
+  us:
+    address: 0x09EE1164
+  jp:
+    address: 0x09EB8BE0
+  eu:
+    address: 0x09F5BDBC
+- name: gBtlAreaFrames
+  record: SpriteTable
+  items: [gBtlAreaFrame0, gBtlAreaFrame1, gBtlAreaFrame2, gBtlAreaFrame3, gBtlAreaFrame4, gBtlAreaFrame5, gBtlAreaFrame6]
+  us:
+    address: 0x09EE116C
+  jp:
+    address: 0x09EB8BE8
+  eu:
+    address: 0x09F5BDC4
+- name: gBtlAreaAnims
+  record: AnimTable
+  items: [gBtlAreaAnim0, gBtlAreaAnim1, gBtlAreaAnim2, gBtlAreaAnim3, gBtlAreaAnim4, gBtlAreaAnim5, gBtlAreaAnim6]
+  us:
+    address: 0x09EE1188
+  jp:
+    address: 0x09EB8C04
+  eu:
+    address: 0x09F5BDE0
+- name: gBtlEscapeFrames
+  record: SpriteTable
+  items: [gBtlEscapeFrame0, gBtlEscapeFrame1, gBtlEscapeFrame2]
+  us:
+    address: 0x09EE11A4
+  jp:
+    address: 0x09EB8C20
+  eu:
+    address: 0x09F5BDFC
+- name: gBtlEscapeAnims
+  record: AnimTable
+  items: [gBtlEscapeAnim0, gBtlEscapeAnim1, gBtlEscapeAnim2]
+  us:
+    address: 0x09EE11B0
+  jp:
+    address: 0x09EB8C2C
+  eu:
+    address: 0x09F5BE08
+    items: [gBtlEscapeAnim0]
+- name: gBtlPopCounterFrames
+  record: SpriteTable
+  items: [gBtlPopCounterFrame0]
+  us:
+    address: 0x09EE11BC
+  jp:
+    address: 0x09EB8C38
+- name: gBtlPopCounterAnims
+  record: AnimTable
+  items: [gBtlPopCounterAnim0]
+  us:
+    address: 0x09EE11C0
+  jp:
+    address: 0x09EB8C3C
+- name: gBtlPopMissFrames
+  record: SpriteTable
+  items: [gBtlPopMissFrame0]
+  us:
+    address: 0x09EE11C4
+  jp:
+    address: 0x09EB8C40
+  eu:
+    address: 0x09F5BE0C
+- name: gBtlPopMissAnims
+  record: AnimTable
+  items: [gBtlPopMissAnim0]
+  us:
+    address: 0x09EE11C8
+  jp:
+    address: 0x09EB8C44
+  eu:
+    address: 0x09F5BE10
+- name: gBtlPopGuardFrames
+  record: SpriteTable
+  items: [gBtlPopGuardFrame0]
+  us:
+    address: 0x09EE11CC
+  jp:
+    address: 0x09EB8C48
+  eu:
+    address: 0x09F5BE14
+- name: gBtlPopGuardAnims
+  record: AnimTable
+  items: [gBtlPopGuardAnim0]
+  us:
+    address: 0x09EE11D0
+  jp:
+    address: 0x09EB8C4C
+  eu:
+    address: 0x09F5BE18
+- name: gBtlPopOverWriteFrames
+  record: SpriteTable
+  items: [gBtlPopOverWriteFrame0]
+  us:
+    address: 0x09EE11D4
+  jp:
+    address: 0x09EB8C50
+- name: gBtlPopOverWriteAnims
+  record: AnimTable
+  items: [gBtlPopOverWriteAnim0]
+  us:
+    address: 0x09EE11D8
+  jp:
+    address: 0x09EB8C54
+- name: gBtlPopTimeBreakFrames
+  record: SpriteTable
+  items: [gBtlPopTimeBreakFrame0]
+  us:
+    address: 0x09EE11DC
+  jp:
+    address: 0x09EB8C58
+- name: gBtlPopTimeBreakAnims
+  record: AnimTable
+  items: [gBtlPopTimeBreakAnim0]
+  us:
+    address: 0x09EE11E0
+  jp:
+    address: 0x09EB8C5C
+- name: gBtlPopCardBreakFrames
+  record: SpriteTable
+  items: [gBtlPopCardBreakFrame0]
+  us:
+    address: 0x09EE11E4
+  jp:
+    address: 0x09EB8C60
+  eu:
+    address: 0x09F5BE1C
+- name: gBtlPopCardBreakAnims
+  record: AnimTable
+  items: [gBtlPopCardBreakAnim0]
+  us:
+    address: 0x09EE11E8
+  jp:
+    address: 0x09EB8C64
+  eu:
+    address: 0x09F5BE20
+- name: gBtlPopRecoverFrames
+  record: SpriteTable
+  items: [gBtlPopRecoverFrame0]
+  us:
+    address: 0x09EE11EC
+  jp:
+    address: 0x09EB8C68
+  eu:
+    address: 0x09F5BE24
+- name: gBtlPopRecoverAnims
+  record: AnimTable
+  items: [gBtlPopRecoverAnim0]
+  us:
+    address: 0x09EE11F0
+  jp:
+    address: 0x09EB8C6C
+  eu:
+    address: 0x09F5BE28
+- name: gBtlPopPercentFrames
+  record: SpriteTable
+  items: [gBtlPopPercentFrame0, gBtlPopPercentFrame1, gBtlPopPercentFrame2, gBtlPopPercentFrame3]
+  us:
+    address: 0x09EE11F4
+  jp:
+    address: 0x09EB8C70
+- name: gBtlPopPercentAnims
+  record: AnimTable
+  items: [gBtlPopPercentAnim0, gBtlPopPercentAnim1, gBtlPopPercentAnim2, gBtlPopPercentAnim3]
+  us:
+    address: 0x09EE1204
+  jp:
+    address: 0x09EB8C80
+- name: gBtlPopCbFrames
+  record: SpriteTable
+  items: [gBtlPopCbFrame0, gBtlPopCbFrame1, gBtlPopCbFrame2, gBtlPopCbFrame3, gBtlPopCbFrame4, gBtlPopCbFrame5, gBtlPopCbFrame6, gBtlPopCbFrame7, gBtlPopCbFrame8, gBtlPopCbFrame9, gBtlPopCbFrame10]
+  us:
+    address: 0x09EE1214
+  jp:
+    address: 0x09EB8C90
+  eu:
+    address: 0x09F5BE2C
+- name: gBtlPopCbAnims
+  record: AnimTable
+  items: [gBtlPopCbAnim0]
+  us:
+    address: 0x09EE1240
+  jp:
+    address: 0x09EB8CBC
+  eu:
+    address: 0x09F5BE58
+- name: gBPuraizuFrames
+  record: SpriteTable
+  items: [gBPuraizuFrame0, gBPuraizuFrame1, gBPuraizuFrame2, gBPuraizuFrame3, gBPuraizuFrame4, gBPuraizuFrame5, gBPuraizuFrame6, gBPuraizuFrame7, gBPuraizuFrame8, gBPuraizuFrame9, gBPuraizuFrame10, gBPuraizuFrame11, gBPuraizuFrame12]
+  us:
+    address: 0x09EE1244
+  jp:
+    address: 0x09EB8CC0
+  eu:
+    address: 0x09F5BE5C
+- name: gBPuraizuAnims
+  record: AnimTable
+  items: [gBPuraizuAnim0, gBPuraizuAnim1, gBPuraizuAnim2, gBPuraizuAnim3, gBPuraizuAnim4, gBPuraizuAnim5, gBPuraizuAnim6, gBPuraizuAnim7, gBPuraizuAnim8, gBPuraizuAnim9, gBPuraizuAnim10]
+  us:
+    address: 0x09EE1278
+  jp:
+    address: 0x09EB8CF4
+  eu:
+    address: 0x09F5BE90
+- name: gBtlHpSoraFaceFrames
+  record: SpriteTable
+  items: [gBtlHpSoraFaceFrame0, gBtlHpSoraFaceFrame1, gBtlHpSoraFaceFrame2]
+  us:
+    address: 0x09EE12A4
+  jp:
+    address: 0x09EB8D20
+  eu:
+    address: 0x09F5BEBC
+- name: gBtlHpSoraFaceAnims
+  record: AnimTable
+  items: [gBtlHpSoraFaceAnim0, gBtlHpSoraFaceAnim1, gBtlHpSoraFaceAnim2]
+  us:
+    address: 0x09EE12B0
+  jp:
+    address: 0x09EB8D2C
+  eu:
+    address: 0x09F5BEC8
+- name: gBtlHpRikuFaceFrames
+  record: SpriteTable
+  items: [gBtlHpRikuFaceFrame0, gBtlHpRikuFaceFrame1, gBtlHpRikuFaceFrame2]
+  us:
+    address: 0x09EE12BC
+  jp:
+    address: 0x09EB8D38
+  eu:
+    address: 0x09F5BED4
+- name: gBtlHpRikuFaceAnims
+  record: AnimTable
+  items: [gBtlHpRikuFaceAnim0, gBtlHpRikuFaceAnim1, gBtlHpRikuFaceAnim2]
+  us:
+    address: 0x09EE12C8
+  jp:
+    address: 0x09EB8D44
+  eu:
+    address: 0x09F5BEE0
+- name: gBtlBadstatusStunFrames
+  record: SpriteTable
+  items: [gBtlBadstatusStunFrame0, gBtlBadstatusStunFrame1, gBtlBadstatusStunFrame2, gBtlBadstatusStunFrame3]
+  us:
+    address: 0x09EE12D4
+  jp:
+    address: 0x09EB8D50
+  eu:
+    address: 0x09F5BEEC
+- name: gBtlBadstatusStunAnims
+  record: AnimTable
+  items: [gBtlBadstatusStunAnim0]
+  us:
+    address: 0x09EE12E4
+  jp:
+    address: 0x09EB8D60
+  eu:
+    address: 0x09F5BEFC
+- name: gBtlBadstatusStopFrames
+  record: SpriteTable
+  items: [gBtlBadstatusStopFrame0, gBtlBadstatusStopFrame1, gBtlBadstatusStopFrame2, gBtlBadstatusStopFrame3, gBtlBadstatusStopFrame4, gBtlBadstatusStopFrame5, gBtlBadstatusStopFrame6, gBtlBadstatusStopFrame7, gBtlBadstatusStopFrame8]
+  us:
+    address: 0x09EE12E8
+  jp:
+    address: 0x09EB8D64
+  eu:
+    address: 0x09F5BF00
+- name: gBtlBadstatusStopAnims
+  record: AnimTable
+  items: [gBtlBadstatusStopAnim0, gBtlBadstatusStopAnim1, gBtlBadstatusStopAnim2]
+  us:
+    address: 0x09EE130C
+  jp:
+    address: 0x09EB8D88
+  eu:
+    address: 0x09F5BF24
+- name: gBtlBadstatusBindFrames
+  record: SpriteTable
+  items: [gBtlBadstatusBindFrame0, gBtlBadstatusBindFrame1, gBtlBadstatusBindFrame2, gBtlBadstatusBindFrame3, gBtlBadstatusBindFrame4]
+  us:
+    address: 0x09EE1318
+  jp:
+    address: 0x09EB8D94
+  eu:
+    address: 0x09F5BF30
+- name: gBtlBadstatusBindAnims
+  record: AnimTable
+  items: [gBtlBadstatusBindAnim0]
+  us:
+    address: 0x09EE132C
+  jp:
+    address: 0x09EB8DA8
+  eu:
+    address: 0x09F5BF44
+- name: gBtlBadstatusConfuseFrames
+  record: SpriteTable
+  items: [gBtlBadstatusConfuseFrame0, gBtlBadstatusConfuseFrame1, gBtlBadstatusConfuseFrame2, gBtlBadstatusConfuseFrame3, gBtlBadstatusConfuseFrame4, gBtlBadstatusConfuseFrame5, gBtlBadstatusConfuseFrame6, gBtlBadstatusConfuseFrame7, gBtlBadstatusConfuseFrame8, gBtlBadstatusConfuseFrame9, gBtlBadstatusConfuseFrame10, gBtlBadstatusConfuseFrame11]
+  us:
+    address: 0x09EE1330
+  jp:
+    address: 0x09EB8DAC
+  eu:
+    address: 0x09F5BF48
+- name: gBtlBadstatusConfuseAnims
+  record: AnimTable
+  items: [gBtlBadstatusConfuseAnim0, gBtlBadstatusConfuseAnim1]
+  us:
+    address: 0x09EE1360
+  jp:
+    address: 0x09EB8DDC
+  eu:
+    address: 0x09F5BF78
+- name: gBtlBadstatusTerrorFrames
+  record: SpriteTable
+  items: [gBtlBadstatusTerrorFrame0, gBtlBadstatusTerrorFrame1, gBtlBadstatusTerrorFrame2, gBtlBadstatusTerrorFrame3, gBtlBadstatusTerrorFrame4]
+  us:
+    address: 0x09EE1368
+  jp:
+    address: 0x09EB8DE4
+  eu:
+    address: 0x09F5BF80
+- name: gBtlBadstatusTerrorAnims
+  record: AnimTable
+  items: [gBtlBadstatusTerrorAnim0]
+  us:
+    address: 0x09EE137C
+  jp:
+    address: 0x09EB8DF8
+  eu:
+    address: 0x09F5BF94
+- name: gBtlShadowFrames
+  record: SpriteTable
+  items: [gBtlShadowFrame0]
+  us:
+    address: 0x09EE1380
+  jp:
+    address: 0x09EB8DFC
+  eu:
+    address: 0x09F5BF98
+- name: gBtlShadowAnims
+  record: AnimTable
+  items: [gBtlShadowAnim0]
+  us:
+    address: 0x09EE1384
+  jp:
+    address: 0x09EB8E00
+  eu:
+    address: 0x09F5BF9C
+- name: gBtlShadowSmallFrames
+  record: SpriteTable
+  items: [gBtlShadowSmallFrame0, gBtlShadowSmallFrame1, gBtlShadowSmallFrame2]
+  us:
+    address: 0x09EE1388
+  jp:
+    address: 0x09EB8E04
+  eu:
+    address: 0x09F5BFA0
+- name: gBtlShadowSmallAnims
+  record: AnimTable
+  items: [gBtlShadowSmallAnim0]
+  us:
+    address: 0x09EE1394
+  jp:
+    address: 0x09EB8E10
+  eu:
+    address: 0x09F5BFAC
+- name: gBtlShadowLargeFrames
+  record: SpriteTable
+  items: [gBtlShadowLargeFrame0]
+  us:
+    address: 0x09EE1398
+  jp:
+    address: 0x09EB8E14
+  eu:
+    address: 0x09F5BFB0
+- name: gBtlShadowLargeAnims
+  record: AnimTable
+  items: [gBtlShadowLargeAnim0]
+  us:
+    address: 0x09EE139C
+  jp:
+    address: 0x09EB8E18
+  eu:
+    address: 0x09F5BFB4
+- name: gUnk_09EE13A0
+  record: SpriteTable
+  items: [gUnk_08B23040, gUnk_08B2304A, gUnk_08B2305A, gUnk_08B23064, gUnk_08B23074, gUnk_08B2307E, gUnk_08B2308E, gUnk_08B23098, gUnk_08B230A8, gUnk_08B230B2, gUnk_08B230C2, gUnk_08B230CC, gUnk_08B230DC, gUnk_08B230E6, gUnk_08B230F6, gUnk_08B23100]
+  us:
+    address: 0x09EE13A0
+  jp:
+    address: 0x09EB8E1C
+  eu:
+    address: 0x09F5BFB8
+- name: gUnk_09EE13E0
+  record: AnimTable
+  items: [gUnk_08B23110, gUnk_08B2311A, gUnk_08B23124, gUnk_08B2312E, gUnk_08B23138, gUnk_08B23142, gUnk_08B2314C, gUnk_08B23156, gUnk_08B23160, gUnk_08B2316A, gUnk_08B23174, gUnk_08B2317E, gUnk_08B23188, gUnk_08B23192, gUnk_08B2319C, gUnk_08B231A6]
+  us:
+    address: 0x09EE13E0
+  jp:
+    address: 0x09EB8E5C
+  eu:
+    address: 0x09F5BFF8
+- name: gBHpgagFrames
+  record: SpriteTable
+  items: [gBHpgagFrame0, gBHpgagFrame1, gBHpgagFrame2, gBHpgagFrame3, gBHpgagFrame4, gBHpgagFrame5, gBHpgagFrame6, gBHpgagFrame7, gBHpgagFrame8, gBHpgagFrame9, gBHpgagFrame10, gBHpgagFrame11, gBHpgagFrame12, gBHpgagFrame13, gBHpgagFrame14, gBHpgagFrame15, gBHpgagFrame16, gBHpgagFrame17, gBHpgagFrame18, gBHpgagFrame19, gBHpgagFrame20, gBHpgagFrame21, gBHpgagFrame22, gBHpgagFrame23, gBHpgagFrame24, gBHpgagFrame25, gBHpgagFrame26, gBHpgagFrame27, gBHpgagFrame28, gBHpgagFrame29]
+  us:
+    address: 0x09EE1420
+  jp:
+    address: 0x09EB8E9C
+  eu:
+    address: 0x09F5C038
+- name: gBHpgagAnims
+  record: AnimTable
+  items: [gBHpgagAnim0, gBHpgagAnim1, gBHpgagAnim2, gBHpgagAnim3, gBHpgagAnim4, gBHpgagAnim5, gBHpgagAnim6, gBHpgagAnim7, gBHpgagAnim8, gBHpgagAnim9, gBHpgagAnim10, gBHpgagAnim11, gBHpgagAnim12, gBHpgagAnim13, gBHpgagAnim14]
+  us:
+    address: 0x09EE1498
+  jp:
+    address: 0x09EB8F14
+  eu:
+    address: 0x09F5C0B0
+- name: sor1ll70
+  format: sprite_sheet
+  palette: sora
+  symbol: gSor1ll70Tiles
+  align: 4
+  cell: [88, 66]
+  anchor: [48, 53]
+  columns: 8
+  frames:
+  - symbol: gSor1ll70Frame0
+    pieces:
+    - [32x32, -14, -35]
+    - [16x8, -13, -4]
+    - [32x16, 2, -4]
+    - [8x16, -21, -27]
+    - [16x8, -6, -42]
+  - symbol: gSor1ll70Frame1
+    pieces:
+    - [32x32, -14, -29]
+    - [8x16, 17, -13, {layer: 1}]
+    - [16x8, 6, 2]
+    - [16x16, 24, -4]
+    - [16x8, -5, -36]
+    - [8x8, -21, -22]
+  - symbol: gSor1ll70Frame2
+    pieces:
+    - [32x32, -18, -50]
+    - [32x32, -16, -19]
+    - [16x16, 15, -17]
+    - [8x16, -25, -42]
+  - symbol: gSor1ll70Frame3
+    pieces:
+    - [32x32, -21, -34]
+    - [16x8, -5, -3]
+    - [32x16, -29, -49]
+    - [8x8, -28, -13]
+  - symbol: gSor1ll70Frame4
+    pieces:
+    - [32x32, -19, -44]
+    - [16x32, -3, -20]
+    - [32x16, -27, -12]
+    - [8x16, -26, -32]
+    - [16x16, -41, -40]
+  - symbol: gSor1ll70Frame5
+    pieces:
+    - [32x32, -17, -42]
+    - [32x16, -19, -11]
+    - [16x8, -11, 4]
+    - [32x16, -48, -31]
+  - symbol: gSor1ll70Frame6
+    pieces:
+    - [32x32, -18, -42]
+    - [32x16, -18, -11]
+    - [32x16, -48, -34]
+  - symbol: gSor1ll70Frame7
+    pieces:
+    - [32x32, -14, -42]
+    - [32x16, -14, -11]
+    - [8x8, -4, 4]
+    - [8x8, 16, -20]
+    - [32x16, -45, -34, {same: [6, 2]}]
+  - symbol: gSor1ll70Frame8
+    pieces:
+    - [32x32, -18, -32]
+    - [16x8, -4, -39]
+    - [8x32, 13, -40]
+    - [16x16, -33, -39, {fresh: true}]
+    - [8x8, -1, -2]
+  - symbol: gSor1ll70Frame9
+    pieces:
+    - [32x32, -19, -38]
+    - [8x8, -12, -7]
+    - [16x16, -3, -7]
+    - [8x32, 12, -38]
+    - [16x16, -19, -53]
+  - symbol: gSor1ll70Frame10
+    pieces:
+    - [32x32, -19, -40]
+    - [32x16, -19, -9]
+    - [8x8, 11, -32]
+    - [16x32, -34, -48, {layer: 1}]
+  - symbol: gSor1ll70Frame11
+    pieces:
+    - [32x32, -20, -39]
+    - [16x8, -35, -23]
+    - [16x16, -5, -8]
+  - symbol: gSor1ll70Frame12
+    pieces:
+    - [32x32, -16, -36]
+    - [32x16, -16, -4]
+  - symbol: gSor1ll70Frame13
+    pieces:
+    - [32x32, -13, -38]
+    - [32x16, -13, -7]
+    - [8x16, 18, -22]
+  animations:
+  - symbol: gSor1ll70Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 8], [2, 6]]
+  - symbol: gSor1ll70Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 5], [4, 8], [5, 6]]
+  - symbol: gSor1ll70Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gSor1ll70Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 6], [8, 5], [9, 8], [10, 8], [11, 7]]
+  - symbol: gSor1ll70Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 8], [11, 7]]
+  us:
+    address: 0x08908BFC
+    size: 13706
+  jp:
+    address: 0x088FC1E4
+    size: 13706
+  eu:
+    address: 0x08934520
+    size: 13706
+- name: sor1ll71
+  format: sprite_sheet
+  palette: sora
+  symbol: gSor1ll71Tiles
+  align: 4
+  cell: [97, 113]
+  anchor: [48, 94]
+  columns: 8
+  frames:
+  - symbol: gSor1ll71Frame0
+    pieces:
+    - [64x32, -15, -26]
+    - [16x8, 9, 5]
+  - symbol: gSor1ll71Frame1
+    pieces:
+    - [32x32, 0, -32]
+    - [16x32, -15, -32]
+    - [16x32, 8, -56]
+    - [8x8, -22, -21]
+  - symbol: gSor1ll71Frame2
+    pieces:
+    - [32x32, -11, -41]
+    - [16x16, -16, -56]
+    - [32x16, -3, -56, {layer: 1}]
+    - [8x8, 7, -10]
+    - [16x16, -11, -10]
+  - symbol: gSor1ll71Frame3
+    pieces:
+    - [32x32, -16, -42]
+    - [32x32, 0, -58, {layer: 1}]
+    - [16x16, 31, -50]
+    - [16x16, -24, -18]
+    - [8x16, -6, -66]
+  - symbol: gSor1ll71Frame4
+    pieces:
+    - [32x32, -10, -32]
+    - [32x32, -24, -63]
+    - [8x8, 7, -56]
+    - [16x32, -12, -94, {layer: 1}]
+  - symbol: gSor1ll71Frame5
+    pieces:
+    - [32x32, -2, -33]
+    - [32x32, -33, -49, {layer: 1}]
+    - [8x16, -2, -49, {layer: 2}]
+    - [8x8, -17, -19]
+    - [16x16, -48, -46]
+  - symbol: gSor1ll71Frame6
+    pieces:
+    - [32x32, -16, -33]
+    - [16x8, -12, -40]
+    - [8x16, -23, -33]
+    - [32x16, -32, -9]
+  - symbol: gSor1ll71Frame7
+    pieces:
+    - [32x32, -16, -33]
+    - [16x8, 3, -40]
+    - [8x32, 15, -33]
+    - [16x16, 8, -2]
+  - symbol: gSor1ll71Frame8
+    pieces:
+    - [32x8, -21, -40]
+    - [32x32, -21, -33]
+    - [16x32, 10, -34]
+    - [16x16, 11, -3]
+  - symbol: gSor1ll71Frame9
+    pieces:
+    - [32x32, -23, -33]
+    - [16x32, 8, -50]
+    - [16x16, 23, -49]
+    - [32x16, -23, -48]
+    - [32x8, -23, -55]
+  - symbol: gSor1ll71Frame10
+    pieces:
+    - [32x32, -16, -32, {layer: 1}]
+    - [32x16, -16, -47]
+    - [16x16, 2, -1]
+  - symbol: gSor1ll71Frame11
+    pieces:
+    - [32x32, -16, -26]
+    - [16x8, 0, 5]
+    - [8x8, -10, -33]
+    - [16x32, -31, -26]
+  - symbol: gSor1ll71Frame12
+    pieces:
+    - [32x32, -18, -20]
+    - [16x32, 13, -17]
+    - [8x8, 28, 7]
+    - [8x8, 4, 11]
+    - [8x8, 11, -27]
+  - symbol: gSor1ll71Frame13
+    pieces:
+    - [32x32, -21, -35]
+    - [32x16, -13, -4]
+  animations:
+  - symbol: gSor1ll71Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 6], [2, 8], [3, 6], [4, 5], [5, 4], [6, 5], [7, 5], [8, 5], [9, 6], [10, 6], [11, 8], [12, 10], [13, 5]]
+  us:
+    address: 0x0890C188
+    size: 14982
+  jp:
+    address: 0x088FF770
+    size: 14982
+  eu:
+    address: 0x08937AAC
+    size: 14982
+- name: sor1ll72
+  format: sprite_sheet
+  palette: sora
+  symbol: gSor1ll72Tiles
+  align: 4
+  cell: [76, 82]
+  anchor: [29, 69]
+  columns: 8
+  frames:
+  - symbol: gSor1ll72Frame0
+    pieces:
+    - [32x32, -12, -38]
+    - [32x16, -12, -7]
+    - [16x8, -27, -10, {layer: 1}]
+  - symbol: gSor1ll72Frame1
+    pieces:
+    - [32x64, -10, -62]
+    - [8x16, 21, -36]
+  - symbol: gSor1ll72Frame2
+    pieces:
+    - [32x64, -16, -62]
+    - [16x8, -8, -69]
+  - symbol: gSor1ll72Frame3
+    pieces:
+    - [32x64, -14, -62]
+    - [16x16, -29, -62]
+  - symbol: gSor1ll72Frame4
+    pieces:
+    - [32x32, -17, -47]
+    - [32x16, -19, -62]
+  - symbol: gSor1ll72Frame5
+    pieces:
+    - [32x32, -14, -39]
+    - [32x16, -14, -8]
+    - [8x16, -21, -39, {layer: 1}]
+    - [16x8, -6, -46]
+  - symbol: gSor1ll72Frame6
+    pieces:
+    - [32x32, -14, -27]
+    - [16x8, 2, 4]
+    - [16x32, 17, -19, {layer: 1}]
+    - [8x8, 32, 5]
+  - symbol: gSor1ll72Frame7
+    pieces:
+    - [32x32, -16, -33]
+    - [16x8, -16, -2]
+    - [16x16, 8, -9]
+    - [32x16, 15, -25]
+  animations:
+  - symbol: gSor1ll72Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 7], [2, 20], [3, 10], [4, 10], [5, 6], [6, 7], [7, 10]]
+  us:
+    address: 0x0890FC10
+    size: 7856
+  jp:
+    address: 0x089031F8
+    size: 7856
+  eu:
+    address: 0x0893B534
+    size: 7856
+- name: sor1ll73
+  format: sprite_sheet
+  palette: sora
+  symbol: gSor1ll73Tiles
+  align: 4
+  cell: [86, 90]
+  anchor: [41, 73]
+  columns: 8
+  frames:
+  - symbol: gSor1ll73Frame0
+    pieces:
+    - [32x32, -12, -38]
+    - [32x16, -13, -7]
+    - [8x8, 1, -45]
+    - [16x16, 19, -22]
+  - symbol: gSor1ll73Frame1
+    pieces:
+    - [32x32, -13, -51]
+    - [32x16, -13, -20]
+    - [16x8, -5, -5]
+    - [8x8, 18, -23]
+  - symbol: gSor1ll73Frame2
+    pieces:
+    - [32x64, -12, -64, {layer: 1}]
+    - [8x16, 18, -36]
+  - symbol: gSor1ll73Frame3
+    pieces:
+    - [32x64, -18, -59]
+    - [8x16, -25, -50]
+    - [32x16, 13, -57]
+  - symbol: gSor1ll73Frame4
+    pieces:
+    - [32x64, -16, -58]
+    - [16x16, -3, -73]
+    - [16x16, -24, -42]
+  - symbol: gSor1ll73Frame5
+    pieces:
+    - [32x32, -17, -39]
+    - [16x8, -12, -8]
+    - [32x32, -41, -47]
+    - [16x8, -9, -46]
+  - symbol: gSor1ll73Frame6
+    pieces:
+    - [32x32, -23, -30]
+    - [16x16, -38, -14]
+    - [8x16, 8, -18]
+    - [16x16, -12, 1]
+  - symbol: gSor1ll73Frame7
+    pieces:
+    - [32x32, -25, -45]
+    - [32x32, -17, -21]
+    - [16x16, -40, -45]
+  - symbol: gSor1ll73Frame8
+    pieces:
+    - [32x32, -20, -44]
+    - [32x16, -18, -13, {layer: 1}]
+    - [16x8, -3, 2]
+    - [8x16, -27, -47, {layer: 1}]
+  animations:
+  - symbol: gSor1ll73Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 6], [2, 7], [3, 6], [4, 4], [5, 4], [6, 12], [7, 6], [8, 5]]
+  us:
+    address: 0x08911AC0
+    size: 9800
+  jp:
+    address: 0x089050A8
+    size: 9800
+  eu:
+    address: 0x0893D3E4
+    size: 9800
+- name: sor1ll74
+  format: sprite_sheet
+  palette: sora
+  symbol: gSor1ll74Tiles
+  align: 4
+  cell: [83, 76]
+  anchor: [45, 64]
+  columns: 8
+  frames:
+  - symbol: gSor1ll74Frame0
+    pieces:
+    - [32x16, -7, -43]
+    - [32x32, -7, -28]
+    - [8x16, 24, -16]
+  - symbol: gSor1ll74Frame1
+    pieces:
+    - [32x32, -1, -46]
+    - [32x32, -17, -46]
+    - [8x32, -4, -22, {layer: 1}]
+    - [16x8, 15, -15]
+  - symbol: gSor1ll74Frame2
+    pieces:
+    - [32x32, -19, -48]
+    - [32x32, 5, -48]
+    - [8x32, -3, -24]
+  - symbol: gSor1ll74Frame3
+    pieces:
+    - [32x32, -10, -52]
+    - [8x16, -17, -52, {layer: 1}]
+    - [8x16, 21, -36]
+    - [16x32, -10, -21]
+  - symbol: gSor1ll74Frame4
+    pieces:
+    - [32x32, -8, -28]
+    - [32x16, -8, -36]
+    - [8x8, 23, -28, {layer: 1}]
+    - [16x32, -23, -27]
+  - symbol: gSor1ll74Frame5
+    pieces:
+    - [32x32, -18, -38]
+    - [32x16, -18, -7]
+    - [32x16, 6, -30]
+  - symbol: gSor1ll74Frame6
+    pieces:
+    - [32x32, -14, -37]
+    - [16x16, 1, -7, {layer: 1}]
+    - [16x16, -22, -13]
+    - [32x16, -38, -29]
+  - symbol: gSor1ll74Frame7
+    pieces:
+    - [32x16, -36, -10]
+    - [32x32, -12, -26]
+    - [16x8, 19, -18]
+    - [32x16, -12, -34]
+    - [8x8, 3, -41]
+  - symbol: gSor1ll74Frame8
+    pieces:
+    - [32x32, -14, -35]
+    - [16x16, -14, -4]
+    - [8x8, 1, -4]
+    - [32x16, -45, -26]
+  - symbol: gSor1ll74Frame9
+    pieces:
+    - [32x32, -19, -56]
+    - [16x32, -3, -32]
+    - [8x8, -10, -25]
+    - [16x32, -27, -64]
+  - symbol: gSor1ll74Frame10
+    pieces:
+    - [32x32, -15, -36]
+    - [32x32, -15, -52]
+    - [16x16, -15, -60]
+  - symbol: gSor1ll74Frame11
+    pieces:
+    - [32x32, -18, -35]
+    - [32x16, -18, -11]
+    - [8x8, 6, 4]
+    - [8x8, -25, -17]
+  animations:
+  - symbol: gSor1ll74Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 8], [2, 10], [3, 8], [4, 6], [5, 6], [6, 6]]
+  - symbol: gSor1ll74Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gSor1ll74Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 6], [9, 10], [10, 8], [11, 7]]
+  us:
+    address: 0x08914108
+    size: 12672
+  jp:
+    address: 0x089076F0
+    size: 12672
+  eu:
+    address: 0x0893FA2C
+    size: 12672
+- name: sor1ll75
+  format: sprite_sheet
+  palette: sora
+  symbol: gSor1ll75Tiles
+  align: 4
+  cell: [72, 81]
+  anchor: [30, 65]
+  columns: 8
+  frames:
+  - symbol: gSor1ll75Frame0
+    pieces:
+    - [32x32, -10, -28]
+    - [8x16, -17, -12, {layer: 1}]
+    - [16x8, -2, -35, {layer: 1}]
+    - [16x16, 19, -30]
+  - symbol: gSor1ll75Frame1
+    pieces:
+    - [32x32, -14, -27]
+    - [8x8, -21, -6]
+    - [16x16, 6, -42]
+    - [8x32, 15, -65, {layer: 1}]
+  - symbol: gSor1ll75Frame2
+    pieces:
+    - [32x32, -15, -27]
+    - [32x16, 1, -35]
+    - [8x8, 25, -20]
+    - [16x16, 9, -50]
+    - [8x8, -22, -6]
+  - symbol: gSor1ll75Frame3
+    pieces:
+    - [32x32, -13, -27]
+    - [8x16, -20, -11]
+    - [32x32, -5, -51]
+    - [16x8, 26, -30]
+  - symbol: gSor1ll75Frame4
+    pieces:
+    - [64x32, -25, -31]
+    - [8x8, -14, 0, {layer: 1}]
+    - [16x8, 7, 0]
+  - symbol: gSor1ll75Frame5
+    pieces:
+    - [32x32, -30, -44]
+    - [32x32, -6, -28]
+    - [8x16, 25, -18]
+    - [16x16, 1, -43]
+  - symbol: gSor1ll75Frame6
+    pieces:
+    - [32x32, -12, -37]
+    - [16x16, 12, -13]
+    - [16x16, -20, -13]
+    - [16x16, -3, -52]
+    - [16x16, -27, -45]
+  - symbol: gSor1ll75Frame7
+    pieces:
+    - [32x32, -16, -34]
+    - [16x16, -24, -10]
+    - [16x16, 8, -10]
+    - [16x16, 15, -33]
+  - symbol: gSor1ll75Frame8
+    pieces:
+    - [32x32, -13, -53]
+    - [32x32, -13, -29]
+    - [8x8, -20, -8]
+  - symbol: gSor1ll75Frame9
+    pieces:
+    - [32x32, -21, -50]
+    - [32x32, -13, -26]
+    - [16x16, -29, -65]
+  - symbol: gSor1ll75Frame10
+    pieces:
+    - [32x32, -16, -40]
+    - [16x32, 16, -40]
+    - [32x16, -16, -8]
+    - [16x16, 16, -8]
+    - [32x8, -16, 8]
+    - [16x8, 16, 8]
+  animations:
+  - symbol: gSor1ll75Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 8], [2, 7], [3, 9], [4, 7]]
+  - symbol: gSor1ll75Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gSor1ll75Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 8], [7, 10], [8, 8], [9, 6]]
+  us:
+    address: 0x08917288
+    size: 11860
+  jp:
+    address: 0x0890A870
+    size: 11860
+  eu:
+    address: 0x08942BAC
+    size: 11860
+- name: gBtlRikuStartTiles
+  format: sprite_sheet
+  align: 4
+  cell: [66, 66]
+  anchor: [46, 58]
+  columns: 6
+  frames:
+  - symbol: gBtlRikuStartFrame0
+    pieces:
+    - [32x64, -21, -56]
+    - [16x16, -29, -8]
+  - symbol: gBtlRikuStartFrame1
+    pieces:
+    - [32x64, -21, -56]
+    - [32x16, -45, -24]
+  - symbol: gBtlRikuStartFrame2
+    pieces:
+    - [32x64, -22, -57]
+    - [32x16, -46, -41]
+  - symbol: gBtlRikuStartFrame3
+    pieces:
+    - [32x64, -20, -56]
+    - [16x16, -35, -48]
+  - symbol: gBtlRikuStartFrame4
+    pieces:
+    - [32x64, -18, -58]
+    - [8x8, 12, -2]
+    - [8x8, 12, -42]
+    - [8x8, -24, -54]
+  - symbol: gBtlRikuStartFrame5
+    pieces:
+    - [32x64, -18, -56]
+    - [16x16, -26, -40]
+    - [8x16, 12, -48]
+  animations:
+  - symbol: gBtlRikuStartAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 5], [2, 5], [3, 5], [4, 5], [5, 5]]
+  us:
+    address: 0x08925AB4
+    size: 7344
+  jp:
+    address: 0x0891909C
+    size: 7344
+  eu:
+    address: 0x089513D8
+    size: 7344
+- name: gBtlPopOverWriteTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 16]
+  anchor: [24, 8]
+  columns: 1
+  frames:
+  - symbol: gBtlPopOverWriteFrame0
+    pieces:
+    - [32x16, -24, -8]
+    - [16x16, 8, -8]
+  animations:
+  - symbol: gBtlPopOverWriteAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B1F120
+    size: 410
+  jp:
+    address: 0x08B12708
+    size: 410
+- name: gBtlPopTimeBreakTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 16]
+  anchor: [24, 8]
+  columns: 1
+  frames:
+  - symbol: gBtlPopTimeBreakFrame0
+    pieces:
+    - [32x16, -24, -8]
+    - [16x16, 8, -8]
+  animations:
+  - symbol: gBtlPopTimeBreakAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B1F2BC
+    size: 410
+  jp:
+    address: 0x08B128A4
+    size: 410
+- name: gBtlPopCardBreakTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 16]
+  anchor: [24, 8]
+  columns: 1
+  frames:
+  - symbol: gBtlPopCardBreakFrame0
+    pieces:
+    - [32x16, -24, -8]
+    - [16x16, 8, -8]
+  animations:
+  - symbol: gBtlPopCardBreakAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B1F458
+    size: 410
+  jp:
+    address: 0x08B12A40
+    size: 410
+  eu:
+    address: 0x08B4A894
+    size: 410
+- name: gBtlPopRecoverTiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 16]
+  anchor: [20, 8]
+  columns: 1
+  frames:
+  - symbol: gBtlPopRecoverFrame0
+    pieces:
+    - [32x16, -20, -8]
+    - [8x16, 12, -8]
+  animations:
+  - symbol: gBtlPopRecoverAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B1F5F4
+    size: 346
+  jp:
+    address: 0x08B12BDC
+    size: 346
+  eu:
+    address: 0x08B4AA30
+    size: 346
+- name: emy_83_11b
+  format: sprite_sheet
+  palette: emy_83
+  symbol: gEmy8311bTiles
+  align: 4
+  cell: [8, 9]
+  anchor: [3, 4]
+  columns: 2
+  frames:
+  - symbol: gEmy8311bFrame0
+    pieces:
+    - [8x8, -3, -3]
+  - symbol: gEmy8311bFrame1
+    pieces:
+    - [8x8, -3, -4]
+  animations:
+  - symbol: gEmy8311bAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B1D828
+    size: 94
+  jp:
+    address: 0x08B10E10
+    size: 94
+  eu:
+    address: 0x08B4914C
+    size: 94
+- name: gBtlLockonTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 3
+  frames:
+  - symbol: gBtlLockonFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlLockonFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlLockonFrame2
+    pieces:
+    - [16x16, -8, -8]
+  animations:
+  - symbol: gBtlLockonAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 10], [2, 10], [1, 10], [0, 10]]
+  us:
+    address: 0x08B1D888
+    size: 436
+  jp:
+    address: 0x08B10E70
+    size: 436
+  eu:
+    address: 0x08B491AC
+    size: 436
+- name: gUnk_08B1DA70
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 3
+  frames:
+  - symbol: gUnk_08B1DA3C
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gUnk_08B1DA46
+    pieces:
+    - [16x16, -8, -8, {fresh: true}]
+  - symbol: gUnk_08B1DA50
+    pieces:
+    - [16x16, -8, -8, {fresh: true}]
+  animations:
+  - symbol: gUnk_08B1DA5A
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 10], [2, 10], [1, 10], [0, 10]]
+  us:
+    address: 0x08B1DA3C
+    size: 436
+  jp:
+    address: 0x08B11024
+    size: 436
+  eu:
+    address: 0x08B49360
+    size: 436
+- name: gUnk_08B1DC1E
+  format: sprite_sheet
+  align: 4
+  cell: [64, 12]
+  anchor: [0, 4]
+  columns: 2
+  frames:
+  - symbol: gUnk_08B1DBF0
+    pieces:
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+  - symbol: gUnk_08B1DC00
+    pieces:
+    - [32x8, 0, -4]
+  animations:
+  - symbol: gUnk_08B1DC0A
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gUnk_08B1DC14
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  us:
+    address: 0x08B1DBF0
+    size: 430
+  jp:
+    address: 0x08B111D8
+    size: 430
+  eu:
+    address: 0x08B49514
+    size: 430
+- name: gUnk_08B1DEA0
+  format: sprite_sheet
+  align: 4
+  cell: [72, 28]
+  anchor: [0, 4]
+  columns: 8
+  frames:
+  - symbol: gUnk_08B1DDA0
+    pieces:
+    - [32x8, 0, -4]
+  - symbol: gUnk_08B1DDAA
+    pieces:
+    - [32x8, 0, -4]
+  - symbol: gUnk_08B1DDB4
+    pieces:
+    - [32x8, 0, -4]
+  - symbol: gUnk_08B1DDBE
+    pieces:
+    - [32x16, 0, 0]
+    - [32x8, 0, 16]
+    - [32x8, 32, 0]
+    - [8x8, 64, 0]
+  - symbol: gUnk_08B1DDDA
+    pieces:
+    - [16x8, 24, 8]
+    - [32x8, 40, 8]
+  - symbol: gUnk_08B1DDEA
+    pieces:
+    - [32x8, 32, 0]
+    - [8x8, 64, 0]
+    - [32x8, 0, 0]
+    - [32x16, 0, 8]
+  - symbol: gUnk_08B1DE06
+    pieces:
+    - [16x8, 24, 8]
+    - [32x8, 40, 8]
+  - symbol: gUnk_08B1DE16
+    pieces:
+    - [32x8, 32, 0]
+    - [8x8, 64, 0]
+    - [32x8, 0, 0]
+    - [32x16, 0, 8]
+  - symbol: gUnk_08B1DE32
+    pieces:
+    - [16x8, 24, 8]
+    - [32x8, 40, 8]
+  animations:
+  - symbol: gUnk_08B1DE42
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gUnk_08B1DE4C
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gUnk_08B1DE56
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 16], [7, 12], [3, 10], [7, 12]]
+  - symbol: gUnk_08B1DE6C
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 16], [8, 12], [4, 10], [8, 12]]
+  - symbol: gUnk_08B1DE82
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gUnk_08B1DE8C
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gUnk_08B1DE96
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  us:
+    address: 0x08B1DDA0
+    size: 2592
+  jp:
+    address: 0x08B11388
+    size: 2592
+  eu:
+    address: 0x08B496C4
+    size: 2592
+- name: gBtlPauseTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 16]
+  anchor: [24, 8]
+  columns: 2
+  frames:
+  - symbol: gBtlPauseFrame0
+    pieces:
+    - [32x8, -24, -8]
+    - [16x8, 8, -8]
+  - symbol: gBtlPauseFrame1
+    pieces:
+    - [32x8, -24, 0]
+    - [16x8, 8, 0]
+  animations:
+  - symbol: gBtlPauseAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBtlPauseAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  us:
+    address: 0x08B1E7C0
+    size: 436
+  jp:
+    address: 0x08B11DA8
+    size: 436
+  eu:
+    address: 0x08B4A0E4
+    size: 436
+- name: gBtlAreaTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 16]
+  columns: 7
+  frames:
+  - symbol: gBtlAreaFrame0
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gBtlAreaFrame1
+    pieces:
+    - [8x8, -8, 0, {hflip: true}]
+  - symbol: gBtlAreaFrame2
+    pieces:
+    - [8x8, -8, -8, {hflip: true}]
+  - symbol: gBtlAreaFrame3
+    pieces:
+    - [8x8, 0, -8]
+  - symbol: gBtlAreaFrame4
+    pieces:
+    - [8x16, -4, 0]
+  - symbol: gBtlAreaFrame5
+    pieces:
+    - [8x8, -4, -4]
+  - symbol: gBtlAreaFrame6
+    pieces:
+    - [8x16, -4, -16]
+  animations:
+  - symbol: gBtlAreaAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBtlAreaAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gBtlAreaAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gBtlAreaAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gBtlAreaAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gBtlAreaAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gBtlAreaAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  us:
+    address: 0x08B1E974
+    size: 364
+  jp:
+    address: 0x08B11F5C
+    size: 364
+  eu:
+    address: 0x08B4A298
+    size: 364
+- name: gBtlEscapeTiles
+  format: sprite_sheet
+  align: 4
+  cell: [35, 19]
+  anchor: [7, 12]
+  columns: 3
+  frames:
+  - symbol: gBtlEscapeFrame0
+    pieces:
+    - [32x16, -4, -12]
+  - symbol: gBtlEscapeFrame1
+    pieces:
+    - [16x8, 0, -1]
+  - symbol: gBtlEscapeFrame2
+    pieces:
+    - [32x16, -7, -12]
+  animations:
+  - symbol: gBtlEscapeAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gBtlEscapeAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gBtlEscapeAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  us:
+    address: 0x08B1EAE0
+    size: 636
+  jp:
+    address: 0x08B120C8
+    size: 636
+  eu:
+    address: 0x08B4A404
+    size: 616
+    animations:
+    - symbol: gBtlEscapeAnim0
+      fields: {originX: 64, originY: 64}
+      frames: [[0, 4]]
+- name: gBtlPopCounterTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 16]
+  anchor: [24, 8]
+  columns: 1
+  frames:
+  - symbol: gBtlPopCounterFrame0
+    pieces:
+    - [32x16, -24, -8]
+    - [16x16, 8, -8]
+  animations:
+  - symbol: gBtlPopCounterAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B1ED5C
+    size: 410
+  jp:
+    address: 0x08B12344
+    size: 410
+- name: gBtlPopMissTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [16, 8]
+  columns: 1
+  frames:
+  - symbol: gBtlPopMissFrame0
+    pieces:
+    - [32x16, -16, -8]
+  animations:
+  - symbol: gBtlPopMissAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B1EEF8
+    size: 276
+  jp:
+    address: 0x08B124E0
+    size: 276
+  eu:
+    address: 0x08B4A66C
+    size: 276
+- name: gBtlPopGuardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [16, 8]
+  columns: 1
+  frames:
+  - symbol: gBtlPopGuardFrame0
+    pieces:
+    - [32x16, -16, -8]
+  animations:
+  - symbol: gBtlPopGuardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B1F00C
+    size: 276
+  jp:
+    address: 0x08B125F4
+    size: 276
+  eu:
+    address: 0x08B4A780
+    size: 276
+- name: gBtlPopPercentTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 16]
+  anchor: [24, 8]
+  columns: 4
+  frames:
+  - symbol: gBtlPopPercentFrame0
+    pieces:
+    - [32x16, -16, -8]
+  - symbol: gBtlPopPercentFrame1
+    pieces:
+    - [32x16, -24, -8]
+    - [16x16, 8, -8]
+  - symbol: gBtlPopPercentFrame2
+    pieces:
+    - [32x16, -16, -8]
+  - symbol: gBtlPopPercentFrame3
+    pieces:
+    - [32x16, -24, -8]
+    - [16x16, 8, -8, {fresh: true}]
+  animations:
+  - symbol: gBtlPopPercentAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBtlPopPercentAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gBtlPopPercentAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gBtlPopPercentAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  us:
+    address: 0x08B1F750
+    size: 1372
+  jp:
+    address: 0x08B12D38
+    size: 1372
+- name: gBtlPopCbTiles
+  format: sprite_sheet
+  align: 4
+  cell: [64, 16]
+  anchor: [28, 8]
+  columns: 8
+  frames:
+  - symbol: gBtlPopCbFrame0
+    pieces:
+    - [32x16, -24, -8]
+    - [16x16, 8, -8]
+  - symbol: gBtlPopCbFrame1
+    pieces:
+    - [32x16, -28, -8]
+    - [32x16, 4, -8]
+  - symbol: gBtlPopCbFrame2
+    pieces:
+    - [32x16, -28, -8]
+    - [32x16, 4, -8]
+  - symbol: gBtlPopCbFrame3
+    pieces:
+    - [32x16, -28, -8]
+    - [32x16, 4, -8]
+  - symbol: gBtlPopCbFrame4
+    pieces:
+    - [32x16, -28, -8]
+    - [32x16, 4, -8]
+  - symbol: gBtlPopCbFrame5
+    pieces:
+    - [32x16, -28, -8]
+    - [32x16, 4, -8]
+  - symbol: gBtlPopCbFrame6
+    pieces:
+    - [32x16, -28, -8]
+    - [32x16, 4, -8]
+  - symbol: gBtlPopCbFrame7
+    pieces:
+    - [32x16, 4, -8]
+    - [32x16, -28, -8]
+  - symbol: gBtlPopCbFrame8
+    pieces:
+    - [32x16, -28, -8]
+    - [32x16, 4, -8]
+  - symbol: gBtlPopCbFrame9
+    pieces:
+    - [32x16, -28, -8]
+    - [32x16, 4, -8]
+  - symbol: gBtlPopCbFrame10
+    pieces:
+    - [32x16, -28, -8]
+    - [32x16, 4, -8]
+  animations:
+  - symbol: gBtlPopCbAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B1FCAC
+    size: 3130
+  jp:
+    address: 0x08B13294
+    size: 3130
+  eu:
+    address: 0x08B4AB8C
+    size: 3130
+- name: b_puraizu
+  format: sprite_sheet
+  palette: b_states
+  symbol: gBPuraizuTiles
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 8
+  frames:
+  - symbol: gBPuraizuFrame0
+    pieces:
+    - [8x8, -4, -6]
+  - symbol: gBPuraizuFrame1
+    pieces:
+    - [8x8, -4, -4]
+  - symbol: gBPuraizuFrame2
+    pieces:
+    - [8x8, -4, -4]
+  - symbol: gBPuraizuFrame3
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBPuraizuFrame4
+    pieces:
+    - [8x8, -4, -4]
+  - symbol: gBPuraizuFrame5
+    pieces:
+    - [8x8, -4, -4]
+  - symbol: gBPuraizuFrame6
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBPuraizuFrame7
+    pieces:
+    - [8x8, -4, -4]
+  - symbol: gBPuraizuFrame8
+    pieces:
+    - [8x16, -4, -8]
+  - symbol: gBPuraizuFrame9
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBPuraizuFrame10
+    pieces:
+    - [8x16, -4, -8]
+  - symbol: gBPuraizuFrame11
+    pieces:
+    - [8x16, -4, -8]
+  - symbol: gBPuraizuFrame12
+    pieces:
+    - [8x16, -4, -8]
+  animations:
+  - symbol: gBPuraizuAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBPuraizuAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gBPuraizuAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gBPuraizuAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gBPuraizuAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gBPuraizuAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gBPuraizuAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gBPuraizuAnim7
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gBPuraizuAnim8
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gBPuraizuAnim9
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gBPuraizuAnim10
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 50], [11, 6], [12, 4]]
+  us:
+    address: 0x08B208E8
+    size: 1080
+  jp:
+    address: 0x08B13ED0
+    size: 1080
+  eu:
+    address: 0x08B4B7C8
+    size: 1080
+- name: gBtlHpSoraFaceTiles
+  format: sprite_sheet
+  align: 4
+  cell: [39, 32]
+  anchor: [10, 9]
+  columns: 3
+  frames:
+  - symbol: gBtlHpSoraFaceFrame0
+    pieces:
+    - [32x32, -3, -9]
+    - [8x16, -10, -1]
+  - symbol: gBtlHpSoraFaceFrame1
+    pieces:
+    - [32x32, -3, -9]
+    - [8x8, -10, 4]
+  - symbol: gBtlHpSoraFaceFrame2
+    pieces:
+    - [32x32, -3, -9]
+    - [8x8, -10, 5]
+  animations:
+  - symbol: gBtlHpSoraFaceAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBtlHpSoraFaceAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gBtlHpSoraFaceAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  us:
+    address: 0x08B20D20
+    size: 1742
+  jp:
+    address: 0x08B14308
+    size: 1742
+  eu:
+    address: 0x08B4BC00
+    size: 1742
+- name: gBtlHpRikuFaceTiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 34]
+  anchor: [12, 9]
+  columns: 3
+  frames:
+  - symbol: gBtlHpRikuFaceFrame0
+    pieces:
+    - [32x32, -4, -9]
+    - [8x16, -12, 3]
+  - symbol: gBtlHpRikuFaceFrame1
+    pieces:
+    - [32x32, -4, -9]
+    - [8x8, -12, 8]
+  - symbol: gBtlHpRikuFaceFrame2
+    pieces:
+    - [32x32, -4, -7]
+  animations:
+  - symbol: gBtlHpRikuFaceAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBtlHpRikuFaceAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gBtlHpRikuFaceAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  us:
+    address: 0x08B213F0
+    size: 1704
+  jp:
+    address: 0x08B149D8
+    size: 1704
+  eu:
+    address: 0x08B4C2D0
+    size: 1704
+- name: gBtlBadstatusStunTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 4
+  frames:
+  - symbol: gBtlBadstatusStunFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStunFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStunFrame2
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStunFrame3
+    pieces: []
+  animations:
+  - symbol: gBtlBadstatusStunAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 16]]
+  us:
+    address: 0x08B21A98
+    size: 438
+  jp:
+    address: 0x08B15080
+    size: 438
+  eu:
+    address: 0x08B4C978
+    size: 438
+- name: gBtlBadstatusStopTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 8
+  frames:
+  - symbol: gBtlBadstatusStopFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStopFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStopFrame2
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStopFrame3
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStopFrame4
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStopFrame5
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStopFrame6
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStopFrame7
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusStopFrame8
+    pieces: []
+  animations:
+  - symbol: gBtlBadstatusStopAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6]]
+  - symbol: gBtlBadstatusStopAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 3], [1, 3], [2, 3], [3, 3], [4, 3], [5, 3], [6, 3], [7, 3]]
+  - symbol: gBtlBadstatusStopAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 2], [8, 2]]
+  us:
+    address: 0x08B21C50
+    size: 1196
+  jp:
+    address: 0x08B15238
+    size: 1196
+  eu:
+    address: 0x08B4CB30
+    size: 1196
+- name: gBtlBadstatusBindTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 5
+  frames:
+  - symbol: gBtlBadstatusBindFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusBindFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusBindFrame2
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusBindFrame3
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusBindFrame4
+    pieces: []
+  animations:
+  - symbol: gBtlBadstatusBindAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 2], [1, 2], [2, 2], [3, 2]]
+  us:
+    address: 0x08B220FC
+    size: 576
+  jp:
+    address: 0x08B156E4
+    size: 576
+  eu:
+    address: 0x08B4CFDC
+    size: 576
+- name: gBtlBadstatusConfuseTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 8
+  frames:
+  - symbol: gBtlBadstatusConfuseFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame2
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame3
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame4
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame5
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame6
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame7
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame8
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame9
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame10
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusConfuseFrame11
+    pieces: []
+  animations:
+  - symbol: gBtlBadstatusConfuseAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 5], [3, 5]]
+  - symbol: gBtlBadstatusConfuseAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 5], [4, 5], [5, 5], [6, 5], [7, 5], [8, 5], [9, 5], [10, 5]]
+  us:
+    address: 0x08B2233C
+    size: 1580
+  jp:
+    address: 0x08B15924
+    size: 1580
+  eu:
+    address: 0x08B4D21C
+    size: 1580
+- name: gBtlBadstatusTerrorTiles
+  format: sprite_sheet
+  align: 4
+  cell: [17, 17]
+  anchor: [8, 9]
+  columns: 5
+  frames:
+  - symbol: gBtlBadstatusTerrorFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlBadstatusTerrorFrame1
+    pieces:
+    - [16x16, -8, -9]
+  - symbol: gBtlBadstatusTerrorFrame2
+    pieces:
+    - [16x16, -7, -9]
+  - symbol: gBtlBadstatusTerrorFrame3
+    pieces:
+    - [16x16, -7, -8]
+  - symbol: gBtlBadstatusTerrorFrame4
+    pieces: []
+  animations:
+  - symbol: gBtlBadstatusTerrorAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8]]
+  us:
+    address: 0x08B22968
+    size: 576
+  jp:
+    address: 0x08B15F50
+    size: 576
+  eu:
+    address: 0x08B4D848
+    size: 576
+- name: gBtlShadowTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [16, 8]
+  columns: 1
+  frames:
+  - symbol: gBtlShadowFrame0
+    pieces:
+    - [32x16, -16, -8]
+  animations:
+  - symbol: gBtlShadowAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B22BA8
+    size: 276
+  jp:
+    address: 0x08B16190
+    size: 276
+  eu:
+    address: 0x08B4DA88
+    size: 276
+- name: gBtlShadowSmallTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [16, 8]
+  columns: 3
+  frames:
+  - symbol: gBtlShadowSmallFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlShadowSmallFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gBtlShadowSmallFrame2
+    pieces:
+    - [32x16, -16, -8]
+  animations:
+  - symbol: gBtlShadowSmallAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B22CBC
+    size: 552
+  jp:
+    address: 0x08B162A4
+    size: 552
+  eu:
+    address: 0x08B4DB9C
+    size: 552
+- name: gBtlShadowLargeTiles
+  format: sprite_sheet
+  align: 4
+  cell: [39, 16]
+  anchor: [19, 8]
+  columns: 1
+  frames:
+  - symbol: gBtlShadowLargeFrame0
+    pieces:
+    - [32x16, -19, -8]
+    - [8x16, 12, -8, {layer: 1}]
+  animations:
+  - symbol: gBtlShadowLargeAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08B22EE4
+    size: 346
+  jp:
+    address: 0x08B164CC
+    size: 346
+  eu:
+    address: 0x08B4DDC4
+    size: 346
+- name: gUnk_08B231B0
+  format: sprite_sheet
+  align: 4
+  cell: [32, 32]
+  anchor: [11, 20]
+  columns: 8
+  frames:
+  - symbol: gUnk_08B23040
+    pieces:
+    - [16x32, -5, -20]
+  - symbol: gUnk_08B2304A
+    pieces:
+    - [8x8, -5, -18]
+    - [8x16, -5, -12]
+  - symbol: gUnk_08B2305A
+    pieces:
+    - [32x16, -11, -11]
+  - symbol: gUnk_08B23064
+    pieces:
+    - [16x8, -3, -3]
+    - [8x8, 11, -3]
+  - symbol: gUnk_08B23074
+    pieces:
+    - [16x32, -5, -20]
+  - symbol: gUnk_08B2307E
+    pieces:
+    - [8x8, -5, -18]
+    - [8x16, -5, -12]
+  - symbol: gUnk_08B2308E
+    pieces:
+    - [32x16, -11, -11]
+  - symbol: gUnk_08B23098
+    pieces:
+    - [16x8, -3, -3]
+    - [8x8, 11, -3]
+  - symbol: gUnk_08B230A8
+    pieces:
+    - [16x32, -5, -20]
+  - symbol: gUnk_08B230B2
+    pieces:
+    - [8x8, -5, -18]
+    - [8x16, -5, -12]
+  - symbol: gUnk_08B230C2
+    pieces:
+    - [32x16, -11, -11]
+  - symbol: gUnk_08B230CC
+    pieces:
+    - [16x8, -3, -3]
+    - [8x8, 11, -3]
+  - symbol: gUnk_08B230DC
+    pieces:
+    - [16x32, -5, -20]
+  - symbol: gUnk_08B230E6
+    pieces:
+    - [8x16, -5, -12]
+    - [8x8, -5, -18]
+  - symbol: gUnk_08B230F6
+    pieces:
+    - [32x16, -11, -11]
+  - symbol: gUnk_08B23100
+    pieces:
+    - [8x8, 11, -3]
+    - [16x8, -3, -3]
+  animations:
+  - symbol: gUnk_08B23110
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gUnk_08B2311A
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gUnk_08B23124
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gUnk_08B2312E
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gUnk_08B23138
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gUnk_08B23142
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gUnk_08B2314C
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gUnk_08B23156
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gUnk_08B23160
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gUnk_08B2316A
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gUnk_08B23174
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gUnk_08B2317E
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gUnk_08B23188
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gUnk_08B23192
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gUnk_08B2319C
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gUnk_08B231A6
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  us:
+    address: 0x08B23040
+    size: 3184
+  jp:
+    address: 0x08B16628
+    size: 3184
+  eu:
+    address: 0x08B4DF20
+    size: 3184
+- name: b_hpgag
+  format: sprite_sheet
+  palette: b_states
+  symbol: gBHpgagTiles
+  align: 4
+  cell: [124, 28]
+  anchor: [32, 4]
+  columns: 8
+  frames:
+  - symbol: gBHpgagFrame0
+    pieces:
+    - [32x8, 0, -4]
+  - symbol: gBHpgagFrame1
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [16x8, 32, 0]
+  - symbol: gBHpgagFrame2
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [16x8, 32, 0]
+  - symbol: gBHpgagFrame3
+    pieces:
+    - [32x8, 0, 0]
+    - [32x16, 0, 8]
+    - [16x8, 32, 0]
+  - symbol: gBHpgagFrame4
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 28, 0, {layer: 1}]
+  - symbol: gBHpgagFrame5
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 28, 0, {layer: 1}]
+  - symbol: gBHpgagFrame6
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 28, 0, {layer: 1}]
+  - symbol: gBHpgagFrame7
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+  - symbol: gBHpgagFrame8
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+  - symbol: gBHpgagFrame9
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+  - symbol: gBHpgagFrame10
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [8x8, 64, 0]
+  - symbol: gBHpgagFrame11
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [8x8, 64, 0]
+  - symbol: gBHpgagFrame12
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 32, 0]
+    - [8x8, 64, 0]
+    - [32x8, 0, 0]
+  - symbol: gBHpgagFrame13
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [16x8, 32, 0]
+    - [32x8, 48, 0]
+  - symbol: gBHpgagFrame14
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [16x8, 32, 0]
+    - [32x8, 48, 0]
+  - symbol: gBHpgagFrame15
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 48, 0]
+    - [16x8, 32, 0]
+  - symbol: gBHpgagFrame16
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 60, 0, {same: [4, 2]}]
+  - symbol: gBHpgagFrame17
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 60, 0, {same: [5, 2]}]
+  - symbol: gBHpgagFrame18
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 60, 0, {same: [6, 2]}]
+  - symbol: gBHpgagFrame19
+    pieces:
+    - [8x8, 24, 3]
+    - [8x8, 32, 3]
+  - symbol: gBHpgagFrame20
+    pieces:
+    - [8x8, 24, 3]
+    - [16x8, 32, 3]
+  - symbol: gBHpgagFrame21
+    pieces:
+    - [8x8, 24, 3]
+    - [32x8, 28, 3, {same: [4, 2]}]
+  - symbol: gBHpgagFrame22
+    pieces:
+    - [8x8, 24, 3]
+    - [32x8, 32, 3]
+  - symbol: gBHpgagFrame23
+    pieces:
+    - [8x8, 24, 3]
+    - [32x8, 32, 3]
+    - [8x8, 64, 3]
+  - symbol: gBHpgagFrame24
+    pieces:
+    - [8x8, 24, 3]
+    - [32x8, 32, 3]
+    - [16x8, 64, 3]
+  - symbol: gBHpgagFrame25
+    pieces:
+    - [8x8, 24, 3]
+    - [32x8, 32, 3]
+    - [32x8, 60, 3, {same: [4, 2]}]
+  - symbol: gBHpgagFrame26
+    pieces:
+    - [32x8, 0, -4]
+  - symbol: gBHpgagFrame27
+    pieces:
+    - [32x16, 0, 8]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 56, 0]
+  - symbol: gBHpgagFrame28
+    pieces:
+    - [32x8, -32, -4]
+  - symbol: gBHpgagFrame29
+    pieces:
+    - [32x8, -32, -4]
+  animations:
+  - symbol: gBHpgagAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBHpgagAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gBHpgagAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 16], [3, 12], [1, 10], [3, 12]]
+  - symbol: gBHpgagAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gBHpgagAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 16], [6, 12], [4, 10], [6, 12]]
+  - symbol: gBHpgagAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gBHpgagAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 16], [9, 12], [7, 10], [9, 12]]
+  - symbol: gBHpgagAnim7
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gBHpgagAnim8
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 16], [12, 12], [10, 10], [12, 12]]
+  - symbol: gBHpgagAnim9
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gBHpgagAnim10
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 16], [15, 12], [13, 10], [15, 12]]
+  - symbol: gBHpgagAnim11
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gBHpgagAnim12
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 16], [18, 12], [16, 10], [18, 12]]
+  - symbol: gBHpgagAnim13
+    fields: {originX: 64, originY: 64}
+    frames: [[28, 4]]
+  - symbol: gBHpgagAnim14
+    fields: {originX: 64, originY: 64}
+    frames: [[29, 4]]
+  us:
+    address: 0x08B23CB0
+    size: 4070
+  jp:
+    address: 0x08B17298
+    size: 4070
+  eu:
+    address: 0x08B4EB90
+    size: 4070
+- name: gBtlRikuDarkModePalette
+  format: palette
+  us:
+    address: 0x08F6DD04
+    size: 64
+  jp:
+    address: 0x08F6120C
+    size: 64
+  eu:
+    address: 0x08F6A25C
+    size: 64

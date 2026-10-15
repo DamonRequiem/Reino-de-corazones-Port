@@ -1,0 +1,49 @@
+# ROMs are never committed
+roms/*
+!roms/.gitkeep
+*.gba
+
+# Extracted assets are never committed
+assets/*
+!assets/.gitkeep
+
+# Installed toolchain
+tools/agbcc/
+tools/legacy/
+
+# Build output
+build/
+build.ninja
+.ninja_deps
+.ninja_log
+objdiff.json
+report.json
+
+# Python
+.venv/
+__pycache__/
+
+# Editor
+.vscode/*
+!.vscode/c_cpp_properties.json
+.idea/
+*.swp
+compile_commands.json
+
+# Permuter
+tools/decomp-permuter/
+permuter/
+debug_source.c
+debug_compiled_object.o
+docs/*
+CLAUDE.md
+permuter/tmp
+
+# Fetched pret gbagfx
+tools/gbagfx/
+
+# Local-only MovieOpen encoder RE (not matching path)
+tools/gfx/movie_open_re.py
+tools/_tmp_movie_encode_re.md
+/frame_*.bmp
+/dist/

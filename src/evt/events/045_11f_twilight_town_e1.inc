@@ -1,0 +1,158 @@
+#ifdef VERSION_US
+#include "event_045_text.inc"
+#endif
+
+static const MessageScriptEntry sEvent045Script[26] = {
+    { PORTRAIT_GOOFY, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text00), 0, 515 },
+    { PORTRAIT_SORA, 2, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text01), 0, 725 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text02), 0, 727 },
+    { PORTRAIT_DONALD, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text03), 0, 760 },
+    { PORTRAIT_SORA, 5, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text04), 0, 790 },
+    { PORTRAIT_GOOFY, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text05), 0, 820 },
+    { PORTRAIT_SORA, 5, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text06), 0, 1000 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text07), 0, 1002 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text08), 0, 1004 },
+    { PORTRAIT_VEXEN, 0, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text09), 0, 1050 },
+    { PORTRAIT_VEXEN, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text10), 0, 1320 },
+    { PORTRAIT_VEXEN, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text11), 0, 1322 },
+    { PORTRAIT_SORA, 2, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text12), 0, 1355 },
+    { PORTRAIT_SORA, 2, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text13), 0, 1357 },
+    { PORTRAIT_VEXEN, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text14), 0, 1390 },
+    { PORTRAIT_SORA, 2, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text15), 0, 1420 },
+    { PORTRAIT_VEXEN, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text16), 0, 1450 },
+    { PORTRAIT_VEXEN, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text17), 0, 1452 },
+    { PORTRAIT_SORA, 2, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text18), 0, 1480 },
+    { PORTRAIT_VEXEN, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text19), 0, 1690 },
+    { PORTRAIT_VEXEN, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text20), 0, 1692 },
+    { PORTRAIT_VEXEN, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text21), 0, 1694 },
+    { PORTRAIT_SORA, 3, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text22), 0, 1745 },
+    { PORTRAIT_SORA, 2, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text23), 0, 1945 },
+    { PORTRAIT_SORA, 2, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text24), 0, 1947 },
+    { PORTRAIT_SORA, 2, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent045Text25), MSG_SCRIPT_FLAG_END, 1949 },
+};
+
+#ifdef VERSION_JP
+#include "event_045_text.inc"
+#endif
+
+static const EventCameraKeyframe sEvent045Camera[4] = {
+    { -65416, 65024, 42496, 0, EVENT_CHARA_NONE, 0, 0, NULL },
+    { -64436, 65024, 96256, 0, EVENT_CHARA_NONE, CAMERA_MODE_APPROACH, 280, NULL },
+    { -64336, 65024, 88320, 0, EVENT_CHARA_NONE, CAMERA_MODE_APPROACH, 100, NULL },
+    { -60536, 0, 0, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_END | CAMERA_MODE_KEEP, 0, NULL },
+};
+
+static const EvSoundCue sEvent045SoundCues[5] = {
+    { SONG_NONE, 0, 0, 0 },
+    { SONG_BGM_EVENT1, 720, EV_SOUND_FLAG_FADE_IN, 0 },
+    { SONG_BGM_EVENT1, 1045, EV_SOUND_FLAG_FADE_OUT, 0 },
+    { SONG_BGM_EVENT_XIII, 1055, EV_SOUND_FLAG_FADE_IN, 0 },
+    { SONG_EV_WARPOUT, 1200, EV_SOUND_FLAG_END, 0 },
+};
+
+static const EventCharaKeyframe sEvent045Track0[28] = {
+    { 4, 300, 38400, 112128, 0, 0, 66, NULL, NULL },
+    { 9, 370, 0, 0, 0, 45, 68, NULL, NULL },
+    { 4, 410, 0, 0, 0, 0, 69, NULL, NULL },
+    { 27, 460, 0, 0, 0, 0, 64, NULL, CreateExclamationTask },
+    { 27, 530, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 580, 0, 0, 0, 0, 69, NULL, NULL },
+    { 0, 585, 0, 0, 0, 0, 5, NULL, NULL },
+    { 4, 620, 0, 0, 0, 0, 5, NULL, NULL },
+    { 0, 625, 0, 0, 0, 0, 5, NULL, NULL },
+    { 4, 630, 0, 0, 0, 0, 69, NULL, NULL },
+    { 3, 670, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 785, 0, 0, 0, 0, 69, NULL, NULL },
+    { 34, 840, 0, 0, 0, 0, 69, NULL, NULL },
+    { 34, 970, 0, 0, 0, 0, 64, NULL, CreateBalloonTask },
+    { 34, 1090, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1210, 0, 0, 0, 0, 69, NULL, NULL },
+    { 27, 1260, 0, 0, 0, 0, 64, NULL, CreateExclamationTask },
+    { 27, 1290, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1350, 0, 0, 0, 0, 69, NULL, NULL },
+    { 30, 1362, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1415, 0, 0, 0, 0, 69, NULL, NULL },
+    { 30, 1440, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1475, 0, 0, 0, 0, 69, NULL, NULL },
+    { 30, 1520, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1820, 0, 0, 0, 0, 69, NULL, NULL },
+    { 19, 1835, 0, 0, 0, 0, 69, NULL, NULL },
+    { 21, 2000, 0, 0, 0, 0, 69, NULL, NULL },
+    { 14, 5120, 0, 0, 0, 45, 32868, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent045Track1[14] = {
+    { 114, 300, 29952, 104448, 0, 0, 66, NULL, NULL },
+    { 119, 380, 0, 0, 0, 45, 68, NULL, NULL },
+    { 114, 460, 0, 0, 0, 0, 69, NULL, NULL },
+    { 113, 465, 0, 0, 0, 0, 69, NULL, NULL },
+    { 112, 755, 0, 0, 0, 0, 69, NULL, NULL },
+    { 125, 762, 0, 0, 0, 0, 69, NULL, NULL },
+    { 112, 1100, 0, 0, 0, 0, 69, NULL, NULL },
+    { 113, 1105, 0, 0, 0, 0, 69, NULL, NULL },
+    { 114, 1215, 0, 0, 0, 0, 69, NULL, NULL },
+    { 133, 1265, 0, 0, 0, 0, 64, NULL, CreateExclamationTask },
+    { 133, 1295, 0, 0, 0, 0, 69, NULL, NULL },
+    { 114, 1900, 0, 0, 0, 0, 69, NULL, NULL },
+    { 122, 1915, 0, 0, 0, 0, 69, NULL, NULL },
+    { 123, 5120, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent045Track2[18] = {
+    { 146, 320, 50944, 113408, 0, 0, 66, NULL, NULL },
+    { 151, 390, 0, 0, 0, 45, 68, NULL, NULL },
+    { 146, 440, 0, 0, 0, 0, 69, NULL, NULL },
+    { 142, 450, 0, 0, 0, 0, 5, NULL, NULL },
+    { 146, 460, 0, 0, 0, 0, 5, NULL, NULL },
+    { 145, 510, 0, 0, 0, 0, 5, NULL, NULL },
+    { 167, 517, 0, 0, 0, 0, 5, NULL, NULL },
+    { 145, 815, 0, 0, 0, 0, 5, NULL, NULL },
+    { 167, 822, 0, 0, 0, 0, 5, NULL, NULL },
+    { 145, 1100, 0, 0, 0, 0, 5, NULL, NULL },
+    { 146, 1105, 0, 0, 0, 0, 5, NULL, NULL },
+    { 142, 1110, 0, 0, 0, 0, 5, NULL, NULL },
+    { 146, 1220, 0, 0, 0, 0, 69, NULL, NULL },
+    { 161, 1270, 0, 0, 0, 0, 64, NULL, CreateExclamationTask },
+    { 161, 1300, 0, 0, 0, 0, 69, NULL, NULL },
+    { 146, 1920, 0, 0, 0, 0, 69, NULL, NULL },
+    { 157, 1935, 0, 0, 0, 0, 69, NULL, NULL },
+    { 158, 5120, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent045Track3[5] = {
+    { 721, 1200, 0, 0, 0, 0, 2, NULL, NULL },
+    { 721, 1530, 75264, 91392, 0, 0, 2, EventCharaFadeIn, NULL },
+    { 721, 1660, 0, 0, 0, 0, 0, NULL, CreateBalloonTask },
+    { 721, 3120, 0, 0, 0, 0, 5, NULL, NULL },
+    { 721, 5120, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaTrack sEvent045Tracks[4] = {
+    { sEvent045Track0, EVENT_CHARA_SORA },
+    { sEvent045Track1, EVENT_CHARA_DONALD },
+    { sEvent045Track2, EVENT_CHARA_GOOFY },
+    { sEvent045Track3, EVENT_CHARA_VEXEN },
+};
+
+const EventSequenceDef gEvent045 = {
+    ARRAY_COUNT(sEvent045Tracks),
+    sEvent045Tracks,
+    sEvent045Camera,
+    sEvent045Script,
+    sEvent045SoundCues,
+    NULL,
+    1980,
+    FALSE,
+    TRUE,
+    FALSE,
+    FALSE,
+    FALSE,
+    BATTLE_VEXEN_2,
+    EVENT_NONE,
+    0,
+    { 0, 0 },
+    EVENT_EXIT_NONE,
+    0,
+    WORLD_NONE,
+    POOH_LEVEL_NONE,
+};

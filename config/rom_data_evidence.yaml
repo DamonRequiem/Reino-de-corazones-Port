@@ -1,0 +1,10 @@
+version: 1
+tables:
+- name: jiminy_entries
+  us: '0x8155554'
+  targets:
+    jp: '0x8149cd4'
+    eu: '0x887b008'
+  size: 504
+  stride: 24
+  pointer_offsets: [0, 4, 12, 16]

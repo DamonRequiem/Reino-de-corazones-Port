@@ -1,0 +1,180 @@
+group: map_check_worlds
+types:
+  DebugText:
+    kind: string
+    encoding: cp932
+    align: 4
+  MapChkWorldName:
+    fields:
+    - name: world
+      type: u32
+    - name: name
+      type: const char*
+objects:
+  us:
+  - name: map_check_worlds.s
+    start: 0x0984B458
+    end: 0x0984B5F8
+  jp:
+  - name: map_check_worlds.s
+    start: 0x097FFF6C
+    end: 0x0980010C
+  eu:
+  - name: map_check_worlds.s
+    start: 0x09827E2C
+    end: 0x09827FCC
+entries:
+- name: gMapChkWorldNames
+  record: MapChkWorldName
+  ctype: u8
+  shape: [13, 8]
+  elements:
+  - [1, gMapChkWorldNameAgrabah]
+  - [7, gMapChkWorldNameNeverLand]
+  - [2, gMapChkWorldNameAtlantica]
+  - [5, gMapChkWorldNameMonstro]
+  - [4, gMapChkWorldNameWonderLand]
+  - [6, gMapChkWorldNameHalloween]
+  - [3, gMapChkWorldNameColosseum]
+  - [8, gMapChkWorldNameHollow]
+  - [9, gMapChkWorldNameDestiny]
+  - [10, gMapChkWorldNameTravese]
+  - [11, gMapChkWorldNameTwilight]
+  - [12, gMapChkWorldNameCastle]
+  - [0, gMapChkWorldNameFormat]
+  us:
+    address: 0x0984B458
+  jp:
+    address: 0x097FFF6C
+  eu:
+    address: 0x09827E2C
+- name: gMapChkWorldNameFormat
+  record: DebugText
+  declare: false
+  text: "ＦＯＲＭＡＴ　　　　　"
+  us:
+    address: 0x0984B4C0
+  jp:
+    address: 0x097FFFD4
+  eu:
+    address: 0x09827E94
+- name: gMapChkWorldNameCastle
+  record: DebugText
+  declare: false
+  text: "ＣＡＳＴＬＥ　　　　　"
+  us:
+    address: 0x0984B4D8
+  jp:
+    address: 0x097FFFEC
+  eu:
+    address: 0x09827EAC
+- name: gMapChkWorldNameTwilight
+  record: DebugText
+  declare: false
+  text: "ＴＷＩＬＩＧＨＴ　　　"
+  us:
+    address: 0x0984B4F0
+  jp:
+    address: 0x09800004
+  eu:
+    address: 0x09827EC4
+- name: gMapChkWorldNameTravese
+  record: DebugText
+  declare: false
+  text: "ＴＲＡＶＥＳＥ　　　　"
+  us:
+    address: 0x0984B508
+  jp:
+    address: 0x0980001C
+  eu:
+    address: 0x09827EDC
+- name: gMapChkWorldNameDestiny
+  record: DebugText
+  declare: false
+  text: "ＤＥＳＴＩＮＹ　　　　"
+  us:
+    address: 0x0984B520
+  jp:
+    address: 0x09800034
+  eu:
+    address: 0x09827EF4
+- name: gMapChkWorldNameHollow
+  record: DebugText
+  declare: false
+  text: "ＨＯＬＬＯＷ　　　　　"
+  us:
+    address: 0x0984B538
+  jp:
+    address: 0x0980004C
+  eu:
+    address: 0x09827F0C
+- name: gMapChkWorldNameColosseum
+  record: DebugText
+  declare: false
+  text: "ＣＯＬＯＳＳＥＵＭ　　"
+  us:
+    address: 0x0984B550
+  jp:
+    address: 0x09800064
+  eu:
+    address: 0x09827F24
+- name: gMapChkWorldNameHalloween
+  record: DebugText
+  declare: false
+  text: "ＨＡＬＬＯＷＥＥＮ　　"
+  us:
+    address: 0x0984B568
+  jp:
+    address: 0x0980007C
+  eu:
+    address: 0x09827F3C
+- name: gMapChkWorldNameWonderLand
+  record: DebugText
+  declare: false
+  text: "ＷＯＮＤＥＲ　ＬＡＮＤ"
+  us:
+    address: 0x0984B580
+  jp:
+    address: 0x09800094
+  eu:
+    address: 0x09827F54
+- name: gMapChkWorldNameMonstro
+  record: DebugText
+  declare: false
+  text: "ＭＯＮＳＴＲＯ　　　　"
+  us:
+    address: 0x0984B598
+  jp:
+    address: 0x098000AC
+  eu:
+    address: 0x09827F6C
+- name: gMapChkWorldNameAtlantica
+  record: DebugText
+  declare: false
+  text: "ＡＴＬＡＮＴＩＣＡ　　"
+  us:
+    address: 0x0984B5B0
+  jp:
+    address: 0x098000C4
+  eu:
+    address: 0x09827F84
+- name: gMapChkWorldNameNeverLand
+  record: DebugText
+  declare: false
+  text: "ＮＥＶＥＲ　ＬＡＮＤ　"
+  us:
+    address: 0x0984B5C8
+  jp:
+    address: 0x098000DC
+  eu:
+    address: 0x09827F9C
+- name: gMapChkWorldNameAgrabah
+  record: DebugText
+  declare: false
+  text: "ＡＧＲＡＢＡＨ　　　　"
+  us:
+    address: 0x0984B5E0
+  jp:
+    address: 0x098000F4
+  eu:
+    address: 0x09827FB4
