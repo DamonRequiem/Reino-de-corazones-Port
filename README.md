@@ -53,4 +53,4 @@ Proyecto sin ánimo de lucro y sin relación con los dueños de la obra original
 ## Créditos
 
 - Decompilación: [khcom](https://github.com/Pheenoh/khcom) y sus colaboradores.
-- Port para Android: Edinson.
+- Port para Android: DamonRequiem.
