@@ -1,7 +1,7 @@
 # Reino de Corazones
 
 <p align="center">
-  <a href="https://github.com/DamonRequiem/Reino-de-corazones-Port./releases/latest"><img alt="Descargar APK" src="https://img.shields.io/badge/Descargar-APK%20para%20Android-6b4fd8?style=for-the-badge&logo=android&logoColor=white"></a>
+  <a href="https://github.com/DamonRequiem/Reino-de-corazones-Port/releases/latest"><img alt="Descargar APK" src="https://img.shields.io/badge/Descargar-APK%20para%20Android-6b4fd8?style=for-the-badge&logo=android&logoColor=white"></a>
   <br>
   <sub>Versión 1.2.14 · Android 5.0 o superior · <a href="descargas/ReinoDeCorazones-1.2.14.apk">descarga directa</a></sub>
 </p>
@@ -15,7 +15,7 @@ Está basado en el trabajo de preservación de la comunidad de decompilación ([
 
 ## Descarga
 
-El APK está en [Releases](https://github.com/DamonRequiem/Reino-de-corazones-Port./releases/latest) y también en la carpeta [`descargas/`](descargas/): [ReinoDeCorazones-1.2.14.apk](descargas/ReinoDeCorazones-1.2.14.apk). Las instrucciones vienen en [LEEME_ANDROID.txt](descargas/LEEME_ANDROID.txt). Funciona en Android 5.0 o superior, en teléfonos de 32 y de 64 bits.
+El APK está en [Releases](https://github.com/DamonRequiem/Reino-de-corazones-Port/releases/latest) y también en la carpeta [`descargas/`](descargas/): [ReinoDeCorazones-1.2.14.apk](descargas/ReinoDeCorazones-1.2.14.apk). Las instrucciones vienen en [LEEME_ANDROID.txt](descargas/LEEME_ANDROID.txt). Funciona en Android 5.0 o superior, en teléfonos de 32 y de 64 bits.
 
 SHA-256 del APK: `8bc3f6eb0e82b3abd8221adc224c25b010919709b651b10e79ccce8ea75b8437`
 
