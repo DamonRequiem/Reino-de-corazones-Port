@@ -1,0 +1,86 @@
+REINO DE CORAZONES PARA ANDROID
+Port nativo de Kingdom Hearts: Chain of Memories
+Versión 1.2.14 — teléfonos y tabletas Android 5.0 o superior (32 y 64 bits)
+==========================================================
+
+QUÉ ES
+El mismo port nativo de PC, compilado para el procesador ARM del teléfono.
+No es un emulador: el juego corre directamente en tu teléfono, en GPUs Mali,
+Adreno (Snapdragon), PowerVR y cualquier otra con OpenGL ES 2.0.
+
+La app NO incluye nada del juego. Necesitas tu propia copia legítima (.gba).
+
+QUÉ TELÉFONOS SIRVEN
+- Cualquier Android 5.0 o superior con procesador ARM: Mali, Adreno
+  (Snapdragon), PowerVR, Xclipse...
+- Los teléfonos de 64 bits (incluidos los que ya no ejecutan nada de 32 bits,
+  como el POCO X7 Pro, Pixel 7 en adelante o los Dimensity/Snapdragon de
+  2024-2025) usan una versión del motor compilada para 64 bits: el código del
+  juego, que asume direcciones de 32 bits, se compila con un modelo de memoria
+  de 32 bits a código nativo arm64. No es un emulador.
+- Los teléfonos de 32 bits usan el motor ARM de 32 bits.
+  Android elige el adecuado solo al instalar.
+
+INSTALAR
+1. Copia ReinoDeCorazones.apk al teléfono (o descárgalo en él).
+2. Ábrelo desde «Archivos» / «Descargas». Si Android lo pide, permite
+   «Instalar apps desconocidas» para esa app (solo esta vez).
+3. Si Play Protect avisa de una app desconocida: «Más detalles» >
+   «Instalar de todas formas». La app no pide internet ni permisos especiales
+   (solo vibración para los botones).
+
+PRIMERA VEZ
+1. Abre Reino de Corazones y toca «Buscar mi juego».
+2. Elige tu archivo .gba o un .zip que lo contenga (7z y RAR no). Se
+   comprueba su huella SHA-1 y se guarda una copia privada dentro de la app.
+3. Toca «Jugar · Europa» o «Jugar · USA».
+
+VERSIONES COMPATIBLES
+- Europa (B8CP): español, inglés, francés, alemán e italiano.
+- USA (B8CE): inglés.
+
+CONTROLES EN PANTALLA
+- Joystick arriba a la izquierda (8 direcciones), para no tapar tus cartas.
+  Es flotante: toca en cualquier parte del lado izquierdo y se coloca bajo
+  tu dedo; si lo arrastras más allá de su borde, te sigue.
+- Llave espada (A): atacar / usar carta. Figura saltando (B): saltar.
+  Si tocas entre los dos, pulsas ambos.
+- Placas curvas en forma de flecha alrededor de tus cartas: ◀ (encima) es L y
+  ▶ (inclinada a su derecha) es R, para cambiar de carta.
+- Botón de cartas apiladas (a la derecha, bajo la llave espada): L + R a la vez.
+- SELECT y START abajo.
+- Corazón (arriba): menú de pausa y opciones. Botón «Atrás» del teléfono: lo mismo.
+- Doble flecha (arriba): modo rápido (tócalo otra vez para quitarlo). La
+  música se acelera con el juego. Velocidad x2, x3 o x4 en «Modo rápido»
+  del menú.
+- Funciona también un mando Bluetooth/USB; con «Botones en pantalla» a 0 %
+  los botones táctiles se ocultan.
+
+MENÚ DE PAUSA
+Forma de la pantalla: Original 3:2 (como la GBA), 4:3, Panorámica 16:9
+(estira un poco) o Completa (todo el ancho). A los lados se ve el castillo
+de corazones de noche, con un marco dorado; los píxeles se agrandan por un
+múltiplo exacto y solo la última fracción se suaviza, así se ven parejos.
+Cuadros por segundo (30/60/120), filtro de imagen, colores de GBA, estela
+LCD, opacidad y tamaño de los botones, vibración, volumen, guardar/cargar
+estado y salir. Toca una opción; toca a izquierda o derecha del valor para
+cambiarlo.
+
+TUS PARTIDAS
+Se guardan solas (como en la consola) en:
+  Android/data/com.reinodecorazones/files/partidas/  (eur.sav / usa.sav)
+Desde un PC (cable USB) puedes copiarlas; son compatibles con la versión de
+PC (carpeta «partidas»). Ajustes en .../files/config/reino.ini, capturas en
+.../files/capturas y el registro de cada sesión en .../files/registros.
+Desinstalar la app borra esa carpeta: copia antes tus partidas.
+
+ESTADOS GUARDADOS
+Los estados («Guardar estado» en el menú) sirven entre sesiones. Un estado
+hecho en un teléfono de 32 bits no se puede cargar en uno de 64 bits ni al
+revés; las partidas normales (.sav) sí son compatibles en todos.
+
+SI ALGO FALLA
+Envía el archivo de .../files/registros/ (eur.txt o usa.txt).
+
+Kingdom Hearts es una marca de Disney y Square Enix. Proyecto no oficial y
+sin ánimo de lucro, hecho a partir de la descompilación pública del juego.
