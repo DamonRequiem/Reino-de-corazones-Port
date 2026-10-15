@@ -19,5 +19,8 @@ int PcTouchFastForward(void);
 void PcTouchDraw(SDL_Renderer* r);
 void PcTouchDrawBackdrop(SDL_Renderer* r, int ow, int oh, const SDL_Rect* game);
 uint32_t PcTouchLastUse(void);
+void PcTouchSetGamepad(int connected); /* hides the controls while a controller is connected */
+void PcTouchGamepadUsed(void);
+int PcTouchHidden(void);
 
 #endif

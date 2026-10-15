@@ -493,6 +493,8 @@ def main():
         ("T_STICK", stick_base()),
         ("T_KNOB", stick_knob(False)),
         ("T_KNOB_ON", stick_knob(True)),
+        ("T_DPAD", dpad()),
+        ("T_DPAD_HL", dpad_highlight()),
         ("T_A", gem_icon_button(keyblade_icon, (196, 54, 96), (92, 14, 52), False)),
         ("T_A_ON", gem_icon_button(keyblade_icon, (196, 54, 96), (92, 14, 52), True)),
         ("T_B", gem_icon_button(jumper_icon, (60, 92, 200), (18, 28, 92), False)),

@@ -1,9 +1,9 @@
 # Reino de Corazones
 
 <p align="center">
-  <a href="https://github.com/DamonRequiem/Reino-de-corazones-Port/raw/main/descargas/ReinoDeCorazones-1.2.14.apk"><img alt="Descargar APK" src="https://img.shields.io/badge/Descargar-APK%20para%20Android-6b4fd8?style=for-the-badge&logo=android&logoColor=white"></a>
+  <a href="https://github.com/DamonRequiem/Reino-de-corazones-Port/raw/main/descargas/ReinoDeCorazones-1.3.0.apk"><img alt="Descargar APK" src="https://img.shields.io/badge/Descargar-APK%20para%20Android-6b4fd8?style=for-the-badge&logo=android&logoColor=white"></a>
   <br>
-  <sub>Versión 1.2.14 · Android 5.0 o superior · <a href="descargas/ReinoDeCorazones-1.2.14.apk">descarga directa</a></sub>
+  <sub>Versión 1.3.0 · Android 5.0 o superior · <a href="descargas/ReinoDeCorazones-1.3.0.apk">descarga directa</a></sub>
 </p>
 
 Proyecto de aficionados para jugar en **Android** un clásico de cartas y acción de Game Boy Advance: *Kingdom Hearts: Chain of Memories*. Se ejecuta como una app nativa, con controles táctiles y opciones de pantalla pensados para teléfonos.
@@ -15,16 +15,16 @@ Está basado en el trabajo de preservación de la comunidad de decompilación ([
 
 ## Descarga
 
-El APK está en la carpeta [`descargas/`](descargas/): [ReinoDeCorazones-1.2.14.apk](descargas/ReinoDeCorazones-1.2.14.apk). Las instrucciones vienen en [LEEME_ANDROID.txt](descargas/LEEME_ANDROID.txt). Funciona en Android 5.0 o superior, en teléfonos de 32 y de 64 bits.
+El APK está en la carpeta [`descargas/`](descargas/): [ReinoDeCorazones-1.3.0.apk](descargas/ReinoDeCorazones-1.3.0.apk). Las instrucciones vienen en [LEEME_ANDROID.txt](descargas/LEEME_ANDROID.txt). Funciona en Android 5.0 o superior, en teléfonos de 32 y de 64 bits.
 
-SHA-256 del APK: `8bc3f6eb0e82b3abd8221adc224c25b010919709b651b10e79ccce8ea75b8437`
+SHA-256 del APK: `d9399a87ff64faa723c61f316e6cf8dd9561ffaa33d12947a9c0ba70916d477c`
 
 Como no viene de la Play Store, Android puede mostrar un aviso al instalar. Toca "Más detalles" y luego "Instalar de todas formas".
 
 ## Características
 
 - Controles táctiles con arte original:
-  - Joystick flotante.
+  - Movimiento a elegir: joystick flotante, joystick fijo o cruceta.
   - Botones de ataque y salto.
   - Placas curvas para cambiar de carta.
   - Vibración opcional.
@@ -33,7 +33,8 @@ Como no viene de la Play Store, Android puede mostrar un aviso al instalar. Toca
 - Modo rápido x2, x3 o x4, con el sonido acelerado.
 - Estados guardados.
 - Si sales de la app, la partida queda en pausa y continúa donde la dejaste.
-- Compatible con mandos Bluetooth y USB.
+- Compatible con mandos Bluetooth y USB: al conectarlo aparece un aviso y los botones táctiles se ocultan.
+- En las formas de pantalla con bordes, los botones se colocan junto a la imagen sin taparla.
 
 ## Compilar
 

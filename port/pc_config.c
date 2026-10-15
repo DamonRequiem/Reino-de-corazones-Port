@@ -24,6 +24,7 @@ static const char* const sButtonNames[PC_NUM_BUTTONS] = {
 
 const char* const kFilterNames[6] = {"original", "suave", "limpio", "bordes", "lcd", "crt"};
 const char* const kAspectNames[4] = {"original", "4:3", "16:9", "completa"};
+const char* const kStickNames[3] = {"flotante", "fijo", "cruceta"};
 static char sPath[1024];
 
 static const char sDefaultIni[] =
@@ -79,6 +80,8 @@ static const char sDefaultIni[] =
     "size = 1\n"
     "; 1 = vibracion breve al pulsar un boton\n"
     "vibration = 1\n"
+    "; movimiento: flotante (joystick que va al dedo), fijo (joystick quieto) o cruceta\n"
+    "stick = flotante\n"
     "\n"
 #endif
     "[keyboard]\n"
@@ -211,6 +214,12 @@ static void ParseLine(const char* section, char* key, char* value) {
             gPcConfig.touchSize = v < 0 ? 0 : v > 2 ? 2 : v;
         else if (!SDL_strcasecmp(key, "vibration"))
             gPcConfig.vibration = v != 0;
+        else if (!SDL_strcasecmp(key, "stick")) {
+            int i;
+            for (i = 0; i < 3; i++)
+                if (!SDL_strcasecmp(value, kStickNames[i]))
+                    gPcConfig.stickMode = i;
+        }
     } else if (!SDL_strcasecmp(section, "keyboard") || !SDL_strcasecmp(section, "gamepad")) {
         int button = ButtonIndex(key);
         int isPad = !SDL_strcasecmp(section, "gamepad");

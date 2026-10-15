@@ -1,6 +1,6 @@
 REINO DE CORAZONES PARA ANDROID
 Port nativo de Kingdom Hearts: Chain of Memories
-Versión 1.2.14 — teléfonos y tabletas Android 5.0 o superior (32 y 64 bits)
+Versión 1.3.0 — teléfonos y tabletas Android 5.0 o superior (32 y 64 bits)
 ==========================================================
 
 QUÉ ES
@@ -40,9 +40,14 @@ VERSIONES COMPATIBLES
 - USA (B8CE): inglés.
 
 CONTROLES EN PANTALLA
-- Joystick arriba a la izquierda (8 direcciones), para no tapar tus cartas.
-  Es flotante: toca en cualquier parte del lado izquierdo y se coloca bajo
-  tu dedo; si lo arrastras más allá de su borde, te sigue.
+- Movimiento arriba a la izquierda, para no tapar tus cartas. En el menú,
+  «Control de movimiento» ofrece tres tipos:
+    · Joystick flotante: toca en cualquier parte del lado izquierdo y se
+      coloca bajo tu dedo; si lo arrastras más allá de su borde, te sigue.
+    · Joystick fijo: se queda en su sitio.
+    · Cruceta: la clásica, con diagonales.
+- Con las formas de pantalla Original, 4:3 y 16:9 los botones se colocan en
+  los bordes junto a la imagen, sin taparla; en Completa van encima.
 - Llave espada (A): atacar / usar carta. Figura saltando (B): saltar.
   Si tocas entre los dos, pulsas ambos.
 - Placas curvas en forma de flecha alrededor de tus cartas: ◀ (encima) es L y
@@ -53,8 +58,9 @@ CONTROLES EN PANTALLA
 - Doble flecha (arriba): modo rápido (tócalo otra vez para quitarlo). La
   música se acelera con el juego. Velocidad x2, x3 o x4 en «Modo rápido»
   del menú.
-- Funciona también un mando Bluetooth/USB; con «Botones en pantalla» a 0 %
-  los botones táctiles se ocultan.
+- Mando Bluetooth/USB: al conectarlo aparece un aviso y los botones táctiles
+  se ocultan; vuelven al desconectarlo, o si tocas la pantalla. Con
+  «Botones en pantalla» a 0 % también se ocultan.
 
 MENÚ DE PAUSA
 Forma de la pantalla: Original 3:2 (como la GBA), 4:3, Panorámica 16:9

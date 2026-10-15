@@ -135,6 +135,7 @@ static uint64_t sNextFrameTime;
 static int sFastForward;
 static int sAudioMuted;
 static int sTestFast;
+static uint32_t sTestPadAt, sTestPadOff; /* testing: a virtual controller comes / goes at these frames */
 static double sAudioBaseSpeed = 1.0; /* sound speed at normal pace (UpdatePacing) */
 static double sAudioSpeedSet = -1;
 static int sIntegerScale;
@@ -263,6 +264,64 @@ static uint16_t ReadKeyboard(void) {
             if (k[gPcConfig.keys[btn].codes[i]])
                 held |= (uint16_t)(1 << btn);
     return held;
+}
+
+/* ---- Game controllers: a notice when one comes or goes; on phones the
+ * on-screen buttons hide while one is connected. ---- */
+static int CountControllers(void) {
+    int i, n = 0;
+    for (i = 0; i < SDL_NumJoysticks(); i++)
+        if (SDL_IsGameController(i) && SDL_GameControllerFromInstanceID(SDL_JoystickGetDeviceInstanceID(i)))
+            n++;
+    return n;
+}
+
+static void ControllerAdded(int which) {
+    SDL_GameController* c;
+    const char* name;
+    char text[160];
+    if (!SDL_IsGameController(which) || SDL_GameControllerFromInstanceID(SDL_JoystickGetDeviceInstanceID(which)))
+        return; /* not a controller, or already open */
+    c = SDL_GameControllerOpen(which);
+    if (!c)
+        return;
+    name = SDL_GameControllerName(c);
+    if (name && (SDL_strcasestr(name, "uinput") || SDL_strcasestr(name, "virtual") || SDL_strcasestr(name, "fpc") ||
+                 SDL_strcasestr(name, "gpio") || SDL_strcasestr(name, "goodix")))
+    {
+        SDL_GameControllerClose(c); /* a phone's own sensor or button chip, not a controller */
+        return;
+    }
+    PcLog("[pc] controller connected: %s\n", name ? name : "?");
+    snprintf(text, sizeof(text), "Mando conectado: %s", name && *name ? name : "mando");
+    ShowNotice(text);
+#if PC_TOUCH
+    PcTouchSetGamepad(1);
+#endif
+}
+
+static void ControllerRemoved(SDL_JoystickID id) {
+    SDL_GameController* c = SDL_GameControllerFromInstanceID(id);
+    if (!c)
+        return;
+    SDL_GameControllerClose(c);
+    PcLog("[pc] controller disconnected\n");
+    if (CountControllers() == 0) {
+        ShowNotice("Mando desconectado");
+#if PC_TOUCH
+        PcTouchSetGamepad(0);
+#endif
+    }
+}
+
+static void ControllerUsed(const SDL_Event* e) {
+#if PC_TOUCH
+    if (e->type == SDL_CONTROLLERBUTTONDOWN ||
+        (e->type == SDL_CONTROLLERAXISMOTION && (e->caxis.value > 16000 || e->caxis.value < -16000)))
+        PcTouchGamepadUsed();
+#else
+    (void)e;
+#endif
 }
 
 static int PadPressed(SDL_GameController* c, int code) {
@@ -743,9 +802,16 @@ static void HandleEvent(SDL_Event* ev) {
                 }
                 break;
             case SDL_CONTROLLERDEVICEADDED:
-                SDL_GameControllerOpen(e.cdevice.which);
+                ControllerAdded(e.cdevice.which);
+                break;
+            case SDL_CONTROLLERDEVICEREMOVED:
+                ControllerRemoved(e.cdevice.which);
+                break;
+            case SDL_CONTROLLERAXISMOTION:
+                ControllerUsed(&e);
                 break;
             case SDL_CONTROLLERBUTTONDOWN:
+                ControllerUsed(&e);
                 if (sMenuAvailable && (e.cbutton.button == SDL_CONTROLLER_BUTTON_GUIDE ||
                                        e.cbutton.button == SDL_CONTROLLER_BUTTON_RIGHTSTICK))
                     sMenuRequested = 1;
@@ -892,7 +958,11 @@ static void RunMenu(void) {
             }
 #endif
             if (e.type == SDL_CONTROLLERDEVICEADDED) {
-                SDL_GameControllerOpen(e.cdevice.which);
+                ControllerAdded(e.cdevice.which);
+                continue;
+            }
+            if (e.type == SDL_CONTROLLERDEVICEREMOVED) {
+                ControllerRemoved(e.cdevice.which);
                 continue;
             }
             if (e.type == SDL_KEYDOWN && !e.key.repeat &&
@@ -1076,6 +1146,22 @@ static void FrameHook(void) {
         sBgTestBack = SDL_GetTicks() + 1500;
     }
 #endif
+    if (sTestPadAt && gPcFrameCount == sTestPadAt) {
+        SDL_VirtualJoystickDesc desc;
+        int dev;
+        SDL_zero(desc);
+        desc.version = SDL_VIRTUAL_JOYSTICK_DESC_VERSION;
+        desc.type = SDL_JOYSTICK_TYPE_GAMECONTROLLER;
+        desc.naxes = 6;
+        desc.nbuttons = 15;
+        desc.name = "Mando de prueba";
+        dev = SDL_JoystickAttachVirtualEx(&desc);
+        PcLog("[pc] test: virtual controller attached (%d)\n", dev);
+    }
+    if (sTestPadOff && gPcFrameCount == sTestPadOff) {
+        SDL_JoystickDetachVirtual(0);
+        PcLog("[pc] test: virtual controller detached\n");
+    }
     if (sCrashTest && gPcFrameCount == 600) {
         int kind = sCrashTest;
         sCrashTest = 0; /* once: recovery must not crash again */
@@ -1151,6 +1237,10 @@ int main(int argc, char** argv) {
             sRegion = argv[++i];
         else if (!strcmp(argv[i], "--fast"))
             sTestFast = 1;
+        else if (!strcmp(argv[i], "--test-pad") && i + 2 < argc) {
+            sTestPadAt = (uint32_t)strtoul(argv[++i], NULL, 0);
+            sTestPadOff = (uint32_t)strtoul(argv[++i], NULL, 0);
+        }
         else if (!strcmp(argv[i], "--seconds") && i + 1 < argc)
             sRunSeconds = atof(argv[++i]);
         else if (!strcmp(argv[i], "--dump-every") && i + 1 < argc)

@@ -34,7 +34,7 @@ import java.util.List;
  */
 public class LauncherActivity extends Activity {
     private static final int PICK_ROM = 1;
-    static final String VERSION = "v1.2.14 · Android";
+    static final String VERSION = "v1.3.0 · Android";
 
     private RomStore store;
     private MenuView view;

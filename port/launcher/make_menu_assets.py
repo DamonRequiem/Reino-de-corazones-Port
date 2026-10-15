@@ -104,6 +104,13 @@ TEXTS = [
     ("V_FF3", "x3", VALUE, "plain"),
     ("V_FF4", "x4", VALUE, "plain"),
     ("H_FFSPEED", "Velocidad del botón de avance rápido. La música se acelera igual.", HELP, "plain"),
+    ("L_STICK", "Control de movimiento", LABEL, "plain"),
+    ("V_STICK0", "Joystick flotante", VALUE, "plain"),
+    ("V_STICK1", "Joystick fijo", VALUE, "plain"),
+    ("V_STICK2", "Cruceta", VALUE, "plain"),
+    ("H_STICK0", "El joystick aparece donde pongas el dedo, en todo el lado izquierdo.", HELP, "plain"),
+    ("H_STICK1", "El joystick se queda en su sitio; tócalo para moverte.", HELP, "plain"),
+    ("H_STICK2", "Cruceta clásica de cuatro direcciones (y diagonales).", HELP, "plain"),
     ("M_TOUCH", "Toca una opción  ·  toca a los lados del valor para cambiarlo  ·  Atrás: volver al juego", SMALL, "soft"),
 ]
 

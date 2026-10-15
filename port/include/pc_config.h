@@ -41,6 +41,7 @@ typedef struct {
     int touchOpacity;   /* Android on-screen buttons: 0..100 % */
     int touchSize;      /* 0 small, 1 normal, 2 large */
     int vibration;      /* short vibration on each button press */
+    int stickMode;      /* Android movement control: 0 floating joystick, 1 fixed joystick, 2 D-pad */
     int fastSpeed;      /* fast forward: 2, 3 or 4 times the normal speed */
     PcBinding keys[PC_NUM_BUTTONS];
     PcBinding pad[PC_NUM_BUTTONS];
@@ -54,5 +55,6 @@ void PcConfigLoad(const char* path);
 void PcConfigSet(const char* section, const char* key, const char* value);
 extern const char* const kFilterNames[6];
 extern const char* const kAspectNames[4];
+extern const char* const kStickNames[3]; /* gPcConfig.stickMode */
 
 #endif /* PC_CONFIG_H */

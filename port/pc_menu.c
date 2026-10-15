@@ -32,15 +32,15 @@
 #define MH 640
 
 enum { ROW_CONTINUE, ROW_FPS, ROW_SCALE, ROW_FILTER, ROW_COLORS, ROW_GHOST, ROW_FULL, ROW_VSYNC, ROW_VOLUME,
-       ROW_SAVE, ROW_LOAD, ROW_QUIT, ROW_TOPACITY, ROW_TSIZE, ROW_VIBRATION, ROW_ASPECT, ROW_FFSPEED };
+       ROW_SAVE, ROW_LOAD, ROW_QUIT, ROW_TOPACITY, ROW_TSIZE, ROW_VIBRATION, ROW_ASPECT, ROW_FFSPEED, ROW_STICK };
 
 /* The rows shown, top to bottom. A phone has no window to size and its
  * screen always syncs, so those rows give way to the touch controls. */
 #if defined(__ANDROID__) || defined(PC_FORCE_TOUCH)
-#define ROW_COUNT 14
+#define ROW_COUNT 15
 static const int kRows[ROW_COUNT] = {ROW_CONTINUE, ROW_ASPECT, ROW_FPS, ROW_FILTER, ROW_COLORS, ROW_GHOST,
-                                     ROW_TOPACITY, ROW_TSIZE, ROW_VIBRATION, ROW_FFSPEED, ROW_VOLUME, ROW_SAVE,
-                                     ROW_LOAD, ROW_QUIT};
+                                     ROW_STICK, ROW_TOPACITY, ROW_TSIZE, ROW_VIBRATION, ROW_FFSPEED, ROW_VOLUME,
+                                     ROW_SAVE, ROW_LOAD, ROW_QUIT};
 #define TOUCH_UI 1
 #else
 #define ROW_COUNT 12
@@ -55,7 +55,7 @@ static int sMonitorHz = 60;
 static int sLaunched; /* started from the launcher: "Salir al menú principal" */
 static const int kRowY0 = 128;
 #if defined(__ANDROID__) || defined(PC_FORCE_TOUCH)
-static const int kRowH = 30; /* more rows on phones */
+static const int kRowH = 28; /* more rows on phones */
 #else
 static const int kRowH = 34;
 #endif
@@ -130,7 +130,7 @@ void PcMenuClose(void) { sOpen = 0; }
  * so the change can be judged on the game behind it. */
 int PcMenuPreviewing(void) {
     int row = kRows[sSel];
-    return sOpen && ((row >= ROW_FPS && row <= ROW_GHOST) || row == ROW_TOPACITY || row == ROW_TSIZE ||
+    return sOpen && ((row >= ROW_FPS && row <= ROW_GHOST) || row == ROW_TOPACITY || row == ROW_TSIZE || row == ROW_STICK ||
                      row == ROW_ASPECT);
 }
 
@@ -152,6 +152,7 @@ static void SaveSetting(int row) {
         case ROW_VIBRATION: PcConfigSet("touch", "vibration", gPcConfig.vibration ? "1" : "0"); break;
         case ROW_ASPECT: PcConfigSet("screen", "aspect", kAspectNames[gPcConfig.aspect]); break;
         case ROW_FFSPEED: snprintf(v, sizeof(v), "%d", gPcConfig.fastSpeed); PcConfigSet("game", "fast_speed", v); break;
+        case ROW_STICK: PcConfigSet("touch", "stick", kStickNames[gPcConfig.stickMode]); break;
     }
 }
 
@@ -185,6 +186,7 @@ static int Change(int row, int dir) {
         case ROW_VIBRATION: gPcConfig.vibration = !gPcConfig.vibration; break;
         case ROW_ASPECT: gPcConfig.aspect = (gPcConfig.aspect + dir + 4) % 4; break;
         case ROW_FFSPEED: gPcConfig.fastSpeed = (gPcConfig.fastSpeed - 2 + dir + 3) % 3 + 2; break;
+        case ROW_STICK: gPcConfig.stickMode = (gPcConfig.stickMode + dir + 3) % 3; break;
         default: return PC_MENU_NONE;
     }
     SaveSetting(row);
@@ -309,6 +311,7 @@ static int ValueSprite(int row) {
         case ROW_VIBRATION: return gPcConfig.vibration ? V_YES : V_NO;
         case ROW_ASPECT: return V_ASPECT0 + gPcConfig.aspect;
         case ROW_FFSPEED: return V_FF2 + gPcConfig.fastSpeed - 2;
+        case ROW_STICK: return V_STICK0 + gPcConfig.stickMode;
     }
     return -1;
 }
@@ -326,6 +329,7 @@ static int HelpSprite(int row) {
         case ROW_VIBRATION: return H_VIBRATION;
         case ROW_ASPECT: return H_ASPECT0 + gPcConfig.aspect;
         case ROW_FFSPEED: return H_FFSPEED;
+        case ROW_STICK: return H_STICK0 + gPcConfig.stickMode;
     }
 #endif
     switch (row) {
@@ -346,7 +350,7 @@ static int HelpSprite(int row) {
 
 void PcMenuDraw(SDL_Renderer* r) {
     static const int labels[] = {L_CONTINUE, L_FPS, L_SCALE, L_FILTER, L_COLORS, L_GHOST, L_FULL, L_VSYNC,
-                                 L_VOLUME, L_SAVE, L_LOAD, L_QUIT, L_TOPACITY, L_TSIZE, L_VIBRATION, L_ASPECT, L_FFSPEED};
+                                 L_VOLUME, L_SAVE, L_LOAD, L_QUIT, L_TOPACITY, L_TSIZE, L_VIBRATION, L_ASPECT, L_FFSPEED, L_STICK};
     float t = (SDL_GetTicks() % 600000u) / 1000.0f; /* small: float keeps its precision */
     int ow, oh, i;
     SDL_Rect all;

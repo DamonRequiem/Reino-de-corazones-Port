@@ -36,6 +36,8 @@ enum { KEY_A = 1 << 0, KEY_B = 1 << 1, KEY_SELECT = 1 << 2, KEY_START = 1 << 3, 
 #define TOUCH_MENU (1 << 12)
 #define TOUCH_FAST (1 << 13)
 
+enum { STICK_FLOATING, STICK_FIXED, STICK_DPAD };
+
 enum { C_STICK, C_A, C_B, C_L, C_R, C_LR, C_START, C_SELECT, C_MENU, C_FAST, C_COUNT };
 
 typedef struct {
@@ -66,6 +68,8 @@ static float sStickZoneX, sStickZoneY; /* left side: a touch there grabs the sti
 static float sStickReach;   /* knob travel = radius of the base */
 static float sStickGrab;    /* how far from the resting centre a touch takes it */
 static int sStickHeld;
+static int sGamepad;    /* a game controller is connected: the controls hide */
+static int sShowAnyway; /* ...unless the screen was touched since its last use */
 static uint32_t sHeld;
 static int sMenuTaps;
 static int sFastOn;
@@ -156,14 +160,31 @@ void PcTouchLayout(int ow, int oh, const SDL_Rect* game) {
     float pw = u * 0.18f * k, ph = pw * 64 / 200;
     float ic = u * 0.105f * k;
     float dcx, dcy, acx, acy, ax, ay;
+    float bl = (float)game->x, br = (float)(ow - game->x - game->w); /* side borders */
+    int inLeft = 0, inRight = 0;
 
     sOw = ow;
     sOh = oh;
 
+    /* With a narrower picture (original, 4:3, 16:9) the borders beside it
+     * hold the controls, shrunk a little if needed, so they cover none of
+     * the game. With the whole screen they float over the picture. */
+    if (bl > 0 && br > 0) {
+        float sL = (bl - m) / d, sR = (br - m) / (ab * 2.08f);
+        if (sL >= 0.7f) {
+            inLeft = 1;
+            if (sL < 1) d *= sL;
+        }
+        if (sR >= 0.7f) {
+            inRight = 1;
+            if (sR < 1) { ab *= sR; tw *= sR; th *= sR; }
+        }
+    }
+
     /* Joystick: left thumb, high on the left so the game's card deck
      * (bottom left) stays in view. It is floating: a touch anywhere on the
      * left side brings it under the finger. */
-    dcx = m + d * 0.5f;
+    dcx = inLeft ? bl / 2 : m + d * 0.5f;
     dcy = oh * 0.34f;
     if (dcy - d / 2 < oh * 0.13f)
         dcy = oh * 0.13f + d / 2;
@@ -174,7 +195,7 @@ void PcTouchLayout(int ow, int oh, const SDL_Rect* game) {
     sStickRestY = dcy;
     sStickReach = d * 0.36f;
     sStickGrab = d * 1.0f;
-    sStickZoneX = dcx + d * 0.75f;
+    sStickZoneX = inLeft ? (bl > dcx + d * 0.75f ? bl : dcx + d * 0.75f) : dcx + d * 0.75f;
     sStickZoneY = oh * 0.12f;
     if (!sStickHeld) {
         sStickX = sKnobX = dcx;
@@ -182,7 +203,7 @@ void PcTouchLayout(int ow, int oh, const SDL_Rect* game) {
     }
 
     /* A up and to the right of B, like the console: right thumb. */
-    acx = ow - m - ab * 0.62f;
+    acx = inRight ? ow - br / 2 + ab * 0.54f : ow - m - ab * 0.62f;
     acy = oh * 0.50f;
     Place(C_A, acx, acy, ab, ab, ab * 0.62f);
     Place(C_B, acx - ab * 1.08f, acy + ab * 0.55f, ab, ab, ab * 0.62f);
@@ -278,10 +299,14 @@ static uint32_t StickBits(void) {
 static void StickTo(float x, float y) {
     float dx = x - sStickX, dy = y - sStickY;
     float r = sqrtf(dx * dx + dy * dy);
-    if (r > sStickReach) {
+    if (r > sStickReach && gPcConfig.stickMode == STICK_FLOATING) {
         float pull = (r - sStickReach) / r;
         sStickX += dx * pull;
         sStickY += dy * pull;
+    } else if (r > sStickReach) {
+        /* Fixed: the knob stops at the rim, the direction still follows. */
+        x = sStickX + dx * sStickReach / r;
+        y = sStickY + dy * sStickReach / r;
     }
     sKnobX = x;
     sKnobY = y;
@@ -325,8 +350,19 @@ static uint32_t Hit(Finger* f, int down) {
     if (down) {
         uint32_t bits = ButtonsAt(f->x, f->y);
         float dx = f->x - sStickRestX, dy = f->y - sStickRestY;
-        int inZone = f->x < sStickZoneX && f->y > sStickZoneY;
-        if (!bits && !sStickHeld && (inZone || sqrtf(dx * dx + dy * dy) < sStickGrab)) {
+        float dist = sqrtf(dx * dx + dy * dy);
+        if (!bits && !sStickHeld && gPcConfig.stickMode != STICK_FLOATING &&
+            dist < sCtl[C_STICK].w * 0.62f) {
+            /* Fixed joystick or D-pad: pressed where it is. */
+            f->onStick = 1;
+            sStickHeld = 1;
+            sStickX = sStickRestX;
+            sStickY = sStickRestY;
+            StickTo(f->x, f->y);
+            return StickBits();
+        }
+        if (!bits && !sStickHeld && gPcConfig.stickMode == STICK_FLOATING &&
+            ((f->x < sStickZoneX && f->y > sStickZoneY) || dist < sStickGrab)) {
             /* The stick comes to the finger. */
             float half = sCtl[C_STICK].w / 2;
             f->onStick = 1;
@@ -400,6 +436,12 @@ int PcTouchHandleEvent(const SDL_Event* e) {
     switch (e->type) {
         case SDL_FINGERDOWN:
         case SDL_FINGERMOTION:
+            if (sGamepad && !sShowAnyway) {
+                /* Controller in use: a touch only brings the buttons back. */
+                if (e->type == SDL_FINGERDOWN)
+                    sShowAnyway = 1;
+                return 1;
+            }
             f = FindFinger(e->tfinger.fingerId, e->type == SDL_FINGERDOWN);
             if (!f)
                 return 1;
@@ -457,9 +499,22 @@ void PcTouchDraw(SDL_Renderer* r) {
     Uint8 a = (Uint8)(gPcConfig.touchOpacity * 255 / 100);
     Uint8 aOn = (Uint8)(a + (255 - a) / 2);
     uint32_t h = sHeld;
-    if (!sAtlas || gPcConfig.touchOpacity <= 0)
+    if (!sAtlas || gPcConfig.touchOpacity <= 0 || PcTouchHidden())
         return;
-    {
+    if (gPcConfig.stickMode == STICK_DPAD) {
+        Control pad = sCtl[C_STICK];
+        static const struct { uint32_t key; double angle; } kArms[4] = {
+            {KEY_UP, 0}, {KEY_RIGHT, 90}, {KEY_DOWN, 180}, {KEY_LEFT, 270}};
+        int i;
+        float w = pad.w * 0.95f;
+        pad.x = sStickRestX - w / 2;
+        pad.y = sStickRestY - w / 2;
+        pad.w = pad.h = w;
+        DrawSprite(r, T_DPAD, &pad, sStickHeld ? aOn : a, 0);
+        for (i = 0; i < 4; i++)
+            if (h & kArms[i].key)
+                DrawSprite(r, T_DPAD_HL, &pad, 255, kArms[i].angle);
+    } else {
         Control base = sCtl[C_STICK], knob;
         float kw = base.w * 0.54f;
         base.x = sStickX - base.w / 2;
@@ -517,4 +572,23 @@ void PcTouchDrawBackdrop(SDL_Renderer* r, int ow, int oh, const SDL_Rect* game) 
 
 uint32_t PcTouchLastUse(void) {
     return sLastTouchMs;
+}
+
+/* A game controller was connected (1) or the last one removed (0). */
+void PcTouchSetGamepad(int connected) {
+    sGamepad = connected;
+    sShowAnyway = 0;
+    PcTouchReset();
+}
+
+/* The controller was used again: the on-screen buttons step aside. */
+void PcTouchGamepadUsed(void) {
+    if (sShowAnyway) {
+        sShowAnyway = 0;
+        PcTouchReset();
+    }
+}
+
+int PcTouchHidden(void) {
+    return sGamepad && !sShowAnyway;
 }
