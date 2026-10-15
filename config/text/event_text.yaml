@@ -1,0 +1,7747 @@
+pool: event_text
+formats:
+  us: {encoding: game, align: 2, ctype: const u16, count: slot}
+  us_data: {encoding: game, align: 2, ctype: u16, count: slot}
+  us_sjis: {encoding: jp, align: 4, ctype: const u8, count: slot}
+  jp: {encoding: game, align: 4, ctype: const u8, count: slot}
+fragments:
+  us:
+  - name: event_074_text.inc
+    format: us
+    start: 0x08F7F66C
+    end: 0x08F7FD30
+    entries:
+    - gEvent074Text00
+    - gEvent074Text01
+    - gEvent074Text02
+    - gEvent074Text03
+    - gEvent074Text04
+    - gEvent074Text05
+    - gEvent074Text06
+    - gEvent074Text07
+    - gEvent074Text08
+    - gEvent074Text09
+    - gEvent074Text10
+    - gEvent074Text11
+    - gEvent074Text12
+    - gEvent074Text13
+    - gEvent074Text14
+    - gEvent074Text15
+    - gEvent074Text16
+    - gEvent074Text17
+    - gEvent074Text18
+    - gEvent074Text19
+  - name: event_075_text.inc
+    format: us
+    start: 0x08F80AFC
+    end: 0x08F813E4
+    entries:
+    - gEvent075Text00
+    - gEvent075Text01
+    - gEvent075Text02
+    - gEvent075Text03
+    - gEvent075Text04
+    - gEvent075Text05
+    - gEvent075Text06
+    - gEvent075Text07
+    - gEvent075Text08
+    - gEvent075Text09
+    - gEvent075Text10
+    - gEvent075Text11
+    - gEvent075Text12
+    - gEvent075Text13
+    - gEvent075Text14
+    - gEvent075Text15
+    - gEvent075Text16
+    - gEvent075Text17
+    - gEvent075Text18
+    - gEvent075Text19
+    - gEvent075Text20
+    - gEvent075Text21
+  - name: event_076_text.inc
+    format: us
+    start: 0x08F82080
+    end: 0x08F82A48
+    entries:
+    - gEvent076Text00
+    - gEvent076Text01
+    - gEvent076Text02
+    - gEvent076Text03
+    - gEvent076Text04
+    - gEvent076Text05
+    - gEvent076Text06
+    - gEvent076Text07
+    - gEvent076Text08
+    - gEvent076Text09
+    - gEvent076Text10
+    - gEvent076Text11
+    - gEvent076Text12
+    - gEvent076Text13
+    - gEvent076Text14
+    - gEvent076Text15
+    - gEvent076Text16
+    - gEvent076Text17
+    - gEvent076Text18
+    - gEvent076Text19
+    - gEvent076Text20
+    - gEvent076Text21
+    - gEvent076Text22
+    - gEvent076Text23
+    - gEvent076Text24
+    - gEvent076Text25
+    - gEvent076Text26
+    - gEvent076Text27
+    - gEvent076Text28
+    - gEvent076Text29
+    - gEvent076Text30
+  - name: event_077_text.inc
+    format: us
+    start: 0x08F8380C
+    end: 0x08F83878
+    entries:
+    - gEvent077Text00
+    - gEvent077Text01
+    - gEvent077Text02
+  - name: event_078_text.inc
+    format: us
+    start: 0x08F83A24
+    end: 0x08F83B0C
+    entries:
+    - gEvent078Text00
+    - gEvent078Text01
+    - gEvent078Text02
+    - gEvent078Text03
+    - gEvent078Text04
+    - gEvent078Text05
+  - name: event_080_text.inc
+    format: us
+    start: 0x08F841B8
+    end: 0x08F845AC
+    entries:
+    - gEvent080Text00
+    - gEvent080Text01
+    - gEvent080Text02
+    - gEvent080Text03
+    - gEvent080Text04
+    - gEvent080Text05
+    - gEvent080Text06
+    - gEvent080Text07
+    - gEvent080Text08
+    - gEvent080Text09
+    - gEvent080Text10
+    - gEvent080Text11
+    - gEvent080Text12
+    - gEvent080Text13
+  - name: event_081_text.inc
+    format: us
+    start: 0x08F84E24
+    end: 0x08F84F70
+    entries:
+    - gEvent081Text00
+    - gEvent081Text01
+    - gEvent081Text02
+    - gEvent081Text03
+  - name: event_082_text.inc
+    format: us
+    start: 0x08F85A48
+    end: 0x08F85AB4
+    entries:
+    - gEvent082Text00
+    - gEvent082Text01
+    - gEvent082Text02
+  - name: event_083_text.inc
+    format: us
+    start: 0x08F85EB4
+    end: 0x08F86074
+    entries:
+    - gEvent083Text00
+    - gEvent083Text01
+    - gEvent083Text02
+    - gEvent083Text03
+    - gEvent083Text04
+  - name: event_084_text.inc
+    format: us
+    start: 0x08F8645C
+    end: 0x08F86570
+    entries:
+    - gEvent084Text00
+    - gEvent084Text01
+    - gEvent084Text02
+  - name: event_085_text.inc
+    format: us
+    start: 0x08F86778
+    end: 0x08F867D4
+    entries:
+    - gEvent085Text00
+  - name: event_086_text.inc
+    format: us
+    start: 0x08F86C70
+    end: 0x08F87250
+    entries:
+    - gEvent086Text00
+    - gEvent086Text01
+    - gEvent086Text02
+    - gEvent086Text03
+    - gEvent086Text04
+    - gEvent086Text05
+    - gEvent086Text06
+    - gEvent086Text07
+    - gEvent086Text08
+    - gEvent086Text09
+    - gEvent086Text10
+    - gEvent086Text11
+    - gEvent086Text12
+    - gEvent086Text13
+  - name: event_087_text.inc
+    format: us
+    start: 0x08F878EC
+    end: 0x08F87E64
+    entries:
+    - gEvent087Text00
+    - gEvent087Text01
+    - gEvent087Text02
+    - gEvent087Text03
+    - gEvent087Text04
+    - gEvent087Text05
+    - gEvent087Text06
+    - gEvent087Text07
+    - gEvent087Text08
+    - gEvent087Text09
+    - gEvent087Text10
+    - gEvent087Text11
+    - gEvent087Text12
+    - gEvent087Text13
+    - gEvent087Text14
+    - gEvent087Text15
+    - gEvent087Text16
+    - gEvent087Text17
+  - name: event_088_text.inc
+    format: us
+    start: 0x08F89184
+    end: 0x08F89598
+    entries:
+    - gEvent088Text00
+    - gEvent088Text01
+    - gEvent088Text02
+    - gEvent088Text03
+    - gEvent088Text04
+    - gEvent088Text05
+    - gEvent088Text06
+    - gEvent088Text07
+    - gEvent088Text08
+    - gEvent088Text09
+    - gEvent088Text10
+    - gEvent088Text11
+  - name: event_089_text.inc
+    format: us
+    start: 0x08F89E84
+    end: 0x08F8A88C
+    entries:
+    - gEvent089Text00
+    - gEvent089Text01
+    - gEvent089Text02
+    - gEvent089Text03
+    - gEvent089Text04
+    - gEvent089Text05
+    - gEvent089Text06
+    - gEvent089Text07
+    - gEvent089Text08
+    - gEvent089Text09
+    - gEvent089Text10
+    - gEvent089Text11
+    - gEvent089Text12
+    - gEvent089Text13
+    - gEvent089Text14
+    - gEvent089Text15
+    - gEvent089Text16
+    - gEvent089Text17
+    - gEvent089Text18
+    - gEvent089Text19
+    - gEvent089Text20
+    - gEvent089Text21
+    - gEvent089Text22
+    - gEvent089Text23
+    - gEvent089Text24
+    - gEvent089Text25
+  - name: event_090_text.inc
+    format: us
+    start: 0x08F8B5A4
+    end: 0x08F8BCF0
+    entries:
+    - gEvent090Text00
+    - gEvent090Text01
+    - gEvent090Text02
+    - gEvent090Text03
+    - gEvent090Text04
+    - gEvent090Text05
+    - gEvent090Text06
+    - gEvent090Text07
+    - gEvent090Text08
+    - gEvent090Text09
+    - gEvent090Text10
+    - gEvent090Text11
+    - gEvent090Text12
+    - gEvent090Text13
+    - gEvent090Text14
+    - gEvent090Text15
+    - gEvent090Text16
+    - gEvent090Text17
+    - gEvent090Text18
+    - gEvent090Text19
+    - gEvent090Text20
+    - gEvent090Text21
+  - name: event_091_text.inc
+    format: us
+    start: 0x08F8D06C
+    end: 0x08F8D314
+    entries:
+    - gEvent091Text00
+    - gEvent091Text01
+    - gEvent091Text02
+    - gEvent091Text03
+    - gEvent091Text04
+    - gEvent091Text05
+    - gEvent091Text06
+    - gEvent091Text07
+    - gEvent091Text08
+    - gEvent091Text09
+    - gEvent091Text10
+  - name: event_092_text.inc
+    format: us
+    start: 0x08F8D964
+    end: 0x08F8D9A8
+    entries:
+    - gEvent092Text00
+  - name: event_093_text.inc
+    format: us
+    start: 0x08F8DA70
+    end: 0x08F8E4BC
+    entries:
+    - gEvent093Text00
+    - gEvent093Text01
+    - gEvent093Text02
+    - gEvent093Text03
+    - gEvent093Text04
+    - gEvent093Text05
+    - gEvent093Text06
+    - gEvent093Text07
+    - gEvent093Text08
+    - gEvent093Text09
+    - gEvent093Text10
+    - gEvent093Text11
+    - gEvent093Text12
+    - gEvent093Text13
+    - gEvent093Text14
+    - gEvent093Text15
+    - gEvent093Text16
+    - gEvent093Text17
+    - gEvent093Text18
+    - gEvent093Text19
+    - gEvent093Text20
+    - gEvent093Text21
+    - gEvent093Text22
+    - gEvent093Text23
+    - gEvent093Text24
+  - name: event_094_text.inc
+    format: us
+    start: 0x08F8F280
+    end: 0x08F8F524
+    entries:
+    - gEvent094Text00
+    - gEvent094Text01
+    - gEvent094Text02
+    - gEvent094Text03
+    - gEvent094Text04
+    - gEvent094Text05
+    - gEvent094Text06
+  - name: event_095_text.inc
+    format: us
+    start: 0x08F8FF48
+    end: 0x08F909A8
+    entries:
+    - gEvent095Text00
+    - gEvent095Text01
+    - gEvent095Text02
+    - gEvent095Text03
+    - gEvent095Text04
+    - gEvent095Text05
+    - gEvent095Text06
+    - gEvent095Text07
+    - gEvent095Text08
+    - gEvent095Text09
+    - gEvent095Text10
+    - gEvent095Text11
+    - gEvent095Text12
+    - gEvent095Text13
+    - gEvent095Text14
+    - gEvent095Text15
+    - gEvent095Text16
+    - gEvent095Text17
+    - gEvent095Text18
+    - gEvent095Text19
+    - gEvent095Text20
+    - gEvent095Text21
+    - gEvent095Text22
+    - gEvent095Text23
+    - gEvent095Text24
+    - gEvent095Text25
+    - gEvent095Text26
+    - gEvent095Text27
+    - gEvent095Text28
+    - gEvent095Text29
+  - name: event_096_text.inc
+    format: us
+    start: 0x08F91734
+    end: 0x08F9181C
+    entries:
+    - gEvent096Text00
+    - gEvent096Text01
+    - gEvent096Text02
+    - gEvent096Text03
+    - gEvent096Text04
+    - gEvent096Text05
+  - name: event_097_text.inc
+    format: us
+    start: 0x08F92A60
+    end: 0x08F933F4
+    entries:
+    - gEvent097Text00
+    - gEvent097Text01
+    - gEvent097Text02
+    - gEvent097Text03
+    - gEvent097Text04
+    - gEvent097Text05
+    - gEvent097Text06
+    - gEvent097Text07
+    - gEvent097Text08
+    - gEvent097Text09
+    - gEvent097Text10
+    - gEvent097Text11
+    - gEvent097Text12
+    - gEvent097Text13
+    - gEvent097Text14
+    - gEvent097Text15
+    - gEvent097Text16
+    - gEvent097Text17
+    - gEvent097Text18
+    - gEvent097Text19
+    - gEvent097Text20
+  - name: event_098_text.inc
+    format: us
+    start: 0x08F94210
+    end: 0x08F94564
+    entries:
+    - gEvent098Text00
+    - gEvent098Text01
+    - gEvent098Text02
+    - gEvent098Text03
+    - gEvent098Text04
+    - gEvent098Text05
+    - gEvent098Text06
+    - gEvent098Text07
+    - gEvent098Text08
+    - gEvent098Text09
+    - gEvent098Text10
+    - gEvent098Text11
+    - gEvent098Text12
+    - gEvent098Text13
+    - gEvent098Text14
+    - gEvent098Text15
+  - name: event_099_text.inc
+    format: us
+    start: 0x08F95258
+    end: 0x08F952AC
+    entries:
+    - gEvent099Text00
+  - name: event_100_text.inc
+    format: us
+    start: 0x08F95410
+    end: 0x08F95D7C
+    entries:
+    - gEvent100Text00
+    - gEvent100Text01
+    - gEvent100Text02
+    - gEvent100Text03
+    - gEvent100Text04
+    - gEvent100Text05
+    - gEvent100Text06
+    - gEvent100Text07
+    - gEvent100Text08
+    - gEvent100Text09
+    - gEvent100Text10
+    - gEvent100Text11
+    - gEvent100Text12
+    - gEvent100Text13
+    - gEvent100Text14
+    - gEvent100Text15
+    - gEvent100Text16
+    - gEvent100Text17
+    - gEvent100Text18
+    - gEvent100Text19
+    - gEvent100Text20
+    - gEvent100Text21
+    - gEvent100Text22
+    - gEvent100Text23
+    - gEvent100Text24
+    - gEvent100Text25
+    - gEvent100Text26
+    - gEvent100Text27
+  - name: event_101_text.inc
+    format: us
+    start: 0x08F96C6C
+    end: 0x08F97034
+    entries:
+    - gEvent101Text00
+    - gEvent101Text01
+    - gEvent101Text02
+    - gEvent101Text03
+    - gEvent101Text04
+    - gEvent101Text05
+    - gEvent101Text06
+    - gEvent101Text07
+    - gEvent101Text08
+    - gEvent101Text09
+    - gEvent101Text10
+    - gEvent101Text11
+  - name: event_102_text.inc
+    format: us
+    start: 0x08F97BE8
+    end: 0x08F98338
+    entries:
+    - gEvent102Text00
+    - gEvent102Text01
+    - gEvent102Text02
+    - gEvent102Text03
+    - gEvent102Text04
+    - gEvent102Text05
+    - gEvent102Text06
+    - gEvent102Text07
+    - gEvent102Text08
+    - gEvent102Text09
+    - gEvent102Text10
+    - gEvent102Text11
+    - gEvent102Text12
+    - gEvent102Text13
+    - gEvent102Text14
+    - gEvent102Text15
+    - gEvent102Text16
+    - gEvent102Text17
+    - gEvent102Text18
+  - name: event_103_text.inc
+    format: us
+    start: 0x08F98DCC
+    end: 0x08F99894
+    entries:
+    - gEvent103Text00
+    - gEvent103Text01
+    - gEvent103Text02
+    - gEvent103Text03
+    - gEvent103Text04
+    - gEvent103Text05
+    - gEvent103Text06
+    - gEvent103Text07
+    - gEvent103Text08
+    - gEvent103Text09
+    - gEvent103Text10
+    - gEvent103Text11
+    - gEvent103Text12
+    - gEvent103Text13
+    - gEvent103Text14
+    - gEvent103Text15
+    - gEvent103Text16
+    - gEvent103Text17
+    - gEvent103Text18
+    - gEvent103Text19
+    - gEvent103Text20
+    - gEvent103Text21
+    - gEvent103Text22
+    - gEvent103Text23
+    - gEvent103Text24
+    - gEvent103Text25
+    - gEvent103Text26
+    - gEvent103Text27
+    - gEvent103Text28
+    - gEvent103Text29
+  - name: event_104_text.inc
+    format: us
+    start: 0x08F9A410
+    end: 0x08F9A8CC
+    entries:
+    - gEvent104Text00
+    - gEvent104Text01
+    - gEvent104Text02
+    - gEvent104Text03
+    - gEvent104Text04
+    - gEvent104Text05
+    - gEvent104Text06
+    - gEvent104Text07
+    - gEvent104Text08
+    - gEvent104Text09
+    - gEvent104Text10
+    - gEvent104Text11
+    - gEvent104Text12
+    - gEvent104Text13
+    - gEvent104Text14
+    - gEvent104Text15
+  - name: event_105_text.inc
+    format: us
+    start: 0x08F9B350
+    end: 0x08F9B3BC
+    entries:
+    - gEvent105Text00
+  - name: event_106_text.inc
+    format: us
+    start: 0x08F9B484
+    end: 0x08F9BCF4
+    entries:
+    - gEvent106Text00
+    - gEvent106Text01
+    - gEvent106Text02
+    - gEvent106Text03
+    - gEvent106Text04
+    - gEvent106Text05
+    - gEvent106Text06
+    - gEvent106Text07
+    - gEvent106Text08
+    - gEvent106Text09
+    - gEvent106Text10
+    - gEvent106Text11
+    - gEvent106Text12
+    - gEvent106Text13
+    - gEvent106Text14
+    - gEvent106Text15
+    - gEvent106Text16
+    - gEvent106Text17
+    - gEvent106Text18
+    - gEvent106Text19
+  - name: event_107_text.inc
+    format: us
+    start: 0x08F9C3E4
+    end: 0x08F9C4E8
+    entries:
+    - gEvent107Text00
+    - gEvent107Text01
+    - gEvent107Text02
+    - gEvent107Text03
+  - name: event_108_text.inc
+    format: us
+    start: 0x08F9CD50
+    end: 0x08F9D3E0
+    entries:
+    - gEvent108Text00
+    - gEvent108Text01
+    - gEvent108Text02
+    - gEvent108Text03
+    - gEvent108Text04
+    - gEvent108Text05
+    - gEvent108Text06
+    - gEvent108Text07
+    - gEvent108Text08
+    - gEvent108Text09
+    - gEvent108Text10
+    - gEvent108Text11
+    - gEvent108Text12
+    - gEvent108Text13
+    - gEvent108Text14
+    - gEvent108Text15
+  - name: event_109_text.inc
+    format: us
+    start: 0x08F9E88C
+    end: 0x08F9F3F8
+    entries:
+    - gEvent109Text00
+    - gEvent109Text01
+    - gEvent109Text02
+    - gEvent109Text03
+    - gEvent109Text04
+    - gEvent109Text05
+    - gEvent109Text06
+    - gEvent109Text07
+    - gEvent109Text08
+    - gEvent109Text09
+    - gEvent109Text10
+    - gEvent109Text11
+    - gEvent109Text12
+    - gEvent109Text13
+    - gEvent109Text14
+    - gEvent109Text15
+    - gEvent109Text16
+    - gEvent109Text17
+    - gEvent109Text18
+    - gEvent109Text19
+    - gEvent109Text20
+    - gEvent109Text21
+  - name: event_110_text.inc
+    format: us
+    start: 0x08FA00D4
+    end: 0x08FA0434
+    entries:
+    - gEvent110Text00
+    - gEvent110Text01
+    - gEvent110Text02
+    - gEvent110Text03
+    - gEvent110Text04
+    - gEvent110Text05
+    - gEvent110Text06
+    - gEvent110Text07
+    - gEvent110Text08
+    - gEvent110Text09
+    - gEvent110Text10
+    - gEvent110Text11
+    - gEvent110Text12
+  - name: event_111_text.inc
+    format: us
+    start: 0x08FA16EC
+    end: 0x08FA2208
+    entries:
+    - gEvent111Text00
+    - gEvent111Text01
+    - gEvent111Text02
+    - gEvent111Text03
+    - gEvent111Text04
+    - gEvent111Text05
+    - gEvent111Text06
+    - gEvent111Text07
+    - gEvent111Text08
+    - gEvent111Text09
+    - gEvent111Text10
+    - gEvent111Text11
+    - gEvent111Text12
+    - gEvent111Text13
+    - gEvent111Text14
+    - gEvent111Text15
+    - gEvent111Text16
+    - gEvent111Text17
+    - gEvent111Text18
+    - gEvent111Text19
+    - gEvent111Text20
+    - gEvent111Text21
+    - gEvent111Text22
+    - gEvent111Text23
+    - gEvent111Text24
+    - gEvent111Text25
+    - gEvent111Text26
+    - gEvent111Text27
+    - gEvent111Text28
+  - name: event_112_text.inc
+    format: us
+    start: 0x08FA3218
+    end: 0x08FA3778
+    entries:
+    - gEvent112Text00
+    - gEvent112Text01
+    - gEvent112Text02
+    - gEvent112Text03
+    - gEvent112Text04
+    - gEvent112Text05
+    - gEvent112Text06
+    - gEvent112Text07
+    - gEvent112Text08
+    - gEvent112Text09
+    - gEvent112Text10
+    - gEvent112Text11
+    - gEvent112Text12
+    - gEvent112Text13
+    - gEvent112Text14
+  - name: event_113_text.inc
+    format: us
+    start: 0x08FA42A8
+    end: 0x08FA42F8
+    entries:
+    - gEvent113Text00
+  - name: event_114_text.inc
+    format: us
+    start: 0x08FA4400
+    end: 0x08FA4EE0
+    entries:
+    - gEvent114Text00
+    - gEvent114Text01
+    - gEvent114Text02
+    - gEvent114Text03
+    - gEvent114Text04
+    - gEvent114Text05
+    - gEvent114Text06
+    - gEvent114Text07
+    - gEvent114Text08
+    - gEvent114Text09
+    - gEvent114Text10
+    - gEvent114Text11
+    - gEvent114Text12
+    - gEvent114Text13
+    - gEvent114Text14
+    - gEvent114Text15
+    - gEvent114Text16
+    - gEvent114Text17
+    - gEvent114Text18
+    - gEvent114Text19
+    - gEvent114Text20
+    - gEvent114Text21
+    - gEvent114Text22
+    - gEvent114Text23
+    - gEvent114Text24
+    - gEvent114Text25
+    - gEvent114Text26
+    - gEvent114Text27
+    - gEvent114Text28
+    - gEvent114Text29
+    - gEvent114Text30
+  - name: event_115_text.inc
+    format: us
+    start: 0x08FA5EEC
+    end: 0x08FA60D0
+    entries:
+    - gEvent115Text00
+    - gEvent115Text01
+    - gEvent115Text02
+    - gEvent115Text03
+    - gEvent115Text04
+    - gEvent115Text05
+    - gEvent115Text06
+    - gEvent115Text07
+  - name: event_116_text.inc
+    format: us
+    start: 0x08FA6A94
+    end: 0x08FA7670
+    entries:
+    - gEvent116Text00
+    - gEvent116Text01
+    - gEvent116Text02
+    - gEvent116Text03
+    - gEvent116Text04
+    - gEvent116Text05
+    - gEvent116Text06
+    - gEvent116Text07
+    - gEvent116Text08
+    - gEvent116Text09
+    - gEvent116Text10
+    - gEvent116Text11
+    - gEvent116Text12
+    - gEvent116Text13
+    - gEvent116Text14
+    - gEvent116Text15
+    - gEvent116Text16
+    - gEvent116Text17
+    - gEvent116Text18
+    - gEvent116Text19
+    - gEvent116Text20
+    - gEvent116Text21
+    - gEvent116Text22
+    - gEvent116Text23
+    - gEvent116Text24
+    - gEvent116Text25
+    - gEvent116Text26
+    - gEvent116Text27
+    - gEvent116Text28
+    - gEvent116Text29
+    - gEvent116Text30
+  - name: event_117_text.inc
+    format: us
+    start: 0x08FA88A0
+    end: 0x08FA913C
+    entries:
+    - gEvent117Text00
+    - gEvent117Text01
+    - gEvent117Text02
+    - gEvent117Text03
+    - gEvent117Text04
+    - gEvent117Text05
+    - gEvent117Text06
+    - gEvent117Text07
+    - gEvent117Text08
+    - gEvent117Text09
+    - gEvent117Text10
+    - gEvent117Text11
+    - gEvent117Text12
+    - gEvent117Text13
+    - gEvent117Text14
+    - gEvent117Text15
+    - gEvent117Text16
+    - gEvent117Text17
+    - gEvent117Text18
+    - gEvent117Text19
+    - gEvent117Text20
+    - gEvent117Text21
+    - gEvent117Text22
+    - gEvent117Text23
+  - name: event_118_text.inc
+    format: us
+    start: 0x08FAA2D8
+    end: 0x08FAAA5C
+    entries:
+    - gEvent118Text00
+    - gEvent118Text01
+    - gEvent118Text02
+    - gEvent118Text03
+    - gEvent118Text04
+    - gEvent118Text05
+    - gEvent118Text06
+    - gEvent118Text07
+    - gEvent118Text08
+    - gEvent118Text09
+    - gEvent118Text10
+    - gEvent118Text11
+    - gEvent118Text12
+    - gEvent118Text13
+    - gEvent118Text14
+    - gEvent118Text15
+    - gEvent118Text16
+    - gEvent118Text17
+    - gEvent118Text18
+    - gEvent118Text19
+    - gEvent118Text20
+    - gEvent118Text21
+    - gEvent118Text22
+  - name: event_119_text.inc
+    format: us
+    start: 0x08FABC64
+    end: 0x08FAC8A4
+    entries:
+    - gEvent119Text00
+    - gEvent119Text01
+    - gEvent119Text02
+    - gEvent119Text03
+    - gEvent119Text04
+    - gEvent119Text05
+    - gEvent119Text06
+    - gEvent119Text07
+    - gEvent119Text08
+    - gEvent119Text09
+    - gEvent119Text10
+    - gEvent119Text11
+    - gEvent119Text12
+    - gEvent119Text13
+    - gEvent119Text14
+    - gEvent119Text15
+    - gEvent119Text16
+    - gEvent119Text17
+    - gEvent119Text18
+    - gEvent119Text19
+    - gEvent119Text20
+    - gEvent119Text21
+    - gEvent119Text22
+    - gEvent119Text23
+    - gEvent119Text24
+    - gEvent119Text25
+    - gEvent119Text26
+    - gEvent119Text27
+    - gEvent119Text28
+    - gEvent119Text29
+  - name: event_120_text.inc
+    format: us
+    start: 0x08FAD6F4
+    end: 0x08FAE0DC
+    entries:
+    - gEvent120Text00
+    - gEvent120Text01
+    - gEvent120Text02
+    - gEvent120Text03
+    - gEvent120Text04
+    - gEvent120Text05
+    - gEvent120Text06
+    - gEvent120Text07
+    - gEvent120Text08
+    - gEvent120Text09
+    - gEvent120Text10
+    - gEvent120Text11
+    - gEvent120Text12
+    - gEvent120Text13
+    - gEvent120Text14
+    - gEvent120Text15
+    - gEvent120Text16
+    - gEvent120Text17
+    - gEvent120Text18
+    - gEvent120Text19
+    - gEvent120Text20
+    - gEvent120Text21
+    - gEvent120Text22
+    - gEvent120Text23
+  - name: event_121_text.inc
+    format: us
+    start: 0x08FAF488
+    end: 0x08FB00E4
+    entries:
+    - gEvent121Text00
+    - gEvent121Text01
+    - gEvent121Text02
+    - gEvent121Text03
+    - gEvent121Text04
+    - gEvent121Text05
+    - gEvent121Text06
+    - gEvent121Text07
+    - gEvent121Text08
+    - gEvent121Text09
+    - gEvent121Text10
+    - gEvent121Text11
+    - gEvent121Text12
+    - gEvent121Text13
+    - gEvent121Text14
+    - gEvent121Text15
+    - gEvent121Text16
+    - gEvent121Text17
+    - gEvent121Text18
+    - gEvent121Text19
+    - gEvent121Text20
+    - gEvent121Text21
+    - gEvent121Text22
+    - gEvent121Text23
+    - gEvent121Text24
+    - gEvent121Text25
+    - gEvent121Text26
+    - gEvent121Text27
+    - gEvent121Text28
+    - gEvent121Text29
+    - gEvent121Text30
+    - gEvent121Text31
+    - gEvent121Text32
+    - gEvent121Text33
+  - name: event_122_text.inc
+    format: us
+    start: 0x08FB1654
+    end: 0x08FB1C48
+    entries:
+    - gEvent122Text00
+    - gEvent122Text01
+    - gEvent122Text02
+    - gEvent122Text03
+    - gEvent122Text04
+    - gEvent122Text05
+    - gEvent122Text06
+    - gEvent122Text07
+    - gEvent122Text08
+    - gEvent122Text09
+    - gEvent122Text10
+    - gEvent122Text11
+    - gEvent122Text12
+    - gEvent122Text13
+    - gEvent122Text14
+    - gEvent122Text15
+  - name: event_123_text.inc
+    format: us
+    start: 0x08FB2A18
+    end: 0x08FB2AC4
+    entries:
+    - gEvent123Text00
+    - gEvent123Text01
+    - gEvent123Text02
+  - name: event_124_text.inc
+    format: us
+    start: 0x08FB324C
+    end: 0x08FB3B9C
+    entries:
+    - gEvent124Text00
+    - gEvent124Text01
+    - gEvent124Text02
+    - gEvent124Text03
+    - gEvent124Text04
+    - gEvent124Text05
+    - gEvent124Text06
+    - gEvent124Text07
+    - gEvent124Text08
+    - gEvent124Text09
+    - gEvent124Text10
+    - gEvent124Text11
+    - gEvent124Text12
+    - gEvent124Text13
+    - gEvent124Text14
+    - gEvent124Text15
+    - gEvent124Text16
+    - gEvent124Text17
+    - gEvent124Text18
+    - gEvent124Text19
+    - gEvent124Text20
+    - gEvent124Text21
+    - gEvent124Text22
+    - gEvent124Text23
+    - gEvent124Text24
+    - gEvent124Text25
+    - gEvent124Text26
+  - name: event_125_text.inc
+    format: us
+    start: 0x08FB4B20
+    end: 0x08FB4B6C
+    entries:
+    - gEvent125Text00
+  - name: event_126_text.inc
+    format: us
+    start: 0x08FB4C7C
+    end: 0x08FB52A0
+    entries:
+    - gEvent126Text00
+    - gEvent126Text01
+    - gEvent126Text02
+    - gEvent126Text03
+    - gEvent126Text04
+    - gEvent126Text05
+    - gEvent126Text06
+    - gEvent126Text07
+    - gEvent126Text08
+    - gEvent126Text09
+    - gEvent126Text10
+    - gEvent126Text11
+    - gEvent126Text12
+    - gEvent126Text13
+    - gEvent126Text14
+    - gEvent126Text15
+    - gEvent126Text16
+    - gEvent126Text17
+    - gEvent126Text18
+    - gEvent126Text19
+    - gEvent126Text20
+  - name: event_127_text.inc
+    format: us_sjis
+    start: 0x08FB5FDC
+    end: 0x08FB6168
+    entries:
+    - gEvent127Text06
+    - gEvent127Text05
+    - gEvent127Text04
+    - gEvent127Text03
+    - gEvent127Text02
+    - gEvent127Text01
+    - gEvent127Text00
+  - name: event_128_text.inc
+    format: us_sjis
+    start: 0x08FB63A8
+    end: 0x08FB6490
+    entries:
+    - gEvent128Text03
+    - gEvent128Text02
+    - gEvent128Text01
+    - gEvent128Text00
+  - name: event_129_text.inc
+    format: us
+    start: 0x08FB65F0
+    end: 0x08FB6ABC
+    entries:
+    - gEvent129Text00
+    - gEvent129Text01
+    - gEvent129Text02
+    - gEvent129Text03
+    - gEvent129Text04
+    - gEvent129Text05
+    - gEvent129Text06
+    - gEvent129Text07
+    - gEvent129Text08
+    - gEvent129Text09
+    - gEvent129Text10
+    - gEvent129Text11
+  - name: event_130_text.inc
+    format: us
+    start: 0x08FB76E4
+    end: 0x08FB7E74
+    entries:
+    - gEvent130Text00
+    - gEvent130Text01
+    - gEvent130Text02
+    - gEvent130Text03
+    - gEvent130Text04
+    - gEvent130Text05
+    - gEvent130Text06
+    - gEvent130Text07
+    - gEvent130Text08
+    - gEvent130Text09
+    - gEvent130Text10
+    - gEvent130Text11
+    - gEvent130Text12
+    - gEvent130Text13
+    - gEvent130Text14
+    - gEvent130Text15
+    - gEvent130Text16
+    - gEvent130Text17
+    - gEvent130Text18
+    - gEvent130Text19
+    - gEvent130Text20
+    - gEvent130Text21
+    - gEvent130Text22
+    - gEvent130Text23
+  - name: event_131_text.inc
+    format: us
+    start: 0x08FB92D0
+    end: 0x08FBA08C
+    entries:
+    - gEvent131Text00
+    - gEvent131Text01
+    - gEvent131Text02
+    - gEvent131Text03
+    - gEvent131Text04
+    - gEvent131Text05
+    - gEvent131Text06
+    - gEvent131Text07
+    - gEvent131Text08
+    - gEvent131Text09
+    - gEvent131Text10
+    - gEvent131Text11
+    - gEvent131Text12
+    - gEvent131Text13
+    - gEvent131Text14
+    - gEvent131Text15
+    - gEvent131Text16
+    - gEvent131Text17
+    - gEvent131Text18
+    - gEvent131Text19
+    - gEvent131Text20
+    - gEvent131Text21
+    - gEvent131Text22
+    - gEvent131Text23
+    - gEvent131Text24
+    - gEvent131Text25
+    - gEvent131Text26
+    - gEvent131Text27
+    - gEvent131Text28
+    - gEvent131Text29
+    - gEvent131Text30
+    - gEvent131Text31
+    - gEvent131Text32
+    - gEvent131Text33
+    - gEvent131Text34
+    - gEvent131Text35
+    - gEvent131Text36
+    - gEvent131Text37
+  - name: event_132_text.inc
+    format: us
+    start: 0x08FBB6B8
+    end: 0x08FBBD24
+    entries:
+    - gEvent132Text00
+    - gEvent132Text01
+    - gEvent132Text02
+    - gEvent132Text03
+    - gEvent132Text04
+    - gEvent132Text05
+    - gEvent132Text06
+    - gEvent132Text07
+    - gEvent132Text08
+    - gEvent132Text09
+    - gEvent132Text10
+    - gEvent132Text11
+    - gEvent132Text12
+    - gEvent132Text13
+  - name: event_133_text.inc
+    format: us
+    start: 0x08FBC550
+    end: 0x08FBC8C4
+    entries:
+    - gEvent133Text00
+    - gEvent133Text01
+    - gEvent133Text02
+    - gEvent133Text03
+    - gEvent133Text04
+    - gEvent133Text05
+    - gEvent133Text06
+    - gEvent133Text07
+    - gEvent133Text08
+    - gEvent133Text09
+    - gEvent133Text10
+  - name: event_000_text.inc
+    format: us
+    start: 0x08FBD378
+    end: 0x08FBDFF8
+    entries:
+    - gEvent000Text00
+    - gEvent000Text01
+    - gEvent000Text02
+    - gEvent000Text03
+    - gEvent000Text04
+    - gEvent000Text05
+    - gEvent000Text06
+    - gEvent000Text07
+    - gEvent000Text08
+    - gEvent000Text09
+    - gEvent000Text10
+    - gEvent000Text11
+    - gEvent000Text12
+    - gEvent000Text13
+    - gEvent000Text14
+    - gEvent000Text15
+    - gEvent000Text16
+    - gEvent000Text17
+    - gEvent000Text18
+    - gEvent000Text19
+    - gEvent000Text20
+    - gEvent000Text21
+    - gEvent000Text22
+    - gEvent000Text23
+    - gEvent000Text24
+    - gEvent000Text25
+    - gEvent000Text26
+    - gEvent000Text27
+    - gEvent000Text28
+    - gEvent000Text29
+    - gEvent000Text30
+    - gEvent000Text31
+    - gEvent000Text32
+    - gEvent000Text33
+    - gEvent000Text34
+    - gEvent000Text35
+    - gEvent000Text36
+    - gEvent000Text37
+    - gEvent000Text38
+    - gEvent000Text39
+    - gEvent000Text40
+    - gEvent000Text41
+  - name: event_001_text.inc
+    format: us
+    start: 0x08FC0CDC
+    end: 0x08FC0DAC
+    entries:
+    - gEvent001Text00
+    - gEvent001Text01
+    - gEvent001Text02
+  - name: event_002_text.inc
+    format: us
+    start: 0x08FC13EC
+    end: 0x08FC16E8
+    entries:
+    - gEvent002Text00
+    - gEvent002Text01
+    - gEvent002Text02
+    - gEvent002Text03
+    - gEvent002Text04
+    - gEvent002Text05
+    - gEvent002Text06
+    - gEvent002Text07
+  - name: event_003_text.inc
+    format: us
+    start: 0x08FC22F8
+    end: 0x08FC2C98
+    entries:
+    - gEvent003Text00
+    - gEvent003Text01
+    - gEvent003Text02
+    - gEvent003Text03
+    - gEvent003Text04
+    - gEvent003Text05
+    - gEvent003Text06
+    - gEvent003Text07
+    - gEvent003Text08
+    - gEvent003Text09
+    - gEvent003Text10
+    - gEvent003Text11
+    - gEvent003Text12
+    - gEvent003Text13
+    - gEvent003Text14
+    - gEvent003Text15
+    - gEvent003Text16
+    - gEvent003Text17
+    - gEvent003Text18
+    - gEvent003Text19
+    - gEvent003Text20
+    - gEvent003Text21
+    - gEvent003Text22
+    - gEvent003Text23
+  - name: event_004_text.inc
+    format: us
+    start: 0x08FC3C20
+    end: 0x08FC4AD0
+    entries:
+    - gEvent004Text00
+    - gEvent004Text01
+    - gEvent004Text02
+    - gEvent004Text03
+    - gEvent004Text04
+    - gEvent004Text05
+    - gEvent004Text06
+    - gEvent004Text07
+    - gEvent004Text08
+    - gEvent004Text09
+    - gEvent004Text10
+    - gEvent004Text11
+    - gEvent004Text12
+    - gEvent004Text13
+    - gEvent004Text14
+    - gEvent004Text15
+    - gEvent004Text16
+    - gEvent004Text17
+    - gEvent004Text18
+    - gEvent004Text19
+    - gEvent004Text20
+    - gEvent004Text21
+    - gEvent004Text22
+    - gEvent004Text23
+    - gEvent004Text24
+    - gEvent004Text25
+    - gEvent004Text26
+    - gEvent004Text27
+    - gEvent004Text28
+    - gEvent004Text29
+    - gEvent004Text30
+    - gEvent004Text31
+    - gEvent004Text32
+    - gEvent004Text33
+    - gEvent004Text34
+    - gEvent004Text35
+    - gEvent004Text36
+    - gEvent004Text37
+  - name: event_005_text.inc
+    format: us
+    start: 0x08FC63D0
+    end: 0x08FC6574
+    entries:
+    - gEvent005Text00
+    - gEvent005Text01
+    - gEvent005Text02
+    - gEvent005Text03
+  - name: event_006_text.inc
+    format: us
+    start: 0x08FC6A08
+    end: 0x08FC78B8
+    entries:
+    - gEvent006Text00
+    - gEvent006Text01
+    - gEvent006Text02
+    - gEvent006Text03
+    - gEvent006Text04
+    - gEvent006Text05
+    - gEvent006Text06
+    - gEvent006Text07
+    - gEvent006Text08
+    - gEvent006Text09
+    - gEvent006Text10
+    - gEvent006Text11
+    - gEvent006Text12
+    - gEvent006Text13
+    - gEvent006Text14
+    - gEvent006Text15
+    - gEvent006Text16
+    - gEvent006Text17
+    - gEvent006Text18
+    - gEvent006Text19
+    - gEvent006Text20
+    - gEvent006Text21
+    - gEvent006Text22
+    - gEvent006Text23
+    - gEvent006Text24
+    - gEvent006Text25
+    - gEvent006Text26
+    - gEvent006Text27
+    - gEvent006Text28
+  - name: event_007_text.inc
+    format: us
+    start: 0x08FC8768
+    end: 0x08FC8D64
+    entries:
+    - gEvent007Text00
+    - gEvent007Text01
+    - gEvent007Text02
+    - gEvent007Text03
+    - gEvent007Text04
+    - gEvent007Text05
+    - gEvent007Text06
+    - gEvent007Text07
+    - gEvent007Text08
+    - gEvent007Text09
+    - gEvent007Text10
+    - gEvent007Text11
+    - gEvent007Text12
+    - gEvent007Text13
+    - gEvent007Text14
+    - gEvent007Text15
+  - name: event_009_text.inc
+    format: us
+    start: 0x08FC9A48
+    end: 0x08FCA798
+    entries:
+    - gEvent009Text00
+    - gEvent009Text01
+    - gEvent009Text02
+    - gEvent009Text03
+    - gEvent009Text04
+    - gEvent009Text05
+    - gEvent009Text06
+    - gEvent009Text07
+    - gEvent009Text08
+    - gEvent009Text09
+    - gEvent009Text10
+    - gEvent009Text11
+    - gEvent009Text12
+    - gEvent009Text13
+    - gEvent009Text14
+    - gEvent009Text15
+    - gEvent009Text16
+    - gEvent009Text17
+    - gEvent009Text18
+    - gEvent009Text19
+    - gEvent009Text20
+    - gEvent009Text21
+    - gEvent009Text22
+    - gEvent009Text23
+    - gEvent009Text24
+    - gEvent009Text25
+    - gEvent009Text26
+    - gEvent009Text27
+    - gEvent009Text28
+    - gEvent009Text29
+    - gEvent009Text30
+    - gEvent009Text31
+    - gEvent009Text32
+    - gEvent009Text33
+    - gEvent009Text34
+    - gEvent009Text35
+    - gEvent009Text36
+    - gEvent009Text37
+  - name: event_010_text.inc
+    format: us
+    start: 0x08FCBDC0
+    end: 0x08FCC188
+    entries:
+    - gEvent010Text00
+    - gEvent010Text01
+    - gEvent010Text02
+    - gEvent010Text03
+    - gEvent010Text04
+    - gEvent010Text05
+    - gEvent010Text06
+    - gEvent010Text07
+    - gEvent010Text08
+    - gEvent010Text09
+    - gEvent010Text10
+    - gEvent010Text11
+    - gEvent010Text12
+    - gEvent010Text13
+  - name: event_011_text.inc
+    format: us
+    start: 0x08FCD028
+    end: 0x08FCD864
+    entries:
+    - gEvent011Text01
+    - gEvent011Text02
+    - gEvent011Text03
+    - gEvent011Text04
+    - gEvent011Text05
+    - gEvent011Text06
+    - gEvent011Text07
+    - gEvent011Text08
+    - gEvent011Text09
+    - gEvent011Text10
+    - gEvent011Text11
+    - gEvent011Text12
+    - gEvent011Text13
+    - gEvent011Text14
+    - gEvent011Text15
+    - gEvent011Text16
+    - gEvent011Text17
+    - gEvent011Text18
+    - gEvent011Text19
+    - gEvent011Text20
+    - gEvent011Text21
+    - gEvent011Text22
+    - gEvent011Text23
+    - gEvent011Text24
+    - gEvent011Text25
+    - gEvent011Text26
+  - name: event_012_text.inc
+    format: us
+    start: 0x08FCE81C
+    end: 0x08FCED88
+    entries:
+    - gEvent012Text00
+    - gEvent012Text01
+    - gEvent012Text02
+    - gEvent012Text03
+    - gEvent012Text04
+    - gEvent012Text05
+    - gEvent012Text06
+    - gEvent012Text07
+    - gEvent012Text08
+    - gEvent012Text09
+    - gEvent012Text10
+    - gEvent012Text11
+    - gEvent012Text12
+    - gEvent012Text13
+    - gEvent012Text14
+    - gEvent012Text15
+    - gEvent012Text16
+    - gEvent012Text17
+  - name: event_013_text.inc
+    format: us
+    start: 0x08FCF724
+    end: 0x08FCFDB8
+    entries:
+    - gEvent013Text00
+    - gEvent013Text01
+    - gEvent013Text02
+    - gEvent013Text03
+    - gEvent013Text04
+    - gEvent013Text05
+    - gEvent013Text06
+    - gEvent013Text07
+    - gEvent013Text08
+    - gEvent013Text09
+    - gEvent013Text10
+    - gEvent013Text11
+    - gEvent013Text12
+    - gEvent013Text13
+    - gEvent013Text14
+    - gEvent013Text15
+    - gEvent013Text16
+  - name: event_014_text.inc
+    format: us_sjis
+    start: 0x08FD09C0
+    end: 0x08FD0A04
+    entries:
+    - gEvent014Text00
+  - name: event_015_text.inc
+    format: us
+    start: 0x08FD0B94
+    end: 0x08FD1524
+    entries:
+    - gEvent015Text00
+    - gEvent015Text01
+    - gEvent015Text02
+    - gEvent015Text03
+    - gEvent015Text04
+    - gEvent015Text05
+    - gEvent015Text06
+    - gEvent015Text07
+    - gEvent015Text08
+    - gEvent015Text09
+    - gEvent015Text10
+    - gEvent015Text11
+    - gEvent015Text12
+    - gEvent015Text13
+    - gEvent015Text14
+    - gEvent015Text15
+    - gEvent015Text16
+    - gEvent015Text17
+    - gEvent015Text18
+    - gEvent015Text19
+    - gEvent015Text20
+    - gEvent015Text21
+    - gEvent015Text22
+    - gEvent015Text23
+    - gEvent015Text24
+    - gEvent015Text25
+  - name: event_016_text.inc
+    format: us
+    start: 0x08FD267C
+    end: 0x08FD2A68
+    entries:
+    - gEvent016Text00
+    - gEvent016Text01
+    - gEvent016Text02
+    - gEvent016Text03
+    - gEvent016Text04
+    - gEvent016Text05
+    - gEvent016Text06
+    - gEvent016Text07
+    - gEvent016Text08
+    - gEvent016Text09
+  - name: event_017_text.inc
+    format: us
+    start: 0x08FD3090
+    end: 0x08FD3658
+    entries:
+    - gEvent017Text00
+    - gEvent017Text01
+    - gEvent017Text02
+    - gEvent017Text03
+    - gEvent017Text04
+    - gEvent017Text05
+    - gEvent017Text06
+    - gEvent017Text07
+    - gEvent017Text08
+    - gEvent017Text09
+    - gEvent017Text10
+  - name: event_018_text.inc
+    format: us
+    start: 0x08FD39A4
+    end: 0x08FD3E4C
+    entries:
+    - gEvent018Text00
+    - gEvent018Text01
+    - gEvent018Text02
+    - gEvent018Text03
+    - gEvent018Text04
+    - gEvent018Text05
+    - gEvent018Text06
+    - gEvent018Text07
+    - gEvent018Text08
+    - gEvent018Text09
+    - gEvent018Text10
+    - gEvent018Text11
+    - gEvent018Text12
+    - gEvent018Text13
+    - gEvent018Text14
+    - gEvent018Text15
+  - name: event_019_text.inc
+    format: us
+    start: 0x08FD4CD0
+    end: 0x08FD4EF4
+    entries:
+    - gEvent019Text00
+    - gEvent019Text01
+    - gEvent019Text02
+    - gEvent019Text03
+    - gEvent019Text04
+    - gEvent019Text05
+    - gEvent019Text06
+    - gEvent019Text07
+  - name: event_020_text.inc
+    format: us_sjis
+    start: 0x08FD546C
+    end: 0x08FD548C
+    entries:
+    - gEvent020Text00
+  - name: event_021_text.inc
+    format: us
+    start: 0x08FD561C
+    end: 0x08FD5C10
+    entries:
+    - gEvent021Text00
+    - gEvent021Text01
+    - gEvent021Text02
+    - gEvent021Text03
+    - gEvent021Text04
+    - gEvent021Text05
+    - gEvent021Text06
+    - gEvent021Text07
+    - gEvent021Text08
+    - gEvent021Text09
+    - gEvent021Text10
+    - gEvent021Text11
+    - gEvent021Text12
+    - gEvent021Text13
+    - gEvent021Text14
+    - gEvent021Text15
+    - gEvent021Text16
+  - name: event_022_text.inc
+    format: us
+    start: 0x08FD695C
+    end: 0x08FD7018
+    entries:
+    - gEvent022Text00
+    - gEvent022Text01
+    - gEvent022Text02
+    - gEvent022Text03
+    - gEvent022Text13
+    - gEvent022Text14
+    - gEvent022Text15
+    - gEvent022Text16
+    - gEvent022Text17
+    - gEvent022Text18
+    - gEvent022Text19
+    - gEvent022Text20
+    - gEvent022Text21
+    - gEvent022Text22
+    - gEvent022Text23
+    - gEvent022Text24
+  - name: event_023_text.inc
+    format: us
+    start: 0x08FD794C
+    end: 0x08FD7ED0
+    entries:
+    - gEvent023Text00
+    - gEvent023Text01
+    - gEvent023Text02
+    - gEvent023Text03
+    - gEvent023Text04
+    - gEvent023Text05
+    - gEvent023Text06
+    - gEvent023Text07
+    - gEvent023Text08
+    - gEvent023Text09
+    - gEvent023Text10
+    - gEvent023Text11
+    - gEvent023Text12
+    - gEvent023Text13
+  - name: event_024_text.inc
+    format: us
+    start: 0x08FD8524
+    end: 0x08FD86EC
+    entries:
+    - gEvent024Text00
+    - gEvent024Text01
+    - gEvent024Text02
+    - gEvent024Text03
+  - name: event_025_text.inc
+    format: us
+    start: 0x08FD8AB0
+    end: 0x08FD8F24
+    entries:
+    - gEvent025Text00
+    - gEvent025Text01
+    - gEvent025Text02
+    - gEvent025Text03
+    - gEvent025Text04
+    - gEvent025Text05
+    - gEvent025Text06
+    - gEvent025Text07
+    - gEvent025Text08
+    - gEvent025Text09
+    - gEvent025Text10
+  - name: event_026_text.inc
+    format: us
+    start: 0x08FD9BFC
+    end: 0x08FDA1A4
+    entries:
+    - gEvent026Text00
+    - gEvent026Text01
+    - gEvent026Text02
+    - gEvent026Text03
+    - gEvent026Text04
+    - gEvent026Text05
+    - gEvent026Text06
+    - gEvent026Text07
+    - gEvent026Text08
+    - gEvent026Text09
+    - gEvent026Text10
+    - gEvent026Text11
+    - gEvent026Text12
+    - gEvent026Text13
+    - gEvent026Text14
+    - gEvent026Text15
+    - gEvent026Text16
+    - gEvent026Text17
+    - gEvent026Text18
+    - gEvent026Text19
+  - name: event_027_text.inc
+    format: us
+    start: 0x08FDADB8
+    end: 0x08FDB19C
+    entries:
+    - gEvent027Text00
+    - gEvent027Text01
+    - gEvent027Text02
+    - gEvent027Text03
+    - gEvent027Text04
+    - gEvent027Text05
+    - gEvent027Text06
+    - gEvent027Text07
+    - gEvent027Text08
+    - gEvent027Text09
+  - name: event_028_text.inc
+    format: us
+    start: 0x08FDBAE0
+    end: 0x08FDC310
+    entries:
+    - gEvent028Text00
+    - gEvent028Text01
+    - gEvent028Text02
+    - gEvent028Text03
+    - gEvent028Text04
+    - gEvent028Text05
+    - gEvent028Text06
+    - gEvent028Text07
+    - gEvent028Text08
+    - gEvent028Text09
+    - gEvent028Text10
+    - gEvent028Text11
+    - gEvent028Text12
+    - gEvent028Text13
+    - gEvent028Text14
+    - gEvent028Text15
+    - gEvent028Text16
+    - gEvent028Text17
+    - gEvent028Text18
+    - gEvent028Text19
+  - name: event_029_text.inc
+    format: us
+    start: 0x08FDCB60
+    end: 0x08FDCDCC
+    entries:
+    - gEvent029Text00
+    - gEvent029Text01
+    - gEvent029Text02
+    - gEvent029Text03
+    - gEvent029Text04
+    - gEvent029Text05
+  - name: event_030_text.inc
+    format: us
+    start: 0x08FDD468
+    end: 0x08FDDC48
+    entries:
+    - gEvent030Text00
+    - gEvent030Text01
+    - gEvent030Text02
+    - gEvent030Text03
+    - gEvent030Text04
+    - gEvent030Text05
+    - gEvent030Text06
+    - gEvent030Text07
+    - gEvent030Text08
+    - gEvent030Text09
+    - gEvent030Text10
+    - gEvent030Text11
+    - gEvent030Text12
+    - gEvent030Text13
+    - gEvent030Text14
+    - gEvent030Text15
+    - gEvent030Text16
+    - gEvent030Text17
+    - gEvent030Text18
+    - gEvent030Text19
+    - gEvent030Text20
+    - gEvent030Text21
+    - gEvent030Text22
+    - gEvent030Text23
+    - gEvent030Text24
+  - name: event_031_text.inc
+    format: us
+    start: 0x08FDE5E8
+    end: 0x08FDE614
+    entries:
+    - gEvent031Text00
+  - name: event_032_text.inc
+    format: us
+    start: 0x08FDE97C
+    end: 0x08FDF3D8
+    entries:
+    - gEvent032Text00
+    - gEvent032Text01
+    - gEvent032Text02
+    - gEvent032Text03
+    - gEvent032Text04
+    - gEvent032Text05
+    - gEvent032Text06
+    - gEvent032Text07
+    - gEvent032Text08
+    - gEvent032Text09
+    - gEvent032Text10
+    - gEvent032Text11
+    - gEvent032Text12
+    - gEvent032Text13
+    - gEvent032Text14
+    - gEvent032Text15
+    - gEvent032Text16
+    - gEvent032Text17
+    - gEvent032Text18
+    - gEvent032Text19
+    - gEvent032Text20
+    - gEvent032Text21
+    - gEvent032Text22
+    - gEvent032Text23
+    - gEvent032Text24
+    - gEvent032Text25
+    - gEvent032Text26
+    - gEvent032Text27
+    - gEvent032Text28
+    - gEvent032Text29
+  - name: event_033_text.inc
+    format: us
+    start: 0x08FE0464
+    end: 0x08FE0BE0
+    entries:
+    - gEvent033Text00
+    - gEvent033Text01
+    - gEvent033Text02
+    - gEvent033Text03
+    - gEvent033Text04
+    - gEvent033Text05
+    - gEvent033Text06
+    - gEvent033Text07
+    - gEvent033Text08
+    - gEvent033Text09
+    - gEvent033Text10
+    - gEvent033Text11
+    - gEvent033Text12
+    - gEvent033Text13
+    - gEvent033Text14
+    - gEvent033Text15
+    - gEvent033Text16
+    - gEvent033Text17
+    - gEvent033Text18
+  - name: event_034_text.inc
+    format: us
+    start: 0x08FE1830
+    end: 0x08FE1B70
+    entries:
+    - gEvent034Text00
+    - gEvent034Text01
+    - gEvent034Text02
+    - gEvent034Text03
+    - gEvent034Text04
+    - gEvent034Text05
+    - gEvent034Text06
+    - gEvent034Text07
+    - gEvent034Text08
+    - gEvent034Text09
+  - name: event_035_text.inc
+    format: us
+    start: 0x08FE2010
+    end: 0x08FE2144
+    entries:
+    - gEvent035Text00
+    - gEvent035Text01
+    - gEvent035Text02
+  - name: event_036_text.inc
+    format: us
+    start: 0x08FE23B4
+    end: 0x08FE2874
+    entries:
+    - gEvent036Text00
+    - gEvent036Text01
+    - gEvent036Text02
+    - gEvent036Text03
+    - gEvent036Text04
+    - gEvent036Text05
+    - gEvent036Text06
+    - gEvent036Text07
+    - gEvent036Text08
+    - gEvent036Text09
+    - gEvent036Text10
+    - gEvent036Text11
+    - gEvent036Text12
+    - gEvent036Text13
+  - name: event_037_text.inc
+    format: us
+    start: 0x08FE306C
+    end: 0x08FE315C
+    entries:
+    - gEvent037Text00
+    - gEvent037Text01
+    - gEvent037Text02
+  - name: event_038_text.inc
+    format: us
+    start: 0x08FE37FC
+    end: 0x08FE42D0
+    entries:
+    - gEvent038Text00
+    - gEvent038Text01
+    - gEvent038Text02
+    - gEvent038Text03
+    - gEvent038Text04
+    - gEvent038Text05
+    - gEvent038Text06
+    - gEvent038Text07
+    - gEvent038Text08
+    - gEvent038Text09
+    - gEvent038Text10
+    - gEvent038Text11
+    - gEvent038Text12
+    - gEvent038Text13
+    - gEvent038Text14
+    - gEvent038Text15
+    - gEvent038Text16
+    - gEvent038Text17
+    - gEvent038Text18
+    - gEvent038Text19
+    - gEvent038Text20
+    - gEvent038Text21
+    - gEvent038Text22
+    - gEvent038Text23
+    - gEvent038Text24
+    - gEvent038Text25
+    - gEvent038Text26
+    - gEvent038Text27
+    - gEvent038Text28
+    - gEvent038Text29
+    - gEvent038Text30
+    - gEvent038Text31
+  - name: event_039_text.inc
+    format: us
+    start: 0x08FE4D50
+    end: 0x08FE5198
+    entries:
+    - gEvent039Text00
+    - gEvent039Text01
+    - gEvent039Text02
+    - gEvent039Text03
+    - gEvent039Text04
+    - gEvent039Text05
+    - gEvent039Text06
+    - gEvent039Text07
+    - gEvent039Text08
+    - gEvent039Text09
+  - name: event_040_text.inc
+    format: us
+    start: 0x08FE57C8
+    end: 0x08FE5B20
+    entries:
+    - gEvent040Text00
+    - gEvent040Text01
+    - gEvent040Text02
+    - gEvent040Text03
+    - gEvent040Text04
+    - gEvent040Text05
+    - gEvent040Text06
+    - gEvent040Text07
+    - gEvent040Text08
+    - gEvent040Text09
+    - gEvent040Text10
+    - gEvent040Text11
+  - name: event_041_text.inc
+    format: us
+    start: 0x08FE63B0
+    end: 0x08FE66A4
+    entries:
+    - gEvent041Text00
+    - gEvent041Text01
+    - gEvent041Text02
+    - gEvent041Text03
+    - gEvent041Text04
+    - gEvent041Text05
+    - gEvent041Text06
+    - gEvent041Text07
+    - gEvent041Text08
+  - name: event_042_text.inc
+    format: us
+    start: 0x08FE6D18
+    end: 0x08FE7078
+    entries:
+    - gEvent042Text00
+    - gEvent042Text01
+    - gEvent042Text02
+    - gEvent042Text03
+    - gEvent042Text04
+    - gEvent042Text05
+    - gEvent042Text06
+  - name: event_043_text.inc
+    format: us
+    start: 0x08FE7390
+    end: 0x08FE74C0
+    entries:
+    - gEvent043Text00
+    - gEvent043Text01
+  - name: event_044_text.inc
+    format: us
+    start: 0x08FE7918
+    end: 0x08FE8104
+    entries:
+    - gEvent044Text00
+    - gEvent044Text01
+    - gEvent044Text02
+    - gEvent044Text03
+    - gEvent044Text04
+    - gEvent044Text05
+    - gEvent044Text06
+    - gEvent044Text07
+    - gEvent044Text08
+    - gEvent044Text09
+    - gEvent044Text10
+    - gEvent044Text11
+    - gEvent044Text12
+    - gEvent044Text13
+    - gEvent044Text14
+    - gEvent044Text15
+    - gEvent044Text16
+    - gEvent044Text17
+    - gEvent044Text18
+    - gEvent044Text19
+    - gEvent044Text20
+    - gEvent044Text21
+  - name: event_045_text.inc
+    format: us
+    start: 0x08FE93B0
+    end: 0x08FE9F08
+    entries:
+    - gEvent045Text00
+    - gEvent045Text01
+    - gEvent045Text02
+    - gEvent045Text03
+    - gEvent045Text04
+    - gEvent045Text05
+    - gEvent045Text06
+    - gEvent045Text07
+    - gEvent045Text08
+    - gEvent045Text09
+    - gEvent045Text10
+    - gEvent045Text11
+    - gEvent045Text12
+    - gEvent045Text13
+    - gEvent045Text14
+    - gEvent045Text15
+    - gEvent045Text16
+    - gEvent045Text17
+    - gEvent045Text18
+    - gEvent045Text19
+    - gEvent045Text20
+    - gEvent045Text21
+    - gEvent045Text22
+    - gEvent045Text23
+    - gEvent045Text24
+    - gEvent045Text25
+  - name: event_046_text.inc
+    format: us
+    start: 0x08FEAB94
+    end: 0x08FEB394
+    entries:
+    - gEvent046Text00
+    - gEvent046Text01
+    - gEvent046Text02
+    - gEvent046Text03
+    - gEvent046Text04
+    - gEvent046Text05
+    - gEvent046Text06
+    - gEvent046Text07
+    - gEvent046Text08
+    - gEvent046Text09
+    - gEvent046Text10
+    - gEvent046Text11
+    - gEvent046Text12
+    - gEvent046Text13
+    - gEvent046Text14
+    - gEvent046Text15
+    - gEvent046Text16
+    - gEvent046Text17
+    - gEvent046Text18
+  - name: event_048_text.inc
+    format: us
+    start: 0x08FEBD7C
+    end: 0x08FEC4B0
+    entries:
+    - gEvent048Text00
+    - gEvent048Text01
+    - gEvent048Text02
+    - gEvent048Text03
+    - gEvent048Text04
+    - gEvent048Text05
+    - gEvent048Text06
+    - gEvent048Text07
+    - gEvent048Text08
+    - gEvent048Text09
+    - gEvent048Text10
+    - gEvent048Text11
+    - gEvent048Text12
+    - gEvent048Text13
+    - gEvent048Text14
+    - gEvent048Text15
+    - gEvent048Text16
+    - gEvent048Text17
+    - gEvent048Text18
+    - gEvent048Text19
+    - gEvent048Text20
+  - name: event_049_text.inc
+    format: us
+    start: 0x08FECF68
+    end: 0x08FED06C
+    entries:
+    - gEvent049Text00
+    - gEvent049Text01
+    - gEvent049Text02
+    - gEvent049Text03
+  - name: event_050_text.inc
+    format: us
+    start: 0x08FED910
+    end: 0x08FEE038
+    entries:
+    - gEvent050Text00
+    - gEvent050Text01
+    - gEvent050Text02
+    - gEvent050Text03
+    - gEvent050Text04
+    - gEvent050Text05
+    - gEvent050Text06
+    - gEvent050Text07
+    - gEvent050Text08
+    - gEvent050Text09
+    - gEvent050Text10
+    - gEvent050Text11
+    - gEvent050Text12
+    - gEvent050Text13
+    - gEvent050Text14
+    - gEvent050Text15
+    - gEvent050Text16
+    - gEvent050Text17
+    - gEvent050Text18
+    - gEventTextUs_08FEE02C
+  - name: event_047_text.inc
+    format: us
+    start: 0x08FEEC10
+    end: 0x08FEF234
+    entries:
+    - gEvent047Text00
+    - gEvent047Text01
+    - gEvent047Text02
+    - gEvent047Text03
+    - gEvent047Text04
+    - gEvent047Text05
+    - gEvent047Text06
+    - gEvent047Text07
+    - gEvent047Text08
+    - gEvent047Text09
+    - gEvent047Text10
+    - gEvent047Text11
+    - gEvent047Text12
+    - gEvent047Text13
+    - gEvent047Text14
+  - name: event_051_text.inc
+    format: us
+    start: 0x08FEF820
+    end: 0x08FEFB84
+    entries:
+    - gEvent051Text00
+    - gEvent051Text01
+    - gEvent051Text02
+    - gEvent051Text03
+    - gEvent051Text04
+    - gEvent051Text05
+    - gEvent051Text06
+    - gEvent051Text07
+    - gEvent051Text08
+    - gEvent051Text09
+    - gEvent051Text10
+    - gEvent051Text11
+  - name: event_052_text.inc
+    format: us
+    start: 0x08FF0078
+    end: 0x08FF0108
+    entries:
+    - gEvent052Text00
+    - gEvent052Text01
+  - name: event_053_text.inc
+    format: us
+    start: 0x08FF04DC
+    end: 0x08FF0CC8
+    entries:
+    - gEvent053Text00
+    - gEvent053Text01
+    - gEvent053Text02
+    - gEvent053Text03
+    - gEvent053Text04
+    - gEvent053Text05
+    - gEvent053Text06
+    - gEvent053Text07
+    - gEvent053Text08
+    - gEvent053Text09
+    - gEvent053Text10
+    - gEvent053Text11
+    - gEvent053Text12
+    - gEvent053Text13
+    - gEvent053Text14
+    - gEvent053Text15
+    - gEvent053Text16
+    - gEvent053Text17
+    - gEvent053Text18
+    - gEvent053Text19
+    - gEvent053Text20
+    - gEvent053Text21
+    - gEvent053Text22
+    - gEvent053Text23
+    - gEvent053Text24
+    - gEvent053Text25
+  - name: event_054_text.inc
+    format: us
+    start: 0x08FF1E54
+    end: 0x08FF23A8
+    entries:
+    - gEvent054Text00
+    - gEvent054Text01
+    - gEvent054Text02
+    - gEvent054Text03
+    - gEvent054Text04
+    - gEvent054Text05
+    - gEvent054Text06
+    - gEvent054Text07
+    - gEvent054Text08
+    - gEvent054Text09
+    - gEvent054Text10
+    - gEvent054Text11
+    - gEvent054Text12
+    - gEvent054Text13
+    - gEvent054Text14
+    - gEvent054Text15
+    - gEvent054Text16
+    - gEvent054Text17
+  - name: event_055_text.inc
+    format: us
+    start: 0x08FF2D30
+    end: 0x08FF2D64
+    entries:
+    - gEvent055Text00
+  - name: event_056_text.inc
+    format: us
+    start: 0x08FF2EA0
+    end: 0x08FF38F0
+    entries:
+    - gEvent056Text00
+    - gEvent056Text01
+    - gEvent056Text02
+    - gEvent056Text03
+    - gEvent056Text04
+    - gEvent056Text05
+    - gEvent056Text06
+    - gEvent056Text07
+    - gEvent056Text08
+    - gEvent056Text09
+    - gEvent056Text10
+    - gEvent056Text11
+    - gEvent056Text12
+    - gEvent056Text13
+    - gEvent056Text14
+    - gEvent056Text15
+    - gEvent056Text16
+    - gEvent056Text17
+    - gEvent056Text18
+    - gEvent056Text19
+    - gEvent056Text20
+    - gEvent056Text21
+    - gEvent056Text22
+    - gEvent056Text23
+    - gEvent056Text24
+    - gEvent056Text25
+    - gEvent056Text26
+    - gEvent056Text27
+    - gEvent056Text28
+    - gEvent056Text29
+    - gEvent056Text30
+    - gEvent056Text31
+    - gEvent056Text32
+    - gEvent056Text33
+  - name: event_057_text.inc
+    format: us
+    start: 0x08FF4A7C
+    end: 0x08FF4B5C
+    entries:
+    - gEvent057Text00
+    - gEvent057Text01
+    - gEvent057Text02
+  - name: event_058_text.inc
+    format: us
+    start: 0x08FF4EF8
+    end: 0x08FF52BC
+    entries:
+    - gEvent058Text00
+    - gEvent058Text01
+    - gEvent058Text02
+    - gEvent058Text03
+    - gEvent058Text04
+    - gEvent058Text05
+    - gEvent058Text06
+    - gEvent058Text07
+    - gEvent058Text08
+    - gEvent058Text09
+    - gEvent058Text10
+    - gEvent058Text11
+  - name: event_059_text.inc
+    format: us
+    start: 0x08FF59AC
+    end: 0x08FF6F18
+    entries:
+    - gEvent059Text00
+    - gEvent059Text01
+    - gEvent059Text02
+    - gEvent059Text03
+    - gEvent059Text04
+    - gEvent059Text05
+    - gEvent059Text06
+    - gEvent059Text07
+    - gEvent059Text08
+    - gEvent059Text09
+    - gEvent059Text10
+    - gEvent059Text11
+    - gEvent059Text12
+    - gEvent059Text13
+    - gEvent059Text14
+    - gEvent059Text15
+    - gEvent059Text16
+    - gEvent059Text17
+    - gEvent059Text18
+    - gEvent059Text19
+    - gEvent059Text20
+    - gEvent059Text21
+    - gEvent059Text22
+    - gEvent059Text23
+    - gEvent059Text24
+    - gEvent059Text25
+    - gEvent059Text26
+    - gEvent059Text27
+    - gEvent059Text28
+    - gEvent059Text29
+    - gEvent059Text30
+    - gEvent059Text31
+    - gEvent059Text32
+    - gEvent059Text33
+    - gEvent059Text34
+    - gEvent059Text35
+    - gEvent059Text36
+    - gEvent059Text37
+    - gEvent059Text38
+    - gEvent059Text39
+    - gEvent059Text40
+    - gEvent059Text41
+    - gEvent059Text42
+    - gEvent059Text43
+    - gEvent059Text44
+    - gEvent059Text45
+    - gEvent059Text46
+    - gEvent059Text47
+    - gEvent059Text48
+    - gEvent059Text49
+    - gEvent059Text50
+    - gEvent059Text51
+    - gEvent059Text52
+    - gEvent059Text53
+    - gEvent059Text54
+    - gEvent059Text55
+    - gEvent059Text56
+    - gEvent059Text57
+    - gEvent059Text58
+    - gEvent059Text59
+    - gEvent059Text60
+  - name: event_060_text.inc
+    format: us
+    start: 0x08FF8788
+    end: 0x08FF9AC4
+    entries:
+    - gEvent060Text00
+    - gEvent060Text01
+    - gEvent060Text02
+    - gEvent060Text03
+    - gEvent060Text04
+    - gEvent060Text05
+    - gEvent060Text06
+    - gEvent060Text07
+    - gEvent060Text08
+    - gEvent060Text09
+    - gEvent060Text10
+    - gEvent060Text11
+    - gEvent060Text12
+    - gEvent060Text13
+    - gEvent060Text14
+    - gEvent060Text15
+    - gEvent060Text16
+    - gEvent060Text17
+    - gEvent060Text18
+    - gEvent060Text19
+    - gEvent060Text20
+    - gEvent060Text21
+    - gEvent060Text22
+    - gEvent060Text23
+    - gEvent060Text24
+    - gEvent060Text25
+    - gEvent060Text26
+    - gEvent060Text27
+    - gEvent060Text28
+    - gEvent060Text29
+    - gEvent060Text30
+    - gEvent060Text31
+    - gEvent060Text32
+    - gEvent060Text33
+    - gEvent060Text34
+    - gEvent060Text35
+    - gEvent060Text36
+    - gEvent060Text37
+    - gEvent060Text38
+    - gEvent060Text39
+    - gEvent060Text40
+    - gEvent060Text41
+    - gEvent060Text42
+    - gEvent060Text43
+    - gEvent060Text44
+    - gEvent060Text45
+    - gEvent060Text46
+    - gEvent060Text47
+    - gEvent060Text48
+    - gEvent060Text49
+    - gEvent060Text50
+    - gEvent060Text51
+    - gEvent060Text52
+  - name: event_061_text.inc
+    format: us
+    start: 0x08FFB9C8
+    end: 0x08FFBEB8
+    entries:
+    - gEvent061Text00
+    - gEvent061Text01
+    - gEvent061Text02
+    - gEvent061Text03
+    - gEvent061Text04
+    - gEvent061Text05
+    - gEvent061Text06
+    - gEvent061Text07
+    - gEvent061Text08
+    - gEvent061Text09
+    - gEvent061Text10
+    - gEvent061Text11
+    - gEvent061Text12
+    - gEvent061Text13
+    - gEvent061Text14
+    - gEvent061Text15
+    - gEvent061Text16
+    - gEvent061Text17
+  - name: event_062_text.inc
+    format: us_sjis
+    start: 0x08FFCA5C
+    end: 0x08FFCA74
+    entries:
+    - gEvent062Text00
+  - name: event_063_text.inc
+    format: us
+    start: 0x08FFCBCC
+    end: 0x08FFD1F4
+    entries:
+    - gEvent063Text00
+    - gEvent063Text01
+    - gEvent063Text02
+    - gEvent063Text03
+    - gEvent063Text04
+    - gEvent063Text05
+    - gEvent063Text06
+    - gEvent063Text07
+    - gEvent063Text08
+    - gEvent063Text09
+    - gEvent063Text10
+    - gEvent063Text11
+    - gEvent063Text12
+    - gEvent063Text13
+    - gEvent063Text14
+  - name: event_064_text.inc
+    format: us
+    start: 0x08FFD77C
+    end: 0x08FFDC90
+    entries:
+    - gEvent064Text00
+    - gEvent064Text01
+    - gEvent064Text02
+    - gEvent064Text03
+    - gEvent064Text04
+    - gEvent064Text05
+    - gEvent064Text06
+    - gEvent064Text07
+    - gEvent064Text08
+    - gEvent064Text09
+    - gEvent064Text10
+    - gEvent064Text11
+    - gEvent064Text12
+    - gEvent064Text13
+    - gEvent064Text14
+    - gEvent064Text15
+  - name: event_065_text.inc
+    format: us
+    start: 0x08FFE3EC
+    end: 0x08FFE510
+    entries:
+    - gEvent065Text00
+    - gEvent065Text01
+    - gEvent065Text02
+    - gEvent065Text03
+  - name: event_066_text.inc
+    format: us
+    start: 0x08FFEB0C
+    end: 0x08FFF9C0
+    entries:
+    - gEvent066Text00
+    - gEvent066Text01
+    - gEvent066Text02
+    - gEvent066Text03
+    - gEvent066Text04
+    - gEvent066Text05
+    - gEvent066Text06
+    - gEvent066Text07
+    - gEvent066Text08
+    - gEvent066Text09
+    - gEvent066Text10
+    - gEvent066Text11
+    - gEvent066Text12
+    - gEvent066Text13
+    - gEvent066Text14
+    - gEvent066Text15
+    - gEvent066Text16
+    - gEvent066Text17
+    - gEvent066Text18
+    - gEvent066Text19
+    - gEvent066Text20
+    - gEvent066Text21
+    - gEvent066Text22
+    - gEvent066Text23
+    - gEvent066Text24
+    - gEvent066Text25
+    - gEvent066Text26
+    - gEvent066Text27
+    - gEvent066Text28
+    - gEvent066Text29
+    - gEvent066Text30
+    - gEvent066Text31
+    - gEvent066Text32
+    - gEvent066Text33
+    - gEvent066Text34
+    - gEvent066Text35
+    - gEvent066Text36
+    - gEvent066Text37
+    - gEvent066Text38
+    - gEvent066Text39
+    - gEvent066Text40
+  - name: event_067_text.inc
+    format: us
+    start: 0x09001060
+    end: 0x0900132C
+    entries:
+    - gEvent067Text00
+    - gEvent067Text01
+    - gEvent067Text02
+    - gEvent067Text03
+    - gEvent067Text04
+    - gEvent067Text05
+    - gEvent067Text06
+    - gEvent067Text07
+    - gEvent067Text08
+    - gEvent067Text09
+    - gEvent067Text10
+    - gEvent067Text11
+    - gEvent067Text12
+    - gEvent067Text13
+  - name: event_068_text.inc
+    format: us
+    start: 0x09002100
+    end: 0x0900216C
+    entries:
+    - gEvent068Text00
+    - gEvent068Text01
+  - name: event_069_text.inc
+    format: us_sjis
+    start: 0x09002450
+    end: 0x0900246C
+    entries:
+    - gEvent069Text00
+  - name: event_070_text.inc
+    format: us
+    start: 0x09002750
+    end: 0x0900280C
+    entries:
+    - gEvent070Text00
+  - name: event_071_text.inc
+    format: us_sjis
+    start: 0x09002A38
+    end: 0x09002A44
+    entries:
+    - gEvent071Text00
+  - name: event_072_text.inc
+    format: us
+    start: 0x09002F30
+    end: 0x09003D68
+    entries:
+    - gEvent072Text00
+    - gEvent072Text01
+    - gEvent072Text02
+    - gEvent072Text03
+    - gEvent072Text04
+    - gEvent072Text05
+    - gEvent072Text06
+    - gEvent072Text07
+    - gEvent072Text08
+    - gEvent072Text09
+    - gEvent072Text10
+    - gEvent072Text11
+    - gEvent072Text12
+    - gEvent072Text13
+    - gEvent072Text14
+    - gEvent072Text15
+    - gEvent072Text16
+    - gEvent072Text17
+    - gEvent072Text18
+    - gEvent072Text19
+    - gEvent072Text20
+    - gEvent072Text21
+    - gEvent072Text22
+    - gEvent072Text23
+    - gEvent072Text24
+    - gEvent072Text25
+    - gEvent072Text26
+    - gEvent072Text27
+    - gEvent072Text28
+    - gEvent072Text29
+    - gEvent072Text30
+    - gEvent072Text31
+    - gEvent072Text32
+    - gEvent072Text33
+    - gEvent072Text34
+    - gEvent072Text35
+    - gEvent072Text36
+    - gEvent072Text37
+    - gEvent072Text38
+    - gEvent072Text39
+    - gEvent072Text40
+    - gEvent072Text41
+    - gEvent072Text42
+    - gEvent072Text43
+  - name: event_073_text.inc
+    format: us
+    start: 0x09005068
+    end: 0x09005BB8
+    entries:
+    - gEvent073Text00
+    - gEvent073Text01
+    - gEvent073Text02
+    - gEvent073Text03
+    - gEvent073Text04
+    - gEvent073Text05
+    - gEvent073Text06
+    - gEvent073Text07
+    - gEvent073Text08
+    - gEvent073Text09
+    - gEvent073Text10
+    - gEvent073Text11
+    - gEvent073Text12
+    - gEvent073Text13
+    - gEvent073Text14
+    - gEvent073Text15
+    - gEvent073Text16
+    - gEvent073Text17
+    - gEvent073Text18
+    - gEvent073Text19
+    - gEvent073Text20
+    - gEvent073Text21
+    - gEvent073Text22
+    - gEvent073Text23
+    - gEvent073Text24
+    - gEvent073Text25
+    - gEvent073Text26
+    - gEvent073Text27
+    - gEvent073Text28
+    - gEvent073Text29
+  - name: event_134_text.inc
+    format: us
+    start: 0x09007134
+    end: 0x09007980
+    entries:
+    - gEvent134Text00
+    - gEvent134Text01
+    - gEvent134Text02
+    - gEvent134Text03
+    - gEvent134Text04
+    - gEvent134Text05
+    - gEvent134Text06
+    - gEvent134Text07
+    - gEvent134Text08
+    - gEvent134Text09
+    - gEvent134Text10
+    - gEvent134Text11
+    - gEvent134Text12
+    - gEvent134Text13
+    - gEvent134Text14
+    - gEvent134Text15
+    - gEvent134Text16
+    - gEvent134Text17
+    - gEvent134Text18
+    - gEvent134Text19
+    - gEvent134Text20
+    - gEvent134Text21
+  - name: event_135_text.inc
+    format: us
+    start: 0x0900868C
+    end: 0x090086DC
+    entries:
+    - gEventTextUs_0900868C
+  - name: event_136_text.inc
+    format: us
+    start: 0x090088F4
+    end: 0x09008E80
+    entries:
+    - gEvent136Text00
+    - gEvent136Text01
+    - gEvent136Text02
+    - gEvent136Text03
+    - gEvent136Text04
+    - gEvent136Text05
+    - gEvent136Text06
+    - gEvent136Text07
+    - gEvent136Text08
+    - gEvent136Text09
+    - gEvent136Text10
+    - gEvent136Text11
+    - gEvent136Text12
+    - gEvent136Text13
+    - gEvent136Text14
+    - gEvent136Text15
+    - gEvent136Text16
+    - gEvent136Text17
+  - name: event_137_text.inc
+    format: us
+    start: 0x09009790
+    end: 0x09009F2C
+    entries:
+    - gEvent137Text00
+    - gEvent137Text01
+    - gEvent137Text02
+    - gEvent137Text03
+    - gEvent137Text04
+    - gEvent137Text05
+    - gEvent137Text06
+    - gEvent137Text07
+    - gEvent137Text08
+    - gEvent137Text09
+    - gEvent137Text10
+    - gEvent137Text11
+    - gEvent137Text12
+    - gEvent137Text13
+    - gEvent137Text14
+    - gEvent137Text15
+  - name: event_139_text.inc
+    format: us
+    start: 0x0900A5D8
+    end: 0x0900AAB0
+    entries:
+    - gEvent139Text00
+    - gEvent139Text01
+    - gEvent139Text02
+    - gEvent139Text03
+    - gEvent139Text04
+    - gEvent139Text05
+    - gEvent139Text06
+    - gEvent139Text07
+    - gEvent139Text08
+    - gEvent139Text09
+    - gEvent139Text10
+    - gEvent139Text11
+  - name: event_140_text.inc
+    format: us
+    start: 0x0900B134
+    end: 0x0900B670
+    entries:
+    - gEvent140Text00
+    - gEvent140Text01
+    - gEvent140Text02
+    - gEvent140Text03
+    - gEvent140Text04
+    - gEvent140Text05
+    - gEvent140Text06
+    - gEvent140Text07
+    - gEvent140Text08
+    - gEvent140Text09
+    - gEvent140Text10
+    - gEvent140Text11
+    - gEvent140Text12
+    - gEvent140Text13
+  - name: event_141_text.inc
+    format: us
+    start: 0x0900BA90
+    end: 0x0900BFF0
+    entries:
+    - gEvent141Text00
+    - gEvent141Text01
+    - gEvent141Text02
+    - gEvent141Text03
+    - gEvent141Text04
+    - gEvent141Text05
+    - gEvent141Text06
+    - gEvent141Text07
+    - gEvent141Text08
+    - gEvent141Text09
+    - gEvent141Text10
+    - gEvent141Text11
+    - gEvent141Text12
+    - gEvent141Text13
+    - gEvent141Text14
+  - name: event_142_text.inc
+    format: us
+    start: 0x0900CB18
+    end: 0x0900D2B0
+    entries:
+    - gEvent142Text00
+    - gEvent142Text01
+    - gEvent142Text02
+    - gEvent142Text03
+    - gEvent142Text04
+    - gEvent142Text05
+    - gEvent142Text06
+    - gEvent142Text07
+    - gEvent142Text08
+    - gEvent142Text09
+    - gEvent142Text10
+    - gEvent142Text11
+    - gEvent142Text12
+    - gEvent142Text13
+    - gEvent142Text14
+    - gEvent142Text15
+    - gEvent142Text16
+    - gEvent142Text17
+    - gEvent142Text18
+    - gEvent142Text19
+    - gEvent142Text20
+  - name: event_143_text.inc
+    format: us
+    start: 0x0900DC98
+    end: 0x0900E1E4
+    entries:
+    - gEvent143Text00
+    - gEvent143Text01
+    - gEvent143Text02
+    - gEvent143Text03
+    - gEvent143Text04
+    - gEvent143Text05
+    - gEvent143Text06
+    - gEvent143Text07
+    - gEvent143Text08
+    - gEvent143Text09
+    - gEvent143Text10
+    - gEvent143Text11
+    - gEvent143Text12
+    - gEvent143Text13
+    - gEvent143Text14
+    - gEvent143Text15
+  - name: event_145_text.inc
+    format: us
+    start: 0x0900EF6C
+    end: 0x0900F0A8
+    entries:
+    - gEvent145Text00
+    - gEvent145Text01
+  - name: event_147_text.inc
+    format: us
+    start: 0x0900F32C
+    end: 0x0900F490
+    entries:
+    - gEvent147Text02
+    - gEvent147Text03
+    - gEvent147Text04
+    - gEvent147Text05
+  - name: event_148_text.inc
+    format: us
+    start: 0x0900F7A8
+    end: 0x0900F818
+    entries:
+    - gEvent148Text00
+  - name: event_149_text.inc
+    format: us
+    start: 0x0900F968
+    end: 0x09010030
+    entries:
+    - gEvent149Text00
+    - gEvent149Text01
+    - gEvent149Text02
+    - gEvent149Text03
+    - gEvent149Text04
+    - gEvent149Text05
+    - gEvent149Text06
+    - gEvent149Text07
+    - gEvent149Text08
+    - gEvent149Text09
+    - gEvent149Text10
+    - gEvent149Text11
+    - gEvent149Text12
+    - gEvent149Text13
+    - gEvent149Text14
+    - gEvent149Text15
+    - gEvent149Text16
+    - gEvent149Text17
+    - gEvent149Text18
+  - name: event_150_text.inc
+    format: us
+    start: 0x090109F8
+    end: 0x09010A2C
+    entries:
+    - gEvent150Text00
+  - name: event_151_text.inc
+    format: us
+    start: 0x09010C2C
+    end: 0x09011160
+    entries:
+    - gEvent151Text00
+    - gEvent151Text01
+    - gEvent151Text02
+    - gEvent151Text03
+    - gEvent151Text04
+    - gEvent151Text05
+    - gEvent151Text06
+    - gEvent151Text07
+    - gEvent151Text08
+    - gEvent151Text09
+    - gEvent151Text10
+    - gEvent151Text11
+    - gEvent151Text12
+    - gEvent151Text13
+  - name: event_152_text.inc
+    format: us
+    start: 0x09011674
+    end: 0x090119A0
+    entries:
+    - gEvent152Text00
+    - gEvent152Text01
+    - gEvent152Text02
+    - gEvent152Text03
+    - gEvent152Text04
+    - gEvent152Text05
+    - gEvent152Text06
+  - name: event_153_text.inc
+    format: us
+    start: 0x09011D0C
+    end: 0x09012328
+    entries:
+    - gEvent153Text00
+    - gEvent153Text01
+    - gEvent153Text02
+    - gEvent153Text03
+    - gEvent153Text04
+    - gEvent153Text05
+    - gEvent153Text06
+    - gEvent153Text07
+    - gEvent153Text08
+    - gEvent153Text09
+    - gEvent153Text10
+    - gEvent153Text11
+    - gEvent153Text12
+    - gEvent153Text13
+    - gEvent153Text14
+    - gEvent153Text15
+    - gEvent153Text16
+  - name: event_154_text.inc
+    format: us
+    start: 0x09012864
+    end: 0x09013334
+    entries:
+    - gEvent154Text00
+    - gEvent154Text01
+    - gEvent154Text02
+    - gEvent154Text03
+    - gEvent154Text04
+    - gEvent154Text05
+    - gEvent154Text06
+    - gEvent154Text07
+    - gEvent154Text08
+    - gEvent154Text09
+    - gEvent154Text10
+    - gEvent154Text11
+    - gEvent154Text12
+    - gEvent154Text13
+    - gEvent154Text14
+    - gEvent154Text15
+    - gEvent154Text16
+    - gEvent154Text17
+    - gEvent154Text18
+    - gEvent154Text19
+    - gEvent154Text20
+    - gEvent154Text21
+    - gEvent154Text22
+    - gEvent154Text23
+    - gEvent154Text24
+  - name: event_155_text.inc
+    format: us
+    start: 0x09013B74
+    end: 0x090144C0
+    entries:
+    - gEvent155Text00
+    - gEvent155Text01
+    - gEvent155Text02
+    - gEvent155Text03
+    - gEvent155Text04
+    - gEvent155Text05
+    - gEvent155Text06
+    - gEvent155Text07
+    - gEvent155Text08
+    - gEvent155Text09
+    - gEvent155Text10
+    - gEvent155Text11
+    - gEvent155Text12
+    - gEvent155Text13
+    - gEvent155Text14
+    - gEvent155Text15
+    - gEvent155Text16
+    - gEvent155Text17
+    - gEvent155Text18
+    - gEvent155Text19
+    - gEvent155Text20
+    - gEvent155Text21
+    - gEvent155Text22
+    - gEvent155Text23
+    - gEvent155Text24
+    - gEvent155Text25
+  - name: event_156_text.inc
+    format: us
+    start: 0x09014E74
+    end: 0x0901582C
+    entries:
+    - gEvent156Text00
+    - gEvent156Text01
+    - gEvent156Text02
+    - gEvent156Text03
+    - gEvent156Text04
+    - gEvent156Text05
+    - gEvent156Text06
+    - gEvent156Text07
+    - gEvent156Text08
+    - gEvent156Text09
+    - gEvent156Text10
+    - gEvent156Text11
+    - gEvent156Text12
+    - gEvent156Text13
+    - gEvent156Text14
+    - gEvent156Text15
+    - gEvent156Text16
+    - gEvent156Text17
+    - gEvent156Text18
+    - gEvent156Text19
+    - gEvent156Text20
+  - name: event_157_text.inc
+    format: us
+    start: 0x09015FC8
+    end: 0x09016680
+    entries:
+    - gEvent157Text00
+    - gEvent157Text01
+    - gEvent157Text02
+    - gEvent157Text03
+    - gEvent157Text04
+    - gEvent157Text05
+    - gEvent157Text06
+    - gEvent157Text07
+    - gEvent157Text08
+    - gEvent157Text09
+    - gEvent157Text10
+    - gEvent157Text11
+    - gEvent157Text12
+    - gEvent157Text13
+    - gEvent157Text14
+    - gEvent157Text15
+    - gEvent157Text16
+    - gEvent157Text17
+  - name: event_158_text.inc
+    format: us
+    start: 0x09016CE8
+    end: 0x0901749C
+    entries:
+    - gEvent158Text00
+    - gEvent158Text01
+    - gEvent158Text02
+    - gEvent158Text03
+    - gEvent158Text04
+    - gEvent158Text05
+    - gEvent158Text06
+    - gEvent158Text07
+    - gEvent158Text08
+    - gEvent158Text09
+    - gEvent158Text10
+    - gEvent158Text11
+    - gEvent158Text12
+    - gEvent158Text13
+    - gEvent158Text14
+    - gEvent158Text15
+    - gEvent158Text16
+    - gEvent158Text17
+    - gEvent158Text18
+    - gEvent158Text19
+    - gEvent158Text20
+  - name: event_159_text.inc
+    format: us
+    start: 0x09017F14
+    end: 0x090186E4
+    entries:
+    - gEvent159Text00
+    - gEvent159Text01
+    - gEvent159Text02
+    - gEvent159Text03
+    - gEvent159Text04
+    - gEvent159Text05
+    - gEvent159Text06
+    - gEvent159Text07
+    - gEvent159Text08
+    - gEvent159Text09
+    - gEvent159Text10
+    - gEvent159Text11
+    - gEvent159Text12
+    - gEvent159Text13
+    - gEvent159Text14
+    - gEvent159Text15
+    - gEvent159Text16
+  - name: event_160_text.inc
+    format: us
+    start: 0x090189C4
+    end: 0x09018F08
+    entries:
+    - gEvent160Text00
+    - gEvent160Text01
+    - gEvent160Text02
+    - gEvent160Text03
+    - gEvent160Text04
+    - gEvent160Text05
+    - gEvent160Text06
+    - gEvent160Text07
+    - gEvent160Text08
+    - gEvent160Text09
+    - gEvent160Text10
+    - gEvent160Text11
+    - gEvent160Text12
+  - name: event_161_text.inc
+    format: us
+    start: 0x0901933C
+    end: 0x09019540
+    entries:
+    - gEvent161Text00
+    - gEvent161Text01
+    - gEvent161Text02
+    - gEvent161Text03
+    - gEvent161Text04
+  - name: event_162_text.inc
+    format: us
+    start: 0x09019748
+    end: 0x09019B0C
+    entries:
+    - gEvent162Text00
+    - gEvent162Text01
+    - gEvent162Text02
+    - gEvent162Text03
+    - gEvent162Text04
+    - gEvent162Text05
+    - gEvent162Text06
+    - gEvent162Text07
+    - gEvent162Text08
+    - gEvent162Text09
+  - name: event_163_text.inc
+    format: us
+    start: 0x09019E1C
+    end: 0x0901A3BC
+    entries:
+    - gEvent163Text00
+    - gEvent163Text01
+    - gEvent163Text02
+    - gEvent163Text03
+    - gEvent163Text04
+    - gEvent163Text05
+    - gEvent163Text06
+    - gEvent163Text07
+    - gEvent163Text08
+    - gEvent163Text09
+    - gEvent163Text10
+    - gEvent163Text11
+    - gEvent163Text12
+    - gEvent163Text13
+    - gEvent163Text14
+    - gEvent163Text15
+  - name: event_164_text.inc
+    format: us
+    start: 0x0901A93C
+    end: 0x0901ADB0
+    entries:
+    - gEvent164Text00
+    - gEvent164Text01
+    - gEvent164Text02
+    - gEvent164Text03
+    - gEvent164Text04
+    - gEvent164Text05
+    - gEvent164Text06
+    - gEvent164Text07
+    - gEvent164Text08
+    - gEvent164Text09
+    - gEvent164Text10
+  - name: event_165_text.inc
+    format: us
+    start: 0x0901B39C
+    end: 0x0901B6B4
+    entries:
+    - gEvent165Text00
+    - gEvent165Text01
+    - gEvent165Text02
+    - gEvent165Text03
+    - gEvent165Text04
+    - gEvent165Text05
+  - name: event_166_text.inc
+    format: us
+    start: 0x0901B8D4
+    end: 0x0901BEF8
+    entries:
+    - gEvent166Text00
+    - gEvent166Text01
+    - gEvent166Text02
+    - gEvent166Text03
+    - gEvent166Text04
+    - gEvent166Text05
+    - gEvent166Text06
+    - gEvent166Text07
+    - gEvent166Text08
+    - gEvent166Text09
+    - gEvent166Text10
+    - gEvent166Text11
+    - gEvent166Text12
+    - gEvent166Text13
+  - name: event_167_text.inc
+    format: us
+    start: 0x0901C6BC
+    end: 0x0901CEA0
+    entries:
+    - gEvent167Text13
+    - gEvent167Text14
+    - gEvent167Text15
+    - gEvent167Text16
+    - gEvent167Text17
+    - gEvent167Text18
+    - gEvent167Text19
+    - gEvent167Text20
+    - gEvent167Text21
+    - gEvent167Text22
+    - gEvent167Text23
+    - gEvent167Text24
+    - gEvent167Text25
+    - gEvent167Text26
+    - gEvent167Text27
+    - gEvent167Text28
+    - gEvent167Text29
+    - gEvent167Text30
+    - gEvent167Text31
+  - name: event_168_text.inc
+    format: us
+    start: 0x0901DBE4
+    end: 0x0901E38C
+    entries:
+    - gEvent168Text00
+    - gEvent168Text01
+    - gEvent168Text02
+    - gEvent168Text03
+    - gEvent168Text04
+    - gEvent168Text05
+    - gEvent168Text06
+    - gEvent168Text07
+    - gEvent168Text08
+    - gEvent168Text09
+    - gEvent168Text10
+    - gEvent168Text11
+    - gEvent168Text12
+    - gEvent168Text13
+    - gEvent168Text14
+    - gEvent168Text15
+    - gEvent168Text16
+    - gEvent168Text17
+    - gEvent168Text18
+  - name: event_169_text.inc
+    format: us
+    start: 0x0901EB08
+    end: 0x0901EF04
+    entries:
+    - gEvent169Text00
+    - gEvent169Text01
+    - gEvent169Text02
+    - gEvent169Text03
+    - gEvent169Text04
+    - gEvent169Text05
+    - gEvent169Text06
+    - gEvent169Text07
+    - gEvent169Text08
+    - gEvent169Text09
+    - gEvent169Text10
+  - name: event_170_text.inc
+    format: us
+    start: 0x0901F1C8
+    end: 0x0901F26C
+    entries:
+    - gEvent170Text00
+    - gEvent170Text01
+  - name: event_171_text.inc
+    format: us
+    start: 0x0901F424
+    end: 0x0901F860
+    entries:
+    - gEvent171Text00
+    - gEvent171Text01
+    - gEvent171Text02
+    - gEvent171Text03
+    - gEvent171Text04
+    - gEvent171Text05
+    - gEvent171Text06
+    - gEvent171Text07
+    - gEvent171Text08
+    - gEvent171Text09
+    - gEvent171Text10
+  - name: event_172_text.inc
+    format: us
+    start: 0x0901FD90
+    end: 0x0901FF64
+    entries:
+    - gEvent172Text00
+    - gEvent172Text01
+    - gEvent172Text02
+    - gEvent172Text03
+    - gEvent172Text04
+    - gEvent172Text05
+  - name: event_173_text.inc
+    format: us
+    start: 0x09020354
+    end: 0x09020768
+    entries:
+    - gEvent173Text00
+    - gEvent173Text01
+    - gEvent173Text02
+    - gEvent173Text03
+    - gEvent173Text04
+    - gEvent173Text05
+    - gEvent173Text06
+    - gEvent173Text07
+    - gEvent173Text08
+    - gEvent173Text09
+    - gEvent173Text10
+    - gEvent173Text11
+    - gEvent173Text12
+    - gEvent173Text13
+    - gEvent173Text14
+  - name: event_174_text.inc
+    format: us
+    start: 0x09020EBC
+    end: 0x09020F84
+    entries:
+    - gEvent174Text00
+    - gEvent174Text01
+    - gEvent174Text02
+    - gEvent174Text03
+  - name: event_175_text.inc
+    format: us
+    start: 0x09021260
+    end: 0x09021834
+    entries:
+    - gEvent175Text00
+    - gEvent175Text01
+    - gEvent175Text02
+    - gEvent175Text03
+    - gEvent175Text04
+    - gEvent175Text05
+    - gEvent175Text06
+    - gEvent175Text07
+    - gEvent175Text08
+    - gEvent175Text09
+    - gEvent175Text10
+    - gEvent175Text11
+    - gEvent175Text12
+  - name: event_176_text.inc
+    format: us
+    start: 0x09021B1C
+    end: 0x09022034
+    entries:
+    - gEvent176Text00
+    - gEvent176Text01
+    - gEvent176Text02
+    - gEvent176Text03
+    - gEvent176Text04
+    - gEvent176Text05
+    - gEvent176Text06
+    - gEvent176Text07
+    - gEvent176Text08
+    - gEvent176Text09
+    - gEvent176Text10
+    - gEvent176Text11
+    - gEvent176Text12
+    - gEvent176Text13
+  - name: event_177_text.inc
+    format: us
+    start: 0x090226C0
+    end: 0x090228F4
+    entries:
+    - gEvent177Text00
+    - gEvent177Text01
+    - gEvent177Text02
+    - gEvent177Text03
+    - gEvent177Text04
+    - gEvent177Text05
+    - gEvent177Text06
+    - gEvent177Text07
+  - name: event_178_text.inc
+    format: us
+    start: 0x090230F4
+    end: 0x09023570
+    entries:
+    - gEvent178Text00
+    - gEvent178Text01
+    - gEvent178Text02
+    - gEvent178Text03
+    - gEvent178Text04
+    - gEvent178Text05
+    - gEvent178Text06
+    - gEvent178Text07
+    - gEvent178Text08
+    - gEvent178Text09
+    - gEvent178Text10
+    - gEvent178Text11
+    - gEvent178Text12
+    - gEvent178Text13
+  - name: event_179_text.inc
+    format: us
+    start: 0x09023CDC
+    end: 0x09023F80
+    entries:
+    - gEvent179Text00
+    - gEvent179Text01
+    - gEvent179Text02
+    - gEvent179Text03
+    - gEvent179Text04
+    - gEvent179Text05
+  - name: event_180_text.inc
+    format: us
+    start: 0x090244E0
+    end: 0x09024510
+    entries:
+    - gEvent180Text00
+  - name: event_181_text.inc
+    format: us
+    start: 0x090245FC
+    end: 0x09024810
+    entries:
+    - gEvent181Text00
+    - gEvent181Text01
+    - gEvent181Text02
+    - gEvent181Text03
+    - gEvent181Text04
+    - gEvent181Text05
+    - gEvent181Text06
+  - name: event_182_text.inc
+    format: us
+    start: 0x09024DF0
+    end: 0x090254C8
+    entries:
+    - gEvent182Text00
+    - gEvent182Text01
+    - gEvent182Text02
+    - gEvent182Text03
+    - gEvent182Text04
+    - gEvent182Text05
+    - gEvent182Text06
+    - gEvent182Text07
+    - gEvent182Text08
+    - gEvent182Text09
+    - gEvent182Text10
+    - gEvent182Text11
+    - gEvent182Text12
+    - gEvent182Text13
+    - gEvent182Text14
+    - gEvent182Text15
+    - gEvent182Text16
+    - gEvent182Text17
+  - name: event_183_text.inc
+    format: us
+    start: 0x09025B70
+    end: 0x09025E00
+    entries:
+    - gEvent183Text00
+    - gEvent183Text01
+    - gEvent183Text02
+    - gEvent183Text03
+    - gEvent183Text04
+    - gEvent183Text05
+    - gEvent183Text06
+    - gEvent183Text07
+    - gEvent183Text08
+    - gEvent183Text09
+  - name: event_184_text.inc
+    format: us
+    start: 0x0902629C
+    end: 0x09026840
+    entries:
+    - gEvent184Text00
+    - gEvent184Text01
+    - gEvent184Text02
+    - gEvent184Text03
+    - gEvent184Text04
+    - gEvent184Text05
+    - gEvent184Text06
+    - gEvent184Text07
+    - gEvent184Text08
+    - gEvent184Text09
+    - gEvent184Text10
+    - gEvent184Text11
+    - gEvent184Text12
+    - gEvent184Text13
+    - gEvent184Text14
+    - gEvent184Text15
+    - gEvent184Text16
+    - gEvent184Text17
+  - name: event_185_text.inc
+    format: us
+    start: 0x0902701C
+    end: 0x0902796C
+    entries:
+    - gEvent185Text00
+    - gEvent185Text01
+    - gEvent185Text02
+    - gEvent185Text03
+    - gEvent185Text04
+    - gEvent185Text05
+    - gEvent185Text06
+    - gEvent185Text07
+    - gEvent185Text08
+    - gEvent185Text09
+    - gEvent185Text10
+    - gEvent185Text11
+    - gEvent185Text12
+    - gEvent185Text13
+    - gEvent185Text14
+    - gEvent185Text15
+    - gEvent185Text16
+    - gEvent185Text17
+    - gEvent185Text18
+    - gEvent185Text19
+    - gEvent185Text20
+    - gEvent185Text21
+    - gEvent185Text22
+    - gEvent185Text23
+    - gEvent185Text24
+  - name: event_186_text.inc
+    format: us
+    start: 0x09028570
+    end: 0x09028C6C
+    entries:
+    - gEvent186Text00
+    - gEvent186Text01
+    - gEvent186Text02
+    - gEvent186Text03
+    - gEvent186Text04
+    - gEvent186Text05
+    - gEvent186Text06
+    - gEvent186Text07
+    - gEvent186Text08
+    - gEvent186Text09
+    - gEvent186Text10
+    - gEvent186Text11
+    - gEvent186Text12
+    - gEvent186Text13
+    - gEvent186Text14
+    - gEvent186Text15
+    - gEvent186Text16
+    - gEvent186Text17
+    - gEvent186Text18
+    - gEvent186Text19
+    - gEvent186Text20
+  - name: event_187_text.inc
+    format: us
+    start: 0x09029550
+    end: 0x090299F0
+    entries:
+    - gEvent187Text00
+    - gEvent187Text01
+    - gEvent187Text02
+    - gEvent187Text03
+    - gEvent187Text04
+    - gEvent187Text05
+    - gEvent187Text06
+    - gEvent187Text07
+    - gEvent187Text08
+    - gEvent187Text09
+    - gEvent187Text10
+    - gEvent187Text11
+    - gEvent187Text12
+  - name: event_188_text.inc
+    format: us
+    start: 0x09029F8C
+    end: 0x0902A294
+    entries:
+    - gEvent188Text00
+    - gEvent188Text01
+    - gEvent188Text02
+    - gEvent188Text03
+    - gEvent188Text04
+    - gEvent188Text05
+    - gEvent188Text06
+    - gEvent188Text07
+    - gEvent188Text08
+  - name: event_189_text.inc
+    format: us
+    start: 0x0902A5C8
+    end: 0x0902B45C
+    entries:
+    - gEvent189Text00
+    - gEvent189Text01
+    - gEvent189Text02
+    - gEvent189Text03
+    - gEvent189Text04
+    - gEvent189Text05
+    - gEvent189Text06
+    - gEvent189Text07
+    - gEvent189Text08
+    - gEvent189Text09
+    - gEvent189Text10
+    - gEvent189Text11
+    - gEvent189Text12
+    - gEvent189Text13
+    - gEvent189Text14
+    - gEvent189Text15
+    - gEvent189Text16
+    - gEvent189Text17
+    - gEvent189Text18
+    - gEvent189Text19
+    - gEvent189Text20
+    - gEvent189Text21
+    - gEvent189Text22
+    - gEvent189Text23
+    - gEvent189Text24
+    - gEvent189Text25
+    - gEvent189Text26
+    - gEvent189Text27
+    - gEvent189Text28
+    - gEvent189Text29
+    - gEvent189Text30
+    - gEvent189Text31
+    - gEvent189Text32
+    - gEvent189Text33
+    - gEvent189Text34
+    - gEvent189Text35
+    - gEvent189Text36
+    - gEvent189Text37
+    - gEvent189Text38
+    - gEvent189Text39
+    - gEvent189Text40
+    - gEvent189Text41
+  - name: event_190_text.inc
+    format: us
+    start: 0x0902C30C
+    end: 0x0902C85C
+    entries:
+    - gEvent190Text00
+    - gEvent190Text01
+    - gEvent190Text02
+    - gEvent190Text03
+    - gEvent190Text04
+    - gEvent190Text05
+    - gEvent190Text06
+    - gEvent190Text07
+    - gEvent190Text08
+    - gEvent190Text09
+    - gEvent190Text10
+    - gEvent190Text11
+    - gEvent190Text12
+    - gEvent190Text13
+    - gEvent190Text14
+  - name: event_191_text.inc
+    format: us
+    start: 0x0902D160
+    end: 0x0902D720
+    entries:
+    - gEvent191Text00
+    - gEvent191Text01
+    - gEvent191Text02
+    - gEvent191Text03
+    - gEvent191Text04
+    - gEvent191Text05
+    - gEvent191Text06
+    - gEvent191Text07
+    - gEvent191Text08
+    - gEvent191Text09
+    - gEvent191Text10
+    - gEvent191Text11
+    - gEvent191Text12
+    - gEvent191Text13
+    - gEvent191Text14
+  - name: event_192_text.inc
+    format: us
+    start: 0x0902DB50
+    end: 0x0902DC88
+    entries:
+    - gEvent192Text00
+    - gEvent192Text01
+    - gEvent192Text02
+  - name: event_193_text.inc
+    format: us
+    start: 0x0902DEA4
+    end: 0x0902E3A0
+    entries:
+    - gEvent193Text00
+    - gEvent193Text01
+    - gEvent193Text02
+    - gEvent193Text03
+    - gEvent193Text04
+    - gEvent193Text05
+    - gEvent193Text06
+    - gEvent193Text07
+    - gEvent193Text08
+    - gEvent193Text09
+    - gEvent193Text10
+    - gEvent193Text11
+  - name: event_194_text.inc
+    format: us
+    start: 0x0902E8D8
+    end: 0x0902EA70
+    entries:
+    - gEvent194Text00
+    - gEvent194Text01
+    - gEvent194Text02
+    - gEvent194Text03
+    - gEvent194Text04
+    - gEvent194Text05
+    - gEvent194Text06
+  - name: event_195_text.inc
+    format: us
+    start: 0x0902F2F8
+    end: 0x0902F840
+    entries:
+    - gEvent195Text00
+    - gEvent195Text01
+    - gEvent195Text02
+    - gEvent195Text03
+    - gEvent195Text04
+    - gEvent195Text05
+    - gEvent195Text06
+    - gEvent195Text07
+    - gEvent195Text08
+    - gEvent195Text09
+    - gEvent195Text10
+    - gEvent195Text11
+    - gEvent195Text12
+    - gEvent195Text13
+    - gEvent195Text14
+  - name: event_196_text.inc
+    format: us_sjis
+    start: 0x0902FC48
+    end: 0x0902FC64
+    entries:
+    - gEvent196Text00
+  - name: event_022_data_text.inc
+    format: us_data
+    start: 0x09EE3844
+    end: 0x09EE3C9E
+    entries:
+    - gEvent022Text04
+    - gEvent022Text05
+    - gEvent022Text06
+    - gEvent022Text07
+    - gEvent022Text08
+    - gEvent022Text09
+    - gEvent022Text10
+    - gEvent022Text11
+    - gEvent022Text12
+  jp:
+  - name: event_074_text.inc
+    format: jp
+    start: 0x08F72D54
+    end: 0x08F73140
+    entries:
+    - gEvent074Text19
+    - gEvent074Text18
+    - gEvent074Text17
+    - gEvent074Text16
+    - gEvent074Text15
+    - gEvent074Text14
+    - gEvent074Text13
+    - gEvent074Text12
+    - gEvent074Text11
+    - gEvent074Text10
+    - gEvent074Text09
+    - gEvent074Text08
+    - gEvent074Text07
+    - gEvent074Text06
+    - gEvent074Text05
+    - gEvent074Text04
+    - gEvent074Text03
+    - gEvent074Text02
+    - gEvent074Text01
+    - gEvent074Text00
+  - name: event_075_text.inc
+    format: jp
+    start: 0x08F73F6C
+    end: 0x08F74454
+    entries:
+    - gEvent075Text23
+    - gEvent075Text22
+    - gEvent075Text21
+    - gEvent075Text20
+    - gEvent075Text19
+    - gEvent075Text18
+    - gEvent075Text17
+    - gEvent075Text16
+    - gEvent075Text15
+    - gEvent075Text14
+    - gEvent075Text13
+    - gEvent075Text12
+    - gEvent075Text11
+    - gEvent075Text10
+    - gEvent075Text09
+    - gEvent075Text08
+    - gEvent075Text07
+    - gEvent075Text06
+    - gEvent075Text05
+    - gEvent075Text04
+    - gEvent075Text03
+    - gEvent075Text02
+    - gEvent075Text01
+    - gEvent075Text00
+  - name: event_076_text.inc
+    format: jp
+    start: 0x08F751C8
+    end: 0x08F75714
+    entries:
+    - gEvent076Text30
+    - gEvent076Text29
+    - gEvent076Text28
+    - gEvent076Text27
+    - gEvent076Text26
+    - gEvent076Text25
+    - gEvent076Text24
+    - gEvent076Text23
+    - gEvent076Text22
+    - gEvent076Text21
+    - gEvent076Text20
+    - gEvent076Text19
+    - gEvent076Text18
+    - gEvent076Text17
+    - gEvent076Text16
+    - gEvent076Text15
+    - gEvent076Text14
+    - gEvent076Text13
+    - gEvent076Text12
+    - gEvent076Text11
+    - gEvent076Text10
+    - gEvent076Text09
+    - gEvent076Text08
+    - gEvent076Text07
+    - gEvent076Text06
+    - gEvent076Text05
+    - gEvent076Text04
+    - gEvent076Text03
+    - gEvent076Text02
+    - gEvent076Text01
+  - name: event_077_text.inc
+    format: jp
+    start: 0x08F76238
+    end: 0x08F76280
+    entries:
+    - gEvent077Text02
+    - gEvent077Text01
+    - gEvent077Text00
+  - name: event_078_text.inc
+    format: jp
+    start: 0x08F76474
+    end: 0x08F764F0
+    entries:
+    - gEvent078Text05
+    - gEvent078Text04
+    - gEvent078Text03
+    - gEvent078Text02
+    - gEvent078Text01
+    - gEvent078Text00
+  - name: event_079_text.inc
+    format: jp
+    start: 0x08F76798
+    end: 0x08F767C0
+    entries:
+    - gEvent079Text03
+  - name: event_080_text.inc
+    format: jp
+    start: 0x08F76C84
+    end: 0x08F76EB4
+    entries:
+    - gEvent080Text13
+    - gEvent080Text12
+    - gEvent080Text11
+    - gEvent080Text10
+    - gEvent080Text09
+    - gEvent080Text08
+    - gEvent080Text07
+    - gEvent080Text06
+    - gEvent080Text05
+    - gEvent080Text04
+    - gEvent080Text03
+    - gEvent080Text02
+    - gEvent080Text01
+    - gEvent080Text00
+  - name: event_081_text.inc
+    format: jp
+    start: 0x08F7763C
+    end: 0x08F776F4
+    entries:
+    - gEvent081Text03
+    - gEvent081Text02
+    - gEvent081Text01
+    - gEvent081Text00
+  - name: event_082_text.inc
+    format: jp
+    start: 0x08F781B4
+    end: 0x08F78210
+    entries:
+    - gEvent082Text02
+    - gEvent082Text01
+    - gEvent082Text00
+  - name: event_083_text.inc
+    format: jp
+    start: 0x08F78640
+    end: 0x08F78704
+    entries:
+    - gEvent083Text04
+    - gEvent083Text03
+    - gEvent083Text02
+    - gEvent083Text01
+    - gEvent083Text00
+  - name: event_084_text.inc
+    format: jp
+    start: 0x08F78ABC
+    end: 0x08F78B18
+    entries:
+    - gEvent084Text01
+    - gEvent084Text00
+  - name: event_085_text.inc
+    format: jp
+    start: 0x08F78CF0
+    end: 0x08F78D24
+    entries:
+    - gEvent085Text00
+  - name: event_086_text.inc
+    format: jp
+    start: 0x08F792F8
+    end: 0x08F79610
+    entries:
+    - gEvent086Text13
+    - gEvent086Text12
+    - gEvent086Text11
+    - gEvent086Text10
+    - gEvent086Text09
+    - gEvent086Text08
+    - gEvent086Text07
+    - gEvent086Text06
+    - gEvent086Text05
+    - gEvent086Text04
+    - gEvent086Text03
+    - gEvent086Text02
+    - gEvent086Text01
+    - gEvent086Text00
+  - name: event_087_text.inc
+    format: jp
+    start: 0x08F79D24
+    end: 0x08F7A000
+    entries:
+    - gEvent087Text17
+    - gEvent087Text16
+    - gEvent087Text15
+    - gEvent087Text14
+    - gEvent087Text13
+    - gEvent087Text12
+    - gEvent087Text11
+    - gEvent087Text10
+    - gEvent087Text09
+    - gEvent087Text08
+    - gEvent087Text07
+    - gEvent087Text06
+    - gEvent087Text05
+    - gEvent087Text04
+    - gEvent087Text03
+    - gEvent087Text02
+    - gEvent087Text01
+    - gEvent087Text00
+  - name: event_088_text.inc
+    format: jp
+    start: 0x08F7B290
+    end: 0x08F7B4C4
+    entries:
+    - gEvent088Text11
+    - gEvent088Text10
+    - gEvent088Text09
+    - gEvent088Text08
+    - gEvent088Text07
+    - gEvent088Text06
+    - gEvent088Text05
+    - gEvent088Text04
+    - gEvent088Text03
+    - gEvent088Text02
+    - gEvent088Text01
+    - gEvent088Text00
+  - name: event_089_text.inc
+    format: jp
+    start: 0x08F7BF18
+    end: 0x08F7C47C
+    entries:
+    - gEvent089Text26
+    - gEvent089Text25
+    - gEvent089Text24
+    - gEvent089Text23
+    - gEvent089Text22
+    - gEvent089Text21
+    - gEvent089Text20
+    - gEvent089Text19
+    - gEvent089Text18
+    - gEvent089Text17
+    - gEvent089Text16
+    - gEvent089Text15
+    - gEvent089Text14
+    - gEvent089Text13
+    - gEvent089Text12
+    - gEvent089Text11
+    - gEvent089Text10
+    - gEvent089Text09
+    - gEvent089Text08
+    - gEvent089Text07
+    - gEvent089Text06
+    - gEvent089Text05
+    - gEvent089Text04
+    - gEvent089Text03
+    - gEvent089Text02
+    - gEvent089Text01
+    - gEvent089Text00
+  - name: event_090_text.inc
+    format: jp
+    start: 0x08F7D134
+    end: 0x08F7D52C
+    entries:
+    - gEvent090Text21
+    - gEvent090Text20
+    - gEvent090Text19
+    - gEvent090Text18
+    - gEvent090Text17
+    - gEvent090Text16
+    - gEvent090Text15
+    - gEvent090Text14
+    - gEvent090Text13
+    - gEvent090Text12
+    - gEvent090Text11
+    - gEvent090Text10
+    - gEvent090Text09
+    - gEvent090Text08
+    - gEvent090Text07
+    - gEvent090Text06
+    - gEvent090Text05
+    - gEvent090Text04
+    - gEvent090Text03
+    - gEvent090Text02
+    - gEvent090Text01
+    - gEvent090Text00
+  - name: event_091_text.inc
+    format: jp
+    start: 0x08F7E7A0
+    end: 0x08F7E91C
+    entries:
+    - gEvent091Text10
+    - gEvent091Text09
+    - gEvent091Text08
+    - gEvent091Text07
+    - gEvent091Text06
+    - gEvent091Text05
+    - gEvent091Text04
+    - gEvent091Text03
+    - gEvent091Text02
+    - gEvent091Text01
+    - gEvent091Text00
+  - name: event_092_text.inc
+    format: jp
+    start: 0x08F7EE7C
+    end: 0x08F7EEA4
+    entries:
+    - gEvent092Text00
+  - name: event_093_text.inc
+    format: jp
+    start: 0x08F7F1AC
+    end: 0x08F7F708
+    entries:
+    - gEvent093Text24
+    - gEvent093Text23
+    - gEvent093Text22
+    - gEvent093Text21
+    - gEvent093Text20
+    - gEvent093Text19
+    - gEvent093Text18
+    - gEvent093Text17
+    - gEvent093Text16
+    - gEvent093Text15
+    - gEvent093Text14
+    - gEvent093Text13
+    - gEvent093Text12
+    - gEvent093Text11
+    - gEvent093Text10
+    - gEvent093Text09
+    - gEvent093Text08
+    - gEvent093Text07
+    - gEvent093Text06
+    - gEvent093Text05
+    - gEvent093Text04
+    - gEvent093Text03
+    - gEvent093Text02
+    - gEvent093Text01
+    - gEvent093Text00
+  - name: event_094_text.inc
+    format: jp
+    start: 0x08F8031C
+    end: 0x08F8044C
+    entries:
+    - gEvent094Text06
+    - gEvent094Text05
+    - gEvent094Text04
+    - gEvent094Text03
+    - gEvent094Text02
+    - gEvent094Text01
+    - gEvent094Text00
+  - name: event_095_text.inc
+    format: jp
+    start: 0x08F81098
+    end: 0x08F815A0
+    entries:
+    - gEvent095Text29
+    - gEvent095Text28
+    - gEvent095Text27
+    - gEvent095Text26
+    - gEvent095Text25
+    - gEvent095Text24
+    - gEvent095Text23
+    - gEvent095Text22
+    - gEvent095Text21
+    - gEvent095Text20
+    - gEvent095Text19
+    - gEvent095Text18
+    - gEvent095Text17
+    - gEvent095Text16
+    - gEvent095Text15
+    - gEvent095Text14
+    - gEvent095Text13
+    - gEvent095Text12
+    - gEvent095Text11
+    - gEvent095Text10
+    - gEvent095Text09
+    - gEvent095Text08
+    - gEvent095Text07
+    - gEvent095Text06
+    - gEvent095Text05
+    - gEvent095Text04
+    - gEvent095Text03
+    - gEvent095Text02
+    - gEvent095Text01
+    - gEvent095Text00
+  - name: event_096_text.inc
+    format: jp
+    start: 0x08F820EC
+    end: 0x08F82158
+    entries:
+    - gEvent096Text05
+    - gEvent096Text04
+    - gEvent096Text03
+    - gEvent096Text02
+    - gEvent096Text01
+  - name: event_097_text.inc
+    format: jp
+    start: 0x08F83504
+    end: 0x08F8395C
+    entries:
+    - gEvent097Text20
+    - gEvent097Text19
+    - gEvent097Text18
+    - gEvent097Text17
+    - gEvent097Text16
+    - gEvent097Text15
+    - gEvent097Text14
+    - gEvent097Text13
+    - gEvent097Text12
+    - gEvent097Text11
+    - gEvent097Text10
+    - gEvent097Text09
+    - gEvent097Text08
+    - gEvent097Text07
+    - gEvent097Text06
+    - gEvent097Text05
+    - gEvent097Text04
+    - gEvent097Text03
+    - gEvent097Text02
+    - gEvent097Text01
+    - gEvent097Text00
+  - name: event_098_text.inc
+    format: jp
+    start: 0x08F84700
+    end: 0x08F848C0
+    entries:
+    - gEvent098Text15
+    - gEvent098Text14
+    - gEvent098Text13
+    - gEvent098Text12
+    - gEvent098Text11
+    - gEvent098Text10
+    - gEvent098Text09
+    - gEvent098Text08
+    - gEvent098Text07
+    - gEvent098Text06
+    - gEvent098Text05
+    - gEvent098Text04
+    - gEvent098Text03
+    - gEvent098Text02
+    - gEvent098Text01
+    - gEvent098Text00
+  - name: event_099_text.inc
+    format: jp
+    start: 0x08F8544C
+    end: 0x08F85474
+    entries:
+    - gEvent099Text00
+  - name: event_100_text.inc
+    format: jp
+    start: 0x08F85860
+    end: 0x08F85D50
+    entries:
+    - gEvent100Text27
+    - gEvent100Text26
+    - gEvent100Text25
+    - gEvent100Text24
+    - gEvent100Text23
+    - gEvent100Text22
+    - gEvent100Text21
+    - gEvent100Text20
+    - gEvent100Text19
+    - gEvent100Text18
+    - gEvent100Text17
+    - gEvent100Text16
+    - gEvent100Text15
+    - gEvent100Text14
+    - gEvent100Text13
+    - gEvent100Text12
+    - gEvent100Text11
+    - gEvent100Text10
+    - gEvent100Text09
+    - gEvent100Text08
+    - gEvent100Text07
+    - gEvent100Text06
+    - gEvent100Text05
+    - gEvent100Text04
+    - gEvent100Text03
+    - gEvent100Text02
+    - gEvent100Text01
+    - gEvent100Text00
+  - name: event_101_text.inc
+    format: jp
+    start: 0x08F86AC0
+    end: 0x08F86C7C
+    entries:
+    - gEvent101Text11
+    - gEvent101Text10
+    - gEvent101Text09
+    - gEvent101Text08
+    - gEvent101Text07
+    - gEvent101Text05
+    - gEvent101Text04
+    - gEvent101Text03
+    - gEvent101Text02
+    - gEvent101Text01
+    - gEvent101Text00
+  - name: event_102_text.inc
+    format: jp
+    start: 0x08F878D8
+    end: 0x08F87CC0
+    entries:
+    - gEvent102Text18
+    - gEvent102Text17
+    - gEvent102Text16
+    - gEvent102Text15
+    - gEvent102Text14
+    - gEvent102Text13
+    - gEvent102Text12
+    - gEvent102Text11
+    - gEvent102Text10
+    - gEvent102Text09
+    - gEvent102Text08
+    - gEvent102Text07
+    - gEvent102Text06
+    - gEvent102Text05
+    - gEvent102Text04
+    - gEvent102Text03
+    - gEvent102Text02
+    - gEvent102Text01
+    - gEvent102Text00
+  - name: event_103_text.inc
+    format: jp
+    start: 0x08F8885C
+    end: 0x08F88DBC
+    entries:
+    - gEvent103Text29
+    - gEvent103Text28
+    - gEvent103Text27
+    - gEvent103Text26
+    - gEvent103Text25
+    - gEvent103Text24
+    - gEvent103Text23
+    - gEvent103Text22
+    - gEvent103Text21
+    - gEvent103Text20
+    - gEvent103Text19
+    - gEvent103Text18
+    - gEvent103Text17
+    - gEvent103Text16
+    - gEvent103Text15
+    - gEvent103Text14
+    - gEvent103Text13
+    - gEvent103Text12
+    - gEvent103Text11
+    - gEvent103Text10
+    - gEvent103Text09
+    - gEvent103Text08
+    - gEvent103Text07
+    - gEvent103Text06
+    - gEvent103Text05
+    - gEvent103Text04
+    - gEvent103Text03
+    - gEvent103Text02
+    - gEvent103Text01
+    - gEvent103Text00
+  - name: event_104_text.inc
+    format: jp
+    start: 0x08F897E8
+    end: 0x08F89A88
+    entries:
+    - gEvent104Text15
+    - gEvent104Text14
+    - gEvent104Text13
+    - gEvent104Text12
+    - gEvent104Text11
+    - gEvent104Text10
+    - gEvent104Text09
+    - gEvent104Text08
+    - gEvent104Text07
+    - gEvent104Text06
+    - gEvent104Text05
+    - gEvent104Text04
+    - gEvent104Text03
+    - gEvent104Text02
+    - gEvent104Text01
+    - gEvent104Text00
+  - name: event_105_text.inc
+    format: jp
+    start: 0x08F8A3A4
+    end: 0x08F8A3E4
+    entries:
+    - gEvent105Text00
+  - name: event_106_text.inc
+    format: jp
+    start: 0x08F8A674
+    end: 0x08F8AB30
+    entries:
+    - gEvent106Text19
+    - gEvent106Text18
+    - gEvent106Text17
+    - gEvent106Text16
+    - gEvent106Text15
+    - gEvent106Text14
+    - gEvent106Text13
+    - gEvent106Text12
+    - gEvent106Text11
+    - gEvent106Text10
+    - gEvent106Text09
+    - gEvent106Text08
+    - gEvent106Text07
+    - gEvent106Text06
+    - gEvent106Text05
+    - gEvent106Text04
+    - gEvent106Text03
+    - gEvent106Text02
+    - gEvent106Text01
+    - gEvent106Text00
+  - name: event_107_text.inc
+    format: jp
+    start: 0x08F8B0A0
+    end: 0x08F8B110
+    entries:
+    - gEvent107Text03
+    - gEvent107Text02
+    - gEvent107Text01
+    - gEvent107Text00
+  - name: event_108_text.inc
+    format: jp
+    start: 0x08F8BAB0
+    end: 0x08F8BE20
+    entries:
+    - gEvent108Text16
+    - gEvent108Text15
+    - gEvent108Text14
+    - gEvent108Text13
+    - gEvent108Text12
+    - gEvent108Text11
+    - gEvent108Text10
+    - gEvent108Text09
+    - gEvent108Text08
+    - gEvent108Text07
+    - gEvent108Text06
+    - gEvent108Text05
+    - gEvent108Text04
+    - gEvent108Text03
+    - gEvent108Text02
+    - gEvent108Text01
+    - gEvent108Text00
+  - name: event_109_text.inc
+    format: jp
+    start: 0x08F8D35C
+    end: 0x08F8D8E4
+    entries:
+    - gEvent109Text21
+    - gEvent109Text20
+    - gEvent109Text19
+    - gEvent109Text18
+    - gEvent109Text17
+    - gEvent109Text16
+    - gEvent109Text15
+    - gEvent109Text14
+    - gEvent109Text13
+    - gEvent109Text12
+    - gEvent109Text11
+    - gEvent109Text10
+    - gEvent109Text09
+    - gEvent109Text08
+    - gEvent109Text07
+    - gEvent109Text06
+    - gEvent109Text05
+    - gEvent109Text04
+    - gEvent109Text03
+    - gEvent109Text02
+    - gEvent109Text01
+    - gEvent109Text00
+  - name: event_110_text.inc
+    format: jp
+    start: 0x08F8E4E8
+    end: 0x08F8E694
+    entries:
+    - gEvent110Text12
+    - gEvent110Text11
+    - gEvent110Text10
+    - gEvent110Text09
+    - gEvent110Text08
+    - gEvent110Text06
+    - gEvent110Text05
+    - gEvent110Text04
+    - gEvent110Text03
+    - gEvent110Text02
+    - gEvent110Text01
+    - gEvent110Text00
+  - name: event_111_text.inc
+    format: jp
+    start: 0x08F8FACC
+    end: 0x08F900A4
+    entries:
+    - gEvent111Text28
+    - gEvent111Text27
+    - gEvent111Text26
+    - gEvent111Text25
+    - gEvent111Text24
+    - gEvent111Text23
+    - gEvent111Text22
+    - gEvent111Text21
+    - gEvent111Text20
+    - gEvent111Text19
+    - gEvent111Text18
+    - gEvent111Text17
+    - gEvent111Text16
+    - gEvent111Text15
+    - gEvent111Text14
+    - gEvent111Text13
+    - gEvent111Text11
+    - gEvent111Text10
+    - gEvent111Text09
+    - gEvent111Text08
+    - gEvent111Text07
+    - gEvent111Text06
+    - gEvent111Text05
+    - gEvent111Text04
+    - gEvent111Text03
+    - gEvent111Text01
+    - gEvent111Text00
+  - name: event_112_text.inc
+    format: jp
+    start: 0x08F90F64
+    end: 0x08F91244
+    entries:
+    - gEvent112Text14
+    - gEvent112Text13
+    - gEvent112Text12
+    - gEvent112Text11
+    - gEvent112Text10
+    - gEvent112Text09
+    - gEvent112Text08
+    - gEvent112Text07
+    - gEvent112Text06
+    - gEvent112Text05
+    - gEvent112Text04
+    - gEvent112Text03
+    - gEvent112Text02
+    - gEvent112Text01
+    - gEvent112Text00
+  - name: event_113_text.inc
+    format: jp
+    start: 0x08F91C24
+    end: 0x08F91C5C
+    entries:
+    - gEvent113Text00
+  - name: event_114_text.inc
+    format: jp
+    start: 0x08F92034
+    end: 0x08F925A0
+    entries:
+    - gEvent114Text30
+    - gEvent114Text29
+    - gEvent114Text28
+    - gEvent114Text27
+    - gEvent114Text26
+    - gEvent114Text25
+    - gEvent114Text24
+    - gEvent114Text23
+    - gEvent114Text22
+    - gEvent114Text21
+    - gEvent114Text20
+    - gEvent114Text19
+    - gEvent114Text18
+    - gEvent114Text16
+    - gEvent114Text15
+    - gEvent114Text14
+    - gEvent114Text13
+    - gEvent114Text12
+    - gEvent114Text11
+    - gEvent114Text10
+    - gEvent114Text09
+    - gEvent114Text08
+    - gEvent114Text07
+    - gEvent114Text06
+    - gEvent114Text05
+    - gEvent114Text04
+    - gEvent114Text03
+    - gEvent114Text02
+    - gEvent114Text01
+    - gEvent114Text00
+  - name: event_115_text.inc
+    format: jp
+    start: 0x08F93384
+    end: 0x08F93478
+    entries:
+    - gEvent115Text07
+    - gEvent115Text06
+    - gEvent115Text05
+    - gEvent115Text03
+    - gEvent115Text02
+    - gEvent115Text01
+    - gEvent115Text00
+  - name: event_116_text.inc
+    format: jp
+    start: 0x08F94064
+    end: 0x08F94674
+    entries:
+    - gEvent116Text30
+    - gEvent116Text29
+    - gEvent116Text28
+    - gEvent116Text27
+    - gEvent116Text25
+    - gEvent116Text24
+    - gEvent116Text23
+    - gEvent116Text22
+    - gEvent116Text21
+    - gEvent116Text20
+    - gEvent116Text19
+    - gEvent116Text18
+    - gEvent116Text17
+    - gEvent116Text16
+    - gEvent116Text15
+    - gEvent116Text14
+    - gEvent116Text13
+    - gEvent116Text12
+    - gEvent116Text11
+    - gEvent116Text10
+    - gEvent116Text09
+    - gEvent116Text08
+    - gEvent116Text07
+    - gEvent116Text06
+    - gEvent116Text05
+    - gEvent116Text04
+    - gEvent116Text03
+    - gEvent116Text02
+    - gEvent116Text01
+    - gEvent116Text00
+  - name: event_117_text.inc
+    format: jp
+    start: 0x08F957FC
+    end: 0x08F95C90
+    entries:
+    - gEvent117Text23
+    - gEvent117Text22
+    - gEvent117Text21
+    - gEvent117Text20
+    - gEvent117Text19
+    - gEvent117Text18
+    - gEvent117Text17
+    - gEvent117Text16
+    - gEvent117Text15
+    - gEvent117Text14
+    - gEvent117Text13
+    - gEvent117Text12
+    - gEvent117Text11
+    - gEvent117Text10
+    - gEvent117Text09
+    - gEvent117Text08
+    - gEvent117Text07
+    - gEvent117Text06
+    - gEvent117Text05
+    - gEvent117Text04
+    - gEvent117Text03
+    - gEvent117Text02
+    - gEvent117Text01
+    - gEvent117Text00
+  - name: event_118_text.inc
+    format: jp
+    start: 0x08F96E14
+    end: 0x08F97228
+    entries:
+    - gEvent118Text22
+    - gEvent118Text21
+    - gEvent118Text20
+    - gEvent118Text19
+    - gEvent118Text18
+    - gEvent118Text17
+    - gEvent118Text16
+    - gEvent118Text15
+    - gEvent118Text13
+    - gEvent118Text12
+    - gEvent118Text11
+    - gEvent118Text10
+    - gEvent118Text09
+    - gEvent118Text08
+    - gEvent118Text07
+    - gEvent118Text06
+    - gEvent118Text05
+    - gEvent118Text04
+    - gEvent118Text03
+    - gEvent118Text02
+    - gEvent118Text01
+    - gEvent118Text00
+  - name: event_119_text.inc
+    format: jp
+    start: 0x08F984D8
+    end: 0x08F98A80
+    entries:
+    - gEvent119Text28
+    - gEvent119Text27
+    - gEvent119Text26
+    - gEvent119Text25
+    - gEvent119Text24
+    - gEvent119Text23
+    - gEvent119Text22
+    - gEvent119Text20
+    - gEvent119Text19
+    - gEvent119Text18
+    - gEvent119Text17
+    - gEvent119Text16
+    - gEvent119Text15
+    - gEvent119Text14
+    - gEvent119Text13
+    - gEvent119Text12
+    - gEvent119Text11
+    - gEvent119Text10
+    - gEvent119Text09
+    - gEvent119Text08
+    - gEvent119Text07
+    - gEvent119Text06
+    - gEvent119Text05
+    - gEvent119Text04
+    - gEvent119Text03
+    - gEvent119Text02
+    - gEvent119Text01
+    - gEvent119Text00
+  - name: event_120_text.inc
+    format: jp
+    start: 0x08F99840
+    end: 0x08F99C88
+    entries:
+    - gEvent120Text23
+    - gEvent120Text22
+    - gEvent120Text21
+    - gEvent120Text20
+    - gEvent120Text19
+    - gEvent120Text18
+    - gEvent120Text17
+    - gEvent120Text16
+    - gEvent120Text15
+    - gEvent120Text14
+    - gEvent120Text13
+    - gEvent120Text12
+    - gEvent120Text11
+    - gEvent120Text10
+    - gEvent120Text09
+    - gEvent120Text08
+    - gEvent120Text07
+    - gEvent120Text06
+    - gEvent120Text05
+    - gEvent120Text04
+    - gEvent120Text03
+    - gEvent120Text02
+    - gEvent120Text01
+    - gEvent120Text00
+  - name: event_121_text.inc
+    format: jp
+    start: 0x08F9B124
+    end: 0x08F9B6D4
+    entries:
+    - gEvent121Text33
+    - gEvent121Text32
+    - gEvent121Text31
+    - gEvent121Text30
+    - gEvent121Text29
+    - gEvent121Text28
+    - gEvent121Text27
+    - gEvent121Text26
+    - gEvent121Text25
+    - gEvent121Text24
+    - gEvent121Text23
+    - gEvent121Text22
+    - gEvent121Text21
+    - gEvent121Text20
+    - gEvent121Text19
+    - gEvent121Text18
+    - gEvent121Text17
+    - gEvent121Text16
+    - gEvent121Text15
+    - gEvent121Text14
+    - gEvent121Text13
+    - gEvent121Text12
+    - gEvent121Text11
+    - gEvent121Text10
+    - gEvent121Text09
+    - gEvent121Text08
+    - gEvent121Text07
+    - gEvent121Text06
+    - gEvent121Text05
+    - gEvent121Text04
+    - gEvent121Text02
+    - gEvent121Text01
+    - gEvent121Text00
+  - name: event_122_text.inc
+    format: jp
+    start: 0x08F9CA94
+    end: 0x08F9CD50
+    entries:
+    - gEvent122Text15
+    - gEvent122Text14
+    - gEvent122Text13
+    - gEvent122Text12
+    - gEvent122Text11
+    - gEvent122Text10
+    - gEvent122Text09
+    - gEvent122Text08
+    - gEvent122Text07
+    - gEvent122Text06
+    - gEvent122Text05
+    - gEvent122Text04
+    - gEvent122Text03
+    - gEvent122Text02
+    - gEvent122Text01
+    - gEvent122Text00
+  - name: event_123_text.inc
+    format: jp
+    start: 0x08F9D9E8
+    end: 0x08F9DA38
+    entries:
+    - gEvent123Text02
+    - gEvent123Text01
+    - gEvent123Text00
+  - name: event_124_text.inc
+    format: jp
+    start: 0x08F9E400
+    end: 0x08F9E7FC
+    entries:
+    - gEvent124Text26
+    - gEvent124Text25
+    - gEvent124Text24
+    - gEvent124Text23
+    - gEvent124Text22
+    - gEvent124Text21
+    - gEvent124Text20
+    - gEvent124Text19
+    - gEvent124Text18
+    - gEvent124Text16
+    - gEvent124Text15
+    - gEvent124Text14
+    - gEvent124Text13
+    - gEvent124Text12
+    - gEvent124Text11
+    - gEvent124Text10
+    - gEvent124Text09
+    - gEvent124Text08
+    - gEvent124Text07
+    - gEvent124Text06
+    - gEvent124Text05
+    - gEvent124Text04
+    - gEvent124Text03
+    - gEvent124Text02
+    - gEvent124Text01
+    - gEvent124Text00
+  - name: event_125_text.inc
+    format: jp
+    start: 0x08F9F510
+    end: 0x08F9F544
+    entries:
+    - gEvent125Text00
+  - name: event_126_text.inc
+    format: jp
+    start: 0x08F9F834
+    end: 0x08F9FB2C
+    entries:
+    - gEvent126Text20
+    - gEvent126Text19
+    - gEvent126Text18
+    - gEvent126Text17
+    - gEvent126Text16
+    - gEvent126Text15
+    - gEvent126Text14
+    - gEvent126Text13
+    - gEvent126Text12
+    - gEvent126Text11
+    - gEvent126Text10
+    - gEvent126Text09
+    - gEvent126Text08
+    - gEvent126Text07
+    - gEvent126Text06
+    - gEvent126Text05
+    - gEvent126Text04
+    - gEvent126Text03
+    - gEvent126Text02
+    - gEvent126Text00
+  - name: event_127_text.inc
+    format: jp
+    start: 0x08FA0670
+    end: 0x08FA07FC
+    entries:
+    - gEvent127Text06
+    - gEvent127Text05
+    - gEvent127Text04
+    - gEvent127Text03
+    - gEvent127Text02
+    - gEvent127Text01
+    - gEvent127Text00
+  - name: event_128_text.inc
+    format: jp
+    start: 0x08FA0A3C
+    end: 0x08FA0B24
+    entries:
+    - gEvent128Text03
+    - gEvent128Text02
+    - gEvent128Text01
+    - gEvent128Text00
+  - name: event_129_text.inc
+    format: jp
+    start: 0x08FA0DA4
+    end: 0x08FA1050
+    entries:
+    - gEvent129Text11
+    - gEvent129Text10
+    - gEvent129Text09
+    - gEvent129Text08
+    - gEvent129Text07
+    - gEvent129Text06
+    - gEvent129Text05
+    - gEvent129Text04
+    - gEvent129Text03
+    - gEvent129Text02
+    - gEvent129Text01
+    - gEvent129Text00
+  - name: event_130_text.inc
+    format: jp
+    start: 0x08FA1D98
+    end: 0x08FA2200
+    entries:
+    - gEvent130Text23
+    - gEvent130Text22
+    - gEvent130Text21
+    - gEvent130Text20
+    - gEvent130Text19
+    - gEvent130Text18
+    - gEvent130Text17
+    - gEvent130Text16
+    - gEvent130Text15
+    - gEvent130Text14
+    - gEvent130Text13
+    - gEvent130Text12
+    - gEvent130Text11
+    - gEvent130Text10
+    - gEvent130Text09
+    - gEvent130Text08
+    - gEvent130Text07
+    - gEvent130Text06
+    - gEvent130Text05
+    - gEvent130Text04
+    - gEvent130Text02
+    - gEvent130Text01
+    - gEvent130Text00
+  - name: event_131_text.inc
+    format: jp
+    start: 0x08FA37AC
+    end: 0x08FA3F20
+    entries:
+    - gEvent131Text37
+    - gEvent131Text36
+    - gEvent131Text35
+    - gEvent131Text34
+    - gEvent131Text33
+    - gEvent131Text32
+    - gEvent131Text31
+    - gEvent131Text30
+    - gEvent131Text29
+    - gEvent131Text28
+    - gEvent131Text27
+    - gEvent131Text26
+    - gEvent131Text25
+    - gEvent131Text24
+    - gEvent131Text23
+    - gEvent131Text22
+    - gEvent131Text21
+    - gEvent131Text20
+    - gEvent131Text19
+    - gEvent131Text18
+    - gEvent131Text17
+    - gEvent131Text16
+    - gEvent131Text15
+    - gEvent131Text14
+    - gEvent131Text13
+    - gEvent131Text12
+    - gEvent131Text11
+    - gEvent131Text10
+    - gEvent131Text09
+    - gEvent131Text08
+    - gEvent131Text07
+    - gEvent131Text06
+    - gEvent131Text05
+    - gEvent131Text04
+    - gEvent131Text03
+    - gEvent131Text02
+    - gEvent131Text01
+    - gEvent131Text00
+  - name: event_132_text.inc
+    format: jp
+    start: 0x08FA530C
+    end: 0x08FA567C
+    entries:
+    - gEvent132Text13
+    - gEvent132Text12
+    - gEvent132Text11
+    - gEvent132Text10
+    - gEvent132Text09
+    - gEvent132Text08
+    - gEvent132Text07
+    - gEvent132Text06
+    - gEvent132Text05
+    - gEvent132Text04
+    - gEvent132Text03
+    - gEvent132Text02
+    - gEvent132Text01
+    - gEvent132Text00
+  - name: event_133_text.inc
+    format: jp
+    start: 0x08FA5E60
+    end: 0x08FA6068
+    entries:
+    - gEvent133Text10
+    - gEvent133Text09
+    - gEvent133Text08
+    - gEvent133Text07
+    - gEvent133Text06
+    - gEvent133Text05
+    - gEvent133Text04
+    - gEvent133Text03
+    - gEvent133Text02
+    - gEvent133Text01
+    - gEvent133Text00
+  - name: event_000_text.inc
+    format: jp
+    start: 0x08FA6E04
+    end: 0x08FA7478
+    entries:
+    - gEvent000Text41
+    - gEvent000Text40
+    - gEvent000Text39
+    - gEvent000Text38
+    - gEvent000Text37
+    - gEvent000Text36
+    - gEvent000Text35
+    - gEvent000Text34
+    - gEvent000Text33
+    - gEvent000Text32
+    - gEvent000Text31
+    - gEvent000Text30
+    - gEvent000Text29
+    - gEvent000Text28
+    - gEvent000Text27
+    - gEvent000Text26
+    - gEvent000Text25
+    - gEvent000Text24
+    - gEvent000Text23
+    - gEvent000Text22
+    - gEvent000Text21
+    - gEvent000Text19
+    - gEvent000Text18
+    - gEvent000Text17
+    - gEvent000Text16
+    - gEvent000Text15
+    - gEvent000Text14
+    - gEvent000Text13
+    - gEvent000Text12
+    - gEvent000Text11
+    - gEvent000Text10
+    - gEvent000Text09
+    - gEvent000Text08
+    - gEvent000Text07
+    - gEvent000Text06
+    - gEvent000Text05
+    - gEvent000Text04
+    - gEvent000Text03
+    - gEvent000Text02
+    - gEvent000Text01
+    - gEvent000Text00
+  - name: event_001_text.inc
+    format: jp
+    start: 0x08FA9DB4
+    end: 0x08FA9E34
+    entries:
+    - gEvent001Text02
+    - gEvent001Text01
+    - gEvent001Text00
+  - name: event_002_text.inc
+    format: jp
+    start: 0x08FAA4D4
+    end: 0x08FAA65C
+    entries:
+    - gEvent002Text06
+    - gEvent002Text05
+    - gEvent002Text04
+    - gEvent002Text03
+    - gEvent002Text02
+    - gEvent002Text01
+    - gEvent002Text00
+  - name: event_003_text.inc
+    format: jp
+    start: 0x08FAB3EC
+    end: 0x08FAB8DC
+    entries:
+    - gEvent003Text23
+    - gEvent003Text22
+    - gEvent003Text21
+    - gEvent003Text20
+    - gEvent003Text19
+    - gEvent003Text18
+    - gEvent003Text17
+    - gEvent003Text16
+    - gEvent003Text15
+    - gEvent003Text14
+    - gEvent003Text13
+    - gEvent003Text12
+    - gEvent003Text11
+    - gEvent003Text10
+    - gEvent003Text09
+    - gEvent003Text08
+    - gEvent003Text07
+    - gEvent003Text06
+    - gEvent003Text05
+    - gEvent003Text04
+    - gEvent003Text03
+    - gEvent003Text02
+    - gEvent003Text01
+    - gEvent003Text00
+  - name: event_004_text.inc
+    format: jp
+    start: 0x08FAC9B4
+    end: 0x08FACFAC
+    entries:
+    - gEvent004Text37
+    - gEvent004Text36
+    - gEvent004Text35
+    - gEvent004Text34
+    - gEvent004Text33
+    - gEvent004Text32
+    - gEvent004Text31
+    - gEvent004Text30
+    - gEvent004Text29
+    - gEvent004Text28
+    - gEvent004Text27
+    - gEvent004Text26
+    - gEvent004Text25
+    - gEvent004Text24
+    - gEvent004Text23
+    - gEvent004Text22
+    - gEvent004Text21
+    - gEvent004Text20
+    - gEvent004Text19
+    - gEvent004Text18
+    - gEvent004Text17
+    - gEvent004Text16
+    - gEvent004Text15
+    - gEvent004Text14
+    - gEvent004Text13
+    - gEvent004Text05
+    - gEvent004Text04
+    - gEvent004Text03
+    - gEvent004Text02
+    - gEvent004Text01
+    - gEvent004Text00
+  - name: event_005_text.inc
+    format: jp
+    start: 0x08FAE57C
+    end: 0x08FAE628
+    entries:
+    - gEvent005Text03
+    - gEvent005Text02
+    - gEvent005Text01
+    - gEvent005Text00
+  - name: event_006_text.inc
+    format: jp
+    start: 0x08FAED2C
+    end: 0x08FAF320
+    entries:
+    - gEvent006Text29
+    - gEvent006Text28
+    - gEvent006Text27
+    - gEvent006Text26
+    - gEvent006Text25
+    - gEvent006Text24
+    - gEvent006Text23
+    - gEvent006Text22
+    - gEvent006Text21
+    - gEvent006Text20
+    - gEvent006Text19
+    - gEvent006Text18
+    - gEvent006Text17
+    - gEvent006Text16
+    - gEvent006Text12
+    - gEvent006Text11
+    - gEvent006Text10
+    - gEvent006Text09
+    - gEvent006Text08
+    - gEvent006Text07
+    - gEvent006Text06
+    - gEvent006Text05
+    - gEvent006Text04
+    - gEvent006Text03
+    - gEvent006Text02
+    - gEvent006Text01
+    - gEvent006Text00
+  - name: event_007_text.inc
+    format: jp
+    start: 0x08FB0098
+    end: 0x08FB0378
+    entries:
+    - gEvent007Text15
+    - gEvent007Text14
+    - gEvent007Text13
+    - gEvent007Text12
+    - gEvent007Text11
+    - gEvent007Text10
+    - gEvent007Text09
+    - gEvent007Text08
+    - gEvent007Text07
+    - gEvent007Text06
+    - gEvent007Text05
+    - gEvent007Text04
+    - gEvent007Text03
+    - gEvent007Text02
+    - gEvent007Text01
+    - gEvent007Text00
+  - name: event_009_text.inc
+    format: jp
+    start: 0x08FB126C
+    end: 0x08FB18B8
+    entries:
+    - gEvent009Text37
+    - gEvent009Text36
+    - gEvent009Text35
+    - gEvent009Text34
+    - gEvent009Text33
+    - gEvent009Text32
+    - gEvent009Text31
+    - gEvent009Text30
+    - gEvent009Text28
+    - gEvent009Text27
+    - gEvent009Text25
+    - gEvent009Text24
+    - gEvent009Text23
+    - gEvent009Text22
+    - gEvent009Text21
+    - gEvent009Text20
+    - gEvent009Text19
+    - gEvent009Text18
+    - gEvent009Text17
+    - gEvent009Text16
+    - gEvent009Text15
+    - gEvent009Text14
+    - gEvent009Text13
+    - gEvent009Text11
+    - gEvent009Text10
+    - gEvent009Text09
+    - gEvent009Text08
+    - gEvent009Text07
+    - gEvent009Text06
+    - gEvent009Text05
+    - gEvent009Text04
+    - gEvent009Text03
+    - gEvent009Text02
+    - gEvent009Text01
+    - gEvent009Text00
+  - name: event_010_text.inc
+    format: jp
+    start: 0x08FB2CA0
+    end: 0x08FB2E8C
+    entries:
+    - gEvent010Text13
+    - gEvent010Text12
+    - gEvent010Text11
+    - gEvent010Text10
+    - gEvent010Text09
+    - gEvent010Text08
+    - gEvent010Text07
+    - gEvent010Text06
+    - gEvent010Text05
+    - gEvent010Text04
+    - gEvent010Text03
+    - gEvent010Text02
+    - gEvent010Text01
+    - gEvent010Text00
+  - name: event_011_text.inc
+    format: jp
+    start: 0x08FB3E64
+    end: 0x08FB42C8
+    entries:
+    - gEvent011Text26
+    - gEvent011Text25
+    - gEvent011Text24
+    - gEvent011Text23
+    - gEvent011Text22
+    - gEvent011Text21
+    - gEvent011Text20
+    - gEvent011Text19
+    - gEvent011Text18
+    - gEvent011Text17
+    - gEvent011Text16
+    - gEvent011Text15
+    - gEvent011Text14
+    - gEvent011Text13
+    - gEvent011Text12
+    - gEvent011Text11
+    - gEvent011Text10
+    - gEvent011Text09
+    - gEvent011Text08
+    - gEvent011Text07
+    - gEvent011Text06
+    - gEvent011Text05
+    - gEvent011Text04
+    - gEvent011Text03
+    - gEvent011Text02
+    - gEvent011Text01
+    - gEvent011Text00
+  - name: event_012_text.inc
+    format: jp
+    start: 0x08FB51A8
+    end: 0x08FB54BC
+    entries:
+    - gEvent012Text17
+    - gEvent012Text16
+    - gEvent012Text15
+    - gEvent012Text14
+    - gEvent012Text13
+    - gEvent012Text12
+    - gEvent012Text11
+    - gEvent012Text10
+    - gEvent012Text09
+    - gEvent012Text08
+    - gEvent012Text07
+    - gEvent012Text06
+    - gEvent012Text05
+    - gEvent012Text04
+    - gEvent012Text03
+    - gEvent012Text02
+    - gEvent012Text01
+    - gEvent012Text00
+  - name: event_013_text.inc
+    format: jp
+    start: 0x08FB5E40
+    end: 0x08FB61C8
+    entries:
+    - gEvent013Text16
+    - gEvent013Text15
+    - gEvent013Text14
+    - gEvent013Text12
+    - gEvent013Text11
+    - gEvent013Text10
+    - gEvent013Text09
+    - gEvent013Text08
+    - gEvent013Text07
+    - gEvent013Text06
+    - gEvent013Text05
+    - gEvent013Text04
+    - gEvent013Text03
+    - gEvent013Text02
+    - gEvent013Text01
+  - name: event_014_text.inc
+    format: jp
+    start: 0x08FB6C38
+    end: 0x08FB6C7C
+    entries:
+    - gEvent014Text00
+  - name: event_015_text.inc
+    format: jp
+    start: 0x08FB707C
+    end: 0x08FB7548
+    entries:
+    - gEvent015Text25
+    - gEvent015Text24
+    - gEvent015Text23
+    - gEvent015Text22
+    - gEvent015Text21
+    - gEvent015Text20
+    - gEvent015Text19
+    - gEvent015Text18
+    - gEvent015Text17
+    - gEvent015Text16
+    - gEvent015Text15
+    - gEvent015Text14
+    - gEvent015Text13
+    - gEvent015Text12
+    - gEvent015Text11
+    - gEvent015Text10
+    - gEvent015Text09
+    - gEvent015Text08
+    - gEvent015Text07
+    - gEvent015Text06
+    - gEvent015Text05
+    - gEvent015Text04
+    - gEvent015Text03
+    - gEvent015Text02
+    - gEvent015Text01
+    - gEvent015Text00
+  - name: event_016_text.inc
+    format: jp
+    start: 0x08FB8520
+    end: 0x08FB86C8
+    entries:
+    - gEvent016Text09
+    - gEvent016Text08
+    - gEvent016Text07
+    - gEvent016Text06
+    - gEvent016Text05
+    - gEvent016Text04
+    - gEvent016Text02
+    - gEvent016Text01
+    - gEvent016Text00
+  - name: event_017_text.inc
+    format: jp
+    start: 0x08FB8D08
+    end: 0x08FB8F94
+    entries:
+    - gEvent017Text10
+    - gEvent017Text09
+    - gEvent017Text08
+    - gEvent017Text07
+    - gEvent017Text06
+    - gEvent017Text05
+    - gEvent017Text04
+    - gEvent017Text03
+    - gEvent017Text02
+    - gEvent017Text01
+    - gEvent017Text00
+  - name: event_018_text.inc
+    format: jp
+    start: 0x08FB9358
+    end: 0x08FB95DC
+    entries:
+    - gEvent018Text15
+    - gEvent018Text14
+    - gEvent018Text13
+    - gEvent018Text12
+    - gEvent018Text11
+    - gEvent018Text10
+    - gEvent018Text09
+    - gEvent018Text08
+    - gEvent018Text07
+    - gEvent018Text06
+    - gEvent018Text05
+    - gEvent018Text04
+    - gEvent018Text03
+    - gEvent018Text02
+    - gEvent018Text01
+    - gEvent018Text00
+  - name: event_019_text.inc
+    format: jp
+    start: 0x08FBA3A0
+    end: 0x08FBA4A4
+    entries:
+    - gEvent019Text07
+    - gEvent019Text06
+    - gEvent019Text05
+    - gEvent019Text04
+    - gEvent019Text03
+    - gEvent019Text02
+    - gEvent019Text01
+    - gEvent019Text00
+  - name: event_020_text.inc
+    format: jp
+    start: 0x08FBA95C
+    end: 0x08FBA97C
+    entries:
+    - gEvent020Text00
+  - name: event_021_text.inc
+    format: jp
+    start: 0x08FBACA4
+    end: 0x08FBAF78
+    entries:
+    - gEvent021Text16
+    - gEvent021Text15
+    - gEvent021Text14
+    - gEvent021Text12
+    - gEvent021Text11
+    - gEvent021Text10
+    - gEvent021Text09
+    - gEvent021Text08
+    - gEvent021Text07
+    - gEvent021Text06
+    - gEvent021Text05
+    - gEvent021Text04
+    - gEvent021Text03
+    - gEvent021Text02
+    - gEvent021Text01
+    - gEvent021Text00
+  - name: event_022_text.inc
+    format: jp
+    start: 0x08FBBD84
+    end: 0x08FBC318
+    entries:
+    - gEvent022Text24
+    - gEvent022Text23
+    - gEvent022Text22
+    - gEvent022Text21
+    - gEvent022Text20
+    - gEvent022Text19
+    - gEvent022Text18
+    - gEvent022Text17
+    - gEvent022Text16
+    - gEvent022Text15
+    - gEvent022Text14
+    - gEvent022Text13
+    - gEvent022Text12
+    - gEvent022Text11
+    - gEvent022Text10
+    - gEvent022Text09
+    - gEvent022Text08
+    - gEvent022Text07
+    - gEvent022Text06
+    - gEvent022Text05
+    - gEvent022Text04
+    - gEvent022Text03
+    - gEvent022Text02
+    - gEvent022Text01
+    - gEvent022Text00
+  - name: event_023_text.inc
+    format: jp
+    start: 0x08FBCB44
+    end: 0x08FBCDB8
+    entries:
+    - gEvent023Text13
+    - gEvent023Text12
+    - gEvent023Text11
+    - gEvent023Text10
+    - gEvent023Text09
+    - gEvent023Text08
+    - gEvent023Text07
+    - gEvent023Text06
+    - gEvent023Text05
+    - gEvent023Text04
+    - gEvent023Text03
+    - gEvent023Text02
+    - gEvent023Text01
+    - gEvent023Text00
+  - name: event_024_text.inc
+    format: jp
+    start: 0x08FBD31C
+    end: 0x08FBD3E4
+    entries:
+    - gEvent024Text03
+    - gEvent024Text02
+    - gEvent024Text01
+    - gEvent024Text00
+  - name: event_025_text.inc
+    format: jp
+    start: 0x08FBD850
+    end: 0x08FBDA54
+    entries:
+    - gEvent025Text10
+    - gEvent025Text09
+    - gEvent025Text08
+    - gEvent025Text07
+    - gEvent025Text06
+    - gEvent025Text05
+    - gEvent025Text04
+    - gEvent025Text03
+    - gEvent025Text02
+    - gEvent025Text01
+    - gEvent025Text00
+  - name: event_026_text.inc
+    format: jp
+    start: 0x08FBE804
+    end: 0x08FBEB34
+    entries:
+    - gEvent026Text19
+    - gEvent026Text18
+    - gEvent026Text17
+    - gEvent026Text16
+    - gEvent026Text15
+    - gEvent026Text14
+    - gEvent026Text13
+    - gEvent026Text12
+    - gEvent026Text11
+    - gEvent026Text10
+    - gEvent026Text09
+    - gEvent026Text08
+    - gEvent026Text07
+    - gEvent026Text06
+    - gEvent026Text05
+    - gEvent026Text04
+    - gEvent026Text03
+    - gEvent026Text01
+    - gEvent026Text00
+  - name: event_027_text.inc
+    format: jp
+    start: 0x08FBF658
+    end: 0x08FBF808
+    entries:
+    - gEvent027Text09
+    - gEvent027Text08
+    - gEvent027Text06
+    - gEvent027Text05
+    - gEvent027Text04
+    - gEvent027Text03
+    - gEvent027Text02
+    - gEvent027Text01
+    - gEvent027Text00
+  - name: event_028_text.inc
+    format: jp
+    start: 0x08FC023C
+    end: 0x08FC0624
+    entries:
+    - gEvent028Text19
+    - gEvent028Text18
+    - gEvent028Text17
+    - gEvent028Text16
+    - gEvent028Text15
+    - gEvent028Text14
+    - gEvent028Text13
+    - gEvent028Text12
+    - gEvent028Text11
+    - gEvent028Text10
+    - gEvent028Text09
+    - gEvent028Text08
+    - gEvent028Text07
+    - gEvent028Text05
+    - gEvent028Text04
+    - gEvent028Text03
+    - gEvent028Text02
+    - gEvent028Text01
+    - gEvent028Text00
+  - name: event_029_text.inc
+    format: jp
+    start: 0x08FC0D24
+    end: 0x08FC0E7C
+    entries:
+    - gEvent029Text05
+    - gEvent029Text04
+    - gEvent029Text03
+    - gEvent029Text02
+    - gEvent029Text01
+    - gEvent029Text00
+  - name: event_030_text.inc
+    format: jp
+    start: 0x08FC16E0
+    end: 0x08FC1B40
+    entries:
+    - gEvent030Text24
+    - gEvent030Text23
+    - gEvent030Text22
+    - gEvent030Text21
+    - gEvent030Text20
+    - gEvent030Text19
+    - gEvent030Text18
+    - gEvent030Text17
+    - gEvent030Text16
+    - gEvent030Text15
+    - gEvent030Text14
+    - gEvent030Text13
+    - gEvent030Text12
+    - gEvent030Text11
+    - gEvent030Text10
+    - gEvent030Text09
+    - gEvent030Text08
+    - gEvent030Text07
+    - gEvent030Text06
+    - gEvent030Text05
+    - gEvent030Text04
+    - gEvent030Text03
+    - gEvent030Text02
+    - gEvent030Text01
+    - gEvent030Text00
+  - name: event_031_text.inc
+    format: jp
+    start: 0x08FC22A0
+    end: 0x08FC22B4
+    entries:
+    - gEvent031Text00
+  - name: event_032_text.inc
+    format: jp
+    start: 0x08FC28D4
+    end: 0x08FC2DD8
+    entries:
+    - gEvent032Text29
+    - gEvent032Text28
+    - gEvent032Text27
+    - gEvent032Text26
+    - gEvent032Text25
+    - gEvent032Text24
+    - gEvent032Text23
+    - gEvent032Text22
+    - gEvent032Text21
+    - gEvent032Text20
+    - gEvent032Text19
+    - gEvent032Text18
+    - gEvent032Text17
+    - gEvent032Text16
+    - gEvent032Text15
+    - gEvent032Text14
+    - gEvent032Text13
+    - gEvent032Text12
+    - gEvent032Text11
+    - gEvent032Text10
+    - gEvent032Text07
+    - gEvent032Text06
+    - gEvent032Text05
+    - gEvent032Text04
+    - gEvent032Text03
+    - gEvent032Text02
+    - gEvent032Text01
+    - gEvent032Text00
+  - name: event_033_text.inc
+    format: jp
+    start: 0x08FC3D5C
+    end: 0x08FC4108
+    entries:
+    - gEvent033Text18
+    - gEvent033Text17
+    - gEvent033Text16
+    - gEvent033Text15
+    - gEvent033Text14
+    - gEvent033Text13
+    - gEvent033Text12
+    - gEvent033Text11
+    - gEvent033Text10
+    - gEvent033Text09
+    - gEvent033Text08
+    - gEvent033Text07
+    - gEvent033Text06
+    - gEvent033Text05
+    - gEvent033Text04
+    - gEvent033Text03
+    - gEvent033Text02
+    - gEvent033Text01
+    - gEvent033Text00
+  - name: event_034_text.inc
+    format: jp
+    start: 0x08FC4C80
+    end: 0x08FC4E3C
+    entries:
+    - gEvent034Text09
+    - gEvent034Text08
+    - gEvent034Text07
+    - gEvent034Text06
+    - gEvent034Text05
+    - gEvent034Text04
+    - gEvent034Text03
+    - gEvent034Text02
+    - gEvent034Text01
+    - gEvent034Text00
+  - name: event_035_text.inc
+    format: jp
+    start: 0x08FC5234
+    end: 0x08FC52D0
+    entries:
+    - gEvent035Text02
+    - gEvent035Text01
+    - gEvent035Text00
+  - name: event_036_text.inc
+    format: jp
+    start: 0x08FC5648
+    end: 0x08FC58B4
+    entries:
+    - gEvent036Text13
+    - gEvent036Text12
+    - gEvent036Text11
+    - gEvent036Text10
+    - gEvent036Text09
+    - gEvent036Text08
+    - gEvent036Text07
+    - gEvent036Text06
+    - gEvent036Text05
+    - gEvent036Text04
+    - gEvent036Text03
+    - gEvent036Text02
+    - gEvent036Text01
+  - name: event_037_text.inc
+    format: jp
+    start: 0x08FC5FA4
+    end: 0x08FC6018
+    entries:
+    - gEvent037Text02
+    - gEvent037Text01
+    - gEvent037Text00
+  - name: event_038_text.inc
+    format: jp
+    start: 0x08FC6970
+    end: 0x08FC6EEC
+    entries:
+    - gEvent038Text31
+    - gEvent038Text30
+    - gEvent038Text29
+    - gEvent038Text28
+    - gEvent038Text27
+    - gEvent038Text26
+    - gEvent038Text25
+    - gEvent038Text24
+    - gEvent038Text23
+    - gEvent038Text22
+    - gEvent038Text21
+    - gEvent038Text20
+    - gEvent038Text19
+    - gEvent038Text18
+    - gEvent038Text17
+    - gEvent038Text16
+    - gEvent038Text15
+    - gEvent038Text14
+    - gEvent038Text13
+    - gEvent038Text12
+    - gEvent038Text11
+    - gEvent038Text10
+    - gEvent038Text09
+    - gEvent038Text08
+    - gEvent038Text07
+    - gEvent038Text06
+    - gEvent038Text05
+    - gEvent038Text04
+    - gEvent038Text03
+    - gEvent038Text02
+    - gEvent038Text01
+    - gEvent038Text00
+  - name: event_039_text.inc
+    format: jp
+    start: 0x08FC775C
+    end: 0x08FC7974
+    entries:
+    - gEvent039Text09
+    - gEvent039Text08
+    - gEvent039Text07
+    - gEvent039Text06
+    - gEvent039Text05
+    - gEvent039Text04
+    - gEvent039Text03
+    - gEvent039Text02
+    - gEvent039Text01
+    - gEvent039Text00
+  - name: event_040_text.inc
+    format: jp
+    start: 0x08FC7FD4
+    end: 0x08FC8188
+    entries:
+    - gEvent040Text11
+    - gEvent040Text10
+    - gEvent040Text09
+    - gEvent040Text08
+    - gEvent040Text07
+    - gEvent040Text05
+    - gEvent040Text04
+    - gEvent040Text03
+    - gEvent040Text02
+    - gEvent040Text01
+  - name: event_041_text.inc
+    format: jp
+    start: 0x08FC89D0
+    end: 0x08FC8B60
+    entries:
+    - gEvent041Text08
+    - gEvent041Text07
+    - gEvent041Text06
+    - gEvent041Text05
+    - gEvent041Text04
+    - gEvent041Text03
+    - gEvent041Text02
+    - gEvent041Text01
+    - gEvent041Text00
+  - name: event_042_text.inc
+    format: jp
+    start: 0x08FC91A4
+    end: 0x08FC9330
+    entries:
+    - gEvent042Text06
+    - gEvent042Text05
+    - gEvent042Text04
+    - gEvent042Text03
+    - gEvent042Text02
+    - gEvent042Text01
+    - gEvent042Text00
+  - name: event_043_text.inc
+    format: jp
+    start: 0x08FC95D0
+    end: 0x08FC9664
+    entries:
+    - gEvent043Text01
+    - gEvent043Text00
+  - name: event_044_text.inc
+    format: jp
+    start: 0x08FC9C9C
+    end: 0x08FCA0EC
+    entries:
+    - gEvent044Text21
+    - gEvent044Text20
+    - gEvent044Text19
+    - gEvent044Text18
+    - gEvent044Text17
+    - gEvent044Text16
+    - gEvent044Text15
+    - gEvent044Text14
+    - gEvent044Text13
+    - gEvent044Text12
+    - gEvent044Text11
+    - gEvent044Text10
+    - gEvent044Text09
+    - gEvent044Text08
+    - gEvent044Text07
+    - gEvent044Text06
+    - gEvent044Text05
+    - gEvent044Text04
+    - gEvent044Text03
+    - gEvent044Text02
+    - gEvent044Text00
+  - name: event_045_text.inc
+    format: jp
+    start: 0x08FCB3F8
+    end: 0x08FCB9A4
+    entries:
+    - gEvent045Text25
+    - gEvent045Text24
+    - gEvent045Text23
+    - gEvent045Text22
+    - gEvent045Text21
+    - gEvent045Text20
+    - gEvent045Text19
+    - gEvent045Text18
+    - gEvent045Text17
+    - gEvent045Text16
+    - gEvent045Text15
+    - gEvent045Text14
+    - gEvent045Text13
+    - gEvent045Text12
+    - gEvent045Text11
+    - gEvent045Text10
+    - gEvent045Text09
+    - gEvent045Text08
+    - gEvent045Text07
+    - gEvent045Text06
+    - gEvent045Text05
+    - gEvent045Text04
+    - gEvent045Text03
+    - gEvent045Text02
+    - gEvent045Text01
+  - name: event_046_text.inc
+    format: jp
+    start: 0x08FCC588
+    end: 0x08FCC8F0
+    entries:
+    - gEvent046Text18
+    - gEvent046Text17
+    - gEvent046Text16
+    - gEvent046Text15
+    - gEvent046Text14
+    - gEvent046Text13
+    - gEvent046Text12
+    - gEvent046Text11
+    - gEvent046Text10
+    - gEvent046Text09
+    - gEvent046Text08
+    - gEvent046Text06
+    - gEvent046Text05
+    - gEvent046Text04
+    - gEvent046Text03
+    - gEvent046Text02
+    - gEvent046Text01
+    - gEvent046Text00
+  - name: event_048_text.inc
+    format: jp
+    start: 0x08FCD308
+    end: 0x08FCD694
+    entries:
+    - gEvent048Text20
+    - gEvent048Text19
+    - gEvent048Text18
+    - gEvent048Text17
+    - gEvent048Text16
+    - gEvent048Text15
+    - gEvent048Text14
+    - gEvent048Text13
+    - gEvent048Text12
+    - gEvent048Text11
+    - gEvent048Text10
+    - gEvent048Text09
+    - gEvent048Text08
+    - gEvent048Text07
+    - gEvent048Text06
+    - gEvent048Text05
+    - gEvent048Text04
+    - gEvent048Text03
+    - gEvent048Text02
+    - gEvent048Text01
+    - gEvent048Text00
+  - name: event_049_text.inc
+    format: jp
+    start: 0x08FCDFB4
+    end: 0x08FCE028
+    entries:
+    - gEvent049Text03
+    - gEvent049Text02
+    - gEvent049Text01
+    - gEvent049Text00
+  - name: event_050_text.inc
+    format: jp
+    start: 0x08FCEA34
+    end: 0x08FCEE0C
+    entries:
+    - gEvent050Text18
+    - gEvent050Text17
+    - gEvent050Text16
+    - gEvent050Text15
+    - gEvent050Text14
+    - gEvent050Text13
+    - gEvent050Text12
+    - gEvent050Text11
+    - gEvent050Text10
+    - gEvent050Text09
+    - gEvent050Text08
+    - gEvent050Text07
+    - gEvent050Text06
+    - gEvent050Text05
+    - gEvent050Text04
+    - gEvent050Text03
+    - gEvent050Text02
+    - gEvent050Text01
+    - gEvent050Text00
+  - name: event_047_text.inc
+    format: jp
+    start: 0x08FCF984
+    end: 0x08FCFC54
+    entries:
+    - gEvent047Text14
+    - gEvent047Text12
+    - gEvent047Text11
+    - gEvent047Text10
+    - gEvent047Text09
+    - gEvent047Text08
+    - gEvent047Text07
+    - gEvent047Text06
+    - gEvent047Text05
+    - gEvent047Text04
+    - gEvent047Text03
+    - gEvent047Text02
+    - gEvent047Text01
+    - gEvent047Text00
+  - name: event_051_text.inc
+    format: jp
+    start: 0x08FD01F8
+    end: 0x08FD03E4
+    entries:
+    - gEvent051Text11
+    - gEvent051Text10
+    - gEvent051Text09
+    - gEvent051Text08
+    - gEvent051Text07
+    - gEvent051Text06
+    - gEvent051Text05
+    - gEvent051Text04
+    - gEvent051Text03
+    - gEvent051Text02
+    - gEvent051Text01
+    - gEvent051Text00
+  - name: event_052_text.inc
+    format: jp
+    start: 0x08FD07E8
+    end: 0x08FD0818
+    entries:
+    - gEvent052Text01
+    - gEvent052Text00
+  - name: event_053_text.inc
+    format: jp
+    start: 0x08FD0E2C
+    end: 0x08FD1248
+    entries:
+    - gEvent053Text25
+    - gEvent053Text24
+    - gEvent053Text23
+    - gEvent053Text22
+    - gEvent053Text21
+    - gEvent053Text20
+    - gEvent053Text19
+    - gEvent053Text18
+    - gEvent053Text17
+    - gEvent053Text16
+    - gEvent053Text15
+    - gEvent053Text14
+    - gEvent053Text13
+    - gEvent053Text12
+    - gEvent053Text11
+    - gEvent053Text10
+    - gEvent053Text09
+    - gEvent053Text08
+    - gEvent053Text07
+    - gEvent053Text06
+    - gEvent053Text05
+    - gEvent053Text04
+    - gEvent053Text03
+    - gEvent053Text02
+    - gEvent053Text01
+    - gEvent053Text00
+  - name: event_054_text.inc
+    format: jp
+    start: 0x08FD2314
+    end: 0x08FD25EC
+    entries:
+    - gEvent054Text17
+    - gEvent054Text16
+    - gEvent054Text15
+    - gEvent054Text14
+    - gEvent054Text13
+    - gEvent054Text12
+    - gEvent054Text11
+    - gEvent054Text10
+    - gEvent054Text09
+    - gEvent054Text08
+    - gEvent054Text07
+    - gEvent054Text06
+    - gEvent054Text05
+    - gEvent054Text04
+    - gEvent054Text03
+    - gEvent054Text02
+    - gEvent054Text01
+    - gEvent054Text00
+  - name: event_055_text.inc
+    format: jp
+    start: 0x08FD2DDC
+    end: 0x08FD2DF0
+    entries:
+    - gEvent055Text00
+  - name: event_056_text.inc
+    format: jp
+    start: 0x08FD3244
+    end: 0x08FD37C4
+    entries:
+    - gEvent056Text33
+    - gEvent056Text32
+    - gEvent056Text31
+    - gEvent056Text30
+    - gEvent056Text29
+    - gEvent056Text28
+    - gEvent056Text27
+    - gEvent056Text26
+    - gEvent056Text24
+    - gEvent056Text23
+    - gEvent056Text22
+    - gEvent056Text21
+    - gEvent056Text20
+    - gEvent056Text19
+    - gEvent056Text18
+    - gEvent056Text17
+    - gEvent056Text16
+    - gEvent056Text15
+    - gEvent056Text14
+    - gEvent056Text13
+    - gEvent056Text12
+    - gEvent056Text11
+    - gEvent056Text10
+    - gEvent056Text09
+    - gEvent056Text08
+    - gEvent056Text07
+    - gEvent056Text06
+    - gEvent056Text05
+    - gEvent056Text04
+    - gEvent056Text03
+    - gEvent056Text01
+    - gEvent056Text00
+  - name: event_057_text.inc
+    format: jp
+    start: 0x08FD4668
+    end: 0x08FD46CC
+    entries:
+    - gEvent057Text02
+    - gEvent057Text01
+    - gEvent057Text00
+  - name: event_058_text.inc
+    format: jp
+    start: 0x08FD4B40
+    end: 0x08FD4D14
+    entries:
+    - gEvent058Text11
+    - gEvent058Text10
+    - gEvent058Text09
+    - gEvent058Text08
+    - gEvent058Text07
+    - gEvent058Text06
+    - gEvent058Text05
+    - gEvent058Text04
+    - gEvent058Text02
+    - gEvent058Text01
+    - gEvent058Text00
+  - name: event_059_text.inc
+    format: jp
+    start: 0x08FD589C
+    end: 0x08FD6358
+    entries:
+    - gEvent059Text60
+    - gEvent059Text59
+    - gEvent059Text58
+    - gEvent059Text57
+    - gEvent059Text56
+    - gEvent059Text55
+    - gEvent059Text54
+    - gEvent059Text53
+    - gEvent059Text52
+    - gEvent059Text51
+    - gEvent059Text50
+    - gEvent059Text49
+    - gEvent059Text48
+    - gEvent059Text47
+    - gEvent059Text46
+    - gEvent059Text45
+    - gEvent059Text43
+    - gEvent059Text42
+    - gEvent059Text41
+    - gEvent059Text40
+    - gEvent059Text39
+    - gEvent059Text38
+    - gEvent059Text37
+    - gEvent059Text36
+    - gEvent059Text35
+    - gEvent059Text34
+    - gEvent059Text33
+    - gEvent059Text32
+    - gEvent059Text31
+    - gEvent059Text30
+    - gEvent059Text29
+    - gEvent059Text28
+    - gEvent059Text27
+    - gEvent059Text26
+    - gEvent059Text25
+    - gEvent059Text24
+    - gEvent059Text23
+    - gEvent059Text22
+    - gEvent059Text21
+    - gEvent059Text20
+    - gEvent059Text19
+    - gEvent059Text18
+    - gEvent059Text17
+    - gEvent059Text16
+    - gEvent059Text15
+    - gEvent059Text14
+    - gEvent059Text13
+    - gEvent059Text12
+    - gEvent059Text11
+    - gEvent059Text10
+    - gEvent059Text09
+    - gEvent059Text08
+    - gEvent059Text06
+    - gEvent059Text05
+    - gEvent059Text04
+    - gEvent059Text03
+    - gEvent059Text01
+  - name: event_060_text.inc
+    format: jp
+    start: 0x08FD7B08
+    end: 0x08FD8510
+    entries:
+    - gEvent060Text52
+    - gEvent060Text51
+    - gEvent060Text50
+    - gEvent060Text49
+    - gEvent060Text48
+    - gEvent060Text47
+    - gEvent060Text46
+    - gEvent060Text45
+    - gEvent060Text44
+    - gEvent060Text43
+    - gEvent060Text42
+    - gEvent060Text41
+    - gEvent060Text40
+    - gEvent060Text39
+    - gEvent060Text38
+    - gEvent060Text37
+    - gEvent060Text36
+    - gEvent060Text34
+    - gEvent060Text33
+    - gEvent060Text32
+    - gEvent060Text31
+    - gEvent060Text30
+    - gEvent060Text29
+    - gEvent060Text28
+    - gEvent060Text27
+    - gEvent060Text26
+    - gEvent060Text25
+    - gEvent060Text24
+    - gEvent060Text22
+    - gEvent060Text21
+    - gEvent060Text20
+    - gEvent060Text19
+    - gEvent060Text18
+    - gEvent060Text17
+    - gEvent060Text16
+    - gEvent060Text15
+    - gEvent060Text14
+    - gEvent060Text13
+    - gEvent060Text12
+    - gEvent060Text11
+    - gEvent060Text10
+    - gEvent060Text09
+    - gEvent060Text08
+    - gEvent060Text07
+    - gEvent060Text06
+    - gEvent060Text05
+    - gEvent060Text04
+    - gEvent060Text03
+    - gEvent060Text02
+    - gEvent060Text01
+    - gEvent060Text00
+  - name: event_061_text.inc
+    format: jp
+    start: 0x08FDA0CC
+    end: 0x08FDA38C
+    entries:
+    - gEvent061Text17
+    - gEvent061Text16
+    - gEvent061Text15
+    - gEvent061Text14
+    - gEvent061Text13
+    - gEvent061Text12
+    - gEvent061Text11
+    - gEvent061Text10
+    - gEvent061Text08
+    - gEvent061Text07
+    - gEvent061Text06
+    - gEvent061Text05
+    - gEvent061Text04
+    - gEvent061Text03
+    - gEvent061Text02
+    - gEvent061Text01
+    - gEvent061Text00
+  - name: event_062_text.inc
+    format: jp
+    start: 0x08FDAD80
+    end: 0x08FDAD98
+    entries:
+    - gEvent062Text00
+  - name: event_063_text.inc
+    format: jp
+    start: 0x08FDB058
+    end: 0x08FDB39C
+    entries:
+    - gEvent063Text14
+    - gEvent063Text13
+    - gEvent063Text12
+    - gEvent063Text11
+    - gEvent063Text10
+    - gEvent063Text09
+    - gEvent063Text08
+    - gEvent063Text07
+    - gEvent063Text06
+    - gEvent063Text05
+    - gEvent063Text04
+    - gEvent063Text03
+    - gEvent063Text02
+    - gEvent063Text01
+    - gEvent063Text00
+  - name: event_064_text.inc
+    format: jp
+    start: 0x08FDB93C
+    end: 0x08FDBBF8
+    entries:
+    - gEvent064Text15
+    - gEvent064Text14
+    - gEvent064Text13
+    - gEvent064Text12
+    - gEvent064Text11
+    - gEvent064Text10
+    - gEvent064Text09
+    - gEvent064Text08
+    - gEvent064Text07
+    - gEvent064Text06
+    - gEvent064Text05
+    - gEvent064Text04
+    - gEvent064Text03
+    - gEvent064Text02
+    - gEvent064Text01
+    - gEvent064Text00
+  - name: event_065_text.inc
+    format: jp
+    start: 0x08FDC234
+    end: 0x08FDC2C0
+    entries:
+    - gEvent065Text03
+    - gEvent065Text02
+    - gEvent065Text01
+    - gEvent065Text00
+  - name: event_066_text.inc
+    format: jp
+    start: 0x08FDCC34
+    end: 0x08FDD374
+    entries:
+    - gEvent066Text40
+    - gEvent066Text39
+    - gEvent066Text38
+    - gEvent066Text37
+    - gEvent066Text36
+    - gEvent066Text35
+    - gEvent066Text34
+    - gEvent066Text33
+    - gEvent066Text31
+    - gEvent066Text30
+    - gEvent066Text29
+    - gEvent066Text28
+    - gEvent066Text27
+    - gEvent066Text26
+    - gEvent066Text25
+    - gEvent066Text24
+    - gEvent066Text22
+    - gEvent066Text21
+    - gEvent066Text20
+    - gEvent066Text19
+    - gEvent066Text18
+    - gEvent066Text17
+    - gEvent066Text16
+    - gEvent066Text15
+    - gEvent066Text14
+    - gEvent066Text13
+    - gEvent066Text12
+    - gEvent066Text11
+    - gEvent066Text10
+    - gEvent066Text09
+    - gEvent066Text08
+    - gEvent066Text07
+    - gEvent066Text06
+    - gEvent066Text05
+    - gEvent066Text04
+    - gEvent066Text03
+    - gEvent066Text02
+    - gEvent066Text01
+    - gEvent066Text00
+  - name: event_067_text.inc
+    format: jp
+    start: 0x08FDE78C
+    end: 0x08FDE8D8
+    entries:
+    - gEvent067Text12
+    - gEvent067Text11
+    - gEvent067Text10
+    - gEvent067Text09
+    - gEvent067Text08
+    - gEvent067Text07
+    - gEvent067Text05
+    - gEvent067Text04
+    - gEvent067Text03
+    - gEvent067Text02
+    - gEvent067Text01
+    - gEvent067Text00
+  - name: event_068_text.inc
+    format: jp
+    start: 0x08FDF58C
+    end: 0x08FDF5B8
+    entries:
+    - gEvent068Text01
+    - gEvent068Text00
+  - name: event_069_text.inc
+    format: jp
+    start: 0x08FDF86C
+    end: 0x08FDF888
+    entries:
+    - gEvent069Text00
+  - name: event_070_text.inc
+    format: jp
+    start: 0x08FDFB84
+    end: 0x08FDFBC4
+    entries:
+    - gEvent070Text00
+  - name: event_071_text.inc
+    format: jp
+    start: 0x08FDFDD8
+    end: 0x08FDFDE4
+    entries:
+    - gEvent071Text00
+  - name: event_072_text.inc
+    format: jp
+    start: 0x08FE06F0
+    end: 0x08FE0E70
+    entries:
+    - gEvent072Text43
+    - gEvent072Text42
+    - gEvent072Text41
+    - gEvent072Text40
+    - gEvent072Text39
+    - gEvent072Text38
+    - gEvent072Text37
+    - gEvent072Text36
+    - gEvent072Text35
+    - gEvent072Text34
+    - gEvent072Text33
+    - gEvent072Text32
+    - gEvent072Text31
+    - gEvent072Text30
+    - gEvent072Text29
+    - gEvent072Text28
+    - gEvent072Text27
+    - gEvent072Text26
+    - gEvent072Text25
+    - gEvent072Text24
+    - gEvent072Text23
+    - gEvent072Text22
+    - gEvent072Text21
+    - gEvent072Text20
+    - gEvent072Text19
+    - gEvent072Text17
+    - gEvent072Text16
+    - gEvent072Text15
+    - gEvent072Text13
+    - gEvent072Text12
+    - gEvent072Text11
+    - gEvent072Text10
+    - gEvent072Text09
+    - gEvent072Text08
+    - gEvent072Text06
+    - gEvent072Text05
+    - gEvent072Text04
+    - gEvent072Text03
+    - gEvent072Text02
+    - gEvent072Text01
+    - gEvent072Text00
+  - name: event_073_text.inc
+    format: jp
+    start: 0x08FE2020
+    end: 0x08FE2560
+    entries:
+    - gEvent073Text29
+    - gEvent073Text28
+    - gEvent073Text27
+    - gEvent073Text26
+    - gEvent073Text25
+    - gEvent073Text24
+    - gEvent073Text23
+    - gEvent073Text22
+    - gEvent073Text21
+    - gEvent073Text20
+    - gEvent073Text19
+    - gEvent073Text18
+    - gEvent073Text17
+    - gEvent073Text16
+    - gEvent073Text15
+    - gEvent073Text14
+    - gEvent073Text13
+    - gEvent073Text12
+    - gEvent073Text11
+    - gEvent073Text10
+    - gEvent073Text08
+    - gEvent073Text07
+    - gEvent073Text06
+    - gEvent073Text05
+    - gEvent073Text04
+    - gEvent073Text03
+    - gEvent073Text02
+    - gEvent073Text01
+    - gEvent073Text00
+  - name: event_134_text.inc
+    format: jp
+    start: 0x08FE3A1C
+    end: 0x08FE3DD4
+    entries:
+    - gEvent134Text21
+    - gEvent134Text20
+    - gEvent134Text19
+    - gEvent134Text18
+    - gEvent134Text17
+    - gEvent134Text16
+    - gEvent134Text15
+    - gEvent134Text14
+    - gEvent134Text13
+    - gEvent134Text12
+    - gEvent134Text11
+    - gEvent134Text10
+    - gEvent134Text09
+    - gEvent134Text08
+    - gEvent134Text07
+    - gEvent134Text06
+    - gEvent134Text05
+    - gEvent134Text04
+    - gEvent134Text03
+    - gEvent134Text02
+    - gEvent134Text01
+    - gEvent134Text00
+  - name: event_135_text.inc
+    format: jp
+    start: 0x08FE48E8
+    end: 0x08FE4908
+    entries:
+    - gEvent135Text00
+  - name: event_136_text.inc
+    format: jp
+    start: 0x08FE4CB8
+    end: 0x08FE4F74
+    entries:
+    - gEvent136Text17
+    - gEvent136Text16
+    - gEvent136Text15
+    - gEvent136Text14
+    - gEvent136Text13
+    - gEvent136Text12
+    - gEvent136Text11
+    - gEvent136Text10
+    - gEvent136Text09
+    - gEvent136Text08
+    - gEvent136Text07
+    - gEvent136Text06
+    - gEvent136Text05
+    - gEvent136Text04
+    - gEvent136Text03
+    - gEvent136Text02
+    - gEvent136Text01
+    - gEvent136Text00
+  - name: event_137_text.inc
+    format: jp
+    start: 0x08FE5854
+    end: 0x08FE5C28
+    entries:
+    - gEvent137Text15
+    - gEvent137Text14
+    - gEvent137Text13
+    - gEvent137Text12
+    - gEvent137Text11
+    - gEvent137Text10
+    - gEvent137Text09
+    - gEvent137Text08
+    - gEvent137Text07
+    - gEvent137Text06
+    - gEvent137Text05
+    - gEvent137Text04
+    - gEvent137Text03
+    - gEvent137Text02
+    - gEvent137Text01
+    - gEvent137Text00
+  - name: event_138_text.inc
+    format: jp
+    start: 0x08FE5FE0
+    end: 0x08FE601C
+    entries:
+    - gEvent138Text00
+  - name: event_139_text.inc
+    format: jp
+    start: 0x08FE62B0
+    end: 0x08FE64E0
+    entries:
+    - gEvent139Text11
+    - gEvent139Text10
+    - gEvent139Text09
+    - gEvent139Text08
+    - gEvent139Text07
+    - gEvent139Text06
+    - gEvent139Text05
+    - gEvent139Text04
+    - gEvent139Text03
+    - gEvent139Text02
+    - gEvent139Text01
+    - gEvent139Text00
+  - name: event_140_text.inc
+    format: jp
+    start: 0x08FE6B94
+    end: 0x08FE6E3C
+    entries:
+    - gEvent140Text13
+    - gEvent140Text12
+    - gEvent140Text11
+    - gEvent140Text10
+    - gEvent140Text09
+    - gEvent140Text08
+    - gEvent140Text07
+    - gEvent140Text06
+    - gEvent140Text05
+    - gEvent140Text04
+    - gEvent140Text03
+    - gEvent140Text02
+    - gEvent140Text01
+    - gEvent140Text00
+  - name: event_141_text.inc
+    format: jp
+    start: 0x08FE7274
+    end: 0x08FE756C
+    entries:
+    - gEvent141Text14
+    - gEvent141Text13
+    - gEvent141Text12
+    - gEvent141Text11
+    - gEvent141Text10
+    - gEvent141Text09
+    - gEvent141Text08
+    - gEvent141Text07
+    - gEvent141Text06
+    - gEvent141Text05
+    - gEvent141Text04
+    - gEvent141Text03
+    - gEvent141Text02
+    - gEvent141Text01
+    - gEvent141Text00
+  - name: event_142_text.inc
+    format: jp
+    start: 0x08FE8124
+    end: 0x08FE8494
+    entries:
+    - gEvent142Text20
+    - gEvent142Text19
+    - gEvent142Text18
+    - gEvent142Text17
+    - gEvent142Text16
+    - gEvent142Text15
+    - gEvent142Text14
+    - gEvent142Text13
+    - gEvent142Text12
+    - gEvent142Text11
+    - gEvent142Text10
+    - gEvent142Text09
+    - gEvent142Text08
+    - gEvent142Text07
+    - gEvent142Text06
+    - gEvent142Text05
+    - gEvent142Text04
+    - gEvent142Text03
+    - gEvent142Text02
+    - gEvent142Text01
+    - gEvent142Text00
+  - name: event_143_text.inc
+    format: jp
+    start: 0x08FE8E04
+    end: 0x08FE9088
+    entries:
+    - gEvent143Text15
+    - gEvent143Text14
+    - gEvent143Text13
+    - gEvent143Text12
+    - gEvent143Text11
+    - gEvent143Text10
+    - gEvent143Text09
+    - gEvent143Text08
+    - gEvent143Text07
+    - gEvent143Text06
+    - gEvent143Text05
+    - gEvent143Text04
+    - gEvent143Text03
+    - gEvent143Text02
+    - gEvent143Text01
+    - gEvent143Text00
+  - name: event_145_text.inc
+    format: jp
+    start: 0x08FE9978
+    end: 0x08FE99F0
+    entries:
+    - gEvent145Text01
+    - gEvent145Text00
+  - name: event_147_text.inc
+    format: jp
+    start: 0x08FEA01C
+    end: 0x08FEA0A0
+    entries:
+    - gEvent147Text05
+    - gEvent147Text03
+    - gEvent147Text02
+  - name: event_148_text.inc
+    format: jp
+    start: 0x08FEA340
+    end: 0x08FEA364
+    entries:
+    - gEvent148Text00
+  - name: event_149_text.inc
+    format: jp
+    start: 0x08FEA664
+    end: 0x08FEA9A8
+    entries:
+    - gEvent149Text18
+    - gEvent149Text17
+    - gEvent149Text16
+    - gEvent149Text15
+    - gEvent149Text14
+    - gEvent149Text13
+    - gEvent149Text12
+    - gEvent149Text11
+    - gEvent149Text10
+    - gEvent149Text09
+    - gEvent149Text08
+    - gEvent149Text07
+    - gEvent149Text06
+    - gEvent149Text05
+    - gEvent149Text04
+    - gEvent149Text02
+    - gEvent149Text01
+    - gEvent149Text00
+  - name: event_150_text.inc
+    format: jp
+    start: 0x08FEB1C0
+    end: 0x08FEB1DC
+    entries:
+    - gEvent150Text00
+  - name: event_151_text.inc
+    format: jp
+    start: 0x08FEB514
+    end: 0x08FEB780
+    entries:
+    - gEvent151Text13
+    - gEvent151Text12
+    - gEvent151Text11
+    - gEvent151Text10
+    - gEvent151Text09
+    - gEvent151Text08
+    - gEvent151Text07
+    - gEvent151Text06
+    - gEvent151Text05
+    - gEvent151Text04
+    - gEvent151Text03
+    - gEvent151Text02
+    - gEvent151Text01
+    - gEvent151Text00
+  - name: event_152_text.inc
+    format: jp
+    start: 0x08FEBBEC
+    end: 0x08FEBD94
+    entries:
+    - gEvent152Text06
+    - gEvent152Text05
+    - gEvent152Text04
+    - gEvent152Text03
+    - gEvent152Text02
+    - gEvent152Text01
+    - gEvent152Text00
+  - name: event_153_text.inc
+    format: jp
+    start: 0x08FEC1F0
+    end: 0x08FEC4CC
+    entries:
+    - gEvent153Text16
+    - gEvent153Text15
+    - gEvent153Text14
+    - gEvent153Text13
+    - gEvent153Text12
+    - gEvent153Text11
+    - gEvent153Text10
+    - gEvent153Text09
+    - gEvent153Text08
+    - gEvent153Text07
+    - gEvent153Text06
+    - gEvent153Text05
+    - gEvent153Text04
+    - gEvent153Text03
+    - gEvent153Text02
+    - gEvent153Text01
+    - gEvent153Text00
+  - name: event_154_text.inc
+    format: jp
+    start: 0x08FECAC8
+    end: 0x08FED064
+    entries:
+    - gEvent154Text24
+    - gEvent154Text23
+    - gEvent154Text22
+    - gEvent154Text21
+    - gEvent154Text20
+    - gEvent154Text19
+    - gEvent154Text18
+    - gEvent154Text17
+    - gEvent154Text16
+    - gEvent154Text15
+    - gEvent154Text14
+    - gEvent154Text13
+    - gEvent154Text12
+    - gEvent154Text11
+    - gEvent154Text10
+    - gEvent154Text09
+    - gEvent154Text08
+    - gEvent154Text07
+    - gEvent154Text06
+    - gEvent154Text05
+    - gEvent154Text04
+    - gEvent154Text03
+    - gEvent154Text02
+    - gEvent154Text01
+    - gEvent154Text00
+  - name: event_155_text.inc
+    format: jp
+    start: 0x08FED8BC
+    end: 0x08FEDCF8
+    entries:
+    - gEvent155Text25
+    - gEvent155Text24
+    - gEvent155Text23
+    - gEvent155Text22
+    - gEvent155Text21
+    - gEvent155Text20
+    - gEvent155Text19
+    - gEvent155Text18
+    - gEvent155Text17
+    - gEvent155Text16
+    - gEvent155Text15
+    - gEvent155Text14
+    - gEvent155Text13
+    - gEvent155Text12
+    - gEvent155Text11
+    - gEvent155Text10
+    - gEvent155Text09
+    - gEvent155Text08
+    - gEvent155Text07
+    - gEvent155Text06
+    - gEvent155Text05
+    - gEvent155Text04
+    - gEvent155Text02
+    - gEvent155Text01
+    - gEvent155Text00
+  - name: event_156_text.inc
+    format: jp
+    start: 0x08FEE634
+    end: 0x08FEEAE8
+    entries:
+    - gEvent156Text20
+    - gEvent156Text19
+    - gEvent156Text18
+    - gEvent156Text17
+    - gEvent156Text16
+    - gEvent156Text15
+    - gEvent156Text14
+    - gEvent156Text13
+    - gEvent156Text12
+    - gEvent156Text11
+    - gEvent156Text10
+    - gEvent156Text09
+    - gEvent156Text08
+    - gEvent156Text07
+    - gEvent156Text06
+    - gEvent156Text05
+    - gEvent156Text04
+    - gEvent156Text03
+    - gEvent156Text02
+    - gEvent156Text01
+    - gEvent156Text00
+  - name: event_157_text.inc
+    format: jp
+    start: 0x08FEF23C
+    end: 0x08FEF558
+    entries:
+    - gEvent157Text17
+    - gEvent157Text16
+    - gEvent157Text15
+    - gEvent157Text14
+    - gEvent157Text13
+    - gEvent157Text12
+    - gEvent157Text11
+    - gEvent157Text10
+    - gEvent157Text09
+    - gEvent157Text08
+    - gEvent157Text07
+    - gEvent157Text06
+    - gEvent157Text05
+    - gEvent157Text04
+    - gEvent157Text03
+    - gEvent157Text02
+    - gEvent157Text01
+    - gEvent157Text00
+  - name: event_158_text.inc
+    format: jp
+    start: 0x08FEFC08
+    end: 0x08FEFFD4
+    entries:
+    - gEvent158Text19
+    - gEvent158Text18
+    - gEvent158Text17
+    - gEvent158Text16
+    - gEvent158Text15
+    - gEvent158Text14
+    - gEvent158Text13
+    - gEvent158Text12
+    - gEvent158Text11
+    - gEvent158Text10
+    - gEvent158Text09
+    - gEvent158Text08
+    - gEvent158Text07
+    - gEvent158Text06
+    - gEvent158Text05
+    - gEvent158Text04
+    - gEvent158Text03
+    - gEvent158Text02
+    - gEvent158Text01
+    - gEvent158Text00
+  - name: event_159_text.inc
+    format: jp
+    start: 0x08FF09EC
+    end: 0x08FF0DF0
+    entries:
+    - gEvent159Text16
+    - gEvent159Text15
+    - gEvent159Text14
+    - gEvent159Text13
+    - gEvent159Text12
+    - gEvent159Text11
+    - gEvent159Text10
+    - gEvent159Text09
+    - gEvent159Text08
+    - gEvent159Text07
+    - gEvent159Text06
+    - gEvent159Text05
+    - gEvent159Text04
+    - gEvent159Text03
+    - gEvent159Text02
+    - gEvent159Text01
+    - gEvent159Text00
+  - name: event_160_text.inc
+    format: jp
+    start: 0x08FF1070
+    end: 0x08FF1310
+    entries:
+    - gEvent160Text12
+    - gEvent160Text11
+    - gEvent160Text10
+    - gEvent160Text09
+    - gEvent160Text07
+    - gEvent160Text06
+    - gEvent160Text05
+    - gEvent160Text04
+    - gEvent160Text03
+    - gEvent160Text02
+    - gEvent160Text01
+    - gEvent160Text00
+  - name: event_161_text.inc
+    format: jp
+    start: 0x08FF1684
+    end: 0x08FF1780
+    entries:
+    - gEvent161Text04
+    - gEvent161Text03
+    - gEvent161Text02
+    - gEvent161Text01
+    - gEvent161Text00
+  - name: event_162_text.inc
+    format: jp
+    start: 0x08FF1A00
+    end: 0x08FF1C00
+    entries:
+    - gEvent162Text09
+    - gEvent162Text08
+    - gEvent162Text07
+    - gEvent162Text06
+    - gEvent162Text05
+    - gEvent162Text04
+    - gEvent162Text03
+    - gEvent162Text02
+    - gEvent162Text01
+    - gEvent162Text00
+  - name: event_163_text.inc
+    format: jp
+    start: 0x08FF1FA0
+    end: 0x08FF223C
+    entries:
+    - gEvent163Text15
+    - gEvent163Text14
+    - gEvent163Text13
+    - gEvent163Text12
+    - gEvent163Text11
+    - gEvent163Text10
+    - gEvent163Text09
+    - gEvent163Text08
+    - gEvent163Text07
+    - gEvent163Text06
+    - gEvent163Text05
+    - gEvent163Text04
+    - gEvent163Text03
+    - gEvent163Text02
+    - gEvent163Text01
+    - gEvent163Text00
+  - name: event_164_text.inc
+    format: jp
+    start: 0x08FF2744
+    end: 0x08FF2934
+    entries:
+    - gEvent164Text10
+    - gEvent164Text08
+    - gEvent164Text07
+    - gEvent164Text05
+    - gEvent164Text04
+    - gEvent164Text03
+    - gEvent164Text02
+    - gEvent164Text01
+    - gEvent164Text00
+  - name: event_165_text.inc
+    format: jp
+    start: 0x08FF2EA8
+    end: 0x08FF3018
+    entries:
+    - gEvent165Text05
+    - gEvent165Text04
+    - gEvent165Text03
+    - gEvent165Text02
+    - gEvent165Text01
+    - gEvent165Text00
+  - name: event_166_text.inc
+    format: jp
+    start: 0x08FF32F8
+    end: 0x08FF35F0
+    entries:
+    - gEvent166Text13
+    - gEvent166Text12
+    - gEvent166Text11
+    - gEvent166Text10
+    - gEvent166Text09
+    - gEvent166Text08
+    - gEvent166Text07
+    - gEvent166Text06
+    - gEvent166Text05
+    - gEvent166Text04
+    - gEvent166Text03
+    - gEvent166Text02
+    - gEvent166Text01
+    - gEvent166Text00
+  - name: event_167_text.inc
+    format: jp
+    start: 0x08FF3F64
+    end: 0x08FF435C
+    entries:
+    - gEvent167Text31
+    - gEvent167Text30
+    - gEvent167Text29
+    - gEvent167Text28
+    - gEvent167Text27
+    - gEvent167Text26
+    - gEvent167Text25
+    - gEvent167Text24
+    - gEvent167Text23
+    - gEvent167Text22
+    - gEvent167Text21
+    - gEvent167Text20
+    - gEvent167Text19
+    - gEvent167Text18
+    - gEvent167Text17
+    - gEvent167Text16
+    - gEvent167Text15
+    - gEvent167Text14
+    - gEvent167Text13
+  - name: event_168_text.inc
+    format: jp
+    start: 0x08FF4F68
+    end: 0x08FF5378
+    entries:
+    - gEvent168Text18
+    - gEvent168Text17
+    - gEvent168Text16
+    - gEvent168Text15
+    - gEvent168Text14
+    - gEvent168Text13
+    - gEvent168Text12
+    - gEvent168Text11
+    - gEvent168Text10
+    - gEvent168Text09
+    - gEvent168Text08
+    - gEvent168Text07
+    - gEvent168Text06
+    - gEvent168Text05
+    - gEvent168Text04
+    - gEvent168Text03
+    - gEvent168Text02
+    - gEvent168Text01
+    - gEvent168Text00
+  - name: event_169_text.inc
+    format: jp
+    start: 0x08FF5A34
+    end: 0x08FF5C64
+    entries:
+    - gEvent169Text10
+    - gEvent169Text09
+    - gEvent169Text08
+    - gEvent169Text07
+    - gEvent169Text06
+    - gEvent169Text05
+    - gEvent169Text04
+    - gEvent169Text03
+    - gEvent169Text02
+    - gEvent169Text01
+    - gEvent169Text00
+  - name: event_170_text.inc
+    format: jp
+    start: 0x08FF5E50
+    end: 0x08FF5E98
+    entries:
+    - gEvent170Text01
+    - gEvent170Text00
+  - name: event_171_text.inc
+    format: jp
+    start: 0x08FF6128
+    end: 0x08FF6308
+    entries:
+    - gEvent171Text10
+    - gEvent171Text09
+    - gEvent171Text08
+    - gEvent171Text07
+    - gEvent171Text06
+    - gEvent171Text05
+    - gEvent171Text04
+    - gEvent171Text03
+    - gEvent171Text02
+    - gEvent171Text01
+    - gEvent171Text00
+  - name: event_172_text.inc
+    format: jp
+    start: 0x08FF67C0
+    end: 0x08FF68BC
+    entries:
+    - gEvent172Text04
+    - gEvent172Text03
+    - gEvent172Text02
+    - gEvent172Text01
+    - gEvent172Text00
+  - name: event_173_text.inc
+    format: jp
+    start: 0x08FF6D84
+    end: 0x08FF6F88
+    entries:
+    - gEvent173Text14
+    - gEvent173Text11
+    - gEvent173Text10
+    - gEvent173Text09
+    - gEvent173Text08
+    - gEvent173Text07
+    - gEvent173Text06
+    - gEvent173Text05
+    - gEvent173Text04
+    - gEvent173Text03
+    - gEvent173Text02
+    - gEvent173Text01
+    - gEvent173Text00
+  - name: event_174_text.inc
+    format: jp
+    start: 0x08FF75D4
+    end: 0x08FF7634
+    entries:
+    - gEvent174Text03
+    - gEvent174Text02
+    - gEvent174Text01
+  - name: event_175_text.inc
+    format: jp
+    start: 0x08FF79E8
+    end: 0x08FF7CCC
+    entries:
+    - gEvent175Text12
+    - gEvent175Text11
+    - gEvent175Text10
+    - gEvent175Text09
+    - gEvent175Text08
+    - gEvent175Text07
+    - gEvent175Text06
+    - gEvent175Text05
+    - gEvent175Text04
+    - gEvent175Text03
+    - gEvent175Text02
+    - gEvent175Text01
+    - gEvent175Text00
+  - name: event_176_text.inc
+    format: jp
+    start: 0x08FF7FCC
+    end: 0x08FF81EC
+    entries:
+    - gEvent176Text13
+    - gEvent176Text12
+    - gEvent176Text11
+    - gEvent176Text10
+    - gEvent176Text09
+    - gEvent176Text07
+    - gEvent176Text06
+    - gEvent176Text04
+    - gEvent176Text03
+    - gEvent176Text02
+    - gEvent176Text01
+    - gEvent176Text00
+  - name: event_177_text.inc
+    format: jp
+    start: 0x08FF87E8
+    end: 0x08FF88EC
+    entries:
+    - gEvent177Text07
+    - gEvent177Text06
+    - gEvent177Text05
+    - gEvent177Text03
+    - gEvent177Text02
+    - gEvent177Text01
+    - gEvent177Text00
+  - name: event_178_text.inc
+    format: jp
+    start: 0x08FF917C
+    end: 0x08FF93B4
+    entries:
+    - gEvent178Text13
+    - gEvent178Text12
+    - gEvent178Text11
+    - gEvent178Text10
+    - gEvent178Text09
+    - gEvent178Text08
+    - gEvent178Text07
+    - gEvent178Text06
+    - gEvent178Text04
+    - gEvent178Text03
+    - gEvent178Text01
+    - gEvent178Text00
+  - name: event_179_text.inc
+    format: jp
+    start: 0x08FF9A60
+    end: 0x08FF9B8C
+    entries:
+    - gEvent179Text05
+    - gEvent179Text04
+    - gEvent179Text02
+    - gEvent179Text01
+    - gEvent179Text00
+  - name: event_180_text.inc
+    format: jp
+    start: 0x08FFA074
+    end: 0x08FFA09C
+    entries:
+    - gEvent180Text00
+  - name: event_181_text.inc
+    format: jp
+    start: 0x08FFA218
+    end: 0x08FFA33C
+    entries:
+    - gEvent181Text06
+    - gEvent181Text05
+    - gEvent181Text04
+    - gEvent181Text03
+    - gEvent181Text02
+    - gEvent181Text01
+  - name: event_182_text.inc
+    format: jp
+    start: 0x08FFAA24
+    end: 0x08FFAD2C
+    entries:
+    - gEvent182Text17
+    - gEvent182Text16
+    - gEvent182Text15
+    - gEvent182Text14
+    - gEvent182Text13
+    - gEvent182Text12
+    - gEvent182Text11
+    - gEvent182Text10
+    - gEvent182Text09
+    - gEvent182Text08
+    - gEvent182Text07
+    - gEvent182Text06
+    - gEvent182Text05
+    - gEvent182Text04
+    - gEvent182Text03
+    - gEvent182Text02
+    - gEvent182Text01
+    - gEvent182Text00
+  - name: event_183_text.inc
+    format: jp
+    start: 0x08FFB314
+    end: 0x08FFB474
+    entries:
+    - gEvent183Text09
+    - gEvent183Text08
+    - gEvent183Text07
+    - gEvent183Text06
+    - gEvent183Text05
+    - gEvent183Text04
+    - gEvent183Text03
+    - gEvent183Text02
+    - gEvent183Text01
+    - gEvent183Text00
+  - name: event_184_text.inc
+    format: jp
+    start: 0x08FFB9D0
+    end: 0x08FFBCDC
+    entries:
+    - gEvent184Text17
+    - gEvent184Text16
+    - gEvent184Text15
+    - gEvent184Text14
+    - gEvent184Text13
+    - gEvent184Text12
+    - gEvent184Text11
+    - gEvent184Text10
+    - gEvent184Text09
+    - gEvent184Text07
+    - gEvent184Text06
+    - gEvent184Text05
+    - gEvent184Text04
+    - gEvent184Text03
+    - gEvent184Text02
+    - gEvent184Text01
+    - gEvent184Text00
+  - name: event_185_text.inc
+    format: jp
+    start: 0x08FFC560
+    end: 0x08FFC9C0
+    entries:
+    - gEvent185Text24
+    - gEvent185Text23
+    - gEvent185Text22
+    - gEvent185Text21
+    - gEvent185Text20
+    - gEvent185Text19
+    - gEvent185Text18
+    - gEvent185Text17
+    - gEvent185Text16
+    - gEvent185Text15
+    - gEvent185Text14
+    - gEvent185Text13
+    - gEvent185Text12
+    - gEvent185Text11
+    - gEvent185Text10
+    - gEvent185Text09
+    - gEvent185Text08
+    - gEvent185Text07
+    - gEvent185Text06
+    - gEvent185Text05
+    - gEvent185Text04
+    - gEvent185Text03
+    - gEvent185Text02
+    - gEvent185Text00
+  - name: event_186_text.inc
+    format: jp
+    start: 0x08FFD564
+    end: 0x08FFD8B4
+    entries:
+    - gEvent186Text20
+    - gEvent186Text19
+    - gEvent186Text18
+    - gEvent186Text17
+    - gEvent186Text16
+    - gEvent186Text15
+    - gEvent186Text14
+    - gEvent186Text13
+    - gEvent186Text12
+    - gEvent186Text10
+    - gEvent186Text09
+    - gEvent186Text08
+    - gEvent186Text07
+    - gEvent186Text06
+    - gEvent186Text05
+    - gEvent186Text04
+    - gEvent186Text03
+    - gEvent186Text02
+    - gEvent186Text01
+    - gEvent186Text00
+  - name: event_187_text.inc
+    format: jp
+    start: 0x08FFE0D8
+    end: 0x08FFE2F8
+    entries:
+    - gEvent187Text12
+    - gEvent187Text11
+    - gEvent187Text10
+    - gEvent187Text09
+    - gEvent187Text08
+    - gEvent187Text07
+    - gEvent187Text06
+    - gEvent187Text05
+    - gEvent187Text04
+    - gEvent187Text03
+    - gEvent187Text02
+    - gEvent187Text01
+    - gEvent187Text00
+  - name: event_188_text.inc
+    format: jp
+    start: 0x08FFE834
+    end: 0x08FFE9A0
+    entries:
+    - gEvent188Text08
+    - gEvent188Text07
+    - gEvent188Text06
+    - gEvent188Text05
+    - gEvent188Text04
+    - gEvent188Text03
+    - gEvent188Text02
+    - gEvent188Text01
+    - gEvent188Text00
+  - name: event_189_text.inc
+    format: jp
+    start: 0x08FFEFEC
+    end: 0x08FFF724
+    entries:
+    - gEvent189Text41
+    - gEvent189Text40
+    - gEvent189Text39
+    - gEvent189Text38
+    - gEvent189Text37
+    - gEvent189Text36
+    - gEvent189Text35
+    - gEvent189Text34
+    - gEvent189Text33
+    - gEvent189Text32
+    - gEvent189Text31
+    - gEvent189Text30
+    - gEvent189Text29
+    - gEvent189Text28
+    - gEvent189Text27
+    - gEvent189Text26
+    - gEvent189Text24
+    - gEvent189Text23
+    - gEvent189Text22
+    - gEvent189Text21
+    - gEvent189Text20
+    - gEvent189Text19
+    - gEvent189Text18
+    - gEvent189Text17
+    - gEvent189Text16
+    - gEvent189Text15
+    - gEvent189Text14
+    - gEvent189Text13
+    - gEvent189Text12
+    - gEvent189Text11
+    - gEvent189Text10
+    - gEvent189Text09
+    - gEvent189Text08
+    - gEvent189Text07
+    - gEvent189Text06
+    - gEvent189Text05
+    - gEvent189Text04
+    - gEvent189Text02
+    - gEvent189Text01
+    - gEvent189Text00
+  - name: event_190_text.inc
+    format: jp
+    start: 0x0900034C
+    end: 0x0900060C
+    entries:
+    - gEvent190Text14
+    - gEvent190Text13
+    - gEvent190Text12
+    - gEvent190Text11
+    - gEvent190Text10
+    - gEvent190Text09
+    - gEvent190Text08
+    - gEvent190Text07
+    - gEvent190Text06
+    - gEvent190Text05
+    - gEvent190Text04
+    - gEvent190Text03
+    - gEvent190Text02
+    - gEvent190Text01
+    - gEvent190Text00
+  - name: event_191_text.inc
+    format: jp
+    start: 0x09000F10
+    end: 0x09001168
+    entries:
+    - gEvent191Text13
+    - gEvent191Text12
+    - gEvent191Text11
+    - gEvent191Text10
+    - gEvent191Text09
+    - gEvent191Text08
+    - gEvent191Text07
+    - gEvent191Text06
+    - gEvent191Text05
+    - gEvent191Text04
+    - gEvent191Text03
+    - gEvent191Text02
+    - gEvent191Text01
+    - gEvent191Text00
+  - name: event_192_text.inc
+    format: jp
+    start: 0x09001478
+    end: 0x09001510
+    entries:
+    - gEvent192Text02
+    - gEvent192Text01
+    - gEvent192Text00
+  - name: event_193_text.inc
+    format: jp
+    start: 0x09001804
+    end: 0x09001A94
+    entries:
+    - gEvent193Text11
+    - gEvent193Text10
+    - gEvent193Text09
+    - gEvent193Text08
+    - gEvent193Text07
+    - gEvent193Text06
+    - gEvent193Text05
+    - gEvent193Text04
+    - gEvent193Text03
+    - gEvent193Text02
+    - gEvent193Text01
+    - gEvent193Text00
+  - name: event_194_text.inc
+    format: jp
+    start: 0x09001F54
+    end: 0x09002044
+    entries:
+    - gEvent194Text06
+    - gEvent194Text05
+    - gEvent194Text04
+    - gEvent194Text03
+    - gEvent194Text02
+    - gEvent194Text01
+    - gEvent194Text00
+  - name: event_195_text.inc
+    format: jp
+    start: 0x0900298C
+    end: 0x09002C6C
+    entries:
+    - gEvent195Text14
+    - gEvent195Text13
+    - gEvent195Text12
+    - gEvent195Text11
+    - gEvent195Text10
+    - gEvent195Text09
+    - gEvent195Text08
+    - gEvent195Text07
+    - gEvent195Text06
+    - gEvent195Text05
+    - gEvent195Text04
+    - gEvent195Text03
+    - gEvent195Text02
+    - gEvent195Text01
+    - gEvent195Text00
+  - name: event_196_text.inc
+    format: jp
+    start: 0x09002F0C
+    end: 0x09002F28
+    entries:
+    - gEvent196Text00
+aliases:
+  jp:
+    gEvent076Text00: gEvent074Text12
+    gEvent084Text02: gEvent083Text04
+    gEvent096Text00: gEvent082Text00
+    gEvent101Text06: gEvent086Text06
+    gEvent110Text07: gEvent110Text02
+    gEvent111Text02: gEvent082Text01
+    gEvent111Text12: gEvent077Text02
+    gEvent114Text17: gEvent076Text19
+    gEvent115Text04: gEvent082Text01
+    gEvent116Text26: gEvent115Text07
+    gEvent118Text14: gEvent103Text09
+    gEvent119Text21: gEvent117Text16
+    gEvent119Text29: gEvent116Text30
+    gEvent121Text03: gEvent080Text09
+    gEvent124Text17: gEvent082Text01
+    gEvent126Text01: gEvent121Text04
+    gEvent130Text03: gEvent090Text03
+    gEvent000Text20: gEvent124Text06
+    gEvent004Text06: gEvent127Text00
+    gEvent004Text07: gEvent127Text01
+    gEvent004Text08: gEvent127Text02
+    gEvent004Text09: gEvent127Text03
+    gEvent004Text10: gEvent127Text04
+    gEvent004Text11: gEvent127Text05
+    gEvent004Text12: gEvent127Text06
+    gEvent009Text12: gEvent100Text22
+    gEvent009Text26: gEvent114Text20
+    gEvent009Text29: gEvent000Text15
+    gEvent013Text00: gEvent100Text22
+    gEvent013Text13: gEvent077Text02
+    gEvent016Text03: gEvent089Text12
+    gEvent021Text13: gEvent111Text24
+    gEvent026Text02: gEvent124Text06
+    gEvent027Text07: gEvent111Text24
+    gEvent028Text06: gEvent112Text05
+    gEvent032Text08: gEvent021Text16
+    gEvent032Text09: gEvent111Text24
+    gEvent036Text00: gEvent082Text00
+    gEvent040Text00: gEvent074Text03
+    gEvent040Text06: gEvent030Text13
+    gEvent044Text01: gEvent022Text03
+    gEvent045Text00: gEvent100Text22
+    gEvent046Text07: gEvent011Text05
+    gEvent047Text13: gEvent111Text24
+    gEvent056Text02: gEvent026Text11
+    gEvent056Text25: gEvent048Text14
+    gEvent058Text03: gEvent114Text20
+    gEvent059Text00: gEvent049Text00
+    gEvent059Text02: gEvent050Text18
+    gEvent059Text07: gEvent103Text09
+    gEvent059Text44: gEvent058Text00
+    gEvent060Text23: gEvent076Text03
+    gEvent060Text35: gEvent111Text24
+    gEvent061Text09: gEvent076Text19
+    gEvent066Text23: gEvent111Text24
+    gEvent066Text32: gEvent049Text00
+    gEvent067Text06: gEvent038Text31
+    gEvent067Text13: gEvent060Text50
+    gEvent072Text07: gEvent095Text17
+    gEvent072Text14: gEvent049Text00
+    gEvent072Text18: gEvent086Text06
+    gEvent073Text09: gEvent060Text50
+    gEvent147Text04: gEvent117Text22
+    gEvent149Text03: gEvent000Text21
+    gEvent155Text03: gEvent151Text09
+    gEvent158Text20: gEvent000Text15
+    gEvent160Text08: gEvent137Text08
+    gEvent164Text06: gEvent038Text04
+    gEvent164Text09: gEvent124Text23
+    gEvent172Text05: gEvent033Text09
+    gEvent173Text12: gEvent155Text19
+    gEvent173Text13: gEvent158Text05
+    gEvent174Text00: gEvent163Text13
+    gEvent176Text05: gEvent151Text09
+    gEvent176Text08: gEvent112Text05
+    gEvent177Text04: gEvent142Text03
+    gEvent178Text02: gEvent018Text11
+    gEvent178Text05: gEvent151Text09
+    gEvent179Text03: gEvent163Text13
+    gEvent181Text00: gEvent124Text06
+    gEvent184Text08: gEvent126Text11
+    gEvent185Text01: gEvent000Text21
+    gEvent186Text11: gEvent067Text01
+    gEvent189Text03: gEvent100Text07
+    gEvent189Text25: gEvent072Text39
+    gEvent191Text14: gEvent126Text11

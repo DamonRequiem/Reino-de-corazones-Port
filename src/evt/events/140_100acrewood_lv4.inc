@@ -1,0 +1,93 @@
+#ifdef VERSION_US
+#include "event_140_text.inc"
+#endif
+
+static const MessageScriptEntry sEvent140Script[14] = {
+    { PORTRAIT_WINNIE_THE_POOH, 2, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text00), 0, 90 },
+    { PORTRAIT_EEYORE, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text01), 0, 115 },
+    { PORTRAIT_WINNIE_THE_POOH, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text02), 0, 160 },
+    { PORTRAIT_EEYORE, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text03), 0, 190 },
+    { PORTRAIT_WINNIE_THE_POOH, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text04), 0, 300 },
+    { PORTRAIT_WINNIE_THE_POOH, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text05), 0, 302 },
+    { PORTRAIT_EEYORE, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text06), 0, 360 },
+    { PORTRAIT_SORA, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text07), 0, 390 },
+    { PORTRAIT_EEYORE, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text08), 0, 420 },
+    { PORTRAIT_EEYORE, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text09), 0, 422 },
+    { PORTRAIT_WINNIE_THE_POOH, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text10), 0, 460 },
+    { PORTRAIT_EEYORE, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text11), 0, 500 },
+    { PORTRAIT_SORA, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text12), 0, 530 },
+    { PORTRAIT_EEYORE, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent140Text13), MSG_SCRIPT_FLAG_END, 560 },
+};
+
+#ifdef VERSION_JP
+#include "event_140_text.inc"
+#endif
+
+static const EvSoundCue sEvent140SoundCues[4] = {
+    { SONG_BGM_WINNIETHEPOOH, 1, 0, 0 },
+    { SONG_BG_POO, 2, 0, 0 },
+    { SONG_BG_POO, 614, EV_SOUND_FLAG_FADE_OUT, 0 },
+    { SONG_BGM_WINNIETHEPOOH, 615, EV_SOUND_FLAG_FADE_OUT | EV_SOUND_FLAG_END, 0 },
+};
+
+static const EventCameraKeyframe sEvent140Camera[1] = {
+    { -64537, 529664, 289536, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_END, 0, NULL },
+};
+
+static const EventCharaKeyframe sEvent140Track0[5] = {
+    { 4, 385, 536064, 294144, 0, 0, 2, NULL, NULL },
+    { 36, 480, 0, 0, 0, 0, 5, NULL, NULL },
+    { 4, 525, 0, 0, 0, 0, 5, NULL, NULL },
+    { 27, 532, 0, 0, 0, 0, 5, NULL, NULL },
+    { 4, 2000, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent140Track1[5] = {
+    { 802, 125, 530432, 286720, 0, 0, 2, NULL, NULL },
+    { 803, 149, 0, 0, 0, 0, 5, NULL, NULL },
+    { 804, 200, 529664, 287232, 0, 0, 258, NULL, NULL },
+    { 797, 1000, 0, 0, 0, 0, 261, NULL, NULL },
+    { 756, 2000, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent140Track2[4] = {
+    { 821, 330, 521472, 292352, 0, 0, 66, NULL, NULL },
+    { 820, 430, 0, 0, 0, 0, 69, NULL, NULL },
+    { 821, 470, 0, 0, 0, 0, 69, NULL, NULL },
+    { 820, 2000, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent140Track3[2] = {
+    { 808, 150, 526848, 313856, -2560, 0, 2, NULL, NULL },
+    { 808, 500, 494592, 295424, -2560, 808, 32771, NULL, NULL },
+};
+
+static const EventCharaTrack sEvent140Tracks[4] = {
+    { sEvent140Track0, EVENT_CHARA_SORA },
+    { sEvent140Track1, EVENT_CHARA_WINNIE_THE_POOH },
+    { sEvent140Track2, EVENT_CHARA_EEYORE },
+    { sEvent140Track3, EVENT_CHARA_TRAP },
+};
+
+const EventSequenceDef gEvent140 = {
+    3,
+    sEvent140Tracks,
+    sEvent140Camera,
+    sEvent140Script,
+    sEvent140SoundCues,
+    NULL,
+    620,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    0,
+    EVENT_NONE,
+    0,
+    { 0, 0 },
+    EVENT_EXIT_NONE,
+    0,
+    WORLD_NONE,
+    4,
+};

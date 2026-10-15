@@ -1,0 +1,436 @@
+/**
+ * pallet.c
+ * Palette Effects and Background Wave
+ */
+
+#include "macros.h"
+#include "pallet.h"
+#include "intr.h"
+#include "malloc.h"
+#include "types.h"
+#include "system_state.h"
+#include "gba/io_reg.h"
+#include "display.h"
+#include "engine_math.h"
+#include "gba/defines.h"
+#include "gba/macro.h"
+
+static const s32 sBrightenSteps[32] = {
+       0,    8,   16,   24,   33,   41,   49,   57,   66,   74,   82,   90,
+      99,  107,  115,  123,  132,  140,  148,  156,  165,  173,  181,  189,
+     198,  206,  214,  222,  231,  239,  247,  256,
+};
+
+static const u8 sPalletHeapName[8] = "PALLET";
+
+static PaletteBuffer* sPaletteBuffer;
+static s16 sPaletteEffect;
+static s16 sPaletteEffectSaved;
+
+PaletteWave gBgWaves[5] EWRAM_COMMON(16);
+
+u16* FadePaletteToBlack(u16* src, u16* dst, u16 size, u16 amount) {
+    s32 base = ((s32)dst - PLTT) >> 1;
+    u16 count = size >> 1;
+    u16 i;
+    u16 b[2];
+    u16 g[2];
+    u16 r[2];
+
+    for (i = 0; i < count; i++) {
+        r[0] = src[i] & 0x1F;
+        g[0] = (src[i] & 0x3E0) >> 5;
+        b[0] = (src[i] & 0x7C00) >> 10;
+        r[1] = 0;
+        g[1] = 0;
+        b[1] = 0;
+
+        if (b[0] > b[1]) {
+            b[0] = b[0] - (amount * b[0] >> 5);
+        } else {
+            b[0] = b[1];
+        }
+
+        if (g[0] > g[1]) {
+            g[0] = g[0] - (amount * g[0] >> 5);
+        } else {
+            g[0] = g[1];
+        }
+
+        if (r[0] > r[1]) {
+            r[0] = r[0] - (amount * r[0] >> 5);
+        } else {
+            r[0] = r[1];
+        }
+
+        sPaletteBuffer->colors[i + base] = (b[0] << 10) | (g[0] << 5) | r[0];
+    }
+
+    if (base == 0) {
+        RequestDma3Copy(&sPaletteBuffer->colors[1], dst + 1, size - 2);
+    } else {
+        RequestDma3Copy(&sPaletteBuffer->colors[base], dst, size);
+    }
+
+    return &sPaletteBuffer->colors[base];
+}
+
+u16* FadePaletteToGray(const u16* src, u16* dst, u16 size, u16 amount) {
+    s32 base = ((s32)dst - PLTT) >> 1;
+    u16 count = size >> 1;
+    s16 inv = 31 - amount;
+    u16 i;
+
+    for (i = 0; i < count; i++) {
+        s16 r = src[i] & 0x1F;
+        s16 g = ((src[i] & 0x3E0) >> 5) & 0x1F;
+        s16 b = ((src[i] & 0x7C00) >> 10) & 0x1F;
+        s16 gray = ((r + g + b) >> 2) * amount;
+
+        r = (gray + r * inv) >> 5;
+        g = (gray + g * inv) >> 5;
+        b = (gray + b * inv) >> 5;
+        sPaletteBuffer->colors[i + base] = (b << 10) | (g << 5) | r;
+    }
+
+    if (base == 0) {
+        RequestDma3Copy(&sPaletteBuffer->colors[1], dst + 1, size - 2);
+    } else {
+        RequestDma3Copy(&sPaletteBuffer->colors[base], dst, size);
+    }
+
+    return &sPaletteBuffer->colors[base];
+}
+
+u16* FadePaletteToWhite(u16* src, u16* dst, u16 size, u16 amount) {
+    s32 base = ((s32)dst - PLTT) >> 1;
+    u16 count = size >> 1;
+    u16 i;
+    u16 b[2];
+    u16 g[2];
+    u16 r[2];
+
+    for (i = 0; i < count; i++) {
+        r[0] = src[i] & 0x1F;
+        g[0] = (src[i] & 0x3E0) >> 5;
+        b[0] = (src[i] & 0x7C00) >> 10;
+        r[1] = 31;
+        g[1] = 31;
+        b[1] = 31;
+
+        if (b[0] < b[1]) {
+            b[0] = b[0] + ((b[1] - b[0]) * amount >> 5);
+        } else {
+            b[0] = b[0] - ((b[0] - b[1]) * amount >> 5);
+        }
+
+        if (g[0] < g[1]) {
+            g[0] = g[0] + ((g[1] - g[0]) * amount >> 5);
+        } else {
+            g[0] = g[0] - ((g[0] - g[1]) * amount >> 5);
+        }
+
+        if (r[0] < r[1]) {
+            r[0] = r[0] + ((r[1] - r[0]) * amount >> 5);
+        } else {
+            r[0] = r[0] - ((r[0] - r[1]) * amount >> 5);
+        }
+
+        sPaletteBuffer->colors[i + base] = (b[0] << 10) | (g[0] << 5) | r[0];
+    }
+
+    if (base == 0) {
+        RequestDma3Copy(&sPaletteBuffer->colors[1], dst + 1, size - 2);
+    } else {
+        RequestDma3Copy(&sPaletteBuffer->colors[base], dst, size);
+    }
+
+    return &sPaletteBuffer->colors[base];
+}
+
+u16* BrightenPalette(const u16* src, u16* dst, u16 size, u16 amount) {
+    s32 base = ((s32)dst - PLTT) >> 1;
+    u16 count = size >> 1;
+    u16 i;
+
+    for (i = 0; i < count; i++) {
+        u16 r = src[i] & 0x1F;
+        u16 g = ((src[i] & 0x3E0) >> 5) & 0x1F;
+        u16 b = ((src[i] & 0x7C00) >> 10) & 0x1F;
+        s32 rv = r << 8;
+        s32 gv = g << 8;
+        s32 bv = b << 8;
+
+        rv += amount * sBrightenSteps[r];
+        gv += amount * sBrightenSteps[g];
+        bv += amount * sBrightenSteps[b];
+
+        if (rv > 0x1F00) {
+            rv = 0x1F00;
+        }
+
+        if (gv > 0x1F00) {
+            gv = 0x1F00;
+        }
+
+        if (bv > 0x1F00) {
+            bv = 0x1F00;
+        }
+
+        r = rv >> 8;
+        g = gv >> 8;
+        b = bv >> 8;
+        sPaletteBuffer->colors[i + base] = (b << 10) | (g << 5) | r;
+    }
+
+    if (base == 0) {
+        RequestDma3Copy(&sPaletteBuffer->colors[1], dst + 1, size - 2);
+    } else {
+        RequestDma3Copy(&sPaletteBuffer->colors[base], dst, size);
+    }
+
+    return &sPaletteBuffer->colors[base];
+}
+
+u16* LoadPaletteBuffered(const void* src, u16* dst, u16 size) {
+    s32 base = ((s32)dst - PLTT) >> 1;
+
+    CpuCopy16(src, &sPaletteBuffer->colors[base], size);
+
+    if (base == 0) {
+        RequestDma3Copy(&sPaletteBuffer->colors[1], dst + 1, size - 2);
+    } else {
+        RequestDma3Copy(&sPaletteBuffer->colors[base], dst, size);
+    }
+
+    return &sPaletteBuffer->colors[base];
+}
+
+u16* GetPaletteBufferBank(u8 bank) {
+    return &sPaletteBuffer->colors[bank * 32];
+}
+
+void ResetPaletteEffect() {
+    sPaletteEffect = 0;
+    sPaletteEffectSaved = 0;
+}
+
+u16* LoadPaletteWithEffect(const void* src, u16* dst, u16 size) {
+    if (sPaletteEffect == 0) {
+        return LoadPaletteBuffered(src, dst, size);
+    }
+
+    if (sPaletteEffect < 0) {
+        return FadePaletteToGray(src, dst, size, -sPaletteEffect);
+    }
+
+    return BrightenPalette(src, dst, size, sPaletteEffect);
+}
+
+s16 GetPaletteEffect() {
+    return sPaletteEffect;
+}
+
+void SetPaletteEffect(s16 effect) {
+    sPaletteEffect = effect;
+}
+
+void PushPaletteEffect(s32 effect) {
+    sPaletteEffectSaved = sPaletteEffect;
+    sPaletteEffect = effect;
+}
+
+void PopPaletteEffect() {
+    sPaletteEffect = sPaletteEffectSaved;
+}
+
+void PalletInit() {
+    SetIwramHeapName(sPalletHeapName);
+    sPaletteBuffer = IwramAlloc(sizeof(PaletteBuffer));
+    CpuFill32(0, sPaletteBuffer, sizeof(PaletteBuffer));
+    PalletClear();
+}
+
+void PalletFree() {
+    IwramFree(sPaletteBuffer);
+}
+
+void PalletClear() {
+    s32 i;
+
+    for (i = 0; i < 512; i++) {
+        sPaletteBuffer->colors[i] = 0;
+    }
+
+    for (i = 0; i < 32; i++) {
+        sPaletteBuffer->banks[i] = 0;
+    }
+}
+
+void SetPaletteBankFadeEnabled(u16 bank, u8 enabled) {
+    sPaletteBuffer->banks[bank] = enabled;
+}
+
+u16* FadeAllPalettesToBlack(u16* src, u16 amount) {
+    u16 bank;
+    u16 j;
+    u16* pal = (u16*)PLTT;
+    u16 b[2];
+    u16 g[2];
+    u16 r[2];
+
+    for (bank = 0; bank < ARRAY_COUNT(sPaletteBuffer->banks); bank++) {
+        if (sPaletteBuffer->banks[bank] == 1) {
+            for (j = 0; j <= 15; j++) {
+                u16 idx = bank * 16 + j;
+
+                r[0] = src[idx] & 0x1F;
+                g[0] = (src[idx] & 0x3E0) >> 5;
+                b[0] = (src[idx] & 0x7C00) >> 10;
+                r[1] = 0;
+                g[1] = 0;
+                b[1] = 0;
+
+                if (b[0] > b[1]) {
+                    b[0] = b[0] - (amount * b[0] >> 5);
+                } else {
+                    b[0] = b[1];
+                }
+
+                if (g[0] > g[1]) {
+                    g[0] = g[0] - (amount * g[0] >> 5);
+                } else {
+                    g[0] = g[1];
+                }
+
+                if (r[0] > r[1]) {
+                    r[0] = r[0] - (amount * r[0] >> 5);
+                } else {
+                    r[0] = r[1];
+                }
+
+                sPaletteBuffer->colors[idx] = (b[0] << 10) | (g[0] << 5) | r[0];
+            }
+        }
+    }
+
+    RequestDma3Copy(&sPaletteBuffer->colors[1], pal + 1, 0x3FE);
+    return sPaletteBuffer->colors;
+}
+
+u16* FadeAllPalettesToWhite(u16* src, u16 amount) {
+    u16* pal = (u16*)PLTT;
+    u16 bank;
+    u16 j;
+    u16 b[2];
+    u16 g[2];
+    u16 r[2];
+
+    for (bank = 0; bank < ARRAY_COUNT(sPaletteBuffer->banks); bank++) {
+        if (sPaletteBuffer->banks[bank] == 1) {
+            for (j = 0; j <= 15; j++) {
+                u16 idx = bank * 16 + j;
+
+                r[0] = src[idx] & 0x1F;
+                g[0] = (src[idx] & 0x3E0) >> 5;
+                b[0] = (src[idx] & 0x7C00) >> 10;
+                r[1] = 31;
+                g[1] = 31;
+                b[1] = 31;
+
+                if (b[0] < b[1]) {
+                    b[0] = b[0] + ((b[1] - b[0]) * amount >> 5);
+                } else {
+                    b[0] = b[0] - ((b[0] - b[1]) * amount >> 5);
+                }
+
+                if (g[0] < g[1]) {
+                    g[0] = g[0] + ((g[1] - g[0]) * amount >> 5);
+                } else {
+                    g[0] = g[0] - ((g[0] - g[1]) * amount >> 5);
+                }
+
+                if (r[0] < r[1]) {
+                    r[0] = r[0] + ((r[1] - r[0]) * amount >> 5);
+                } else {
+                    r[0] = r[0] - ((r[0] - r[1]) * amount >> 5);
+                }
+
+                sPaletteBuffer->colors[idx] = (b[0] << 10) | (g[0] << 5) | r[0];
+            }
+        }
+    }
+
+    RequestDma3Copy(&sPaletteBuffer->colors[1], pal + 1, 0x3FE);
+    return sPaletteBuffer->colors;
+}
+
+void StartBgWave(void (*callback)()) {
+    s32 i;
+
+    for (i = 0; i < 4; i++) {
+        gBgWaves[i].amplitude = 1;
+        gBgWaves[i].frequency = 1;
+        gBgWaves[i].enabled = FALSE;
+    }
+
+    SetHBlankCallback(callback);
+    EnableHBlankIntr();
+}
+
+void SetBgWaveParams(s32 bg, u8 amplitude, u8 frequency) {
+    gBgWaves[bg].amplitude = amplitude;
+    gBgWaves[bg].frequency = frequency;
+}
+
+void EnableBgWave(s32 bg) {
+    gBgWaves[bg].enabled = TRUE;
+}
+
+void DisableBgWave(s32 bg) {
+    gBgWaves[bg].enabled = FALSE;
+}
+
+void HBlankIntrBgWave1(s32 bg) {
+    vu16 line;
+
+    line = REG_VCOUNT;
+    line = (line + 1) % 228;
+
+    if (gBgWaves[bg].enabled == TRUE) {
+        REG_BGHOFS(0) = SIN((line + gFrameCounter) * gBgWaves[bg].frequency) * gBgWaves[bg].amplitude >> 8;
+    }
+}
+
+void StopBgWave(s32 bg) {
+    gBgWaves[bg].enabled = FALSE;
+    ResetHBlankCallback();
+    DisableHBlankIntr();
+}
+
+void HBlankIntrBgWave() {
+    vu16 line;
+    s32 i;
+
+    line = REG_VCOUNT;
+    line = (line + 1) % 228;
+
+    for (i = 0; i < 4; i++) {
+        const s16* sine = gSineTable;
+
+        if (gBgWaves[i].enabled == TRUE) {
+            REG_BGHOFS(i) = sine[((line + gFrameCounter) * gBgWaves[i].frequency) & 0xFF] * gBgWaves[i].amplitude / 256;
+        }
+    }
+}
+
+void StopAllBgWaves() {
+    s32 i;
+
+    for (i = 0; i < 4; i++) {
+        gBgWaves[i].enabled = FALSE;
+    }
+
+    ResetHBlankCallback();
+    DisableHBlankIntr();
+}

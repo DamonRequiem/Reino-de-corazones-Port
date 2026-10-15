@@ -1,0 +1,192 @@
+group: sprites_mode_test
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_mode_test_frames_1.s
+    start: 0x08B24C98
+    end: 0x08B2556C
+    data_start: 0x09EE14D4
+    data_end: 0x09EE1520
+  - name: sprites_mode_test_frames_2.s
+    start: 0x090D7C50
+    end: 0x090D7E04
+    data_start: 0x09EEC660
+    data_end: 0x09EEC670
+  jp:
+  - name: sprites_mode_test_frames_1.s
+    start: 0x08B18280
+    end: 0x08B18B54
+    data_start: 0x09EB8F50
+    data_end: 0x09EB8F9C
+  - name: sprites_mode_test_frames_2.s
+    start: 0x09093178
+    end: 0x0909332C
+    data_start: 0x09EC3A4C
+    data_end: 0x09EC3A5C
+  eu:
+  - name: sprites_mode_test_frames.s
+    start: 0x091A72D8
+    end: 0x091A748C
+    data_start: 0x09F77844
+    data_end: 0x09F77854
+entries:
+- name: gBHpgagEFrames
+  record: SpriteTable
+  items: [gBHpgagEFrame0, gBHpgagEFrame1, gBHpgagEFrame2, gBHpgagEFrame3, gBHpgagEFrame4, gBHpgagEFrame5, gBHpgagEFrame6, gBHpgagEFrame7, gBHpgagEFrame8, gBHpgagEFrame9, gBHpgagEFrame10, gBHpgagEFrame11, gBHpgagEFrame12, gBHpgagEFrame13]
+  us:
+    address: 0x09EE14D4
+  jp:
+    address: 0x09EB8F50
+- name: gBHpgagEAnims
+  record: AnimTable
+  items: [gBHpgagEAnim0, gBHpgagEAnim1, gBHpgagEAnim2, gBHpgagEAnim3, gBHpgagEAnim4]
+  us:
+    address: 0x09EE150C
+  jp:
+    address: 0x09EB8F88
+- name: gLockonCursorFrames
+  record: SpriteTable
+  items: [gLockonCursorFrame0, gLockonCursorFrame1, gLockonCursorFrame2]
+  us:
+    address: 0x09EEC660
+  jp:
+    address: 0x09EC3A4C
+  eu:
+    address: 0x09F77844
+- name: gLockonCursorAnims
+  record: AnimTable
+  items: [gLockonCursorAnim0]
+  us:
+    address: 0x09EEC66C
+  jp:
+    address: 0x09EC3A58
+  eu:
+    address: 0x09F77850
+- name: b_hpgag_e
+  format: sprite_sheet
+  palette: b_states
+  symbol: gBHpgagETiles
+  align: 4
+  cell: [80, 12]
+  anchor: [80, 4]
+  columns: 8
+  frames:
+  - symbol: gBHpgagEFrame0
+    pieces:
+    - [32x8, -32, -4]
+  - symbol: gBHpgagEFrame1
+    pieces:
+    - [32x8, -32, 0]
+    - [8x8, -40, 0, {hflip: true}]
+  - symbol: gBHpgagEFrame2
+    pieces:
+    - [32x8, -32, 0]
+    - [16x8, -48, 0, {hflip: true}]
+  - symbol: gBHpgagEFrame3
+    pieces:
+    - [32x8, -32, 0]
+    - [32x8, -56, 0, {hflip: true}]
+  - symbol: gBHpgagEFrame4
+    pieces:
+    - [32x8, -32, 0]
+    - [32x8, -64, 0, {hflip: true}]
+  - symbol: gBHpgagEFrame5
+    pieces:
+    - [32x8, -32, 0]
+    - [32x8, -64, 0, {hflip: true}]
+    - [8x8, -72, 0, {hflip: true}]
+  - symbol: gBHpgagEFrame6
+    pieces:
+    - [32x8, -32, 0]
+    - [32x8, -64, 0]
+    - [16x8, -80, 0, {hflip: true}]
+  - symbol: gBHpgagEFrame7
+    pieces:
+    - [32x8, -32, -4]
+  - symbol: gBHpgagEFrame8
+    pieces:
+    - [32x8, -32, -4]
+  - symbol: gBHpgagEFrame9
+    pieces:
+    - [32x8, -32, -4]
+  - symbol: gBHpgagEFrame10
+    pieces:
+    - [32x8, -32, 0]
+    - [32x8, -64, 0]
+    - [16x8, -80, 0, {hflip: true}]
+  - symbol: gBHpgagEFrame11
+    pieces:
+    - [32x8, -32, 0]
+    - [32x8, -64, 0]
+    - [16x8, -80, 0]
+  - symbol: gBHpgagEFrame12
+    pieces:
+    - [32x8, -32, 0]
+    - [32x8, -64, 0]
+    - [16x8, -80, 0]
+  - symbol: gBHpgagEFrame13
+    pieces:
+    - [8x8, -24, 0]
+  animations:
+  - symbol: gBHpgagEAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBHpgagEAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gBHpgagEAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gBHpgagEAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gBHpgagEAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  us:
+    address: 0x08B24C98
+    size: 2258
+  jp:
+    address: 0x08B18280
+    size: 2258
+- name: gLockonCursorTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 3
+  frames:
+  - symbol: gLockonCursorFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gLockonCursorFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gLockonCursorFrame2
+    pieces:
+    - [16x16, -8, -8]
+  animations:
+  - symbol: gLockonCursorAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 10], [2, 10], [1, 10], [0, 10]]
+  us:
+    address: 0x090D7C50
+    size: 436
+  jp:
+    address: 0x09093178
+    size: 436
+  eu:
+    address: 0x091A72D8
+    size: 436

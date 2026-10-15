@@ -1,0 +1,1273 @@
+group: sprites_allmap
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_allmap_frames.s
+    start: 0x0976B1D8
+    end: 0x0976E9D4
+    data_start: 0x09EF6424
+    data_end: 0x09EF659C
+  - name: sprites_allmap_tiles.s
+    start: 0x097B62B8
+    end: 0x097C77B8
+  - name: sprites_allmap_maps.s
+    start: 0x0983AD98
+    end: 0x0983E398
+  - name: sprites_allmap_palettes.s
+    start: 0x0984A1F8
+    end: 0x0984A418
+  jp:
+  - name: sprites_allmap_frames.s
+    start: 0x097239B4
+    end: 0x097271B0
+    data_start: 0x09ECD810
+    data_end: 0x09ECD988
+  - name: sprites_allmap_tiles.s
+    start: 0x0977074C
+    end: 0x09781C4C
+  - name: sprites_allmap_maps.s
+    start: 0x097F026C
+    end: 0x097F386C
+  - name: sprites_allmap_palettes.s
+    start: 0x097FEECC
+    end: 0x097FF0EC
+  eu:
+  - name: sprites_allmap_frames.s
+    start: 0x09738538
+    end: 0x0973C884
+    data_start: 0x09F8181C
+    data_end: 0x09F819A4
+  - name: sprites_allmap_tiles.s
+    start: 0x09793C20
+    end: 0x097ADE00
+  - name: sprites_allmap_maps.s
+    start: 0x0980F840
+    end: 0x09814240
+  - name: sprites_allmap_palettes.s
+    start: 0x0981E8A0
+    end: 0x0981EAC0
+entries:
+- name: gAllmapRoomFrames
+  record: SpriteTable
+  items: [gAllmapRoomFrame0, gAllmapRoomFrame1, gAllmapRoomFrame2, gAllmapRoomFrame3, gAllmapRoomFrame4, gAllmapRoomFrame5, gAllmapRoomFrame6, gAllmapRoomFrame7, gAllmapRoomFrame8, gAllmapRoomFrame9, gAllmapRoomFrame10, gAllmapRoomFrame11, gAllmapRoomFrame12, gAllmapRoomFrame13, gAllmapRoomFrame14, gAllmapRoomFrame15, gAllmapRoomFrame16, gAllmapRoomFrame17]
+  us:
+    address: 0x09EF6424
+  jp:
+    address: 0x09ECD810
+  eu:
+    address: 0x09F81834
+- name: gAllmapRoomAnims
+  record: AnimTable
+  items: [gAllmapRoomAnim0, gAllmapRoomAnim1, gAllmapRoomAnim2, gAllmapRoomAnim3, gAllmapRoomAnim4, gAllmapRoomAnim5, gAllmapRoomAnim6, gAllmapRoomAnim7, gAllmapRoomAnim8, gAllmapRoomAnim9, gAllmapRoomAnim10, gAllmapRoomAnim11, gAllmapRoomAnim12, gAllmapRoomAnim13, gAllmapRoomAnim14, gAllmapRoomAnim15, gAllmapRoomAnim16, gAllmapRoomAnim17]
+  us:
+    address: 0x09EF646C
+  jp:
+    address: 0x09ECD858
+  eu:
+    address: 0x09F8187C
+- name: gAllmapCursorFrames
+  record: SpriteTable
+  items: [gAllmapCursorFrame0, gAllmapCursorFrame1, gAllmapCursorFrame2, gAllmapCursorFrame3]
+  us:
+    address: 0x09EF64B4
+  jp:
+    address: 0x09ECD8A0
+  eu:
+    address: 0x09F818C4
+- name: gAllmapCursorAnims
+  record: AnimTable
+  items: [gAllmapCursorAnim0, gAllmapCursorAnim1]
+  us:
+    address: 0x09EF64C4
+  jp:
+    address: 0x09ECD8B0
+  eu:
+    address: 0x09F818D4
+- name: gAllmapBarTitleFrames
+  record: SpriteTable
+  items: [gAllmapBarTitleFrame0]
+  us:
+    address: 0x09EF64CC
+  jp:
+    address: 0x09ECD8B8
+- name: gAllmapBarTitleAnims
+  record: AnimTable
+  items: [gAllmapBarTitleAnim0]
+  us:
+    address: 0x09EF64D0
+  jp:
+    address: 0x09ECD8BC
+  eu:
+    address: 0x09F81830
+- name: gAllmapBarBandFrames
+  record: SpriteTable
+  items: [gAllmapBarBandFrame0, gAllmapBarBandFrame1]
+  us:
+    address: 0x09EF64D4
+  jp:
+    address: 0x09ECD8C0
+  eu:
+    address: 0x09F818DC
+- name: gAllmapBarBandAnims
+  record: AnimTable
+  items: [gAllmapBarBandAnim0]
+  us:
+    address: 0x09EF64DC
+  jp:
+    address: 0x09ECD8C8
+  eu:
+    address: 0x09F818E4
+- name: gAllmapPushaFrames
+  record: SpriteTable
+  items: [gAllmapPushaFrame0]
+  us:
+    address: 0x09EF64E0
+  jp:
+    address: 0x09ECD8CC
+  eu:
+    address: 0x09F818E8
+- name: gAllmapPushaAnims
+  record: AnimTable
+  items: [gAllmapPushaAnim0]
+  us:
+    address: 0x09EF64E4
+  jp:
+    address: 0x09ECD8D0
+  eu:
+    address: 0x09F818EC
+- name: gAllmapDoorinfoArrowFrames
+  record: SpriteTable
+  items: [gAllmapDoorinfoArrowFrame0, gAllmapDoorinfoArrowFrame1, gAllmapDoorinfoArrowFrame2, gAllmapDoorinfoArrowFrame3]
+  us:
+    address: 0x09EF64E8
+  jp:
+    address: 0x09ECD8D4
+  eu:
+    address: 0x09F818F0
+- name: gAllmapDoorinfoArrowAnims
+  record: AnimTable
+  items: [gAllmapDoorinfoArrowAnim0]
+  us:
+    address: 0x09EF64F8
+  jp:
+    address: 0x09ECD8E4
+  eu:
+    address: 0x09F81900
+- name: gAllmapHallDoorFrames
+  record: SpriteTable
+  items: [gAllmapHallDoorFrame0, gAllmapHallDoorFrame1, gAllmapHallDoorFrame2, gAllmapHallDoorFrame3, gAllmapHallDoorFrame4, gAllmapHallDoorFrame5, gAllmapHallDoorFrame6, gAllmapHallDoorFrame7, gAllmapHallDoorFrame8, gAllmapHallDoorFrame9, gAllmapHallDoorFrame10, gAllmapHallDoorFrame11, gAllmapHallDoorFrame12, gAllmapHallDoorFrame13, gAllmapHallDoorFrame14, gAllmapHallDoorFrame15]
+  us:
+    address: 0x09EF64FC
+  jp:
+    address: 0x09ECD8E8
+  eu:
+    address: 0x09F81904
+- name: gAllmapHallDoorAnims
+  record: AnimTable
+  items: [gAllmapHallDoorAnim0, gAllmapHallDoorAnim1, gAllmapHallDoorAnim2, gAllmapHallDoorAnim3]
+  us:
+    address: 0x09EF653C
+  jp:
+    address: 0x09ECD928
+  eu:
+    address: 0x09F81944
+- name: gAllmapClosedDoorFrames
+  record: SpriteTable
+  items: [gAllmapClosedDoorFrame0, gAllmapClosedDoorFrame1, gAllmapClosedDoorFrame2, gAllmapClosedDoorFrame3, gAllmapClosedDoorFrame4, gAllmapClosedDoorFrame5, gAllmapClosedDoorFrame6, gAllmapClosedDoorFrame7, gAllmapClosedDoorFrame8, gAllmapClosedDoorFrame9, gAllmapClosedDoorFrame10, gAllmapClosedDoorFrame11, gAllmapClosedDoorFrame12, gAllmapClosedDoorFrame13, gAllmapClosedDoorFrame14, gAllmapClosedDoorFrame15]
+  us:
+    address: 0x09EF654C
+  jp:
+    address: 0x09ECD938
+  eu:
+    address: 0x09F81954
+- name: gAllmapClosedDoorAnims
+  record: AnimTable
+  items: [gAllmapClosedDoorAnim0, gAllmapClosedDoorAnim1, gAllmapClosedDoorAnim2, gAllmapClosedDoorAnim3]
+  us:
+    address: 0x09EF658C
+  jp:
+    address: 0x09ECD978
+  eu:
+    address: 0x09F81994
+- name: gAllmapBarTitleFramesEu
+  record: SpriteTable
+  items: [gAllmapBarTitleFrame0, gAllmapBarTitleFrame1, gAllmapBarTitleFrame2, gAllmapBarTitleFrame3, gAllmapBarTitleFrame4]
+  eu:
+    address: 0x09F8181C
+- name: gAllmapBarTitleTiles
+  format: sprite_sheet
+  align: 4
+  cell: [96, 16]
+  anchor: [0, 0]
+  columns: 5
+  frames:
+  - symbol: gAllmapBarTitleFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [16x16, 64, 0]
+    - [8x16, 80, 0]
+  animations:
+  - symbol: gAllmapBarTitleAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0976D880
+    size: 742
+  jp:
+    address: 0x0972605C
+    size: 742
+  eu:
+    address: 0x09738538
+    size: 3640
+    frames:
+    - symbol: gAllmapBarTitleFrame0
+      pieces:
+      - [32x16, 0, 0]
+      - [32x16, 32, 0]
+      - [16x16, 64, 0]
+      - [8x16, 80, 0]
+    - symbol: gAllmapBarTitleFrame1
+      pieces:
+      - [32x16, 0, 0]
+      - [32x16, 32, 0]
+    - symbol: gAllmapBarTitleFrame2
+      pieces:
+      - [32x16, 0, 0]
+      - [32x16, 32, 0]
+      - [32x16, 64, 0]
+    - symbol: gAllmapBarTitleFrame3
+      pieces:
+      - [32x16, 0, 0]
+      - [32x16, 32, 0]
+      - [32x16, 64, 0]
+    - symbol: gAllmapBarTitleFrame4
+      pieces:
+      - [32x16, 0, 0]
+      - [32x16, 32, 0]
+      - [32x16, 64, 0]
+- name: gAllmapRoomTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 32]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gAllmapRoomFrame0
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame1
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame2
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame3
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame4
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame5
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame6
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame7
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame8
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame9
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame10
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame11
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame12
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame13
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame14
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame15
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame16
+    pieces:
+    - [32x32, 0, 0]
+  - symbol: gAllmapRoomFrame17
+    pieces:
+    - [32x32, 0, 0]
+  animations:
+  - symbol: gAllmapRoomAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gAllmapRoomAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gAllmapRoomAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gAllmapRoomAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gAllmapRoomAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gAllmapRoomAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gAllmapRoomAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gAllmapRoomAnim7
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gAllmapRoomAnim8
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gAllmapRoomAnim9
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gAllmapRoomAnim10
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gAllmapRoomAnim11
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gAllmapRoomAnim12
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gAllmapRoomAnim13
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gAllmapRoomAnim14
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gAllmapRoomAnim15
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  - symbol: gAllmapRoomAnim16
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gAllmapRoomAnim17
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 4]]
+  us:
+    address: 0x0976B1D8
+    size: 9576
+  jp:
+    address: 0x097239B4
+    size: 9576
+  eu:
+    address: 0x09739370
+    size: 9576
+- name: gAllmapBarBandTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 8]
+  anchor: [128, 0]
+  columns: 2
+  frames:
+  - symbol: gAllmapBarBandFrame0
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gAllmapBarBandFrame1
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  animations:
+  - symbol: gAllmapBarBandAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0976DB68
+    size: 306
+  jp:
+    address: 0x09726344
+    size: 306
+  eu:
+    address: 0x0973BA18
+    size: 306
+- name: gAllmapPushaTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [-19, 6]
+  columns: 1
+  frames:
+  - symbol: gAllmapPushaFrame0
+    pieces:
+    - [16x16, 19, -6]
+  animations:
+  - symbol: gAllmapPushaAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0976DC9C
+    size: 148
+  jp:
+    address: 0x09726478
+    size: 148
+  eu:
+    address: 0x0973BB4C
+    size: 148
+- name: gAllmapDoorinfoArrowTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 46]
+  anchor: [8, 8]
+  columns: 4
+  frames:
+  - symbol: gAllmapDoorinfoArrowFrame0
+    pieces:
+    - [16x16, -8, 22]
+  - symbol: gAllmapDoorinfoArrowFrame1
+    pieces:
+    - [16x16, 24, 22, {hflip: true}]
+  - symbol: gAllmapDoorinfoArrowFrame2
+    pieces:
+    - [16x16, 24, -8, {hflip: true, vflip: true}]
+  - symbol: gAllmapDoorinfoArrowFrame3
+    pieces:
+    - [16x16, -8, -8, {vflip: true}]
+  animations:
+  - symbol: gAllmapDoorinfoArrowAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0976DD30
+    size: 178
+  jp:
+    address: 0x0972650C
+    size: 178
+  eu:
+    address: 0x0973BBE0
+    size: 178
+- name: gAllmapCursorTiles
+  format: sprite_sheet
+  align: 4
+  cell: [24, 27]
+  anchor: [0, 0]
+  columns: 4
+  frames:
+  - symbol: gAllmapCursorFrame0
+    pieces:
+    - [16x16, 0, 0]
+    - [8x8, 10, 16]
+    - [8x8, 16, 8]
+  - symbol: gAllmapCursorFrame1
+    pieces:
+    - [16x16, 0, 1]
+    - [8x8, 10, 17]
+    - [8x8, 16, 9]
+  - symbol: gAllmapCursorFrame2
+    pieces:
+    - [16x16, 0, 2]
+    - [8x8, 10, 18]
+    - [8x8, 16, 10]
+  - symbol: gAllmapCursorFrame3
+    pieces:
+    - [16x16, 0, 3]
+    - [8x8, 10, 19]
+    - [8x8, 16, 11]
+  animations:
+  - symbol: gAllmapCursorAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 3], [2, 3], [3, 4], [2, 3], [1, 3]]
+  - symbol: gAllmapCursorAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0976D740
+    size: 320
+  jp:
+    address: 0x09725F1C
+    size: 320
+  eu:
+    address: 0x0973B8D8
+    size: 320
+- name: gAllmapHallDoorTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 30]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gAllmapHallDoorFrame0
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gAllmapHallDoorFrame1
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gAllmapHallDoorFrame2
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gAllmapHallDoorFrame3
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gAllmapHallDoorFrame4
+    pieces:
+    - [16x16, 16, 0]
+  - symbol: gAllmapHallDoorFrame5
+    pieces:
+    - [16x16, 16, 0]
+  - symbol: gAllmapHallDoorFrame6
+    pieces:
+    - [16x16, 16, 0]
+  - symbol: gAllmapHallDoorFrame7
+    pieces:
+    - [16x16, 16, 0]
+  - symbol: gAllmapHallDoorFrame8
+    pieces:
+    - [8x8, 3, 22]
+  - symbol: gAllmapHallDoorFrame9
+    pieces:
+    - [8x8, 3, 22]
+  - symbol: gAllmapHallDoorFrame10
+    pieces:
+    - [8x8, 3, 22]
+  - symbol: gAllmapHallDoorFrame11
+    pieces:
+    - [8x8, 3, 22]
+  - symbol: gAllmapHallDoorFrame12
+    pieces:
+    - [8x8, 21, 22]
+  - symbol: gAllmapHallDoorFrame13
+    pieces:
+    - [8x8, 21, 22]
+  - symbol: gAllmapHallDoorFrame14
+    pieces:
+    - [8x8, 21, 22]
+  - symbol: gAllmapHallDoorFrame15
+    pieces:
+    - [8x8, 21, 22]
+  animations:
+  - symbol: gAllmapHallDoorAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8]]
+  - symbol: gAllmapHallDoorAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 8], [5, 8], [6, 8], [7, 8]]
+  - symbol: gAllmapHallDoorAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 8], [9, 8], [10, 8], [11, 8]]
+  - symbol: gAllmapHallDoorAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 8], [13, 8], [14, 8], [15, 8]]
+  us:
+    address: 0x0976DDE4
+    size: 1528
+  jp:
+    address: 0x097265C0
+    size: 1528
+  eu:
+    address: 0x0973BC94
+    size: 1528
+- name: gAllmapClosedDoorTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 30]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gAllmapClosedDoorFrame0
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gAllmapClosedDoorFrame1
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gAllmapClosedDoorFrame2
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gAllmapClosedDoorFrame3
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gAllmapClosedDoorFrame4
+    pieces:
+    - [16x16, 16, 0]
+  - symbol: gAllmapClosedDoorFrame5
+    pieces:
+    - [16x16, 16, 0]
+  - symbol: gAllmapClosedDoorFrame6
+    pieces:
+    - [16x16, 16, 0]
+  - symbol: gAllmapClosedDoorFrame7
+    pieces:
+    - [16x16, 16, 0]
+  - symbol: gAllmapClosedDoorFrame8
+    pieces:
+    - [8x8, 3, 22]
+  - symbol: gAllmapClosedDoorFrame9
+    pieces:
+    - [8x8, 3, 22]
+  - symbol: gAllmapClosedDoorFrame10
+    pieces:
+    - [8x8, 3, 22]
+  - symbol: gAllmapClosedDoorFrame11
+    pieces:
+    - [8x8, 3, 22]
+  - symbol: gAllmapClosedDoorFrame12
+    pieces:
+    - [8x8, 21, 22]
+  - symbol: gAllmapClosedDoorFrame13
+    pieces:
+    - [8x8, 21, 22]
+  - symbol: gAllmapClosedDoorFrame14
+    pieces:
+    - [8x8, 21, 22]
+  - symbol: gAllmapClosedDoorFrame15
+    pieces:
+    - [8x8, 21, 22]
+  animations:
+  - symbol: gAllmapClosedDoorAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8]]
+  - symbol: gAllmapClosedDoorAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 8], [5, 8], [6, 8], [7, 8]]
+  - symbol: gAllmapClosedDoorAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 8], [9, 8], [10, 8], [11, 8]]
+  - symbol: gAllmapClosedDoorAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 8], [13, 8], [14, 8], [15, 8]]
+  us:
+    address: 0x0976E3DC
+    size: 1528
+  jp:
+    address: 0x09726BB8
+    size: 1528
+  eu:
+    address: 0x0973C28C
+    size: 1528
+- name: gAllmapBackdropTiles
+  format: tiles4
+  us:
+    address: 0x097B62B8
+    size: 3936
+  jp:
+    address: 0x0977074C
+    size: 3936
+  eu:
+    address: 0x09793C20
+    size: 6720
+- name: gAllmapFloorTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x097B7218
+    size: 4160
+  jp:
+    address: 0x097716AC
+    size: 4160
+  eu:
+    address: 0x09795660
+    size: 4160
+- name: gAllmapRikuFloorTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x097B8258
+    size: 4160
+  jp:
+    address: 0x097726EC
+    size: 4160
+  eu:
+    address: 0x0979A7A0
+    size: 4160
+- name: gAllmapWorldBgWonderlandTiles
+  format: tiles4
+  us:
+    address: 0x097B9298
+    size: 5440
+  jp:
+    address: 0x0977372C
+    size: 5440
+  eu:
+    address: 0x0979F8E0
+    size: 5440
+- name: gAllmapWorldBgDestinyIslandsTiles
+  format: tiles4
+  us:
+    address: 0x097BA7D8
+    size: 4352
+  jp:
+    address: 0x09774C6C
+    size: 4352
+  eu:
+    address: 0x097A0E20
+    size: 4352
+- name: gAllmapWorldBgTraverseTownTiles
+  format: tiles4
+  us:
+    address: 0x097BB8D8
+    size: 5376
+  jp:
+    address: 0x09775D6C
+    size: 5376
+  eu:
+    address: 0x097A1F20
+    size: 5376
+- name: gAllmapWorldBgOlympusColiseumTiles
+  format: tiles4
+  us:
+    address: 0x097BCDD8
+    size: 2368
+  jp:
+    address: 0x0977726C
+    size: 2368
+  eu:
+    address: 0x097A3420
+    size: 2368
+- name: gAllmapWorldBgAgrabahTiles
+  format: tiles4
+  us:
+    address: 0x097BD718
+    size: 4288
+  jp:
+    address: 0x09777BAC
+    size: 4288
+  eu:
+    address: 0x097A3D60
+    size: 4288
+- name: gAllmapWorldBgMonstroTiles
+  format: tiles4
+  us:
+    address: 0x097BE7D8
+    size: 3392
+  jp:
+    address: 0x09778C6C
+    size: 3392
+  eu:
+    address: 0x097A4E20
+    size: 3392
+- name: gAllmapWorldBgAtlanticaTiles
+  format: tiles4
+  us:
+    address: 0x097BF518
+    size: 3360
+  jp:
+    address: 0x097799AC
+    size: 3360
+  eu:
+    address: 0x097A5B60
+    size: 3360
+- name: gAllmapWorldBgHalloweenTownTiles
+  format: tiles4
+  us:
+    address: 0x097C0238
+    size: 6400
+  jp:
+    address: 0x0977A6CC
+    size: 6400
+  eu:
+    address: 0x097A6880
+    size: 6400
+- name: gAllmapWorldBgNeverLandTiles
+  format: tiles4
+  us:
+    address: 0x097C1B38
+    size: 4320
+  jp:
+    address: 0x0977BFCC
+    size: 4320
+  eu:
+    address: 0x097A8180
+    size: 4320
+- name: gAllmapWorldBg100AcreWoodTiles
+  format: tiles4
+  us:
+    address: 0x097C2C18
+    size: 5344
+  jp:
+    address: 0x0977D0AC
+    size: 5344
+  eu:
+    address: 0x097A9260
+    size: 5344
+- name: gAllmapWorldBgHollowBastionTiles
+  format: tiles4
+  us:
+    address: 0x097C40F8
+    size: 4352
+  jp:
+    address: 0x0977E58C
+    size: 4352
+  eu:
+    address: 0x097AA740
+    size: 4352
+- name: gAllmapWorldBgTwilightTownTiles
+  format: tiles4
+  us:
+    address: 0x097C51F8
+    size: 4352
+  jp:
+    address: 0x0977F68C
+    size: 4352
+  eu:
+    address: 0x097AB840
+    size: 4352
+- name: gAllmapWorldBgCastleOblivionTiles
+  format: tiles4
+  us:
+    address: 0x097C62F8
+    size: 5312
+  jp:
+    address: 0x0978078C
+    size: 5312
+  eu:
+    address: 0x097AC940
+    size: 5312
+- name: gAllmapBackdropMap
+  format: tilemap
+  us:
+    address: 0x0983AD98
+    size: 1280
+  jp:
+    address: 0x097F026C
+    size: 1280
+  eu:
+    address: 0x09811140
+    size: 1280
+- name: gAllmapBarBgMap
+  format: tilemap
+  us:
+    address: 0x0983B298
+    size: 1308
+  jp:
+    address: 0x097F076C
+    size: 1308
+- name: gAllmapRoomnameFrameMap
+  format: tilemap
+  us:
+    address: 0x0983B7B4
+    size: 1124
+  jp:
+    address: 0x097F0C88
+    size: 1124
+  eu:
+    address: 0x0981165C
+    size: 1124
+- name: gAllmapFloorTitleMap
+  format: tilemap
+  ctype: u8
+  us:
+    address: 0x0983BC18
+    size: 128
+  jp:
+    address: 0x097F10EC
+    size: 128
+  eu:
+    address: 0x09811AC0
+    size: 128
+- name: gAllmapWorldBgWonderlandMap
+  format: tilemap
+  us:
+    address: 0x0983BC98
+    size: 768
+  jp:
+    address: 0x097F116C
+    size: 768
+  eu:
+    address: 0x09811B40
+    size: 768
+- name: gAllmapWorldBgDestinyIslandsMap
+  format: tilemap
+  us:
+    address: 0x0983BF98
+    size: 768
+  jp:
+    address: 0x097F146C
+    size: 768
+  eu:
+    address: 0x09811E40
+    size: 768
+- name: gAllmapWorldBgTraverseTownMap
+  format: tilemap
+  us:
+    address: 0x0983C298
+    size: 768
+  jp:
+    address: 0x097F176C
+    size: 768
+  eu:
+    address: 0x09812140
+    size: 768
+- name: gAllmapWorldBgOlympusColiseumMap
+  format: tilemap
+  us:
+    address: 0x0983C598
+    size: 768
+  jp:
+    address: 0x097F1A6C
+    size: 768
+  eu:
+    address: 0x09812440
+    size: 768
+- name: gAllmapWorldBgAgrabahMap
+  format: tilemap
+  us:
+    address: 0x0983C898
+    size: 768
+  jp:
+    address: 0x097F1D6C
+    size: 768
+  eu:
+    address: 0x09812740
+    size: 768
+- name: gAllmapWorldBgMonstroMap
+  format: tilemap
+  us:
+    address: 0x0983CB98
+    size: 768
+  jp:
+    address: 0x097F206C
+    size: 768
+  eu:
+    address: 0x09812A40
+    size: 768
+- name: gAllmapWorldBgAtlanticaMap
+  format: tilemap
+  us:
+    address: 0x0983CE98
+    size: 768
+  jp:
+    address: 0x097F236C
+    size: 768
+  eu:
+    address: 0x09812D40
+    size: 768
+- name: gAllmapWorldBgHalloweenTownMap
+  format: tilemap
+  us:
+    address: 0x0983D198
+    size: 768
+  jp:
+    address: 0x097F266C
+    size: 768
+  eu:
+    address: 0x09813040
+    size: 768
+- name: gAllmapWorldBgNeverLandMap
+  format: tilemap
+  us:
+    address: 0x0983D498
+    size: 768
+  jp:
+    address: 0x097F296C
+    size: 768
+  eu:
+    address: 0x09813340
+    size: 768
+- name: gAllmapWorldBg100AcreWoodMap
+  format: tilemap
+  us:
+    address: 0x0983D798
+    size: 768
+  jp:
+    address: 0x097F2C6C
+    size: 768
+  eu:
+    address: 0x09813640
+    size: 768
+- name: gAllmapWorldBgHollowBastionMap
+  format: tilemap
+  us:
+    address: 0x0983DA98
+    size: 768
+  jp:
+    address: 0x097F2F6C
+    size: 768
+  eu:
+    address: 0x09813940
+    size: 768
+- name: gAllmapWorldBgTwilightTownMap
+  format: tilemap
+  us:
+    address: 0x0983DD98
+    size: 768
+  jp:
+    address: 0x097F326C
+    size: 768
+  eu:
+    address: 0x09813C40
+    size: 768
+- name: gAllmapWorldBgCastleOblivionMap
+  format: tilemap
+  us:
+    address: 0x0983E098
+    size: 768
+  jp:
+    address: 0x097F356C
+    size: 768
+  eu:
+    address: 0x09813F40
+    size: 768
+- name: gAllmapRoomnamePalettes
+  format: palette
+  ctype: u8
+  us:
+    address: 0x0984A1F8
+    size: 128
+  jp:
+    address: 0x097FEECC
+    size: 128
+  eu:
+    address: 0x0981E8A0
+    size: 128
+- name: gAllmapWorldBgWonderlandPalette
+  format: palette
+  us:
+    address: 0x0984A278
+    size: 32
+  jp:
+    address: 0x097FEF4C
+    size: 32
+  eu:
+    address: 0x0981E920
+    size: 32
+- name: gAllmapWorldBgDestinyIslandsPalette
+  format: palette
+  us:
+    address: 0x0984A298
+    size: 32
+  jp:
+    address: 0x097FEF6C
+    size: 32
+  eu:
+    address: 0x0981E940
+    size: 32
+- name: gAllmapWorldBgTraverseTownPalette
+  format: palette
+  us:
+    address: 0x0984A2B8
+    size: 32
+  jp:
+    address: 0x097FEF8C
+    size: 32
+  eu:
+    address: 0x0981E960
+    size: 32
+- name: gAllmapWorldBgOlympusColiseumPalette
+  format: palette
+  us:
+    address: 0x0984A2D8
+    size: 32
+  jp:
+    address: 0x097FEFAC
+    size: 32
+  eu:
+    address: 0x0981E980
+    size: 32
+- name: gAllmapWorldBgAgrabahPalette
+  format: palette
+  us:
+    address: 0x0984A2F8
+    size: 32
+  jp:
+    address: 0x097FEFCC
+    size: 32
+  eu:
+    address: 0x0981E9A0
+    size: 32
+- name: gAllmapWorldBgMonstroPalette
+  format: palette
+  us:
+    address: 0x0984A318
+    size: 32
+  jp:
+    address: 0x097FEFEC
+    size: 32
+  eu:
+    address: 0x0981E9C0
+    size: 32
+- name: gAllmapWorldBgAtlanticaPalette
+  format: palette
+  us:
+    address: 0x0984A338
+    size: 32
+  jp:
+    address: 0x097FF00C
+    size: 32
+  eu:
+    address: 0x0981E9E0
+    size: 32
+- name: gAllmapWorldBgHalloweenTownPalette
+  format: palette
+  us:
+    address: 0x0984A358
+    size: 32
+  jp:
+    address: 0x097FF02C
+    size: 32
+  eu:
+    address: 0x0981EA00
+    size: 32
+- name: gAllmapWorldBgNeverLandPalette
+  format: palette
+  us:
+    address: 0x0984A378
+    size: 32
+  jp:
+    address: 0x097FF04C
+    size: 32
+  eu:
+    address: 0x0981EA20
+    size: 32
+- name: gAllmapWorldBg100AcreWoodPalette
+  format: palette
+  us:
+    address: 0x0984A398
+    size: 32
+  jp:
+    address: 0x097FF06C
+    size: 32
+  eu:
+    address: 0x0981EA40
+    size: 32
+- name: gAllmapWorldBgHollowBastionPalette
+  format: palette
+  us:
+    address: 0x0984A3B8
+    size: 32
+  jp:
+    address: 0x097FF08C
+    size: 32
+  eu:
+    address: 0x0981EA60
+    size: 32
+- name: gAllmapWorldBgTwilightTownPalette
+  format: palette
+  us:
+    address: 0x0984A3D8
+    size: 32
+  jp:
+    address: 0x097FF0AC
+    size: 32
+  eu:
+    address: 0x0981EA80
+    size: 32
+- name: gAllmapWorldBgCastleOblivionPalette
+  format: palette
+  us:
+    address: 0x0984A3F8
+    size: 32
+  jp:
+    address: 0x097FF0CC
+    size: 32
+  eu:
+    address: 0x0981EAA0
+    size: 32
+- name: gAllmapRoomnameFrameHeadMap
+  format: tilemap
+  eu:
+    address: 0x09811640
+    size: 28
+- name: gAllmapBarBgEnglishMap
+  format: tilemap
+  eu:
+    address: 0x0980F840
+    size: 1280
+- name: gAllmapBarBgFrenchMap
+  format: tilemap
+  eu:
+    address: 0x0980FD40
+    size: 1280
+- name: gAllmapBarBgSpanishMap
+  format: tilemap
+  eu:
+    address: 0x09810240
+    size: 1280
+- name: gAllmapBarBgItalianMap
+  format: tilemap
+  eu:
+    address: 0x09810740
+    size: 1280
+- name: gAllmapBarBgGermanMap
+  format: tilemap
+  eu:
+    address: 0x09810C40
+    size: 1280
+- name: gAllmapFloorFrenchTiles
+  format: tiles4
+  width: 2
+  eu:
+    address: 0x097966A0
+    size: 4160
+- name: gAllmapFloorSpanishTiles
+  format: tiles4
+  width: 2
+  eu:
+    address: 0x097976E0
+    size: 4160
+- name: gAllmapFloorItalianTiles
+  format: tiles4
+  width: 2
+  eu:
+    address: 0x09798720
+    size: 4160
+- name: gAllmapFloorGermanTiles
+  format: tiles4
+  width: 2
+  eu:
+    address: 0x09799760
+    size: 4160
+- name: gAllmapRikuFloorFrenchTiles
+  format: tiles4
+  width: 2
+  eu:
+    address: 0x0979B7E0
+    size: 4160
+- name: gAllmapRikuFloorSpanishTiles
+  format: tiles4
+  width: 2
+  eu:
+    address: 0x0979C820
+    size: 4160
+- name: gAllmapRikuFloorItalianTiles
+  format: tiles4
+  width: 2
+  eu:
+    address: 0x0979D860
+    size: 4160
+- name: gAllmapRikuFloorGermanTiles
+  format: tiles4
+  width: 2
+  eu:
+    address: 0x0979E8A0
+    size: 4160

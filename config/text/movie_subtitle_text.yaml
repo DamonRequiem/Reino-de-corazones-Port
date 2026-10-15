@@ -1,0 +1,254 @@
+pool: movie_subtitle_text
+formats:
+  us: {encoding: game, align: 2, ctype: const TextChar, count: exact, header: text_types.h}
+  jp: {encoding: sjis, align: 4, ctype: const TextChar, form: string, count: exact, header: text_types.h}
+  eu: {encoding: game, align: 1, ctype: const TextChar, count: exact, header: text_types.h}
+fragments:
+  us:
+  - name: movie_subtitles_1.inc
+    format: us
+    start: 0x0886A6D4
+    end: 0x0886AB40
+    entries:
+    - gMovieSubTextUs_0886A6D4
+    - gMovieSubTextUs_0886A712
+    - gMovieSubTextUs_0886A752
+    - gMovieSubTextUs_0886A78A
+    - gMovieSubTextUs_0886A798
+    - gMovieSubTextUs_0886A7B8
+    - gMovieSubTextUs_0886A7C8
+    - gMovieSubTextUs_0886A7E2
+    - gMovieSubTextUs_0886A806
+    - gMovieSubTextUs_0886A83A
+    - gMovieSubTextUs_0886A870
+    - gMovieSubTextUs_0886A8A0
+    - gMovieSubTextUs_0886A8E0
+    - gMovieSubTextUs_0886A91E
+    - gMovieSubTextUs_0886A960
+    - gMovieSubTextUs_0886A978
+    - gMovieSubTextUs_0886A988
+    - gMovieSubTextUs_0886A9BA
+    - gMovieSubTextUs_0886A9E8
+    - gMovieSubTextUs_0886AA00
+    - gMovieSubTextUs_0886AA42
+    - gMovieSubTextUs_0886AA76
+    - gMovieSubTextUs_0886AA88
+    - gMovieSubTextUs_0886AAC0
+    - gMovieSubTextUs_0886AAF2
+    - gMovieSubTextUs_0886AB0E
+    - gMovieSubTextUs_0886AB16
+    - gMovieSubTextUs_0886AB3A
+  jp:
+  - name: movie_subtitles_1.inc
+    format: jp
+    start: 0x0885DFA8
+    end: 0x0885E008
+    entries:
+    - gMovieSubTextJp_0885DFA8
+    - gMovieSubTextJp_0885DFC4
+    - gMovieSubTextJp_0885DFE4
+  - name: movie_subtitles_2.inc
+    format: jp
+    start: 0x0885E018
+    end: 0x0885E01C
+    entries:
+    - gMovieSubTextJp_0885E018
+  - name: movie_subtitles_3.inc
+    format: jp
+    start: 0x0885E0EC
+    end: 0x0885E1D8
+    entries:
+    - gMovieSubTextJp_0885E0EC
+    - gMovieSubTextJp_0885E100
+    - gMovieSubTextJp_0885E108
+    - gMovieSubTextJp_0885E124
+    - gMovieSubTextJp_0885E144
+    - gMovieSubTextJp_0885E15C
+    - gMovieSubTextJp_0885E16C
+    - gMovieSubTextJp_0885E190
+    - gMovieSubTextJp_0885E1AC
+    - gMovieSubTextJp_0885E1B4
+    - gMovieSubTextJp_0885E1C0
+    - gMovieSubTextJp_0885E1CC
+  - name: movie_subtitles_4.inc
+    format: jp
+    start: 0x0885E258
+    end: 0x0885E2F8
+    entries:
+    - gMovieSubTextJp_0885E258
+    - gMovieSubTextJp_0885E268
+    - gMovieSubTextJp_0885E278
+    - gMovieSubTextJp_0885E29C
+    - gMovieSubTextJp_0885E2AC
+    - gMovieSubTextJp_0885E2C0
+    - gMovieSubTextJp_0885E2CC
+    - gMovieSubTextJp_0885E2DC
+  eu:
+  - name: movie_subtitles_1.inc
+    format: eu
+    start: 0x0883DE0C
+    end: 0x0883E040
+    entries:
+    - gMovieSubTextEu_0883DE0C
+    - gMovieSubTextEu_0883DE2B
+    - gMovieSubTextEu_0883DE4B
+    - gMovieSubTextEu_0883DE67
+    - gMovieSubTextEu_0883DE6E
+    - gMovieSubTextEu_0883DE7E
+    - gMovieSubTextEu_0883DE86
+    - gMovieSubTextEu_0883DE93
+    - gMovieSubTextEu_0883DEA5
+    - gMovieSubTextEu_0883DEBF
+    - gMovieSubTextEu_0883DEDA
+    - gMovieSubTextEu_0883DEF2
+    - gMovieSubTextEu_0883DF12
+    - gMovieSubTextEu_0883DF31
+    - gMovieSubTextEu_0883DF52
+    - gMovieSubTextEu_0883DF5E
+    - gMovieSubTextEu_0883DF66
+    - gMovieSubTextEu_0883DF7F
+    - gMovieSubTextEu_0883DF96
+    - gMovieSubTextEu_0883DFA2
+    - gMovieSubTextEu_0883DFC3
+    - gMovieSubTextEu_0883DFDD
+    - gMovieSubTextEu_0883DFE6
+    - gMovieSubTextEu_0883E002
+    - gMovieSubTextEu_0883E01B
+    - gMovieSubTextEu_0883E029
+    - gMovieSubTextEu_0883E02D
+  - name: movie_subtitles_2.inc
+    format: eu
+    start: 0x0883E1F0
+    end: 0x0883E454
+    entries:
+    - gMovieSubTextEu_0883E1F0
+    - gMovieSubTextEu_0883E205
+    - gMovieSubTextEu_0883E21B
+    - gMovieSubTextEu_0883E23A
+    - gMovieSubTextEu_0883E255
+    - gMovieSubTextEu_0883E25D
+    - gMovieSubTextEu_0883E26C
+    - gMovieSubTextEu_0883E275
+    - gMovieSubTextEu_0883E287
+    - gMovieSubTextEu_0883E297
+    - gMovieSubTextEu_0883E2B4
+    - gMovieSubTextEu_0883E2CC
+    - gMovieSubTextEu_0883E2EB
+    - gMovieSubTextEu_0883E303
+    - gMovieSubTextEu_0883E311
+    - gMovieSubTextEu_0883E32B
+    - gMovieSubTextEu_0883E340
+    - gMovieSubTextEu_0883E354
+    - gMovieSubTextEu_0883E36D
+    - gMovieSubTextEu_0883E385
+    - gMovieSubTextEu_0883E392
+    - gMovieSubTextEu_0883E3A9
+    - gMovieSubTextEu_0883E3B5
+    - gMovieSubTextEu_0883E3CF
+    - gMovieSubTextEu_0883E3E4
+    - gMovieSubTextEu_0883E3FE
+    - gMovieSubTextEu_0883E409
+    - gMovieSubTextEu_0883E41F
+    - gMovieSubTextEu_0883E434
+    - gMovieSubTextEu_0883E439
+  - name: movie_subtitles_3.inc
+    format: eu
+    start: 0x0883E634
+    end: 0x0883E8D4
+    entries:
+    - gMovieSubTextEu_0883E634
+    - gMovieSubTextEu_0883E649
+    - gMovieSubTextEu_0883E65B
+    - gMovieSubTextEu_0883E676
+    - gMovieSubTextEu_0883E69A
+    - gMovieSubTextEu_0883E6A1
+    - gMovieSubTextEu_0883E6B5
+    - gMovieSubTextEu_0883E6BD
+    - gMovieSubTextEu_0883E6CA
+    - gMovieSubTextEu_0883E6E5
+    - gMovieSubTextEu_0883E70B
+    - gMovieSubTextEu_0883E729
+    - gMovieSubTextEu_0883E746
+    - gMovieSubTextEu_0883E767
+    - gMovieSubTextEu_0883E784
+    - gMovieSubTextEu_0883E7A5
+    - gMovieSubTextEu_0883E7C0
+    - gMovieSubTextEu_0883E7CA
+    - gMovieSubTextEu_0883E7EA
+    - gMovieSubTextEu_0883E802
+    - gMovieSubTextEu_0883E815
+    - gMovieSubTextEu_0883E832
+    - gMovieSubTextEu_0883E852
+    - gMovieSubTextEu_0883E85E
+    - gMovieSubTextEu_0883E877
+    - gMovieSubTextEu_0883E891
+    - gMovieSubTextEu_0883E8AC
+    - gMovieSubTextEu_0883E8B2
+    - gMovieSubTextEu_0883E8C1
+  - name: movie_subtitles_4.inc
+    format: eu
+    start: 0x0883EAA4
+    end: 0x0883ECE8
+    entries:
+    - gMovieSubTextEu_0883EAA4
+    - gMovieSubTextEu_0883EAC1
+    - gMovieSubTextEu_0883EAD7
+    - gMovieSubTextEu_0883EAF2
+    - gMovieSubTextEu_0883EB0A
+    - gMovieSubTextEu_0883EB11
+    - gMovieSubTextEu_0883EB27
+    - gMovieSubTextEu_0883EB2F
+    - gMovieSubTextEu_0883EB42
+    - gMovieSubTextEu_0883EB56
+    - gMovieSubTextEu_0883EB6B
+    - gMovieSubTextEu_0883EB85
+    - gMovieSubTextEu_0883EBA2
+    - gMovieSubTextEu_0883EBBC
+    - gMovieSubTextEu_0883EBDA
+    - gMovieSubTextEu_0883EBF0
+    - gMovieSubTextEu_0883EC05
+    - gMovieSubTextEu_0883EC0C
+    - gMovieSubTextEu_0883EC29
+    - gMovieSubTextEu_0883EC36
+    - gMovieSubTextEu_0883EC48
+    - gMovieSubTextEu_0883EC67
+    - gMovieSubTextEu_0883EC7F
+    - gMovieSubTextEu_0883EC92
+    - gMovieSubTextEu_0883ECAC
+    - gMovieSubTextEu_0883ECBD
+    - gMovieSubTextEu_0883ECCD
+    - gMovieSubTextEu_0883ECD3
+  - name: movie_subtitles_5.inc
+    format: eu
+    start: 0x0883EEA8
+    end: 0x0883F0F8
+    entries:
+    - gMovieSubTextEu_0883EEA8
+    - gMovieSubTextEu_0883EEC1
+    - gMovieSubTextEu_0883EECC
+    - gMovieSubTextEu_0883EEE6
+    - gMovieSubTextEu_0883EEFF
+    - gMovieSubTextEu_0883EF07
+    - gMovieSubTextEu_0883EF19
+    - gMovieSubTextEu_0883EF22
+    - gMovieSubTextEu_0883EF33
+    - gMovieSubTextEu_0883EF43
+    - gMovieSubTextEu_0883EF5D
+    - gMovieSubTextEu_0883EF7A
+    - gMovieSubTextEu_0883EF96
+    - gMovieSubTextEu_0883EFB2
+    - gMovieSubTextEu_0883EFC8
+    - gMovieSubTextEu_0883EFE6
+    - gMovieSubTextEu_0883EFFC
+    - gMovieSubTextEu_0883F003
+    - gMovieSubTextEu_0883F01E
+    - gMovieSubTextEu_0883F029
+    - gMovieSubTextEu_0883F039
+    - gMovieSubTextEu_0883F05B
+    - gMovieSubTextEu_0883F075
+    - gMovieSubTextEu_0883F07E
+    - gMovieSubTextEu_0883F09C
+    - gMovieSubTextEu_0883F0AC
+    - gMovieSubTextEu_0883F0C6
+    - gMovieSubTextEu_0883F0DA
+    - gMovieSubTextEu_0883F0DE

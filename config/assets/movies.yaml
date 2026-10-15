@@ -1,0 +1,71 @@
+group: movies
+types: {}
+objects:
+  us:
+  - name: movies.s
+    start: 0x0815C3EC
+    end: 0x0886A6D4
+  jp:
+  - name: movies.s
+    start: 0x0814FC78
+    end: 0x0885DF78
+  eu:
+  - name: movies.s
+    start: 0x0812FB24
+    end: 0x0883DE0C
+entries:
+- name: gMovieOpening
+  format: raw
+  us:
+    address: 0x0815C3EC
+    size: 3689288
+  jp:
+    address: 0x0814FC78
+    size: 3689312
+  eu:
+    address: 0x0812FB24
+    size: 3689288
+- name: gMovieEvent026
+  format: raw
+  us:
+    address: 0x084E0F34
+    size: 79660
+  jp:
+    address: 0x084D47D8
+    size: 79660
+  eu:
+    address: 0x084B466C
+    size: 79660
+- name: gMovieEvent057
+  format: raw
+  us:
+    address: 0x084F4660
+    size: 427604
+  jp:
+    address: 0x084E7F04
+    size: 427604
+  eu:
+    address: 0x084C7D98
+    size: 427604
+- name: gMovieEnding
+  format: raw
+  us:
+    address: 0x0855CCB4
+    size: 1699168
+  jp:
+    address: 0x08550558
+    size: 1699168
+  eu:
+    address: 0x085303EC
+    size: 1699168
+- name: gMovieRikuEnding
+  format: raw
+  us:
+    address: 0x086FBA14
+    size: 1502400
+  jp:
+    address: 0x086EF2B8
+    size: 1502400
+  eu:
+    address: 0x086CF14C
+    size: 1502400

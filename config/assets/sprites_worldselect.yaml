@@ -1,0 +1,1262 @@
+group: sprites_worldselect
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_worldselect_frames.s
+    start: 0x093F2020
+    end: 0x093F3E3C
+    data_start: 0x09EF1060
+    data_end: 0x09EF1138
+  - name: sprites_worldselect_tiles.s
+    start: 0x09507F38
+    end: 0x0950E2F8
+  - name: sprites_worldselect_maps.s
+    start: 0x096102B8
+    end: 0x096112B8
+  jp:
+  - name: sprites_worldselect_frames.s
+    start: 0x093AD548
+    end: 0x093AF364
+    data_start: 0x09EC844C
+    data_end: 0x09EC8524
+  - name: sprites_worldselect_tiles.s
+    start: 0x094C0214
+    end: 0x094C65D4
+  - name: sprites_worldselect_maps.s
+    start: 0x095C8D94
+    end: 0x095C9D94
+  eu:
+  - name: sprites_worldselect_frames.s
+    start: 0x094C16A8
+    end: 0x094C34C4
+    data_start: 0x09F7C244
+    data_end: 0x09F7C31C
+  - name: sprites_worldselect_tiles.s
+    start: 0x095298A4
+    end: 0x09530064
+  - name: sprites_worldselect_maps.s
+    start: 0x09543324
+    end: 0x09544324
+entries:
+- name: gTeemingDarknessSmallCardFrames
+  record: SpriteTable
+  items: [gTeemingDarknessSmallCardFrame0]
+  us:
+    address: 0x09EF1060
+  jp:
+    address: 0x09EC844C
+  eu:
+    address: 0x09F7C244
+- name: gTeemingDarknessSmallCardAnims
+  record: AnimTable
+  items: [gTeemingDarknessSmallCardAnim0]
+  us:
+    address: 0x09EF1064
+  jp:
+    address: 0x09EC8450
+  eu:
+    address: 0x09F7C248
+- name: gTranquilDarknessSmallCardFrames
+  record: SpriteTable
+  items: [gTranquilDarknessSmallCardFrame0]
+  us:
+    address: 0x09EF1068
+  jp:
+    address: 0x09EC8454
+  eu:
+    address: 0x09F7C24C
+- name: gTranquilDarknessSmallCardAnims
+  record: AnimTable
+  items: [gTranquilDarknessSmallCardAnim0]
+  us:
+    address: 0x09EF106C
+  jp:
+    address: 0x09EC8458
+  eu:
+    address: 0x09F7C250
+- name: gGuardedTroveSmallCardFrames
+  record: SpriteTable
+  items: [gGuardedTroveSmallCardFrame0]
+  us:
+    address: 0x09EF1070
+  jp:
+    address: 0x09EC845C
+  eu:
+    address: 0x09F7C254
+- name: gGuardedTroveSmallCardAnims
+  record: AnimTable
+  items: [gGuardedTroveSmallCardAnim0]
+  us:
+    address: 0x09EF1074
+  jp:
+    address: 0x09EC8460
+  eu:
+    address: 0x09F7C258
+- name: gLoomingDarknessSmallCardFrames
+  record: SpriteTable
+  items: [gLoomingDarknessSmallCardFrame0]
+  us:
+    address: 0x09EF1078
+  jp:
+    address: 0x09EC8464
+  eu:
+    address: 0x09F7C25C
+- name: gLoomingDarknessSmallCardAnims
+  record: AnimTable
+  items: [gLoomingDarknessSmallCardAnim0]
+  us:
+    address: 0x09EF107C
+  jp:
+    address: 0x09EC8468
+  eu:
+    address: 0x09F7C260
+- name: gSleepingDarknessSmallCardFrames
+  record: SpriteTable
+  items: [gSleepingDarknessSmallCardFrame0]
+  us:
+    address: 0x09EF1080
+  jp:
+    address: 0x09EC846C
+  eu:
+    address: 0x09F7C264
+- name: gSleepingDarknessSmallCardAnims
+  record: AnimTable
+  items: [gSleepingDarknessSmallCardAnim0]
+  us:
+    address: 0x09EF1084
+  jp:
+    address: 0x09EC8470
+  eu:
+    address: 0x09F7C268
+- name: gMomentsReprieveSmallCardFrames
+  record: SpriteTable
+  items: [gMomentsReprieveSmallCardFrame0]
+  us:
+    address: 0x09EF1088
+  jp:
+    address: 0x09EC8474
+  eu:
+    address: 0x09F7C26C
+- name: gMomentsReprieveSmallCardAnims
+  record: AnimTable
+  items: [gMomentsReprieveSmallCardAnim0]
+  us:
+    address: 0x09EF108C
+  jp:
+    address: 0x09EC8478
+  eu:
+    address: 0x09F7C270
+- name: gFeebleDarknessSmallCardFrames
+  record: SpriteTable
+  items: [gFeebleDarknessSmallCardFrame0]
+  us:
+    address: 0x09EF1090
+  jp:
+    address: 0x09EC847C
+  eu:
+    address: 0x09F7C274
+- name: gFeebleDarknessSmallCardAnims
+  record: AnimTable
+  items: [gFeebleDarknessSmallCardAnim0]
+  us:
+    address: 0x09EF1094
+  jp:
+    address: 0x09EC8480
+  eu:
+    address: 0x09F7C278
+- name: gAlmightyDarknessSmallCardFrames
+  record: SpriteTable
+  items: [gAlmightyDarknessSmallCardFrame0]
+  us:
+    address: 0x09EF1098
+  jp:
+    address: 0x09EC8484
+  eu:
+    address: 0x09F7C27C
+- name: gAlmightyDarknessSmallCardAnims
+  record: AnimTable
+  items: [gAlmightyDarknessSmallCardAnim0]
+  us:
+    address: 0x09EF109C
+  jp:
+    address: 0x09EC8488
+  eu:
+    address: 0x09F7C280
+- name: gCalmBountySmallCardFrames
+  record: SpriteTable
+  items: [gCalmBountySmallCardFrame0]
+  us:
+    address: 0x09EF10A0
+  jp:
+    address: 0x09EC848C
+  eu:
+    address: 0x09F7C284
+- name: gCalmBountySmallCardAnims
+  record: AnimTable
+  items: [gCalmBountySmallCardAnim0]
+  us:
+    address: 0x09EF10A4
+  jp:
+    address: 0x09EC8490
+  eu:
+    address: 0x09F7C288
+- name: gFalseBountySmallCardFrames
+  record: SpriteTable
+  items: [gFalseBountySmallCardFrame0]
+  us:
+    address: 0x09EF10A8
+  jp:
+    address: 0x09EC8494
+  eu:
+    address: 0x09F7C28C
+- name: gFalseBountySmallCardAnims
+  record: AnimTable
+  items: [gFalseBountySmallCardAnim0]
+  us:
+    address: 0x09EF10AC
+  jp:
+    address: 0x09EC8498
+  eu:
+    address: 0x09F7C290
+- name: gMoogleRoomSmallCardFrames
+  record: SpriteTable
+  items: [gMoogleRoomSmallCardFrame0]
+  us:
+    address: 0x09EF10B0
+  jp:
+    address: 0x09EC849C
+  eu:
+    address: 0x09F7C294
+- name: gMoogleRoomSmallCardAnims
+  record: AnimTable
+  items: [gMoogleRoomSmallCardAnim0]
+  us:
+    address: 0x09EF10B4
+  jp:
+    address: 0x09EC84A0
+  eu:
+    address: 0x09F7C298
+- name: gSorcerousWakingSmallCardFrames
+  record: SpriteTable
+  items: [gSorcerousWakingSmallCardFrame0]
+  us:
+    address: 0x09EF10B8
+  jp:
+    address: 0x09EC84A4
+  eu:
+    address: 0x09F7C29C
+- name: gSorcerousWakingSmallCardAnims
+  record: AnimTable
+  items: [gSorcerousWakingSmallCardAnim0]
+  us:
+    address: 0x09EF10BC
+  jp:
+    address: 0x09EC84A8
+  eu:
+    address: 0x09F7C2A0
+- name: gMartialWakingSmallCardFrames
+  record: SpriteTable
+  items: [gMartialWakingSmallCardFrame0]
+  us:
+    address: 0x09EF10C0
+  jp:
+    address: 0x09EC84AC
+  eu:
+    address: 0x09F7C2A4
+- name: gMartialWakingSmallCardAnims
+  record: AnimTable
+  items: [gMartialWakingSmallCardAnim0]
+  us:
+    address: 0x09EF10C4
+  jp:
+    address: 0x09EC84B0
+  eu:
+    address: 0x09F7C2A8
+- name: gAlchemicWakingSmallCardFrames
+  record: SpriteTable
+  items: [gAlchemicWakingSmallCardFrame0]
+  us:
+    address: 0x09EF10C8
+  jp:
+    address: 0x09EC84B4
+  eu:
+    address: 0x09F7C2AC
+- name: gAlchemicWakingSmallCardAnims
+  record: AnimTable
+  items: [gAlchemicWakingSmallCardAnim0]
+  us:
+    address: 0x09EF10CC
+  jp:
+    address: 0x09EC84B8
+  eu:
+    address: 0x09F7C2B0
+- name: gMeetingGroundSmallCardFrames
+  record: SpriteTable
+  items: [gMeetingGroundSmallCardFrame0]
+  us:
+    address: 0x09EF10D0
+  jp:
+    address: 0x09EC84BC
+  eu:
+    address: 0x09F7C2B4
+- name: gMeetingGroundSmallCardAnims
+  record: AnimTable
+  items: [gMeetingGroundSmallCardAnim0]
+  us:
+    address: 0x09EF10D4
+  jp:
+    address: 0x09EC84C0
+  eu:
+    address: 0x09F7C2B8
+- name: gMinglingWorldsSmallCardFrames
+  record: SpriteTable
+  items: [gMinglingWorldsSmallCardFrame0]
+  us:
+    address: 0x09EF10D8
+  jp:
+    address: 0x09EC84C4
+  eu:
+    address: 0x09F7C2BC
+- name: gMinglingWorldsSmallCardAnims
+  record: AnimTable
+  items: [gMinglingWorldsSmallCardAnim0]
+  us:
+    address: 0x09EF10DC
+  jp:
+    address: 0x09EC84C8
+  eu:
+    address: 0x09F7C2C0
+- name: gStrongInitiativeSmallCardFrames
+  record: SpriteTable
+  items: [gStrongInitiativeSmallCardFrame0]
+  us:
+    address: 0x09EF10E0
+  jp:
+    address: 0x09EC84CC
+  eu:
+    address: 0x09F7C2C4
+- name: gStrongInitiativeSmallCardAnims
+  record: AnimTable
+  items: [gStrongInitiativeSmallCardAnim0]
+  us:
+    address: 0x09EF10E4
+  jp:
+    address: 0x09EC84D0
+  eu:
+    address: 0x09F7C2C8
+- name: gLastingDazeSmallCardFrames
+  record: SpriteTable
+  items: [gLastingDazeSmallCardFrame0]
+  us:
+    address: 0x09EF10E8
+  jp:
+    address: 0x09EC84D4
+  eu:
+    address: 0x09F7C2CC
+- name: gLastingDazeSmallCardAnims
+  record: AnimTable
+  items: [gLastingDazeSmallCardAnim0]
+  us:
+    address: 0x09EF10EC
+  jp:
+    address: 0x09EC84D8
+  eu:
+    address: 0x09F7C2D0
+- name: gStagnantSpaceSmallCardFrames
+  record: SpriteTable
+  items: [gStagnantSpaceSmallCardFrame0]
+  us:
+    address: 0x09EF10F0
+  jp:
+    address: 0x09EC84DC
+  eu:
+    address: 0x09F7C2D4
+- name: gStagnantSpaceSmallCardAnims
+  record: AnimTable
+  items: [gStagnantSpaceSmallCardAnim0]
+  us:
+    address: 0x09EF10F4
+  jp:
+    address: 0x09EC84E0
+  eu:
+    address: 0x09F7C2D8
+- name: gPremiumRoomSmallCardFrames
+  record: SpriteTable
+  items: [gPremiumRoomSmallCardFrame0]
+  us:
+    address: 0x09EF10F8
+  jp:
+    address: 0x09EC84E4
+  eu:
+    address: 0x09F7C2DC
+- name: gPremiumRoomSmallCardAnims
+  record: AnimTable
+  items: [gPremiumRoomSmallCardAnim0]
+  us:
+    address: 0x09EF10FC
+  jp:
+    address: 0x09EC84E8
+  eu:
+    address: 0x09F7C2E0
+- name: gWhiteRoomSmallCardFrames
+  record: SpriteTable
+  items: [gWhiteRoomSmallCardFrame0]
+  us:
+    address: 0x09EF1100
+  jp:
+    address: 0x09EC84EC
+  eu:
+    address: 0x09F7C2E4
+- name: gWhiteRoomSmallCardAnims
+  record: AnimTable
+  items: [gWhiteRoomSmallCardAnim0]
+  us:
+    address: 0x09EF1104
+  jp:
+    address: 0x09EC84F0
+  eu:
+    address: 0x09F7C2E8
+- name: gBlackRoomSmallCardFrames
+  record: SpriteTable
+  items: [gBlackRoomSmallCardFrame0]
+  us:
+    address: 0x09EF1108
+  jp:
+    address: 0x09EC84F4
+  eu:
+    address: 0x09F7C2EC
+- name: gBlackRoomSmallCardAnims
+  record: AnimTable
+  items: [gBlackRoomSmallCardAnim0]
+  us:
+    address: 0x09EF110C
+  jp:
+    address: 0x09EC84F8
+  eu:
+    address: 0x09F7C2F0
+- name: gKeyToRewardsSmallCardFrames
+  record: SpriteTable
+  items: [gKeyToRewardsSmallCardFrame0]
+  us:
+    address: 0x09EF1110
+  jp:
+    address: 0x09EC84FC
+  eu:
+    address: 0x09F7C2F4
+- name: gKeyToRewardsSmallCardAnims
+  record: AnimTable
+  items: [gKeyToRewardsSmallCardAnim0]
+  us:
+    address: 0x09EF1114
+  jp:
+    address: 0x09EC8500
+  eu:
+    address: 0x09F7C2F8
+- name: gKeyOfBeginningsSmallCardFrames
+  record: SpriteTable
+  items: [gKeyOfBeginningsSmallCardFrame0]
+  us:
+    address: 0x09EF1118
+  jp:
+    address: 0x09EC8504
+  eu:
+    address: 0x09F7C2FC
+- name: gKeyOfBeginningsSmallCardAnims
+  record: AnimTable
+  items: [gKeyOfBeginningsSmallCardAnim0]
+  us:
+    address: 0x09EF111C
+  jp:
+    address: 0x09EC8508
+  eu:
+    address: 0x09F7C300
+- name: gKeyOfGuidanceSmallCardFrames
+  record: SpriteTable
+  items: [gKeyOfGuidanceSmallCardFrame0]
+  us:
+    address: 0x09EF1120
+  jp:
+    address: 0x09EC850C
+  eu:
+    address: 0x09F7C304
+- name: gKeyOfGuidanceSmallCardAnims
+  record: AnimTable
+  items: [gKeyOfGuidanceSmallCardAnim0]
+  us:
+    address: 0x09EF1124
+  jp:
+    address: 0x09EC8510
+  eu:
+    address: 0x09F7C308
+- name: gKeyToTruthSmallCardFrames
+  record: SpriteTable
+  items: [gKeyToTruthSmallCardFrame0]
+  us:
+    address: 0x09EF1128
+  jp:
+    address: 0x09EC8514
+  eu:
+    address: 0x09F7C30C
+- name: gKeyToTruthSmallCardAnims
+  record: AnimTable
+  items: [gKeyToTruthSmallCardAnim0]
+  us:
+    address: 0x09EF112C
+  jp:
+    address: 0x09EC8518
+  eu:
+    address: 0x09F7C310
+- name: gUnk_09EF1130
+  record: SpriteTable
+  items: [gUnk_093F3C28]
+  us:
+    address: 0x09EF1130
+  jp:
+    address: 0x09EC851C
+  eu:
+    address: 0x09F7C314
+- name: gUnk_09EF1134
+  record: AnimTable
+  items: [gUnk_093F3C32]
+  us:
+    address: 0x09EF1134
+  jp:
+    address: 0x09EC8520
+  eu:
+    address: 0x09F7C318
+- name: gTeemingDarknessSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gTeemingDarknessSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gTeemingDarknessSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2020
+    size: 276
+  jp:
+    address: 0x093AD548
+    size: 276
+  eu:
+    address: 0x094C16A8
+    size: 276
+- name: gTranquilDarknessSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gTranquilDarknessSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gTranquilDarknessSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2134
+    size: 276
+  jp:
+    address: 0x093AD65C
+    size: 276
+  eu:
+    address: 0x094C17BC
+    size: 276
+- name: gGuardedTroveSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gGuardedTroveSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gGuardedTroveSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2248
+    size: 276
+  jp:
+    address: 0x093AD770
+    size: 276
+  eu:
+    address: 0x094C18D0
+    size: 276
+- name: gLoomingDarknessSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gLoomingDarknessSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gLoomingDarknessSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F235C
+    size: 276
+  jp:
+    address: 0x093AD884
+    size: 276
+  eu:
+    address: 0x094C19E4
+    size: 276
+- name: gSleepingDarknessSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gSleepingDarknessSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gSleepingDarknessSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2470
+    size: 276
+  jp:
+    address: 0x093AD998
+    size: 276
+  eu:
+    address: 0x094C1AF8
+    size: 276
+- name: gMomentsReprieveSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gMomentsReprieveSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gMomentsReprieveSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2584
+    size: 276
+  jp:
+    address: 0x093ADAAC
+    size: 276
+  eu:
+    address: 0x094C1C0C
+    size: 276
+- name: gFeebleDarknessSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gFeebleDarknessSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gFeebleDarknessSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2698
+    size: 276
+  jp:
+    address: 0x093ADBC0
+    size: 276
+  eu:
+    address: 0x094C1D20
+    size: 276
+- name: gAlmightyDarknessSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gAlmightyDarknessSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gAlmightyDarknessSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F27AC
+    size: 276
+  jp:
+    address: 0x093ADCD4
+    size: 276
+  eu:
+    address: 0x094C1E34
+    size: 276
+- name: gCalmBountySmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gCalmBountySmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gCalmBountySmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F28C0
+    size: 276
+  jp:
+    address: 0x093ADDE8
+    size: 276
+  eu:
+    address: 0x094C1F48
+    size: 276
+- name: gFalseBountySmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gFalseBountySmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gFalseBountySmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F29D4
+    size: 276
+  jp:
+    address: 0x093ADEFC
+    size: 276
+  eu:
+    address: 0x094C205C
+    size: 276
+- name: gMoogleRoomSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gMoogleRoomSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gMoogleRoomSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2AE8
+    size: 276
+  jp:
+    address: 0x093AE010
+    size: 276
+  eu:
+    address: 0x094C2170
+    size: 276
+- name: gSorcerousWakingSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gSorcerousWakingSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gSorcerousWakingSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2BFC
+    size: 276
+  jp:
+    address: 0x093AE124
+    size: 276
+  eu:
+    address: 0x094C2284
+    size: 276
+- name: gMartialWakingSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gMartialWakingSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gMartialWakingSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2D10
+    size: 276
+  jp:
+    address: 0x093AE238
+    size: 276
+  eu:
+    address: 0x094C2398
+    size: 276
+- name: gAlchemicWakingSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gAlchemicWakingSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gAlchemicWakingSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2E24
+    size: 276
+  jp:
+    address: 0x093AE34C
+    size: 276
+  eu:
+    address: 0x094C24AC
+    size: 276
+- name: gMeetingGroundSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gMeetingGroundSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gMeetingGroundSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F2F38
+    size: 276
+  jp:
+    address: 0x093AE460
+    size: 276
+  eu:
+    address: 0x094C25C0
+    size: 276
+- name: gMinglingWorldsSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gMinglingWorldsSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gMinglingWorldsSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F304C
+    size: 276
+  jp:
+    address: 0x093AE574
+    size: 276
+  eu:
+    address: 0x094C26D4
+    size: 276
+- name: gStrongInitiativeSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gStrongInitiativeSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gStrongInitiativeSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F3160
+    size: 276
+  jp:
+    address: 0x093AE688
+    size: 276
+  eu:
+    address: 0x094C27E8
+    size: 276
+- name: gLastingDazeSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gLastingDazeSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gLastingDazeSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F3274
+    size: 276
+  jp:
+    address: 0x093AE79C
+    size: 276
+  eu:
+    address: 0x094C28FC
+    size: 276
+- name: gStagnantSpaceSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gStagnantSpaceSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gStagnantSpaceSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F3388
+    size: 276
+  jp:
+    address: 0x093AE8B0
+    size: 276
+  eu:
+    address: 0x094C2A10
+    size: 276
+- name: gPremiumRoomSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gPremiumRoomSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gPremiumRoomSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F349C
+    size: 276
+  jp:
+    address: 0x093AE9C4
+    size: 276
+  eu:
+    address: 0x094C2B24
+    size: 276
+- name: gWhiteRoomSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gWhiteRoomSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gWhiteRoomSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F35B0
+    size: 276
+  jp:
+    address: 0x093AEAD8
+    size: 276
+  eu:
+    address: 0x094C2C38
+    size: 276
+- name: gBlackRoomSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gBlackRoomSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gBlackRoomSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F36C4
+    size: 276
+  jp:
+    address: 0x093AEBEC
+    size: 276
+  eu:
+    address: 0x094C2D4C
+    size: 276
+- name: gKeyToRewardsSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gKeyToRewardsSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gKeyToRewardsSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F37D8
+    size: 276
+  jp:
+    address: 0x093AED00
+    size: 276
+  eu:
+    address: 0x094C2E60
+    size: 276
+- name: gKeyOfBeginningsSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gKeyOfBeginningsSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gKeyOfBeginningsSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F38EC
+    size: 276
+  jp:
+    address: 0x093AEE14
+    size: 276
+  eu:
+    address: 0x094C2F74
+    size: 276
+- name: gKeyOfGuidanceSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gKeyOfGuidanceSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gKeyOfGuidanceSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F3A00
+    size: 276
+  jp:
+    address: 0x093AEF28
+    size: 276
+  eu:
+    address: 0x094C3088
+    size: 276
+- name: gKeyToTruthSmallCardTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 1
+  frames:
+  - symbol: gKeyToTruthSmallCardFrame0
+    pieces:
+    - [16x32, -8, -20]
+  animations:
+  - symbol: gKeyToTruthSmallCardAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F3B14
+    size: 276
+  jp:
+    address: 0x093AF03C
+    size: 276
+  eu:
+    address: 0x094C319C
+    size: 276
+- name: gUnk_093F3C3C
+  format: sprite_sheet
+  align: 4
+  cell: [32, 32]
+  anchor: [16, 12]
+  columns: 1
+  frames:
+  - symbol: gUnk_093F3C28
+    pieces:
+    - [32x32, -16, -12]
+  animations:
+  - symbol: gUnk_093F3C32
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F3C28
+    size: 532
+  jp:
+    address: 0x093AF150
+    size: 532
+  eu:
+    address: 0x094C32B0
+    size: 532
+- name: gMapSelectCountBlankTiles
+  format: tiles4
+  us:
+    address: 0x09507F38
+    size: 32
+  jp:
+    address: 0x094C0214
+    size: 32
+  eu:
+    address: 0x095298A4
+    size: 32
+- name: gMapSelectCountDigitTiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09507F58
+    size: 320
+  jp:
+    address: 0x094C0234
+    size: 320
+  eu:
+    address: 0x095298C4
+    size: 320
+- name: gMapSelectTiles
+  format: tiles4
+  us:
+    address: 0x09508098
+    size: 8224
+  jp:
+    address: 0x094C0374
+    size: 8224
+  eu:
+    address: 0x09529A04
+    size: 8224
+- name: gMapSelectValuesTiles
+  format: tiles4
+  us:
+    address: 0x0950A0B8
+    size: 9152
+  jp:
+    address: 0x094C2394
+    size: 9152
+  eu:
+    address: 0x0952BA24
+    size: 9152
+- name: gMapSelectRequirementTiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x0950C478
+    size: 7808
+  jp:
+    address: 0x094C4754
+    size: 7808
+  eu:
+    address: 0x0952E1E4
+    size: 7808
+- name: gMapSelectCardInfoFrenchTiles
+  format: tiles4
+  width: 8
+  eu:
+    address: 0x0952DDE4
+    size: 256
+- name: gMapSelectCardInfoSpanishTiles
+  format: tiles4
+  width: 8
+  eu:
+    address: 0x0952DEE4
+    size: 256
+- name: gMapSelectCardInfoItalianTiles
+  format: tiles4
+  width: 8
+  eu:
+    address: 0x0952DFE4
+    size: 256
+- name: gMapSelectCardInfoGermanTiles
+  format: tiles4
+  width: 8
+  eu:
+    address: 0x0952E0E4
+    size: 256
+- name: gMapSelectMap
+  format: tilemap
+  us:
+    address: 0x096102B8
+    size: 2048
+  jp:
+    address: 0x095C8D94
+    size: 2048
+  eu:
+    address: 0x09543324
+    size: 2048
+- name: gMapSelectValuesMap
+  format: tilemap
+  us:
+    address: 0x09610AB8
+    size: 2048
+  jp:
+    address: 0x095C9594
+    size: 2048
+  eu:
+    address: 0x09543B24
+    size: 2048

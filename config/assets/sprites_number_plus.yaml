@@ -1,0 +1,75 @@
+group: sprites_number_plus
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_number_plus_frames.s
+    start: 0x090451AC
+    end: 0x09045240
+    data_start: 0x09EE91A8
+    data_end: 0x09EE91B0
+  jp:
+  - name: sprites_number_plus_frames.s
+    start: 0x09012054
+    end: 0x090120E8
+    data_start: 0x09EC07EC
+    data_end: 0x09EC07F4
+  eu:
+  - name: sprites_number_plus_frames.s
+    start: 0x090D1FCC
+    end: 0x090D2060
+    data_start: 0x09F74628
+    data_end: 0x09F74630
+entries:
+- name: gNumberPlusFrames
+  record: SpriteTable
+  items: [gNumberPlusFrame0]
+  us:
+    address: 0x09EE91A8
+  jp:
+    address: 0x09EC07EC
+  eu:
+    address: 0x09F74628
+- name: gNumberPlusAnims
+  record: AnimTable
+  items: [gNumberPlusAnim0]
+  us:
+    address: 0x09EE91AC
+  jp:
+    address: 0x09EC07F0
+  eu:
+    address: 0x09F7462C
+- name: gNumberPlusTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gNumberPlusFrame0
+    pieces:
+    - [16x16, 0, 0]
+  animations:
+  - symbol: gNumberPlusAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x090451AC
+    size: 148
+  jp:
+    address: 0x09012054
+    size: 148
+  eu:
+    address: 0x090D1FCC
+    size: 148

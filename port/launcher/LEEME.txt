@@ -1,0 +1,78 @@
+REINO DE CORAZONES
+Port nativo para PC de Kingdom Hearts: Chain of Memories
+Versión 1.1.2 — Windows 10 y Windows 11
+==========================================================
+
+QUÉ ES
+Es el juego de Game Boy Advance convertido en un programa nativo de Windows a
+partir de su descompilación (el código del juego traducido a C). No es un
+emulador: el juego corre directamente en tu procesador.
+
+Este programa NO incluye nada del juego (ni gráficos, ni música, ni textos).
+Para jugar necesitas tu propia copia legítima, el archivo .gba.
+
+CÓMO EMPEZAR
+1. Descomprime la carpeta ReinoDeCorazones donde quieras.
+2. Abre ReinoDeCorazones.exe.
+3. La primera vez te pedirá tu juego: pulsa «Buscar mi juego» y elige tu
+   archivo .gba, o arrástralo a la ventana.
+4. El menú comprueba tu copia por su huella SHA-1 y la guarda en la carpeta
+   «rom». Después pulsa «Jugar».
+
+VERSIONES COMPATIBLES
+- Europa (B8CP): español, inglés, francés, alemán e italiano.
+  El idioma se elige al empezar el juego.
+- USA (B8CE): inglés.
+Puedes tener las dos; cada una guarda sus propias partidas.
+
+CARPETAS
+- motor      el juego (no lo abras directamente; usa ReinoDeCorazones.exe)
+- rom        tu copia del juego
+- partidas   tus partidas (eur.sav / usa.sav) y estados guardados
+- config     ajustes (reino.ini)
+- capturas   capturas de pantalla (F12)
+- registros  registro de cada sesión; si algo falla, envíalo
+Si la carpeta del programa es de solo lectura (por ejemplo, Archivos de
+programa), todo eso se guarda en %APPDATA%\ReinoDeCorazones\.
+
+MENÚ DE PAUSA Y OPCIONES (Esc)
+Durante el juego, Esc (o el botón central / clic del stick derecho del mando)
+pausa la partida y abre el menú. Los cambios se ven al instante:
+- Cuadros por segundo: 30, 60 o 120.
+    30 ahorra energía (el juego sigue a su velocidad normal).
+    60 es la velocidad de la consola.
+    120 añade una imagen intermedia entre cada cuadro, para monitores de
+    120 Hz o más. El juego original anima a 60 cuadros por segundo: con 120
+    el movimiento se ve más suave, pero no tiene más animación.
+- Resolución: de 1x (240x160) a 5x (1200x800). Si tu pantalla es más
+  pequeña, la ventana se ajusta sola.
+- Filtro: Original (píxeles nítidos), Suave, Píxel limpio, Bordes suaves
+  (Scale2x/3x), Pantalla LCD de GBA (rejilla) y Televisor CRT (líneas).
+- Colores de GBA: los tonos de la pantalla original, sin luz propia.
+- Estela de pantalla LCD: mezcla cada cuadro con el anterior.
+- Pantalla completa, sincronía vertical y volumen.
+- Guardar / cargar estado y salir al menú principal.
+
+CONTROLES (teclado; también funciona un mando)
+- Cruceta: flechas     A: X     B: Z     L: A     R: S
+- Start: Enter         Select: Retroceso
+- F11 o Alt+Enter: pantalla completa      F10: escalado de píxel exacto
+- F5: guardar estado   F8: cargar estado  F9: silenciar el sonido
+- F12: captura         Mantener Tab: avance rápido      Esc: pausa y opciones
+
+AJUSTES (config\reino.ini)
+[video]  fullscreen, scale (1-5), filter, fps, gba_colors, lcd_ghosting, renderer,
+         integer_scale, vsync
+[audio]  enabled, volume (0 a 100)
+[game]   skip_movies (Start salta las cinemáticas), pause_in_background
+[keyboard] / [gamepad]  cambiar los botones
+Borra reino.ini para volver a los valores por defecto.
+
+PARTIDAS ANTERIORES
+Si tenías un khcom.sav de la versión anterior del port, cópialo junto a
+ReinoDeCorazones.exe antes de abrirlo: se convierte solo en partidas\usa.sav.
+Las partidas también son compatibles con los emuladores (mGBA, VBA):
+renombra el archivo .sav con el nombre de tu ROM.
+
+Kingdom Hearts es una marca de Disney y Square Enix. Proyecto no oficial y
+sin ánimo de lucro, hecho a partir de la descompilación pública del juego.

@@ -1,0 +1,1021 @@
+group: sprites_riku
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_riku_frames.s
+    start: 0x08927764
+    end: 0x0893DBC8
+    data_start: 0x09EDF404
+    data_end: 0x09EDF5F4
+  jp:
+  - name: sprites_riku_frames.s
+    start: 0x0891AD4C
+    end: 0x089311B0
+    data_start: 0x09EB6E80
+    data_end: 0x09EB7070
+  eu:
+  - name: sprites_riku_frames.s
+    start: 0x08953088
+    end: 0x089694EC
+    data_start: 0x09F5A05C
+    data_end: 0x09F5A24C
+entries:
+- name: gRikuBt10Frames
+  record: SpriteTable
+  items: [gRikuBt10Frame0, gRikuBt10Frame1, gRikuBt10Frame2, gRikuBt10Frame3, gRikuBt10Frame4]
+  us:
+    address: 0x09EDF404
+  jp:
+    address: 0x09EB6E80
+  eu:
+    address: 0x09F5A05C
+- name: gRikuBt10Anims
+  record: AnimTable
+  items: [gRikuBt10Anim0, gRikuBt10Anim1, gRikuBt10Anim2, gRikuBt10Anim3]
+  us:
+    address: 0x09EDF418
+  jp:
+    address: 0x09EB6E94
+  eu:
+    address: 0x09F5A070
+- name: gRikuBt11Frames
+  record: SpriteTable
+  items: [gRikuBt11Frame0, gRikuBt11Frame1, gRikuBt11Frame2, gRikuBt11Frame3, gRikuBt11Frame4, gRikuBt11Frame5, gRikuBt11Frame6, gRikuBt11Frame7, gRikuBt11Frame8, gRikuBt11Frame9, gRikuBt11Frame10, gRikuBt11Frame11, gRikuBt11Frame12, gRikuBt11Frame13, gRikuBt11Frame14]
+  us:
+    address: 0x09EDF428
+  jp:
+    address: 0x09EB6EA4
+  eu:
+    address: 0x09F5A080
+- name: gRikuBt11Anims
+  record: AnimTable
+  items: [gRikuBt11Anim0, gRikuBt11Anim1, gRikuBt11Anim2, gRikuBt11Anim3]
+  us:
+    address: 0x09EDF464
+  jp:
+    address: 0x09EB6EE0
+  eu:
+    address: 0x09F5A0BC
+- name: gRikuBt13Frames
+  record: SpriteTable
+  items: [gRikuBt13Frame0, gRikuBt13Frame1, gRikuBt13Frame2, gRikuBt13Frame3, gRikuBt13Frame4, gRikuBt13Frame5, gRikuBt13Frame6, gRikuBt13Frame7, gRikuBt13Frame8]
+  us:
+    address: 0x09EDF474
+  jp:
+    address: 0x09EB6EF0
+  eu:
+    address: 0x09F5A0CC
+- name: gRikuBt13Anims
+  record: AnimTable
+  items: [gRikuBt13Anim0, gRikuBt13Anim1]
+  us:
+    address: 0x09EDF498
+  jp:
+    address: 0x09EB6F14
+  eu:
+    address: 0x09F5A0F0
+- name: gRikuLl17Frames
+  record: SpriteTable
+  items: [gRikuLl17Frame0, gRikuLl17Frame1, gRikuLl17Frame2, gRikuLl17Frame3, gRikuLl17Frame4, gRikuLl17Frame5]
+  us:
+    address: 0x09EDF4A0
+  jp:
+    address: 0x09EB6F1C
+  eu:
+    address: 0x09F5A0F8
+- name: gRikuLl17Anims
+  record: AnimTable
+  items: [gRikuLl17Anim0, gRikuLl17Anim1]
+  us:
+    address: 0x09EDF4B8
+  jp:
+    address: 0x09EB6F34
+  eu:
+    address: 0x09F5A110
+- name: gRikuBb00Frames
+  record: SpriteTable
+  items: [gRikuBb00Frame0]
+  us:
+    address: 0x09EDF4C0
+  jp:
+    address: 0x09EB6F3C
+  eu:
+    address: 0x09F5A118
+- name: gRikuBb00Anims
+  record: AnimTable
+  items: [gRikuBb00Anim0]
+  us:
+    address: 0x09EDF4C4
+  jp:
+    address: 0x09EB6F40
+  eu:
+    address: 0x09F5A11C
+- name: gRikuLl00Frames
+  record: SpriteTable
+  items: [gRikuLl00Frame0]
+  us:
+    address: 0x09EDF4C8
+  jp:
+    address: 0x09EB6F44
+  eu:
+    address: 0x09F5A120
+- name: gRikuLl00Anims
+  record: AnimTable
+  items: [gRikuLl00Anim0]
+  us:
+    address: 0x09EDF4CC
+  jp:
+    address: 0x09EB6F48
+  eu:
+    address: 0x09F5A124
+- name: gRik1ff01Frames
+  record: SpriteTable
+  items: [gRik1ff01Frame0, gRik1ff01Frame1, gRik1ff01Frame2, gRik1ff01Frame3, gRik1ff01Frame4, gRik1ff01Frame5, gRik1ff01Frame6, gRik1ff01Frame7]
+  us:
+    address: 0x09EDF4D0
+  jp:
+    address: 0x09EB6F4C
+  eu:
+    address: 0x09F5A128
+- name: gRik1ff01Anims
+  record: AnimTable
+  items: [gRik1ff01Anim0]
+  us:
+    address: 0x09EDF4F0
+  jp:
+    address: 0x09EB6F6C
+  eu:
+    address: 0x09F5A148
+- name: gRik1bb01Frames
+  record: SpriteTable
+  items: [gRik1bb01Frame0, gRik1bb01Frame1, gRik1bb01Frame2, gRik1bb01Frame3, gRik1bb01Frame4, gRik1bb01Frame5, gRik1bb01Frame6, gRik1bb01Frame7]
+  us:
+    address: 0x09EDF4F4
+  jp:
+    address: 0x09EB6F70
+  eu:
+    address: 0x09F5A14C
+- name: gRik1bb01Anims
+  record: AnimTable
+  items: [gRik1bb01Anim0]
+  us:
+    address: 0x09EDF514
+  jp:
+    address: 0x09EB6F90
+  eu:
+    address: 0x09F5A16C
+- name: gRik1ff03Frames
+  record: SpriteTable
+  items: [gRik1ff03Frame0, gRik1ff03Frame1, gRik1ff03Frame2, gRik1ff03Frame3, gRik1ff03Frame4, gRik1ff03Frame5]
+  us:
+    address: 0x09EDF518
+  jp:
+    address: 0x09EB6F94
+  eu:
+    address: 0x09F5A170
+- name: gRik1ff03Anims
+  record: AnimTable
+  items: [gRik1ff03Anim0, gRik1ff03Anim1, gRik1ff03Anim2, gRik1ff03Anim3, gRik1ff03Anim4]
+  us:
+    address: 0x09EDF530
+  jp:
+    address: 0x09EB6FAC
+  eu:
+    address: 0x09F5A188
+- name: gRik1bb03Frames
+  record: SpriteTable
+  items: [gRik1bb03Frame0, gRik1bb03Frame1, gRik1bb03Frame2, gRik1bb03Frame3, gRik1bb03Frame4, gRik1bb03Frame5]
+  us:
+    address: 0x09EDF544
+  jp:
+    address: 0x09EB6FC0
+  eu:
+    address: 0x09F5A19C
+- name: gRik1bb03Anims
+  record: AnimTable
+  items: [gRik1bb03Anim0, gRik1bb03Anim1, gRik1bb03Anim2, gRik1bb03Anim3, gRik1bb03Anim4]
+  us:
+    address: 0x09EDF55C
+  jp:
+    address: 0x09EB6FD8
+  eu:
+    address: 0x09F5A1B4
+- name: gRik1fl03Frames
+  record: SpriteTable
+  items: [gRik1fl03Frame0, gRik1fl03Frame1, gRik1fl03Frame2, gRik1fl03Frame3, gRik1fl03Frame4, gRik1fl03Frame5]
+  us:
+    address: 0x09EDF570
+  jp:
+    address: 0x09EB6FEC
+  eu:
+    address: 0x09F5A1C8
+- name: gRik1fl03Anims
+  record: AnimTable
+  items: [gRik1fl03Anim0, gRik1fl03Anim1, gRik1fl03Anim2, gRik1fl03Anim3, gRik1fl03Anim4]
+  us:
+    address: 0x09EDF588
+  jp:
+    address: 0x09EB7004
+  eu:
+    address: 0x09F5A1E0
+- name: gRik1ll03Frames
+  record: SpriteTable
+  items: [gRik1ll03Frame0, gRik1ll03Frame1, gRik1ll03Frame2, gRik1ll03Frame3, gRik1ll03Frame4, gRik1ll03Frame5]
+  us:
+    address: 0x09EDF59C
+  jp:
+    address: 0x09EB7018
+  eu:
+    address: 0x09F5A1F4
+- name: gRik1ll03Anims
+  record: AnimTable
+  items: [gRik1ll03Anim0, gRik1ll03Anim1, gRik1ll03Anim2, gRik1ll03Anim3, gRik1ll03Anim4]
+  us:
+    address: 0x09EDF5B4
+  jp:
+    address: 0x09EB7030
+  eu:
+    address: 0x09F5A20C
+- name: gRik1bl03Frames
+  record: SpriteTable
+  items: [gRik1bl03Frame0, gRik1bl03Frame1, gRik1bl03Frame2, gRik1bl03Frame3, gRik1bl03Frame4, gRik1bl03Frame5]
+  us:
+    address: 0x09EDF5C8
+  jp:
+    address: 0x09EB7044
+  eu:
+    address: 0x09F5A220
+- name: gRik1bl03Anims
+  record: AnimTable
+  items: [gRik1bl03Anim0, gRik1bl03Anim1, gRik1bl03Anim2, gRik1bl03Anim3, gRik1bl03Anim4]
+  us:
+    address: 0x09EDF5E0
+  jp:
+    address: 0x09EB705C
+  eu:
+    address: 0x09F5A238
+- name: riku_bt10
+  format: sprite_sheet
+  palette: riku
+  symbol: gRikuBt10Tiles
+  align: 4
+  cell: [103, 68]
+  anchor: [72, 54]
+  columns: 5
+  frames:
+  - symbol: gRikuBt10Frame0
+    pieces:
+    - [32x64, -12, -54]
+    - [16x32, -26, -30]
+  - symbol: gRikuBt10Frame1
+    pieces:
+    - [32x64, -9, -50]
+    - [16x32, -23, -26]
+    - [8x8, 21, -34]
+  - symbol: gRikuBt10Frame2
+    pieces:
+    - [64x32, -33, -37]
+    - [16x16, -17, -7, {layer: 1}]
+  - symbol: gRikuBt10Frame3
+    pieces:
+    - [64x32, -48, -35]
+    - [32x16, -72, -27]
+    - [32x16, -16, -5]
+  - symbol: gRikuBt10Frame4
+    pieces:
+    - [32x32, -24, -50]
+    - [32x32, -16, -26]
+    - [32x16, -46, -15]
+  animations:
+  - symbol: gRikuBt10Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 9], [1, 9]]
+  - symbol: gRikuBt10Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 9]]
+  - symbol: gRikuBt10Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 9], [4, 9]]
+  - symbol: gRikuBt10Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 5], [2, 6], [3, 15], [4, 6]]
+  us:
+    address: 0x08927764
+    size: 6722
+  jp:
+    address: 0x0891AD4C
+    size: 6722
+  eu:
+    address: 0x08953088
+    size: 6722
+- name: riku_bt11
+  format: sprite_sheet
+  palette: riku
+  symbol: gRikuBt11Tiles
+  align: 4
+  cell: [106, 80]
+  anchor: [55, 62]
+  columns: 8
+  frames:
+  - symbol: gRikuBt11Frame0
+    pieces:
+    - [32x64, -15, -47]
+    - [32x32, 9, -23]
+    - [8x32, -21, -31]
+  - symbol: gRikuBt11Frame1
+    pieces:
+    - [32x64, -15, -51]
+    - [8x8, -21, -35]
+    - [32x16, 15, -43]
+  - symbol: gRikuBt11Frame2
+    pieces:
+    - [32x64, -14, -58]
+    - [32x16, 10, -58]
+    - [8x8, -20, -40]
+  - symbol: gRikuBt11Frame3
+    pieces:
+    - [32x64, -25, -46]
+    - [32x16, -55, -30]
+    - [16x32, 5, -30]
+  - symbol: gRikuBt11Frame4
+    pieces:
+    - [32x64, -21, -47]
+    - [16x32, 3, -31]
+    - [32x16, -45, -23]
+  - symbol: gRikuBt11Frame5
+    pieces:
+    - [32x64, -18, -48]
+    - [8x32, 13, -32]
+  - symbol: gRikuBt11Frame6
+    pieces:
+    - [32x64, -19, -49]
+    - [8x32, 11, -25]
+  - symbol: gRikuBt11Frame7
+    pieces:
+    - [32x64, -15, -54]
+    - [8x16, -21, -6]
+  - symbol: gRikuBt11Frame8
+    pieces:
+    - [32x64, -11, -55]
+    - [8x16, 19, -39]
+    - [16x32, -25, -31]
+  - symbol: gRikuBt11Frame9
+    pieces:
+    - [32x64, -14, -52]
+    - [16x16, 17, -20]
+  - symbol: gRikuBt11Frame10
+    pieces:
+    - [32x32, -22, -51]
+    - [32x32, -14, -27]
+    - [32x16, -53, -43]
+  - symbol: gRikuBt11Frame11
+    pieces:
+    - [32x64, -14, -62]
+    - [32x8, 10, -46]
+    - [16x16, 26, -60]
+  - symbol: gRikuBt11Frame12
+    pieces:
+    - [64x32, -19, -52]
+    - [32x32, -19, -28]
+    - [8x16, 43, -52]
+  - symbol: gRikuBt11Frame13
+    pieces:
+    - [32x64, -12, -53]
+    - [16x32, -26, -37]
+    - [32x16, 18, -38]
+  - symbol: gRikuBt11Frame14
+    pieces:
+    - [32x64, -18, -51]
+  animations:
+  - symbol: gRikuBt11Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 3], [4, 4], [5, 12]]
+  - symbol: gRikuBt11Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 5], [2, 3], [3, 3], [4, 4], [5, 5], [7, 4]]
+  - symbol: gRikuBt11Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 6], [8, 4], [9, 4], [10, 5], [11, 6], [13, 8]]
+  - symbol: gRikuBt11Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [3, 7], [5, 7], [6, 6], [7, 5], [8, 5], [9, 6], [10, 7], [11, 7], [12, 6], [13, 6]]
+  us:
+    address: 0x089291A8
+    size: 20406
+  jp:
+    address: 0x0891C790
+    size: 20406
+  eu:
+    address: 0x08954ACC
+    size: 20406
+- name: riku_bt13
+  format: sprite_sheet
+  palette: riku
+  symbol: gRikuBt13Tiles
+  align: 4
+  cell: [105, 79]
+  anchor: [44, 63]
+  columns: 8
+  frames:
+  - symbol: gRikuBt13Frame0
+    pieces:
+    - [32x64, -16, -63]
+    - [16x16, -30, -39]
+  - symbol: gRikuBt13Frame1
+    pieces:
+    - [32x64, -6, -62]
+    - [16x32, -20, -30]
+  - symbol: gRikuBt13Frame2
+    pieces:
+    - [32x64, -17, -56]
+    - [8x16, -23, -40]
+  - symbol: gRikuBt13Frame3
+    pieces:
+    - [32x64, -23, -54]
+    - [16x32, -37, -46]
+    - [16x16, 7, -6]
+  - symbol: gRikuBt13Frame4
+    pieces:
+    - [32x64, -20, -54]
+    - [32x16, -44, -6]
+    - [16x16, 4, -6]
+  - symbol: gRikuBt13Frame5
+    pieces:
+    - [64x32, -26, -32]
+    - [16x16, 2, -2]
+    - [8x16, 30, -2]
+  - symbol: gRikuBt13Frame6
+    pieces:
+    - [32x64, -19, -48]
+    - [64x32, -3, -40]
+    - [8x16, 11, -8]
+  - symbol: gRikuBt13Frame7
+    pieces:
+    - [32x64, -20, -48]
+    - [64x32, -4, -48]
+    - [8x16, 11, -8]
+  - symbol: gRikuBt13Frame8
+    pieces:
+    - [32x64, -15, -52]
+    - [8x32, 16, -28, {layer: 1}]
+    - [8x8, -21, -28]
+  animations:
+  - symbol: gRikuBt13Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 6], [2, 5], [3, 3], [4, 6], [5, 5], [6, 7], [7, 6], [8, 7]]
+  - symbol: gRikuBt13Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4], [2, 3], [3, 3], [4, 6], [5, 5], [6, 7], [7, 6], [8, 7]]
+  us:
+    address: 0x0892E160
+    size: 13224
+  jp:
+    address: 0x08921748
+    size: 13224
+  eu:
+    address: 0x08959A84
+    size: 13224
+- name: riku_ll17
+  format: sprite_sheet
+  palette: riku
+  symbol: gRikuLl17Tiles
+  align: 4
+  cell: [84, 92]
+  anchor: [53, 83]
+  columns: 6
+  frames:
+  - symbol: gRikuLl17Frame0
+    pieces:
+    - [32x64, -20, -61]
+    - [32x32, -20, -83]
+    - [8x8, -26, -29]
+  - symbol: gRikuLl17Frame1
+    pieces:
+    - [64x32, -47, -50]
+    - [32x16, -15, -20]
+    - [8x16, -53, -42]
+  - symbol: gRikuLl17Frame2
+    pieces:
+    - [64x64, -33, -56]
+  - symbol: gRikuLl17Frame3
+    pieces:
+    - [32x64, -22, -57]
+    - [16x16, 8, -25]
+    - [8x8, 8, -49]
+  - symbol: gRikuLl17Frame4
+    pieces:
+    - [32x64, -22, -55]
+    - [8x16, 8, -23]
+    - [8x8, 8, -48]
+  - symbol: gRikuLl17Frame5
+    pieces:
+    - [64x64, -44, -60]
+  animations:
+  - symbol: gRikuLl17Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 7], [2, 5], [3, 4], [4, 4], [5, 4]]
+  - symbol: gRikuLl17Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 7], [2, 5], [3, 4], [4, 4], [5, 4], [5, 4]]
+  us:
+    address: 0x08931508
+    size: 9484
+  jp:
+    address: 0x08924AF0
+    size: 9484
+  eu:
+    address: 0x0895CE2C
+    size: 9484
+- name: gRikuBb00Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 56]
+  anchor: [16, 49]
+  columns: 1
+  frames:
+  - symbol: gRikuBb00Frame0
+    pieces:
+    - [32x32, -16, -41]
+    - [32x16, -16, -9]
+    - [16x8, -8, -49]
+  animations:
+  - symbol: gRikuBb00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08933A14
+    size: 864
+  jp:
+    address: 0x08926FFC
+    size: 864
+  eu:
+    address: 0x0895F338
+    size: 864
+- name: gRikuLl00Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 56]
+  anchor: [16, 49]
+  columns: 1
+  frames:
+  - symbol: gRikuLl00Frame0
+    pieces:
+    - [32x32, -16, -49]
+    - [32x8, -16, -17]
+    - [16x16, -8, -9]
+  animations:
+  - symbol: gRikuLl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x08933D74
+    size: 800
+  jp:
+    address: 0x0892735C
+    size: 800
+  eu:
+    address: 0x0895F698
+    size: 800
+- name: gRik1ff01Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [33, 58]
+  anchor: [16, 50]
+  columns: 8
+  frames:
+  - symbol: gRik1ff01Frame0
+    pieces:
+    - [32x32, -16, -50]
+    - [32x16, -16, -18]
+    - [16x8, -8, -2]
+  - symbol: gRik1ff01Frame1
+    pieces:
+    - [32x32, -16, -48]
+    - [32x8, -16, -16]
+    - [16x16, -8, -8]
+  - symbol: gRik1ff01Frame2
+    pieces:
+    - [32x32, -16, -48]
+    - [32x16, -16, -16]
+    - [16x8, -16, 0]
+  - symbol: gRik1ff01Frame3
+    pieces:
+    - [32x32, -16, -48]
+    - [32x16, -16, -16]
+    - [16x8, -8, 0]
+  - symbol: gRik1ff01Frame4
+    pieces:
+    - [32x32, -16, -50]
+    - [32x16, -16, -18]
+    - [16x8, -8, -2]
+  - symbol: gRik1ff01Frame5
+    pieces:
+    - [32x32, -15, -48]
+    - [32x8, -15, -16]
+    - [16x16, -7, -8]
+  - symbol: gRik1ff01Frame6
+    pieces:
+    - [32x32, -16, -48]
+    - [32x16, -16, -16]
+    - [16x8, 0, 0]
+  - symbol: gRik1ff01Frame7
+    pieces:
+    - [32x32, -16, -48]
+    - [32x16, -16, -16]
+    - [16x8, 0, 0]
+  animations:
+  - symbol: gRik1ff01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [7, 7]]
+  us:
+    address: 0x08934094
+    size: 6742
+  jp:
+    address: 0x0892767C
+    size: 6742
+  eu:
+    address: 0x0895F9B8
+    size: 6742
+- name: gRik1bb01Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [33, 58]
+  anchor: [16, 50]
+  columns: 8
+  frames:
+  - symbol: gRik1bb01Frame0
+    pieces:
+    - [32x32, -16, -42]
+    - [32x16, -16, -10]
+    - [16x8, -8, -50]
+  - symbol: gRik1bb01Frame1
+    pieces:
+    - [32x32, -16, -50]
+    - [32x16, -16, -18]
+    - [16x8, 0, -2]
+  - symbol: gRik1bb01Frame2
+    pieces:
+    - [32x32, -15, -40]
+    - [16x8, -7, -48]
+    - [16x16, -7, -8]
+  - symbol: gRik1bb01Frame3
+    pieces:
+    - [32x32, -15, -48]
+    - [32x16, -15, -16]
+    - [16x8, -7, 0]
+  - symbol: gRik1bb01Frame4
+    pieces:
+    - [32x32, -16, -42]
+    - [32x16, -16, -10]
+    - [16x8, -8, -50]
+  - symbol: gRik1bb01Frame5
+    pieces:
+    - [32x32, -16, -50]
+    - [32x16, -16, -18]
+    - [16x8, -8, -2]
+  - symbol: gRik1bb01Frame6
+    pieces:
+    - [32x32, -16, -40]
+    - [16x16, -8, -8]
+    - [16x8, -8, -48]
+  - symbol: gRik1bb01Frame7
+    pieces:
+    - [32x32, -16, -48]
+    - [32x16, -16, -16]
+    - [16x8, -8, 0]
+  animations:
+  - symbol: gRik1bb01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [7, 7]]
+  us:
+    address: 0x08935AEC
+    size: 6614
+  jp:
+    address: 0x089290D4
+    size: 6614
+  eu:
+    address: 0x08961410
+    size: 6614
+- name: rik1ff03
+  format: sprite_sheet
+  palette: riku
+  symbol: gRik1ff03Tiles
+  align: 4
+  cell: [48, 76]
+  anchor: [24, 65]
+  columns: 6
+  frames:
+  - symbol: gRik1ff03Frame0
+    pieces:
+    - [32x32, -19, -29]
+    - [16x16, 5, -5]
+    - [8x16, 12, -21]
+  - symbol: gRik1ff03Frame1
+    pieces:
+    - [32x8, -23, -31]
+    - [32x32, -15, -24]
+  - symbol: gRik1ff03Frame2
+    pieces:
+    - [32x64, -19, -64]
+    - [8x16, 11, -48]
+  - symbol: gRik1ff03Frame3
+    pieces:
+    - [32x64, -16, -65]
+    - [16x8, 8, -49]
+    - [8x16, -23, -49]
+  - symbol: gRik1ff03Frame4
+    pieces:
+    - [32x32, -18, -32]
+    - [32x8, -17, -2]
+    - [8x8, -24, -24]
+    - [16x16, 6, -46]
+  - symbol: gRik1ff03Frame5
+    pieces:
+    - [32x32, -18, -32]
+    - [32x8, -17, -2]
+    - [8x16, 12, -32]
+  animations:
+  - symbol: gRik1ff03Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4]]
+  - symbol: gRik1ff03Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRik1ff03Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1ff03Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1ff03Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4], [5, 4]]
+  us:
+    address: 0x089374C4
+    size: 5272
+  jp:
+    address: 0x0892AAAC
+    size: 5272
+  eu:
+    address: 0x08962DE8
+    size: 5272
+- name: rik1bb03
+  format: sprite_sheet
+  palette: riku
+  symbol: gRik1bb03Tiles
+  align: 4
+  cell: [47, 64]
+  anchor: [22, 49]
+  columns: 6
+  frames:
+  - symbol: gRik1bb03Frame0
+    pieces:
+    - [16x16, -6, -40]
+    - [32x32, -11, -26]
+    - [8x32, -18, -26]
+  - symbol: gRik1bb03Frame1
+    pieces:
+    - [32x32, -17, -39]
+    - [32x16, -17, -9]
+    - [8x16, 13, -31]
+  - symbol: gRik1bb03Frame2
+    pieces:
+    - [32x32, -9, -24]
+    - [32x16, -17, -39]
+    - [16x8, -6, -46]
+  - symbol: gRik1bb03Frame3
+    pieces:
+    - [32x64, -22, -49]
+    - [16x8, 8, -33]
+  - symbol: gRik1bb03Frame4
+    pieces:
+    - [32x16, -21, -39]
+    - [32x32, -14, -25]
+    - [16x8, 9, -31]
+  - symbol: gRik1bb03Frame5
+    pieces:
+    - [8x16, 14, -24]
+    - [32x32, -16, -40]
+    - [32x16, -16, -10]
+  animations:
+  - symbol: gRik1bb03Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4]]
+  - symbol: gRik1bb03Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRik1bb03Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1bb03Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1bb03Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4], [5, 4]]
+  us:
+    address: 0x0893895C
+    size: 5368
+  jp:
+    address: 0x0892BF44
+    size: 5368
+  eu:
+    address: 0x08964280
+    size: 5368
+- name: rik1fl03
+  format: sprite_sheet
+  palette: riku
+  symbol: gRik1fl03Tiles
+  align: 4
+  cell: [44, 66]
+  anchor: [18, 51]
+  columns: 6
+  frames:
+  - symbol: gRik1fl03Frame0
+    pieces:
+    - [32x32, -18, -28]
+    - [16x16, 6, -8]
+    - [16x16, 6, -28]
+  - symbol: gRik1fl03Frame1
+    pieces:
+    - [32x32, -17, -29]
+    - [16x16, 7, -8]
+    - [16x8, 7, -28]
+  - symbol: gRik1fl03Frame2
+    pieces:
+    - [32x64, -12, -49]
+    - [8x8, -18, -35]
+    - [8x8, 18, -25]
+  - symbol: gRik1fl03Frame3
+    pieces:
+    - [32x64, -14, -51]
+  - symbol: gRik1fl03Frame4
+    pieces:
+    - [32x32, -12, -40]
+    - [32x16, -17, -9]
+    - [8x8, -5, -46]
+  - symbol: gRik1fl03Frame5
+    pieces:
+    - [32x32, -14, -38]
+    - [32x16, -14, -8]
+  animations:
+  - symbol: gRik1fl03Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4]]
+  - symbol: gRik1fl03Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRik1fl03Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1fl03Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1fl03Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4], [5, 4]]
+  us:
+    address: 0x08939E54
+    size: 5324
+  jp:
+    address: 0x0892D43C
+    size: 5324
+  eu:
+    address: 0x08965778
+    size: 5324
+- name: rik1ll03
+  format: sprite_sheet
+  palette: riku
+  symbol: gRik1ll03Tiles
+  align: 4
+  cell: [45, 65]
+  anchor: [23, 49]
+  columns: 6
+  frames:
+  - symbol: gRik1ll03Frame0
+    pieces:
+    - [32x32, -19, -30]
+    - [8x8, 11, -17]
+    - [32x8, -19, 1]
+  - symbol: gRik1ll03Frame1
+    pieces:
+    - [32x32, -23, -32]
+    - [8x8, 7, -22]
+    - [16x16, -5, -2]
+  - symbol: gRik1ll03Frame2
+    pieces:
+    - [32x64, -16, -48]
+    - [8x8, 14, -19]
+  - symbol: gRik1ll03Frame3
+    pieces:
+    - [32x64, -16, -49]
+    - [8x8, 14, -41]
+  - symbol: gRik1ll03Frame4
+    pieces:
+    - [32x32, -16, -35]
+    - [16x16, -8, -5]
+    - [8x8, 7, -41]
+  - symbol: gRik1ll03Frame5
+    pieces:
+    - [32x32, -20, -37]
+    - [32x16, -20, -7]
+    - [8x8, 10, -29]
+  animations:
+  - symbol: gRik1ll03Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4]]
+  - symbol: gRik1ll03Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRik1ll03Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1ll03Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1ll03Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4], [5, 4]]
+  us:
+    address: 0x0893B320
+    size: 5106
+  jp:
+    address: 0x0892E908
+    size: 5106
+  eu:
+    address: 0x08966C44
+    size: 5106
+- name: rik1bl03
+  format: sprite_sheet
+  palette: riku
+  symbol: gRik1bl03Tiles
+  align: 4
+  cell: [52, 64]
+  anchor: [25, 50]
+  columns: 6
+  frames:
+  - symbol: gRik1bl03Frame0
+    pieces:
+    - [32x32, -16, -34]
+    - [32x16, -16, -4]
+  - symbol: gRik1bl03Frame1
+    pieces:
+    - [32x32, -22, -36]
+    - [32x16, -22, -6]
+  - symbol: gRik1bl03Frame2
+    pieces:
+    - [32x32, -16, -43]
+    - [32x8, -16, -13]
+    - [16x16, -9, -7]
+  - symbol: gRik1bl03Frame3
+    pieces:
+    - [32x64, -19, -50]
+    - [8x8, -25, -27]
+    - [16x8, 11, -34]
+  - symbol: gRik1bl03Frame4
+    pieces:
+    - [32x32, -23, -38]
+    - [32x16, -15, -8]
+    - [16x16, 7, -36]
+  - symbol: gRik1bl03Frame5
+    pieces:
+    - [32x32, -16, -38]
+    - [32x16, -16, -8]
+    - [8x8, 14, -25]
+  animations:
+  - symbol: gRik1bl03Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 4]]
+  - symbol: gRik1bl03Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRik1bl03Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1bl03Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRik1bl03Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4], [5, 4]]
+  us:
+    address: 0x0893C714
+    size: 5298
+  jp:
+    address: 0x0892FCFC
+    size: 5298
+  eu:
+    address: 0x08968038
+    size: 5298

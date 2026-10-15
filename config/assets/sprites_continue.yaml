@@ -1,0 +1,405 @@
+group: sprites_continue
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_continue_frames.s
+    start: 0x090A6A20
+    end: 0x090AA3C4
+    data_start: 0x09EEB0C4
+    data_end: 0x09EEB188
+  - name: sprites_continue_tiles.s
+    start: 0x0941A418
+    end: 0x0941BEB8
+  - name: sprites_continue_maps.s
+    start: 0x0951CAB8
+    end: 0x0951D2B8
+  jp:
+  - name: sprites_continue_frames.s
+    start: 0x09061F48
+    end: 0x090658EC
+    data_start: 0x09EC24B0
+    data_end: 0x09EC2574
+  - name: sprites_continue_tiles.s
+    start: 0x093D2754
+    end: 0x093D4194
+  - name: sprites_continue_maps.s
+    start: 0x094D5594
+    end: 0x094D5D94
+  eu:
+  - name: sprites_continue_frames.s
+    start: 0x0919728C
+    end: 0x0919AC30
+    data_start: 0x09F77254
+    data_end: 0x09F77318
+  - name: sprites_continue_tiles.s
+    start: 0x0954C284
+    end: 0x0954DD34
+  - name: sprites_continue_maps.s
+    start: 0x095A3D74
+    end: 0x095A3F4C
+entries:
+- name: gContinueCursorFrames
+  record: SpriteTable
+  items: [gContinueCursorFrame0, gContinueCursorFrame1, gContinueCursorFrame2, gContinueCursorFrame3, gContinueCursorFrame4, gContinueCursorFrame5, gContinueCursorFrame6, gContinueCursorFrame7, gContinueCursorFrame8, gContinueCursorFrame9, gContinueCursorFrame10, gContinueCursorFrame11, gContinueCursorFrame12, gContinueCursorFrame13, gContinueCursorFrame14, gContinueCursorFrame15, gContinueCursorFrame16]
+  us:
+    address: 0x09EEB0C4
+  jp:
+    address: 0x09EC24B0
+  eu:
+    address: 0x09F77254
+- name: gContinueCursorAnims
+  record: AnimTable
+  items: [gContinueCursorAnim0, gContinueCursorAnim1]
+  us:
+    address: 0x09EEB108
+  jp:
+    address: 0x09EC24F4
+  eu:
+    address: 0x09F77298
+- name: gContinueLineFrames
+  record: SpriteTable
+  items: [gContinueLineFrame0, gContinueLineFrame1]
+  us:
+    address: 0x09EEB110
+  jp:
+    address: 0x09EC24FC
+  eu:
+    address: 0x09F772A0
+- name: gContinueLineAnims
+  record: AnimTable
+  items: [gContinueLineAnim0]
+  us:
+    address: 0x09EEB118
+  jp:
+    address: 0x09EC2504
+  eu:
+    address: 0x09F772A8
+- name: gSoraContinueFrames
+  record: SpriteTable
+  items: [gSoraContinueFrame0, gSoraContinueFrame1, gSoraContinueFrame2, gSoraContinueFrame3, gSoraContinueFrame4, gSoraContinueFrame5, gSoraContinueFrame6, gSoraContinueFrame7, gSoraContinueFrame8, gSoraContinueFrame9, gSoraContinueFrame10, gSoraContinueFrame11]
+  us:
+    address: 0x09EEB11C
+  jp:
+    address: 0x09EC2508
+  eu:
+    address: 0x09F772AC
+- name: gSoraContinueAnims
+  record: AnimTable
+  items: [gSoraContinueAnim0]
+  us:
+    address: 0x09EEB14C
+  jp:
+    address: 0x09EC2538
+  eu:
+    address: 0x09F772DC
+- name: gRikuContinueFrames
+  record: SpriteTable
+  items: [gRikuContinueFrame0, gRikuContinueFrame1, gRikuContinueFrame2, gRikuContinueFrame3, gRikuContinueFrame4, gRikuContinueFrame5, gRikuContinueFrame6, gRikuContinueFrame7, gRikuContinueFrame8, gRikuContinueFrame9, gRikuContinueFrame10, gRikuContinueFrame11]
+  us:
+    address: 0x09EEB150
+  jp:
+    address: 0x09EC253C
+  eu:
+    address: 0x09F772E0
+- name: gRikuContinueAnims
+  record: AnimTable
+  items: [gRikuContinueAnim0, gRikuContinueAnim1]
+  us:
+    address: 0x09EEB180
+  jp:
+    address: 0x09EC256C
+  eu:
+    address: 0x09F77310
+- name: gContinueCursorTiles
+  format: sprite_sheet
+  align: 4
+  cell: [64, 44]
+  anchor: [31, 24]
+  columns: 8
+  frames:
+  - symbol: gContinueCursorFrame0
+    pieces:
+    - [32x32, -16, -16]
+  - symbol: gContinueCursorFrame1
+    pieces:
+    - [32x32, -16, -16, {pal: 1}]
+  - symbol: gContinueCursorFrame2
+    pieces:
+    - [32x32, -16, -16, {pal: 2}]
+  - symbol: gContinueCursorFrame3
+    pieces:
+    - [32x32, -16, -16, {pal: 3}]
+  - symbol: gContinueCursorFrame4
+    pieces:
+    - [32x32, -16, -16, {pal: 3}]
+  - symbol: gContinueCursorFrame5
+    pieces:
+    - [64x32, -31, -12, {pal: 8}]
+  - symbol: gContinueCursorFrame6
+    pieces:
+    - [64x32, -31, -13, {pal: 8}]
+  - symbol: gContinueCursorFrame7
+    pieces:
+    - [64x32, -31, -14, {pal: 8}]
+  - symbol: gContinueCursorFrame8
+    pieces:
+    - [64x32, -31, -13, {pal: 8}]
+  - symbol: gContinueCursorFrame9
+    pieces:
+    - [64x32, -31, -14, {pal: 8}]
+  - symbol: gContinueCursorFrame10
+    pieces:
+    - [64x32, -31, -15, {pal: 8}]
+  - symbol: gContinueCursorFrame11
+    pieces:
+    - [64x32, -31, -24, {pal: 8}]
+  - symbol: gContinueCursorFrame12
+    pieces:
+    - [64x32, -31, -22, {pal: 8}]
+  - symbol: gContinueCursorFrame13
+    pieces:
+    - [64x32, -31, -21, {pal: 8}]
+  - symbol: gContinueCursorFrame14
+    pieces:
+    - [64x32, -31, -14, {pal: 8}]
+  - symbol: gContinueCursorFrame15
+    pieces:
+    - [64x32, -31, -13, {pal: 8}]
+  - symbol: gContinueCursorFrame16
+    pieces:
+    - [64x32, -31, -12, {pal: 8}]
+  animations:
+  - symbol: gContinueCursorAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [3, 8], [2, 8], [1, 8]]
+  - symbol: gContinueCursorAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 13], [6, 13], [7, 13], [8, 13], [9, 13], [10, 13], [11, 13], [12, 13], [13, 13], [14, 13], [15, 13], [16, 13]]
+  us:
+    address: 0x090A6A20
+    size: 4870
+  jp:
+    address: 0x09061F48
+    size: 4870
+  eu:
+    address: 0x0919728C
+    size: 4870
+- name: gContinueLineTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 8]
+  anchor: [128, 0]
+  columns: 2
+  frames:
+  - symbol: gContinueLineFrame0
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gContinueLineFrame1
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  animations:
+  - symbol: gContinueLineAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x090A7D28
+    size: 306
+  jp:
+    address: 0x09063250
+    size: 306
+  eu:
+    address: 0x09198594
+    size: 306
+- name: sora_continue
+  format: sprite_sheet
+  palette: sora
+  symbol: gSoraContinueTiles
+  align: 4
+  cell: [64, 44]
+  anchor: [31, 24]
+  columns: 8
+  frames:
+  - symbol: gSoraContinueFrame0
+    pieces:
+    - [64x32, -31, -12]
+  - symbol: gSoraContinueFrame1
+    pieces:
+    - [64x32, -31, -13]
+  - symbol: gSoraContinueFrame2
+    pieces:
+    - [64x32, -31, -14]
+  - symbol: gSoraContinueFrame3
+    pieces:
+    - [64x32, -31, -13]
+  - symbol: gSoraContinueFrame4
+    pieces:
+    - [64x32, -31, -14]
+  - symbol: gSoraContinueFrame5
+    pieces:
+    - [64x32, -31, -15]
+  - symbol: gSoraContinueFrame6
+    pieces:
+    - [64x32, -31, -24]
+  - symbol: gSoraContinueFrame7
+    pieces:
+    - [64x32, -31, -22]
+  - symbol: gSoraContinueFrame8
+    pieces:
+    - [64x32, -31, -21]
+  - symbol: gSoraContinueFrame9
+    pieces:
+    - [64x32, -31, -14]
+  - symbol: gSoraContinueFrame10
+    pieces:
+    - [64x32, -31, -13]
+  - symbol: gSoraContinueFrame11
+    pieces:
+    - [64x32, -31, -12]
+  animations:
+  - symbol: gSoraContinueAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 13], [1, 13], [2, 13], [3, 13], [4, 13], [5, 13], [6, 13], [7, 13], [8, 13], [9, 13], [10, 13], [11, 13]]
+  us:
+    address: 0x090A7E5C
+    size: 4270
+  jp:
+    address: 0x09063384
+    size: 4270
+  eu:
+    address: 0x091986C8
+    size: 4270
+- name: riku_continue
+  format: sprite_sheet
+  palette: riku
+  symbol: gRikuContinueTiles
+  align: 4
+  cell: [64, 37]
+  anchor: [28, 21]
+  columns: 8
+  frames:
+  - symbol: gRikuContinueFrame0
+    pieces:
+    - [64x32, -28, -16]
+  - symbol: gRikuContinueFrame1
+    pieces:
+    - [64x32, -28, -17]
+  - symbol: gRikuContinueFrame2
+    pieces:
+    - [64x32, -28, -18]
+  - symbol: gRikuContinueFrame3
+    pieces:
+    - [64x32, -28, -19]
+  - symbol: gRikuContinueFrame4
+    pieces:
+    - [64x32, -28, -20]
+  - symbol: gRikuContinueFrame5
+    pieces:
+    - [64x32, -28, -21]
+  - symbol: gRikuContinueFrame6
+    pieces:
+    - [64x32, -28, -21]
+  - symbol: gRikuContinueFrame7
+    pieces:
+    - [64x32, -28, -20]
+  - symbol: gRikuContinueFrame8
+    pieces:
+    - [64x32, -28, -19]
+  - symbol: gRikuContinueFrame9
+    pieces:
+    - [64x32, -28, -18]
+  - symbol: gRikuContinueFrame10
+    pieces:
+    - [64x32, -28, -17]
+  - symbol: gRikuContinueFrame11
+    pieces:
+    - [64x32, -28, -16]
+  animations:
+  - symbol: gRikuContinueAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 13], [1, 13], [2, 13], [3, 13], [4, 13], [5, 13], [6, 13], [7, 13], [8, 13], [9, 13], [10, 13], [11, 13]]
+  - symbol: gRikuContinueAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x090A8F0C
+    size: 5304
+  jp:
+    address: 0x09064434
+    size: 5304
+  eu:
+    address: 0x09199778
+    size: 5304
+- name: gContinueBgTiles
+  format: tiles4
+  us:
+    address: 0x0941A418
+    size: 6816
+  jp:
+    address: 0x093D2754
+    size: 6720
+  eu:
+    address: 0x0954C284
+    size: 1328
+    compress: lz77
+- name: gContinueBgMap
+  format: tilemap
+  us:
+    address: 0x0951CAB8
+    size: 2048
+  jp:
+    address: 0x094D5594
+    size: 2048
+  eu:
+    address: 0x095A3D74
+    size: 472
+    compress: lz77
+- name: gContinueBgFrenchTiles
+  format: tiles4
+  eu:
+    address: 0x0954C7B4
+    size: 1384
+    compress: lz77
+- name: gContinueBgSpanishTiles
+  format: tiles4
+  eu:
+    address: 0x0954CD1C
+    size: 1308
+    compress: lz77
+- name: gContinueBgItalianTiles
+  format: tiles4
+  eu:
+    address: 0x0954D238
+    size: 1384
+    compress: lz77
+- name: gContinueBgGermanTiles
+  format: tiles4
+  eu:
+    address: 0x0954D7A0
+    size: 1428
+    compress: lz77

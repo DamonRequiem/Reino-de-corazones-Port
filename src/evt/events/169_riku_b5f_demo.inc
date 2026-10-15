@@ -1,0 +1,74 @@
+#ifdef VERSION_US
+#include "event_169_text.inc"
+#endif
+
+static const MessageScriptEntry sEvent169Script[11] = {
+    { PORTRAIT_ZEXION, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text00), 0, 280 },
+    { PORTRAIT_LEXAEUS, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text01), 0, 320 },
+    { PORTRAIT_ZEXION, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text02), 0, 350 },
+    { PORTRAIT_ZEXION, 5, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text03), 0, 354 },
+    { PORTRAIT_LEXAEUS, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text04), 0, 400 },
+    { PORTRAIT_LEXAEUS, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text05), 0, 402 },
+    { PORTRAIT_LEXAEUS, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text06), 0, 404 },
+    { PORTRAIT_ZEXION, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text07), 0, 440 },
+    { PORTRAIT_LEXAEUS, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text08), 0, 470 },
+    { PORTRAIT_LEXAEUS, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text09), 0, 472 },
+    { PORTRAIT_ZEXION, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent169Text10), MSG_SCRIPT_FLAG_END, 560 },
+};
+
+#ifdef VERSION_JP
+#include "event_169_text.inc"
+#endif
+
+static const EvSoundCue sEvent169SoundCues[3] = {
+    { SONG_BGM_EVENT_XIII, 0, 0, 0 },
+    { SONG_EV_WARPOUT, 150, 0, 0 },
+    { SONG_BGM_EVENT_XIII, 615, EV_SOUND_FLAG_FADE_OUT | EV_SOUND_FLAG_END, 0 },
+};
+
+static const EventCameraKeyframe sEvent169Camera[1] = {
+    { -64537, 79616, 50432, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_END, 0, NULL },
+};
+
+static const EventCharaKeyframe sEvent169Track0[5] = {
+    { 889, 230, 72448, 56320, 0, 0, 2, NULL, NULL },
+    { 889, 352, 0, 0, 0, 0, 69, NULL, NULL },
+    { 890, 480, 0, 0, 0, 0, 69, NULL, NULL },
+    { 892, 520, 0, 0, 0, 0, 69, NULL, NULL },
+    { 890, 5000, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent169Track1[4] = {
+    { 883, 150, 0, 0, 0, 0, 2, NULL, NULL },
+    { 883, 300, 87808, 64000, 0, 0, 2, EventCharaFadeIn, NULL },
+    { 887, 380, 0, 0, 0, 0, 5, NULL, NULL },
+    { 883, 5000, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaTrack sEvent169Tracks[2] = {
+    { sEvent169Track0, EVENT_CHARA_ZEXION },
+    { sEvent169Track1, EVENT_CHARA_LEXAEUS },
+};
+
+const EventSequenceDef gEvent169 = {
+    ARRAY_COUNT(sEvent169Tracks),
+    sEvent169Tracks,
+    sEvent169Camera,
+    sEvent169Script,
+    sEvent169SoundCues,
+    NULL,
+    620,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    0,
+    EVENT_170_RIKU_B4F_ENTRANCE,
+    0,
+    { 0, 0 },
+    EVENT_EXIT_NONE,
+    0,
+    WORLD_NONE,
+    POOH_LEVEL_NONE,
+};

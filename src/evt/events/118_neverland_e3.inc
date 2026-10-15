@@ -1,0 +1,206 @@
+#ifdef VERSION_US
+#include "event_118_text.inc"
+#endif
+
+static const MessageScriptEntry sEvent118Script[23] = {
+    { PORTRAIT_DONALD, 3, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text00), 0, 120 },
+    { PORTRAIT_HOOK, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text01), MSG_SCRIPT_FLAG_SILHOUETTE, 150 },
+    { PORTRAIT_HOOK, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text02), 0, 350 },
+    { PORTRAIT_HOOK, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text03), 0, 352 },
+    { PORTRAIT_DONALD, 0, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text04), 0, 390 },
+    { PORTRAIT_GOOFY, 0, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text05), 0, 410 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text06), 0, 430 },
+    { PORTRAIT_HOOK, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text07), 0, 480 },
+    { PORTRAIT_HOOK, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text08), 0, 482 },
+    { PORTRAIT_SORA, 2, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text09), 0, 530 },
+    { PORTRAIT_GOOFY, 0, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text10), 0, 550 },
+    { PORTRAIT_HOOK, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text11), 0, 580 },
+    { PORTRAIT_SORA, 3, MSG_WIN_POSITION_TOP_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text12), 0, 850 },
+    { PORTRAIT_HOOK, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text13), 0, 940 },
+    { PORTRAIT_DONALD, 2, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text14), 0, 960 },
+    { PORTRAIT_HOOK, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text15), 0, 980 },
+    { PORTRAIT_PETER_PAN, 3, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text16), 0, 1000 },
+    { PORTRAIT_WENDY, 1, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text17), 0, 1100 },
+    { PORTRAIT_PETER_PAN, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text18), 0, 1120 },
+    { PORTRAIT_HOOK, 1, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text19), 0, 1140 },
+    { PORTRAIT_PETER_PAN, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text20), 0, 1190 },
+    { PORTRAIT_HOOK, 2, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text21), 0, 1260 },
+    { PORTRAIT_HOOK, 1, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent118Text22), MSG_SCRIPT_FLAG_END, 1500 },
+};
+
+#ifdef VERSION_JP
+#include "event_118_text.inc"
+#endif
+
+static const EventCameraKeyframe sEvent118Camera[5] = {
+    { -65321, 33024, 71424, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_SWAY, 0, NULL },
+    { -64936, 41728, 63744, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_SWAY | CAMERA_MODE_APPROACH, 80, NULL },
+    { -64336, 86784, 69888, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_SWAY | CAMERA_MODE_APPROACH, 120, NULL },
+    { -64036, 96256, 69888, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_SWAY | CAMERA_MODE_APPROACH, 20, NULL },
+    { -55537, 0, 0, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_SWAY | CAMERA_KEYFRAME_FLAG_END | CAMERA_MODE_KEEP, 0, NULL },
+};
+
+static const EvSoundCue sEvent118SoundCues[8] = {
+    { SONG_NONE, 0, 0, 0 },
+    { SONG_BGM_EVENT3, 350, EV_SOUND_FLAG_FADE_IN, 0 },
+    { SONG_BGM_EVENT3, 600, EV_SOUND_FLAG_FADE_OUT, 0 },
+    { SONG_BGM_EVENT_UNREST, 650, EV_SOUND_FLAG_FADE_IN, 0 },
+    { SONG_BGM_EVENT_UNREST, 1141, EV_SOUND_FLAG_FADE_OUT, 0 },
+    { SONG_BGM_EVENT1, 1190, EV_SOUND_FLAG_FADE_IN, 0 },
+    { SONG_SND_384, 1191, 0, 0 },
+    { SONG_EV_HUKUROUJUMP, 1205, EV_SOUND_FLAG_END, 0 },
+};
+
+static const EventCharaKeyframe sEvent118Track0[28] = {
+    { 4, 1, 14848, 83712, 0, 0, 66, NULL, NULL },
+    { 9, 80, 29440, 73728, 0, 4, 67, NULL, NULL },
+    { 4, 90, 0, 0, 0, 0, 69, NULL, NULL },
+    { 3, 95, 0, 0, 0, 0, 69, NULL, NULL },
+    { 2, 100, 0, 0, 0, 0, 69, NULL, NULL },
+    { 1, 105, 0, 0, 0, 0, 5, NULL, NULL },
+    { 2, 130, 0, 0, 0, 0, 5, NULL, NULL },
+    { 2, 160, 0, 0, 0, 0, 5, NULL, NULL },
+    { 2, 210, 0, 0, 0, 0, 0, NULL, CreateExclamationTask },
+    { 2, 220, 0, 0, 0, 0, 5, NULL, NULL },
+    { 1, 225, 0, 0, 0, 0, 5, NULL, NULL },
+    { 2, 230, 0, 0, 0, 0, 69, NULL, NULL },
+    { 3, 235, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 240, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 360, 0, 0, 0, 0, 69, NULL, NULL },
+    { 3, 365, 0, 0, 0, 0, 69, NULL, NULL },
+    { 2, 370, 0, 0, 0, 0, 69, NULL, NULL },
+    { 1, 375, 0, 0, 0, 0, 5, NULL, NULL },
+    { 2, 380, 0, 0, 0, 0, 5, NULL, NULL },
+    { 32, 490, 0, 0, 0, 0, 5, NULL, NULL },
+    { 2, 500, 0, 0, 0, 0, 5, NULL, NULL },
+    { 1, 505, 0, 0, 0, 0, 5, NULL, NULL },
+    { 2, 510, 0, 0, 0, 0, 69, NULL, NULL },
+    { 3, 515, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 529, 0, 0, 0, 0, 69, NULL, NULL },
+    { 30, 531, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 555, 0, 0, 0, 0, 69, NULL, NULL },
+    { 19, 2000, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent118Track1[20] = {
+    { 114, 1, 14848, 91904, 0, 0, 66, NULL, NULL },
+    { 119, 80, 29440, 81408, 0, 114, 67, NULL, NULL },
+    { 114, 90, 0, 0, 0, 0, 69, NULL, NULL },
+    { 110, 95, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 119, 0, 0, 0, 0, 5, NULL, NULL },
+    { 126, 121, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 160, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 210, 0, 0, 0, 0, 0, NULL, CreateExclamationTask },
+    { 114, 220, 0, 0, 0, 0, 5, NULL, NULL },
+    { 110, 225, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 230, 0, 0, 0, 0, 69, NULL, NULL },
+    { 114, 360, 0, 0, 0, 0, 69, NULL, NULL },
+    { 110, 365, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 389, 0, 0, 0, 0, 5, NULL, NULL },
+    { 126, 391, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 500, 0, 0, 0, 0, 5, NULL, NULL },
+    { 110, 505, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 560, 0, 0, 0, 0, 69, NULL, NULL },
+    { 122, 565, 0, 0, 0, 0, 69, NULL, NULL },
+    { 123, 9999, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent118Track2[19] = {
+    { 146, 1, 4608, 86784, 0, 0, 66, NULL, NULL },
+    { 151, 80, 19712, 76032, 0, 146, 67, NULL, NULL },
+    { 146, 90, 0, 0, 0, 0, 69, NULL, NULL },
+    { 145, 95, 0, 0, 0, 0, 69, NULL, NULL },
+    { 144, 160, 0, 0, 0, 0, 69, NULL, NULL },
+    { 144, 210, 0, 0, 0, 0, 64, NULL, CreateExclamationTask },
+    { 144, 220, 0, 0, 0, 0, 69, NULL, NULL },
+    { 145, 225, 0, 0, 0, 0, 69, NULL, NULL },
+    { 146, 360, 0, 0, 0, 0, 69, NULL, NULL },
+    { 145, 365, 0, 0, 0, 0, 69, NULL, NULL },
+    { 144, 409, 0, 0, 0, 0, 69, NULL, NULL },
+    { 164, 411, 0, 0, 0, 0, 69, NULL, NULL },
+    { 144, 500, 0, 0, 0, 0, 69, NULL, NULL },
+    { 145, 505, 0, 0, 0, 0, 69, NULL, NULL },
+    { 146, 549, 0, 0, 0, 0, 69, NULL, NULL },
+    { 165, 551, 0, 0, 0, 0, 69, NULL, NULL },
+    { 146, 555, 0, 0, 0, 0, 69, NULL, NULL },
+    { 157, 565, 0, 0, 0, 0, 69, NULL, NULL },
+    { 158, 9999, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent118Track3[21] = {
+    { 576, 160, 90112, 45568, 0, 0, 2, NULL, NULL },
+    { 577, 300, 49664, 65536, 0, 576, 3, NULL, NULL },
+    { 576, 349, 0, 0, 0, 0, 5, NULL, NULL },
+    { 578, 351, 0, 0, 0, 0, 0, NULL, CreateSmokeTask },
+    { 576, 479, 0, 0, 0, 0, 5, NULL, NULL },
+    { 578, 490, 0, 0, 0, 0, 0, NULL, CreateSmokeTask },
+    { 576, 860, 0, 0, 0, 0, 5, NULL, NULL },
+    { 577, 920, 73472, 73984, 0, 576, 67, NULL, NULL },
+    { 576, 930, 0, 0, 0, 0, 69, NULL, NULL },
+    { 576, 1020, 0, 0, 0, 0, 5, NULL, NULL },
+    { 576, 1070, 0, 0, 0, 0, 0, NULL, CreateExclamationTask },
+    { 576, 1130, 0, 0, 0, 0, 69, NULL, NULL },
+    { 578, 1150, 0, 0, 0, 0, 69, NULL, NULL },
+    { 576, 1160, 0, 0, 0, 0, 69, NULL, NULL },
+    { 576, 1191, 0, 0, 0, 0, 69, NULL, NULL },
+    { 579, 1195, 0, 0, 0, 0, 69, NULL, NULL },
+    { 580, 1230, 0, 0, 0, 83, 100, EventCharaHop, NULL },
+    { 581, 1259, 0, 0, 0, 83, 100, EventCharaHopLow, NULL },
+    { 582, 1450, 0, 0, 0, 0, 69, NULL, NULL },
+    { 583, 1480, 0, 0, 0, 0, 69, NULL, NULL },
+    { 585, 9999, 0, 0, 0, 0, 32832, NULL, CreateSmokeTask },
+};
+
+static const EventCharaKeyframe sEvent118Track4[9] = {
+    { 681, 600, 0, 0, 0, 0, 8258, NULL, NULL },
+    { 681, 601, 94208, 84480, 0, 0, 16450, NULL, NULL },
+    { 681, 1020, 0, 0, 0, 0, 69, NULL, NULL },
+    { 681, 1070, 0, 0, 0, 0, 64, NULL, CreateExclamationTask },
+    { 681, 1080, 0, 0, 0, 0, 5, NULL, NULL },
+    { 682, 1200, 0, 0, 0, 0, 5, NULL, NULL },
+    { 681, 1205, 0, 0, 0, 0, 5, NULL, NULL },
+    { 683, 1250, 98304, 69888, -5120, 681, 4227, NULL, NULL },
+    { 683, 9999, 0, 0, 0, 0, 32901, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent118Track5[7] = {
+    { 299, 1010, 0, 0, 0, 0, 8194, NULL, NULL },
+    { 301, 1011, 89856, 82176, -25600, 0, 16386, NULL, NULL },
+    { 301, 1050, 89856, 82176, -2560, 299, 131, NULL, NULL },
+    { 301, 1195, 0, 0, 0, 0, 133, NULL, NULL },
+    { 299, 1205, 94208, 84224, 0, 299, 3, NULL, NULL },
+    { 307, 1250, 98304, 69632, -5120, 299, 4227, NULL, NULL },
+    { 307, 9999, 0, 0, 0, 0, 32901, NULL, NULL },
+};
+
+static const EventCharaTrack sEvent118Tracks[6] = {
+    { sEvent118Track0, EVENT_CHARA_SORA },
+    { sEvent118Track1, EVENT_CHARA_DONALD },
+    { sEvent118Track2, EVENT_CHARA_GOOFY },
+    { sEvent118Track3, EVENT_CHARA_HOOK },
+    { sEvent118Track4, EVENT_CHARA_WENDY },
+    { sEvent118Track5, EVENT_CHARA_PETER_PAN },
+};
+
+const EventSequenceDef gEvent118 = {
+    ARRAY_COUNT(sEvent118Tracks),
+    sEvent118Tracks,
+    sEvent118Camera,
+    sEvent118Script,
+    sEvent118SoundCues,
+    NULL,
+    1550,
+    FALSE,
+    TRUE,
+    FALSE,
+    FALSE,
+    FALSE,
+    BATTLE_HOOK,
+    EVENT_NONE,
+    0,
+    { 0, 0 },
+    EVENT_EXIT_NONE,
+    0,
+    WORLD_NONE,
+    POOH_LEVEL_NONE,
+};

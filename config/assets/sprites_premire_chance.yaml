@@ -1,0 +1,137 @@
+group: sprites_premire_chance
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_premire_chance_frames.s
+    start: 0x0908BB54
+    end: 0x0908C374
+    data_start: 0x09EEA16C
+    data_end: 0x09EEA180
+  jp:
+  - name: sprites_premire_chance_frames.s
+    start: 0x090473C4
+    end: 0x09047BE4
+    data_start: 0x09EC1560
+    data_end: 0x09EC1574
+  eu:
+  - name: sprites_premire_chance_frames.s
+    start: 0x09161E28
+    end: 0x09162648
+    data_start: 0x09F75F84
+    data_end: 0x09F75F98
+entries:
+- name: gPremireChanceTitleFrames
+  record: SpriteTable
+  items: [gPremireChanceTitleFrame0]
+  us:
+    address: 0x09EEA16C
+  jp:
+    address: 0x09EC1560
+  eu:
+    address: 0x09F75F84
+- name: gPremireChanceTitleAnims
+  record: AnimTable
+  items: [gPremireChanceTitleAnim0]
+  us:
+    address: 0x09EEA170
+  jp:
+    address: 0x09EC1564
+  eu:
+    address: 0x09F75F88
+- name: gPremireChanceBarFrames
+  record: SpriteTable
+  items: [gPremireChanceBarFrame0, gPremireChanceBarFrame1]
+  us:
+    address: 0x09EEA174
+  jp:
+    address: 0x09EC1568
+  eu:
+    address: 0x09F75F8C
+- name: gPremireChanceBarAnims
+  record: AnimTable
+  items: [gPremireChanceBarAnim0]
+  us:
+    address: 0x09EEA17C
+  jp:
+    address: 0x09EC1570
+  eu:
+    address: 0x09F75F94
+- name: gPremireChanceTitleTiles
+  format: sprite_sheet
+  align: 4
+  cell: [120, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gPremireChanceTitleFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [16x16, 96, 0]
+    - [8x16, 112, 0]
+  animations:
+  - symbol: gPremireChanceTitleAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0908BB54
+    size: 1004
+  jp:
+    address: 0x090473C4
+    size: 1004
+  eu:
+    address: 0x09161E28
+    size: 1004
+- name: gPremireChanceBarTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 8]
+  anchor: [120, 0]
+  columns: 2
+  frames:
+  - symbol: gPremireChanceBarFrame0
+    pieces:
+    - [32x8, -120, 0]
+    - [32x8, -88, 0, {fresh: true}]
+    - [32x8, -56, 0, {fresh: true}]
+    - [32x8, -24, 0, {fresh: true}]
+    - [32x8, 8, 0, {fresh: true}]
+    - [32x8, 40, 0, {fresh: true}]
+    - [32x8, 72, 0, {fresh: true}]
+    - [16x8, 104, 0]
+  - symbol: gPremireChanceBarFrame1
+    pieces:
+    - [32x8, -120, 0, {vflip: true, same: [0, 0]}]
+    - [32x8, -88, 0, {vflip: true, same: [0, 1]}]
+    - [32x8, -56, 0, {vflip: true, same: [0, 2]}]
+    - [32x8, -24, 0, {vflip: true, same: [0, 3]}]
+    - [32x8, 8, 0, {vflip: true, same: [0, 4]}]
+    - [32x8, 40, 0, {vflip: true, same: [0, 5]}]
+    - [32x8, 72, 0, {vflip: true}]
+    - [16x8, 104, 0, {vflip: true}]
+  animations:
+  - symbol: gPremireChanceBarAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0908BF40
+    size: 1074
+  jp:
+    address: 0x090477B0
+    size: 1074
+  eu:
+    address: 0x09162214
+    size: 1074

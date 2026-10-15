@@ -1,0 +1,86 @@
+group: debug_font
+types: {}
+objects:
+  us:
+  - name: debug_font_tiles.s
+    start: 0x08F6E190
+    end: 0x08F709B0
+  - name: debug_font_tiles_1.s
+    start: 0x0941BEB8
+    end: 0x094233B8
+  jp:
+  - name: debug_font_tiles.s
+    start: 0x08F61698
+    end: 0x08F63EB8
+  - name: debug_font_tiles_1.s
+    start: 0x093D4194
+    end: 0x093DB694
+  eu:
+  - name: debug_font_tiles.s
+    start: 0x08F7F168
+    end: 0x08F81988
+  - name: debug_font_tiles_1.s
+    start: 0x094F22C4
+    end: 0x094F97C4
+entries:
+- name: gDebugFont2Bank0Tiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x08F6E190
+    size: 4096
+  jp:
+    address: 0x08F61698
+    size: 4096
+  eu:
+    address: 0x08F7F168
+    size: 4096
+- name: gDebugFont2Bank1Tiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x08F6F190
+    size: 6144
+  jp:
+    address: 0x08F62698
+    size: 6144
+  eu:
+    address: 0x08F80168
+    size: 6144
+- name: gDebugFontPalette
+  format: raw
+  ctype: u16
+  const: true
+  us:
+    address: 0x08F70990
+    size: 32
+  jp:
+    address: 0x08F63E98
+    size: 32
+  eu:
+    address: 0x08F81968
+    size: 32
+- name: gDebugFont0Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x0941BEB8
+    size: 7808
+  jp:
+    address: 0x093D4194
+    size: 7808
+  eu:
+    address: 0x094F22C4
+    size: 7808
+- name: gDebugFont1Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x0941DD38
+    size: 22144
+  jp:
+    address: 0x093D6014
+    size: 22144
+  eu:
+    address: 0x094F4144
+    size: 22144

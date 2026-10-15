@@ -1,0 +1,2395 @@
+group: sprites_map_tasks
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_map_tasks_frames_1.s
+    start: 0x0896207C
+    end: 0x08963B3C
+    data_start: 0x09EDF97C
+    data_end: 0x09EDF9A8
+  - name: sprites_map_tasks_frames_2.s
+    start: 0x093803D8
+    end: 0x09393218
+    data_start: 0x09EF04FC
+    data_end: 0x09EF06A8
+  - name: sprites_map_tasks_frames_3.s
+    start: 0x093A5DF0
+    end: 0x093AE9BC
+    data_start: 0x09EF0820
+    data_end: 0x09EF090C
+  - name: sprites_map_tasks_tiles.s
+    start: 0x0993AF64
+    end: 0x0993B764
+  - name: sprites_map_tasks_palettes.s
+    start: 0x099912A4
+    end: 0x09991924
+  jp:
+  - name: sprites_map_tasks_frames_1.s
+    start: 0x08955664
+    end: 0x08957124
+    data_start: 0x09EB73F8
+    data_end: 0x09EB7424
+  - name: sprites_map_tasks_frames_2.s
+    start: 0x0933B900
+    end: 0x0934E740
+    data_start: 0x09EC78E8
+    data_end: 0x09EC7A94
+  - name: sprites_map_tasks_frames_3.s
+    start: 0x09361318
+    end: 0x09369EE4
+    data_start: 0x09EC7C0C
+    data_end: 0x09EC7CF8
+  - name: sprites_map_tasks_tiles.s
+    start: 0x098EFA78
+    end: 0x098F0278
+  - name: sprites_map_tasks_palettes.s
+    start: 0x09945DB8
+    end: 0x09946438
+  eu:
+  - name: sprites_map_tasks_frames_1.s
+    start: 0x0898D9A0
+    end: 0x0898F460
+    data_start: 0x09F5A5D4
+    data_end: 0x09F5A600
+  - name: sprites_map_tasks_frames_2.s
+    start: 0x0944FA60
+    end: 0x094628A0
+    data_start: 0x09F7B6E0
+    data_end: 0x09F7B88C
+  - name: sprites_map_tasks_frames_3.s
+    start: 0x09475478
+    end: 0x0947E044
+    data_start: 0x09F7BA04
+    data_end: 0x09F7BAF0
+  - name: sprites_map_tasks_tiles.s
+    start: 0x0991ADF0
+    end: 0x0991B5F0
+  - name: sprites_map_tasks_palettes.s
+    start: 0x09997290
+    end: 0x09997910
+entries:
+- name: gEmy00L07BackFrames
+  record: SpriteTable
+  items: [gEmy00L07BackFrame0, gEmy00L07BackFrame1, gEmy00L07BackFrame2, gEmy00L07BackFrame3, gEmy00L07BackFrame4, gEmy00L07BackFrame5, gEmy00L07BackFrame6, gEmy00L07BackFrame7, gEmy00L07BackFrame8, gEmy00L07BackFrame9]
+  us:
+    address: 0x09EDF97C
+  jp:
+    address: 0x09EB73F8
+  eu:
+    address: 0x09F5A5D4
+- name: gEmy00L07BackAnims
+  record: AnimTable
+  items: [gEmy00L07BackAnim0]
+  us:
+    address: 0x09EDF9A4
+  jp:
+    address: 0x09EB7420
+  eu:
+    address: 0x09F5A5FC
+- name: gNiserikuHizaFFrames
+  record: SpriteTable
+  items: [gNiserikuHizaFFrame0, gNiserikuHizaFFrame1, gNiserikuHizaFFrame2, gNiserikuHizaFFrame3, gNiserikuHizaFFrame4]
+  us:
+    address: 0x09EF04FC
+  jp:
+    address: 0x09EC78E8
+  eu:
+    address: 0x09F7B6E0
+- name: gNiserikuHizaFAnims
+  record: AnimTable
+  items: [gNiserikuHizaFAnim0]
+  us:
+    address: 0x09EF0510
+  jp:
+    address: 0x09EC78FC
+  eu:
+    address: 0x09F7B6F4
+- name: gNiserikuKamaeFFrames
+  record: SpriteTable
+  items: [gNiserikuKamaeFFrame0, gNiserikuKamaeFFrame1, gNiserikuKamaeFFrame2, gNiserikuKamaeFFrame3, gNiserikuKamaeFFrame4, gNiserikuKamaeFFrame5]
+  us:
+    address: 0x09EF0514
+  jp:
+    address: 0x09EC7900
+  eu:
+    address: 0x09F7B6F8
+- name: gNiserikuKamaeFAnims
+  record: AnimTable
+  items: [gNiserikuKamaeFAnim0, gNiserikuKamaeFAnim1, gNiserikuKamaeFAnim2]
+  us:
+    address: 0x09EF052C
+  jp:
+    address: 0x09EC7918
+  eu:
+    address: 0x09F7B710
+- name: gNiserikuOmamoriFFrames
+  record: SpriteTable
+  items: [gNiserikuOmamoriFFrame0, gNiserikuOmamoriFFrame1, gNiserikuOmamoriFFrame2, gNiserikuOmamoriFFrame3]
+  us:
+    address: 0x09EF0538
+  jp:
+    address: 0x09EC7924
+  eu:
+    address: 0x09F7B71C
+- name: gNiserikuOmamoriFAnims
+  record: AnimTable
+  items: [gNiserikuOmamoriFAnim0, gNiserikuOmamoriFAnim1]
+  us:
+    address: 0x09EF0548
+  jp:
+    address: 0x09EC7934
+  eu:
+    address: 0x09F7B72C
+- name: gNiserikuRyoteFFrames
+  record: SpriteTable
+  items: [gNiserikuRyoteFFrame0, gNiserikuRyoteFFrame1, gNiserikuRyoteFFrame2, gNiserikuRyoteFFrame3]
+  us:
+    address: 0x09EF0550
+  jp:
+    address: 0x09EC793C
+  eu:
+    address: 0x09F7B734
+- name: gNiserikuRyoteFAnims
+  record: AnimTable
+  items: [gNiserikuRyoteFAnim0]
+  us:
+    address: 0x09EF0560
+  jp:
+    address: 0x09EC794C
+  eu:
+    address: 0x09F7B744
+- name: gNiserikuRyoteBFrames
+  record: SpriteTable
+  items: [gNiserikuRyoteBFrame0, gNiserikuRyoteBFrame1, gNiserikuRyoteBFrame2, gNiserikuRyoteBFrame3]
+  us:
+    address: 0x09EF0564
+  jp:
+    address: 0x09EC7950
+  eu:
+    address: 0x09F7B748
+- name: gNiserikuRyoteBAnims
+  record: AnimTable
+  items: [gNiserikuRyoteBAnim0]
+  us:
+    address: 0x09EF0574
+  jp:
+    address: 0x09EC7960
+  eu:
+    address: 0x09F7B758
+- name: gNiserikuWaraiFFrames
+  record: SpriteTable
+  items: [gNiserikuWaraiFFrame0, gNiserikuWaraiFFrame1, gNiserikuWaraiFFrame2, gNiserikuWaraiFFrame3]
+  us:
+    address: 0x09EF0578
+  jp:
+    address: 0x09EC7964
+  eu:
+    address: 0x09F7B75C
+- name: gNiserikuWaraiFAnims
+  record: AnimTable
+  items: [gNiserikuWaraiFAnim0]
+  us:
+    address: 0x09EF0588
+  jp:
+    address: 0x09EC7974
+  eu:
+    address: 0x09F7B76C
+- name: gNiserikuWalkFFrames
+  record: SpriteTable
+  items: [gNiserikuWalkFFrame0, gNiserikuWalkFFrame1, gNiserikuWalkFFrame2, gNiserikuWalkFFrame3, gNiserikuWalkFFrame4, gNiserikuWalkFFrame5, gNiserikuWalkFFrame6, gNiserikuWalkFFrame7]
+  us:
+    address: 0x09EF058C
+  jp:
+    address: 0x09EC7978
+  eu:
+    address: 0x09F7B770
+- name: gNiserikuWalkFAnims
+  record: AnimTable
+  items: [gNiserikuWalkFAnim0]
+  us:
+    address: 0x09EF05AC
+  jp:
+    address: 0x09EC7998
+  eu:
+    address: 0x09F7B790
+- name: gNiserikuWalkBFrames
+  record: SpriteTable
+  items: [gNiserikuWalkBFrame0, gNiserikuWalkBFrame1, gNiserikuWalkBFrame2, gNiserikuWalkBFrame3, gNiserikuWalkBFrame4, gNiserikuWalkBFrame5, gNiserikuWalkBFrame6, gNiserikuWalkBFrame7]
+  us:
+    address: 0x09EF05B0
+  jp:
+    address: 0x09EC799C
+  eu:
+    address: 0x09F7B794
+- name: gNiserikuWalkBAnims
+  record: AnimTable
+  items: [gNiserikuWalkBAnim0]
+  us:
+    address: 0x09EF05D0
+  jp:
+    address: 0x09EC79BC
+  eu:
+    address: 0x09F7B7B4
+- name: gNiserikuRunFFrames
+  record: SpriteTable
+  items: [gNiserikuRunFFrame0, gNiserikuRunFFrame1, gNiserikuRunFFrame2, gNiserikuRunFFrame3, gNiserikuRunFFrame4, gNiserikuRunFFrame5]
+  us:
+    address: 0x09EF05D4
+  jp:
+    address: 0x09EC79C0
+  eu:
+    address: 0x09F7B7B8
+- name: gNiserikuRunFAnims
+  record: AnimTable
+  items: [gNiserikuRunFAnim0]
+  us:
+    address: 0x09EF05EC
+  jp:
+    address: 0x09EC79D8
+  eu:
+    address: 0x09F7B7D0
+- name: gNiserikuRunBFrames
+  record: SpriteTable
+  items: [gNiserikuRunBFrame0, gNiserikuRunBFrame1, gNiserikuRunBFrame2, gNiserikuRunBFrame3, gNiserikuRunBFrame4, gNiserikuRunBFrame5]
+  us:
+    address: 0x09EF05F0
+  jp:
+    address: 0x09EC79DC
+  eu:
+    address: 0x09F7B7D4
+- name: gNiserikuRunBAnims
+  record: AnimTable
+  items: [gNiserikuRunBAnim0]
+  us:
+    address: 0x09EF0608
+  jp:
+    address: 0x09EC79F4
+  eu:
+    address: 0x09F7B7EC
+- name: gNiserikuDownFFrames
+  record: SpriteTable
+  items: [gNiserikuDownFFrame0, gNiserikuDownFFrame1, gNiserikuDownFFrame2, gNiserikuDownFFrame3, gNiserikuDownFFrame4, gNiserikuDownFFrame5, gNiserikuDownFFrame6]
+  us:
+    address: 0x09EF060C
+  jp:
+    address: 0x09EC79F8
+  eu:
+    address: 0x09F7B7F0
+- name: gNiserikuDownFAnims
+  record: AnimTable
+  items: [gNiserikuDownFAnim0, gNiserikuDownFAnim1]
+  us:
+    address: 0x09EF0628
+  jp:
+    address: 0x09EC7A14
+  eu:
+    address: 0x09F7B80C
+- name: gNiserikuShockFFrames
+  record: SpriteTable
+  items: [gNiserikuShockFFrame0, gNiserikuShockFFrame1]
+  us:
+    address: 0x09EF0630
+  jp:
+    address: 0x09EC7A1C
+  eu:
+    address: 0x09F7B814
+- name: gNiserikuShockFAnims
+  record: AnimTable
+  items: [gNiserikuShockFAnim0]
+  us:
+    address: 0x09EF0638
+  jp:
+    address: 0x09EC7A24
+  eu:
+    address: 0x09F7B81C
+- name: gNiserikuShockBFrames
+  record: SpriteTable
+  items: [gNiserikuShockBFrame0, gNiserikuShockBFrame1]
+  us:
+    address: 0x09EF063C
+  jp:
+    address: 0x09EC7A28
+  eu:
+    address: 0x09F7B820
+- name: gNiserikuShockBAnims
+  record: AnimTable
+  items: [gNiserikuShockBAnim0]
+  us:
+    address: 0x09EF0644
+  jp:
+    address: 0x09EC7A30
+  eu:
+    address: 0x09F7B828
+- name: gNiserikuTeFFrames
+  record: SpriteTable
+  items: [gNiserikuTeFFrame0, gNiserikuTeFFrame1, gNiserikuTeFFrame2, gNiserikuTeFFrame3]
+  us:
+    address: 0x09EF0648
+  jp:
+    address: 0x09EC7A34
+  eu:
+    address: 0x09F7B82C
+- name: gNiserikuTeFAnims
+  record: AnimTable
+  items: [gNiserikuTeFAnim0]
+  us:
+    address: 0x09EF0658
+  jp:
+    address: 0x09EC7A44
+  eu:
+    address: 0x09F7B83C
+- name: gNiserikuKamaeBFrames
+  record: SpriteTable
+  items: [gNiserikuKamaeBFrame0, gNiserikuKamaeBFrame1, gNiserikuKamaeBFrame2, gNiserikuKamaeBFrame3, gNiserikuKamaeBFrame4, gNiserikuKamaeBFrame5, gNiserikuKamaeBFrame6, gNiserikuKamaeBFrame7, gNiserikuKamaeBFrame8, gNiserikuKamaeBFrame9, gNiserikuKamaeBFrame10, gNiserikuKamaeBFrame11, gNiserikuKamaeBFrame12]
+  us:
+    address: 0x09EF065C
+  jp:
+    address: 0x09EC7A48
+  eu:
+    address: 0x09F7B840
+- name: gNiserikuKamaeBAnims
+  record: AnimTable
+  items: [gNiserikuKamaeBAnim0, gNiserikuKamaeBAnim1, gNiserikuKamaeBAnim2, gNiserikuKamaeBAnim3]
+  us:
+    address: 0x09EF0690
+  jp:
+    address: 0x09EC7A7C
+  eu:
+    address: 0x09F7B874
+- name: gNiseBl00Frames
+  record: SpriteTable
+  items: [gNiseBl00Frame0]
+  us:
+    address: 0x09EF06A0
+  jp:
+    address: 0x09EC7A8C
+  eu:
+    address: 0x09F7B884
+- name: gNiseBl00Anims
+  record: AnimTable
+  items: [gNiseBl00Anim0]
+  us:
+    address: 0x09EF06A4
+  jp:
+    address: 0x09EC7A90
+  eu:
+    address: 0x09F7B888
+- name: gMickeyFl00Frames
+  record: SpriteTable
+  items: [gMickeyFl00Frame0]
+  us:
+    address: 0x09EF0820
+  jp:
+    address: 0x09EC7C0C
+  eu:
+    address: 0x09F7BA04
+- name: gMickeyFl00Anims
+  record: AnimTable
+  items: [gMickeyFl00Anim0]
+  us:
+    address: 0x09EF0824
+  jp:
+    address: 0x09EC7C10
+  eu:
+    address: 0x09F7BA08
+- name: gMickeyBl00Frames
+  record: SpriteTable
+  items: [gMickeyBl00Frame0]
+  us:
+    address: 0x09EF0828
+  jp:
+    address: 0x09EC7C14
+  eu:
+    address: 0x09F7BA0C
+- name: gMickeyBl00Anims
+  record: AnimTable
+  items: [gMickeyBl00Anim0]
+  us:
+    address: 0x09EF082C
+  jp:
+    address: 0x09EC7C18
+  eu:
+    address: 0x09F7BA10
+- name: gMickey01Frames
+  record: SpriteTable
+  items: [gMickey01Frame0, gMickey01Frame1, gMickey01Frame2, gMickey01Frame3, gMickey01Frame4, gMickey01Frame5, gMickey01Frame6, gMickey01Frame7]
+  us:
+    address: 0x09EF0830
+  jp:
+    address: 0x09EC7C1C
+  eu:
+    address: 0x09F7BA14
+- name: gMickey01Anims
+  record: AnimTable
+  items: [gMickey01Anim0]
+  us:
+    address: 0x09EF0850
+  jp:
+    address: 0x09EC7C3C
+  eu:
+    address: 0x09F7BA34
+- name: gMickey02Frames
+  record: SpriteTable
+  items: [gMickey02Frame0, gMickey02Frame1, gMickey02Frame2, gMickey02Frame3]
+  us:
+    address: 0x09EF0854
+  jp:
+    address: 0x09EC7C40
+  eu:
+    address: 0x09F7BA38
+- name: gMickey02Anims
+  record: AnimTable
+  items: [gMickey02Anim0]
+  us:
+    address: 0x09EF0864
+  jp:
+    address: 0x09EC7C50
+  eu:
+    address: 0x09F7BA48
+- name: gMickey03Frames
+  record: SpriteTable
+  items: [gMickey03Frame0, gMickey03Frame1, gMickey03Frame2, gMickey03Frame3, gMickey03Frame4, gMickey03Frame5, gMickey03Frame6, gMickey03Frame7]
+  us:
+    address: 0x09EF0868
+  jp:
+    address: 0x09EC7C54
+  eu:
+    address: 0x09F7BA4C
+- name: gMickey03Anims
+  record: AnimTable
+  items: [gMickey03Anim0]
+  us:
+    address: 0x09EF0888
+  jp:
+    address: 0x09EC7C74
+  eu:
+    address: 0x09F7BA6C
+- name: gMickey04Frames
+  record: SpriteTable
+  items: [gMickey04Frame0, gMickey04Frame1, gMickey04Frame2, gMickey04Frame3]
+  us:
+    address: 0x09EF088C
+  jp:
+    address: 0x09EC7C78
+  eu:
+    address: 0x09F7BA70
+- name: gMickey04Anims
+  record: AnimTable
+  items: [gMickey04Anim0]
+  us:
+    address: 0x09EF089C
+  jp:
+    address: 0x09EC7C88
+  eu:
+    address: 0x09F7BA80
+- name: gMickey05Frames
+  record: SpriteTable
+  items: [gMickey05Frame0, gMickey05Frame1, gMickey05Frame2, gMickey05Frame3]
+  us:
+    address: 0x09EF08A0
+  jp:
+    address: 0x09EC7C8C
+  eu:
+    address: 0x09F7BA84
+- name: gMickey05Anims
+  record: AnimTable
+  items: [gMickey05Anim0]
+  us:
+    address: 0x09EF08B0
+  jp:
+    address: 0x09EC7C9C
+  eu:
+    address: 0x09F7BA94
+- name: gMickey06Frames
+  record: SpriteTable
+  items: [gMickey06Frame0, gMickey06Frame1, gMickey06Frame2]
+  us:
+    address: 0x09EF08B4
+  jp:
+    address: 0x09EC7CA0
+  eu:
+    address: 0x09F7BA98
+- name: gMickey06Anims
+  record: AnimTable
+  items: [gMickey06Anim0]
+  us:
+    address: 0x09EF08C0
+  jp:
+    address: 0x09EC7CAC
+  eu:
+    address: 0x09F7BAA4
+- name: gMickey07Frames
+  record: SpriteTable
+  items: [gMickey07Frame0, gMickey07Frame1, gMickey07Frame2, gMickey07Frame3, gMickey07Frame4, gMickey07Frame5, gMickey07Frame6, gMickey07Frame7]
+  us:
+    address: 0x09EF08C4
+  jp:
+    address: 0x09EC7CB0
+  eu:
+    address: 0x09F7BAA8
+- name: gMickey07Anims
+  record: AnimTable
+  items: [gMickey07Anim0]
+  us:
+    address: 0x09EF08E4
+  jp:
+    address: 0x09EC7CD0
+  eu:
+    address: 0x09F7BAC8
+- name: gMickey08Frames
+  record: SpriteTable
+  items: [gMickey08Frame0, gMickey08Frame1, gMickey08Frame2, gMickey08Frame3, gMickey08Frame4, gMickey08Frame5, gMickey08Frame6, gMickey08Frame7]
+  us:
+    address: 0x09EF08E8
+  jp:
+    address: 0x09EC7CD4
+  eu:
+    address: 0x09F7BACC
+- name: gMickey08Anims
+  record: AnimTable
+  items: [gMickey08Anim0]
+  us:
+    address: 0x09EF0908
+  jp:
+    address: 0x09EC7CF4
+  eu:
+    address: 0x09F7BAEC
+- name: gEmy00L07BackTiles
+  format: sprite_sheet
+  align: 4
+  cell: [43, 62]
+  anchor: [23, 47]
+  columns: 8
+  frames:
+  - symbol: gEmy00L07BackFrame0
+    pieces:
+    - [32x32, -18, -35]
+    - [32x32, -18, -27]
+  - symbol: gEmy00L07BackFrame1
+    pieces:
+    - [32x32, -20, -47]
+    - [32x32, -12, -23]
+  - symbol: gEmy00L07BackFrame2
+    pieces:
+    - [32x32, -21, -40]
+    - [32x32, -13, -24]
+  - symbol: gEmy00L07BackFrame3
+    pieces:
+    - [32x32, -22, -31]
+    - [16x16, -14, -7]
+    - [16x16, 2, -15]
+  - symbol: gEmy00L07BackFrame4
+    pieces:
+    - [32x32, -21, -26]
+    - [16x16, 3, -10]
+  - symbol: gEmy00L07BackFrame5
+    pieces:
+    - [32x32, -22, -25]
+    - [16x16, 2, -17]
+  - symbol: gEmy00L07BackFrame6
+    pieces:
+    - [32x32, -23, -21]
+    - [16x16, 1, -13]
+  - symbol: gEmy00L07BackFrame7
+    pieces:
+    - [32x16, -17, -18]
+    - [32x8, -17, -2]
+  - symbol: gEmy00L07BackFrame8
+    pieces:
+    - [32x32, -17, -17]
+  - symbol: gEmy00L07BackFrame9
+    pieces: []
+  animations:
+  - symbol: gEmy00L07BackAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 10], [2, 10], [3, 10], [4, 10], [5, 10], [6, 10], [7, 10], [8, 10], [9, 10]]
+  us:
+    address: 0x0896207C
+    size: 6848
+  jp:
+    address: 0x08955664
+    size: 6848
+  eu:
+    address: 0x0898D9A0
+    size: 6848
+- name: niseriku_hiza_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuHizaFTiles
+  align: 4
+  cell: [48, 65]
+  anchor: [20, 49]
+  columns: 5
+  frames:
+  - symbol: gNiserikuHizaFFrame0
+    pieces:
+    - [8x8, -20, 8]
+    - [32x32, -12, -32]
+    - [32x16, -12, 0]
+  - symbol: gNiserikuHizaFFrame1
+    pieces:
+    - [8x8, -19, 8]
+    - [32x32, -11, -32]
+    - [32x16, -11, 0]
+  - symbol: gNiserikuHizaFFrame2
+    pieces:
+    - [8x16, 20, -8]
+    - [8x8, -20, 8]
+    - [32x32, -12, -32]
+    - [32x16, -12, 0]
+  - symbol: gNiserikuHizaFFrame3
+    pieces:
+    - [32x32, -12, -41]
+    - [32x16, -12, -9]
+    - [16x8, -4, 7]
+  - symbol: gNiserikuHizaFFrame4
+    pieces:
+    - [32x64, -12, -49]
+  animations:
+  - symbol: gNiserikuHizaFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7]]
+  us:
+    address: 0x093803D8
+    size: 4434
+  jp:
+    address: 0x0933B900
+    size: 4434
+  eu:
+    address: 0x0944FA60
+    size: 4434
+- name: niseriku_kamae_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuKamaeFTiles
+  align: 4
+  cell: [55, 64]
+  anchor: [32, 51]
+  columns: 6
+  frames:
+  - symbol: gNiserikuKamaeFFrame0
+    pieces:
+    - [32x64, -24, -51]
+    - [8x16, -32, -27]
+  - symbol: gNiserikuKamaeFFrame1
+    pieces:
+    - [32x64, -23, -51]
+    - [8x16, -31, -19]
+  - symbol: gNiserikuKamaeFFrame2
+    pieces:
+    - [32x64, -19, -51]
+  - symbol: gNiserikuKamaeFFrame3
+    pieces:
+    - [32x64, -15, -51]
+    - [8x16, -23, -43]
+    - [8x16, -23, -3]
+  - symbol: gNiserikuKamaeFFrame4
+    pieces:
+    - [32x64, -17, -51]
+    - [8x8, 15, -43]
+  - symbol: gNiserikuKamaeFFrame5
+    pieces:
+    - [32x64, -17, -51]
+    - [8x16, 15, -51]
+  animations:
+  - symbol: gNiserikuKamaeFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 6], [2, 8], [3, 10], [4, 6], [5, 7]]
+  - symbol: gNiserikuKamaeFAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 6]]
+  - symbol: gNiserikuKamaeFAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 6], [0, 6]]
+  us:
+    address: 0x0938152C
+    size: 6646
+  jp:
+    address: 0x0933CA54
+    size: 6646
+  eu:
+    address: 0x09450BB4
+    size: 6646
+- name: niseriku_omamori_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuOmamoriFTiles
+  align: 4
+  cell: [32, 64]
+  anchor: [20, 52]
+  columns: 4
+  frames:
+  - symbol: gNiserikuOmamoriFFrame0
+    pieces:
+    - [16x32, -12, -44]
+    - [8x32, 4, -44]
+    - [16x16, -12, -12]
+    - [8x16, 4, -12]
+    - [16x8, -4, -52]
+    - [16x8, -4, 4]
+  - symbol: gNiserikuOmamoriFFrame1
+    pieces:
+    - [16x32, -12, -44]
+    - [8x32, 4, -44]
+    - [16x16, -12, -12]
+    - [8x16, 4, -12]
+    - [16x8, -8, -52]
+    - [16x8, -4, 4]
+  - symbol: gNiserikuOmamoriFFrame2
+    pieces:
+    - [16x32, -12, -44]
+    - [8x32, 4, -44]
+    - [16x16, -12, -12]
+    - [8x16, 4, -12]
+    - [16x8, -8, -52]
+    - [16x8, -4, 4]
+  - symbol: gNiserikuOmamoriFFrame3
+    pieces:
+    - [16x32, -12, -44]
+    - [8x32, 4, -44]
+    - [16x16, -12, -12]
+    - [8x16, 4, -12]
+    - [16x8, -4, -52]
+    - [16x8, -4, 4]
+    - [8x8, -20, -28]
+  animations:
+  - symbol: gNiserikuOmamoriFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 8], [2, 6], [3, 7]]
+  - symbol: gNiserikuOmamoriFAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 7], [2, 6], [1, 8], [0, 10]]
+  us:
+    address: 0x09382F24
+    size: 2866
+  jp:
+    address: 0x0933E44C
+    size: 2866
+  eu:
+    address: 0x094525AC
+    size: 2866
+- name: niseriku_ryote_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuRyoteFTiles
+  align: 4
+  cell: [32, 64]
+  anchor: [18, 53]
+  columns: 4
+  frames:
+  - symbol: gNiserikuRyoteFFrame0
+    pieces:
+    - [32x64, -18, -53]
+  - symbol: gNiserikuRyoteFFrame1
+    pieces:
+    - [32x64, -18, -53]
+  - symbol: gNiserikuRyoteFFrame2
+    pieces:
+    - [32x64, -18, -53]
+  - symbol: gNiserikuRyoteFFrame3
+    pieces:
+    - [32x64, -18, -53]
+  animations:
+  - symbol: gNiserikuRyoteFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 8], [2, 10], [3, 7]]
+  us:
+    address: 0x09383A58
+    size: 4158
+  jp:
+    address: 0x0933EF80
+    size: 4158
+  eu:
+    address: 0x094530E0
+    size: 4158
+- name: niseriku_ryote_b
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuRyoteBTiles
+  align: 4
+  cell: [32, 64]
+  anchor: [20, 56]
+  columns: 4
+  frames:
+  - symbol: gNiserikuRyoteBFrame0
+    pieces:
+    - [32x64, -20, -56]
+  - symbol: gNiserikuRyoteBFrame1
+    pieces:
+    - [32x64, -20, -56]
+  - symbol: gNiserikuRyoteBFrame2
+    pieces:
+    - [32x64, -20, -56]
+  - symbol: gNiserikuRyoteBFrame3
+    pieces:
+    - [32x64, -20, -56]
+  animations:
+  - symbol: gNiserikuRyoteBAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 6], [2, 8], [3, 10], [3, 7]]
+  us:
+    address: 0x09384A98
+    size: 4158
+  jp:
+    address: 0x0933FFC0
+    size: 4158
+  eu:
+    address: 0x09454120
+    size: 4158
+- name: niseriku_warai_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuWaraiFTiles
+  align: 4
+  cell: [32, 56]
+  anchor: [14, 50]
+  columns: 4
+  frames:
+  - symbol: gNiserikuWaraiFFrame0
+    pieces:
+    - [16x8, -6, -50]
+    - [32x32, -14, -42]
+    - [32x16, -14, -10]
+  - symbol: gNiserikuWaraiFFrame1
+    pieces:
+    - [16x8, -6, -50]
+    - [32x32, -14, -42]
+    - [32x16, -14, -10]
+  - symbol: gNiserikuWaraiFFrame2
+    pieces:
+    - [16x8, -6, -50]
+    - [32x32, -14, -42]
+    - [32x16, -14, -10]
+  - symbol: gNiserikuWaraiFFrame3
+    pieces:
+    - [16x8, -6, -50]
+    - [32x32, -14, -42]
+    - [32x16, -14, -10]
+  animations:
+  - symbol: gNiserikuWaraiFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 12], [3, 12], [2, 12], [3, 12], [2, 12], [3, 12], [2, 12], [3, 12]]
+  us:
+    address: 0x09385AD8
+    size: 3462
+  jp:
+    address: 0x09341000
+    size: 3462
+  eu:
+    address: 0x09455160
+    size: 3462
+- name: niseriku_walk_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuWalkFTiles
+  align: 4
+  cell: [32, 64]
+  anchor: [16, 52]
+  columns: 8
+  frames:
+  - symbol: gNiserikuWalkFFrame0
+    pieces:
+    - [32x64, -16, -52]
+  - symbol: gNiserikuWalkFFrame1
+    pieces:
+    - [32x64, -16, -52]
+  - symbol: gNiserikuWalkFFrame2
+    pieces:
+    - [32x64, -16, -52]
+  - symbol: gNiserikuWalkFFrame3
+    pieces:
+    - [32x64, -16, -52]
+  - symbol: gNiserikuWalkFFrame4
+    pieces:
+    - [32x64, -16, -52]
+  - symbol: gNiserikuWalkFFrame5
+    pieces:
+    - [32x64, -16, -52]
+  - symbol: gNiserikuWalkFFrame6
+    pieces:
+    - [32x64, -16, -52]
+  - symbol: gNiserikuWalkFFrame7
+    pieces:
+    - [32x64, -16, -52]
+  animations:
+  - symbol: gNiserikuWalkFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [7, 7]]
+  us:
+    address: 0x09386860
+    size: 8310
+  jp:
+    address: 0x09341D88
+    size: 8310
+  eu:
+    address: 0x09455EE8
+    size: 8310
+- name: niseriku_walk_b
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuWalkBTiles
+  align: 4
+  cell: [33, 64]
+  anchor: [16, 56]
+  columns: 8
+  frames:
+  - symbol: gNiserikuWalkBFrame0
+    pieces:
+    - [32x64, -16, -56]
+  - symbol: gNiserikuWalkBFrame1
+    pieces:
+    - [32x64, -16, -56]
+  - symbol: gNiserikuWalkBFrame2
+    pieces:
+    - [32x64, -16, -56]
+  - symbol: gNiserikuWalkBFrame3
+    pieces:
+    - [32x64, -16, -56]
+  - symbol: gNiserikuWalkBFrame4
+    pieces:
+    - [32x64, -16, -56]
+  - symbol: gNiserikuWalkBFrame5
+    pieces:
+    - [32x64, -15, -56]
+  - symbol: gNiserikuWalkBFrame6
+    pieces:
+    - [32x64, -16, -56]
+  - symbol: gNiserikuWalkBFrame7
+    pieces:
+    - [32x64, -16, -56]
+  animations:
+  - symbol: gNiserikuWalkBAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [7, 7]]
+  us:
+    address: 0x093888D8
+    size: 8310
+  jp:
+    address: 0x09343E00
+    size: 8310
+  eu:
+    address: 0x09457F60
+    size: 8310
+- name: niseriku_run_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuRunFTiles
+  align: 4
+  cell: [40, 56]
+  anchor: [22, 45]
+  columns: 6
+  frames:
+  - symbol: gNiserikuRunFFrame0
+    pieces:
+    - [32x32, -14, -44]
+    - [32x16, -14, -12]
+  - symbol: gNiserikuRunFFrame1
+    pieces:
+    - [32x32, -14, -45]
+    - [32x16, -14, -13]
+    - [8x8, -22, -8]
+  - symbol: gNiserikuRunFFrame2
+    pieces:
+    - [32x32, -14, -44]
+    - [32x16, -14, -12]
+  - symbol: gNiserikuRunFFrame3
+    pieces:
+    - [32x32, -14, -44]
+    - [32x16, -14, -12]
+  - symbol: gNiserikuRunFFrame4
+    pieces:
+    - [32x32, -14, -45]
+    - [32x16, -14, -13]
+    - [8x16, -22, -37]
+  - symbol: gNiserikuRunFFrame5
+    pieces:
+    - [32x32, -14, -45]
+    - [32x16, -14, -13]
+    - [16x8, -14, 3]
+    - [8x16, -22, -29]
+  animations:
+  - symbol: gNiserikuRunFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [5, 5]]
+  us:
+    address: 0x0938A950
+    size: 4982
+  jp:
+    address: 0x09345E78
+    size: 4982
+  eu:
+    address: 0x09459FD8
+    size: 4982
+- name: niseriku_run_b
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuRunBTiles
+  align: 4
+  cell: [47, 57]
+  anchor: [23, 44]
+  columns: 6
+  frames:
+  - symbol: gNiserikuRunBFrame0
+    pieces:
+    - [32x32, -16, -44]
+    - [32x16, -16, -12]
+    - [32x8, -16, 4]
+  - symbol: gNiserikuRunBFrame1
+    pieces:
+    - [32x32, -23, -44]
+    - [32x16, -23, -12]
+    - [8x32, 9, -36]
+    - [8x16, 9, -4]
+  - symbol: gNiserikuRunBFrame2
+    pieces:
+    - [32x32, -22, -44]
+    - [32x16, -14, -12]
+    - [8x16, 10, -28]
+  - symbol: gNiserikuRunBFrame3
+    pieces:
+    - [32x32, -16, -43]
+    - [16x8, 0, 5]
+    - [32x16, -8, -11]
+  - symbol: gNiserikuRunBFrame4
+    pieces:
+    - [32x32, -20, -44]
+    - [32x16, -20, -12]
+    - [8x32, 12, -20]
+  - symbol: gNiserikuRunBFrame5
+    pieces:
+    - [32x32, -16, -43]
+    - [32x16, -16, -11]
+    - [8x16, 16, -19]
+  animations:
+  - symbol: gNiserikuRunBAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [5, 5]]
+  us:
+    address: 0x0938BCC8
+    size: 5416
+  jp:
+    address: 0x093471F0
+    size: 5416
+  eu:
+    address: 0x0945B350
+    size: 5416
+- name: niseriku_down_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuDownFTiles
+  align: 4
+  cell: [66, 74]
+  anchor: [45, 49]
+  columns: 7
+  frames:
+  - symbol: gNiserikuDownFFrame0
+    pieces:
+    - [32x64, -13, -49]
+  - symbol: gNiserikuDownFFrame1
+    pieces:
+    - [32x32, -21, -41]
+    - [32x16, -21, -9]
+  - symbol: gNiserikuDownFFrame2
+    pieces:
+    - [32x32, -21, -33]
+    - [32x16, -21, -1]
+  - symbol: gNiserikuDownFFrame3
+    pieces:
+    - [32x32, -27, -25]
+    - [32x8, -27, 7]
+  - symbol: gNiserikuDownFFrame4
+    pieces:
+    - [32x32, -44, -9]
+    - [16x32, -12, -9]
+  - symbol: gNiserikuDownFFrame5
+    pieces:
+    - [32x32, -45, -7]
+    - [16x32, -13, -7]
+  - symbol: gNiserikuDownFFrame6
+    pieces:
+    - [32x32, -27, -18]
+    - [16x32, 5, -18]
+  animations:
+  - symbol: gNiserikuDownFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10], [1, 8], [2, 12], [3, 8], [4, 6], [5, 8]]
+  - symbol: gNiserikuDownFAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 7]]
+  us:
+    address: 0x0938D1F0
+    size: 4882
+  jp:
+    address: 0x09348718
+    size: 4882
+  eu:
+    address: 0x0945C878
+    size: 4882
+- name: niseriku_shock_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuShockFTiles
+  align: 4
+  cell: [32, 64]
+  anchor: [13, 49]
+  columns: 2
+  frames:
+  - symbol: gNiserikuShockFFrame0
+    pieces:
+    - [32x64, -13, -49]
+  - symbol: gNiserikuShockFFrame1
+    pieces:
+    - [32x64, -13, -49]
+  animations:
+  - symbol: gNiserikuShockFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8]]
+  us:
+    address: 0x0938E504
+    size: 2082
+  jp:
+    address: 0x09349A2C
+    size: 2082
+  eu:
+    address: 0x0945DB8C
+    size: 2082
+- name: niseriku_shock_b
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuShockBTiles
+  align: 4
+  cell: [32, 57]
+  anchor: [19, 51]
+  columns: 2
+  frames:
+  - symbol: gNiserikuShockBFrame0
+    pieces:
+    - [32x32, -19, -51]
+    - [16x16, -11, -19]
+    - [16x8, -11, -3]
+  - symbol: gNiserikuShockBFrame1
+    pieces:
+    - [32x32, -19, -50]
+    - [8x8, -19, -18]
+    - [16x16, -11, -18]
+    - [16x8, -11, -2]
+  animations:
+  - symbol: gNiserikuShockBAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8]]
+  us:
+    address: 0x0938ED28
+    size: 1504
+  jp:
+    address: 0x0934A250
+    size: 1504
+  eu:
+    address: 0x0945E3B0
+    size: 1504
+- name: niseriku_te_f
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuTeFTiles
+  align: 4
+  cell: [24, 56]
+  anchor: [12, 50]
+  columns: 4
+  frames:
+  - symbol: gNiserikuTeFFrame0
+    pieces:
+    - [16x32, -12, -50]
+    - [8x32, 4, -50]
+    - [16x16, -12, -18]
+    - [8x16, 4, -18]
+    - [16x8, -12, -2]
+    - [8x8, 4, -2]
+  - symbol: gNiserikuTeFFrame1
+    pieces:
+    - [16x32, -12, -50]
+    - [8x32, 4, -50]
+    - [16x16, -12, -18]
+    - [8x16, 4, -18]
+    - [16x8, -12, -2, {fresh: true}]
+    - [8x8, 4, -2, {fresh: true}]
+  - symbol: gNiserikuTeFFrame2
+    pieces:
+    - [16x32, -12, -50]
+    - [8x32, 4, -50]
+    - [16x16, -12, -18]
+    - [8x16, 4, -18]
+    - [16x8, -12, -2, {fresh: true}]
+    - [8x8, 4, -2, {fresh: true}]
+  - symbol: gNiserikuTeFFrame3
+    pieces:
+    - [16x32, -12, -50]
+    - [8x32, 4, -50]
+    - [16x16, -12, -18]
+    - [8x16, 4, -18]
+    - [16x8, -12, -2, {fresh: true}]
+    - [8x8, 4, -2, {fresh: true}]
+  animations:
+  - symbol: gNiserikuTeFAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8]]
+  us:
+    address: 0x0938F308
+    size: 2870
+  jp:
+    address: 0x0934A830
+    size: 2870
+  eu:
+    address: 0x0945E990
+    size: 2870
+- name: niseriku_kamae_b
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiserikuKamaeBTiles
+  align: 4
+  cell: [84, 80]
+  anchor: [48, 64]
+  columns: 8
+  frames:
+  - symbol: gNiserikuKamaeBFrame0
+    pieces:
+    - [8x32, 0, -48]
+    - [32x32, -32, -48]
+    - [16x16, -16, -16]
+    - [16x8, -16, 0]
+  - symbol: gNiserikuKamaeBFrame1
+    pieces:
+    - [32x32, -31, -48]
+    - [16x16, -15, -16]
+    - [16x8, -15, 0]
+    - [8x16, -39, -40]
+  - symbol: gNiserikuKamaeBFrame2
+    pieces:
+    - [32x32, -29, -48]
+    - [16x16, -13, -16]
+    - [16x8, -13, 0]
+    - [16x16, -45, -48]
+  - symbol: gNiserikuKamaeBFrame3
+    pieces:
+    - [32x64, -24, -56]
+    - [8x16, -32, -64]
+  - symbol: gNiserikuKamaeBFrame4
+    pieces:
+    - [8x8, -31, -40]
+    - [32x64, -23, -48]
+  - symbol: gNiserikuKamaeBFrame5
+    pieces:
+    - [8x8, -31, -40]
+    - [32x64, -23, -48]
+  - symbol: gNiserikuKamaeBFrame6
+    pieces:
+    - [32x64, -20, -51]
+    - [16x16, 12, -51]
+    - [8x16, 28, -51]
+  - symbol: gNiserikuKamaeBFrame7
+    pieces:
+    - [8x8, 0, -56]
+    - [32x64, -32, -64]
+  - symbol: gNiserikuKamaeBFrame8
+    pieces:
+    - [32x32, -32, -40]
+    - [16x8, -24, -48]
+    - [16x16, -48, -48]
+    - [8x32, -40, -32]
+    - [32x8, -32, -8]
+  - symbol: gNiserikuKamaeBFrame9
+    pieces:
+    - [32x32, -32, -40]
+    - [16x8, -40, -8]
+    - [8x8, -40, -16]
+    - [16x8, -16, -8]
+    - [16x16, 0, -24]
+    - [8x16, 16, -24]
+  - symbol: gNiserikuKamaeBFrame10
+    pieces:
+    - [32x32, -24, -47]
+    - [32x16, -32, -15]
+    - [16x8, 8, -31]
+    - [8x8, 8, -39]
+  - symbol: gNiserikuKamaeBFrame11
+    pieces:
+    - [32x32, -25, -48]
+    - [32x16, -25, -16]
+    - [16x8, -9, 0]
+  - symbol: gNiserikuKamaeBFrame12
+    pieces:
+    - [32x32, -26, -48]
+    - [16x8, -10, 0]
+    - [16x16, -12, -16]
+  animations:
+  - symbol: gNiserikuKamaeBAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 6], [2, 8], [3, 10], [4, 6], [5, 8]]
+  - symbol: gNiserikuKamaeBAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 7], [6, 10], [7, 8], [8, 4], [9, 8], [10, 10], [11, 6], [12, 6]]
+  - symbol: gNiserikuKamaeBAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gNiserikuKamaeBAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 6], [0, 8]]
+  us:
+    address: 0x0938FE40
+    size: 12536
+  jp:
+    address: 0x0934B368
+    size: 12536
+  eu:
+    address: 0x0945F4C8
+    size: 12536
+- name: nise_bl00
+  format: sprite_sheet
+  palette: niseriku
+  symbol: gNiseBl00Tiles
+  align: 4
+  cell: [32, 56]
+  anchor: [18, 49]
+  columns: 1
+  frames:
+  - symbol: gNiseBl00Frame0
+    pieces:
+    - [16x8, -7, -49]
+    - [32x32, -18, -41]
+    - [16x16, -10, -9]
+  animations:
+  - symbol: gNiseBl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x09392F38
+    size: 736
+  jp:
+    address: 0x0934E460
+    size: 736
+  eu:
+    address: 0x094625C0
+    size: 736
+- name: mickey_fl00
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickeyFl00Tiles
+  align: 4
+  cell: [32, 48]
+  anchor: [16, 38]
+  columns: 1
+  frames:
+  - symbol: gMickeyFl00Frame0
+    pieces:
+    - [16x8, -8, -38]
+    - [32x32, -16, -30]
+    - [16x8, 0, 2]
+  animations:
+  - symbol: gMickeyFl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093A5DF0
+    size: 672
+  jp:
+    address: 0x09361318
+    size: 672
+  eu:
+    address: 0x09475478
+    size: 672
+- name: mickey_bl00
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickeyBl00Tiles
+  align: 4
+  cell: [24, 40]
+  anchor: [11, 35]
+  columns: 1
+  frames:
+  - symbol: gMickeyBl00Frame0
+    pieces:
+    - [16x32, -11, -35]
+    - [8x32, 5, -35]
+    - [16x8, -11, -3]
+    - [8x8, 5, -3]
+  animations:
+  - symbol: gMickeyBl00Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093A6090
+    size: 518
+  jp:
+    address: 0x093615B8
+    size: 518
+  eu:
+    address: 0x09475718
+    size: 518
+- name: mickey_01
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickey01Tiles
+  align: 4
+  cell: [38, 51]
+  anchor: [18, 40]
+  columns: 8
+  frames:
+  - symbol: gMickey01Frame0
+    pieces:
+    - [32x32, -13, -29]
+    - [16x8, -5, -37]
+    - [16x8, -13, 3]
+  - symbol: gMickey01Frame1
+    pieces:
+    - [32x32, -13, -29]
+    - [16x8, -5, -37]
+    - [16x8, -5, 3]
+  - symbol: gMickey01Frame2
+    pieces:
+    - [32x32, -13, -31]
+    - [16x8, -5, -39]
+    - [16x8, -5, 1]
+  - symbol: gMickey01Frame3
+    pieces:
+    - [32x32, -15, -31]
+    - [16x8, -7, -39]
+    - [16x8, 1, 1]
+  - symbol: gMickey01Frame4
+    pieces:
+    - [32x32, -16, -31]
+    - [16x8, -8, -39]
+    - [32x8, -16, 1]
+  - symbol: gMickey01Frame5
+    pieces:
+    - [32x32, -18, -32]
+    - [32x8, -18, 0]
+    - [16x8, -10, -40]
+  - symbol: gMickey01Frame6
+    pieces:
+    - [32x32, -12, -31]
+    - [32x8, -12, 1]
+    - [16x8, -4, -39]
+  - symbol: gMickey01Frame7
+    pieces:
+    - [32x32, -13, -32]
+    - [32x8, -13, 0]
+    - [16x8, -5, -40]
+  animations:
+  - symbol: gMickey01Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]]
+  us:
+    address: 0x093A6298
+    size: 5590
+  jp:
+    address: 0x093617C0
+    size: 5590
+  eu:
+    address: 0x09475920
+    size: 5590
+- name: mickey_02
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickey02Tiles
+  align: 4
+  cell: [35, 50]
+  anchor: [17, 39]
+  columns: 4
+  frames:
+  - symbol: gMickey02Frame0
+    pieces:
+    - [32x32, -14, -35]
+    - [32x8, -14, -3]
+  - symbol: gMickey02Frame1
+    pieces:
+    - [32x32, -14, -37]
+    - [32x8, -14, -5]
+    - [16x8, 2, 3]
+  - symbol: gMickey02Frame2
+    pieces:
+    - [32x32, -14, -39]
+    - [32x16, -14, -7]
+  - symbol: gMickey02Frame3
+    pieces:
+    - [32x32, -17, -38]
+    - [32x16, -17, -6]
+  animations:
+  - symbol: gMickey02Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 12], [2, 8], [3, 18]]
+  us:
+    address: 0x093A7870
+    size: 2972
+  jp:
+    address: 0x09362D98
+    size: 2972
+  eu:
+    address: 0x09476EF8
+    size: 2972
+- name: mickey_03
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickey03Tiles
+  align: 4
+  cell: [35, 57]
+  anchor: [16, 46]
+  columns: 8
+  frames:
+  - symbol: gMickey03Frame0
+    pieces:
+    - [32x32, -16, -37]
+    - [32x16, -16, -5]
+  - symbol: gMickey03Frame1
+    pieces:
+    - [32x32, -14, -38]
+    - [32x16, -14, -6]
+  - symbol: gMickey03Frame2
+    pieces:
+    - [32x32, -14, -40]
+    - [32x16, -14, -8]
+  - symbol: gMickey03Frame3
+    pieces:
+    - [32x32, -13, -46]
+    - [32x16, -13, -14]
+  - symbol: gMickey03Frame4
+    pieces:
+    - [32x32, -13, -40]
+    - [32x16, -13, -8]
+  - symbol: gMickey03Frame5
+    pieces:
+    - [32x32, -16, -40]
+    - [32x16, -16, -8]
+  - symbol: gMickey03Frame6
+    pieces:
+    - [32x32, -15, -37]
+    - [32x16, -15, -5]
+  - symbol: gMickey03Frame7
+    pieces:
+    - [32x32, -13, -38]
+    - [32x16, -13, -6]
+  animations:
+  - symbol: gMickey03Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 7], [2, 7], [3, 9], [4, 7], [5, 7], [6, 6], [7, 7]]
+  us:
+    address: 0x093A840C
+    size: 6310
+  jp:
+    address: 0x09363934
+    size: 6310
+  eu:
+    address: 0x09477A94
+    size: 6310
+- name: mickey_04
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickey04Tiles
+  align: 4
+  cell: [34, 49]
+  anchor: [16, 38]
+  columns: 4
+  frames:
+  - symbol: gMickey04Frame0
+    pieces:
+    - [32x32, -14, -37]
+    - [32x16, -14, -5]
+  - symbol: gMickey04Frame1
+    pieces:
+    - [32x32, -15, -38]
+    - [32x16, -15, -6]
+  - symbol: gMickey04Frame2
+    pieces:
+    - [32x32, -16, -38]
+    - [32x16, -16, -6]
+  - symbol: gMickey04Frame3
+    pieces:
+    - [32x32, -15, -38]
+    - [32x16, -15, -6]
+  animations:
+  - symbol: gMickey04Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 7], [2, 7], [3, 15]]
+  us:
+    address: 0x093A9CB4
+    size: 3158
+  jp:
+    address: 0x093651DC
+    size: 3158
+  eu:
+    address: 0x0947933C
+    size: 3158
+- name: mickey_05
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickey05Tiles
+  align: 4
+  cell: [33, 51]
+  anchor: [15, 40]
+  columns: 4
+  frames:
+  - symbol: gMickey05Frame0
+    pieces:
+    - [32x32, -14, -37]
+    - [32x16, -14, -5]
+  - symbol: gMickey05Frame1
+    pieces:
+    - [32x32, -15, -39]
+    - [32x16, -15, -7]
+  - symbol: gMickey05Frame2
+    pieces:
+    - [32x32, -14, -40]
+    - [32x16, -14, -8]
+  - symbol: gMickey05Frame3
+    pieces:
+    - [32x32, -14, -38]
+    - [32x16, -14, -6]
+  animations:
+  - symbol: gMickey05Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 15]]
+  us:
+    address: 0x093AA90C
+    size: 3158
+  jp:
+    address: 0x09365E34
+    size: 3158
+  eu:
+    address: 0x09479F94
+    size: 3158
+- name: mickey_06
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickey06Tiles
+  align: 4
+  cell: [34, 49]
+  anchor: [15, 40]
+  columns: 3
+  frames:
+  - symbol: gMickey06Frame0
+    pieces:
+    - [32x32, -15, -39]
+    - [32x16, -15, -7]
+  - symbol: gMickey06Frame1
+    pieces:
+    - [32x32, -13, -40]
+    - [32x16, -13, -8]
+  - symbol: gMickey06Frame2
+    pieces:
+    - [32x32, -14, -40]
+    - [32x16, -14, -8]
+  animations:
+  - symbol: gMickey06Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 15]]
+  us:
+    address: 0x093AB564
+    size: 2370
+  jp:
+    address: 0x09366A8C
+    size: 2370
+  eu:
+    address: 0x0947ABEC
+    size: 2370
+- name: mickey_07
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickey07Tiles
+  align: 4
+  cell: [35, 50]
+  anchor: [17, 40]
+  columns: 8
+  frames:
+  - symbol: gMickey07Frame0
+    pieces:
+    - [32x32, -17, -40]
+    - [32x8, -17, -8]
+  - symbol: gMickey07Frame1
+    pieces:
+    - [32x32, -15, -39]
+    - [32x8, -15, -7]
+  - symbol: gMickey07Frame2
+    pieces:
+    - [32x32, -15, -38]
+    - [32x16, -15, -6]
+  - symbol: gMickey07Frame3
+    pieces:
+    - [32x32, -14, -38]
+    - [32x16, -14, -6]
+  - symbol: gMickey07Frame4
+    pieces:
+    - [32x32, -16, -39]
+    - [32x8, -16, -7]
+  - symbol: gMickey07Frame5
+    pieces:
+    - [32x32, -15, -38]
+    - [32x8, -15, -6]
+  - symbol: gMickey07Frame6
+    pieces:
+    - [32x32, -14, -36]
+    - [32x8, -14, -4]
+  - symbol: gMickey07Frame7
+    pieces:
+    - [32x32, -16, -39]
+    - [32x8, -16, -7]
+  animations:
+  - symbol: gMickey07Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6]]
+  us:
+    address: 0x093ABEA8
+    size: 5542
+  jp:
+    address: 0x093673D0
+    size: 5542
+  eu:
+    address: 0x0947B530
+    size: 5542
+- name: mickey_08
+  format: sprite_sheet
+  palette: mickey
+  symbol: gMickey08Tiles
+  align: 4
+  cell: [36, 49]
+  anchor: [15, 37]
+  columns: 8
+  frames:
+  - symbol: gMickey08Frame0
+    pieces:
+    - [32x32, -15, -35]
+    - [32x8, -15, -3]
+  - symbol: gMickey08Frame1
+    pieces:
+    - [32x32, -13, -35]
+    - [32x8, -13, -3]
+  - symbol: gMickey08Frame2
+    pieces:
+    - [32x32, -11, -36]
+    - [32x8, -11, -4]
+    - [16x8, -11, 4]
+  - symbol: gMickey08Frame3
+    pieces:
+    - [32x32, -12, -37]
+    - [32x16, -12, -5]
+  - symbol: gMickey08Frame4
+    pieces:
+    - [32x32, -13, -34]
+    - [32x8, -13, -2]
+  - symbol: gMickey08Frame5
+    pieces:
+    - [32x32, -12, -35]
+    - [32x8, -12, -3]
+  - symbol: gMickey08Frame6
+    pieces:
+    - [32x32, -12, -37]
+    - [32x8, -12, -5]
+  - symbol: gMickey08Frame7
+    pieces:
+    - [32x32, -15, -35]
+    - [32x8, -15, -3]
+  animations:
+  - symbol: gMickey08Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [7, 7]]
+  us:
+    address: 0x093AD450
+    size: 5484
+  jp:
+    address: 0x09368978
+    size: 5484
+  eu:
+    address: 0x0947CAD8
+    size: 5484
+- name: gMapNameBarTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x0993AF64
+    size: 2048
+  jp:
+    address: 0x098EFA78
+    size: 2048
+  eu:
+    address: 0x0991ADF0
+    size: 2048
+- name: gUnk_099912A4
+  format: palette
+  us:
+    address: 0x099912A4
+    size: 32
+  jp:
+    address: 0x09945DB8
+    size: 32
+  eu:
+    address: 0x09997290
+    size: 32
+- name: gMapGmk01Palette
+  format: palette
+  us:
+    address: 0x099912C4
+    size: 32
+  jp:
+    address: 0x09945DD8
+    size: 32
+  eu:
+    address: 0x099972B0
+    size: 32
+- name: gMapGmkBarrelPalette
+  format: palette
+  us:
+    address: 0x099912E4
+    size: 32
+  jp:
+    address: 0x09945DF8
+    size: 32
+  eu:
+    address: 0x099972D0
+    size: 32
+- name: gMapGmkJumpPalette
+  format: palette
+  us:
+    address: 0x09991304
+    size: 32
+  jp:
+    address: 0x09945E18
+    size: 32
+  eu:
+    address: 0x099972F0
+    size: 32
+- name: gMapGmk04Palette
+  format: palette
+  us:
+    address: 0x09991324
+    size: 32
+  jp:
+    address: 0x09945E38
+    size: 32
+  eu:
+    address: 0x09997310
+    size: 32
+- name: gMapGmk06Palette
+  format: palette
+  us:
+    address: 0x09991344
+    size: 32
+  jp:
+    address: 0x09945E58
+    size: 32
+  eu:
+    address: 0x09997330
+    size: 32
+- name: gMapGimmick01Palette
+  format: palette
+  us:
+    address: 0x09991364
+    size: 32
+  jp:
+    address: 0x09945E78
+    size: 32
+  eu:
+    address: 0x09997350
+    size: 32
+- name: gMapGmkAgrabah01Palette
+  format: palette
+  us:
+    address: 0x09991384
+    size: 32
+  jp:
+    address: 0x09945E98
+    size: 32
+  eu:
+    address: 0x09997370
+    size: 32
+- name: gMapGimmick03Palette
+  format: palette
+  us:
+    address: 0x099913A4
+    size: 32
+  jp:
+    address: 0x09945EB8
+    size: 32
+  eu:
+    address: 0x09997390
+    size: 32
+- name: gMapGmkAgrabah00Palette
+  format: palette
+  us:
+    address: 0x099913C4
+    size: 32
+  jp:
+    address: 0x09945ED8
+    size: 32
+  eu:
+    address: 0x099973B0
+    size: 32
+- name: gMapGmkAgrabah02Palette
+  format: palette
+  us:
+    address: 0x099913E4
+    size: 32
+  jp:
+    address: 0x09945EF8
+    size: 32
+  eu:
+    address: 0x099973D0
+    size: 32
+- name: gMapGmkAgrabah03Palette
+  format: palette
+  us:
+    address: 0x09991404
+    size: 32
+  jp:
+    address: 0x09945F18
+    size: 32
+  eu:
+    address: 0x099973F0
+    size: 32
+- name: gMapGmkWonderland00Palette
+  format: palette
+  us:
+    address: 0x09991424
+    size: 32
+  jp:
+    address: 0x09945F38
+    size: 32
+  eu:
+    address: 0x09997410
+    size: 32
+- name: gWorldMapGmkWonderlandPalette
+  format: palette
+  us:
+    address: 0x09991444
+    size: 32
+  jp:
+    address: 0x09945F58
+    size: 32
+  eu:
+    address: 0x09997430
+    size: 32
+- name: gMapGmkMonstro00Palette
+  format: palette
+  us:
+    address: 0x09991464
+    size: 32
+  jp:
+    address: 0x09945F78
+    size: 32
+  eu:
+    address: 0x09997450
+    size: 32
+- name: gMapGmkMonstro01Palette
+  format: palette
+  us:
+    address: 0x09991484
+    size: 32
+  jp:
+    address: 0x09945F98
+    size: 32
+  eu:
+    address: 0x09997470
+    size: 32
+- name: gMapGmkMonstro02Palette
+  format: palette
+  us:
+    address: 0x099914A4
+    size: 32
+  jp:
+    address: 0x09945FB8
+    size: 32
+  eu:
+    address: 0x09997490
+    size: 32
+- name: gMapGmkMonstro03Palette
+  format: palette
+  us:
+    address: 0x099914C4
+    size: 32
+  jp:
+    address: 0x09945FD8
+    size: 32
+  eu:
+    address: 0x099974B0
+    size: 32
+- name: gMapGmkMonstro04Palette
+  format: palette
+  us:
+    address: 0x099914E4
+    size: 32
+  jp:
+    address: 0x09945FF8
+    size: 32
+  eu:
+    address: 0x099974D0
+    size: 32
+- name: gMapGmkAtlantica00Palette
+  format: palette
+  us:
+    address: 0x09991504
+    size: 32
+  jp:
+    address: 0x09946018
+    size: 32
+  eu:
+    address: 0x099974F0
+    size: 32
+- name: gMapGmkAtlantica01Palette
+  format: palette
+  us:
+    address: 0x09991524
+    size: 32
+  jp:
+    address: 0x09946038
+    size: 32
+  eu:
+    address: 0x09997510
+    size: 32
+- name: gWorldMapGmkAtlanticaPalette
+  format: palette
+  us:
+    address: 0x09991544
+    size: 32
+  jp:
+    address: 0x09946058
+    size: 32
+  eu:
+    address: 0x09997530
+    size: 32
+- name: gWorldMapGmkHalloweenTownPalette
+  format: palette
+  us:
+    address: 0x09991564
+    size: 32
+  jp:
+    address: 0x09946078
+    size: 32
+  eu:
+    address: 0x09997550
+    size: 32
+- name: gMapGmkHalloweenTown00Palette
+  format: palette
+  us:
+    address: 0x09991584
+    size: 32
+  jp:
+    address: 0x09946098
+    size: 32
+  eu:
+    address: 0x09997570
+    size: 32
+- name: gMapGimmick19Palette
+  format: palette
+  us:
+    address: 0x099915A4
+    size: 32
+  jp:
+    address: 0x099460B8
+    size: 32
+  eu:
+    address: 0x09997590
+    size: 32
+- name: gMapGmkHalloweenTown01Palette
+  format: palette
+  us:
+    address: 0x099915C4
+    size: 32
+  jp:
+    address: 0x099460D8
+    size: 32
+  eu:
+    address: 0x099975B0
+    size: 32
+- name: gMapGmkHalloweenTown02Palette
+  format: palette
+  us:
+    address: 0x099915E4
+    size: 32
+  jp:
+    address: 0x099460F8
+    size: 32
+  eu:
+    address: 0x099975D0
+    size: 32
+- name: gMapGmkNeverLand00Palette
+  format: palette
+  us:
+    address: 0x09991604
+    size: 32
+  jp:
+    address: 0x09946118
+    size: 32
+  eu:
+    address: 0x099975F0
+    size: 32
+- name: gMapGmkNeverLand01Palette
+  format: palette
+  us:
+    address: 0x09991624
+    size: 32
+  jp:
+    address: 0x09946138
+    size: 32
+  eu:
+    address: 0x09997610
+    size: 32
+- name: gMapGmkNeverLand02Palette
+  format: palette
+  us:
+    address: 0x09991644
+    size: 32
+  jp:
+    address: 0x09946158
+    size: 32
+  eu:
+    address: 0x09997630
+    size: 32
+- name: gMapGmkNeverLand03Palette
+  format: palette
+  us:
+    address: 0x09991664
+    size: 32
+  jp:
+    address: 0x09946178
+    size: 32
+  eu:
+    address: 0x09997650
+    size: 32
+- name: gMapGmkNeverLand04Palette
+  format: palette
+  us:
+    address: 0x09991684
+    size: 32
+  jp:
+    address: 0x09946198
+    size: 32
+  eu:
+    address: 0x09997670
+    size: 32
+- name: gMapGmkOlympusColiseum00Palette
+  format: palette
+  us:
+    address: 0x099916A4
+    size: 32
+  jp:
+    address: 0x099461B8
+    size: 32
+  eu:
+    address: 0x09997690
+    size: 32
+- name: gMapGmkOlympusColiseum01Palette
+  format: palette
+  us:
+    address: 0x099916C4
+    size: 32
+  jp:
+    address: 0x099461D8
+    size: 32
+  eu:
+    address: 0x099976B0
+    size: 32
+- name: gMapGmkOlympusColiseum02Palette
+  format: palette
+  us:
+    address: 0x099916E4
+    size: 32
+  jp:
+    address: 0x099461F8
+    size: 32
+  eu:
+    address: 0x099976D0
+    size: 32
+- name: gMapGmkOlympusColiseum03Palette
+  format: palette
+  us:
+    address: 0x09991704
+    size: 32
+  jp:
+    address: 0x09946218
+    size: 32
+  eu:
+    address: 0x099976F0
+    size: 32
+- name: gWorldMapGmkHollowBastionPalette
+  format: palette
+  us:
+    address: 0x09991724
+    size: 32
+  jp:
+    address: 0x09946238
+    size: 32
+  eu:
+    address: 0x09997710
+    size: 32
+- name: gMapGmkHollowBastion00Palette
+  format: palette
+  us:
+    address: 0x09991744
+    size: 32
+  jp:
+    address: 0x09946258
+    size: 32
+  eu:
+    address: 0x09997730
+    size: 32
+- name: gMapGmkHollowBastion01Palette
+  format: palette
+  us:
+    address: 0x09991764
+    size: 32
+  jp:
+    address: 0x09946278
+    size: 32
+  eu:
+    address: 0x09997750
+    size: 32
+- name: gMapGmkDestinyIslands00Palette
+  format: palette
+  us:
+    address: 0x09991784
+    size: 32
+  jp:
+    address: 0x09946298
+    size: 32
+  eu:
+    address: 0x09997770
+    size: 32
+- name: gMapGmkDestinyIslands01Palette
+  format: palette
+  us:
+    address: 0x099917A4
+    size: 32
+  jp:
+    address: 0x099462B8
+    size: 32
+  eu:
+    address: 0x09997790
+    size: 32
+- name: gMapGmkDestinyIslands02Palette
+  format: palette
+  us:
+    address: 0x099917C4
+    size: 32
+  jp:
+    address: 0x099462D8
+    size: 32
+  eu:
+    address: 0x099977B0
+    size: 32
+- name: gMapGmkTraverseTown00Palette
+  format: palette
+  us:
+    address: 0x099917E4
+    size: 32
+  jp:
+    address: 0x099462F8
+    size: 32
+  eu:
+    address: 0x099977D0
+    size: 32
+- name: gMapGmkTraverseTown01Palette
+  format: palette
+  us:
+    address: 0x09991804
+    size: 32
+  jp:
+    address: 0x09946318
+    size: 32
+  eu:
+    address: 0x099977F0
+    size: 32
+- name: gWorldMapGmkTraverseTownPalette
+  format: palette
+  us:
+    address: 0x09991824
+    size: 32
+  jp:
+    address: 0x09946338
+    size: 32
+  eu:
+    address: 0x09997810
+    size: 32
+- name: gMapGmkTwilightTown00Palette
+  format: palette
+  us:
+    address: 0x09991844
+    size: 32
+  jp:
+    address: 0x09946358
+    size: 32
+  eu:
+    address: 0x09997830
+    size: 32
+- name: gMapGmkTwilightTown01Palette
+  format: palette
+  us:
+    address: 0x09991864
+    size: 32
+  jp:
+    address: 0x09946378
+    size: 32
+  eu:
+    address: 0x09997850
+    size: 32
+- name: gMapGmkTwilightTown02Palette
+  format: palette
+  us:
+    address: 0x09991884
+    size: 32
+  jp:
+    address: 0x09946398
+    size: 32
+  eu:
+    address: 0x09997870
+    size: 32
+- name: gMapGmkCastleOblivion00Palette
+  format: palette
+  us:
+    address: 0x099918A4
+    size: 32
+  jp:
+    address: 0x099463B8
+    size: 32
+  eu:
+    address: 0x09997890
+    size: 32
+- name: gMapGimmick44Palette
+  format: palette
+  us:
+    address: 0x099918C4
+    size: 32
+  jp:
+    address: 0x099463D8
+    size: 32
+  eu:
+    address: 0x099978B0
+    size: 32
+- name: gMapGimmick45Palette
+  format: palette
+  us:
+    address: 0x099918E4
+    size: 32
+  jp:
+    address: 0x099463F8
+    size: 32
+  eu:
+    address: 0x099978D0
+    size: 32
+- name: gMapGmkCastleOblivion01Palette
+  format: palette
+  us:
+    address: 0x09991904
+    size: 32
+  jp:
+    address: 0x09946418
+    size: 32
+  eu:
+    address: 0x099978F0
+    size: 32

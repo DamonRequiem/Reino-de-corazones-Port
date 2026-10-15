@@ -1,0 +1,435 @@
+pool: card_message_text
+objects:
+  us:
+    name: card_message_text.s
+    start: 0x0903C03C
+    end: 0x09041E78
+    encoding: game
+    align: 2
+    ctype: u16
+  jp:
+    name: card_message_text.s
+    start: 0x0900D4C0
+    end: 0x090104B8
+    encoding: game
+    align: 4
+    ctype: u8
+  eu:
+    name: card_message_text.s
+    start: 0x090D18B8
+    end: 0x090D1DB8
+    encoding: game
+    align: 1
+    ctype: u8
+entries:
+  us:
+  - gPoohLeaveWorldText
+  - gEeyoreTalkText1
+  - gEeyoreTalkText0
+  - gPigletTalkText
+  - gOwlTalkText
+  - gRooTalkText
+  - gRabbitTalkText1
+  - gRabbitTalkText0
+  - gWorldselectTutorialText0
+  - gWorldselectTutorialText1
+  - gWarpPointTutorialText
+  - gRobeTutorialText00
+  - gRobeTutorialText01
+  - gRobeTutorialText02
+  - gRobeTutorialText03
+  - gRobeTutorialText04
+  - gRobeTutorialText05
+  - gRobeTutorialText06
+  - gRobeTutorialText07
+  - gRobeTutorialText08
+  - gRobeTutorialText09
+  - gRobeTutorialText10
+  - gRobeTutorialText11
+  - gRobeTutorialText12
+  - gRobeTutorialText13
+  - gRobeTutorialText14
+  - gRobeTutorialText15
+  - gRobeTutorialText16
+  - gRobeTutorialText17
+  - gRobeTutorialText18
+  - gRobeTutorialText19
+  - gRobeTutorialText20
+  - gRobeTutorialText21
+  - gRobeTutorialText22
+  - gLeonTutorialText00
+  - gLeonTutorialText01
+  - gLeonTutorialText02
+  - gLeonTutorialText03
+  - gLeonTutorialText04
+  - gLeonTutorialText05
+  - gLeonTutorialText06
+  - gLeonTutorialText07
+  - gLeonTutorialText08
+  - gLeonTutorialText09
+  - gLeonTutorialText10
+  - gLeonTutorialText11
+  - gLeonTutorialText12
+  - gLeonTutorialText13
+  - gLeonTutorialText14
+  - gMapSelectTutorialText0
+  - gMapSelectTutorialText1
+  - gMapSelectTutorialText2
+  - gMapSelectTutorialText3
+  - gMapSelectValueTutorialText0
+  - gMapSelectValueTutorialText1
+  - gMapSelectValueTutorialText2
+  - gMapSelectValueTutorialText3
+  - gSavePointTutorialText
+  - gQuickSaveTutorialText
+  - gMapTutorialText0
+  - gMapTutorialText1
+  - gMapTutorialText2
+  - gMapSelectEventDoorTutorialText0
+  - gMapSelectEventDoorTutorialText1
+  - gMapSelectEventDoorTutorialText2
+  - gMapSelectEventDoorTutorialText3
+  - {name: gUnusedMapSelectEventDoorTutorialText, declare: false}
+  - gMapSelectEventDoorTutorialText4
+  - gMapStairTutorialText
+  - gDonaldTalkText00
+  - gDonaldTalkText01
+  - gDonaldTalkText02
+  - gDonaldTalkText03
+  - gDonaldTalkText04
+  - gDonaldTalkText05
+  - gDonaldTalkText06
+  - gDonaldTalkText07
+  - gDonaldTalkText08
+  - gDonaldTalkText09
+  - gDonaldTalkText10
+  - gDonaldTalkText11
+  - gDonaldTalkText12
+  - gDonaldTalkText13
+  - gDonaldTalkText14
+  - gDonaldTalkText15
+  - gDonaldTalkText16
+  - gDonaldTalkText17
+  - gDonaldTalkText18
+  - gDonaldTalkText19
+  - gDonaldTalkText20
+  - gDonaldTalkText21
+  - gDonaldTalkText22
+  - gDonaldTalkText23
+  - gDonaldExitHallTalkText
+  - gGoofyTalkText00
+  - gGoofyTalkText01
+  - gGoofyTalkText02
+  - gGoofyTalkText03
+  - gGoofyTalkText04
+  - gGoofyTalkText05
+  - gGoofyTalkText06
+  - gGoofyTalkText07
+  - gGoofyTalkText08
+  - gGoofyTalkText09
+  - gGoofyTalkText10
+  - gGoofyTalkText11
+  - gGoofyTalkText12
+  - gGoofyTalkText13
+  - gGoofyTalkText14
+  - gGoofyTalkText15
+  - gGoofyTalkText16
+  - gGoofyTalkText17
+  - gGoofyTalkText18
+  - gGoofyTalkText19
+  - gGoofyTalkText20
+  - gGoofyTalkText21
+  - gGoofyTalkText22
+  - gGoofyTalkText23
+  - gGoofyExitHallTalkText
+  - gNamineTalkText0
+  - gNamineTalkText1
+  - gRikuReplicaTalkText
+  - gMickeyTalkText0
+  - gMickeyTalkText1
+  - gMickeyTalkText2
+  - gMsTopIntroText0
+  - gMsTopIntroText1
+  - gMsTopIntroText2
+  - gMsTopFreePackText
+  - gMsTopShopOptionText
+  - gMsTopChargeOptionText
+  - gRikuDeckTutorialText
+  - gRikuBattleTutorialText
+  - gLearnedWarpinatorText
+  - gLearnedTerrorText
+  - gLearnedSynchroText
+  - gLearnedBindText
+  - gLearnedIdyllRompText
+  - gLearnedTrinityLimitText
+  - gLearnedConfuseText
+  - gLearnedThunderRaidText
+  - gLearnedGiftedMiracleText
+  - gLearnedGravityRaidText
+  - gLearnedFireRaidText
+  - gLearnedAquaSplashText
+  - gLearnedBlizzardRaidText
+  - gLearnedStopRaidText
+  - gLearnedShockImpactText
+  - gLearnedHomingBlizzaraText
+  - gLearnedQuakeText
+  - gLearnedBlazingDonaldText
+  - gLearnedHomingFiraText
+  - gLearnedTeleportText
+  - gLearnedTornadoText
+  - gLearnedCrossSlashPlusText
+  - gLearnedReflectRaidText
+  - gLearnedFiragaBreakText
+  - gLearnedWarpText
+  - gLearnedJudgmentText
+  - {name: gUnusedObtainedMegaPotionText, declare: false}
+  - {name: gUnusedObtainedMegaEtherText, declare: false}
+  - gObtainedElixirText
+  - gObtainedSpellbinderText
+  - gObtainedGenieText
+  - gObtainedCloudText
+  - {name: gUnusedLearnedZantetsukenText, declare: false}
+  - gObtainedOathkeeperText
+  - gObtainedBambiText
+  - gEventSaveConfirmText
+  - gObtainedKeyOfBeginningsText
+  - gObtainedKeyOfGuidanceText
+  - gObtainedKeyToTruthText
+  - gObtainedKeyToRewardsText
+  - gObtainedTinkerBellText
+  - gObtainedOblivionText
+  - gObtainedWorldCardsText
+  - gObtainedWorldCardText
+  - gObtainedSimbaText
+  - gSaveDataLostText
+  - gQuickSaveCompleteText
+  - gCardMessageNoText
+  jp:
+  - gQuickSaveCompleteText
+  - gRikuBattleTutorialText
+  - gRikuDeckTutorialText
+  - gSaveDataLostText
+  - gObtainedSimbaText
+  - gObtainedWorldCardText
+  - gObtainedTinkerBellText
+  - gObtainedKeyToRewardsText
+  - gObtainedKeyToTruthText
+  - gObtainedKeyOfGuidanceText
+  - gObtainedKeyOfBeginningsText
+  - gMapStairTutorialText
+  - gEventSaveConfirmText
+  - gObtainedBambiText
+  - gObtainedOblivionText
+  - gObtainedOathkeeperText
+  - gObtainedCloudText
+  - gObtainedGenieText
+  - gObtainedSpellbinderText
+  - gObtainedElixirText
+  - gLearnedJudgmentText
+  - gLearnedWarpText
+  - gLearnedFiragaBreakText
+  - gLearnedReflectRaidText
+  - gLearnedCrossSlashPlusText
+  - gLearnedTornadoText
+  - gLearnedTeleportText
+  - gLearnedHomingFiraText
+  - gLearnedBlazingDonaldText
+  - gLearnedQuakeText
+  - gLearnedHomingBlizzaraText
+  - gLearnedShockImpactText
+  - gLearnedStopRaidText
+  - gLearnedBlizzardRaidText
+  - gLearnedAquaSplashText
+  - gLearnedFireRaidText
+  - gLearnedGravityRaidText
+  - gLearnedGiftedMiracleText
+  - gLearnedThunderRaidText
+  - gLearnedConfuseText
+  - gLearnedTrinityLimitText
+  - gLearnedIdyllRompText
+  - gLearnedBindText
+  - gLearnedSynchroText
+  - gLearnedTerrorText
+  - gLearnedWarpinatorText
+  - gWarpPointTutorialText
+  - gMsTopIntroText2
+  - gMsTopIntroText1
+  - gMsTopIntroText0
+  - gLeonTutorialText14
+  - gLeonTutorialText13
+  - gLeonTutorialText12
+  - gLeonTutorialText11
+  - gLeonTutorialText10
+  - gLeonTutorialText09
+  - gLeonTutorialText08
+  - gLeonTutorialText07
+  - gLeonTutorialText06
+  - gLeonTutorialText05
+  - gLeonTutorialText04
+  - gLeonTutorialText03
+  - gLeonTutorialText02
+  - gLeonTutorialText01
+  - gLeonTutorialText00
+  - gMapSelectEventDoorTutorialText4
+  - gMapSelectEventDoorTutorialText3
+  - gMapSelectEventDoorTutorialText2
+  - gMapSelectEventDoorTutorialText1
+  - gMapSelectEventDoorTutorialText0
+  - gMapTutorialText2
+  - gMapTutorialText1
+  - gMapTutorialText0
+  - gQuickSaveTutorialText
+  - gSaveMenuTutorialText
+  - gSavePointTutorialText
+  - gMapSelectValueTutorialText3
+  - gMapSelectValueTutorialText2
+  - gMapSelectValueTutorialText1
+  - gMapSelectValueTutorialText0
+  - gMapSelectTutorialText3
+  - gMapSelectTutorialText2
+  - gMapSelectTutorialText1
+  - gMapSelectTutorialText0
+  - gRobeTutorialText22
+  - gRobeTutorialText21
+  - gRobeTutorialText20
+  - gRobeTutorialText19
+  - gRobeTutorialText18
+  - gRobeTutorialText17
+  - gRobeTutorialText16
+  - gRobeTutorialText15
+  - gRobeTutorialText14
+  - gRobeTutorialText13
+  - gRobeTutorialText12
+  - gRobeTutorialText11
+  - gRobeTutorialText10
+  - gRobeTutorialText08
+  - gRobeTutorialText07
+  - gRobeTutorialText06
+  - gRobeTutorialText05
+  - gRobeTutorialText04
+  - gRobeTutorialText03
+  - gRobeTutorialText02
+  - gRobeTutorialText01
+  - gRobeTutorialText00
+  - gWorldselectTutorialText1
+  - gWorldselectTutorialText0
+  - gPoohLeaveWorldText
+  - gMsTopNothingToTradeText
+  - gMsTopNothingToSellText
+  - gMsTopFreePackText
+  - gMsTopChargeOptionText
+  - gMsTopShopOptionText
+  - gMickeyTalkText2
+  - gMickeyTalkText1
+  - gMickeyTalkText0
+  - gRabbitTalkText1
+  - gRabbitTalkText0
+  - gRooTalkText
+  - gEeyoreTalkText1
+  - gEeyoreTalkText0
+  - gOwlTalkText
+  - gPigletTalkText
+  - gPoohTalkText
+  - gRikuReplicaTalkText
+  - gNamineTalkText1
+  - gNamineTalkText0
+  - gGoofyExitHallTalkText
+  - gGoofyTalkText23
+  - gGoofyTalkText22
+  - gGoofyTalkText21
+  - gGoofyTalkText20
+  - gGoofyTalkText19
+  - gGoofyTalkText18
+  - gGoofyTalkText17
+  - gGoofyTalkText16
+  - gGoofyTalkText15
+  - gGoofyTalkText14
+  - gGoofyTalkText13
+  - gGoofyTalkText12
+  - gGoofyTalkText11
+  - gGoofyTalkText10
+  - gGoofyTalkText09
+  - gGoofyTalkText08
+  - gGoofyTalkText07
+  - gGoofyTalkText06
+  - gGoofyTalkText05
+  - gGoofyTalkText04
+  - gGoofyTalkText03
+  - gGoofyTalkText02
+  - gGoofyTalkText01
+  - gGoofyTalkText00
+  - gDonaldExitHallTalkText
+  - gDonaldTalkText23
+  - gDonaldTalkText22
+  - gDonaldTalkText21
+  - gDonaldTalkText20
+  - gDonaldTalkText19
+  - gDonaldTalkText18
+  - gDonaldTalkText17
+  - gDonaldTalkText16
+  - gDonaldTalkText15
+  - gDonaldTalkText14
+  - gDonaldTalkText13
+  - gDonaldTalkText12
+  - gDonaldTalkText11
+  - gDonaldTalkText10
+  - gDonaldTalkText09
+  - gDonaldTalkText08
+  - gDonaldTalkText07
+  - gDonaldTalkText06
+  - gDonaldTalkText05
+  - gDonaldTalkText04
+  - gDonaldTalkText03
+  - gDonaldTalkText02
+  - gDonaldTalkText01
+  - gDonaldTalkText00
+  eu:
+  - {name: gUnusedLearnedWarpinatorText, declare: false}
+  - {name: gUnusedLearnedTerrorText, declare: false}
+  - {name: gUnusedLearnedSynchroText, declare: false}
+  - {name: gUnusedLearnedBindText, declare: false}
+  - {name: gUnusedLearnedIdyllRompText, declare: false}
+  - {name: gUnusedLearnedTrinityLimitText, declare: false}
+  - {name: gUnusedLearnedConfuseText, declare: false}
+  - {name: gUnusedLearnedThunderRaidText, declare: false}
+  - {name: gUnusedLearnedGiftedMiracleText, declare: false}
+  - {name: gUnusedLearnedGravityRaidText, declare: false}
+  - {name: gUnusedLearnedFireRaidText, declare: false}
+  - {name: gUnusedLearnedAquaSplashText, declare: false}
+  - {name: gUnusedLearnedBlizzardRaidText, declare: false}
+  - {name: gUnusedLearnedStopRaidText, declare: false}
+  - {name: gUnusedLearnedShockImpactText, declare: false}
+  - {name: gUnusedLearnedHomingBlizzaraText, declare: false}
+  - {name: gUnusedLearnedQuakeText, declare: false}
+  - {name: gUnusedLearnedBlazingDonaldText, declare: false}
+  - {name: gUnusedLearnedHomingFiraText, declare: false}
+  - {name: gUnusedLearnedTeleportText, declare: false}
+  - {name: gUnusedLearnedTornadoText, declare: false}
+  - {name: gUnusedLearnedCrossSlashPlusText, declare: false}
+  - {name: gUnusedLearnedReflectRaidText, declare: false}
+  - {name: gUnusedLearnedFiragaBreakText, declare: false}
+  - {name: gUnusedLearnedWarpText, declare: false}
+  - {name: gUnusedLearnedJudgmentText, declare: false}
+  - {name: gUnusedObtainedMegaPotionText, declare: false}
+  - {name: gUnusedObtainedMegaEtherText, declare: false}
+  - {name: gUnusedObtainedElixirText, declare: false}
+  - {name: gUnusedObtainedSpellbinderText, declare: false}
+  - {name: gUnusedObtainedGenieText, declare: false}
+  - {name: gUnusedObtainedCloudText, declare: false}
+  - {name: gUnusedLearnedZantetsukenText, declare: false}
+  - {name: gUnusedObtainedOathkeeperText, declare: false}
+  - {name: gUnusedObtainedBambiText, declare: false}
+  - {name: gUnusedEventSaveConfirmText, declare: false}
+  - {name: gUnusedObtainedKeyOfBeginningsText, declare: false}
+  - {name: gUnusedObtainedKeyOfGuidanceText, declare: false}
+  - {name: gUnusedObtainedKeyToTruthText, declare: false}
+  - {name: gUnusedObtainedKeyToRewardsText, declare: false}
+  - {name: gUnusedObtainedTinkerBellText, declare: false}
+  - {name: gUnusedObtainedOblivionText, declare: false}
+  - {name: gUnusedObtainedWorldCardsText, declare: false}
+  - {name: gUnusedObtainedWorldCardText, declare: false}
+  - {name: gUnusedObtainedSimbaText, declare: false}
+  - {name: gUnusedSaveDataLostText, declare: false}
+  - {name: gUnusedQuickSaveCompleteText, declare: false}
+  - {name: gUnusedCardMessageNoText, declare: false}
+  - {name: gLeaveWorldText, declare: false}

@@ -1,0 +1,132 @@
+#ifdef VERSION_US
+#include "event_022_text.inc"
+#endif
+
+static const MessageScriptEntry sEvent022Script[25] = {
+    { PORTRAIT_DONALD, 3, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text00), 0, 250 },
+    { PORTRAIT_SORA, 7, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text01), 0, 270 },
+    { PORTRAIT_GOOFY, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text02), 0, 290 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text03), 0, 310 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text04), 0, 490 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text05), 0, 492 },
+    { PORTRAIT_SORA, 4, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text06), 0, 496 },
+    { PORTRAIT_SORA, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text07), 0, 498 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text08), 0, 650 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text09), 0, 652 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text10), 0, 654 },
+    { PORTRAIT_SORA, 5, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text11), 0, 656 },
+    { PORTRAIT_SORA, 5, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text12), 0, 658 },
+    { PORTRAIT_DONALD, 3, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text13), 0, 800 },
+    { PORTRAIT_DONALD, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text14), 0, 802 },
+    { PORTRAIT_JIMINY_CRICKET, 2, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text15), 0, 830 },
+    { PORTRAIT_JIMINY_CRICKET, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text16), 0, 832 },
+    { PORTRAIT_GOOFY, 2, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text17), 0, 850 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text18), 0, 880 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text19), 0, 882 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text20), 0, 884 },
+    { PORTRAIT_SORA, 3, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text21), 0, 886 },
+    { PORTRAIT_DONALD, 3, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text22), 0, 900 },
+    { PORTRAIT_DONALD, 3, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text23), 0, 902 },
+    { PORTRAIT_DONALD, 1, MSG_WIN_POSITION_TOP_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent022Text24), MSG_SCRIPT_FLAG_END, 955 },
+};
+
+#ifdef VERSION_JP
+#include "event_022_text.inc"
+#endif
+
+static const EventCameraKeyframe sEvent022Camera[1] = {
+    { -64537, 180992, 66560, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_END, 0, NULL },
+};
+
+static const EvSoundCue sEvent022SoundCues[3] = {
+    { SONG_BGM_T13THFLOOR, 0, 0, 0 },
+    { SONG_BGM_T13THFLOOR, 305, EV_SOUND_FLAG_FADE_OUT, 0 },
+    { SONG_BGM_EVENT_NAMINE, 475, EV_SOUND_FLAG_FADE_IN | EV_SOUND_FLAG_END, 0 },
+};
+
+static const EventCharaKeyframe sEvent022Track0[16] = {
+    { 4, 1, 142592, 92160, 0, 0, 66, NULL, NULL },
+    { 9, 180, 179456, 73728, 0, 4, 67, NULL, NULL },
+    { 4, 260, 0, 0, 0, 0, 69, NULL, NULL },
+    { 34, 320, 0, 0, 0, 0, 69, NULL, NULL },
+    { 34, 450, 0, 0, 0, 0, 64, NULL, CreateBalloonTask },
+    { 4, 455, 0, 0, 0, 0, 69, NULL, NULL },
+    { 16, 470, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 497, 0, 0, 0, 0, 69, NULL, NULL },
+    { 36, 510, 0, 0, 0, 0, 69, NULL, NULL },
+    { 36, 640, 0, 0, 0, 0, 64, NULL, CreateBalloonTask },
+    { 16, 660, 0, 0, 0, 0, 69, NULL, NULL },
+    { 16, 790, 0, 0, 0, 0, 64, NULL, CreateBalloonTask },
+    { 16, 860, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 870, 0, 0, 0, 0, 69, NULL, NULL },
+    { 34, 900, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 9999, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent022Track1[13] = {
+    { 114, 1, 152576, 94208, 0, 0, 66, NULL, NULL },
+    { 119, 180, 192256, 73728, 0, 114, 67, NULL, NULL },
+    { 114, 190, 0, 0, 0, 0, 69, NULL, NULL },
+    { 110, 195, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 249, 0, 0, 0, 0, 5, NULL, NULL },
+    { 126, 251, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 799, 0, 0, 0, 0, 5, NULL, NULL },
+    { 131, 803, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 899, 0, 0, 0, 0, 5, NULL, NULL },
+    { 126, 903, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 930, 0, 0, 0, 0, 5, NULL, NULL },
+    { 139, 950, 0, 0, 0, 0, 5, NULL, NULL },
+    { 114, 9999, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent022Track2[9] = {
+    { 146, 1, 143616, 82688, 0, 0, 66, NULL, NULL },
+    { 151, 180, 174080, 67328, 0, 146, 67, NULL, NULL },
+    { 146, 190, 0, 0, 0, 0, 69, NULL, NULL },
+    { 145, 195, 0, 0, 0, 0, 69, NULL, NULL },
+    { 144, 289, 0, 0, 0, 0, 69, NULL, NULL },
+    { 164, 291, 0, 0, 0, 0, 69, NULL, NULL },
+    { 144, 849, 0, 0, 0, 0, 69, NULL, NULL },
+    { 164, 851, 0, 0, 0, 0, 69, NULL, NULL },
+    { 144, 2190, 0, 0, 0, 0, 32837, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent022Track3[7] = {
+    { 231, 180, 0, 0, 0, 0, 66, NULL, NULL },
+    { 231, 181, 179456, 73728, 0, 0, 66, NULL, NULL },
+    { 234, 210, 0, 0, 0, 45, 68, EventCharaHop, NULL },
+    { 231, 220, 0, 0, 0, 0, 69, NULL, NULL },
+    { 229, 230, 0, 0, 0, 0, 69, NULL, NULL },
+    { 229, 240, 0, 0, 0, 0, 5, NULL, NULL },
+    { 229, 9999, 0, 0, 0, 0, 32773, NULL, NULL },
+};
+
+static const EventCharaTrack sEvent022Tracks[4] = {
+    { sEvent022Track0, EVENT_CHARA_SORA },
+    { sEvent022Track1, EVENT_CHARA_DONALD },
+    { sEvent022Track2, EVENT_CHARA_GOOFY },
+    { sEvent022Track3, EVENT_CHARA_JIMINY_CRICKET },
+};
+
+const EventSequenceDef gEvent022 = {
+    ARRAY_COUNT(sEvent022Tracks),
+    sEvent022Tracks,
+    sEvent022Camera,
+    sEvent022Script,
+    sEvent022SoundCues,
+    NULL,
+    1010,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    0,
+    EVENT_023_5F_DEMO,
+    0,
+    { 0, 0 },
+    EVENT_EXIT_NONE,
+    0,
+    WORLD_NONE,
+    POOH_LEVEL_NONE,
+};

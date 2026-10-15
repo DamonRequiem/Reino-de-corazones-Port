@@ -1,0 +1,301 @@
+/**
+ * mode.c
+ * Game Mode Manager
+ */
+
+#include "registration_data.h"
+#include "chara_api.h"
+#include "display.h"
+#include "m4a_song.h"
+#include "sio_api.h"
+#include "obj_api.h"
+#include "fade.h"
+#include "gba/syscall.h"
+#include "key.h"
+#include "malloc.h"
+#include "main.h"
+#include "mode.h"
+#include "gba/keys.h"
+#include "sroll_api.h"
+#include "gba/defines.h"
+#include "gba/io_reg.h"
+#include "system_state.h"
+#include <stddef.h>
+#include "types.h"
+
+Mode* gCurrentMode;
+void (*gCurrentModeUpdate)();
+u16 gDebugModeIndex;
+Mode* gPendingMode;
+s32 gPendingModeArg;
+vu8 gModeFlags;
+u16 gModeBlankColor;
+void (*gModeTransitionCallback)();
+void (*gModeVBlankCallback)();
+
+#ifdef VERSION_EU
+u32 gUnkEu_030074AC;
+#endif
+
+static Mode* sDebugModes[] = {
+    &gModeDebug,
+    &gModeJiminy,
+#ifndef VERSION_EU
+    &gModeDeckExchange,
+#endif
+    &gModePremire,
+    &gModeWORLDSELECT,
+    &gModeDeck,
+    &gModeRikuBtlTutorial,
+    &gModeRikuDeckTutorial,
+#ifdef VERSION_EU
+    &gModeTextCheck,
+#endif
+    &gModeWLogo,
+    &gModeSioBattle,
+    &gModeSioBtlConnect,
+    &gModeSioBtlOption,
+    &gModeSioBtlCardget,
+    &gModeSioError,
+#ifndef VERSION_EU
+    &gModeSioChgConnect,
+    &gModeSioChgCard,
+#endif
+    &gModeSioDbgFlg,
+    &gModeTitle,
+    &gModeCopyright1,
+    &gModeCopyright2,
+    &gModeMapChk,
+    &gModeWorldselect,
+    &gModeWorldinspect,
+    &gModeWorldwarp,
+    &gModeMsTop,
+    &gModeMapinspect,
+};
+
+void ModeBlankDisplay() {
+    REG_DISPCNT &= ~(DISPCNT_BG_ALL_ON | DISPCNT_OBJ_ON);
+    *(vu16*)PLTT = gModeBlankColor;
+}
+
+void ModeStart(Mode* mode, s32 arg) {
+    gModeBlankColor = FadeGetColor();
+    VTransReset();
+    BgReset();
+    SpriteReset();
+    FadeReset();
+    MosaicReset();
+    gCurrentMode = mode;
+
+    if (mode->init != NULL) {
+        mode->init(arg);
+    }
+
+    gCurrentModeUpdate = gCurrentMode->update;
+    gModeFlags |= MODE_FLAG_STARTED;
+}
+
+#ifdef VERSION_EU
+void ModeInit(u8 softReset) {
+#else
+void ModeInit() {
+#endif
+    gModeFlags = (MODE_FLAG_BLANK_PENDING | MODE_FLAG_DISPLAY_HELD);
+    gModeBlankColor = 0;
+    gDebugModeIndex = 0;
+
+#ifdef VERSION_EU
+    if (softReset) {
+        ModeStart(&gModeCopyright1, 0);
+    } else {
+        ModeStart(&gModeLang, 0);
+    }
+#else
+    ModeStart(&gModeCopyright1, 0);
+#endif
+    gPendingMode = NULL;
+    gModeTransitionCallback = NULL;
+    gModeVBlankCallback = NULL;
+}
+
+void ModeSetTransitionCallback(void (*init)(), void (*update)()) {
+    if (init != NULL) {
+        init();
+    }
+
+    gModeTransitionCallback = update;
+    gModeFlags |= MODE_FLAG_TRANSITION_ACTIVE;
+}
+
+void ModeClearTransitionCallback() {
+    gModeFlags &= ~MODE_FLAG_TRANSITION_ACTIVE;
+    gModeTransitionCallback = NULL;
+}
+
+void ModeSetVBlankCallback(void (*fn)()) {
+    gModeVBlankCallback = fn;
+}
+
+void ModeClearVBlankCallback() {
+    gModeVBlankCallback = NULL;
+}
+
+u8 IsModeStarted() {
+    if (gModeFlags & MODE_FLAG_STARTED) {
+        return TRUE;
+    }
+
+    return FALSE;
+}
+
+void ModeRequest(Mode* mode, s32 arg) {
+    gPendingMode = mode;
+    gPendingModeArg = arg;
+}
+
+void ModeRequestHeapReset(Mode* mode, s32 arg) {
+    gPendingMode = mode;
+    gPendingModeArg = arg;
+    gModeFlags |= MODE_FLAG_HEAP_RESET;
+}
+
+#ifdef VERSION_EU
+void DoSoftReset() {
+    gSoftResetMarker[0] = SOFT_RESET_MAGIC;
+    SoftReset(RESET_ALL & ~RESET_IWRAM);
+}
+#endif
+
+void ModeUpdate() {
+    u8 displayHeld;
+
+    if ((((GetKeysPressed() & START_BUTTON) && (GetKeysHeld() & SELECT_BUTTON) && (GetKeysHeld() & A_BUTTON) &&
+             (GetKeysHeld() & B_BUTTON)) ||
+            ((GetKeysHeld() & START_BUTTON) && (GetKeysPressed() & SELECT_BUTTON) && (GetKeysHeld() & A_BUTTON) &&
+                (GetKeysHeld() & B_BUTTON))) &&
+        !(gSystemFlags & SYSTEM_FLAG_NO_SOFT_RESET)) {
+        if (SioIsConnected()) {
+            SioLinkClose();
+        }
+
+        m4aMPlayAllStop();
+#ifdef VERSION_EU
+        ScanlineDmaReset();
+        DoSoftReset();
+#else
+        SoftReset(RESET_ALL);
+        ScanlineDmaReset();
+#endif
+    } else {
+        if (gModeFlags & MODE_FLAG_TRANSITION_ACTIVE) {
+            return;
+        }
+
+        displayHeld = gModeFlags & MODE_FLAG_DISPLAY_HELD;
+
+        if (displayHeld != 0) {
+            if (gModeFlags & MODE_FLAG_BLANK_PENDING) {
+                return;
+            }
+
+            FadeUpdate();
+            FlushDma3QueueWithCpu();
+            gModeFlags &= ~MODE_FLAG_DISPLAY_HELD;
+        } else if (gPendingMode != NULL) {
+            if (gCurrentMode->exit != NULL) {
+                gCurrentMode->exit();
+            }
+
+            if (gModeFlags & MODE_FLAG_HEAP_RESET) {
+                gModeFlags &= ~MODE_FLAG_HEAP_RESET;
+                EwramHeapInit(GetEwramHeapStart(), GetEwramHeapSize());
+            }
+
+            gModeFlags = (MODE_FLAG_BLANK_PENDING | MODE_FLAG_DISPLAY_HELD);
+            ModeStart(gPendingMode, gPendingModeArg);
+            gPendingMode = NULL;
+        } else {
+            if (gCurrentModeUpdate != NULL) {
+                gCurrentModeUpdate();
+            }
+
+            FadeUpdate();
+            MosaicUpdate();
+            SortSprites();
+        }
+    }
+}
+
+void SetModeUpdate(void (*fn)()) {
+    gCurrentModeUpdate = fn;
+}
+
+void ModeFlushDisplay() {
+    if (gModeFlags & MODE_FLAG_BLANK_PENDING) {
+        ModeBlankDisplay();
+        gModeFlags &= ~MODE_FLAG_BLANK_PENDING;
+    }
+
+    if (!(gModeFlags & MODE_FLAG_DISPLAY_HELD)) {
+        if (gSystemFlags & SYSTEM_FLAG_DMA3_FLUSH_CPU) {
+            FlushDma3QueueWithCpu();
+        } else {
+            FlushDma3Queue();
+        }
+
+        UpdateSpriteOam();
+        CommitDisplayRegs();
+    }
+}
+
+void ModeRunVBlankCallbacks() {
+    if ((gModeFlags & MODE_FLAG_DISPLAY_HELD) && gModeTransitionCallback != NULL) {
+        gModeTransitionCallback();
+    }
+
+    if (gModeVBlankCallback != NULL) {
+        gModeVBlankCallback();
+    }
+}
+
+void ModeCallExit() {
+    if (gCurrentMode->exit != NULL) {
+        gCurrentMode->exit();
+    }
+}
+
+const char* GetModeName() {
+    return gCurrentMode->name;
+}
+
+void UpdateDebugModeSelect() {
+    if (GetKeysHeld() & SELECT_BUTTON) {
+        if (GetKeysPressed() & L_BUTTON) {
+            gDebugModeIndex--;
+
+            if ((s16)gDebugModeIndex < 0) {
+#ifdef VERSION_EU
+                gDebugModeIndex = 23;
+#else
+                gDebugModeIndex = 25;
+#endif
+            }
+
+            ModeRequest(sDebugModes[(s16)gDebugModeIndex], 0);
+        }
+
+        if (GetKeysPressed() & R_BUTTON) {
+            gDebugModeIndex++;
+
+#ifdef VERSION_EU
+            if (gDebugModeIndex > 23) {
+#else
+            if (gDebugModeIndex > 25) {
+#endif
+                gDebugModeIndex = 0;
+            }
+
+            ModeRequest(sDebugModes[(s16)gDebugModeIndex], 0);
+        }
+    }
+}

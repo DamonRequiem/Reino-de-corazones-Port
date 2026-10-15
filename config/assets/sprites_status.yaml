@@ -1,0 +1,995 @@
+group: sprites_status
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_status_frames.s
+    start: 0x097A1864
+    end: 0x097A2ED8
+    data_start: 0x09EF68E0
+    data_end: 0x09EF6960
+  - name: sprites_status_tiles.s
+    start: 0x097FFB98
+    end: 0x09801C98
+  - name: sprites_status_maps.s
+    start: 0x09847798
+    end: 0x09849098
+  - name: sprites_status_palettes.s
+    start: 0x0984B118
+    end: 0x0984B298
+  jp:
+  - name: sprites_status_frames.s
+    start: 0x0975BCF8
+    end: 0x0975D36C
+    data_start: 0x09ECDCCC
+    data_end: 0x09ECDD4C
+  - name: sprites_status_tiles.s
+    start: 0x097BA02C
+    end: 0x097BC12C
+  - name: sprites_status_maps.s
+    start: 0x097FCC6C
+    end: 0x097FE56C
+  - name: sprites_status_palettes.s
+    start: 0x097FFDEC
+    end: 0x097FFF6C
+  eu:
+  - name: sprites_status_frames.s
+    start: 0x0977DA78
+    end: 0x09780840
+    data_start: 0x09F81EC8
+    data_end: 0x09F81FD0
+  - name: sprites_status_tiles.s
+    start: 0x097D62A0
+    end: 0x097DAF60
+  - name: sprites_status_maps.s
+    start: 0x0981BE40
+    end: 0x0981D740
+  - name: sprites_status_palettes.s
+    start: 0x0981F7C0
+    end: 0x0981F940
+entries:
+- name: gStatusBarFrames
+  record: SpriteTable
+  items: [gStatusBarFrame0, gStatusBarFrame1, gStatusBarFrame2]
+  us:
+    address: 0x09EF68E0
+  jp:
+    address: 0x09ECDCCC
+  eu:
+    address: 0x09F81EC8
+- name: gStatusBarAnims
+  record: AnimTable
+  items: [gStatusBarAnim0]
+  us:
+    address: 0x09EF68EC
+  jp:
+    address: 0x09ECDCD8
+  eu:
+    address: 0x09F81ED4
+- name: gStatusRowHighlightFrames
+  record: SpriteTable
+  items: [gStatusRowHighlightFrame0, gStatusRowHighlightFrame1, gStatusRowHighlightFrame2, gStatusRowHighlightFrame3, gStatusRowHighlightFrame4]
+  us:
+    address: 0x09EF68F0
+  jp:
+    address: 0x09ECDCDC
+  eu:
+    address: 0x09F81F80
+- name: gStatusRowHighlightAnims
+  record: AnimTable
+  items: [gStatusRowHighlightAnim0]
+  us:
+    address: 0x09EF6904
+  jp:
+    address: 0x09ECDCF0
+  eu:
+    address: 0x09F81F94
+- name: gStatusCursorFrames
+  record: SpriteTable
+  items: [gStatusCursorFrame0, gStatusCursorFrame1, gStatusCursorFrame2, gStatusCursorFrame3, gStatusCursorFrame4]
+  us:
+    address: 0x09EF6908
+  jp:
+    address: 0x09ECDCF4
+  eu:
+    address: 0x09F81F98
+- name: gStatusCursorAnims
+  record: AnimTable
+  items: [gStatusCursorAnim0]
+  us:
+    address: 0x09EF691C
+  jp:
+    address: 0x09ECDD08
+  eu:
+    address: 0x09F81FAC
+- name: gStatusTabFrames
+  record: SpriteTable
+  items: [gStatusTabFrame0, gStatusTabFrame1, gStatusTabFrame2, gStatusTabFrame3]
+  us:
+    address: 0x09EF6920
+  jp:
+    address: 0x09ECDD0C
+  eu:
+    address: 0x09F81F08
+- name: gStatusTabAnims
+  record: AnimTable
+  items: [gStatusTabAnim0]
+  us:
+    address: 0x09EF6930
+  jp:
+    address: 0x09ECDD1C
+  eu:
+    address: 0x09F81F18
+- name: gStatusTabRightFrames
+  record: SpriteTable
+  items: [gStatusTabRightFrame0, gStatusTabRightFrame1, gStatusTabRightFrame2, gStatusTabRightFrame3]
+  us:
+    address: 0x09EF6934
+  jp:
+    address: 0x09ECDD20
+  eu:
+    address: 0x09F81FB0
+- name: gStatusTabRightAnims
+  record: AnimTable
+  items: [gStatusTabRightAnim0]
+  us:
+    address: 0x09EF6944
+  jp:
+    address: 0x09ECDD30
+  eu:
+    address: 0x09F81FC0
+- name: gStockMesDispArrowFrames
+  record: SpriteTable
+  items: [gStockMesDispArrowFrame0, gStockMesDispArrowFrame1]
+  us:
+    address: 0x09EF6948
+  jp:
+    address: 0x09ECDD34
+  eu:
+    address: 0x09F81FC4
+- name: gStockMesDispArrowAnims
+  record: AnimTable
+  items: [gStockMesDispArrowAnim0]
+  us:
+    address: 0x09EF6950
+  jp:
+    address: 0x09ECDD3C
+  eu:
+    address: 0x09F81FCC
+- name: gStatusNewMarkFrames
+  record: SpriteTable
+  items: [gStatusNewMarkFrame0, gStatusNewMarkFrame1]
+  us:
+    address: 0x09EF6954
+  jp:
+    address: 0x09ECDD40
+- name: gStatusNewMarkAnims
+  record: AnimTable
+  items: [gStatusNewMarkAnim0]
+  us:
+    address: 0x09EF695C
+  jp:
+    address: 0x09ECDD48
+- name: gStatusBarFrenchFrames
+  record: SpriteTable
+  items: [gStatusBarFrenchFrame0, gStatusBarFrenchFrame1, gStatusBarFrenchFrame2]
+  eu:
+    address: 0x09F81ED8
+- name: gStatusBarFrenchAnims
+  record: AnimTable
+  items: [gStatusBarFrenchAnim0]
+  eu:
+    address: 0x09F81EE4
+- name: gStatusBarSpanishFrames
+  record: SpriteTable
+  items: [gStatusBarSpanishFrame0, gStatusBarSpanishFrame1, gStatusBarSpanishFrame2]
+  eu:
+    address: 0x09F81EE8
+- name: gStatusBarSpanishAnims
+  record: AnimTable
+  items: [gStatusBarSpanishAnim0]
+  eu:
+    address: 0x09F81EF4
+- name: gStatusBarItalianFrames
+  record: SpriteTable
+  items: [gStatusBarItalianFrame0, gStatusBarItalianFrame1, gStatusBarItalianFrame2]
+  eu:
+    address: 0x09F81EF8
+- name: gStatusBarItalianAnims
+  record: AnimTable
+  items: [gStatusBarItalianAnim0]
+  eu:
+    address: 0x09F81F04
+- name: gStatusTabGermanSpanishFrames
+  record: SpriteTable
+  items: [gStatusTabGermanSpanishFrame0, gStatusTabGermanSpanishFrame1, gStatusTabGermanSpanishFrame2, gStatusTabGermanSpanishFrame3]
+  eu:
+    address: 0x09F81F1C
+- name: gStatusTabGermanSpanishAnims
+  record: AnimTable
+  items: [gStatusTabGermanSpanishAnim0]
+  eu:
+    address: 0x09F81F2C
+- name: gStatusTabFrenchFrames
+  record: SpriteTable
+  items: [gStatusTabFrenchFrame0, gStatusTabFrenchFrame1, gStatusTabFrenchFrame2, gStatusTabFrenchFrame3]
+  eu:
+    address: 0x09F81F30
+- name: gStatusTabFrenchAnims
+  record: AnimTable
+  items: [gStatusTabFrenchAnim0]
+  eu:
+    address: 0x09F81F40
+- name: gStatusTabItalianFrames
+  record: SpriteTable
+  items: [gStatusTabItalianFrame0, gStatusTabItalianFrame1, gStatusTabItalianFrame2, gStatusTabItalianFrame3]
+  eu:
+    address: 0x09F81F44
+- name: gStatusTabItalianAnims
+  record: AnimTable
+  items: [gStatusTabItalianAnim0]
+  eu:
+    address: 0x09F81F54
+- name: gStatusNewMarkEnglishFrames
+  record: SpriteTable
+  items: [gStatusNewMarkEnglishFrame0]
+  eu:
+    address: 0x09F81F58
+- name: gStatusNewMarkEnglishAnims
+  record: AnimTable
+  items: [gStatusNewMarkEnglishAnim0]
+  eu:
+    address: 0x09F81F5C
+- name: gStatusNewMarkFrenchFrames
+  record: SpriteTable
+  items: [gStatusNewMarkFrenchFrame0]
+  eu:
+    address: 0x09F81F60
+- name: gStatusNewMarkFrenchAnims
+  record: AnimTable
+  items: [gStatusNewMarkFrenchAnim0]
+  eu:
+    address: 0x09F81F64
+- name: gStatusNewMarkSpanishFrames
+  record: SpriteTable
+  items: [gStatusNewMarkSpanishFrame0]
+  eu:
+    address: 0x09F81F68
+- name: gStatusNewMarkSpanishAnims
+  record: AnimTable
+  items: [gStatusNewMarkSpanishAnim0]
+  eu:
+    address: 0x09F81F6C
+- name: gStatusNewMarkItalianFrames
+  record: SpriteTable
+  items: [gStatusNewMarkItalianFrame0]
+  eu:
+    address: 0x09F81F70
+- name: gStatusNewMarkItalianAnims
+  record: AnimTable
+  items: [gStatusNewMarkItalianAnim0]
+  eu:
+    address: 0x09F81F74
+- name: gStatusNewMarkGermanFrames
+  record: SpriteTable
+  items: [gStatusNewMarkGermanFrame0]
+  eu:
+    address: 0x09F81F78
+- name: gStatusNewMarkGermanAnims
+  record: AnimTable
+  items: [gStatusNewMarkGermanAnim0]
+  eu:
+    address: 0x09F81F7C
+- name: gStatusBarTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 16]
+  anchor: [128, 0]
+  columns: 3
+  frames:
+  - symbol: gStatusBarFrame0
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gStatusBarFrame1
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  - symbol: gStatusBarFrame2
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [8x8, 64, 0]
+  animations:
+  - symbol: gStatusBarAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x097A1864
+    size: 872
+  jp:
+    address: 0x0975BCF8
+    size: 872
+  eu:
+    address: 0x0977DA78
+    size: 872
+- name: gStatusNewMarkGermanTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 8]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gStatusNewMarkGermanFrame0
+    pieces:
+    - [16x8, 0, 0]
+  animations:
+  - symbol: gStatusNewMarkGermanAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977F9F4
+    size: 84
+- name: gStatusRowHighlightTiles
+  format: sprite_sheet
+  align: 4
+  cell: [80, 16]
+  anchor: [0, 0]
+  columns: 5
+  frames:
+  - symbol: gStatusRowHighlightFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [16x16, 32, 0]
+    - [32x16, 48, 0, {hflip: true}]
+  - symbol: gStatusRowHighlightFrame1
+    pieces:
+    - [32x16, 0, 0]
+    - [16x16, 32, 0]
+    - [32x16, 48, 0, {hflip: true}]
+  - symbol: gStatusRowHighlightFrame2
+    pieces:
+    - [32x16, 0, 0]
+    - [16x16, 32, 0]
+    - [32x16, 48, 0, {hflip: true}]
+  - symbol: gStatusRowHighlightFrame3
+    pieces:
+    - [32x16, 0, 0]
+    - [16x16, 32, 0]
+    - [32x16, 48, 0, {hflip: true}]
+  - symbol: gStatusRowHighlightFrame4
+    pieces:
+    - [32x8, 0, 4]
+    - [16x8, 32, 4]
+    - [32x8, 48, 4, {hflip: true}]
+  animations:
+  - symbol: gStatusRowHighlightAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 4], [3, 4], [4, 3]]
+  us:
+    address: 0x097A1BCC
+    size: 1864
+  jp:
+    address: 0x0975C060
+    size: 1864
+  eu:
+    address: 0x0977FA48
+    size: 1864
+- name: gStatusCursorTiles
+  format: sprite_sheet
+  align: 4
+  cell: [24, 27]
+  anchor: [0, 0]
+  columns: 5
+  frames:
+  - symbol: gStatusCursorFrame0
+    pieces:
+    - [16x16, 0, 0]
+    - [8x8, 16, 7]
+    - [8x8, 10, 16]
+  - symbol: gStatusCursorFrame1
+    pieces:
+    - [16x16, 0, 1]
+    - [8x8, 16, 8]
+    - [8x8, 10, 17]
+  - symbol: gStatusCursorFrame2
+    pieces:
+    - [16x16, 0, 2]
+    - [8x8, 16, 9]
+    - [8x8, 10, 18]
+  - symbol: gStatusCursorFrame3
+    pieces:
+    - [16x16, 0, 3]
+    - [8x8, 16, 10]
+    - [8x8, 10, 19]
+  - symbol: gStatusCursorFrame4
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gStatusCursorAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 3], [2, 3], [3, 4], [2, 3], [1, 3]]
+  us:
+    address: 0x097A2314
+    size: 352
+  jp:
+    address: 0x0975C7A8
+    size: 352
+  eu:
+    address: 0x09780190
+    size: 352
+- name: gStatusTabTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [0, 0]
+  columns: 4
+  frames:
+  - symbol: gStatusTabFrame0
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabFrame1
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabFrame2
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabFrame3
+    pieces:
+    - [32x16, 0, 0, {fresh: true}]
+  animations:
+  - symbol: gStatusTabAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x097A2474
+    size: 1074
+  jp:
+    address: 0x0975C908
+    size: 1074
+  eu:
+    address: 0x0977E714
+    size: 1074
+- name: gStatusTabRightTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [-32, 0]
+  columns: 4
+  frames:
+  - symbol: gStatusTabRightFrame0
+    pieces:
+    - [32x16, 32, 0]
+  - symbol: gStatusTabRightFrame1
+    pieces:
+    - [32x16, 32, 0]
+  - symbol: gStatusTabRightFrame2
+    pieces:
+    - [32x16, 32, 0]
+  - symbol: gStatusTabRightFrame3
+    pieces:
+    - [32x16, 32, 0]
+  animations:
+  - symbol: gStatusTabRightAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x097A28A8
+    size: 1074
+  jp:
+    address: 0x0975CD3C
+    size: 1074
+  eu:
+    address: 0x097802F0
+    size: 1074
+- name: gStockMesDispArrowTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [0, 0]
+  columns: 2
+  frames:
+  - symbol: gStockMesDispArrowFrame0
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gStockMesDispArrowFrame1
+    pieces:
+    - [16x16, 0, 0]
+  animations:
+  - symbol: gStockMesDispArrowAnim0
+    fields: {originX: 64, originY: 64}
+    frames: []
+  us:
+    address: 0x097A2CDC
+    size: 282
+  jp:
+    address: 0x0975D170
+    size: 282
+  eu:
+    address: 0x09780724
+    size: 282
+- name: gStatusNewMarkTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [0, 0]
+  columns: 2
+  frames:
+  - symbol: gStatusNewMarkFrame0
+    pieces:
+    - [16x8, 0, 0]
+  - symbol: gStatusNewMarkFrame1
+    pieces:
+    - [16x16, 0, 0]
+  animations:
+  - symbol: gStatusNewMarkAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x097A2DF8
+    size: 222
+  jp:
+    address: 0x0975D28C
+    size: 222
+- name: gStatusBarFrenchTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 16]
+  anchor: [128, 0]
+  columns: 3
+  frames:
+  - symbol: gStatusBarFrenchFrame0
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gStatusBarFrenchFrame1
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  - symbol: gStatusBarFrenchFrame2
+    pieces:
+    - [32x16, 0, 0]
+    - [16x16, 32, 0]
+    - [8x8, 48, 2]
+  animations:
+  - symbol: gStatusBarFrenchAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977DDE0
+    size: 744
+- name: gStatusBarSpanishTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 16]
+  anchor: [128, 0]
+  columns: 3
+  frames:
+  - symbol: gStatusBarSpanishFrame0
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gStatusBarSpanishFrame1
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  - symbol: gStatusBarSpanishFrame2
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+  animations:
+  - symbol: gStatusBarSpanishAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977E0C8
+    size: 834
+- name: gStatusBarItalianTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 16]
+  anchor: [128, 0]
+  columns: 3
+  frames:
+  - symbol: gStatusBarItalianFrame0
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gStatusBarItalianFrame1
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  - symbol: gStatusBarItalianFrame2
+    pieces:
+    - [32x16, 0, 0]
+    - [16x16, 32, 0]
+    - [8x16, 48, 0]
+  animations:
+  - symbol: gStatusBarItalianAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977E40C
+    size: 776
+- name: gStatusTabGermanSpanishTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [0, 0]
+  columns: 4
+  frames:
+  - symbol: gStatusTabGermanSpanishFrame0
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabGermanSpanishFrame1
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabGermanSpanishFrame2
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabGermanSpanishFrame3
+    pieces:
+    - [32x16, 0, 0, {fresh: true}]
+  animations:
+  - symbol: gStatusTabGermanSpanishAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977EB48
+    size: 1074
+- name: gStatusTabFrenchTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [0, 0]
+  columns: 4
+  frames:
+  - symbol: gStatusTabFrenchFrame0
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabFrenchFrame1
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabFrenchFrame2
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabFrenchFrame3
+    pieces:
+    - [32x16, 0, 0, {fresh: true}]
+  animations:
+  - symbol: gStatusTabFrenchAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977EF7C
+    size: 1074
+- name: gStatusTabItalianTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 16]
+  anchor: [0, 0]
+  columns: 4
+  frames:
+  - symbol: gStatusTabItalianFrame0
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabItalianFrame1
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabItalianFrame2
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gStatusTabItalianFrame3
+    pieces:
+    - [32x16, 0, 0, {fresh: true}]
+  animations:
+  - symbol: gStatusTabItalianAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977F3B0
+    size: 1074
+- name: gStatusNewMarkEnglishTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 8]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gStatusNewMarkEnglishFrame0
+    pieces:
+    - [16x8, 0, 0]
+  animations:
+  - symbol: gStatusNewMarkEnglishAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977F7E4
+    size: 84
+- name: gStatusNewMarkFrenchTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 8]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gStatusNewMarkFrenchFrame0
+    pieces:
+    - [32x8, 0, 0]
+  animations:
+  - symbol: gStatusNewMarkFrenchAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977F838
+    size: 148
+- name: gStatusNewMarkSpanishTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 8]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gStatusNewMarkSpanishFrame0
+    pieces:
+    - [32x8, 0, 0]
+  animations:
+  - symbol: gStatusNewMarkSpanishAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977F8CC
+    size: 148
+- name: gStatusNewMarkItalianTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 8]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gStatusNewMarkItalianFrame0
+    pieces:
+    - [32x8, 0, 0]
+  animations:
+  - symbol: gStatusNewMarkItalianAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x0977F960
+    size: 148
+- name: gStatusBgTiles
+  format: tiles4
+  us:
+    address: 0x097FFB98
+    size: 8448
+  jp:
+    address: 0x097BA02C
+    size: 8448
+  eu:
+    address: 0x097D62A0
+    size: 8288
+- name: gStatusSoraBgMap
+  format: tilemap
+  us:
+    address: 0x09847798
+    size: 1280
+  jp:
+    address: 0x097FCC6C
+    size: 1280
+  eu:
+    address: 0x0981BE40
+    size: 1280
+- name: gStatusRikuBgMap
+  format: tilemap
+  us:
+    address: 0x09847C98
+    size: 1280
+  jp:
+    address: 0x097FD16C
+    size: 1280
+  eu:
+    address: 0x0981C340
+    size: 1280
+- name: gStatusBgMap
+  format: tilemap
+  us:
+    address: 0x09848198
+    size: 1280
+  jp:
+    address: 0x097FD66C
+    size: 1280
+  eu:
+    address: 0x0981C840
+    size: 1280
+- name: gStatusBarBgMap
+  format: tilemap
+  us:
+    address: 0x09848698
+    size: 1280
+  jp:
+    address: 0x097FDB6C
+    size: 1280
+  eu:
+    address: 0x0981CD40
+    size: 1280
+- name: gStatusMesWindowMap
+  format: tilemap
+  us:
+    address: 0x09848B98
+    size: 1280
+  jp:
+    address: 0x097FE06C
+    size: 1280
+  eu:
+    address: 0x0981D240
+    size: 1280
+- name: gStatusBgPalette
+  format: palette
+  us:
+    address: 0x0984B118
+    size: 160
+  jp:
+    address: 0x097FFDEC
+    size: 160
+  eu:
+    address: 0x0981F7C0
+    size: 160
+- name: gStatusBarPalette
+  format: palette
+  us:
+    address: 0x0984B1B8
+    size: 32
+  jp:
+    address: 0x097FFE8C
+    size: 32
+  eu:
+    address: 0x0981F860
+    size: 32
+- name: gStatusRowHighlightPalette
+  format: palette
+  us:
+    address: 0x0984B1D8
+    size: 32
+  jp:
+    address: 0x097FFEAC
+    size: 32
+  eu:
+    address: 0x0981F880
+    size: 32
+- name: gStatusCursorPalette
+  format: palette
+  us:
+    address: 0x0984B1F8
+    size: 32
+  jp:
+    address: 0x097FFECC
+    size: 32
+  eu:
+    address: 0x0981F8A0
+    size: 32
+- name: gStatusTabPalette
+  format: palette
+  us:
+    address: 0x0984B218
+    size: 32
+  jp:
+    address: 0x097FFEEC
+    size: 32
+  eu:
+    address: 0x0981F8C0
+    size: 32
+- name: gStatusTabRightPalette
+  format: palette
+  us:
+    address: 0x0984B238
+    size: 32
+  jp:
+    address: 0x097FFF0C
+    size: 32
+  eu:
+    address: 0x0981F8E0
+    size: 32
+- name: gStockMesDispArrowPalette
+  format: palette
+  us:
+    address: 0x0984B258
+    size: 32
+  jp:
+    address: 0x097FFF2C
+    size: 32
+  eu:
+    address: 0x0981F900
+    size: 32
+- name: gStatusNewMarkPalette
+  format: palette
+  us:
+    address: 0x0984B278
+    size: 32
+  jp:
+    address: 0x097FFF4C
+    size: 32
+  eu:
+    address: 0x0981F920
+    size: 32
+- name: gStatusBgFrenchTiles
+  format: tiles4
+  width: 32
+  eu:
+    address: 0x097D8300
+    size: 3072
+- name: gStatusBgSpanishTiles
+  format: tiles4
+  width: 32
+  eu:
+    address: 0x097D8F00
+    size: 3072
+- name: gStatusBgItalianTiles
+  format: tiles4
+  width: 32
+  eu:
+    address: 0x097D9B00
+    size: 3072
+- name: gStatusBgGermanTiles
+  format: tiles4
+  eu:
+    address: 0x097DA700
+    size: 2144

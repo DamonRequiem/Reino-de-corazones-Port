@@ -1,0 +1,3437 @@
+group: sprites_bos6
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_bos6_frames_1.s
+    start: 0x09C448D2
+    end: 0x09C5B8B0
+    data_start: 0x09EFAB68
+    data_end: 0x09EFAEE4
+  - name: sprites_bos6_frames_2.s
+    start: 0x09C907B0
+    end: 0x09C90A30
+    data_start: 0x09EFBBBC
+    data_end: 0x09EFBC40
+  - name: sprites_bos6_tiles.s
+    start: 0x09C94A94
+    end: 0x09CD0334
+  - name: sprites_bos6_maps_1.s
+    start: 0x09D34A74
+    end: 0x09D4BA74
+  - name: sprites_bos6_maps_2.s
+    start: 0x09D4DA74
+    end: 0x09D59A74
+  - name: sprites_bos6_palettes_1.s
+    start: 0x09D69374
+    end: 0x09D69594
+  - name: sprites_bos6_palettes_2.s
+    start: 0x09D69594
+    end: 0x09D695F4
+  - name: sprites_bos6_palettes_3.s
+    start: 0x09A3DE9C
+    end: 0x09A3DEFC
+  jp:
+  - name: sprites_bos6_frames_1.s
+    start: 0x09C1CFF6
+    end: 0x09C33FD4
+    data_start: 0x09ED2074
+    data_end: 0x09ED23F0
+  - name: sprites_bos6_frames_2.s
+    start: 0x09C69CBC
+    end: 0x09C69F3C
+    data_start: 0x09ED3134
+    data_end: 0x09ED31B8
+  - name: sprites_bos6_tiles.s
+    start: 0x09C6DFA0
+    end: 0x09CA9840
+  - name: sprites_bos6_maps_1.s
+    start: 0x09D0DF80
+    end: 0x09D24F80
+  - name: sprites_bos6_maps_2.s
+    start: 0x09D26F80
+    end: 0x09D32F80
+  - name: sprites_bos6_palettes_1.s
+    start: 0x09D42880
+    end: 0x09D42AA0
+  - name: sprites_bos6_palettes_2.s
+    start: 0x09D42AA0
+    end: 0x09D42B00
+  - name: sprites_bos6_palettes_3.s
+    start: 0x099F2924
+    end: 0x099F2984
+  eu:
+  - name: sprites_bos6_frames_1.s
+    start: 0x09CA261A
+    end: 0x09CB95F8
+    data_start: 0x09F868B4
+    data_end: 0x09F86C30
+  - name: sprites_bos6_frames_2.s
+    start: 0x09D00ADC
+    end: 0x09D00D5C
+    data_start: 0x09F883D0
+    data_end: 0x09F88454
+  - name: sprites_bos6_tiles.s
+    start: 0x09D04DC0
+    end: 0x09D40660
+  - name: sprites_bos6_maps_1.s
+    start: 0x09DA09A0
+    end: 0x09DB79A0
+  - name: sprites_bos6_maps_2.s
+    start: 0x09DB99A0
+    end: 0x09DC59A0
+  - name: sprites_bos6_palettes_1.s
+    start: 0x09DD92A0
+    end: 0x09DD94C0
+  - name: sprites_bos6_palettes_2.s
+    start: 0x09DD94C0
+    end: 0x09DD9520
+  - name: sprites_bos6_palettes_3.s
+    start: 0x09A9B960
+    end: 0x09A9B9C0
+entries:
+- name: gUnk_09A3DE9C
+  format: palette
+  us:
+    address: 0x09A3DE9C
+    size: 96
+  jp:
+    address: 0x099F2924
+    size: 96
+  eu:
+    address: 0x09A9B960
+    size: 96
+- name: gBosPcAcdFrames
+  record: SpriteTable
+  items: [gBosPcAcdFrame0, gBosPcAcdFrame1, gBosPcAcdFrame2, gBosPcAcdFrame3, gBosPcAcdFrame4, gBosPcAcdFrame5, gBosPcAcdFrame6, gBosPcAcdFrame7, gBosPcAcdFrame8, gBosPcAcdFrame9, gBosPcAcdFrame10, gBosPcAcdFrame11, gBosPcAcdFrame12, gBosPcAcdFrame13, gBosPcAcdFrame14]
+  us:
+    address: 0x09EFAB68
+  jp:
+    address: 0x09ED2074
+  eu:
+    address: 0x09F868B4
+- name: gBosPcAcdAnims
+  record: AnimTable
+  items: [gBosPcAcdAnim0, gBosPcAcdAnim1, gBosPcAcdAnim2]
+  us:
+    address: 0x09EFABA4
+  jp:
+    address: 0x09ED20B0
+  eu:
+    address: 0x09F868F0
+- name: gBosLstMarluxiaFrames
+  record: SpriteTable
+  items: [gBosLstMarluxiaFrame0, gBosLstMarluxiaFrame1, gBosLstMarluxiaFrame2, gBosLstMarluxiaFrame3, gBosLstMarluxiaFrame4, gBosLstMarluxiaFrame5, gBosLstMarluxiaFrame6, gBosLstMarluxiaFrame7, gBosLstMarluxiaFrame8, gBosLstMarluxiaFrame9, gBosLstMarluxiaFrame10, gBosLstMarluxiaFrame11, gBosLstMarluxiaFrame12, gBosLstMarluxiaFrame13, gBosLstMarluxiaFrame14, gBosLstMarluxiaFrame15, gBosLstMarluxiaFrame16, gBosLstMarluxiaFrame17, gBosLstMarluxiaFrame18, gBosLstMarluxiaFrame19, gBosLstMarluxiaFrame20, gBosLstMarluxiaFrame21, gBosLstMarluxiaFrame22, gBosLstMarluxiaFrame23, gBosLstMarluxiaFrame24, gBosLstMarluxiaFrame25, gBosLstMarluxiaFrame26, gBosLstMarluxiaFrame27, gBosLstMarluxiaFrame28, gBosLstMarluxiaFrame29, gBosLstMarluxiaFrame30, gBosLstMarluxiaFrame31, gBosLstMarluxiaFrame32, gBosLstMarluxiaFrame33, gBosLstMarluxiaFrame34, gBosLstMarluxiaFrame35, gBosLstMarluxiaFrame36, gBosLstMarluxiaFrame37, gBosLstMarluxiaFrame38, gBosLstMarluxiaFrame39, gBosLstMarluxiaFrame40, gBosLstMarluxiaFrame41, gBosLstMarluxiaFrame42, gBosLstMarluxiaFrame43, gBosLstMarluxiaFrame44, gBosLstMarluxiaFrame45, gBosLstMarluxiaFrame46, gBosLstMarluxiaFrame47, gBosLstMarluxiaFrame48, gBosLstMarluxiaFrame49, gBosLstMarluxiaFrame50, gBosLstMarluxiaFrame51, gBosLstMarluxiaFrame52, gBosLstMarluxiaFrame53, gBosLstMarluxiaFrame54, gBosLstMarluxiaFrame55, gBosLstMarluxiaFrame56, gBosLstMarluxiaFrame57, gBosLstMarluxiaFrame58, gBosLstMarluxiaFrame59, gBosLstMarluxiaFrame60, gBosLstMarluxiaFrame61, gBosLstMarluxiaFrame62, gBosLstMarluxiaFrame63, gBosLstMarluxiaFrame64, gBosLstMarluxiaFrame65, gBosLstMarluxiaFrame66, gBosLstMarluxiaFrame67, gBosLstMarluxiaFrame68, gBosLstMarluxiaFrame69, gBosLstMarluxiaFrame70, gBosLstMarluxiaFrame71, gBosLstMarluxiaFrame72, gBosLstMarluxiaFrame73, gBosLstMarluxiaFrame74, gBosLstMarluxiaFrame75, gBosLstMarluxiaFrame76, gBosLstMarluxiaFrame77, gBosLstMarluxiaFrame78, gBosLstMarluxiaFrame79, gBosLstMarluxiaFrame80, gBosLstMarluxiaFrame81, gBosLstMarluxiaFrame82, gBosLstMarluxiaFrame83, gBosLstMarluxiaFrame84, gBosLstMarluxiaFrame85, gBosLstMarluxiaFrame86, gBosLstMarluxiaFrame87, gBosLstMarluxiaFrame88, gBosLstMarluxiaFrame89, gBosLstMarluxiaFrame90, gBosLstMarluxiaFrame91, gBosLstMarluxiaFrame92, gBosLstMarluxiaFrame93, gBosLstMarluxiaFrame94, gBosLstMarluxiaFrame95, gBosLstMarluxiaFrame96, gBosLstMarluxiaFrame97, gBosLstMarluxiaFrame98]
+  us:
+    address: 0x09EFABB0
+  jp:
+    address: 0x09ED20BC
+  eu:
+    address: 0x09F868FC
+- name: gBosLstMarluxiaAnims
+  record: AnimTable
+  items: [gBosLstMarluxiaAnim0, gBosLstMarluxiaAnim1, gBosLstMarluxiaAnim2, gBosLstMarluxiaAnim3, gBosLstMarluxiaAnim4, gBosLstMarluxiaAnim5, gBosLstMarluxiaAnim6, gBosLstMarluxiaAnim7, gBosLstMarluxiaAnim8, gBosLstMarluxiaAnim9, gBosLstMarluxiaAnim10, gBosLstMarluxiaAnim11, gBosLstMarluxiaAnim12, gBosLstMarluxiaAnim13]
+  us:
+    address: 0x09EFAD3C
+  jp:
+    address: 0x09ED2248
+  eu:
+    address: 0x09F86A88
+- name: gBosLstMarluxiaDashFrames
+  record: SpriteTable
+  items: [gBosLstMarluxiaDashFrame0, gBosLstMarluxiaDashFrame1, gBosLstMarluxiaDashFrame2, gBosLstMarluxiaDashFrame3, gBosLstMarluxiaDashFrame4, gBosLstMarluxiaDashFrame5, gBosLstMarluxiaDashFrame6, gBosLstMarluxiaDashFrame7, gBosLstMarluxiaDashFrame8, gBosLstMarluxiaDashFrame9, gBosLstMarluxiaDashFrame10, gBosLstMarluxiaDashFrame11, gBosLstMarluxiaDashFrame12, gBosLstMarluxiaDashFrame13, gBosLstMarluxiaDashFrame14, gBosLstMarluxiaDashFrame15, gBosLstMarluxiaDashFrame16, gBosLstMarluxiaDashFrame17]
+  us:
+    address: 0x09EFAD74
+  jp:
+    address: 0x09ED2280
+  eu:
+    address: 0x09F86AC0
+- name: gBosLstMarluxiaDashAnims
+  record: AnimTable
+  items: [gBosLstMarluxiaDashAnim0, gBosLstMarluxiaDashAnim1]
+  us:
+    address: 0x09EFADBC
+  jp:
+    address: 0x09ED22C8
+  eu:
+    address: 0x09F86B08
+- name: gBosLstScythe0Frames
+  record: SpriteTable
+  items: [gBosLstScythe0Frame0, gBosLstScythe0Frame1, gBosLstScythe0Frame2, gBosLstScythe0Frame3, gBosLstScythe0Frame4, gBosLstScythe0Frame5, gBosLstScythe0Frame6, gBosLstScythe0Frame7, gBosLstScythe0Frame8, gBosLstScythe0Frame9, gBosLstScythe0Frame10, gBosLstScythe0Frame11, gBosLstScythe0Frame12, gBosLstScythe0Frame13, gBosLstScythe0Frame14, gBosLstScythe0Frame15, gBosLstScythe0Frame16, gBosLstScythe0Frame17, gBosLstScythe0Frame18, gBosLstScythe0Frame19, gBosLstScythe0Frame20, gBosLstScythe0Frame21]
+  us:
+    address: 0x09EFADC4
+  jp:
+    address: 0x09ED22D0
+  eu:
+    address: 0x09F86B10
+- name: gBosLstScythe0Anims
+  record: AnimTable
+  items: [gBosLstScythe0Anim0, gBosLstScythe0Anim1, gBosLstScythe0Anim2, gBosLstScythe0Anim3, gBosLstScythe0Anim4, gBosLstScythe0Anim5, gBosLstScythe0Anim6, gBosLstScythe0Anim7, gBosLstScythe0Anim8, gBosLstScythe0Anim9, gBosLstScythe0Anim10, gBosLstScythe0Anim11, gBosLstScythe0Anim12, gBosLstScythe0Anim13]
+  us:
+    address: 0x09EFAE1C
+  jp:
+    address: 0x09ED2328
+  eu:
+    address: 0x09F86B68
+- name: gBosLstScythe1Frames
+  record: SpriteTable
+  items: [gBosLstScythe1Frame0, gBosLstScythe1Frame1, gBosLstScythe1Frame2, gBosLstScythe1Frame3, gBosLstScythe1Frame4, gBosLstScythe1Frame5, gBosLstScythe1Frame6, gBosLstScythe1Frame7, gBosLstScythe1Frame8, gBosLstScythe1Frame9, gBosLstScythe1Frame10, gBosLstScythe1Frame11, gBosLstScythe1Frame12, gBosLstScythe1Frame13, gBosLstScythe1Frame14, gBosLstScythe1Frame15, gBosLstScythe1Frame16, gBosLstScythe1Frame17, gBosLstScythe1Frame18, gBosLstScythe1Frame19, gBosLstScythe1Frame20, gBosLstScythe1Frame21]
+  us:
+    address: 0x09EFAE54
+  jp:
+    address: 0x09ED2360
+  eu:
+    address: 0x09F86BA0
+- name: gBosLstScythe1Anims
+  record: AnimTable
+  items: [gBosLstScythe1Anim0, gBosLstScythe1Anim1, gBosLstScythe1Anim2, gBosLstScythe1Anim3, gBosLstScythe1Anim4, gBosLstScythe1Anim5, gBosLstScythe1Anim6, gBosLstScythe1Anim7, gBosLstScythe1Anim8, gBosLstScythe1Anim9, gBosLstScythe1Anim10, gBosLstScythe1Anim11, gBosLstScythe1Anim12, gBosLstScythe1Anim13]
+  us:
+    address: 0x09EFAEAC
+  jp:
+    address: 0x09ED23B8
+  eu:
+    address: 0x09F86BF8
+- name: gBosPcFltFrames
+  record: SpriteTable
+  items: [gBosPcFltFrame0, gBosPcFltFrame1, gBosPcFltFrame2, gBosPcFltFrame3, gBosPcFltFrame4, gBosPcFltFrame5, gBosPcFltFrame6, gBosPcFltFrame7, gBosPcFltFrame8, gBosPcFltFrame9, gBosPcFltFrame10, gBosPcFltFrame11]
+  us:
+    address: 0x09EFBBBC
+  jp:
+    address: 0x09ED3134
+  eu:
+    address: 0x09F883D0
+- name: gBosPcFltAnims
+  record: AnimTable
+  items: [gBosPcFltAnim0, gBosPcFltAnim1, gBosPcFltAnim2, gBosPcFltAnim3, gBosPcFltAnim4, gBosPcFltAnim5, gBosPcFltAnim6, gBosPcFltAnim7, gBosPcFltAnim8, gBosPcFltAnim9, gBosPcFltAnim10, gBosPcFltAnim11, gBosPcFltAnim12, gBosPcFltAnim13, gBosPcFltAnim14, gBosPcFltAnim15, gBosPcFltAnim16, gBosPcFltAnim17, gBosPcFltAnim18, gBosPcFltAnim19, gBosPcFltAnim20]
+  us:
+    address: 0x09EFBBEC
+  jp:
+    address: 0x09ED3164
+  eu:
+    address: 0x09F88400
+- name: gBosPcAcdTiles
+  format: sprite_sheet
+  align: 4
+  cell: [48, 40]
+  anchor: [28, 16]
+  columns: 8
+  frames:
+  - symbol: gBosPcAcdFrame0
+    pieces:
+    - [32x16, -16, -8, {pal: 2}]
+  - symbol: gBosPcAcdFrame1
+    pieces:
+    - [32x16, -16, -8, {pal: 2}]
+  - symbol: gBosPcAcdFrame2
+    pieces:
+    - [32x16, -16, -8, {pal: 2}]
+  - symbol: gBosPcAcdFrame3
+    pieces:
+    - [32x16, -16, -12, {pal: 2}]
+  - symbol: gBosPcAcdFrame4
+    pieces:
+    - [32x16, -16, -16, {pal: 2}]
+  - symbol: gBosPcAcdFrame5
+    pieces:
+    - [8x8, -4, -4, {pal: 2}]
+  - symbol: gBosPcAcdFrame6
+    pieces:
+    - [32x32, -28, -8, {pal: 2}]
+    - [16x32, 4, -8, {pal: 2}]
+  - symbol: gBosPcAcdFrame7
+    pieces:
+    - [32x32, -28, -8, {pal: 2}]
+    - [16x32, 4, -8, {pal: 2}]
+  - symbol: gBosPcAcdFrame8
+    pieces:
+    - [32x32, -28, -8, {pal: 2}]
+    - [16x32, 4, -8, {pal: 2}]
+  - symbol: gBosPcAcdFrame9
+    pieces:
+    - [32x32, -28, -8, {pal: 2}]
+    - [16x32, 4, -8, {pal: 2}]
+  - symbol: gBosPcAcdFrame10
+    pieces:
+    - [8x8, -4, -4, {pal: 2}]
+  - symbol: gBosPcAcdFrame11
+    pieces:
+    - [32x16, -20, -4, {pal: 2}]
+    - [32x8, -20, 12, {pal: 2}]
+  - symbol: gBosPcAcdFrame12
+    pieces:
+    - [32x16, -20, -4, {pal: 2}]
+    - [32x8, -20, 12, {pal: 2}]
+  - symbol: gBosPcAcdFrame13
+    pieces:
+    - [32x16, -20, -4, {pal: 2}]
+    - [32x8, -20, 12, {pal: 2}]
+  - symbol: gBosPcAcdFrame14
+    pieces:
+    - [32x16, -20, -4, {pal: 2}]
+    - [32x8, -20, 12, {pal: 2}]
+  animations:
+  - symbol: gBosPcAcdAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 12]]
+  - symbol: gBosPcAcdAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 14], [7, 14], [8, 14], [9, 14]]
+  - symbol: gBosPcAcdAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 12], [12, 12], [13, 12], [14, 12]]
+  us:
+    address: 0x09C488D4
+    size: 6192
+  jp:
+    address: 0x09C20FF8
+    size: 6192
+  eu:
+    address: 0x09CA661C
+    size: 6192
+- name: gBosLstMarluxiaTiles
+  format: sprite_sheet
+  align: 4
+  cell: [68, 52]
+  anchor: [34, 48]
+  columns: 8
+  frames:
+  - symbol: gBosLstMarluxiaFrame0
+    pieces:
+    - [16x32, -7, -38, {pal: 2}]
+    - [32x8, -15, -6, {pal: 2}]
+    - [8x16, 9, -22, {pal: 2}]
+    - [8x8, 9, -30, {pal: 2}]
+    - [16x16, -23, -22, {pal: 2}]
+    - [8x8, -31, -14, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame1
+    pieces:
+    - [16x32, -9, -38, {hflip: true, pal: 2}]
+    - [32x8, -17, -6, {hflip: true, pal: 2}]
+    - [8x16, -17, -22, {hflip: true, pal: 2}]
+    - [8x8, -17, -30, {hflip: true, pal: 2}]
+    - [16x16, 7, -22, {hflip: true, pal: 2}]
+    - [8x8, 23, -14, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame2
+    pieces:
+    - [16x32, -7, -40, {pal: 2}]
+    - [32x8, -15, -8, {pal: 2}]
+    - [8x16, 9, -24, {pal: 2}]
+    - [8x8, 9, -32, {pal: 2}]
+    - [16x16, -23, -23, {pal: 2}]
+    - [8x8, -31, -15, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame3
+    pieces:
+    - [16x32, -9, -40, {hflip: true, pal: 2}]
+    - [32x8, -17, -8, {hflip: true, pal: 2}]
+    - [8x16, -17, -24, {hflip: true, pal: 2}]
+    - [8x8, -17, -32, {hflip: true, pal: 2}]
+    - [16x16, 7, -23, {hflip: true, pal: 2}]
+    - [8x8, 23, -15, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame4
+    pieces:
+    - [16x32, -7, -40, {pal: 2}]
+    - [32x8, -15, -8, {pal: 2}]
+    - [8x16, 9, -24, {pal: 2}]
+    - [8x8, 9, -32, {pal: 2, fresh: true}]
+    - [16x16, -23, -24, {pal: 2}]
+    - [8x8, -31, -16, {pal: 2, fresh: true}]
+  - symbol: gBosLstMarluxiaFrame5
+    pieces:
+    - [16x32, -9, -40, {hflip: true, pal: 2}]
+    - [32x8, -17, -8, {hflip: true, pal: 2}]
+    - [8x16, -17, -24, {hflip: true, pal: 2}]
+    - [8x8, -17, -32, {hflip: true, pal: 2}]
+    - [16x16, 7, -24, {hflip: true, pal: 2}]
+    - [8x8, 23, -16, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame6
+    pieces:
+    - [16x32, -7, -39, {pal: 2}]
+    - [32x8, -15, -7, {pal: 2}]
+    - [8x16, 9, -23, {pal: 2}]
+    - [8x8, 9, -31, {pal: 2, fresh: true}]
+    - [16x16, -23, -23, {pal: 2}]
+    - [8x8, -31, -15, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame7
+    pieces:
+    - [16x32, -9, -39, {hflip: true, pal: 2}]
+    - [32x8, -17, -7, {hflip: true, pal: 2}]
+    - [8x16, -17, -23, {hflip: true, pal: 2}]
+    - [8x8, -17, -31, {hflip: true, pal: 2}]
+    - [16x16, 7, -23, {hflip: true, pal: 2}]
+    - [8x8, 23, -15, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame8
+    pieces:
+    - [16x32, -3, -40, {pal: 2}]
+    - [32x8, -19, -8, {pal: 2}]
+    - [16x16, -19, -24, {pal: 2}]
+    - [8x16, -27, -16, {pal: 2}]
+    - [8x8, -11, -32, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame9
+    pieces:
+    - [16x32, -13, -40, {hflip: true, pal: 2}]
+    - [32x8, -13, -8, {hflip: true, pal: 2}]
+    - [16x16, 3, -24, {hflip: true, pal: 2}]
+    - [8x16, 19, -16, {hflip: true, pal: 2}]
+    - [8x8, 3, -32, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame10
+    pieces:
+    - [16x32, -6, -40, {pal: 2}]
+    - [16x16, -22, -24, {pal: 2}]
+    - [8x8, -30, -17, {pal: 2}]
+    - [8x8, -14, -32, {pal: 2}]
+    - [8x16, 10, -32, {pal: 2}]
+    - [16x8, -6, -8, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame11
+    pieces:
+    - [16x32, -10, -40, {hflip: true, pal: 2}]
+    - [16x16, 6, -24, {hflip: true, pal: 2}]
+    - [8x8, 22, -17, {hflip: true, pal: 2}]
+    - [8x8, 6, -32, {hflip: true, pal: 2}]
+    - [8x16, -18, -32, {hflip: true, pal: 2}]
+    - [16x8, -10, -8, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame12
+    pieces:
+    - [16x32, -6, -40, {pal: 2}]
+    - [16x16, -22, -25, {pal: 2}]
+    - [16x16, 10, -24, {pal: 2}]
+    - [16x8, -6, -8, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame13
+    pieces:
+    - [16x32, -10, -40, {hflip: true, pal: 2}]
+    - [16x16, 6, -25, {hflip: true, pal: 2}]
+    - [16x16, -26, -24, {hflip: true, pal: 2}]
+    - [16x8, -10, -8, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame14
+    pieces:
+    - [16x32, -4, -36, {pal: 2}]
+    - [8x32, -12, -28, {pal: 2}]
+    - [16x8, -4, -4, {pal: 2}]
+    - [16x16, 12, -20, {pal: 2}]
+    - [8x16, -20, -18, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame15
+    pieces:
+    - [16x32, -12, -36, {hflip: true, pal: 2}]
+    - [8x32, 4, -28, {hflip: true, pal: 2}]
+    - [16x8, -12, -4, {hflip: true, pal: 2}]
+    - [16x16, -28, -20, {hflip: true, pal: 2}]
+    - [8x16, 12, -18, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame16
+    pieces:
+    - [32x16, -14, -16, {pal: 2}]
+    - [8x16, -22, -16, {pal: 2}]
+    - [32x8, -14, -24, {pal: 2}]
+    - [16x8, -14, -32, {pal: 2}]
+    - [8x8, 2, -32, {pal: 2}]
+    - [16x8, -7, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame17
+    pieces:
+    - [32x16, -18, -16, {hflip: true, pal: 2}]
+    - [8x16, 14, -16, {hflip: true, pal: 2}]
+    - [32x8, -18, -24, {hflip: true, pal: 2}]
+    - [16x8, -2, -32, {hflip: true, pal: 2}]
+    - [8x8, -10, -32, {hflip: true, pal: 2}]
+    - [16x8, -9, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame18
+    pieces:
+    - [32x8, -14, -8, {pal: 2}]
+    - [32x16, -14, -24, {pal: 2}]
+    - [8x16, -22, -24, {pal: 2}]
+    - [16x16, -13, -40, {pal: 2}]
+    - [8x16, 3, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame19
+    pieces:
+    - [32x8, -18, -8, {hflip: true, pal: 2}]
+    - [32x16, -18, -24, {hflip: true, pal: 2}]
+    - [8x16, 14, -24, {hflip: true, pal: 2}]
+    - [16x16, -3, -40, {hflip: true, pal: 2}]
+    - [8x16, -11, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame20
+    pieces:
+    - [16x16, -6, -16, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2}]
+    - [32x16, -21, -32, {pal: 2}]
+    - [8x16, -29, -32, {pal: 2}]
+    - [16x8, -8, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame21
+    pieces:
+    - [16x16, -10, -16, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+    - [32x16, -11, -32, {hflip: true, pal: 2}]
+    - [8x16, 21, -32, {hflip: true, pal: 2}]
+    - [16x8, -8, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame22
+    pieces:
+    - [16x16, -6, -16, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2}]
+    - [16x8, -5, -24, {pal: 2}]
+    - [8x8, -13, -24, {pal: 2}]
+    - [32x16, -21, -40, {pal: 2}]
+    - [8x8, -13, -48, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame23
+    pieces:
+    - [16x16, -10, -16, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+    - [16x8, -11, -24, {hflip: true, pal: 2}]
+    - [8x8, 5, -24, {hflip: true, pal: 2}]
+    - [32x16, -11, -40, {hflip: true, pal: 2}]
+    - [8x8, 5, -48, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame24
+    pieces:
+    - [16x32, -6, -32, {pal: 2}]
+    - [8x32, -14, -32, {pal: 2}]
+    - [16x8, -14, -40, {pal: 2}]
+    - [8x8, 2, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame25
+    pieces:
+    - [16x32, -10, -32, {hflip: true, pal: 2}]
+    - [8x32, 6, -32, {hflip: true, pal: 2}]
+    - [16x8, -2, -40, {hflip: true, pal: 2}]
+    - [8x8, -10, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame26
+    pieces:
+    - [16x16, -6, -16, {pal: 2}]
+    - [8x16, -14, -16, {pal: 2}]
+    - [32x8, -22, -24, {pal: 2}]
+    - [32x8, -21, -32, {pal: 2}]
+    - [8x8, -5, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame27
+    pieces:
+    - [16x16, -10, -16, {hflip: true, pal: 2}]
+    - [8x16, 6, -16, {hflip: true, pal: 2}]
+    - [32x8, -10, -24, {hflip: true, pal: 2}]
+    - [32x8, -11, -32, {hflip: true, pal: 2}]
+    - [8x8, -3, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame28
+    pieces:
+    - [16x8, -6, -8, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2}]
+    - [32x16, -17, -24, {pal: 2}]
+    - [16x16, -9, -40, {pal: 2}]
+    - [8x8, 7, -32, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame29
+    pieces:
+    - [16x8, -10, -8, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+    - [32x16, -15, -24, {hflip: true, pal: 2}]
+    - [16x16, -7, -40, {hflip: true, pal: 2}]
+    - [8x8, -15, -32, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame30
+    pieces:
+    - [32x8, -22, -8, {pal: 2}]
+    - [32x16, -14, -24, {pal: 2}]
+    - [8x8, -22, -16, {pal: 2}]
+    - [16x16, -12, -40, {pal: 2}]
+    - [8x8, 4, -32, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame31
+    pieces:
+    - [32x8, -10, -8, {hflip: true, pal: 2}]
+    - [32x16, -18, -24, {hflip: true, pal: 2}]
+    - [8x8, 14, -16, {hflip: true, pal: 2}]
+    - [16x16, -4, -40, {hflip: true, pal: 2}]
+    - [8x8, -12, -32, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame32
+    pieces:
+    - [32x8, -22, -8, {pal: 2}]
+    - [32x16, -13, -24, {pal: 2}]
+    - [8x16, -21, -24, {pal: 2}]
+    - [16x16, -5, -40, {pal: 2}]
+    - [8x8, -13, -32, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame33
+    pieces:
+    - [32x8, -10, -8, {hflip: true, pal: 2}]
+    - [32x16, -19, -24, {hflip: true, pal: 2}]
+    - [8x16, 13, -24, {hflip: true, pal: 2}]
+    - [16x16, -11, -40, {hflip: true, pal: 2}]
+    - [8x8, 5, -32, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame34
+    pieces:
+    - [32x16, -22, -16, {pal: 2}]
+    - [16x16, 10, -16, {pal: 2}]
+    - [32x8, -14, -24, {pal: 2}]
+    - [16x16, -5, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame35
+    pieces:
+    - [32x16, -10, -16, {hflip: true, pal: 2}]
+    - [16x16, -26, -16, {hflip: true, pal: 2}]
+    - [32x8, -18, -24, {hflip: true, pal: 2}]
+    - [16x16, -11, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame36
+    pieces:
+    - [32x16, -14, -16, {pal: 2}]
+    - [32x8, -14, -24, {pal: 2}]
+    - [8x16, 18, -14, {pal: 2}]
+    - [8x16, -22, -15, {pal: 2}]
+    - [16x8, -5, -32, {pal: 2}]
+    - [8x8, 3, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame37
+    pieces:
+    - [32x16, -18, -16, {hflip: true, pal: 2}]
+    - [32x8, -18, -24, {hflip: true, pal: 2}]
+    - [8x16, -26, -14, {hflip: true, pal: 2}]
+    - [8x16, 14, -15, {hflip: true, pal: 2}]
+    - [16x8, -11, -32, {hflip: true, pal: 2}]
+    - [8x8, -11, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame38
+    pieces:
+    - [16x32, -6, -32, {pal: 2}]
+    - [8x16, -14, -16, {pal: 2}]
+    - [8x8, -14, -24, {pal: 2}]
+    - [8x32, 10, -31, {pal: 2}]
+    - [8x16, 18, -14, {pal: 2}]
+    - [8x16, -22, -15, {pal: 2}]
+    - [8x8, 2, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame39
+    pieces:
+    - [16x32, -10, -32, {hflip: true, pal: 2}]
+    - [8x16, 6, -16, {hflip: true, pal: 2}]
+    - [8x8, 6, -24, {hflip: true, pal: 2}]
+    - [8x32, -18, -31, {hflip: true, pal: 2}]
+    - [8x16, -26, -14, {hflip: true, pal: 2}]
+    - [8x16, 14, -15, {hflip: true, pal: 2}]
+    - [8x8, -10, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame40
+    pieces:
+    - [16x32, -6, -32, {pal: 2}]
+    - [8x16, -14, -16, {pal: 2}]
+    - [8x8, -14, -24, {pal: 2}]
+    - [8x32, 10, -31, {pal: 2}]
+    - [8x16, 18, -14, {pal: 2}]
+    - [8x8, 26, -7, {pal: 2}]
+    - [8x16, -22, -14, {pal: 2}]
+    - [8x8, 2, -40, {pal: 2, fresh: true}]
+  - symbol: gBosLstMarluxiaFrame41
+    pieces:
+    - [16x32, -10, -32, {hflip: true, pal: 2}]
+    - [8x16, 6, -16, {hflip: true, pal: 2}]
+    - [8x8, 6, -24, {hflip: true, pal: 2}]
+    - [8x32, -18, -31, {hflip: true, pal: 2}]
+    - [8x16, -26, -14, {hflip: true, pal: 2}]
+    - [8x8, -34, -7, {hflip: true, pal: 2}]
+    - [8x16, 14, -14, {hflip: true, pal: 2}]
+    - [8x8, -10, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame42
+    pieces:
+    - [32x16, -14, -16, {pal: 2}]
+    - [8x16, -22, -16, {pal: 2}]
+    - [32x8, -14, -24, {pal: 2}]
+    - [8x16, 18, -15, {pal: 2}]
+    - [16x8, -4, -32, {pal: 2}]
+    - [8x8, 4, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame43
+    pieces:
+    - [32x16, -18, -16, {hflip: true, pal: 2}]
+    - [8x16, 14, -16, {hflip: true, pal: 2}]
+    - [32x8, -18, -24, {hflip: true, pal: 2}]
+    - [8x16, -26, -15, {hflip: true, pal: 2}]
+    - [16x8, -12, -32, {hflip: true, pal: 2}]
+    - [8x8, -12, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame44
+    pieces:
+    - [32x32, -14, -32, {pal: 2}]
+    - [16x8, -6, -40, {pal: 2}]
+    - [16x16, -30, -24, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame45
+    pieces:
+    - [32x32, -18, -32, {hflip: true, pal: 2}]
+    - [16x8, -10, -40, {hflip: true, pal: 2}]
+    - [16x16, 14, -24, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame46
+    pieces:
+    - [16x32, -6, -32, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2}]
+    - [16x8, -6, -40, {pal: 2}]
+    - [8x16, 10, -32, {pal: 2}]
+    - [8x16, -14, -32, {pal: 2}]
+    - [16x16, -30, -32, {pal: 2}]
+    - [16x16, 18, -24, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame47
+    pieces:
+    - [16x32, -10, -32, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+    - [16x8, -10, -40, {hflip: true, pal: 2}]
+    - [8x16, -18, -32, {hflip: true, pal: 2}]
+    - [8x16, 6, -32, {hflip: true, pal: 2}]
+    - [16x16, 14, -32, {hflip: true, pal: 2}]
+    - [16x16, -34, -24, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame48
+    pieces:
+    - [16x32, -6, -32, {pal: 2}]
+    - [16x8, -6, -40, {pal: 2}]
+    - [8x16, -14, -32, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2, fresh: true}]
+    - [16x16, -30, -38, {pal: 2}]
+    - [16x16, 10, -36, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame49
+    pieces:
+    - [16x32, -10, -32, {hflip: true, pal: 2}]
+    - [16x8, -10, -40, {hflip: true, pal: 2}]
+    - [8x16, 6, -32, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+    - [16x16, 14, -38, {hflip: true, pal: 2}]
+    - [16x16, -26, -36, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame50
+    pieces:
+    - [16x16, -6, -16, {pal: 2}]
+    - [8x16, -14, -16, {pal: 2}]
+    - [32x16, -21, -32, {pal: 2}]
+    - [32x8, -22, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame51
+    pieces:
+    - [16x16, -10, -16, {hflip: true, pal: 2}]
+    - [8x16, 6, -16, {hflip: true, pal: 2}]
+    - [32x16, -11, -32, {hflip: true, pal: 2}]
+    - [32x8, -10, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame52
+    pieces:
+    - [16x8, -6, -8, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2}]
+    - [16x8, -12, -16, {pal: 2}]
+    - [8x8, 4, -16, {pal: 2}]
+    - [32x16, -20, -32, {pal: 2}]
+    - [16x8, -4, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame53
+    pieces:
+    - [16x8, -10, -8, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+    - [16x8, -4, -16, {hflip: true, pal: 2}]
+    - [8x8, -12, -16, {hflip: true, pal: 2}]
+    - [32x16, -12, -32, {hflip: true, pal: 2}]
+    - [16x8, -12, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame54
+    pieces:
+    - [16x8, -14, -7, {pal: 2}]
+    - [8x8, 2, -7, {pal: 2}]
+    - [32x16, -20, -23, {pal: 2}]
+    - [16x16, -6, -39, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame55
+    pieces:
+    - [16x8, -2, -7, {hflip: true, pal: 2}]
+    - [8x8, -10, -7, {hflip: true, pal: 2}]
+    - [32x16, -12, -23, {hflip: true, pal: 2}]
+    - [16x16, -10, -39, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame56
+    pieces:
+    - [16x8, -14, -8, {pal: 2}]
+    - [8x8, 2, -8, {pal: 2}]
+    - [32x16, -22, -24, {pal: 2}]
+    - [16x16, -7, -40, {pal: 2}]
+    - [8x16, 10, -24, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame57
+    pieces:
+    - [16x8, -2, -8, {hflip: true, pal: 2}]
+    - [8x8, -10, -8, {hflip: true, pal: 2}]
+    - [32x16, -10, -24, {hflip: true, pal: 2}]
+    - [16x16, -9, -40, {hflip: true, pal: 2}]
+    - [8x16, -18, -24, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame58
+    pieces: []
+  - symbol: gBosLstMarluxiaFrame59
+    pieces: []
+  - symbol: gBosLstMarluxiaFrame60
+    pieces: []
+  - symbol: gBosLstMarluxiaFrame61
+    pieces: []
+  - symbol: gBosLstMarluxiaFrame62
+    pieces: []
+  - symbol: gBosLstMarluxiaFrame63
+    pieces: []
+  - symbol: gBosLstMarluxiaFrame64
+    pieces: []
+  - symbol: gBosLstMarluxiaFrame65
+    pieces:
+    - [16x8, -14, -8, {pal: 2}]
+    - [8x8, 2, -8, {pal: 2}]
+    - [32x16, -22, -24, {pal: 2}]
+    - [16x16, -6, -40, {pal: 2}]
+    - [8x16, 10, -32, {pal: 2}]
+    - [8x8, 10, -16, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame66
+    pieces:
+    - [16x8, -2, -8, {hflip: true, pal: 2}]
+    - [8x8, -10, -8, {hflip: true, pal: 2}]
+    - [32x16, -10, -24, {hflip: true, pal: 2}]
+    - [16x16, -10, -40, {hflip: true, pal: 2}]
+    - [8x16, -18, -32, {hflip: true, pal: 2}]
+    - [8x8, -18, -16, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame67
+    pieces:
+    - [16x8, -6, -6, {pal: 2}]
+    - [8x8, -14, -6, {pal: 2}]
+    - [16x32, 2, -38, {pal: 2}]
+    - [8x32, -6, -38, {pal: 2}]
+    - [8x16, -14, -30, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame68
+    pieces:
+    - [16x8, -10, -6, {hflip: true, pal: 2}]
+    - [8x8, 6, -6, {hflip: true, pal: 2}]
+    - [16x32, -18, -38, {hflip: true, pal: 2}]
+    - [8x32, -2, -38, {hflip: true, pal: 2}]
+    - [8x16, 6, -30, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame69
+    pieces:
+    - [16x8, -11, -5, {pal: 2}]
+    - [8x8, 5, -5, {pal: 2}]
+    - [32x16, -11, -21, {pal: 2}]
+    - [16x16, -3, -37, {pal: 2}]
+    - [8x16, 13, -37, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame70
+    pieces:
+    - [16x8, -5, -5, {hflip: true, pal: 2}]
+    - [8x8, -13, -5, {hflip: true, pal: 2}]
+    - [32x16, -21, -21, {hflip: true, pal: 2}]
+    - [16x16, -13, -37, {hflip: true, pal: 2}]
+    - [8x16, -21, -37, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame71
+    pieces:
+    - [16x8, -11, -7, {pal: 2}]
+    - [8x8, 5, -7, {pal: 2}]
+    - [32x16, -11, -23, {pal: 2}]
+    - [16x16, -1, -39, {pal: 2}]
+    - [8x8, -9, -31, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame72
+    pieces:
+    - [16x8, -5, -7, {hflip: true, pal: 2}]
+    - [8x8, -13, -7, {hflip: true, pal: 2}]
+    - [32x16, -21, -23, {hflip: true, pal: 2}]
+    - [16x16, -15, -39, {hflip: true, pal: 2}]
+    - [8x8, 1, -31, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame73
+    pieces:
+    - [16x8, -12, -7, {pal: 2}]
+    - [8x8, 4, -7, {pal: 2}]
+    - [16x32, -12, -39, {pal: 2}]
+    - [16x16, 4, -23, {pal: 2}]
+    - [8x16, 4, -39, {pal: 2}]
+    - [16x16, -28, -31, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame74
+    pieces:
+    - [16x8, -4, -7, {hflip: true, pal: 2}]
+    - [8x8, -12, -7, {hflip: true, pal: 2}]
+    - [16x32, -4, -39, {hflip: true, pal: 2}]
+    - [16x16, -20, -23, {hflip: true, pal: 2}]
+    - [8x16, -12, -39, {hflip: true, pal: 2}]
+    - [16x16, 12, -31, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame75
+    pieces:
+    - [16x8, -6, -8, {pal: 2}]
+    - [8x32, -14, -32, {pal: 2}]
+    - [16x32, -6, -40, {pal: 2}]
+    - [16x16, 10, -28, {pal: 2}]
+    - [16x16, -28, -32, {pal: 2, layer: 1}]
+  - symbol: gBosLstMarluxiaFrame76
+    pieces:
+    - [16x8, -10, -8, {hflip: true, pal: 2}]
+    - [8x32, 6, -32, {hflip: true, pal: 2}]
+    - [16x32, -10, -40, {hflip: true, pal: 2}]
+    - [16x16, -26, -28, {hflip: true, pal: 2}]
+    - [16x16, 12, -32, {hflip: true, pal: 2, same: [75, 4]}]
+  - symbol: gBosLstMarluxiaFrame77
+    pieces:
+    - [16x8, -14, -8, {pal: 2}]
+    - [8x8, 2, -8, {pal: 2}]
+    - [16x32, -6, -40, {pal: 2}]
+    - [8x8, 10, -32, {pal: 2}]
+    - [16x16, 10, -24, {pal: 2}]
+    - [8x16, -14, -32, {pal: 2}]
+    - [8x16, -22, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame78
+    pieces:
+    - [16x8, -2, -8, {hflip: true, pal: 2}]
+    - [8x8, -10, -8, {hflip: true, pal: 2}]
+    - [16x32, -10, -40, {hflip: true, pal: 2}]
+    - [8x8, -18, -32, {hflip: true, pal: 2}]
+    - [16x16, -26, -24, {hflip: true, pal: 2}]
+    - [8x16, 6, -32, {hflip: true, pal: 2}]
+    - [8x16, 14, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame79
+    pieces:
+    - [16x8, -14, -8, {pal: 2}]
+    - [8x8, 2, -8, {pal: 2}]
+    - [16x32, -6, -40, {pal: 2}]
+    - [16x16, 10, -16, {pal: 2}]
+    - [8x16, 10, -32, {pal: 2}]
+    - [8x8, -14, -23, {pal: 2}]
+    - [8x16, -22, -31, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame80
+    pieces:
+    - [16x8, -2, -8, {hflip: true, pal: 2}]
+    - [8x8, -10, -8, {hflip: true, pal: 2}]
+    - [16x32, -10, -40, {hflip: true, pal: 2}]
+    - [16x16, -26, -16, {hflip: true, pal: 2}]
+    - [8x16, -18, -32, {hflip: true, pal: 2}]
+    - [8x8, 6, -23, {hflip: true, pal: 2}]
+    - [8x16, 14, -31, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame81
+    pieces:
+    - [16x16, -6, -16, {pal: 2}]
+    - [8x16, -14, -16, {pal: 2}]
+    - [32x16, -22, -32, {pal: 2}]
+    - [16x8, -9, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame82
+    pieces:
+    - [16x16, -10, -16, {hflip: true, pal: 2}]
+    - [8x16, 6, -16, {hflip: true, pal: 2}]
+    - [32x16, -10, -32, {hflip: true, pal: 2}]
+    - [16x8, -7, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame83
+    pieces:
+    - [16x32, -6, -32, {pal: 2}]
+    - [8x32, -14, -32, {pal: 2}]
+    - [16x8, -8, -40, {pal: 2}]
+    - [8x16, -22, -35, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame84
+    pieces:
+    - [16x32, -10, -32, {hflip: true, pal: 2}]
+    - [8x32, 6, -32, {hflip: true, pal: 2}]
+    - [16x8, -8, -40, {hflip: true, pal: 2}]
+    - [8x16, 14, -35, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame85
+    pieces:
+    - [16x32, -6, -32, {pal: 2}]
+    - [8x32, -14, -32, {pal: 2}]
+    - [16x8, -9, -40, {pal: 2}]
+    - [8x16, -22, -24, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame86
+    pieces:
+    - [16x32, -10, -32, {hflip: true, pal: 2}]
+    - [8x32, 6, -32, {hflip: true, pal: 2}]
+    - [16x8, -7, -40, {hflip: true, pal: 2}]
+    - [8x16, 14, -24, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame87
+    pieces:
+    - [32x16, -22, -40, {pal: 2}]
+    - [32x8, -22, -24, {pal: 2}]
+    - [16x16, -6, -16, {pal: 2}]
+    - [8x16, -14, -16, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame88
+    pieces:
+    - [32x16, -10, -40, {hflip: true, pal: 2}]
+    - [32x8, -10, -24, {hflip: true, pal: 2}]
+    - [16x16, -10, -16, {hflip: true, pal: 2}]
+    - [8x16, 6, -16, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame89
+    pieces:
+    - [16x8, -14, -8, {pal: 2}]
+    - [8x8, 2, -8, {pal: 2}]
+    - [16x32, -6, -40, {pal: 2}]
+    - [8x16, -14, -35, {pal: 2}]
+    - [16x16, -30, -34, {pal: 2}]
+    - [8x8, 10, -32, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame90
+    pieces:
+    - [16x8, -2, -8, {hflip: true, pal: 2}]
+    - [8x8, -10, -8, {hflip: true, pal: 2}]
+    - [16x32, -10, -40, {hflip: true, pal: 2}]
+    - [8x16, 6, -35, {hflip: true, pal: 2}]
+    - [16x16, 14, -34, {hflip: true, pal: 2}]
+    - [8x8, -18, -32, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame91
+    pieces:
+    - [16x8, -14, -8, {pal: 2}]
+    - [8x8, 2, -8, {pal: 2}]
+    - [16x32, -6, -40, {pal: 2}]
+    - [16x16, -22, -31, {pal: 2}]
+    - [8x16, 10, -32, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame92
+    pieces:
+    - [16x8, -2, -8, {hflip: true, pal: 2}]
+    - [8x8, -10, -8, {hflip: true, pal: 2}]
+    - [16x32, -10, -40, {hflip: true, pal: 2}]
+    - [16x16, 6, -31, {hflip: true, pal: 2}]
+    - [8x16, -18, -32, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame93
+    pieces:
+    - [16x8, -14, -8, {pal: 2}]
+    - [8x8, 2, -8, {pal: 2}]
+    - [16x32, -6, -40, {pal: 2}]
+    - [16x16, 10, -32, {pal: 2}]
+    - [16x16, -22, -28, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame94
+    pieces:
+    - [16x8, -2, -8, {hflip: true, pal: 2}]
+    - [8x8, -10, -8, {hflip: true, pal: 2}]
+    - [16x32, -10, -40, {hflip: true, pal: 2}]
+    - [16x16, -26, -32, {hflip: true, pal: 2}]
+    - [16x16, 6, -28, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame95
+    pieces:
+    - [16x8, -14, -8, {pal: 2}]
+    - [8x8, 2, -8, {pal: 2}]
+    - [16x32, -6, -40, {pal: 2}]
+    - [16x16, 10, -30, {pal: 2}]
+    - [8x8, 10, -38, {pal: 2}]
+    - [8x16, -14, -29, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame96
+    pieces:
+    - [16x8, -2, -8, {hflip: true, pal: 2}]
+    - [8x8, -10, -8, {hflip: true, pal: 2}]
+    - [16x32, -10, -40, {hflip: true, pal: 2}]
+    - [16x16, -26, -30, {hflip: true, pal: 2}]
+    - [8x8, -18, -38, {hflip: true, pal: 2}]
+    - [8x16, 6, -29, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaFrame97
+    pieces:
+    - [16x8, -14, -8, {pal: 2}]
+    - [8x8, 2, -8, {pal: 2}]
+    - [32x16, -14, -24, {pal: 2}]
+    - [16x16, -6, -40, {pal: 2}]
+    - [8x8, 10, -32, {pal: 2}]
+  - symbol: gBosLstMarluxiaFrame98
+    pieces:
+    - [16x8, -2, -8, {hflip: true, pal: 2}]
+    - [8x8, -10, -8, {hflip: true, pal: 2}]
+    - [32x16, -18, -24, {hflip: true, pal: 2}]
+    - [16x16, -10, -40, {hflip: true, pal: 2}]
+    - [8x8, -18, -32, {hflip: true, pal: 2}]
+  animations:
+  - symbol: gBosLstMarluxiaAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 14], [2, 14], [4, 14], [6, 14]]
+  - symbol: gBosLstMarluxiaAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 14], [3, 14], [5, 14], [7, 14]]
+  - symbol: gBosLstMarluxiaAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 6], [10, 4], [12, 6], [14, 16], [16, 8]]
+  - symbol: gBosLstMarluxiaAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 6], [11, 4], [13, 6], [15, 16], [17, 8]]
+  - symbol: gBosLstMarluxiaAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 4], [20, 4], [22, 4], [24, 4], [26, 10], [58, 4], [59, 4], [60, 4], [61, 16], [62, 4], [63, 4], [64, 4], [29, 4]]
+  - symbol: gBosLstMarluxiaAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[19, 4], [21, 4], [23, 4], [25, 4], [27, 10], [58, 4], [59, 4], [60, 4], [61, 16], [62, 4], [63, 4], [64, 4], [28, 4]]
+  - symbol: gBosLstMarluxiaAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[30, 6], [32, 6], [34, 6], [36, 8], [38, 8], [40, 10], [42, 10]]
+  - symbol: gBosLstMarluxiaAnim7
+    fields: {originX: 64, originY: 64}
+    frames: [[31, 6], [33, 6], [35, 6], [37, 8], [39, 8], [41, 10], [43, 10]]
+  - symbol: gBosLstMarluxiaAnim8
+    fields: {originX: 64, originY: 64}
+    frames: [[44, 6], [46, 6], [48, 6], [50, 8], [52, 8], [54, 18], [56, 8]]
+  - symbol: gBosLstMarluxiaAnim9
+    fields: {originX: 64, originY: 64}
+    frames: [[45, 6], [47, 6], [49, 6], [51, 8], [53, 8], [55, 18], [57, 8]]
+  - symbol: gBosLstMarluxiaAnim10
+    fields: {originX: 64, originY: 64}
+    frames: [[65, 4], [67, 4], [69, 6], [71, 18], [73, 6], [75, 6], [77, 8], [79, 8]]
+  - symbol: gBosLstMarluxiaAnim11
+    fields: {originX: 64, originY: 64}
+    frames: [[66, 4], [68, 4], [70, 6], [72, 18], [74, 6], [76, 6], [78, 8], [80, 8]]
+  - symbol: gBosLstMarluxiaAnim12
+    fields: {originX: 64, originY: 64}
+    frames: [[81, 6], [83, 6], [85, 8], [87, 14], [89, 6], [91, 8], [93, 14], [95, 6], [97, 6]]
+  - symbol: gBosLstMarluxiaAnim13
+    fields: {originX: 64, originY: 64}
+    frames: [[82, 6], [84, 6], [86, 8], [88, 14], [90, 6], [92, 8], [94, 14], [96, 6], [98, 6]]
+  us:
+    address: 0x09C4A104
+    size: 31022
+  jp:
+    address: 0x09C22828
+    size: 31022
+  eu:
+    address: 0x09CA7E4C
+    size: 31022
+- name: gBosLstMarluxiaDashTiles
+  format: sprite_sheet
+  align: 4
+  cell: [76, 41]
+  anchor: [38, 40]
+  columns: 8
+  frames:
+  - symbol: gBosLstMarluxiaDashFrame0
+    pieces:
+    - [32x16, -22, -16, {pal: 2}]
+    - [32x8, -14, -24, {pal: 2}]
+    - [16x16, -6, -40, {pal: 2}]
+    - [8x8, 10, -32, {pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame1
+    pieces:
+    - [32x16, -10, -16, {hflip: true, pal: 2}]
+    - [32x8, -18, -24, {hflip: true, pal: 2}]
+    - [16x16, -10, -40, {hflip: true, pal: 2}]
+    - [8x8, -18, -32, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame2
+    pieces:
+    - [16x32, -13, -32, {pal: 2}]
+    - [8x32, 3, -32, {pal: 2}]
+    - [16x8, -6, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame3
+    pieces:
+    - [16x32, -3, -32, {hflip: true, pal: 2}]
+    - [8x32, -11, -32, {hflip: true, pal: 2}]
+    - [16x8, -10, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame4
+    pieces:
+    - [16x32, -6, -32, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2}]
+    - [8x16, -14, -32, {pal: 2}]
+    - [16x8, -6, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame5
+    pieces:
+    - [16x32, -10, -32, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+    - [8x16, 6, -32, {hflip: true, pal: 2}]
+    - [16x8, -10, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame6
+    pieces:
+    - [16x32, -6, -32, {pal: 2}]
+    - [16x8, -11, -40, {pal: 2}]
+    - [8x8, -14, -8, {pal: 2}]
+    - [8x16, -14, -32, {pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame7
+    pieces:
+    - [16x32, -10, -32, {hflip: true, pal: 2}]
+    - [16x8, -5, -40, {hflip: true, pal: 2}]
+    - [8x8, 6, -8, {hflip: true, pal: 2}]
+    - [8x16, 6, -32, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame8
+    pieces:
+    - [16x16, -5, -16, {pal: 2}]
+    - [8x8, -13, -8, {pal: 2}]
+    - [32x16, -21, -32, {pal: 2}]
+    - [16x8, -8, -40, {pal: 2}]
+    - [8x8, 11, -24, {pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame9
+    pieces:
+    - [16x16, -11, -16, {hflip: true, pal: 2}]
+    - [8x8, 5, -8, {hflip: true, pal: 2}]
+    - [32x16, -11, -32, {hflip: true, pal: 2}]
+    - [16x8, -8, -40, {hflip: true, pal: 2}]
+    - [8x8, -19, -24, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame10
+    pieces:
+    - [16x32, -15, -32, {pal: 2}]
+    - [8x32, 1, -32, {pal: 2}]
+    - [16x16, -31, -25, {pal: 2}]
+    - [16x16, 9, -22, {pal: 2}]
+    - [8x8, -13, -40, {pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame11
+    pieces:
+    - [16x32, -1, -32, {hflip: true, pal: 2}]
+    - [8x32, -9, -32, {hflip: true, pal: 2}]
+    - [16x16, 15, -25, {hflip: true, pal: 2}]
+    - [16x16, -25, -22, {hflip: true, pal: 2}]
+    - [8x8, 5, -40, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame12
+    pieces:
+    - [16x16, -14, -16, {pal: 2}]
+    - [16x8, -38, -25, {pal: 2}]
+    - [16x16, -22, -32, {pal: 2}]
+    - [8x16, -6, -32, {pal: 2}]
+    - [8x16, 2, -16, {pal: 2, layer: 1}]
+    - [16x16, 2, -27, {pal: 2, layer: 2}]
+  - symbol: gBosLstMarluxiaDashFrame13
+    pieces:
+    - [16x16, -2, -16, {hflip: true, pal: 2}]
+    - [16x8, 22, -25, {hflip: true, pal: 2}]
+    - [16x16, 6, -32, {hflip: true, pal: 2}]
+    - [8x16, -2, -32, {hflip: true, pal: 2}]
+    - [8x16, -10, -16, {hflip: true, pal: 2, same: [12, 4]}]
+    - [16x16, -18, -27, {hflip: true, pal: 2, same: [12, 5]}]
+  - symbol: gBosLstMarluxiaDashFrame14
+    pieces:
+    - [16x16, -14, -15, {pal: 2}]
+    - [8x16, 2, -15, {pal: 2}]
+    - [32x16, -30, -31, {pal: 2}]
+    - [16x16, 2, -31, {pal: 2}]
+    - [8x16, 18, -31, {pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame15
+    pieces:
+    - [16x16, -2, -15, {hflip: true, pal: 2}]
+    - [8x16, -10, -15, {hflip: true, pal: 2}]
+    - [32x16, -2, -31, {hflip: true, pal: 2}]
+    - [16x16, -18, -31, {hflip: true, pal: 2}]
+    - [8x16, -26, -31, {hflip: true, pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame16
+    pieces:
+    - [16x32, -12, -32, {pal: 2}]
+    - [8x32, 4, -32, {pal: 2}]
+    - [16x8, -12, -40, {pal: 2}]
+    - [16x16, -28, -24, {pal: 2}]
+    - [16x16, 12, -22, {pal: 2}]
+  - symbol: gBosLstMarluxiaDashFrame17
+    pieces:
+    - [16x32, -4, -32, {hflip: true, pal: 2}]
+    - [8x32, -12, -32, {hflip: true, pal: 2}]
+    - [16x8, -4, -40, {hflip: true, pal: 2}]
+    - [16x16, 12, -24, {hflip: true, pal: 2}]
+    - [16x16, -28, -22, {hflip: true, pal: 2}]
+  animations:
+  - symbol: gBosLstMarluxiaDashAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [2, 4], [4, 4], [6, 4], [8, 4], [10, 4], [12, 6], [14, 20], [16, 4]]
+  - symbol: gBosLstMarluxiaDashAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4], [3, 4], [5, 4], [7, 4], [9, 4], [11, 4], [13, 6], [15, 20], [17, 4]]
+  us:
+    address: 0x09C51A34
+    size: 5576
+  jp:
+    address: 0x09C2A158
+    size: 5576
+  eu:
+    address: 0x09CAF77C
+    size: 5576
+- name: gBosLstScythe0Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [246, 244]
+  anchor: [123, 116]
+  columns: 8
+  frames:
+  - symbol: gBosLstScythe0Frame0
+    pieces:
+    - [16x16, -31, 9]
+    - [32x16, -39, 25, {layer: 1}]
+    - [8x16, -7, 25, {layer: 1}]
+    - [16x32, -22, 41]
+    - [8x16, -30, 41]
+    - [16x16, -20, 73]
+    - [16x16, -15, 89]
+    - [16x8, -12, 105]
+    - [16x8, -4, 113]
+    - [32x32, -11, 11, {pal: 1, layer: 2}]
+    - [16x8, -3, 43, {pal: 1}]
+    - [8x16, 21, 11, {pal: 1}]
+    - [16x8, 5, -13, {pal: 1}]
+    - [16x16, 13, -5, {pal: 1}]
+  - symbol: gBosLstScythe0Frame1
+    pieces:
+    - [16x16, 15, 9, {hflip: true}]
+    - [32x16, 7, 25, {hflip: true, same: [0, 1]}]
+    - [8x16, -1, 25, {hflip: true, same: [0, 2]}]
+    - [16x32, 6, 41, {hflip: true}]
+    - [8x16, 22, 41, {hflip: true}]
+    - [16x16, 4, 73, {hflip: true}]
+    - [16x16, -1, 89, {hflip: true}]
+    - [16x8, -4, 105, {hflip: true}]
+    - [16x8, -12, 113, {hflip: true}]
+    - [32x32, -21, 11, {hflip: true, pal: 1, same: [0, 9]}]
+    - [16x8, -13, 43, {hflip: true, pal: 1}]
+    - [8x16, -29, 11, {hflip: true, pal: 1}]
+    - [16x8, -21, -13, {hflip: true, pal: 1}]
+    - [16x16, -29, -5, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe0Frame2
+    pieces:
+    - [16x16, -23, 8]
+    - [32x16, -39, 24, {layer: 1}]
+    - [8x16, -7, 24, {layer: 1}]
+    - [16x16, -22, 40]
+    - [8x16, -30, 40]
+    - [16x32, -24, 56]
+    - [16x16, -20, 88]
+    - [16x16, -16, 104]
+    - [8x8, -5, 120]
+    - [32x32, -10, 10, {pal: 1, same: [0, 9]}]
+    - [16x8, -2, 42, {pal: 1}]
+    - [8x16, 22, 10, {pal: 1}]
+    - [16x8, 6, -14, {pal: 1, fresh: true}]
+    - [16x16, 14, -6, {pal: 1}]
+  - symbol: gBosLstScythe0Frame3
+    pieces:
+    - [16x16, 7, 8, {hflip: true}]
+    - [32x16, 7, 24, {hflip: true, same: [2, 1]}]
+    - [8x16, -1, 24, {hflip: true, same: [2, 2]}]
+    - [16x16, 6, 40, {hflip: true}]
+    - [8x16, 22, 40, {hflip: true}]
+    - [16x32, 8, 56, {hflip: true}]
+    - [16x16, 4, 88, {hflip: true}]
+    - [16x16, 0, 104, {hflip: true}]
+    - [8x8, -3, 120, {hflip: true}]
+    - [32x32, -22, 10, {hflip: true, pal: 1, same: [0, 9]}]
+    - [16x8, -14, 42, {hflip: true, pal: 1}]
+    - [8x16, -30, 10, {hflip: true, pal: 1}]
+    - [16x8, -22, -14, {hflip: true, pal: 1}]
+    - [16x16, -30, -6, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe0Frame4
+    pieces:
+    - [16x16, -23, 1]
+    - [32x16, -39, 17, {layer: 1}]
+    - [32x8, -31, 33, {layer: 1}]
+    - [8x8, -7, 25, {layer: 1}]
+    - [16x32, -23, 41]
+    - [8x32, -31, 41]
+    - [16x32, -23, 73]
+    - [16x16, -19, 105]
+    - [32x32, -9, 9, {pal: 1, same: [0, 9]}]
+    - [16x8, -1, 41, {pal: 1}]
+    - [8x16, 23, 9, {pal: 1}]
+    - [16x16, 7, -15, {pal: 1}]
+    - [16x8, 15, 1, {pal: 1}]
+  - symbol: gBosLstScythe0Frame5
+    pieces:
+    - [16x16, 7, 1, {hflip: true}]
+    - [32x16, 7, 17, {hflip: true, same: [4, 1]}]
+    - [32x8, -1, 33, {hflip: true, same: [4, 2]}]
+    - [8x8, -1, 25, {hflip: true, same: [4, 3]}]
+    - [16x32, 7, 41, {hflip: true}]
+    - [8x32, 23, 41, {hflip: true}]
+    - [16x32, 7, 73, {hflip: true}]
+    - [16x16, 3, 105, {hflip: true}]
+    - [32x32, -23, 9, {hflip: true, pal: 1, same: [0, 9]}]
+    - [16x8, -15, 41, {hflip: true, pal: 1}]
+    - [8x16, -31, 9, {hflip: true, pal: 1}]
+    - [16x16, -23, -15, {hflip: true, pal: 1}]
+    - [16x8, -31, 1, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe0Frame6
+    pieces:
+    - [32x32, -58, -15, {layer: 1}]
+    - [32x8, -60, 17, {layer: 1}]
+    - [32x32, -76, 25]
+    - [16x32, -83, 57]
+    - [16x8, -84, 89]
+    - [32x32, -35, 7, {pal: 1, layer: 2}]
+    - [8x16, -3, 2, {pal: 1}]
+    - [16x8, -3, 18, {pal: 1}]
+    - [16x32, 5, -14, {pal: 1}]
+  - symbol: gBosLstScythe0Frame7
+    pieces:
+    - [32x32, 26, -15, {hflip: true, same: [6, 0]}]
+    - [32x8, 28, 17, {hflip: true, same: [6, 1]}]
+    - [32x32, 44, 25, {hflip: true}]
+    - [16x32, 67, 57, {hflip: true}]
+    - [16x8, 68, 89, {hflip: true}]
+    - [32x32, 3, 7, {hflip: true, pal: 1, same: [6, 5]}]
+    - [8x16, -5, 2, {hflip: true, pal: 1}]
+    - [16x8, -13, 18, {hflip: true, pal: 1}]
+    - [16x32, -21, -14, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe0Frame8
+    pieces:
+    - [32x16, -51, -48]
+    - [8x16, -43, -64]
+    - [8x8, -19, -48]
+    - [16x8, -51, -32, {layer: 1}]
+    - [8x8, -35, -32, {layer: 1}]
+    - [32x16, -83, -36]
+    - [16x8, -67, -44]
+    - [8x8, -75, -44]
+    - [32x32, -123, -30]
+    - [8x16, -91, -30]
+    - [8x8, -123, 2]
+    - [32x16, -11, -14, {pal: 1}]
+    - [16x8, -11, 2, {pal: 1}]
+    - [32x32, -43, -30, {pal: 1, layer: 2}]
+    - [8x8, -35, -38, {pal: 1, layer: 2}]
+  - symbol: gBosLstScythe0Frame9
+    pieces:
+    - [32x16, 19, -48, {hflip: true}]
+    - [8x16, 35, -64, {hflip: true}]
+    - [8x8, 11, -48, {hflip: true}]
+    - [16x8, 35, -32, {hflip: true, same: [8, 3]}]
+    - [8x8, 27, -32, {hflip: true, same: [8, 4]}]
+    - [32x16, 51, -36, {hflip: true}]
+    - [16x8, 51, -44, {hflip: true}]
+    - [8x8, 67, -44, {hflip: true}]
+    - [32x32, 91, -30, {hflip: true}]
+    - [8x16, 83, -30, {hflip: true}]
+    - [8x8, 115, 2, {hflip: true}]
+    - [32x16, -21, -14, {hflip: true, pal: 1}]
+    - [16x8, -5, 2, {hflip: true, pal: 1}]
+    - [32x32, 11, -30, {hflip: true, pal: 1, same: [8, 13]}]
+    - [8x8, 27, -38, {hflip: true, pal: 1, same: [8, 14]}]
+  - symbol: gBosLstScythe0Frame10
+    pieces:
+    - [32x32, 6, -85, {layer: 1}]
+    - [8x32, -2, -93, {layer: 1}]
+    - [8x8, 6, -93]
+    - [32x32, -34, -110]
+    - [8x8, -10, -78]
+    - [32x16, -66, -116]
+    - [32x32, -13, -68, {pal: 1, layer: 2}]
+    - [16x32, -5, -36, {pal: 1}]
+    - [8x16, -13, -36, {pal: 1}]
+    - [8x16, 11, -20, {pal: 1}]
+  - symbol: gBosLstScythe0Frame11
+    pieces:
+    - [32x32, -38, -85, {hflip: true, same: [10, 0]}]
+    - [8x32, -6, -93, {hflip: true, same: [10, 1]}]
+    - [8x8, -14, -93, {hflip: true}]
+    - [32x32, 2, -110, {hflip: true}]
+    - [8x8, 2, -78, {hflip: true}]
+    - [32x16, 34, -116, {hflip: true}]
+    - [32x32, -19, -68, {hflip: true, pal: 1, same: [10, 6]}]
+    - [16x32, -11, -36, {hflip: true, pal: 1}]
+    - [8x16, 5, -36, {hflip: true, pal: 1}]
+    - [8x16, -19, -20, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe0Frame12
+    pieces:
+    - [32x32, 1, 44, {layer: 1}]
+    - [8x8, -7, 43]
+    - [8x8, -7, 68]
+    - [32x32, 33, 60]
+    - [32x16, 65, 84]
+    - [8x8, 57, 92]
+    - [32x32, 13, 18, {pal: 1, layer: 2}]
+    - [16x16, 17, 2, {pal: 1}]
+    - [16x16, 9, -14, {pal: 1}]
+  - symbol: gBosLstScythe0Frame13
+    pieces:
+    - [32x32, -33, 44, {hflip: true, same: [12, 0]}]
+    - [8x8, -1, 43, {hflip: true}]
+    - [8x8, -1, 68, {hflip: true}]
+    - [32x32, -65, 60, {hflip: true}]
+    - [32x16, -97, 84, {hflip: true}]
+    - [8x8, -65, 92, {hflip: true}]
+    - [32x32, -45, 18, {hflip: true, pal: 1, same: [12, 6]}]
+    - [16x16, -33, 2, {hflip: true, pal: 1}]
+    - [16x16, -25, -14, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe0Frame14
+    pieces:
+    - [32x32, 1, 43, {layer: 1}]
+    - [8x8, -7, 43]
+    - [8x8, -7, 68]
+    - [8x16, 33, 59]
+    - [32x32, 13, 18, {pal: 1, same: [12, 6]}]
+    - [16x16, 17, 2, {pal: 1}]
+    - [16x16, 9, -14, {pal: 1}]
+  - symbol: gBosLstScythe0Frame15
+    pieces:
+    - [32x32, -33, 43, {hflip: true, same: [14, 0]}]
+    - [8x8, -1, 43, {hflip: true}]
+    - [8x8, -1, 68, {hflip: true}]
+    - [8x16, -41, 59, {hflip: true}]
+    - [32x32, -45, 18, {hflip: true, pal: 1, same: [12, 6]}]
+    - [16x16, -33, 2, {hflip: true, pal: 1}]
+    - [16x16, -25, -14, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe0Frame16
+    pieces:
+    - [32x32, -18, 26, {layer: 1}]
+    - [32x32, -10, 58]
+    - [32x32, 22, 90]
+    - [8x8, 54, 114]
+    - [8x8, 22, 82]
+    - [8x8, 14, 90]
+    - [8x8, -26, 51]
+    - [32x32, -3, 18, {pal: 1, layer: 2}]
+    - [16x8, 13, 50, {pal: 1}]
+    - [16x32, 13, -14, {pal: 1}]
+    - [8x8, 5, -14, {pal: 1}]
+  - symbol: gBosLstScythe0Frame17
+    pieces:
+    - [32x32, -14, 26, {hflip: true, same: [16, 0]}]
+    - [32x32, -22, 58, {hflip: true}]
+    - [32x32, -54, 90, {hflip: true}]
+    - [8x8, -62, 114, {hflip: true}]
+    - [8x8, -30, 82, {hflip: true}]
+    - [8x8, -22, 90, {hflip: true}]
+    - [8x8, 18, 51, {hflip: true}]
+    - [32x32, -29, 18, {hflip: true, pal: 1, same: [16, 7]}]
+    - [16x8, -29, 50, {hflip: true, pal: 1}]
+    - [16x32, -29, -14, {hflip: true, pal: 1}]
+    - [8x8, -13, -14, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe0Frame18
+    pieces:
+    - [32x32, -18, 26, {layer: 1}]
+    - [8x8, -26, 51, {fresh: true}]
+    - [16x16, -2, 58]
+    - [8x8, -10, 58]
+    - [32x32, -3, 18, {pal: 1, same: [16, 7]}]
+    - [16x8, 13, 50, {pal: 1}]
+    - [16x32, 13, -14, {pal: 1}]
+    - [8x8, 5, -14, {pal: 1}]
+  - symbol: gBosLstScythe0Frame19
+    pieces:
+    - [32x32, -14, 26, {hflip: true, same: [18, 0]}]
+    - [8x8, 18, 51, {hflip: true}]
+    - [16x16, -14, 58, {hflip: true}]
+    - [8x8, 2, 58, {hflip: true}]
+    - [32x32, -29, 18, {hflip: true, pal: 1, same: [16, 7]}]
+    - [16x8, -29, 50, {hflip: true, pal: 1}]
+    - [16x32, -29, -14, {hflip: true, pal: 1}]
+    - [8x8, -13, -14, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe0Frame20
+    pieces:
+    - [16x16, -29, 9]
+    - [16x16, -21, 41]
+    - [8x16, -29, 41]
+    - [16x8, -29, 57]
+    - [32x16, -45, 25]
+    - [8x16, -13, 25, {layer: 1}]
+    - [32x32, -11, 11, {pal: 1, same: [0, 9]}]
+    - [16x8, -3, 43, {pal: 1}]
+    - [8x16, 21, 11, {pal: 1}]
+    - [16x8, 5, -13, {pal: 1, same: [0, 12]}]
+    - [16x16, 13, -5, {pal: 1}]
+  - symbol: gBosLstScythe0Frame21
+    pieces:
+    - [16x16, 13, 9, {hflip: true}]
+    - [16x16, 5, 41, {hflip: true}]
+    - [8x16, 21, 41, {hflip: true}]
+    - [16x8, 13, 57, {hflip: true}]
+    - [32x16, 13, 25, {hflip: true}]
+    - [8x16, 5, 25, {hflip: true, same: [20, 5]}]
+    - [32x32, -21, 11, {hflip: true, pal: 1, same: [0, 9]}]
+    - [16x8, -13, 43, {hflip: true, pal: 1}]
+    - [8x16, -29, 11, {hflip: true, pal: 1}]
+    - [16x8, -21, -13, {hflip: true, pal: 1, same: [0, 12]}]
+    - [16x16, -29, -5, {hflip: true, pal: 1}]
+  animations:
+  - symbol: gBosLstScythe0Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 14], [2, 14], [4, 14], [2, 14]]
+  - symbol: gBosLstScythe0Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 14], [3, 14], [5, 14], [3, 14]]
+  - symbol: gBosLstScythe0Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [6, 5], [8, 6], [10, 20], [8, 1], [6, 1], [4, 1], [0, 1], [16, 1], [12, 16]]
+  - symbol: gBosLstScythe0Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4], [7, 5], [9, 6], [11, 20], [9, 1], [7, 1], [5, 1], [1, 1], [17, 1], [13, 16]]
+  - symbol: gBosLstScythe0Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 60]]
+  - symbol: gBosLstScythe0Anim5
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 60]]
+  - symbol: gBosLstScythe0Anim6
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [6, 8], [8, 10], [10, 30]]
+  - symbol: gBosLstScythe0Anim7
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 6], [7, 8], [9, 10], [11, 30]]
+  - symbol: gBosLstScythe0Anim8
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 3], [6, 2], [0, 30]]
+  - symbol: gBosLstScythe0Anim9
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 3], [7, 2], [1, 30]]
+  - symbol: gBosLstScythe0Anim10
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 60]]
+  - symbol: gBosLstScythe0Anim11
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 60]]
+  - symbol: gBosLstScythe0Anim12
+    fields: {originX: 64, originY: 64}
+    frames: [[20, 10], [18, 10], [14, 60]]
+  - symbol: gBosLstScythe0Anim13
+    fields: {originX: 64, originY: 64}
+    frames: [[21, 10], [19, 10], [15, 60]]
+  us:
+    address: 0x09C52FFC
+    size: 20360
+  jp:
+    address: 0x09C2B720
+    size: 20360
+  eu:
+    address: 0x09CB0D44
+    size: 20360
+- name: gBosLstScythe1Tiles
+  format: sprite_sheet
+  align: 4
+  cell: [242, 206]
+  anchor: [121, 103]
+  columns: 8
+  frames:
+  - symbol: gBosLstScythe1Frame0
+    pieces:
+    - [16x32, -58, -8]
+    - [8x32, -42, -16, {layer: 1}]
+    - [8x8, -42, 16, {layer: 1}]
+    - [8x8, -66, -8]
+    - [16x16, -62, 32]
+    - [16x32, -66, 48]
+    - [16x8, -58, 24]
+    - [32x16, -40, 0, {pal: 1, layer: 2}]
+    - [32x8, -40, 16, {pal: 1, layer: 2}]
+    - [16x16, -8, -8, {pal: 1}]
+    - [8x8, -8, 8, {pal: 1}]
+  - symbol: gBosLstScythe1Frame1
+    pieces:
+    - [16x32, 42, -8, {hflip: true}]
+    - [8x32, 34, -16, {hflip: true, same: [0, 1]}]
+    - [8x8, 34, 16, {hflip: true, same: [0, 2]}]
+    - [8x8, 58, -8, {hflip: true}]
+    - [16x16, 46, 32, {hflip: true}]
+    - [16x32, 50, 48, {hflip: true}]
+    - [16x8, 42, 24, {hflip: true}]
+    - [32x16, 8, 0, {hflip: true, pal: 1, same: [0, 7]}]
+    - [32x8, 8, 16, {hflip: true, pal: 1, same: [0, 8]}]
+    - [16x16, -8, -8, {hflip: true, pal: 1}]
+    - [8x8, 0, 8, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe1Frame2
+    pieces:
+    - [16x32, -57, -8]
+    - [8x32, -41, -16, {layer: 1}]
+    - [8x8, -41, 16, {layer: 1}]
+    - [16x8, -60, 24]
+    - [16x16, -66, 32]
+    - [16x32, -73, 48]
+    - [32x16, -39, -1, {pal: 1, same: [0, 7]}]
+    - [32x8, -39, 15, {pal: 1, same: [0, 8]}]
+    - [16x16, -7, -9, {pal: 1}]
+    - [8x8, -7, 7, {pal: 1}]
+  - symbol: gBosLstScythe1Frame3
+    pieces:
+    - [16x32, 41, -8, {hflip: true}]
+    - [8x32, 33, -16, {hflip: true, same: [2, 1]}]
+    - [8x8, 33, 16, {hflip: true, same: [2, 2]}]
+    - [16x8, 44, 24, {hflip: true}]
+    - [16x16, 50, 32, {hflip: true}]
+    - [16x32, 57, 48, {hflip: true}]
+    - [32x16, 7, -1, {hflip: true, pal: 1, same: [0, 7]}]
+    - [32x8, 7, 15, {hflip: true, pal: 1, same: [0, 8]}]
+    - [16x16, -9, -9, {hflip: true, pal: 1}]
+    - [8x8, -1, 7, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe1Frame4
+    pieces:
+    - [32x32, -62, -16, {layer: 1}]
+    - [16x16, -62, 16]
+    - [8x8, -46, 16]
+    - [8x16, -70, 24]
+    - [8x8, -62, 32]
+    - [16x32, -75, 40]
+    - [8x8, -70, 72]
+    - [32x16, -38, -2, {pal: 1, same: [0, 7]}]
+    - [32x8, -38, 14, {pal: 1, same: [0, 8]}]
+    - [16x16, -6, -10, {pal: 1}]
+    - [8x8, -6, 6, {pal: 1}]
+  - symbol: gBosLstScythe1Frame5
+    pieces:
+    - [32x32, 30, -16, {hflip: true, same: [4, 0]}]
+    - [16x16, 46, 16, {hflip: true}]
+    - [8x8, 38, 16, {hflip: true}]
+    - [8x16, 62, 24, {hflip: true}]
+    - [8x8, 54, 32, {hflip: true}]
+    - [16x32, 59, 40, {hflip: true}]
+    - [8x8, 62, 72, {hflip: true}]
+    - [32x16, 6, -2, {hflip: true, pal: 1, same: [0, 7]}]
+    - [32x8, 6, 14, {hflip: true, pal: 1, same: [0, 8]}]
+    - [16x16, -10, -10, {hflip: true, pal: 1}]
+    - [8x8, -2, 6, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe1Frame6
+    pieces:
+    - [32x32, -27, 28, {layer: 1}]
+    - [16x32, 5, 44]
+    - [8x8, -3, 60]
+    - [32x32, 21, 60]
+    - [8x8, 53, 76]
+    - [16x16, -3, -8, {pal: 1}]
+    - [16x32, -3, 8, {pal: 1, layer: 2}]
+    - [8x16, -11, 24, {pal: 1, layer: 2}]
+  - symbol: gBosLstScythe1Frame7
+    pieces:
+    - [32x32, -5, 28, {hflip: true, same: [6, 0]}]
+    - [16x32, -21, 44, {hflip: true}]
+    - [8x8, -5, 60, {hflip: true}]
+    - [32x32, -53, 60, {hflip: true}]
+    - [8x8, -61, 76, {hflip: true}]
+    - [16x16, -13, -8, {hflip: true, pal: 1}]
+    - [16x32, -13, 8, {hflip: true, pal: 1, same: [6, 6]}]
+    - [8x16, 3, 24, {hflip: true, pal: 1, same: [6, 7]}]
+  - symbol: gBosLstScythe1Frame8
+    pieces:
+    - [32x32, -27, 28, {layer: 1}]
+    - [16x16, -3, -8, {pal: 1}]
+    - [16x32, -3, 8, {pal: 1, same: [6, 6]}]
+    - [8x16, -11, 24, {pal: 1, same: [6, 7]}]
+  - symbol: gBosLstScythe1Frame9
+    pieces:
+    - [32x32, -5, 28, {hflip: true, same: [8, 0]}]
+    - [16x16, -13, -8, {hflip: true, pal: 1}]
+    - [16x32, -13, 8, {hflip: true, pal: 1, same: [6, 6]}]
+    - [8x16, 3, 24, {hflip: true, pal: 1, same: [6, 7]}]
+  - symbol: gBosLstScythe1Frame10
+    pieces:
+    - [16x32, -56, -7]
+    - [8x32, -40, -7, {layer: 1}]
+    - [16x8, -48, -15]
+    - [8x8, -64, -7]
+    - [32x16, -40, 0, {pal: 1, same: [0, 7]}]
+    - [32x8, -40, 16, {pal: 1, same: [0, 8]}]
+    - [16x16, -8, -8, {pal: 1}]
+    - [8x8, -8, 8, {pal: 1}]
+  - symbol: gBosLstScythe1Frame11
+    pieces:
+    - [16x32, 40, -7, {hflip: true}]
+    - [8x32, 32, -7, {hflip: true, same: [10, 1]}]
+    - [16x8, 32, -15, {hflip: true}]
+    - [8x8, 56, -7, {hflip: true}]
+    - [32x16, 8, 0, {hflip: true, pal: 1, same: [0, 7]}]
+    - [32x8, 8, 16, {hflip: true, pal: 1, same: [0, 8]}]
+    - [16x16, -8, -8, {hflip: true, pal: 1}]
+    - [8x8, 0, 8, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe1Frame12
+    pieces:
+    - [32x32, -78, -40, {layer: 1}]
+    - [8x16, -46, -40]
+    - [32x8, -86, -8, {layer: 1}]
+    - [16x16, -91, 0]
+    - [8x8, -75, 0]
+    - [16x32, -99, 16]
+    - [32x16, -56, -12, {pal: 1, layer: 2}]
+    - [16x16, -24, -12, {pal: 1}]
+    - [16x8, -51, -20, {pal: 1, layer: 2}]
+  - symbol: gBosLstScythe1Frame13
+    pieces:
+    - [32x32, 46, -40, {hflip: true, same: [12, 0]}]
+    - [8x16, 38, -40, {hflip: true}]
+    - [32x8, 54, -8, {hflip: true, same: [12, 2]}]
+    - [16x16, 75, 0, {hflip: true}]
+    - [8x8, 67, 0, {hflip: true}]
+    - [16x32, 83, 16, {hflip: true}]
+    - [32x16, 24, -12, {hflip: true, pal: 1, same: [12, 6]}]
+    - [16x16, 8, -12, {hflip: true, pal: 1}]
+    - [16x8, 35, -20, {hflip: true, pal: 1, same: [12, 8]}]
+  - symbol: gBosLstScythe1Frame14
+    pieces:
+    - [32x32, -73, -71, {layer: 1}]
+    - [16x16, -41, -63]
+    - [32x16, -105, -55]
+    - [16x16, -121, -39]
+    - [8x8, -113, -47]
+    - [16x8, -105, -39]
+    - [32x32, -55, -48, {pal: 1, layer: 2}]
+    - [16x8, -39, -16, {pal: 1}]
+    - [8x16, -23, -24, {pal: 1}]
+  - symbol: gBosLstScythe1Frame15
+    pieces:
+    - [32x32, 41, -71, {hflip: true, same: [14, 0]}]
+    - [16x16, 25, -63, {hflip: true}]
+    - [32x16, 73, -55, {hflip: true}]
+    - [16x16, 105, -39, {hflip: true}]
+    - [8x8, 105, -47, {hflip: true}]
+    - [16x8, 89, -39, {hflip: true}]
+    - [32x32, 23, -48, {hflip: true, pal: 1, same: [14, 6]}]
+    - [16x8, 23, -16, {hflip: true, pal: 1}]
+    - [8x16, 15, -24, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe1Frame16
+    pieces:
+    - [16x32, -43, -63, {pal: 1, layer: 1}]
+    - [8x32, -51, -63, {pal: 1}]
+    - [16x16, -41, -31, {pal: 1}]
+    - [8x8, -25, -23, {pal: 1}]
+    - [32x32, -49, -87, {layer: 2}]
+    - [8x16, -57, -87]
+    - [16x16, -73, -95]
+    - [32x16, -105, -103]
+    - [8x8, -17, -63]
+  - symbol: gBosLstScythe1Frame17
+    pieces:
+    - [16x32, 27, -63, {hflip: true, pal: 1, same: [16, 0]}]
+    - [8x32, 43, -63, {hflip: true, pal: 1}]
+    - [16x16, 25, -31, {hflip: true, pal: 1}]
+    - [8x8, 17, -23, {hflip: true, pal: 1}]
+    - [32x32, 17, -87, {hflip: true, same: [16, 4]}]
+    - [8x16, 49, -87, {hflip: true}]
+    - [16x16, 57, -95, {hflip: true}]
+    - [32x16, 73, -103, {hflip: true}]
+    - [8x8, 9, -63, {hflip: true}]
+  - symbol: gBosLstScythe1Frame18
+    pieces:
+    - [32x32, -55, 15, {layer: 1}]
+    - [8x8, -40, 7]
+    - [16x8, -39, 47]
+    - [16x16, -39, 55]
+    - [16x16, -31, 71]
+    - [16x16, -25, 87]
+    - [32x16, -30, 16, {pal: 1, layer: 2}]
+    - [16x8, -25, 32, {pal: 1, layer: 2}]
+    - [16x16, -14, 0, {pal: 1}]
+    - [8x8, -22, 8, {pal: 1}]
+    - [8x8, -6, -8, {pal: 1}]
+  - symbol: gBosLstScythe1Frame19
+    pieces:
+    - [32x32, 23, 15, {hflip: true, same: [18, 0]}]
+    - [8x8, 32, 7, {hflip: true}]
+    - [16x8, 23, 47, {hflip: true}]
+    - [16x16, 23, 55, {hflip: true}]
+    - [16x16, 15, 71, {hflip: true}]
+    - [16x16, 9, 87, {hflip: true}]
+    - [32x16, -2, 16, {hflip: true, pal: 1, same: [18, 6]}]
+    - [16x8, 9, 32, {hflip: true, pal: 1, same: [18, 7]}]
+    - [16x16, -2, 0, {hflip: true, pal: 1}]
+    - [8x8, 14, 8, {hflip: true, pal: 1}]
+    - [8x8, -2, -8, {hflip: true, pal: 1}]
+  - symbol: gBosLstScythe1Frame20
+    pieces:
+    - [32x32, -55, 15, {layer: 1}]
+    - [8x8, -40, 7, {fresh: true}]
+    - [8x8, -39, 47]
+    - [32x16, -30, 16, {pal: 1, same: [18, 6]}]
+    - [16x8, -25, 32, {pal: 1, same: [18, 7]}]
+    - [16x16, -14, 0, {pal: 1}]
+    - [8x8, -22, 8, {pal: 1}]
+    - [8x8, -6, -8, {pal: 1}]
+  - symbol: gBosLstScythe1Frame21
+    pieces:
+    - [32x32, 23, 15, {hflip: true, same: [20, 0]}]
+    - [8x8, 32, 7, {hflip: true}]
+    - [8x8, 31, 47, {hflip: true}]
+    - [32x16, -2, 16, {hflip: true, pal: 1, same: [18, 6]}]
+    - [16x8, 9, 32, {hflip: true, pal: 1, same: [18, 7]}]
+    - [16x16, -2, 0, {hflip: true, pal: 1}]
+    - [8x8, 14, 8, {hflip: true, pal: 1}]
+    - [8x8, -2, -8, {hflip: true, pal: 1}]
+  animations:
+  - symbol: gBosLstScythe1Anim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 14], [2, 14], [4, 14], [2, 14]]
+  - symbol: gBosLstScythe1Anim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 14], [3, 14], [5, 14], [3, 14]]
+  - symbol: gBosLstScythe1Anim2
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [12, 5], [14, 6], [16, 20], [14, 1], [12, 1], [0, 1], [18, 1], [6, 16]]
+  - symbol: gBosLstScythe1Anim3
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4], [13, 5], [15, 6], [17, 20], [15, 1], [13, 1], [1, 1], [19, 1], [7, 16]]
+  - symbol: gBosLstScythe1Anim4
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 60]]
+  - symbol: gBosLstScythe1Anim5
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 60]]
+  - symbol: gBosLstScythe1Anim6
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 6], [12, 8], [14, 10], [16, 30]]
+  - symbol: gBosLstScythe1Anim7
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 6], [13, 8], [15, 10], [17, 30]]
+  - symbol: gBosLstScythe1Anim8
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 3], [12, 2], [0, 30]]
+  - symbol: gBosLstScythe1Anim9
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 3], [13, 2], [1, 30]]
+  - symbol: gBosLstScythe1Anim10
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 60]]
+  - symbol: gBosLstScythe1Anim11
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 60]]
+  - symbol: gBosLstScythe1Anim12
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 10], [20, 10], [8, 60]]
+  - symbol: gBosLstScythe1Anim13
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 10], [21, 10], [9, 60]]
+  us:
+    address: 0x09C57F84
+    size: 14636
+  jp:
+    address: 0x09C306A8
+    size: 14636
+  eu:
+    address: 0x09CB5CCC
+    size: 14636
+- name: gBosPcFltFrame0
+  format: sprite_sheet
+  tiles: gBosPcFltTiles
+  align: 4
+  cell: [64, 42]
+  anchor: [32, 0]
+  columns: 8
+  frames:
+  - symbol: gBosPcFltFrame0
+    pieces: []
+  - symbol: gBosPcFltFrame1
+    pieces:
+    - [32x32, -32, 0, {pal: 1, tile: 0}]
+    - [32x8, -32, 32, {pal: 1, tile: 16}]
+    - [32x32, 0, 0, {hflip: true, pal: 1, tile: 0}]
+    - [32x8, 0, 32, {hflip: true, pal: 1, tile: 16}]
+  - symbol: gBosPcFltFrame2
+    pieces:
+    - [32x32, -32, 2, {pal: 1, tile: 20}]
+    - [32x32, 0, 2, {hflip: true, pal: 1, tile: 20}]
+    - [32x8, -32, 34, {pal: 1, tile: 36}]
+    - [32x8, 0, 34, {hflip: true, pal: 1, tile: 36}]
+  - symbol: gBosPcFltFrame3
+    pieces:
+    - [16x32, -16, 0, {pal: 1, tile: 40}]
+    - [8x16, -24, 8, {pal: 1, tile: 48}]
+    - [16x32, 0, 0, {hflip: true, pal: 1, tile: 40}]
+    - [8x16, 16, 8, {hflip: true, pal: 1, tile: 48}]
+  - symbol: gBosPcFltFrame4
+    pieces:
+    - [16x16, -16, 8, {pal: 1, tile: 50}]
+    - [16x8, -16, 24, {pal: 1, tile: 54}]
+    - [16x16, 0, 8, {hflip: true, pal: 1, tile: 50}]
+    - [16x8, 0, 24, {hflip: true, pal: 1, tile: 54}]
+  - symbol: gBosPcFltFrame5
+    pieces:
+    - [16x16, -12, 13, {pal: 1, tile: 56}]
+    - [8x16, 4, 13, {pal: 1, tile: 60}]
+  - symbol: gBosPcFltFrame6
+    pieces:
+    - [16x32, -16, 0, {pal: 1, tile: 62}]
+    - [16x32, 0, 0, {hflip: true, pal: 1, tile: 62}]
+  - symbol: gBosPcFltFrame7
+    pieces:
+    - [16x32, -16, 0, {pal: 1, tile: 70}]
+    - [16x32, 0, 0, {hflip: true, pal: 1, tile: 70}]
+  - symbol: gBosPcFltFrame8
+    pieces:
+    - [16x16, -16, 1, {pal: 1, tile: 78}]
+    - [16x8, -16, 17, {pal: 1, tile: 82}]
+    - [16x16, 0, 1, {hflip: true, pal: 1, tile: 78}]
+    - [16x8, 0, 17, {hflip: true, pal: 1, tile: 82}]
+  - symbol: gBosPcFltFrame9
+    pieces:
+    - [16x16, -16, 8, {pal: 1, tile: 84}]
+    - [16x16, 0, 8, {hflip: true, pal: 1, tile: 84}]
+  - symbol: gBosPcFltFrame10
+    pieces:
+    - [16x8, -8, 13, {pal: 1, tile: 88}]
+  - symbol: gBosPcFltFrame11
+    pieces:
+    - [32x8, -32, 33, {pal: 1, tile: 106}]
+    - [32x32, -32, 1, {pal: 1, tile: 90}]
+    - [32x8, 0, 33, {hflip: true, pal: 1, tile: 106}]
+    - [32x32, 0, 1, {hflip: true, pal: 1, tile: 90}]
+  animations:
+  - symbol: gBosPcFltAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 60]]
+  - symbol: gBosPcFltAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 60]]
+  - symbol: gBosPcFltAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 60]]
+  - symbol: gBosPcFltAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 8], [11, 8], [2, 8], [3, 8], [4, 8], [5, 8]]
+  - symbol: gBosPcFltAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 8], [4, 8], [3, 8], [2, 8], [11, 8], [1, 8]]
+  - symbol: gBosPcFltAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 8], [11, 8], [2, 8], [3, 8], [4, 8], [5, 8], [10, 8], [9, 8], [8, 8], [7, 8], [6, 8]]
+  - symbol: gBosPcFltAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 8], [7, 8], [8, 8], [9, 8], [10, 8], [5, 8], [4, 8], [3, 8], [2, 8], [11, 8], [1, 8]]
+  - symbol: gBosPcFltAnim7
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 10], [11, 7], [2, 8], [11, 7], [1, 8], [11, 5], [2, 6], [11, 5], [1, 6], [11, 6]]
+  - symbol: gBosPcFltAnim8
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 3], [2, 3], [11, 3], [1, 3]]
+  - symbol: gBosPcFltAnim9
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 8], [9, 8], [8, 8], [7, 8], [6, 8]]
+  - symbol: gBosPcFltAnim10
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 8]]
+  - symbol: gBosPcFltAnim11
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 8]]
+  - symbol: gBosPcFltAnim12
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 8]]
+  - symbol: gBosPcFltAnim13
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 8]]
+  - symbol: gBosPcFltAnim14
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 8]]
+  - symbol: gBosPcFltAnim15
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 8]]
+  - symbol: gBosPcFltAnim16
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 8]]
+  - symbol: gBosPcFltAnim17
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 8]]
+  - symbol: gBosPcFltAnim18
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 8]]
+  - symbol: gBosPcFltAnim19
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 8]]
+  - symbol: gBosPcFltAnim20
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 8]]
+  us:
+    address: 0x09C907B0
+    size: 638
+  jp:
+    address: 0x09C69CBC
+    size: 638
+  eu:
+    address: 0x09D00ADC
+    size: 638
+- name: gBosPcGfxSet0Tiles
+  format: tiles4
+  width: 8
+  us:
+    address: 0x09C94A94
+    size: 3328
+  jp:
+    address: 0x09C6DFA0
+    size: 3328
+  eu:
+    address: 0x09D04DC0
+    size: 3328
+- name: gBosPcGfxSet1Tiles
+  format: tiles4
+  us:
+    address: 0x09C95794
+    size: 3488
+  jp:
+    address: 0x09C6ECA0
+    size: 3488
+  eu:
+    address: 0x09D05AC0
+    size: 3488
+- name: gBosPcGfxSet2Tiles
+  format: tiles4
+  us:
+    address: 0x09C96534
+    size: 3552
+  jp:
+    address: 0x09C6FA40
+    size: 3552
+  eu:
+    address: 0x09D06860
+    size: 3552
+- name: gBosPcGfxSet3Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09C97314
+    size: 3520
+  jp:
+    address: 0x09C70820
+    size: 3520
+  eu:
+    address: 0x09D07640
+    size: 3520
+- name: gBosPcGfxSet4Tiles
+  format: tiles4
+  us:
+    address: 0x09C980D4
+    size: 3424
+  jp:
+    address: 0x09C715E0
+    size: 3424
+  eu:
+    address: 0x09D08400
+    size: 3424
+- name: gBosPcGfxSet5Tiles
+  format: tiles4
+  us:
+    address: 0x09C98E34
+    size: 3360
+  jp:
+    address: 0x09C72340
+    size: 3360
+  eu:
+    address: 0x09D09160
+    size: 3360
+- name: gBosPcGfxSet6Tiles
+  format: tiles4
+  us:
+    address: 0x09C99B54
+    size: 3424
+  jp:
+    address: 0x09C73060
+    size: 3424
+  eu:
+    address: 0x09D09E80
+    size: 3424
+- name: gBosPcGfxSet7Tiles
+  format: tiles4
+  us:
+    address: 0x09C9A8B4
+    size: 3232
+  jp:
+    address: 0x09C73DC0
+    size: 3232
+  eu:
+    address: 0x09D0ABE0
+    size: 3232
+- name: gBosPcGfxSet8Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09C9B554
+    size: 3456
+  jp:
+    address: 0x09C74A60
+    size: 3456
+  eu:
+    address: 0x09D0B880
+    size: 3456
+- name: gBosPcGfxSet9Tiles
+  format: tiles4
+  width: 16
+  us:
+    address: 0x09C9C2D4
+    size: 3584
+  jp:
+    address: 0x09C757E0
+    size: 3584
+  eu:
+    address: 0x09D0C600
+    size: 3584
+- name: gBosPcGfxSet10Tiles
+  format: tiles4
+  us:
+    address: 0x09C9D0D4
+    size: 3680
+  jp:
+    address: 0x09C765E0
+    size: 3680
+  eu:
+    address: 0x09D0D400
+    size: 3680
+- name: gBosPcGfxSet11Tiles
+  format: tiles4
+  us:
+    address: 0x09C9DF34
+    size: 3296
+  jp:
+    address: 0x09C77440
+    size: 3296
+  eu:
+    address: 0x09D0E260
+    size: 3296
+- name: gBosPcGfxSet12Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09C9EC14
+    size: 3200
+  jp:
+    address: 0x09C78120
+    size: 3200
+  eu:
+    address: 0x09D0EF40
+    size: 3200
+- name: gBosPcGfxSet13Tiles
+  format: tiles4
+  us:
+    address: 0x09C9F894
+    size: 3168
+  jp:
+    address: 0x09C78DA0
+    size: 3168
+  eu:
+    address: 0x09D0FBC0
+    size: 3168
+- name: gBosPcGfxSet14Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09CA04F4
+    size: 3200
+  jp:
+    address: 0x09C79A00
+    size: 3200
+  eu:
+    address: 0x09D10820
+    size: 3200
+- name: gBosPcGfxSet15Tiles
+  format: tiles4
+  us:
+    address: 0x09CA1174
+    size: 3232
+  jp:
+    address: 0x09C7A680
+    size: 3232
+  eu:
+    address: 0x09D114A0
+    size: 3232
+- name: gBosPcGfxSet16Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09CA1E14
+    size: 3520
+  jp:
+    address: 0x09C7B320
+    size: 3520
+  eu:
+    address: 0x09D12140
+    size: 3520
+- name: gBosPcGfxSet17Tiles
+  format: tiles4
+  us:
+    address: 0x09CA2BD4
+    size: 3488
+  jp:
+    address: 0x09C7C0E0
+    size: 3488
+  eu:
+    address: 0x09D12F00
+    size: 3488
+- name: gBosPcGfxSet18Tiles
+  format: tiles4
+  us:
+    address: 0x09CA3974
+    size: 3104
+  jp:
+    address: 0x09C7CE80
+    size: 3104
+  eu:
+    address: 0x09D13CA0
+    size: 3104
+- name: gBosPcGfxSet19Tiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09CA4594
+    size: 3072
+  jp:
+    address: 0x09C7DAA0
+    size: 3072
+  eu:
+    address: 0x09D148C0
+    size: 3072
+- name: gBosPcGfxSet20Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09CA5194
+    size: 2944
+  jp:
+    address: 0x09C7E6A0
+    size: 2944
+  eu:
+    address: 0x09D154C0
+    size: 2944
+- name: gBosPcGfxSet21Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09CA5D14
+    size: 3200
+  jp:
+    address: 0x09C7F220
+    size: 3200
+  eu:
+    address: 0x09D16040
+    size: 3200
+- name: gBosPcGfxSet22Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09CA6994
+    size: 3136
+  jp:
+    address: 0x09C7FEA0
+    size: 3136
+  eu:
+    address: 0x09D16CC0
+    size: 3136
+- name: gBosPcGfxSet23Tiles
+  format: tiles4
+  width: 8
+  us:
+    address: 0x09CA75D4
+    size: 2816
+  jp:
+    address: 0x09C80AE0
+    size: 2816
+  eu:
+    address: 0x09D17900
+    size: 2816
+- name: gBosPcGfxSet24Tiles
+  format: tiles4
+  width: 16
+  us:
+    address: 0x09CA80D4
+    size: 3584
+  jp:
+    address: 0x09C815E0
+    size: 3584
+  eu:
+    address: 0x09D18400
+    size: 3584
+- name: gBosPcGfxSet25Tiles
+  format: tiles4
+  us:
+    address: 0x09CA8ED4
+    size: 4064
+  jp:
+    address: 0x09C823E0
+    size: 4064
+  eu:
+    address: 0x09D19200
+    size: 4064
+- name: gBosPcGfxSet26Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09CA9EB4
+    size: 4416
+  jp:
+    address: 0x09C833C0
+    size: 4416
+  eu:
+    address: 0x09D1A1E0
+    size: 4416
+- name: gBosPcGfxSet27Tiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09CAAFF4
+    size: 4096
+  jp:
+    address: 0x09C84500
+    size: 4096
+  eu:
+    address: 0x09D1B320
+    size: 4096
+- name: gBosPcGfxSet28Tiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09CABFF4
+    size: 4096
+  jp:
+    address: 0x09C85500
+    size: 4096
+  eu:
+    address: 0x09D1C320
+    size: 4096
+- name: gBosPcGfxSet29Tiles
+  format: tiles4
+  us:
+    address: 0x09CACFF4
+    size: 4000
+  jp:
+    address: 0x09C86500
+    size: 4000
+  eu:
+    address: 0x09D1D320
+    size: 4000
+- name: gBosPcGfxSet30Tiles
+  format: tiles4
+  us:
+    address: 0x09CADF94
+    size: 4064
+  jp:
+    address: 0x09C874A0
+    size: 4064
+  eu:
+    address: 0x09D1E2C0
+    size: 4064
+- name: gBosPcGfxSet31Tiles
+  format: tiles4
+  us:
+    address: 0x09CAEF74
+    size: 3360
+  jp:
+    address: 0x09C88480
+    size: 3360
+  eu:
+    address: 0x09D1F2A0
+    size: 3360
+- name: gBosPcGfxSet32Tiles
+  format: tiles4
+  us:
+    address: 0x09CAFC94
+    size: 3104
+  jp:
+    address: 0x09C891A0
+    size: 3104
+  eu:
+    address: 0x09D1FFC0
+    size: 3104
+- name: gBosPcGfxSet33Tiles
+  format: tiles4
+  us:
+    address: 0x09CB08B4
+    size: 3104
+  jp:
+    address: 0x09C89DC0
+    size: 3104
+  eu:
+    address: 0x09D20BE0
+    size: 3104
+- name: gBosPcGfxSet34Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09CB14D4
+    size: 3200
+  jp:
+    address: 0x09C8A9E0
+    size: 3200
+  eu:
+    address: 0x09D21800
+    size: 3200
+- name: gBosPcGfxSet35Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09CB2154
+    size: 3136
+  jp:
+    address: 0x09C8B660
+    size: 3136
+  eu:
+    address: 0x09D22480
+    size: 3136
+- name: gBosPcGfxSet36Tiles
+  format: tiles4
+  us:
+    address: 0x09CB2D94
+    size: 3104
+  jp:
+    address: 0x09C8C2A0
+    size: 3104
+  eu:
+    address: 0x09D230C0
+    size: 3104
+- name: gBosPcGfxSet37Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09CB39B4
+    size: 3136
+  jp:
+    address: 0x09C8CEC0
+    size: 3136
+  eu:
+    address: 0x09D23CE0
+    size: 3136
+- name: gBosPcGfxSet38Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09CB45F4
+    size: 3200
+  jp:
+    address: 0x09C8DB00
+    size: 3200
+  eu:
+    address: 0x09D24920
+    size: 3200
+- name: gBosPcGfxSet39Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09CB5274
+    size: 3200
+  jp:
+    address: 0x09C8E780
+    size: 3200
+  eu:
+    address: 0x09D255A0
+    size: 3200
+- name: gBosPcGfxSet40Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09CB5EF4
+    size: 3200
+  jp:
+    address: 0x09C8F400
+    size: 3200
+  eu:
+    address: 0x09D26220
+    size: 3200
+- name: gBosPcGfxSet41Tiles
+  format: tiles4
+  us:
+    address: 0x09CB6B74
+    size: 3232
+  jp:
+    address: 0x09C90080
+    size: 3232
+  eu:
+    address: 0x09D26EA0
+    size: 3232
+- name: gBosPcGfxSet42Tiles
+  format: tiles4
+  us:
+    address: 0x09CB7814
+    size: 3232
+  jp:
+    address: 0x09C90D20
+    size: 3232
+  eu:
+    address: 0x09D27B40
+    size: 3232
+- name: gBosPcLayerTiles
+  format: tiles4
+  us:
+    address: 0x09CB84B4
+    size: 2720
+  jp:
+    address: 0x09C919C0
+    size: 2720
+  eu:
+    address: 0x09D287E0
+    size: 2720
+- name: gBosPcFltTiles
+  format: tiles4
+  width: 8
+  us:
+    address: 0x09CB8F54
+    size: 48896
+  jp:
+    address: 0x09C92460
+    size: 48896
+  eu:
+    address: 0x09D29280
+    size: 48896
+- name: gBosPcFldTiles
+  format: tiles4
+  width: 16
+  us:
+    address: 0x09CC4E54
+    size: 512
+  jp:
+    address: 0x09C9E360
+    size: 512
+  eu:
+    address: 0x09D35180
+    size: 512
+- name: gBosLstBgTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09CC5054
+    size: 32768
+  jp:
+    address: 0x09C9E560
+    size: 32768
+  eu:
+    address: 0x09D35380
+    size: 32768
+- name: gBosLstBgFrame1Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09CCD054
+    size: 1600
+  jp:
+    address: 0x09CA6560
+    size: 1600
+  eu:
+    address: 0x09D3D380
+    size: 1600
+- name: gBosLstBgFrame2Tiles
+  format: tiles4
+  width: 4
+  us:
+    address: 0x09CCD694
+    size: 1408
+  jp:
+    address: 0x09CA6BA0
+    size: 1408
+  eu:
+    address: 0x09D3D9C0
+    size: 1408
+- name: gBosLstBgFrame3Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09CCDC14
+    size: 1472
+  jp:
+    address: 0x09CA7120
+    size: 1472
+  eu:
+    address: 0x09D3DF40
+    size: 1472
+- name: gBosLstBgFrame4Tiles
+  format: tiles4
+  us:
+    address: 0x09CCE1D4
+    size: 1568
+  jp:
+    address: 0x09CA76E0
+    size: 1568
+  eu:
+    address: 0x09D3E500
+    size: 1568
+- name: gBosLstBgFrame5Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09CCE7F4
+    size: 1472
+  jp:
+    address: 0x09CA7D00
+    size: 1472
+  eu:
+    address: 0x09D3EB20
+    size: 1472
+- name: gBosLstBgFrame6Tiles
+  format: tiles4
+  width: 2
+  us:
+    address: 0x09CCEDB4
+    size: 1472
+  jp:
+    address: 0x09CA82C0
+    size: 1472
+  eu:
+    address: 0x09D3F0E0
+    size: 1472
+- name: gBosLstBgFrame7Tiles
+  format: tiles4
+  us:
+    address: 0x09CCF374
+    size: 1760
+  jp:
+    address: 0x09CA8880
+    size: 1760
+  eu:
+    address: 0x09D3F6A0
+    size: 1760
+- name: gBosLstBgFrame8Tiles
+  format: tiles4
+  us:
+    address: 0x09CCFA54
+    size: 2272
+  jp:
+    address: 0x09CA8F60
+    size: 2272
+  eu:
+    address: 0x09D3FD80
+    size: 2272
+- name: gBosBlankMap
+  format: tilemap
+  us:
+    address: 0x09D34A74
+    size: 4096
+  jp:
+    address: 0x09D0DF80
+    size: 4096
+  eu:
+    address: 0x09DA09A0
+    size: 4096
+- name: gBosPcGfxSet0Map
+  format: tilemap
+  us:
+    address: 0x09D35A74
+    size: 2048
+  jp:
+    address: 0x09D0EF80
+    size: 2048
+  eu:
+    address: 0x09DA19A0
+    size: 2048
+- name: gBosPcGfxSet1Map
+  format: tilemap
+  us:
+    address: 0x09D36274
+    size: 2048
+  jp:
+    address: 0x09D0F780
+    size: 2048
+  eu:
+    address: 0x09DA21A0
+    size: 2048
+- name: gBosPcGfxSet2Map
+  format: tilemap
+  us:
+    address: 0x09D36A74
+    size: 2048
+  jp:
+    address: 0x09D0FF80
+    size: 2048
+  eu:
+    address: 0x09DA29A0
+    size: 2048
+- name: gBosPcGfxSet3Map
+  format: tilemap
+  us:
+    address: 0x09D37274
+    size: 2048
+  jp:
+    address: 0x09D10780
+    size: 2048
+  eu:
+    address: 0x09DA31A0
+    size: 2048
+- name: gBosPcGfxSet4Map
+  format: tilemap
+  us:
+    address: 0x09D37A74
+    size: 2048
+  jp:
+    address: 0x09D10F80
+    size: 2048
+  eu:
+    address: 0x09DA39A0
+    size: 2048
+- name: gBosPcGfxSet5Map
+  format: tilemap
+  us:
+    address: 0x09D38274
+    size: 2048
+  jp:
+    address: 0x09D11780
+    size: 2048
+  eu:
+    address: 0x09DA41A0
+    size: 2048
+- name: gBosPcGfxSet6Map
+  format: tilemap
+  us:
+    address: 0x09D38A74
+    size: 2048
+  jp:
+    address: 0x09D11F80
+    size: 2048
+  eu:
+    address: 0x09DA49A0
+    size: 2048
+- name: gBosPcGfxSet7Map
+  format: tilemap
+  us:
+    address: 0x09D39274
+    size: 2048
+  jp:
+    address: 0x09D12780
+    size: 2048
+  eu:
+    address: 0x09DA51A0
+    size: 2048
+- name: gBosPcGfxSet8Map
+  format: tilemap
+  us:
+    address: 0x09D39A74
+    size: 2048
+  jp:
+    address: 0x09D12F80
+    size: 2048
+  eu:
+    address: 0x09DA59A0
+    size: 2048
+- name: gBosPcGfxSet9Map
+  format: tilemap
+  us:
+    address: 0x09D3A274
+    size: 2048
+  jp:
+    address: 0x09D13780
+    size: 2048
+  eu:
+    address: 0x09DA61A0
+    size: 2048
+- name: gBosPcGfxSet10Map
+  format: tilemap
+  us:
+    address: 0x09D3AA74
+    size: 2048
+  jp:
+    address: 0x09D13F80
+    size: 2048
+  eu:
+    address: 0x09DA69A0
+    size: 2048
+- name: gBosPcGfxSet11Map
+  format: tilemap
+  us:
+    address: 0x09D3B274
+    size: 2048
+  jp:
+    address: 0x09D14780
+    size: 2048
+  eu:
+    address: 0x09DA71A0
+    size: 2048
+- name: gBosPcGfxSet12Map
+  format: tilemap
+  us:
+    address: 0x09D3BA74
+    size: 2048
+  jp:
+    address: 0x09D14F80
+    size: 2048
+  eu:
+    address: 0x09DA79A0
+    size: 2048
+- name: gBosPcGfxSet13Map
+  format: tilemap
+  us:
+    address: 0x09D3C274
+    size: 2048
+  jp:
+    address: 0x09D15780
+    size: 2048
+  eu:
+    address: 0x09DA81A0
+    size: 2048
+- name: gBosPcGfxSet14Map
+  format: tilemap
+  us:
+    address: 0x09D3CA74
+    size: 2048
+  jp:
+    address: 0x09D15F80
+    size: 2048
+  eu:
+    address: 0x09DA89A0
+    size: 2048
+- name: gBosPcGfxSet15Map
+  format: tilemap
+  us:
+    address: 0x09D3D274
+    size: 2048
+  jp:
+    address: 0x09D16780
+    size: 2048
+  eu:
+    address: 0x09DA91A0
+    size: 2048
+- name: gBosPcGfxSet16Map
+  format: tilemap
+  us:
+    address: 0x09D3DA74
+    size: 2048
+  jp:
+    address: 0x09D16F80
+    size: 2048
+  eu:
+    address: 0x09DA99A0
+    size: 2048
+- name: gBosPcGfxSet17Map
+  format: tilemap
+  us:
+    address: 0x09D3E274
+    size: 2048
+  jp:
+    address: 0x09D17780
+    size: 2048
+  eu:
+    address: 0x09DAA1A0
+    size: 2048
+- name: gBosPcGfxSet18Map
+  format: tilemap
+  us:
+    address: 0x09D3EA74
+    size: 2048
+  jp:
+    address: 0x09D17F80
+    size: 2048
+  eu:
+    address: 0x09DAA9A0
+    size: 2048
+- name: gBosPcGfxSet19Map
+  format: tilemap
+  us:
+    address: 0x09D3F274
+    size: 2048
+  jp:
+    address: 0x09D18780
+    size: 2048
+  eu:
+    address: 0x09DAB1A0
+    size: 2048
+- name: gBosPcGfxSet20Map
+  format: tilemap
+  us:
+    address: 0x09D3FA74
+    size: 2048
+  jp:
+    address: 0x09D18F80
+    size: 2048
+  eu:
+    address: 0x09DAB9A0
+    size: 2048
+- name: gBosPcGfxSet21Map
+  format: tilemap
+  us:
+    address: 0x09D40274
+    size: 2048
+  jp:
+    address: 0x09D19780
+    size: 2048
+  eu:
+    address: 0x09DAC1A0
+    size: 2048
+- name: gBosPcGfxSet22Map
+  format: tilemap
+  us:
+    address: 0x09D40A74
+    size: 2048
+  jp:
+    address: 0x09D19F80
+    size: 2048
+  eu:
+    address: 0x09DAC9A0
+    size: 2048
+- name: gBosPcGfxSet23Map
+  format: tilemap
+  us:
+    address: 0x09D41274
+    size: 2048
+  jp:
+    address: 0x09D1A780
+    size: 2048
+  eu:
+    address: 0x09DAD1A0
+    size: 2048
+- name: gBosPcGfxSet24Map
+  format: tilemap
+  us:
+    address: 0x09D41A74
+    size: 2048
+  jp:
+    address: 0x09D1AF80
+    size: 2048
+  eu:
+    address: 0x09DAD9A0
+    size: 2048
+- name: gBosPcGfxSet25Map
+  format: tilemap
+  us:
+    address: 0x09D42274
+    size: 2048
+  jp:
+    address: 0x09D1B780
+    size: 2048
+  eu:
+    address: 0x09DAE1A0
+    size: 2048
+- name: gBosPcGfxSet26Map
+  format: tilemap
+  us:
+    address: 0x09D42A74
+    size: 2048
+  jp:
+    address: 0x09D1BF80
+    size: 2048
+  eu:
+    address: 0x09DAE9A0
+    size: 2048
+- name: gBosPcGfxSet27Map
+  format: tilemap
+  us:
+    address: 0x09D43274
+    size: 2048
+  jp:
+    address: 0x09D1C780
+    size: 2048
+  eu:
+    address: 0x09DAF1A0
+    size: 2048
+- name: gBosPcGfxSet28Map
+  format: tilemap
+  us:
+    address: 0x09D43A74
+    size: 2048
+  jp:
+    address: 0x09D1CF80
+    size: 2048
+  eu:
+    address: 0x09DAF9A0
+    size: 2048
+- name: gBosPcGfxSet29Map
+  format: tilemap
+  us:
+    address: 0x09D44274
+    size: 2048
+  jp:
+    address: 0x09D1D780
+    size: 2048
+  eu:
+    address: 0x09DB01A0
+    size: 2048
+- name: gBosPcGfxSet30Map
+  format: tilemap
+  us:
+    address: 0x09D44A74
+    size: 2048
+  jp:
+    address: 0x09D1DF80
+    size: 2048
+  eu:
+    address: 0x09DB09A0
+    size: 2048
+- name: gBosPcGfxSet31Map
+  format: tilemap
+  us:
+    address: 0x09D45274
+    size: 2048
+  jp:
+    address: 0x09D1E780
+    size: 2048
+  eu:
+    address: 0x09DB11A0
+    size: 2048
+- name: gBosPcGfxSet32Map
+  format: tilemap
+  us:
+    address: 0x09D45A74
+    size: 2048
+  jp:
+    address: 0x09D1EF80
+    size: 2048
+  eu:
+    address: 0x09DB19A0
+    size: 2048
+- name: gBosPcGfxSet33Map
+  format: tilemap
+  us:
+    address: 0x09D46274
+    size: 2048
+  jp:
+    address: 0x09D1F780
+    size: 2048
+  eu:
+    address: 0x09DB21A0
+    size: 2048
+- name: gBosPcGfxSet34Map
+  format: tilemap
+  us:
+    address: 0x09D46A74
+    size: 2048
+  jp:
+    address: 0x09D1FF80
+    size: 2048
+  eu:
+    address: 0x09DB29A0
+    size: 2048
+- name: gBosPcGfxSet35Map
+  format: tilemap
+  us:
+    address: 0x09D47274
+    size: 2048
+  jp:
+    address: 0x09D20780
+    size: 2048
+  eu:
+    address: 0x09DB31A0
+    size: 2048
+- name: gBosPcGfxSet36Map
+  format: tilemap
+  us:
+    address: 0x09D47A74
+    size: 2048
+  jp:
+    address: 0x09D20F80
+    size: 2048
+  eu:
+    address: 0x09DB39A0
+    size: 2048
+- name: gBosPcGfxSet37Map
+  format: tilemap
+  us:
+    address: 0x09D48274
+    size: 2048
+  jp:
+    address: 0x09D21780
+    size: 2048
+  eu:
+    address: 0x09DB41A0
+    size: 2048
+- name: gBosPcGfxSet38Map
+  format: tilemap
+  us:
+    address: 0x09D48A74
+    size: 2048
+  jp:
+    address: 0x09D21F80
+    size: 2048
+  eu:
+    address: 0x09DB49A0
+    size: 2048
+- name: gBosPcGfxSet39Map
+  format: tilemap
+  us:
+    address: 0x09D49274
+    size: 2048
+  jp:
+    address: 0x09D22780
+    size: 2048
+  eu:
+    address: 0x09DB51A0
+    size: 2048
+- name: gBosPcGfxSet40Map
+  format: tilemap
+  us:
+    address: 0x09D49A74
+    size: 2048
+  jp:
+    address: 0x09D22F80
+    size: 2048
+  eu:
+    address: 0x09DB59A0
+    size: 2048
+- name: gBosPcGfxSet41Map
+  format: tilemap
+  us:
+    address: 0x09D4A274
+    size: 2048
+  jp:
+    address: 0x09D23780
+    size: 2048
+  eu:
+    address: 0x09DB61A0
+    size: 2048
+- name: gBosPcGfxSet42Map
+  format: tilemap
+  us:
+    address: 0x09D4AA74
+    size: 2048
+  jp:
+    address: 0x09D23F80
+    size: 2048
+  eu:
+    address: 0x09DB69A0
+    size: 2048
+- name: gBosLstBgMap
+  format: tilemap
+  us:
+    address: 0x09D4B274
+    size: 2048
+  jp:
+    address: 0x09D24780
+    size: 2048
+  eu:
+    address: 0x09DB71A0
+    size: 2048
+- name: gBosLstAnim0BgMap
+  format: tilemap
+  us:
+    address: 0x09D4DA74
+    size: 2048
+  jp:
+    address: 0x09D26F80
+    size: 2048
+  eu:
+    address: 0x09DB99A0
+    size: 2048
+- name: gBosLstAnim2BgMap
+  format: tilemap
+  us:
+    address: 0x09D4E274
+    size: 2048
+  jp:
+    address: 0x09D27780
+    size: 2048
+  eu:
+    address: 0x09DBA1A0
+    size: 2048
+- name: gBosLstAnim4BgMap
+  format: tilemap
+  us:
+    address: 0x09D4EA74
+    size: 2048
+  jp:
+    address: 0x09D27F80
+    size: 2048
+  eu:
+    address: 0x09DBA9A0
+    size: 2048
+- name: gBosLstAnim6BgMap
+  format: tilemap
+  us:
+    address: 0x09D4F274
+    size: 2048
+  jp:
+    address: 0x09D28780
+    size: 2048
+  eu:
+    address: 0x09DBB1A0
+    size: 2048
+- name: gBosLstAnim1BgMap
+  format: tilemap
+  us:
+    address: 0x09D4FA74
+    size: 2048
+  jp:
+    address: 0x09D28F80
+    size: 2048
+  eu:
+    address: 0x09DBB9A0
+    size: 2048
+- name: gBosLstAnim3BgMap
+  format: tilemap
+  us:
+    address: 0x09D50274
+    size: 2048
+  jp:
+    address: 0x09D29780
+    size: 2048
+  eu:
+    address: 0x09DBC1A0
+    size: 2048
+- name: gBosLstAnim5BgMap
+  format: tilemap
+  us:
+    address: 0x09D50A74
+    size: 2048
+  jp:
+    address: 0x09D29F80
+    size: 2048
+  eu:
+    address: 0x09DBC9A0
+    size: 2048
+- name: gBosLstAnim7BgMap
+  format: tilemap
+  us:
+    address: 0x09D51274
+    size: 2048
+  jp:
+    address: 0x09D2A780
+    size: 2048
+  eu:
+    address: 0x09DBD1A0
+    size: 2048
+- name: gBosLstBgFrame1Map
+  format: tilemap
+  us:
+    address: 0x09D51A74
+    size: 2048
+  jp:
+    address: 0x09D2AF80
+    size: 2048
+  eu:
+    address: 0x09DBD9A0
+    size: 2048
+- name: gBosLstBgFrame2Map
+  format: tilemap
+  us:
+    address: 0x09D52274
+    size: 2048
+  jp:
+    address: 0x09D2B780
+    size: 2048
+  eu:
+    address: 0x09DBE1A0
+    size: 2048
+- name: gBosLstBgFrame3Map
+  format: tilemap
+  us:
+    address: 0x09D52A74
+    size: 2048
+  jp:
+    address: 0x09D2BF80
+    size: 2048
+  eu:
+    address: 0x09DBE9A0
+    size: 2048
+- name: gBosLstBgFrame4Map
+  format: tilemap
+  us:
+    address: 0x09D53274
+    size: 2048
+  jp:
+    address: 0x09D2C780
+    size: 2048
+  eu:
+    address: 0x09DBF1A0
+    size: 2048
+- name: gBosLstBgFrame5Map
+  format: tilemap
+  us:
+    address: 0x09D53A74
+    size: 2048
+  jp:
+    address: 0x09D2CF80
+    size: 2048
+  eu:
+    address: 0x09DBF9A0
+    size: 2048
+- name: gBosLstBgFrame6Map
+  format: tilemap
+  us:
+    address: 0x09D54274
+    size: 2048
+  jp:
+    address: 0x09D2D780
+    size: 2048
+  eu:
+    address: 0x09DC01A0
+    size: 2048
+- name: gBosLstBgFrame7Map
+  format: tilemap
+  us:
+    address: 0x09D54A74
+    size: 2048
+  jp:
+    address: 0x09D2DF80
+    size: 2048
+  eu:
+    address: 0x09DC09A0
+    size: 2048
+- name: gBosLstBgFrame8Map
+  format: tilemap
+  us:
+    address: 0x09D55274
+    size: 2048
+  jp:
+    address: 0x09D2E780
+    size: 2048
+  eu:
+    address: 0x09DC11A0
+    size: 2048
+- name: gBosLstBgFrame10Map
+  format: tilemap
+  us:
+    address: 0x09D55A74
+    size: 2048
+  jp:
+    address: 0x09D2EF80
+    size: 2048
+  eu:
+    address: 0x09DC19A0
+    size: 2048
+- name: gBosLstBgFrame11Map
+  format: tilemap
+  us:
+    address: 0x09D56274
+    size: 2048
+  jp:
+    address: 0x09D2F780
+    size: 2048
+  eu:
+    address: 0x09DC21A0
+    size: 2048
+- name: gBosLstBgFrame12Map
+  format: tilemap
+  us:
+    address: 0x09D56A74
+    size: 2048
+  jp:
+    address: 0x09D2FF80
+    size: 2048
+  eu:
+    address: 0x09DC29A0
+    size: 2048
+- name: gBosLstBgFrame13Map
+  format: tilemap
+  us:
+    address: 0x09D57274
+    size: 2048
+  jp:
+    address: 0x09D30780
+    size: 2048
+  eu:
+    address: 0x09DC31A0
+    size: 2048
+- name: gBosLstBgFrame14Map
+  format: tilemap
+  us:
+    address: 0x09D57A74
+    size: 2048
+  jp:
+    address: 0x09D30F80
+    size: 2048
+  eu:
+    address: 0x09DC39A0
+    size: 2048
+- name: gBosLstBgFrame15Map
+  format: tilemap
+  us:
+    address: 0x09D58274
+    size: 2048
+  jp:
+    address: 0x09D31780
+    size: 2048
+  eu:
+    address: 0x09DC41A0
+    size: 2048
+- name: gBosLstBgFrame16Map
+  format: tilemap
+  us:
+    address: 0x09D58A74
+    size: 2048
+  jp:
+    address: 0x09D31F80
+    size: 2048
+  eu:
+    address: 0x09DC49A0
+    size: 2048
+- name: gBosLstBgFrame17Map
+  format: tilemap
+  us:
+    address: 0x09D59274
+    size: 2048
+  jp:
+    address: 0x09D32780
+    size: 2048
+  eu:
+    address: 0x09DC51A0
+    size: 2048
+- name: gBosPcCyclePalettes
+  format: palette
+  us:
+    address: 0x09D69374
+    size: 96
+  jp:
+    address: 0x09D42880
+    size: 96
+  eu:
+    address: 0x09DD92A0
+    size: 96
+- name: gBosPcObjPalette
+  format: palette
+  us:
+    address: 0x09D693D4
+    size: 96
+  jp:
+    address: 0x09D428E0
+    size: 96
+  eu:
+    address: 0x09DD9300
+    size: 96
+- name: gBosPcFldPalette
+  format: palette
+  us:
+    address: 0x09D69434
+    size: 32
+  jp:
+    address: 0x09D42940
+    size: 32
+  eu:
+    address: 0x09DD9360
+    size: 32
+- name: gBosLstBgPalettes
+  format: palette
+  shape: [10, 16]
+  us:
+    address: 0x09D69454
+    size: 320
+  jp:
+    address: 0x09D42960
+    size: 320
+  eu:
+    address: 0x09DD9380
+    size: 320
+- name: gBosLstObjPalette
+  format: palette
+  us:
+    address: 0x09D69594
+    size: 96
+  jp:
+    address: 0x09D42AA0
+    size: 96
+  eu:
+    address: 0x09DD94C0
+    size: 96
+- name: gBosPcStandaloneTiles
+  format: tiles4
+  width: 32
+  us:
+    address: 0x09C448D2
+    size: 16384
+  jp:
+    address: 0x09C1CFF6
+    size: 16384
+  eu:
+    address: 0x09CA261A
+    size: 16384

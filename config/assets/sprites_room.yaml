@@ -1,0 +1,588 @@
+group: sprites_room
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_room_frames.s
+    start: 0x0999389C
+    end: 0x09999E0C
+    data_start: 0x09EF9684
+    data_end: 0x09EF9740
+  - name: sprites_room_maps.s
+    start: 0x09A1E0DC
+    end: 0x09A208DC
+  - name: sprites_room_palettes.s
+    start: 0x09A3C75C
+    end: 0x09A3C89C
+  jp:
+  - name: sprites_room_frames.s
+    start: 0x099483B0
+    end: 0x0994E920
+    data_start: 0x09ED0A70
+    data_end: 0x09ED0B2C
+  - name: sprites_room_maps.s
+    start: 0x099D2B64
+    end: 0x099D5364
+  - name: sprites_room_palettes.s
+    start: 0x099F11E4
+    end: 0x099F1324
+  eu:
+  - name: sprites_room_frames.s
+    start: 0x09999B58
+    end: 0x099A00C8
+    data_start: 0x09F85100
+    data_end: 0x09F851BC
+  - name: sprites_room_maps.s
+    start: 0x09A6FCA0
+    end: 0x09A724A0
+  - name: sprites_room_palettes.s
+    start: 0x09A9A220
+    end: 0x09A9A360
+entries:
+- name: gBosGaTorsoFrames
+  record: SpriteTable
+  items: [gBosGaTorsoFrame0, gBosGaTorsoFrame1, gBosGaTorsoFrame2, gBosGaTorsoFrame3, gBosGaTorsoFrame4, gBosGaTorsoFrame5, gBosGaTorsoFrame6, gBosGaTorsoFrame7]
+  us:
+    address: 0x09EF9684
+  jp:
+    address: 0x09ED0A70
+  eu:
+    address: 0x09F85100
+- name: gBosGaTorsoAnims
+  record: AnimTable
+  items: [gBosGaTorsoAnim0, gBosGaTorsoAnim1, gBosGaTorsoAnim2]
+  us:
+    address: 0x09EF96A4
+  jp:
+    address: 0x09ED0A90
+  eu:
+    address: 0x09F85120
+- name: gBosGaHeadFrames
+  record: SpriteTable
+  items: [gBosGaHeadFrame0, gBosGaHeadFrame1, gBosGaHeadFrame2, gBosGaHeadFrame3, gBosGaHeadFrame4, gBosGaHeadFrame5]
+  us:
+    address: 0x09EF96B0
+  jp:
+    address: 0x09ED0A9C
+  eu:
+    address: 0x09F8512C
+- name: gBosGaHeadAnims
+  record: AnimTable
+  items: [gBosGaHeadAnim0, gBosGaHeadAnim1]
+  us:
+    address: 0x09EF96C8
+  jp:
+    address: 0x09ED0AB4
+  eu:
+    address: 0x09F85144
+- name: gBosGaNearHandFrames
+  record: SpriteTable
+  items: [gBosGaNearHandFrame0, gBosGaNearHandFrame1, gBosGaNearHandFrame2, gBosGaNearHandFrame3, gBosGaNearHandFrame4, gBosGaNearHandFrame5, gBosGaNearHandFrame6]
+  us:
+    address: 0x09EF96D0
+  jp:
+    address: 0x09ED0ABC
+  eu:
+    address: 0x09F8514C
+- name: gBosGaNearHandAnims
+  record: AnimTable
+  items: [gBosGaNearHandAnim0, gBosGaNearHandAnim1]
+  us:
+    address: 0x09EF96EC
+  jp:
+    address: 0x09ED0AD8
+  eu:
+    address: 0x09F85168
+- name: gBosGaFarHandFrames
+  record: SpriteTable
+  items: [gBosGaFarHandFrame0, gBosGaFarHandFrame1, gBosGaFarHandFrame2, gBosGaFarHandFrame3, gBosGaFarHandFrame4, gBosGaFarHandFrame5, gBosGaFarHandFrame6]
+  us:
+    address: 0x09EF96F4
+  jp:
+    address: 0x09ED0AE0
+  eu:
+    address: 0x09F85170
+- name: gBosGaFarHandAnims
+  record: AnimTable
+  items: [gBosGaFarHandAnim0, gBosGaFarHandAnim1]
+  us:
+    address: 0x09EF9710
+  jp:
+    address: 0x09ED0AFC
+  eu:
+    address: 0x09F8518C
+- name: gBosGaNearFootFrames
+  record: SpriteTable
+  items: [gBosGaNearFootFrame0]
+  us:
+    address: 0x09EF9718
+  jp:
+    address: 0x09ED0B04
+  eu:
+    address: 0x09F85194
+- name: gBosGaNearFootAnims
+  record: AnimTable
+  items: [gBosGaNearFootAnim0]
+  us:
+    address: 0x09EF971C
+  jp:
+    address: 0x09ED0B08
+  eu:
+    address: 0x09F85198
+- name: gBosGaFarFootFrames
+  record: SpriteTable
+  items: [gBosGaFarFootFrame0]
+  us:
+    address: 0x09EF9720
+  jp:
+    address: 0x09ED0B0C
+  eu:
+    address: 0x09F8519C
+- name: gBosGaFarFootAnims
+  record: AnimTable
+  items: [gBosGaFarFootAnim0]
+  us:
+    address: 0x09EF9724
+  jp:
+    address: 0x09ED0B10
+  eu:
+    address: 0x09F851A0
+- name: gBosGaCollarFrames
+  record: SpriteTable
+  items: [gBosGaCollarFrame0, gBosGaCollarFrame1, gBosGaCollarFrame2, gBosGaCollarFrame3]
+  us:
+    address: 0x09EF9728
+  jp:
+    address: 0x09ED0B14
+  eu:
+    address: 0x09F851A4
+- name: gBosGaCollarAnims
+  record: AnimTable
+  items: [gBosGaCollarAnim0, gBosGaCollarAnim1]
+  us:
+    address: 0x09EF9738
+  jp:
+    address: 0x09ED0B24
+  eu:
+    address: 0x09F851B4
+- name: gBosGaTorsoTiles
+  format: sprite_sheet
+  align: 4
+  cell: [54, 71]
+  anchor: [26, 38]
+  columns: 8
+  frames:
+  - symbol: gBosGaTorsoFrame0
+    pieces:
+    - [32x64, -17, -38]
+    - [8x8, -24, -23, {layer: 1}]
+    - [8x16, -24, 10]
+    - [8x8, -1, 25]
+    - [16x32, 7, -6]
+    - [16x16, -25, -38]
+  - symbol: gBosGaTorsoFrame1
+    pieces:
+    - [32x64, -18, -37]
+    - [8x8, -25, 14]
+    - [8x8, -25, -22, {layer: 1}]
+    - [8x32, 13, -5]
+    - [8x16, 20, 1]
+    - [16x16, -26, -37]
+  - symbol: gBosGaTorsoFrame2
+    pieces:
+    - [32x64, -15, -37]
+    - [8x16, -22, -37]
+    - [8x8, -22, -22]
+    - [8x16, -22, 5]
+    - [8x16, 16, -1]
+    - [8x8, 16, 14]
+  - symbol: gBosGaTorsoFrame3
+    pieces:
+    - [32x64, -12, -38]
+    - [8x16, -19, -37]
+    - [8x8, -19, -22]
+    - [8x16, -19, 2]
+    - [8x8, -19, 17]
+    - [8x8, -4, 25]
+    - [8x16, 19, 2]
+  - symbol: gBosGaTorsoFrame4
+    pieces:
+    - [32x64, -17, -37]
+    - [8x16, -24, 3]
+    - [8x8, -24, 18]
+    - [8x16, 14, 1, {layer: 1}]
+  - symbol: gBosGaTorsoFrame5
+    pieces:
+    - [8x16, -23, 4]
+    - [8x16, 15, 4]
+    - [32x32, -16, -12]
+    - [32x16, -24, -34]
+    - [16x16, 7, -34]
+    - [32x8, -16, -19]
+  - symbol: gBosGaTorsoFrame6
+    pieces:
+    - [32x64, -15, -37, {hflip: true}]
+    - [8x16, 16, 3, {hflip: true}]
+    - [8x8, 16, 18, {hflip: true}]
+    - [8x16, -22, 1, {hflip: true, same: [4, 3]}]
+  - symbol: gBosGaTorsoFrame7
+    pieces:
+    - [32x64, -16, -34]
+    - [8x32, -23, -2]
+    - [8x32, 15, -2]
+    - [8x16, -23, -34]
+    - [8x16, 15, -34]
+  animations:
+  - symbol: gBosGaTorsoAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 12], [1, 12], [2, 12], [3, 12]]
+  - symbol: gBosGaTorsoAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 5], [5, 5], [6, 5], [7, 5]]
+  - symbol: gBosGaTorsoAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0999389C
+    size: 9630
+  jp:
+    address: 0x099483B0
+    size: 9630
+  eu:
+    address: 0x09999B58
+    size: 9630
+- name: gBosGaHeadTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 32]
+  anchor: [16, 18]
+  columns: 6
+  frames:
+  - symbol: gBosGaHeadFrame0
+    pieces:
+    - [32x32, -16, -18]
+  - symbol: gBosGaHeadFrame1
+    pieces:
+    - [32x32, -16, -18]
+  - symbol: gBosGaHeadFrame2
+    pieces:
+    - [32x32, -16, -18]
+  - symbol: gBosGaHeadFrame3
+    pieces:
+    - [32x32, -16, -18]
+  - symbol: gBosGaHeadFrame4
+    pieces:
+    - [32x32, -16, -18]
+  - symbol: gBosGaHeadFrame5
+    pieces:
+    - [32x32, -16, -18]
+  animations:
+  - symbol: gBosGaHeadAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBosGaHeadAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 6], [2, 6], [3, 6], [4, 6], [5, 6]]
+  us:
+    address: 0x09995E3C
+    size: 3168
+  jp:
+    address: 0x0994A950
+    size: 3168
+  eu:
+    address: 0x0999C0F8
+    size: 3168
+- name: gBosGaNearHandTiles
+  format: sprite_sheet
+  align: 4
+  cell: [61, 58]
+  anchor: [33, 26]
+  columns: 7
+  frames:
+  - symbol: gBosGaNearHandFrame0
+    pieces:
+    - [16x16, 6, -23]
+    - [32x32, -26, -7]
+    - [8x16, 5, -8, {layer: 1}]
+    - [8x8, -1, -14, {layer: 2}]
+    - [8x8, -33, 9]
+    - [8x8, -18, 24]
+  - symbol: gBosGaNearHandFrame1
+    pieces:
+    - [16x16, -1, -24]
+    - [32x32, -17, -9]
+    - [16x8, -17, 22]
+    - [8x8, -2, 22]
+  - symbol: gBosGaNearHandFrame2
+    pieces:
+    - [16x16, -14, -26]
+    - [32x32, -14, -11]
+    - [32x8, -14, 20]
+  - symbol: gBosGaNearHandFrame3
+    pieces:
+    - [16x16, -26, -17]
+    - [32x32, -11, -9]
+    - [8x8, -11, -16]
+    - [8x16, 20, -1]
+  - symbol: gBosGaNearHandFrame4
+    pieces:
+    - [16x32, -12, -20]
+    - [8x32, 3, -20]
+    - [16x8, -5, 11, {layer: 1}]
+  - symbol: gBosGaNearHandFrame5
+    pieces:
+    - [8x16, 10, -17]
+    - [32x32, -21, -17]
+    - [8x8, 3, 14]
+  - symbol: gBosGaNearHandFrame6
+    pieces:
+    - [16x16, 7, -23]
+    - [32x32, -25, -7]
+    - [8x16, 6, -8]
+    - [16x8, -8, -14, {layer: 1}]
+  animations:
+  - symbol: gBosGaNearHandAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBosGaNearHandAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]]
+  us:
+    address: 0x09996A9C
+    size: 5094
+  jp:
+    address: 0x0994B5B0
+    size: 5094
+  eu:
+    address: 0x0999CD58
+    size: 5094
+- name: gBosGaFarHandTiles
+  format: sprite_sheet
+  align: 4
+  cell: [54, 57]
+  anchor: [27, 28]
+  columns: 7
+  frames:
+  - symbol: gBosGaFarHandFrame0
+    pieces:
+    - [16x16, 7, -23]
+    - [32x32, -24, -7]
+    - [8x16, 7, -8]
+    - [16x8, -8, -14]
+  - symbol: gBosGaFarHandFrame1
+    pieces:
+    - [16x16, 2, -28]
+    - [32x32, -14, -13]
+    - [32x8, -14, 18]
+  - symbol: gBosGaFarHandFrame2
+    pieces:
+    - [16x16, -15, -25]
+    - [32x32, -15, -10]
+    - [16x8, -7, 21]
+    - [8x8, 9, 21]
+  - symbol: gBosGaFarHandFrame3
+    pieces:
+    - [16x16, -23, -23]
+    - [32x32, -7, -8]
+    - [16x8, -8, -15]
+    - [8x16, -14, -8]
+  - symbol: gBosGaFarHandFrame4
+    pieces:
+    - [8x16, -18, -16]
+    - [32x32, -11, -16]
+    - [8x8, -18, 0]
+    - [8x8, -11, 15]
+  - symbol: gBosGaFarHandFrame5
+    pieces:
+    - [16x32, -11, -18]
+    - [8x32, 4, -18]
+    - [8x8, -11, 13]
+  - symbol: gBosGaFarHandFrame6
+    pieces:
+    - [16x16, 11, -19]
+    - [32x32, -20, -11]
+    - [8x8, 4, -18]
+    - [8x8, -27, 2]
+  animations:
+  - symbol: gBosGaFarHandAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gBosGaFarHandAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]]
+  us:
+    address: 0x09997E84
+    size: 5024
+  jp:
+    address: 0x0994C998
+    size: 5024
+  eu:
+    address: 0x0999E140
+    size: 5024
+- name: gBosGaNearFootTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 54]
+  anchor: [14, 28]
+  columns: 1
+  frames:
+  - symbol: gBosGaNearFootFrame0
+    pieces:
+    - [32x32, -14, -28]
+    - [32x16, -14, 3]
+    - [32x8, -14, 18]
+  animations:
+  - symbol: gBosGaNearFootAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x09999224
+    size: 928
+  jp:
+    address: 0x0994DD38
+    size: 928
+  eu:
+    address: 0x0999F4E0
+    size: 928
+- name: gBosGaFarFootTiles
+  format: sprite_sheet
+  align: 4
+  cell: [47, 45]
+  anchor: [29, 30]
+  columns: 1
+  frames:
+  - symbol: gBosGaFarFootFrame0
+    pieces:
+    - [32x16, -29, -8]
+    - [16x16, 2, -8]
+    - [32x8, -29, 7]
+    - [16x8, 2, 7]
+    - [16x16, -13, -23]
+    - [8x16, 2, -23, {layer: 1}]
+    - [8x8, -5, -30]
+  animations:
+  - symbol: gBosGaFarFootAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x099995C4
+    size: 856
+  jp:
+    address: 0x0994E0D8
+    size: 856
+  eu:
+    address: 0x0999F880
+    size: 856
+- name: gBosGaCollarTiles
+  format: sprite_sheet
+  align: 4
+  cell: [28, 32]
+  anchor: [10, 37]
+  columns: 4
+  frames:
+  - symbol: gBosGaCollarFrame0
+    pieces:
+    - [16x16, -1, -30]
+    - [8x8, 7, -37]
+    - [8x8, -8, -22, {layer: 1}]
+    - [16x8, -9, -15, {layer: 2}]
+  - symbol: gBosGaCollarFrame1
+    pieces:
+    - [16x16, -10, -29]
+    - [16x8, -10, -14]
+    - [8x16, 5, -36]
+    - [8x8, 5, -21]
+  - symbol: gBosGaCollarFrame2
+    pieces:
+    - [16x16, -8, -28]
+    - [16x8, -8, -13]
+    - [8x16, 7, -36]
+    - [8x8, 7, -21]
+  - symbol: gBosGaCollarFrame3
+    pieces:
+    - [16x16, -5, -29]
+    - [16x8, -5, -14]
+    - [8x16, 10, -37]
+    - [8x8, 10, -22]
+  animations:
+  - symbol: gBosGaCollarAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 12], [1, 12], [2, 12], [3, 12]]
+  - symbol: gBosGaCollarAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x0999991C
+    size: 1264
+  jp:
+    address: 0x0994E430
+    size: 1264
+  eu:
+    address: 0x0999FBD8
+    size: 1264
+- name: gBosGaBgTopLeftMap
+  format: tilemap
+  us:
+    address: 0x09A1E0DC
+    size: 2048
+  jp:
+    address: 0x099D2B64
+    size: 2048
+  eu:
+    address: 0x09A6FCA0
+    size: 2048
+- name: gBosGaBgBottomLeftMap
+  format: tilemap
+  us:
+    address: 0x09A1E8DC
+    size: 2048
+  jp:
+    address: 0x099D3364
+    size: 2048
+  eu:
+    address: 0x09A704A0
+    size: 2048
+- name: gBosGaBgTopRightMap
+  format: tilemap
+  us:
+    address: 0x09A1F0DC
+    size: 2048
+  jp:
+    address: 0x099D3B64
+    size: 2048
+  eu:
+    address: 0x09A70CA0
+    size: 2048
+- name: gBosGaBgBottomRightMap
+  format: tilemap
+  us:
+    address: 0x09A1F8DC
+    size: 4096
+  jp:
+    address: 0x099D4364
+    size: 4096
+  eu:
+    address: 0x09A714A0
+    size: 4096
+- name: gBosGaBgPalette
+  format: palette
+  us:
+    address: 0x09A3C75C
+    size: 320
+  jp:
+    address: 0x099F11E4
+    size: 320
+  eu:
+    address: 0x09A9A220
+    size: 320

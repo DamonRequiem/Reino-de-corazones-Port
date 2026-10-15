@@ -1,0 +1,691 @@
+pool: common_text
+objects:
+  us:
+    name: common_text.s
+    start: 0x08159DF0
+    end: 0x0815C388
+    encoding: game
+    align: 2
+    ctype: u16
+  jp:
+    name: common_text.s
+    start: 0x0814E57C
+    end: 0x0814FC14
+    encoding: game
+    align: 4
+    ctype: u8
+entries:
+  us:
+  - {name: gMapSaveConfirmText, declare: false}
+  - gYesChoiceText
+  - gNoChoiceText
+  - {name: gNewGameSlotMenuText, declare: false}
+  - {name: gSioBtlConnectText, declare: false}
+  - {name: gSioChgConnectText, declare: false}
+  - {name: common_text_006, declare: false}
+  - {name: gLeaveWorldText, declare: false}
+  - gMsChargeConfirmText
+  - gDeckErrorCpText
+  - gDeleteCardConfirmText
+  - {name: gJiminyChooseEntryText, declare: false}
+  - gJiminyMenuStoryName
+  - gJiminyMenuCardIndexName
+  - gJiminyMenuCharactersName
+  - {name: gMapQuickSaveConfirmText, declare: false}
+  - {name: gLevelUpHpBoostText, declare: false}
+  - {name: gLevelUpRaiseSoraHpText, declare: false}
+  - gLvupMsgHpText
+  - gLvupMsgIncreasedText
+  - {name: gLevelUpCpBoostText, declare: false}
+  - {name: gLevelUpRaiseSoraCpText, declare: false}
+  - gLvupMsgCpText
+  - {name: gLevelUpRaiseRikuHpText, declare: false}
+  - {name: gLevelUpAttackBoostText, declare: false}
+  - {name: gLevelUpRaiseRikuApText, declare: false}
+  - gLvupMsgApText
+  - {name: gLevelUpDarknessBoostText, declare: false}
+  - {name: gLevelUpRaiseRikuDpText, declare: false}
+  - gLvupMsgDpText
+  - {name: common_text_030, declare: false}
+  - {name: common_text_031, declare: false}
+  - {name: gSioBtlWaitingText, declare: false}
+  - {name: gSioBtlReadyText, declare: false}
+  - {name: gSioSavingText, declare: false}
+  - {name: gSioSaveCompleteText, declare: false}
+  - {name: gSioErrorText, declare: false}
+  - {name: gSioChgWaitingText, declare: false}
+  - {name: gSioChgSwapConfirmText, declare: false}
+  - {name: gSioChgSwappingText, declare: false}
+  - {name: gSioChgSwapCompleteText, declare: false}
+  - {name: gSioChgFailedPointsText, declare: false}
+  - gSioChgFailedFullText
+  - gWorldNameTraverseTown
+  - gWorldNameWonderland
+  - gWorldNameOlympusColiseum
+  - gWorldNameAgrabah
+  - gWorldNameHalloweenTown
+  - gWorldNameMonstro
+  - gWorldNameAtlantica
+  - gWorldNameNeverLand
+  - gWorldNameHollowBastion
+  - gWorldName100AcreWood
+  - gWorldNameTwilightTown
+  - gWorldNameDestinyIslands
+  - gWorldNameCastleOblivion
+  - gCardNameKingdomKey
+  - gCardNameThreeWishes
+  - gCardNameCrabclaw
+  - gCardNamePumpkinhead
+  - gCardNameFairyHarp
+  - gCardNameWishingStar
+  - gCardNameSpellbinder
+  - gCardNameMetalChocobo
+  - gCardNameOlympia
+  - gCardNameLionheart
+  - gCardNameLadyLuck
+  - gCardNameDivineRose
+  - gCardNameOathkeeper
+  - gCardNameOblivion
+  - gCardNameUltimaWeapon
+  - gCardNameDiamondDust
+  - gCardNameOneWingedAngel
+  - gCardNameFire
+  - gCardNameBlizzard
+  - gCardNameThunder
+  - gCardNameCure
+  - gCardNameGravity
+  - gCardNameStop
+  - gCardNameAero
+  - gCardNameSimba
+  - gCardNameGenie
+  - gCardNameBambi
+  - gCardNameDumbo
+  - gCardNameTinkerBell
+  - gCardNameMushu
+  - gCardNameCloud
+  - gCardNamePotion
+  - gCardNameHiPotion
+  - gCardNameMegaPotion
+  - gCardNameEther
+  - gCardNameMegaEther
+  - gCardNameElixir
+  - gCardNameMegalixir
+  - gCardNameDonaldDuck
+  - gCardNameGoofy
+  - gCardNameAladdin
+  - gCardNameAriel
+  - gCardNameJack
+  - gCardNamePeterPan
+  - gCardNameBeast
+  - gEnemyNameShadow
+  - gEnemyNameSoldier
+  - gEnemyNamePowerwild
+  - gEnemyNameBouncywild
+  - gEnemyNameLargeBody
+  - gEnemyNameFatBandit
+  - gEnemyNameSeaNeon
+  - gEnemyNameBandit
+  - gEnemyNamePirate
+  - gEnemyNameRedNocturne
+  - gEnemyNameBlueRhapsody
+  - gEnemyNameYellowOpera
+  - gEnemyNameGreenRequiem
+  - gEnemyNameWizard
+  - gEnemyNameAirSoldier
+  - gEnemyNameBarrelSpider
+  - gEnemyNameWightKnight
+  - gEnemyNameAirPirate
+  - gEnemyNameGargoyle
+  - gEnemyNameSearchGhost
+  - gEnemyNameAquatank
+  - gEnemyNameScrewdiver
+  - gEnemyNameDarkball
+  - gEnemyNameWyvern
+  - gEnemyNameDefender
+  - gEnemyNameWhiteMushroom
+  - gEnemyNameBlackFungus
+  - gEnemyNameCreeperPlant
+  - gEnemyNameTornadoStep
+  - gEnemyNameCrescendo
+  - gEnemyNameNeoshadow
+  - gEnemyNameGuardArmor
+  - gEnemyNameHades
+  - gEnemyNameTrickmaster
+  - gEnemyNameJafar
+  - gEnemyNameUrsula
+  - gEnemyNameOogieBoogie
+  - gEnemyNameParasiteCage
+  - gEnemyNameHook
+  - gEnemyNameDragonMaleficent
+  - gEnemyNameDarkside
+  - gEnemyNameAxel
+  - gEnemyNameLarxene
+  - {name: gEnemyNameRikuReplica, declare: false}
+  - gEnemyNameVexen
+  - gEnemyNameMarluxia
+  - gCharacterNameCardOfHearts
+  - gCharacterNameCardOfSpades
+  - gEnemyNameLexaeus
+  - gEnemyNameAnsem
+  - gRoomNameUnknownPlace
+  - gRoomNameTeemingDarkness
+  - gRoomNameTranquilDarkness
+  - gRoomNameGuardedTrove
+  - gRoomNameLoomingDarkness
+  - gRoomNameSleepingDarkness
+  - gRoomNameMomentsReprieve
+  - gRoomNameFeebleDarkness
+  - gRoomNameAlmightyDarkness
+  - gRoomNameCalmBounty
+  - gRoomNameFalseBounty
+  - gRoomNameStrongInitiative
+  - gRoomNameLastingDaze
+  - gRoomNameStagnantSpace
+  - gRoomNameMeetingGround
+  - gRoomNamePremiumRoom
+  - gRoomNameWhiteRoom
+  - gRoomNameBlackRoom
+  - gRoomNameMoogleRoom
+  - gRoomNameSorcerousWaking
+  - gRoomNameAlchemicWaking
+  - gRoomNameMartialWaking
+  - gRoomNameMinglingWorlds
+  - gRoomNameKeyOfBeginnings
+  - gRoomNameKeyOfGuidance
+  - gRoomNameKeyToTruth
+  - gRoomNameKeyToRewards
+  - gCharacterNameSora
+  - gEnemyNameRiku
+  - gCharacterNameKairi
+  - gCharacterNameNamine
+  - gCharacterNameYuffie
+  - gCharacterNameAerith
+  - gCharacterNameWakka
+  - {name: gCharacterNameSquall, declare: false}
+  - gCharacterNameLeon
+  - {name: gCharacterNameSephiroth, declare: false}
+  - gCharacterNameSelphie
+  - gCharacterNameTidus
+  - gCharacterNameCid
+  - gCharacterNameMoogles
+  - {name: gLevelUpLearnSleightText, declare: false}
+  - {name: gLevelUpSleightsText, declare: false}
+  - gCharacterNameJasmine
+  - gCharacterNameIago
+  - gCharacterNameJafarGenie
+  - gCharacterNameSally
+  - gCharacterNameDrFinkelstein
+  - gCharacterNamePinocchio
+  - gCharacterNameGeppetto
+  - gCharacterNameHercules
+  - gCharacterNamePhiloctetes
+  - gCharacterNameAlice
+  - gCharacterNameQueenOfHearts
+  - gCharacterNameWhiteRabbit
+  - gCharacterNameCheshireCat
+  - gCharacterNameSebastian
+  - gCharacterNameFlounder
+  - gCharacterNameWendy
+  - gCharacterNameHook
+  - gCharacterNameBelle
+  - gCharacterNameMaleficent
+  - gCharacterNameWinnieThePooh
+  - gCharacterNamePiglet
+  - gCharacterNameOwl
+  - gCharacterNameRoo
+  - gCharacterNameEeyore
+  - gCharacterNameTigger
+  - gCharacterNameRabbit
+  - {name: gSioBtlSendingDeckText, declare: false}
+  - {name: gSioChgSaveCompleteText, declare: false}
+  - gJiminyMenuHeartlessName
+  - gCharacterNameJiminyCricket
+  - gJiminyMenuAttackCardsName
+  - gJiminyMenuMagicCardsName
+  - gJiminyMenuItemCardsName
+  - gJiminyMenuFriendCardsName
+  - gJiminyMenuEnemyCardsName
+  - gJiminyMenuCharacters1Name
+  - gJiminyMenuCharacters2Name
+  - gJiminyStoryTale1Name
+  - gJiminyStoryTale2Name
+  - gJiminyStoryTale3Name
+  - gJiminyStoryTale4Name
+  - gWorldNameCastleOblivionHall
+  - {name: gMapSaveCompleteText, declare: false}
+  - gRoomNameHiddenChamber
+  - gJiminyMenuMapCardsName
+  - gFloorName1
+  - gFloorName2
+  - gFloorName3
+  - gFloorName4
+  - gFloorName5
+  - gFloorName6
+  - gFloorName7
+  - gFloorName8
+  - gFloorName9
+  - gFloorName10
+  - gFloorName11
+  - gFloorName12
+  - gFloorName13
+  - gBasementFloorName12
+  - gBasementFloorName11
+  - gBasementFloorName10
+  - gBasementFloorName9
+  - gBasementFloorName8
+  - gBasementFloorName7
+  - gBasementFloorName6
+  - gBasementFloorName5
+  - gBasementFloorName4
+  - gBasementFloorName3
+  - gBasementFloorName2
+  - gBasementFloorName1
+  - {name: gEnemyCardEffectNameIncrementor, declare: false}
+  - {name: gEnemyCardEffectNameComboPlus, declare: false}
+  - {name: gEnemyCardEffectNameRetrograde, declare: false}
+  - {name: gEnemyCardEffectNameDraw, declare: false}
+  - {name: gEnemyCardEffectNameBackAttack, declare: false}
+  - {name: gEnemyCardEffectNameGuard, declare: false}
+  - {name: gEnemyCardEffectNameRandomizer, declare: false}
+  - {name: gEnemyCardEffectNameComboFinish, declare: false}
+  - {name: gEnemyCardEffectNameAllZeros, declare: false}
+  - {name: gEnemyCardEffectNameFireBoost, declare: false}
+  - {name: gEnemyCardEffectNameBlizzardBoost, declare: false}
+  - {name: gEnemyCardEffectNameThunderBoost, declare: false}
+  - {name: gEnemyCardEffectNameCureBoost, declare: false}
+  - {name: gEnemyCardEffectNameSummonBoost, declare: false}
+  - {name: gEnemyCardEffectNameBerserk, declare: false}
+  - {name: gEnemyCardEffectNameBio, declare: false}
+  - {name: gEnemyCardEffectNameVanish, declare: false}
+  - {name: gEnemyCardEffectNameItemBracer, declare: false}
+  - {name: gEnemyCardEffectNameFloat, declare: false}
+  - {name: gEnemyCardEffectNameDrain, declare: false}
+  - {name: gEnemyCardEffectNameLeafBracer, declare: false}
+  - {name: gEnemyCardEffectNameDecrementor, declare: false}
+  - {name: gEnemyCardEffectNameCardblind, declare: false}
+  - {name: gEnemyCardEffectNameReloadLock, declare: false}
+  - {name: gEnemyCardEffectNameProtect, declare: false}
+  - {name: gEnemyCardEffectNameHyperHealing, declare: false}
+  - {name: gEnemyCardEffectNameRandomFlush, declare: false}
+  - {name: gEnemyCardEffectNameReloadKinesis, declare: false}
+  - {name: gEnemyCardEffectNameReloadHaste, declare: false}
+  - {name: gEnemyCardEffectNameAutoReload, declare: false}
+  - {name: gEnemyCardEffectNameQuickReload, declare: false}
+  - {name: gEnemyCardEffectNameWideAttack, declare: false}
+  - {name: gEnemyCardEffectNameMagicBoost, declare: false}
+  - {name: gEnemyCardEffectNameAttackBracer, declare: false}
+  - {name: gEnemyCardEffectNameMimic, declare: false}
+  - {name: gEnemyCardEffectNameShell, declare: false}
+  - {name: gEnemyCardEffectNameRegen, declare: false}
+  - {name: gEnemyCardEffectNameDispel, declare: false}
+  - {name: gEnemyCardEffectNameSecondChance, declare: false}
+  - {name: gEnemyCardEffectNameOverdrive, declare: false}
+  - {name: gEnemyCardEffectNameAttackHaste, declare: false}
+  - {name: gEnemyCardEffectNameQuickRecovery, declare: false}
+  - {name: gEnemyCardEffectNameSleightblind, declare: false}
+  - {name: gEnemyCardEffectNameSleightLock, declare: false}
+  - {name: gEnemyCardEffectNameAutoLife, declare: false}
+  - {name: gEnemyCardEffectNameDoubleSleight, declare: false}
+  - {name: gEnemyCardEffectNameValueBreak, declare: false}
+  - {name: gEnemyCardEffectNameDash, declare: false}
+  - {name: gEnemyCardEffectNameWarpBreak, declare: false}
+  - gCharacterNameZexion
+  - gJiminyRikuStoryTale1Name
+  - gJiminyRikuStoryTale2Name
+  - gJiminyRikuStoryTale3Name
+  - gJiminyRikuStoryTale4Name
+  - gJiminyRikuStoryTale5Name
+  - gJiminyRikuStoryTale6Name
+  - gCharacterNameRikuReplica
+  - gCharacterNameDiZ
+  - gJiminyMenuPremiumCardsName
+  - gJiminyPremiumCardsName
+  - {name: gMapInspectNoticeText, declare: false}
+  - gEnemyNameCardSoldier
+  - {name: common_text_326, declare: false}
+  - {name: common_text_327, declare: false}
+  - {name: common_text_328, declare: false}
+  - {name: gDeckClearConfirmText, declare: false}
+  - gMsChargeNoticeText
+  - gDeckEquipText
+  - gDeckErrorDeckFullText
+  - gDeckErrorLastAttackCardText
+  - gDeckErrorNoAttackCardText
+  - gCardNameKing
+  - gCardNameSoulEater
+  jp:
+  - gWorldNameTraverseTown
+  - gWorldNameAgrabah
+  - gWorldNameWonderland
+  - gWorldNameMonstro
+  - gWorldNameHalloweenTown
+  - gWorldNameOlympusColiseum
+  - gWorldNameAtlantica
+  - gWorldNameNeverLand
+  - gWorldName100AcreWood
+  - gWorldNameHollowBastion
+  - gWorldNameDestinyIslands
+  - gWorldNameTwilightTown
+  - gWorldNameCastleOblivion
+  - gCardNameKingdomKey
+  - gCardNameThreeWishes
+  - gCardNameCrabclaw
+  - gCardNamePumpkinhead
+  - gCardNameFairyHarp
+  - gCardNameWishingStar
+  - gCardNameSpellbinder
+  - gCardNameMetalChocobo
+  - gCardNameOlympia
+  - gCardNameLionheart
+  - gCardNameLadyLuck
+  - gCardNameDivineRose
+  - gCardNameOathkeeper
+  - gCardNameOblivion
+  - gCardNameUltimaWeapon
+  - gCardNameDiamondDust
+  - gCardNameOneWingedAngel
+  - gCardNameFire
+  - gCardNameBlizzard
+  - gCardNameThunder
+  - gCardNameCure
+  - gCardNameGravity
+  - gCardNameStop
+  - gCardNameAero
+  - gCardNameSimba
+  - gCardNameGenie
+  - {name: common_text_039, declare: false}
+  - gCardNameBambi
+  - gCardNameDumbo
+  - gCardNameTinkerBell
+  - gCardNameMushu
+  - gCardNameCloud
+  - gCardNamePotion
+  - gCardNameHiPotion
+  - gCardNameMegaPotion
+  - gCardNameEther
+  - gCardNameMegaEther
+  - gCardNameElixir
+  - gCardNameMegalixir
+  - gCardNameDonaldDuck
+  - gCardNameGoofy
+  - gCharacterNameJiminyCricket
+  - gCardNameAladdin
+  - gCardNameAriel
+  - gCardNameJack
+  - gCardNamePeterPan
+  - gCardNameBeast
+  - gCharacterNameSora
+  - gEnemyNameRiku
+  - gCharacterNameKairi
+  - gCharacterNameNamine
+  - gCharacterNameYuffie
+  - gCharacterNameAerith
+  - gCharacterNameWakka
+  - {name: gCharacterNameSquall, declare: false}
+  - gCharacterNameLeon
+  - {name: gCharacterNameSephiroth, declare: false}
+  - gCharacterNameSelphie
+  - gCharacterNameTidus
+  - gCharacterNameCid
+  - gCharacterNameMoogles
+  - {name: gEnemyNameRikuReplica, declare: false}
+  - gEnemyNameLarxene
+  - gEnemyNameAxel
+  - gEnemyNameVexen
+  - gEnemyNameMarluxia
+  - gJiminyMenuHeartlessName
+  - gEnemyNameShadow
+  - gEnemyNameSoldier
+  - gEnemyNamePowerwild
+  - gEnemyNameBouncywild
+  - gEnemyNameLargeBody
+  - gEnemyNameFatBandit
+  - gEnemyNameSeaNeon
+  - gEnemyNameBandit
+  - gEnemyNamePirate
+  - gEnemyNameRedNocturne
+  - gEnemyNameBlueRhapsody
+  - gEnemyNameYellowOpera
+  - gEnemyNameGreenRequiem
+  - gEnemyNameWizard
+  - gEnemyNameAirSoldier
+  - gEnemyNameBarrelSpider
+  - gEnemyNameWightKnight
+  - gEnemyNameAirPirate
+  - gEnemyNameGargoyle
+  - gEnemyNameSearchGhost
+  - gEnemyNameAquatank
+  - gEnemyNameScrewdiver
+  - gEnemyNameDarkball
+  - gEnemyNameWyvern
+  - gEnemyNameDefender
+  - gEnemyNameWhiteMushroom
+  - gEnemyNameBlackFungus
+  - gEnemyNameCreeperPlant
+  - gEnemyNameTornadoStep
+  - gEnemyNameCrescendo
+  - gEnemyNameNeoshadow
+  - gEnemyNameGuardArmor
+  - gEnemyNameHades
+  - gEnemyNameTrickmaster
+  - gEnemyNameJafar
+  - gEnemyNameUrsula
+  - gEnemyNameOogieBoogie
+  - gEnemyNameParasiteCage
+  - gEnemyNameHook
+  - gEnemyNameDragonMaleficent
+  - gEnemyNameDarkside
+  - {name: gLevelUpHpBoostText, declare: false}
+  - {name: gLevelUpCpBoostText, declare: false}
+  - {name: gLevelUpSleightsText, declare: false}
+  - {name: gLevelUpRaiseSoraHpText, declare: false}
+  - {name: gLevelUpRaiseSoraCpText, declare: false}
+  - gCharacterNameJasmine
+  - gCharacterNameIago
+  - gCharacterNameJafarGenie
+  - gCharacterNameSally
+  - gCharacterNameDrFinkelstein
+  - gCharacterNamePinocchio
+  - gCharacterNameGeppetto
+  - gCharacterNameHercules
+  - gCharacterNamePhiloctetes
+  - gCharacterNameAlice
+  - gCharacterNameQueenOfHearts
+  - gCharacterNameWhiteRabbit
+  - gCharacterNameCardOfSpades
+  - gCharacterNameCardOfHearts
+  - gCharacterNameCheshireCat
+  - gCharacterNameSebastian
+  - gCharacterNameFlounder
+  - {name: gCharacterNameUrsula, declare: false}
+  - gCharacterNameWendy
+  - gCharacterNameHook
+  - gCharacterNameBelle
+  - gCharacterNameMaleficent
+  - gCharacterNameWinnieThePooh
+  - gCharacterNamePiglet
+  - gCharacterNameOwl
+  - gCharacterNameRoo
+  - gCharacterNameEeyore
+  - gCharacterNameTigger
+  - gCharacterNameRabbit
+  - gYesChoiceText
+  - gNoChoiceText
+  - gDeleteCardConfirmText
+  - gMsChargeConfirmText
+  - gEnemyNameLexaeus
+  - gEnemyNameAnsem
+  - gCardNameKing
+  - gCardNameSoulEater
+  - {name: gLevelUpAttackBoostText, declare: false}
+  - {name: gLevelUpDarknessBoostText, declare: false}
+  - {name: gLevelUpRaiseRikuHpText, declare: false}
+  - {name: gLevelUpRaiseRikuApText, declare: false}
+  - {name: gLevelUpRaiseRikuDpText, declare: false}
+  - gLvupMsgIncreasedText
+  - gLvupMsgHpText
+  - gLvupMsgDpText
+  - gLvupMsgCpText
+  - gLvupMsgApText
+  - {name: gLevelUpLearnSleightText, declare: false}
+  - {name: gSioBtlConnectText, declare: false}
+  - {name: gSioBtlWaitingText, declare: false}
+  - {name: gSioBtlReadyText, declare: false}
+  - {name: gSioBtlSendingDeckText, declare: false}
+  - {name: gSioSavingText, declare: false}
+  - {name: gSioSaveCompleteText, declare: false}
+  - {name: gSioChgConnectText, declare: false}
+  - {name: gSioChgWaitingText, declare: false}
+  - {name: gSioChgSwapConfirmText, declare: false}
+  - {name: gSioChgSwappingText, declare: false}
+  - {name: gSioChgSwapCompleteText, declare: false}
+  - {name: gSioChgSaveCompleteText, declare: false}
+  - {name: gSioChgFailedPointsText, declare: false}
+  - gSioChgFailedFullText
+  - {name: gSioErrorText, declare: false}
+  - gJiminyMenuAttackCardsName
+  - gJiminyMenuMagicCardsName
+  - gJiminyMenuItemCardsName
+  - gJiminyMenuFriendCardsName
+  - gJiminyMenuEnemyCardsName
+  - gJiminyMenuMapCardsName
+  - {name: gJiminyChooseEntryText, declare: false}
+  - gJiminyMenuCharacters1Name
+  - gJiminyMenuCharacters2Name
+  - gJiminyStoryTale1Name
+  - gJiminyStoryTale2Name
+  - gJiminyStoryTale3Name
+  - gJiminyStoryTale4Name
+  - gJiminyMenuStoryName
+  - gJiminyMenuCardIndexName
+  - gJiminyMenuCharactersName
+  - gWorldNameCastleOblivionHall
+  - {name: gNewGameSlotMenuText, declare: false}
+  - {name: gMapQuickSaveConfirmText, declare: false}
+  - {name: gMapSaveConfirmText, declare: false}
+  - {name: gMapSaveCompleteText, declare: false}
+  - gRoomNameTeemingDarkness
+  - gRoomNameTranquilDarkness
+  - gRoomNameGuardedTrove
+  - gRoomNameLoomingDarkness
+  - gRoomNameSleepingDarkness
+  - gRoomNameMomentsReprieve
+  - gRoomNameFeebleDarkness
+  - gRoomNameAlmightyDarkness
+  - gRoomNameCalmBounty
+  - gRoomNameFalseBounty
+  - gRoomNameMoogleRoom
+  - gRoomNameSorcerousWaking
+  - gRoomNameMartialWaking
+  - gRoomNameAlchemicWaking
+  - gRoomNameMeetingGround
+  - gRoomNameMinglingWorlds
+  - gRoomNameStrongInitiative
+  - gRoomNameLastingDaze
+  - gRoomNameStagnantSpace
+  - gRoomNamePremiumRoom
+  - gRoomNameWhiteRoom
+  - gRoomNameBlackRoom
+  - gRoomNameKeyOfBeginnings
+  - gRoomNameKeyOfGuidance
+  - gRoomNameKeyToTruth
+  - gRoomNameKeyToRewards
+  - gRoomNameUnknownPlace
+  - gRoomNameHiddenChamber
+  - gFloorName1
+  - gFloorName2
+  - gFloorName3
+  - gFloorName4
+  - gFloorName5
+  - gFloorName6
+  - gFloorName7
+  - gFloorName8
+  - gFloorName9
+  - gFloorName10
+  - gFloorName11
+  - gFloorName12
+  - gFloorName13
+  - gBasementFloorName12
+  - gBasementFloorName11
+  - gBasementFloorName10
+  - gBasementFloorName9
+  - gBasementFloorName8
+  - gBasementFloorName7
+  - gBasementFloorName6
+  - gBasementFloorName5
+  - gBasementFloorName4
+  - gBasementFloorName3
+  - gBasementFloorName2
+  - gBasementFloorName1
+  - {name: gEnemyCardEffectNameIncrementor, declare: false}
+  - {name: gEnemyCardEffectNameComboPlus, declare: false}
+  - {name: gEnemyCardEffectNameRetrograde, declare: false}
+  - {name: gEnemyCardEffectNameDraw, declare: false}
+  - {name: gEnemyCardEffectNameBackAttack, declare: false}
+  - {name: gEnemyCardEffectNameGuard, declare: false}
+  - {name: gEnemyCardEffectNameRandomizer, declare: false}
+  - {name: gEnemyCardEffectNameComboFinish, declare: false}
+  - {name: gEnemyCardEffectNameAllZeros, declare: false}
+  - {name: gEnemyCardEffectNameFireBoost, declare: false}
+  - {name: gEnemyCardEffectNameBlizzardBoost, declare: false}
+  - {name: gEnemyCardEffectNameThunderBoost, declare: false}
+  - {name: gEnemyCardEffectNameCureBoost, declare: false}
+  - {name: gEnemyCardEffectNameSummonBoost, declare: false}
+  - {name: gEnemyCardEffectNameBerserk, declare: false}
+  - {name: gEnemyCardEffectNameBio, declare: false}
+  - {name: gEnemyCardEffectNameVanish, declare: false}
+  - {name: gEnemyCardEffectNameItemBracer, declare: false}
+  - {name: gEnemyCardEffectNameFloat, declare: false}
+  - {name: gEnemyCardEffectNameDrain, declare: false}
+  - {name: gEnemyCardEffectNameLeafBracer, declare: false}
+  - {name: gEnemyCardEffectNameDecrementor, declare: false}
+  - {name: gEnemyCardEffectNameCardblind, declare: false}
+  - {name: gEnemyCardEffectNameReloadLock, declare: false}
+  - {name: gEnemyCardEffectNameProtect, declare: false}
+  - {name: gEnemyCardEffectNameHyperHealing, declare: false}
+  - {name: gEnemyCardEffectNameRandomFlush, declare: false}
+  - {name: gEnemyCardEffectNameReloadKinesis, declare: false}
+  - {name: gEnemyCardEffectNameReloadHaste, declare: false}
+  - {name: gEnemyCardEffectNameAutoReload, declare: false}
+  - {name: gEnemyCardEffectNameQuickReload, declare: false}
+  - {name: gEnemyCardEffectNameWideAttack, declare: false}
+  - {name: gEnemyCardEffectNameMagicBoost, declare: false}
+  - {name: gEnemyCardEffectNameAttackBracer, declare: false}
+  - {name: gEnemyCardEffectNameMimic, declare: false}
+  - {name: gEnemyCardEffectNameShell, declare: false}
+  - {name: gEnemyCardEffectNameRegen, declare: false}
+  - {name: gEnemyCardEffectNameDispel, declare: false}
+  - {name: gEnemyCardEffectNameSecondChance, declare: false}
+  - {name: gEnemyCardEffectNameOverdrive, declare: false}
+  - {name: gEnemyCardEffectNameAttackHaste, declare: false}
+  - {name: gEnemyCardEffectNameQuickRecovery, declare: false}
+  - {name: gEnemyCardEffectNameSleightblind, declare: false}
+  - {name: gEnemyCardEffectNameSleightLock, declare: false}
+  - {name: gEnemyCardEffectNameAutoLife, declare: false}
+  - {name: gEnemyCardEffectNameDoubleSleight, declare: false}
+  - {name: gEnemyCardEffectNameValueBreak, declare: false}
+  - {name: gEnemyCardEffectNameDash, declare: false}
+  - {name: gEnemyCardEffectNameWarpBreak, declare: false}
+  - gCharacterNameZexion
+  - gJiminyRikuStoryTale1Name
+  - gJiminyRikuStoryTale2Name
+  - gJiminyRikuStoryTale3Name
+  - gJiminyRikuStoryTale4Name
+  - gJiminyRikuStoryTale5Name
+  - gJiminyRikuStoryTale6Name
+  - gCharacterNameRikuReplica
+  - gCharacterNameDiZ
+  - gJiminyMenuPremiumCardsName
+  - gJiminyPremiumCardsName
+  - {name: gMapInspectNoticeText, declare: false}
+  - gMsChargeNoticeText
+  - gEnemyNameCardSoldier
+  - gDeckEquipText
+  - {name: gDeckErrorTitleText, declare: false}
+  - gDeckErrorCpText
+  - gDeckErrorNoAttackCardText
+  - gDeckErrorAnyMoreText
+  - gDeckErrorLastAttackCardText
+  - {name: gDeckErrorDeckFullText, declare: false}
+  - {name: gYesNoChoiceText, declare: false}
+  - {name: gDeckClearConfirmText, declare: false}

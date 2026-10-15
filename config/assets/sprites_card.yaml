@@ -1,0 +1,6296 @@
+group: sprites_card
+types:
+  SpriteTable:
+    kind: table
+    type: void*
+  AnimTable:
+    kind: table
+    type: AnimHeader*
+    header: anim.h
+  Sprite:
+    kind: sprite
+  AnimHeader:
+    kind: anim
+    header: anim.h
+objects:
+  us:
+  - name: sprites_card_frames_1.s
+    start: 0x0908C374
+    end: 0x0908C630
+    data_start: 0x09EEA180
+    data_end: 0x09EEA19C
+  - name: sprites_card_frames_2.s
+    start: 0x09098808
+    end: 0x090A1F88
+    data_start: 0x09EEA2F4
+    data_end: 0x09EEAFD4
+  - name: sprites_card_frames_3.s
+    start: 0x093F4478
+    end: 0x093FD438
+    data_start: 0x09EF1150
+    data_end: 0x09EF12F8
+  jp:
+  - name: sprites_card_frames_1.s
+    start: 0x09047BE4
+    end: 0x09047EA0
+    data_start: 0x09EC1574
+    data_end: 0x09EC1590
+  - name: sprites_card_frames_2.s
+    start: 0x09054078
+    end: 0x0905D7F8
+    data_start: 0x09EC16E8
+    data_end: 0x09EC23C8
+  - name: sprites_card_frames_3.s
+    start: 0x093AF9A0
+    end: 0x093B8B54
+    data_start: 0x09EC853C
+    data_end: 0x09EC86E4
+  eu:
+  - name: sprites_card_frames_1.s
+    start: 0x09162648
+    end: 0x09163764
+    data_start: 0x09F75F98
+    data_end: 0x09F75FD4
+  - name: sprites_card_frames_2.s
+    start: 0x0917E264
+    end: 0x091879E4
+    data_start: 0x09F76364
+    data_end: 0x09F77044
+  - name: sprites_card_frames_3.s
+    start: 0x094C3B00
+    end: 0x094D0304
+    data_start: 0x09F7C334
+    data_end: 0x09F7C5EC
+entries:
+- name: gCardPremiumSmallFrames
+  record: SpriteTable
+  items: [gCardPremiumSmallFrame0, gCardPremiumSmallFrame1, gCardPremiumSmallFrame2, gCardPremiumSmallFrame3, gCardPremiumSmallFrame4, gCardPremiumSmallFrame5]
+  us:
+    address: 0x09EEA180
+  jp:
+    address: 0x09EC1574
+  eu:
+    address: 0x09F75F98
+- name: gCardPremiumSmallAnims
+  record: AnimTable
+  items: [gCardPremiumSmallAnim0]
+  us:
+    address: 0x09EEA198
+  jp:
+    address: 0x09EC158C
+  eu:
+    address: 0x09F75FB0
+- name: gReloadRedFrames
+  record: SpriteTable
+  items: [gReloadRedFrame0, gReloadRedFrame1, gReloadRedFrame2, gReloadRedFrame3]
+  us:
+    address: 0x09EEA2F4
+  jp:
+    address: 0x09EC16E8
+  eu:
+    address: 0x09F76364
+- name: gReloadRedAnims
+  record: AnimTable
+  items: [gReloadRedAnim0]
+  us:
+    address: 0x09EEA304
+  jp:
+    address: 0x09EC16F8
+  eu:
+    address: 0x09F76374
+- name: gReloadBlueFrames
+  record: SpriteTable
+  items: [gReloadBlueFrame0, gReloadBlueFrame1, gReloadBlueFrame2, gReloadBlueFrame3]
+  us:
+    address: 0x09EEA308
+  jp:
+    address: 0x09EC16FC
+  eu:
+    address: 0x09F76378
+- name: gReloadBlueAnims
+  record: AnimTable
+  items: [gReloadBlueAnim0]
+  us:
+    address: 0x09EEA318
+  jp:
+    address: 0x09EC170C
+  eu:
+    address: 0x09F76388
+- name: gReloadGreenFrames
+  record: SpriteTable
+  items: [gReloadGreenFrame0, gReloadGreenFrame1, gReloadGreenFrame2, gReloadGreenFrame3]
+  us:
+    address: 0x09EEA31C
+  jp:
+    address: 0x09EC1710
+  eu:
+    address: 0x09F7638C
+- name: gReloadGreenAnims
+  record: AnimTable
+  items: [gReloadGreenAnim0]
+  us:
+    address: 0x09EEA32C
+  jp:
+    address: 0x09EC1720
+  eu:
+    address: 0x09F7639C
+- name: gReloadBlackFrames
+  record: SpriteTable
+  items: [gReloadBlackFrame0, gReloadBlackFrame1, gReloadBlackFrame2, gReloadBlackFrame3]
+  us:
+    address: 0x09EEA330
+  jp:
+    address: 0x09EC1724
+  eu:
+    address: 0x09F763A0
+- name: gReloadBlackAnims
+  record: AnimTable
+  items: [gReloadBlackAnim0]
+  us:
+    address: 0x09EEA340
+  jp:
+    address: 0x09EC1734
+  eu:
+    address: 0x09F763B0
+- name: gReloadChildRedFrames
+  record: SpriteTable
+  items: [gReloadChildRedFrame0]
+  us:
+    address: 0x09EEA344
+  jp:
+    address: 0x09EC1738
+  eu:
+    address: 0x09F763B4
+- name: gReloadChildRedAnims
+  record: AnimTable
+  items: [gReloadChildRedAnim0]
+  us:
+    address: 0x09EEA348
+  jp:
+    address: 0x09EC173C
+  eu:
+    address: 0x09F763B8
+- name: gReloadChildBlueFrames
+  record: SpriteTable
+  items: [gReloadChildBlueFrame0]
+  us:
+    address: 0x09EEA34C
+  jp:
+    address: 0x09EC1740
+  eu:
+    address: 0x09F763BC
+- name: gReloadChildBlueAnims
+  record: AnimTable
+  items: [gReloadChildBlueAnim0]
+  us:
+    address: 0x09EEA350
+  jp:
+    address: 0x09EC1744
+  eu:
+    address: 0x09F763C0
+- name: gReloadChildWhiteFrames
+  record: SpriteTable
+  items: [gReloadChildWhiteFrame0]
+  us:
+    address: 0x09EEA354
+  jp:
+    address: 0x09EC1748
+  eu:
+    address: 0x09F763C4
+- name: gReloadChildWhiteAnims
+  record: AnimTable
+  items: [gReloadChildWhiteAnim0]
+  us:
+    address: 0x09EEA358
+  jp:
+    address: 0x09EC174C
+  eu:
+    address: 0x09F763C8
+- name: gReloadChildBlackFrames
+  record: SpriteTable
+  items: [gReloadChildBlackFrame0]
+  us:
+    address: 0x09EEA35C
+  jp:
+    address: 0x09EC1750
+  eu:
+    address: 0x09F763CC
+- name: gReloadChildBlackAnims
+  record: AnimTable
+  items: [gReloadChildBlackAnim0]
+  us:
+    address: 0x09EEA360
+  jp:
+    address: 0x09EC1754
+  eu:
+    address: 0x09F763D0
+- name: gReloadCounterRedFrames
+  record: SpriteTable
+  items: [gReloadCounterRedFrame0, gReloadCounterRedFrame1, gReloadCounterRedFrame2, gReloadCounterRedFrame3, gReloadCounterRedFrame4, gReloadCounterRedFrame5, gReloadCounterRedFrame6, gReloadCounterRedFrame7, gReloadCounterRedFrame8, gReloadCounterRedFrame9, gReloadCounterRedFrame10, gReloadCounterRedFrame11, gReloadCounterRedFrame12, gReloadCounterRedFrame13, gReloadCounterRedFrame14, gReloadCounterRedFrame15, gReloadCounterRedFrame16, gReloadCounterRedFrame17, gReloadCounterRedFrame18]
+  us:
+    address: 0x09EEA364
+  jp:
+    address: 0x09EC1758
+  eu:
+    address: 0x09F763D4
+- name: gReloadCounterRedAnims
+  record: AnimTable
+  items: [gReloadCounterRedAnim0, gReloadCounterRedAnim1, gReloadCounterRedAnim2, gReloadCounterRedAnim3, gReloadCounterRedAnim4, gReloadCounterRedAnim5, gReloadCounterRedAnim6, gReloadCounterRedAnim7, gReloadCounterRedAnim8, gReloadCounterRedAnim9, gReloadCounterRedAnim10, gReloadCounterRedAnim11, gReloadCounterRedAnim12, gReloadCounterRedAnim13, gReloadCounterRedAnim14, gReloadCounterRedAnim15, gReloadCounterRedAnim16, gReloadCounterRedAnim17, gReloadCounterRedAnim18]
+  us:
+    address: 0x09EEA3B0
+  jp:
+    address: 0x09EC17A4
+  eu:
+    address: 0x09F76420
+- name: gReloadCounterBlueFrames
+  record: SpriteTable
+  items: [gReloadCounterBlueFrame0, gReloadCounterBlueFrame1, gReloadCounterBlueFrame2, gReloadCounterBlueFrame3, gReloadCounterBlueFrame4, gReloadCounterBlueFrame5, gReloadCounterBlueFrame6, gReloadCounterBlueFrame7, gReloadCounterBlueFrame8, gReloadCounterBlueFrame9, gReloadCounterBlueFrame10, gReloadCounterBlueFrame11, gReloadCounterBlueFrame12, gReloadCounterBlueFrame13, gReloadCounterBlueFrame14, gReloadCounterBlueFrame15, gReloadCounterBlueFrame16, gReloadCounterBlueFrame17, gReloadCounterBlueFrame18]
+  us:
+    address: 0x09EEA3FC
+  jp:
+    address: 0x09EC17F0
+  eu:
+    address: 0x09F7646C
+- name: gReloadCounterBlueAnims
+  record: AnimTable
+  items: [gReloadCounterBlueAnim0, gReloadCounterBlueAnim1, gReloadCounterBlueAnim2, gReloadCounterBlueAnim3, gReloadCounterBlueAnim4, gReloadCounterBlueAnim5, gReloadCounterBlueAnim6, gReloadCounterBlueAnim7, gReloadCounterBlueAnim8, gReloadCounterBlueAnim9, gReloadCounterBlueAnim10, gReloadCounterBlueAnim11, gReloadCounterBlueAnim12, gReloadCounterBlueAnim13, gReloadCounterBlueAnim14, gReloadCounterBlueAnim15, gReloadCounterBlueAnim16, gReloadCounterBlueAnim17, gReloadCounterBlueAnim18]
+  us:
+    address: 0x09EEA448
+  jp:
+    address: 0x09EC183C
+  eu:
+    address: 0x09F764B8
+- name: gReloadCounterWhiteFrames
+  record: SpriteTable
+  items: [gReloadCounterWhiteFrame0, gReloadCounterWhiteFrame1, gReloadCounterWhiteFrame2, gReloadCounterWhiteFrame3, gReloadCounterWhiteFrame4, gReloadCounterWhiteFrame5, gReloadCounterWhiteFrame6, gReloadCounterWhiteFrame7, gReloadCounterWhiteFrame8, gReloadCounterWhiteFrame9, gReloadCounterWhiteFrame10, gReloadCounterWhiteFrame11, gReloadCounterWhiteFrame12, gReloadCounterWhiteFrame13, gReloadCounterWhiteFrame14, gReloadCounterWhiteFrame15, gReloadCounterWhiteFrame16, gReloadCounterWhiteFrame17, gReloadCounterWhiteFrame18]
+  us:
+    address: 0x09EEA494
+  jp:
+    address: 0x09EC1888
+  eu:
+    address: 0x09F76504
+- name: gReloadCounterWhiteAnims
+  record: AnimTable
+  items: [gReloadCounterWhiteAnim0, gReloadCounterWhiteAnim1, gReloadCounterWhiteAnim2, gReloadCounterWhiteAnim3, gReloadCounterWhiteAnim4, gReloadCounterWhiteAnim5, gReloadCounterWhiteAnim6, gReloadCounterWhiteAnim7, gReloadCounterWhiteAnim8, gReloadCounterWhiteAnim9, gReloadCounterWhiteAnim10, gReloadCounterWhiteAnim11, gReloadCounterWhiteAnim12, gReloadCounterWhiteAnim13, gReloadCounterWhiteAnim14, gReloadCounterWhiteAnim15, gReloadCounterWhiteAnim16, gReloadCounterWhiteAnim17, gReloadCounterWhiteAnim18]
+  us:
+    address: 0x09EEA4E0
+  jp:
+    address: 0x09EC18D4
+  eu:
+    address: 0x09F76550
+- name: gReloadCounterBlackFrames
+  record: SpriteTable
+  items: [gReloadCounterBlackFrame0, gReloadCounterBlackFrame1, gReloadCounterBlackFrame2, gReloadCounterBlackFrame3, gReloadCounterBlackFrame4, gReloadCounterBlackFrame5, gReloadCounterBlackFrame6, gReloadCounterBlackFrame7, gReloadCounterBlackFrame8, gReloadCounterBlackFrame9, gReloadCounterBlackFrame10, gReloadCounterBlackFrame11, gReloadCounterBlackFrame12, gReloadCounterBlackFrame13, gReloadCounterBlackFrame14, gReloadCounterBlackFrame15, gReloadCounterBlackFrame16, gReloadCounterBlackFrame17, gReloadCounterBlackFrame18]
+  us:
+    address: 0x09EEA52C
+  jp:
+    address: 0x09EC1920
+  eu:
+    address: 0x09F7659C
+- name: gReloadCounterBlackAnims
+  record: AnimTable
+  items: [gReloadCounterBlackAnim0, gReloadCounterBlackAnim1, gReloadCounterBlackAnim2, gReloadCounterBlackAnim3, gReloadCounterBlackAnim4, gReloadCounterBlackAnim5, gReloadCounterBlackAnim6, gReloadCounterBlackAnim7, gReloadCounterBlackAnim8, gReloadCounterBlackAnim9, gReloadCounterBlackAnim10, gReloadCounterBlackAnim11, gReloadCounterBlackAnim12, gReloadCounterBlackAnim13, gReloadCounterBlackAnim14, gReloadCounterBlackAnim15, gReloadCounterBlackAnim16, gReloadCounterBlackAnim17, gReloadCounterBlackAnim18]
+  us:
+    address: 0x09EEA578
+  jp:
+    address: 0x09EC196C
+  eu:
+    address: 0x09F765E8
+- name: gRevCountRedFrames
+  record: SpriteTable
+  items: [gRevCountRedFrame0, gRevCountRedFrame1, gRevCountRedFrame2, gRevCountRedFrame3, gRevCountRedFrame4, gRevCountRedFrame5, gRevCountRedFrame6, gRevCountRedFrame7, gRevCountRedFrame8, gRevCountRedFrame9, gRevCountRedFrame10, gRevCountRedFrame11, gRevCountRedFrame12, gRevCountRedFrame13, gRevCountRedFrame14, gRevCountRedFrame15, gRevCountRedFrame16, gRevCountRedFrame17, gRevCountRedFrame18, gRevCountRedFrame19, gRevCountRedFrame20, gRevCountRedFrame21, gRevCountRedFrame22, gRevCountRedFrame23, gRevCountRedFrame24, gRevCountRedFrame25, gRevCountRedFrame26, gRevCountRedFrame27, gRevCountRedFrame28, gRevCountRedFrame29, gRevCountRedFrame30, gRevCountRedFrame31, gRevCountRedFrame32, gRevCountRedFrame33, gRevCountRedFrame34, gRevCountRedFrame35, gRevCountRedFrame36, gRevCountRedFrame37, gRevCountRedFrame38, gRevCountRedFrame39, gRevCountRedFrame40, gRevCountRedFrame41, gRevCountRedFrame42, gRevCountRedFrame43, gRevCountRedFrame44, gRevCountRedFrame45, gRevCountRedFrame46, gRevCountRedFrame47, gRevCountRedFrame48, gRevCountRedFrame49, gRevCountRedFrame50, gRevCountRedFrame51, gRevCountRedFrame52, gRevCountRedFrame53, gRevCountRedFrame54, gRevCountRedFrame55, gRevCountRedFrame56, gRevCountRedFrame57, gRevCountRedFrame58, gRevCountRedFrame59, gRevCountRedFrame60, gRevCountRedFrame61, gRevCountRedFrame62, gRevCountRedFrame63, gRevCountRedFrame64, gRevCountRedFrame65, gRevCountRedFrame66, gRevCountRedFrame67, gRevCountRedFrame68, gRevCountRedFrame69, gRevCountRedFrame70, gRevCountRedFrame71, gRevCountRedFrame72, gRevCountRedFrame73, gRevCountRedFrame74, gRevCountRedFrame75, gRevCountRedFrame76, gRevCountRedFrame77, gRevCountRedFrame78, gRevCountRedFrame79, gRevCountRedFrame80, gRevCountRedFrame81, gRevCountRedFrame82, gRevCountRedFrame83, gRevCountRedFrame84, gRevCountRedFrame85, gRevCountRedFrame86, gRevCountRedFrame87, gRevCountRedFrame88, gRevCountRedFrame89, gRevCountRedFrame90, gRevCountRedFrame91, gRevCountRedFrame92, gRevCountRedFrame93, gRevCountRedFrame94, gRevCountRedFrame95, gRevCountRedFrame96, gRevCountRedFrame97, gRevCountRedFrame98]
+  us:
+    address: 0x09EEA5C4
+  jp:
+    address: 0x09EC19B8
+  eu:
+    address: 0x09F76634
+- name: gRevCountRedAnims
+  record: AnimTable
+  items: [gRevCountRedAnim0, gRevCountRedAnim1, gRevCountRedAnim2, gRevCountRedAnim3, gRevCountRedAnim4, gRevCountRedAnim5, gRevCountRedAnim6, gRevCountRedAnim7, gRevCountRedAnim8, gRevCountRedAnim9, gRevCountRedAnim10, gRevCountRedAnim11, gRevCountRedAnim12, gRevCountRedAnim13, gRevCountRedAnim14, gRevCountRedAnim15, gRevCountRedAnim16, gRevCountRedAnim17, gRevCountRedAnim18, gRevCountRedAnim19, gRevCountRedAnim20, gRevCountRedAnim21, gRevCountRedAnim22, gRevCountRedAnim23, gRevCountRedAnim24, gRevCountRedAnim25, gRevCountRedAnim26, gRevCountRedAnim27, gRevCountRedAnim28, gRevCountRedAnim29, gRevCountRedAnim30, gRevCountRedAnim31, gRevCountRedAnim32, gRevCountRedAnim33, gRevCountRedAnim34, gRevCountRedAnim35, gRevCountRedAnim36, gRevCountRedAnim37, gRevCountRedAnim38, gRevCountRedAnim39]
+  us:
+    address: 0x09EEA750
+  jp:
+    address: 0x09EC1B44
+  eu:
+    address: 0x09F767C0
+- name: gRevCountBlueFrames
+  record: SpriteTable
+  items: [gRevCountBlueFrame0, gRevCountBlueFrame1, gRevCountBlueFrame2, gRevCountBlueFrame3, gRevCountBlueFrame4, gRevCountBlueFrame5, gRevCountBlueFrame6, gRevCountBlueFrame7, gRevCountBlueFrame8, gRevCountBlueFrame9, gRevCountBlueFrame10, gRevCountBlueFrame11, gRevCountBlueFrame12, gRevCountBlueFrame13, gRevCountBlueFrame14, gRevCountBlueFrame15, gRevCountBlueFrame16, gRevCountBlueFrame17, gRevCountBlueFrame18, gRevCountBlueFrame19, gRevCountBlueFrame20, gRevCountBlueFrame21, gRevCountBlueFrame22, gRevCountBlueFrame23, gRevCountBlueFrame24, gRevCountBlueFrame25, gRevCountBlueFrame26, gRevCountBlueFrame27, gRevCountBlueFrame28, gRevCountBlueFrame29, gRevCountBlueFrame30, gRevCountBlueFrame31, gRevCountBlueFrame32, gRevCountBlueFrame33, gRevCountBlueFrame34, gRevCountBlueFrame35, gRevCountBlueFrame36, gRevCountBlueFrame37, gRevCountBlueFrame38, gRevCountBlueFrame39, gRevCountBlueFrame40, gRevCountBlueFrame41, gRevCountBlueFrame42, gRevCountBlueFrame43, gRevCountBlueFrame44, gRevCountBlueFrame45, gRevCountBlueFrame46, gRevCountBlueFrame47, gRevCountBlueFrame48, gRevCountBlueFrame49, gRevCountBlueFrame50, gRevCountBlueFrame51, gRevCountBlueFrame52, gRevCountBlueFrame53, gRevCountBlueFrame54, gRevCountBlueFrame55, gRevCountBlueFrame56, gRevCountBlueFrame57, gRevCountBlueFrame58, gRevCountBlueFrame59, gRevCountBlueFrame60, gRevCountBlueFrame61, gRevCountBlueFrame62, gRevCountBlueFrame63, gRevCountBlueFrame64, gRevCountBlueFrame65, gRevCountBlueFrame66, gRevCountBlueFrame67, gRevCountBlueFrame68, gRevCountBlueFrame69, gRevCountBlueFrame70, gRevCountBlueFrame71, gRevCountBlueFrame72, gRevCountBlueFrame73, gRevCountBlueFrame74, gRevCountBlueFrame75, gRevCountBlueFrame76, gRevCountBlueFrame77, gRevCountBlueFrame78, gRevCountBlueFrame79, gRevCountBlueFrame80, gRevCountBlueFrame81, gRevCountBlueFrame82, gRevCountBlueFrame83, gRevCountBlueFrame84, gRevCountBlueFrame85, gRevCountBlueFrame86, gRevCountBlueFrame87, gRevCountBlueFrame88, gRevCountBlueFrame89, gRevCountBlueFrame90, gRevCountBlueFrame91, gRevCountBlueFrame92, gRevCountBlueFrame93, gRevCountBlueFrame94, gRevCountBlueFrame95, gRevCountBlueFrame96, gRevCountBlueFrame97, gRevCountBlueFrame98]
+  us:
+    address: 0x09EEA7F0
+  jp:
+    address: 0x09EC1BE4
+  eu:
+    address: 0x09F76860
+- name: gRevCountBlueAnims
+  record: AnimTable
+  items: [gRevCountBlueAnim0, gRevCountBlueAnim1, gRevCountBlueAnim2, gRevCountBlueAnim3, gRevCountBlueAnim4, gRevCountBlueAnim5, gRevCountBlueAnim6, gRevCountBlueAnim7, gRevCountBlueAnim8, gRevCountBlueAnim9, gRevCountBlueAnim10, gRevCountBlueAnim11, gRevCountBlueAnim12, gRevCountBlueAnim13, gRevCountBlueAnim14, gRevCountBlueAnim15, gRevCountBlueAnim16, gRevCountBlueAnim17, gRevCountBlueAnim18, gRevCountBlueAnim19, gRevCountBlueAnim20, gRevCountBlueAnim21, gRevCountBlueAnim22, gRevCountBlueAnim23, gRevCountBlueAnim24, gRevCountBlueAnim25, gRevCountBlueAnim26, gRevCountBlueAnim27, gRevCountBlueAnim28, gRevCountBlueAnim29, gRevCountBlueAnim30, gRevCountBlueAnim31, gRevCountBlueAnim32, gRevCountBlueAnim33, gRevCountBlueAnim34, gRevCountBlueAnim35, gRevCountBlueAnim36, gRevCountBlueAnim37, gRevCountBlueAnim38, gRevCountBlueAnim39]
+  us:
+    address: 0x09EEA97C
+  jp:
+    address: 0x09EC1D70
+  eu:
+    address: 0x09F769EC
+- name: gRevCountBlackFrames
+  record: SpriteTable
+  items: [gRevCountBlackFrame0, gRevCountBlackFrame1, gRevCountBlackFrame2, gRevCountBlackFrame3, gRevCountBlackFrame4, gRevCountBlackFrame5, gRevCountBlackFrame6, gRevCountBlackFrame7, gRevCountBlackFrame8, gRevCountBlackFrame9, gRevCountBlackFrame10, gRevCountBlackFrame11, gRevCountBlackFrame12, gRevCountBlackFrame13, gRevCountBlackFrame14, gRevCountBlackFrame15, gRevCountBlackFrame16, gRevCountBlackFrame17, gRevCountBlackFrame18, gRevCountBlackFrame19, gRevCountBlackFrame20, gRevCountBlackFrame21, gRevCountBlackFrame22, gRevCountBlackFrame23, gRevCountBlackFrame24, gRevCountBlackFrame25, gRevCountBlackFrame26, gRevCountBlackFrame27, gRevCountBlackFrame28, gRevCountBlackFrame29, gRevCountBlackFrame30, gRevCountBlackFrame31, gRevCountBlackFrame32, gRevCountBlackFrame33, gRevCountBlackFrame34, gRevCountBlackFrame35, gRevCountBlackFrame36, gRevCountBlackFrame37, gRevCountBlackFrame38, gRevCountBlackFrame39, gRevCountBlackFrame40, gRevCountBlackFrame41, gRevCountBlackFrame42, gRevCountBlackFrame43, gRevCountBlackFrame44, gRevCountBlackFrame45, gRevCountBlackFrame46, gRevCountBlackFrame47, gRevCountBlackFrame48, gRevCountBlackFrame49, gRevCountBlackFrame50, gRevCountBlackFrame51, gRevCountBlackFrame52, gRevCountBlackFrame53, gRevCountBlackFrame54, gRevCountBlackFrame55, gRevCountBlackFrame56, gRevCountBlackFrame57, gRevCountBlackFrame58, gRevCountBlackFrame59, gRevCountBlackFrame60, gRevCountBlackFrame61, gRevCountBlackFrame62, gRevCountBlackFrame63, gRevCountBlackFrame64, gRevCountBlackFrame65, gRevCountBlackFrame66, gRevCountBlackFrame67, gRevCountBlackFrame68, gRevCountBlackFrame69, gRevCountBlackFrame70, gRevCountBlackFrame71, gRevCountBlackFrame72, gRevCountBlackFrame73, gRevCountBlackFrame74, gRevCountBlackFrame75, gRevCountBlackFrame76, gRevCountBlackFrame77, gRevCountBlackFrame78, gRevCountBlackFrame79, gRevCountBlackFrame80, gRevCountBlackFrame81, gRevCountBlackFrame82, gRevCountBlackFrame83, gRevCountBlackFrame84, gRevCountBlackFrame85, gRevCountBlackFrame86, gRevCountBlackFrame87, gRevCountBlackFrame88, gRevCountBlackFrame89, gRevCountBlackFrame90, gRevCountBlackFrame91, gRevCountBlackFrame92, gRevCountBlackFrame93, gRevCountBlackFrame94, gRevCountBlackFrame95, gRevCountBlackFrame96, gRevCountBlackFrame97, gRevCountBlackFrame98]
+  us:
+    address: 0x09EEAA1C
+  jp:
+    address: 0x09EC1E10
+  eu:
+    address: 0x09F76A8C
+- name: gRevCountBlackAnims
+  record: AnimTable
+  items: [gRevCountBlackAnim0, gRevCountBlackAnim1, gRevCountBlackAnim2, gRevCountBlackAnim3, gRevCountBlackAnim4, gRevCountBlackAnim5, gRevCountBlackAnim6, gRevCountBlackAnim7, gRevCountBlackAnim8, gRevCountBlackAnim9, gRevCountBlackAnim10, gRevCountBlackAnim11, gRevCountBlackAnim12, gRevCountBlackAnim13, gRevCountBlackAnim14, gRevCountBlackAnim15, gRevCountBlackAnim16, gRevCountBlackAnim17, gRevCountBlackAnim18, gRevCountBlackAnim19, gRevCountBlackAnim20, gRevCountBlackAnim21, gRevCountBlackAnim22, gRevCountBlackAnim23, gRevCountBlackAnim24, gRevCountBlackAnim25, gRevCountBlackAnim26, gRevCountBlackAnim27, gRevCountBlackAnim28, gRevCountBlackAnim29, gRevCountBlackAnim30, gRevCountBlackAnim31, gRevCountBlackAnim32, gRevCountBlackAnim33, gRevCountBlackAnim34, gRevCountBlackAnim35, gRevCountBlackAnim36, gRevCountBlackAnim37, gRevCountBlackAnim38, gRevCountBlackAnim39]
+  us:
+    address: 0x09EEABA8
+  jp:
+    address: 0x09EC1F9C
+  eu:
+    address: 0x09F76C18
+- name: gRevCountGrayFrames
+  record: SpriteTable
+  items: [gRevCountGrayFrame0, gRevCountGrayFrame1, gRevCountGrayFrame2, gRevCountGrayFrame3, gRevCountGrayFrame4, gRevCountGrayFrame5, gRevCountGrayFrame6, gRevCountGrayFrame7, gRevCountGrayFrame8, gRevCountGrayFrame9, gRevCountGrayFrame10, gRevCountGrayFrame11, gRevCountGrayFrame12, gRevCountGrayFrame13, gRevCountGrayFrame14, gRevCountGrayFrame15, gRevCountGrayFrame16, gRevCountGrayFrame17, gRevCountGrayFrame18, gRevCountGrayFrame19, gRevCountGrayFrame20, gRevCountGrayFrame21, gRevCountGrayFrame22, gRevCountGrayFrame23, gRevCountGrayFrame24, gRevCountGrayFrame25, gRevCountGrayFrame26, gRevCountGrayFrame27, gRevCountGrayFrame28, gRevCountGrayFrame29, gRevCountGrayFrame30, gRevCountGrayFrame31, gRevCountGrayFrame32, gRevCountGrayFrame33, gRevCountGrayFrame34, gRevCountGrayFrame35, gRevCountGrayFrame36, gRevCountGrayFrame37, gRevCountGrayFrame38, gRevCountGrayFrame39, gRevCountGrayFrame40, gRevCountGrayFrame41, gRevCountGrayFrame42, gRevCountGrayFrame43, gRevCountGrayFrame44, gRevCountGrayFrame45, gRevCountGrayFrame46, gRevCountGrayFrame47, gRevCountGrayFrame48, gRevCountGrayFrame49, gRevCountGrayFrame50, gRevCountGrayFrame51, gRevCountGrayFrame52, gRevCountGrayFrame53, gRevCountGrayFrame54, gRevCountGrayFrame55, gRevCountGrayFrame56, gRevCountGrayFrame57, gRevCountGrayFrame58, gRevCountGrayFrame59, gRevCountGrayFrame60, gRevCountGrayFrame61, gRevCountGrayFrame62, gRevCountGrayFrame63, gRevCountGrayFrame64, gRevCountGrayFrame65, gRevCountGrayFrame66, gRevCountGrayFrame67, gRevCountGrayFrame68, gRevCountGrayFrame69, gRevCountGrayFrame70, gRevCountGrayFrame71, gRevCountGrayFrame72, gRevCountGrayFrame73, gRevCountGrayFrame74, gRevCountGrayFrame75, gRevCountGrayFrame76, gRevCountGrayFrame77, gRevCountGrayFrame78, gRevCountGrayFrame79, gRevCountGrayFrame80, gRevCountGrayFrame81, gRevCountGrayFrame82, gRevCountGrayFrame83, gRevCountGrayFrame84, gRevCountGrayFrame85, gRevCountGrayFrame86, gRevCountGrayFrame87, gRevCountGrayFrame88, gRevCountGrayFrame89, gRevCountGrayFrame90, gRevCountGrayFrame91, gRevCountGrayFrame92, gRevCountGrayFrame93, gRevCountGrayFrame94, gRevCountGrayFrame95, gRevCountGrayFrame96, gRevCountGrayFrame97, gRevCountGrayFrame98]
+  us:
+    address: 0x09EEAC48
+  jp:
+    address: 0x09EC203C
+  eu:
+    address: 0x09F76CB8
+- name: gRevCountGrayAnims
+  record: AnimTable
+  items: [gRevCountGrayAnim0, gRevCountGrayAnim1, gRevCountGrayAnim2, gRevCountGrayAnim3, gRevCountGrayAnim4, gRevCountGrayAnim5, gRevCountGrayAnim6, gRevCountGrayAnim7, gRevCountGrayAnim8, gRevCountGrayAnim9, gRevCountGrayAnim10, gRevCountGrayAnim11, gRevCountGrayAnim12, gRevCountGrayAnim13, gRevCountGrayAnim14, gRevCountGrayAnim15, gRevCountGrayAnim16, gRevCountGrayAnim17, gRevCountGrayAnim18, gRevCountGrayAnim19, gRevCountGrayAnim20, gRevCountGrayAnim21, gRevCountGrayAnim22, gRevCountGrayAnim23, gRevCountGrayAnim24, gRevCountGrayAnim25, gRevCountGrayAnim26, gRevCountGrayAnim27, gRevCountGrayAnim28, gRevCountGrayAnim29, gRevCountGrayAnim30, gRevCountGrayAnim31, gRevCountGrayAnim32, gRevCountGrayAnim33, gRevCountGrayAnim34, gRevCountGrayAnim35, gRevCountGrayAnim36, gRevCountGrayAnim37, gRevCountGrayAnim38, gRevCountGrayAnim39]
+  us:
+    address: 0x09EEADD4
+  jp:
+    address: 0x09EC21C8
+  eu:
+    address: 0x09F76E44
+- name: gReloadCardBlueFrames
+  record: SpriteTable
+  items: [gReloadCardBlueFrame0, gReloadCardBlueFrame1, gReloadCardBlueFrame2, gReloadCardBlueFrame3, gReloadCardBlueFrame4, gReloadCardBlueFrame5, gReloadCardBlueFrame6, gReloadCardBlueFrame7, gReloadCardBlueFrame8, gReloadCardBlueFrame9, gReloadCardBlueFrame10, gReloadCardBlueFrame11, gReloadCardBlueFrame12]
+  us:
+    address: 0x09EEAE74
+  jp:
+    address: 0x09EC2268
+  eu:
+    address: 0x09F76EE4
+- name: gReloadCardBlueAnims
+  record: AnimTable
+  items: [gReloadCardBlueAnim0, gReloadCardBlueAnim1, gReloadCardBlueAnim2, gReloadCardBlueAnim3, gReloadCardBlueAnim4]
+  us:
+    address: 0x09EEAEA8
+  jp:
+    address: 0x09EC229C
+  eu:
+    address: 0x09F76F18
+- name: gReloadCardBlackFrames
+  record: SpriteTable
+  items: [gReloadCardBlackFrame0, gReloadCardBlackFrame1, gReloadCardBlackFrame2, gReloadCardBlackFrame3, gReloadCardBlackFrame4, gReloadCardBlackFrame5, gReloadCardBlackFrame6, gReloadCardBlackFrame7, gReloadCardBlackFrame8, gReloadCardBlackFrame9, gReloadCardBlackFrame10, gReloadCardBlackFrame11, gReloadCardBlackFrame12]
+  us:
+    address: 0x09EEAEBC
+  jp:
+    address: 0x09EC22B0
+  eu:
+    address: 0x09F76F2C
+- name: gReloadCardBlackAnims
+  record: AnimTable
+  items: [gReloadCardBlackAnim0, gReloadCardBlackAnim1, gReloadCardBlackAnim2, gReloadCardBlackAnim3, gReloadCardBlackAnim4]
+  us:
+    address: 0x09EEAEF0
+  jp:
+    address: 0x09EC22E4
+  eu:
+    address: 0x09F76F60
+- name: gReloadCardGreenFrames
+  record: SpriteTable
+  items: [gReloadCardGreenFrame0, gReloadCardGreenFrame1, gReloadCardGreenFrame2, gReloadCardGreenFrame3, gReloadCardGreenFrame4, gReloadCardGreenFrame5, gReloadCardGreenFrame6, gReloadCardGreenFrame7, gReloadCardGreenFrame8, gReloadCardGreenFrame9, gReloadCardGreenFrame10, gReloadCardGreenFrame11, gReloadCardGreenFrame12]
+  us:
+    address: 0x09EEAF04
+  jp:
+    address: 0x09EC22F8
+  eu:
+    address: 0x09F76F74
+- name: gReloadCardGreenAnims
+  record: AnimTable
+  items: [gReloadCardGreenAnim0, gReloadCardGreenAnim1, gReloadCardGreenAnim2, gReloadCardGreenAnim3, gReloadCardGreenAnim4]
+  us:
+    address: 0x09EEAF38
+  jp:
+    address: 0x09EC232C
+  eu:
+    address: 0x09F76FA8
+- name: gRiCardF0RedFrames
+  record: SpriteTable
+  items: [gRiCardF0RedFrame0, gRiCardF0RedFrame1, gRiCardF0RedFrame2, gRiCardF0RedFrame3, gRiCardF0RedFrame4, gRiCardF0RedFrame5, gRiCardF0RedFrame6, gRiCardF0RedFrame7, gRiCardF0RedFrame8, gRiCardF0RedFrame9, gRiCardF0RedFrame10, gRiCardF0RedFrame11, gRiCardF0RedFrame12, gRiCardF0RedFrame13, gRiCardF0RedFrame14, gRiCardF0RedFrame15, gRiCardF0RedFrame16, gRiCardF0RedFrame17, gRiCardF0RedFrame18, gRiCardF0RedFrame19, gRiCardF0RedFrame20, gRiCardF0RedFrame21, gRiCardF0RedFrame22, gRiCardF0RedFrame23, gRiCardF0RedFrame24]
+  us:
+    address: 0x09EEAF4C
+  jp:
+    address: 0x09EC2340
+  eu:
+    address: 0x09F76FBC
+- name: gRiCardF0RedAnims
+  record: AnimTable
+  items: [gRiCardF0RedAnim0, gRiCardF0RedAnim1, gRiCardF0RedAnim2, gRiCardF0RedAnim3, gRiCardF0RedAnim4, gRiCardF0RedAnim5, gRiCardF0RedAnim6, gRiCardF0RedAnim7, gRiCardF0RedAnim8]
+  us:
+    address: 0x09EEAFB0
+  jp:
+    address: 0x09EC23A4
+  eu:
+    address: 0x09F77020
+- name: gPremireChanceTitleFrenchFrames
+  record: SpriteTable
+  items: [gPremireChanceTitleFrenchFrame0]
+  eu:
+    address: 0x09F75FB4
+- name: gPremireChanceTitleFrenchAnims
+  record: AnimTable
+  items: [gPremireChanceTitleFrenchAnim0]
+  eu:
+    address: 0x09F75FB8
+- name: gPremireChanceTitleSpanishFrames
+  record: SpriteTable
+  items: [gPremireChanceTitleSpanishFrame0]
+  eu:
+    address: 0x09F75FBC
+- name: gPremireChanceTitleSpanishAnims
+  record: AnimTable
+  items: [gPremireChanceTitleSpanishAnim0]
+  eu:
+    address: 0x09F75FC0
+- name: gPremireChanceTitleItalianFrames
+  record: SpriteTable
+  items: [gPremireChanceTitleItalianFrame0]
+  eu:
+    address: 0x09F75FC4
+- name: gPremireChanceTitleItalianAnims
+  record: AnimTable
+  items: [gPremireChanceTitleItalianAnim0]
+  eu:
+    address: 0x09F75FC8
+- name: gPremireChanceTitleGermanFrames
+  record: SpriteTable
+  items: [gPremireChanceTitleGermanFrame0]
+  eu:
+    address: 0x09F75FCC
+- name: gPremireChanceTitleGermanAnims
+  record: AnimTable
+  items: [gPremireChanceTitleGermanAnim0]
+  eu:
+    address: 0x09F75FD0
+- name: gCardPremiumSmallTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 32]
+  anchor: [8, 20]
+  columns: 6
+  frames:
+  - symbol: gCardPremiumSmallFrame0
+    pieces:
+    - [8x8, -8, -8]
+  - symbol: gCardPremiumSmallFrame1
+    pieces:
+    - [8x8, 0, -12]
+  - symbol: gCardPremiumSmallFrame2
+    pieces:
+    - [16x16, -8, -12]
+  - symbol: gCardPremiumSmallFrame3
+    pieces:
+    - [16x32, -8, -20]
+  - symbol: gCardPremiumSmallFrame4
+    pieces:
+    - [16x16, -8, -4]
+  - symbol: gCardPremiumSmallFrame5
+    pieces:
+    - [8x8, -8, 4]
+  animations:
+  - symbol: gCardPremiumSmallAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 50], [1, 5], [2, 5], [3, 5], [4, 5], [5, 5]]
+  us:
+    address: 0x0908C374
+    size: 698
+  jp:
+    address: 0x09047BE4
+    size: 698
+  eu:
+    address: 0x09162648
+    size: 698
+- name: ri_card_f0_red
+  format: sprite_sheet
+  palette: card_00
+  symbol: gRiCardF0RedTiles
+  align: 4
+  cell: [32, 51]
+  anchor: [16, 32]
+  columns: 8
+  frames:
+  - symbol: gRiCardF0RedFrame0
+    pieces:
+    - [32x32, -16, -20]
+    - [32x8, -16, 11]
+  - symbol: gRiCardF0RedFrame1
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gRiCardF0RedFrame2
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gRiCardF0RedFrame3
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gRiCardF0RedFrame4
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame5
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame6
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame7
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame8
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame9
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame10
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame11
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame12
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame13
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame14
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame15
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame16
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame17
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame18
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame19
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame20
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame21
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame22
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame23
+    pieces:
+    - [32x8, -16, -16]
+  - symbol: gRiCardF0RedFrame24
+    pieces:
+    - [32x8, -16, -16]
+  animations:
+  - symbol: gRiCardF0RedAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRiCardF0RedAnim1
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 1], [2, 4], [3, 5], [2, 3]]
+  - symbol: gRiCardF0RedAnim2
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 1], [5, 4], [6, 5], [5, 3]]
+  - symbol: gRiCardF0RedAnim3
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 1], [8, 4], [9, 5], [8, 3]]
+  - symbol: gRiCardF0RedAnim4
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 1], [11, 4], [12, 5], [11, 3]]
+  - symbol: gRiCardF0RedAnim5
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 1], [14, 4], [15, 5], [14, 3]]
+  - symbol: gRiCardF0RedAnim6
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 1], [17, 4], [18, 5], [17, 3]]
+  - symbol: gRiCardF0RedAnim7
+    fields: {originX: 64, originY: 64}
+    frames: [[19, 1], [20, 4], [21, 5], [20, 3]]
+  - symbol: gRiCardF0RedAnim8
+    fields: {originX: 64, originY: 64}
+    frames: [[22, 1], [23, 4], [24, 5], [23, 3]]
+  us:
+    address: 0x090A0ACC
+    size: 5306
+  jp:
+    address: 0x0905C33C
+    size: 5306
+  eu:
+    address: 0x09186528
+    size: 5306
+- name: gPremireChanceTitleFrenchTiles
+  format: sprite_sheet
+  align: 4
+  cell: [104, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gPremireChanceTitleFrenchFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [8x16, 96, 0]
+  animations:
+  - symbol: gPremireChanceTitleFrenchAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x09162904
+    size: 870
+- name: gPremireChanceTitleSpanishTiles
+  format: sprite_sheet
+  align: 4
+  cell: [96, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gPremireChanceTitleSpanishFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+  animations:
+  - symbol: gPremireChanceTitleSpanishAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x09162C6C
+    size: 800
+- name: gPremireChanceTitleItalianTiles
+  format: sprite_sheet
+  align: 4
+  cell: [120, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gPremireChanceTitleItalianFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [16x16, 96, 0]
+    - [8x16, 112, 0]
+  animations:
+  - symbol: gPremireChanceTitleItalianAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x09162F8C
+    size: 1004
+- name: gPremireChanceTitleGermanTiles
+  format: sprite_sheet
+  align: 4
+  cell: [120, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gPremireChanceTitleGermanFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [16x16, 96, 0]
+    - [8x16, 112, 0]
+  animations:
+  - symbol: gPremireChanceTitleGermanAnim0
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x09163378
+    size: 1004
+- name: gReloadRedTiles
+  format: sprite_sheet
+  cell: [40, 8]
+  anchor: [20, -4]
+  columns: 4
+  frames:
+  - symbol: gReloadRedFrame0
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadRedFrame1
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadRedFrame2
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadRedFrame3
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  animations:
+  - symbol: gReloadRedAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1], [1, 4], [2, 5], [3, 3]]
+  us:
+    address: 0x09098808
+    size: 726
+  jp:
+    address: 0x09054078
+    size: 726
+  eu:
+    address: 0x0917E264
+    size: 726
+- name: gReloadBlueTiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 8]
+  anchor: [20, -4]
+  columns: 4
+  frames:
+  - symbol: gReloadBlueFrame0
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadBlueFrame1
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadBlueFrame2
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadBlueFrame3
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  animations:
+  - symbol: gReloadBlueAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1], [1, 4], [2, 5], [3, 3]]
+  us:
+    address: 0x09098AE0
+    size: 726
+  jp:
+    address: 0x09054350
+    size: 726
+  eu:
+    address: 0x0917E53C
+    size: 726
+- name: gReloadGreenTiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 8]
+  anchor: [20, -4]
+  columns: 4
+  frames:
+  - symbol: gReloadGreenFrame0
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadGreenFrame1
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadGreenFrame2
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadGreenFrame3
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  animations:
+  - symbol: gReloadGreenAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1], [1, 4], [2, 5], [3, 3]]
+  us:
+    address: 0x09098DB8
+    size: 726
+  jp:
+    address: 0x09054628
+    size: 726
+  eu:
+    address: 0x0917E814
+    size: 726
+- name: gReloadBlackTiles
+  format: sprite_sheet
+  align: 4
+  cell: [40, 8]
+  anchor: [20, -4]
+  columns: 4
+  frames:
+  - symbol: gReloadBlackFrame0
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadBlackFrame1
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadBlackFrame2
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  - symbol: gReloadBlackFrame3
+    pieces:
+    - [32x8, -20, 4]
+    - [8x8, 12, 4]
+  animations:
+  - symbol: gReloadBlackAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1], [1, 4], [2, 5], [3, 3]]
+  us:
+    address: 0x09099090
+    size: 726
+  jp:
+    address: 0x09054900
+    size: 726
+  eu:
+    address: 0x0917EAEC
+    size: 726
+- name: gReloadChildRedTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, -8]
+  columns: 1
+  frames:
+  - symbol: gReloadChildRedFrame0
+    pieces:
+    - [16x16, -8, 8]
+  animations:
+  - symbol: gReloadChildRedAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x09099368
+    size: 148
+  jp:
+    address: 0x09054BD8
+    size: 148
+  eu:
+    address: 0x0917EDC4
+    size: 148
+- name: gReloadChildBlueTiles
+  format: sprite_sheet
+  cell: [16, 16]
+  anchor: [8, -8]
+  columns: 1
+  frames:
+  - symbol: gReloadChildBlueFrame0
+    pieces:
+    - [16x16, -8, 8]
+  animations:
+  - symbol: gReloadChildBlueAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x090993FC
+    size: 148
+  jp:
+    address: 0x09054C6C
+    size: 148
+  eu:
+    address: 0x0917EE58
+    size: 148
+- name: gReloadChildWhiteTiles
+  format: sprite_sheet
+  cell: [16, 16]
+  anchor: [8, -8]
+  columns: 1
+  frames:
+  - symbol: gReloadChildWhiteFrame0
+    pieces:
+    - [16x16, -8, 8]
+  animations:
+  - symbol: gReloadChildWhiteAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x09099490
+    size: 148
+  jp:
+    address: 0x09054D00
+    size: 148
+  eu:
+    address: 0x0917EEEC
+    size: 148
+- name: gReloadChildBlackTiles
+  format: sprite_sheet
+  cell: [16, 16]
+  anchor: [8, -8]
+  columns: 1
+  frames:
+  - symbol: gReloadChildBlackFrame0
+    pieces:
+    - [16x16, -8, 8]
+  animations:
+  - symbol: gReloadChildBlackAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x09099524
+    size: 148
+  jp:
+    address: 0x09054D94
+    size: 148
+  eu:
+    address: 0x0917EF80
+    size: 148
+- name: gReloadCounterRedTiles
+  format: sprite_sheet
+  cell: [27, 16]
+  anchor: [14, 5]
+  columns: 8
+  frames:
+  - symbol: gReloadCounterRedFrame0
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterRedFrame1
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterRedFrame2
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterRedFrame3
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterRedFrame4
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterRedFrame5
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterRedFrame6
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterRedFrame7
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterRedFrame8
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterRedFrame9
+    pieces:
+    - [16x16, -5, -5, {layer: 1}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterRedFrame10
+    pieces:
+    - [16x16, -14, -5, {same: [0, 0]}]
+    - [16x16, -3, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterRedFrame11
+    pieces:
+    - [16x16, -5, -5, {same: [1, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterRedFrame12
+    pieces:
+    - [16x16, -5, -5, {same: [2, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterRedFrame13
+    pieces:
+    - [16x16, -5, -5, {same: [3, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterRedFrame14
+    pieces:
+    - [16x16, -4, -5, {same: [4, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterRedFrame15
+    pieces:
+    - [16x16, -4, -5, {same: [5, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterRedFrame16
+    pieces:
+    - [16x16, -4, -5, {same: [6, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterRedFrame17
+    pieces:
+    - [16x16, -5, -5, {same: [7, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterRedFrame18
+    pieces:
+    - [16x16, -5, -5, {same: [8, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  animations:
+  - symbol: gReloadCounterRedAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1]]
+  - symbol: gReloadCounterRedAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gReloadCounterRedAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gReloadCounterRedAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gReloadCounterRedAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gReloadCounterRedAnim5
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gReloadCounterRedAnim6
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gReloadCounterRedAnim7
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gReloadCounterRedAnim8
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gReloadCounterRedAnim9
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gReloadCounterRedAnim10
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gReloadCounterRedAnim11
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gReloadCounterRedAnim12
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gReloadCounterRedAnim13
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gReloadCounterRedAnim14
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gReloadCounterRedAnim15
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  - symbol: gReloadCounterRedAnim16
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gReloadCounterRedAnim17
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 4]]
+  - symbol: gReloadCounterRedAnim18
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 4]]
+  us:
+    address: 0x090995B8
+    size: 1720
+  jp:
+    address: 0x09054E28
+    size: 1720
+  eu:
+    address: 0x0917F014
+    size: 1720
+- name: gReloadCounterBlueTiles
+  format: sprite_sheet
+  cell: [27, 16]
+  anchor: [14, 5]
+  columns: 8
+  frames:
+  - symbol: gReloadCounterBlueFrame0
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlueFrame1
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlueFrame2
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlueFrame3
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlueFrame4
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlueFrame5
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlueFrame6
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlueFrame7
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlueFrame8
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlueFrame9
+    pieces:
+    - [16x16, -5, -5, {layer: 1}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlueFrame10
+    pieces:
+    - [16x16, -14, -5, {same: [0, 0]}]
+    - [16x16, -3, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlueFrame11
+    pieces:
+    - [16x16, -5, -5, {same: [1, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlueFrame12
+    pieces:
+    - [16x16, -5, -5, {same: [2, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlueFrame13
+    pieces:
+    - [16x16, -5, -5, {same: [3, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlueFrame14
+    pieces:
+    - [16x16, -4, -5, {same: [4, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlueFrame15
+    pieces:
+    - [16x16, -4, -5, {same: [5, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlueFrame16
+    pieces:
+    - [16x16, -4, -5, {same: [6, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlueFrame17
+    pieces:
+    - [16x16, -5, -5, {same: [7, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlueFrame18
+    pieces:
+    - [16x16, -5, -5, {same: [8, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  animations:
+  - symbol: gReloadCounterBlueAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1]]
+  - symbol: gReloadCounterBlueAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gReloadCounterBlueAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gReloadCounterBlueAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gReloadCounterBlueAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gReloadCounterBlueAnim5
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gReloadCounterBlueAnim6
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gReloadCounterBlueAnim7
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gReloadCounterBlueAnim8
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gReloadCounterBlueAnim9
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gReloadCounterBlueAnim10
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gReloadCounterBlueAnim11
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gReloadCounterBlueAnim12
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gReloadCounterBlueAnim13
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gReloadCounterBlueAnim14
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gReloadCounterBlueAnim15
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  - symbol: gReloadCounterBlueAnim16
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gReloadCounterBlueAnim17
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 4]]
+  - symbol: gReloadCounterBlueAnim18
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 4]]
+  us:
+    address: 0x09099C70
+    size: 1720
+  jp:
+    address: 0x090554E0
+    size: 1720
+  eu:
+    address: 0x0917F6CC
+    size: 1720
+- name: gReloadCounterWhiteTiles
+  format: sprite_sheet
+  cell: [27, 16]
+  anchor: [14, 5]
+  columns: 8
+  frames:
+  - symbol: gReloadCounterWhiteFrame0
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterWhiteFrame1
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterWhiteFrame2
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterWhiteFrame3
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterWhiteFrame4
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterWhiteFrame5
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterWhiteFrame6
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterWhiteFrame7
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterWhiteFrame8
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterWhiteFrame9
+    pieces:
+    - [16x16, -5, -5, {layer: 1}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterWhiteFrame10
+    pieces:
+    - [16x16, -14, -5, {same: [0, 0]}]
+    - [16x16, -3, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterWhiteFrame11
+    pieces:
+    - [16x16, -5, -5, {same: [1, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterWhiteFrame12
+    pieces:
+    - [16x16, -5, -5, {same: [2, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterWhiteFrame13
+    pieces:
+    - [16x16, -5, -5, {same: [3, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterWhiteFrame14
+    pieces:
+    - [16x16, -4, -5, {same: [4, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterWhiteFrame15
+    pieces:
+    - [16x16, -4, -5, {same: [5, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterWhiteFrame16
+    pieces:
+    - [16x16, -4, -5, {same: [6, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterWhiteFrame17
+    pieces:
+    - [16x16, -5, -5, {same: [7, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterWhiteFrame18
+    pieces:
+    - [16x16, -5, -5, {same: [8, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  animations:
+  - symbol: gReloadCounterWhiteAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1]]
+  - symbol: gReloadCounterWhiteAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gReloadCounterWhiteAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gReloadCounterWhiteAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gReloadCounterWhiteAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gReloadCounterWhiteAnim5
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gReloadCounterWhiteAnim6
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gReloadCounterWhiteAnim7
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gReloadCounterWhiteAnim8
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gReloadCounterWhiteAnim9
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gReloadCounterWhiteAnim10
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gReloadCounterWhiteAnim11
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gReloadCounterWhiteAnim12
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gReloadCounterWhiteAnim13
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gReloadCounterWhiteAnim14
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gReloadCounterWhiteAnim15
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  - symbol: gReloadCounterWhiteAnim16
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gReloadCounterWhiteAnim17
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 4]]
+  - symbol: gReloadCounterWhiteAnim18
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 4]]
+  us:
+    address: 0x0909A328
+    size: 1720
+  jp:
+    address: 0x09055B98
+    size: 1720
+  eu:
+    address: 0x0917FD84
+    size: 1720
+- name: gReloadCounterBlackTiles
+  format: sprite_sheet
+  cell: [27, 16]
+  anchor: [14, 5]
+  columns: 8
+  frames:
+  - symbol: gReloadCounterBlackFrame0
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlackFrame1
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlackFrame2
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlackFrame3
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlackFrame4
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlackFrame5
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlackFrame6
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlackFrame7
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlackFrame8
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gReloadCounterBlackFrame9
+    pieces:
+    - [16x16, -5, -5, {layer: 1}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlackFrame10
+    pieces:
+    - [16x16, -14, -5, {same: [0, 0]}]
+    - [16x16, -3, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlackFrame11
+    pieces:
+    - [16x16, -5, -5, {same: [1, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlackFrame12
+    pieces:
+    - [16x16, -5, -5, {same: [2, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlackFrame13
+    pieces:
+    - [16x16, -5, -5, {same: [3, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlackFrame14
+    pieces:
+    - [16x16, -4, -5, {same: [4, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlackFrame15
+    pieces:
+    - [16x16, -4, -5, {same: [5, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlackFrame16
+    pieces:
+    - [16x16, -4, -5, {same: [6, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlackFrame17
+    pieces:
+    - [16x16, -5, -5, {same: [7, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  - symbol: gReloadCounterBlackFrame18
+    pieces:
+    - [16x16, -5, -5, {same: [8, 0]}]
+    - [16x16, -14, -5, {same: [0, 0]}]
+  animations:
+  - symbol: gReloadCounterBlackAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1]]
+  - symbol: gReloadCounterBlackAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gReloadCounterBlackAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gReloadCounterBlackAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gReloadCounterBlackAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gReloadCounterBlackAnim5
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gReloadCounterBlackAnim6
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gReloadCounterBlackAnim7
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gReloadCounterBlackAnim8
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gReloadCounterBlackAnim9
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gReloadCounterBlackAnim10
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gReloadCounterBlackAnim11
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gReloadCounterBlackAnim12
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gReloadCounterBlackAnim13
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gReloadCounterBlackAnim14
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gReloadCounterBlackAnim15
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  - symbol: gReloadCounterBlackAnim16
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gReloadCounterBlackAnim17
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 4]]
+  - symbol: gReloadCounterBlackAnim18
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 4]]
+  us:
+    address: 0x0909A9E0
+    size: 1720
+  jp:
+    address: 0x09056250
+    size: 1720
+  eu:
+    address: 0x0918043C
+    size: 1720
+- name: gRevCountRedTiles
+  format: sprite_sheet
+  cell: [32, 16]
+  anchor: [2, 7]
+  columns: 8
+  frames:
+  - symbol: gRevCountRedFrame0
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {layer: 1}]
+  - symbol: gRevCountRedFrame1
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame2
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame3
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame4
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame5
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame6
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame7
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame8
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame9
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame10
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame11
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame12
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame13
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame14
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame15
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame16
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame17
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame18
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame19
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame20
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame21
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame22
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame23
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame24
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame25
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame26
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame27
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame28
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame29
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame30
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame31
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame32
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame33
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame34
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame35
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame36
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame37
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame38
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame39
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame40
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame41
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame42
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame43
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame44
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame45
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame46
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame47
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame48
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame49
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame50
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame51
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame52
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame53
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame54
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame55
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame56
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame57
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame58
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame59
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame60
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame61
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame62
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame63
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame64
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame65
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame66
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame67
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame68
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame69
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame70
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame71
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame72
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame73
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame74
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame75
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame76
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame77
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame78
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame79
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame80
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame81
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame82
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame83
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame84
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame85
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame86
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame87
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame88
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame89
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame90
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame91
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame92
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame93
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame94
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame95
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame96
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame97
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountRedFrame98
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  animations:
+  - symbol: gRevCountRedAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRevCountRedAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gRevCountRedAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRevCountRedAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRevCountRedAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gRevCountRedAnim5
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gRevCountRedAnim6
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gRevCountRedAnim7
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gRevCountRedAnim8
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gRevCountRedAnim9
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gRevCountRedAnim10
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gRevCountRedAnim11
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gRevCountRedAnim12
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gRevCountRedAnim13
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gRevCountRedAnim14
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gRevCountRedAnim15
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  - symbol: gRevCountRedAnim16
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gRevCountRedAnim17
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 4]]
+  - symbol: gRevCountRedAnim18
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 4]]
+  - symbol: gRevCountRedAnim19
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[19, 4]]
+  - symbol: gRevCountRedAnim20
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[20, 4]]
+  - symbol: gRevCountRedAnim21
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[21, 4]]
+  - symbol: gRevCountRedAnim22
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[22, 4]]
+  - symbol: gRevCountRedAnim23
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[23, 4]]
+  - symbol: gRevCountRedAnim24
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[24, 4]]
+  - symbol: gRevCountRedAnim25
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[25, 4]]
+  - symbol: gRevCountRedAnim26
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[26, 4]]
+  - symbol: gRevCountRedAnim27
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[27, 4]]
+  - symbol: gRevCountRedAnim28
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[28, 4]]
+  - symbol: gRevCountRedAnim29
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[29, 4]]
+  - symbol: gRevCountRedAnim30
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[30, 4]]
+  - symbol: gRevCountRedAnim31
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[31, 4]]
+  - symbol: gRevCountRedAnim32
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[32, 4]]
+  - symbol: gRevCountRedAnim33
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[33, 4]]
+  - symbol: gRevCountRedAnim34
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[34, 4]]
+  - symbol: gRevCountRedAnim35
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[35, 4]]
+  - symbol: gRevCountRedAnim36
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[36, 4]]
+  - symbol: gRevCountRedAnim37
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[37, 4]]
+  - symbol: gRevCountRedAnim38
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[38, 4]]
+  - symbol: gRevCountRedAnim39
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[39, 4]]
+  us:
+    address: 0x0909B098
+    size: 3100
+  jp:
+    address: 0x09056908
+    size: 3100
+  eu:
+    address: 0x09180AF4
+    size: 3100
+- name: gRevCountBlueTiles
+  format: sprite_sheet
+  cell: [32, 16]
+  anchor: [2, 7]
+  columns: 8
+  frames:
+  - symbol: gRevCountBlueFrame0
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {layer: 1}]
+  - symbol: gRevCountBlueFrame1
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame2
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame3
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame4
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame5
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame6
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame7
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame8
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame9
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame10
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame11
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame12
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame13
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame14
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame15
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame16
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame17
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame18
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame19
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame20
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame21
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame22
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame23
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame24
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame25
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame26
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame27
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame28
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame29
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame30
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame31
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame32
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame33
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame34
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame35
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame36
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame37
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame38
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame39
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame40
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame41
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame42
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame43
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame44
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame45
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame46
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame47
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame48
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame49
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame50
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame51
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame52
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame53
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame54
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame55
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame56
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame57
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame58
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame59
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame60
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame61
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame62
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame63
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame64
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame65
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame66
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame67
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame68
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame69
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame70
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame71
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame72
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame73
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame74
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame75
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame76
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame77
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame78
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame79
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame80
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame81
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame82
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame83
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame84
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame85
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame86
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame87
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame88
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame89
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame90
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame91
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame92
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame93
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame94
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame95
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame96
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame97
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlueFrame98
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  animations:
+  - symbol: gRevCountBlueAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRevCountBlueAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gRevCountBlueAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRevCountBlueAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRevCountBlueAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gRevCountBlueAnim5
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gRevCountBlueAnim6
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gRevCountBlueAnim7
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gRevCountBlueAnim8
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gRevCountBlueAnim9
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gRevCountBlueAnim10
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gRevCountBlueAnim11
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gRevCountBlueAnim12
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gRevCountBlueAnim13
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gRevCountBlueAnim14
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gRevCountBlueAnim15
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  - symbol: gRevCountBlueAnim16
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gRevCountBlueAnim17
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 4]]
+  - symbol: gRevCountBlueAnim18
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 4]]
+  - symbol: gRevCountBlueAnim19
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[19, 4]]
+  - symbol: gRevCountBlueAnim20
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[20, 4]]
+  - symbol: gRevCountBlueAnim21
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[21, 4]]
+  - symbol: gRevCountBlueAnim22
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[22, 4]]
+  - symbol: gRevCountBlueAnim23
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[23, 4]]
+  - symbol: gRevCountBlueAnim24
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[24, 4]]
+  - symbol: gRevCountBlueAnim25
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[25, 4]]
+  - symbol: gRevCountBlueAnim26
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[26, 4]]
+  - symbol: gRevCountBlueAnim27
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[27, 4]]
+  - symbol: gRevCountBlueAnim28
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[28, 4]]
+  - symbol: gRevCountBlueAnim29
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[29, 4]]
+  - symbol: gRevCountBlueAnim30
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[30, 4]]
+  - symbol: gRevCountBlueAnim31
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[31, 4]]
+  - symbol: gRevCountBlueAnim32
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[32, 4]]
+  - symbol: gRevCountBlueAnim33
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[33, 4]]
+  - symbol: gRevCountBlueAnim34
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[34, 4]]
+  - symbol: gRevCountBlueAnim35
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[35, 4]]
+  - symbol: gRevCountBlueAnim36
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[36, 4]]
+  - symbol: gRevCountBlueAnim37
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[37, 4]]
+  - symbol: gRevCountBlueAnim38
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[38, 4]]
+  - symbol: gRevCountBlueAnim39
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[39, 4]]
+  us:
+    address: 0x0909BCB4
+    size: 3100
+  jp:
+    address: 0x09057524
+    size: 3100
+  eu:
+    address: 0x09181710
+    size: 3100
+- name: gRevCountBlackTiles
+  format: sprite_sheet
+  cell: [32, 16]
+  anchor: [2, 7]
+  columns: 8
+  frames:
+  - symbol: gRevCountBlackFrame0
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {layer: 1}]
+  - symbol: gRevCountBlackFrame1
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame2
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame3
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame4
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame5
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame6
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame7
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame8
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame9
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame10
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame11
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame12
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame13
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame14
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame15
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame16
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame17
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame18
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame19
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame20
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame21
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame22
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame23
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame24
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame25
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame26
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame27
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame28
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame29
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame30
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame31
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame32
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame33
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame34
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame35
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame36
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame37
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame38
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame39
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame40
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame41
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame42
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame43
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame44
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame45
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame46
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame47
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame48
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame49
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame50
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame51
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame52
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame53
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame54
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame55
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame56
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame57
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame58
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame59
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame60
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame61
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame62
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame63
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame64
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame65
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame66
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame67
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame68
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame69
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame70
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame71
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame72
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame73
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame74
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame75
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame76
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame77
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame78
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame79
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame80
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame81
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame82
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame83
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame84
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame85
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame86
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame87
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame88
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame89
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame90
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame91
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame92
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame93
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame94
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame95
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame96
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame97
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountBlackFrame98
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  animations:
+  - symbol: gRevCountBlackAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRevCountBlackAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gRevCountBlackAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRevCountBlackAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRevCountBlackAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gRevCountBlackAnim5
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gRevCountBlackAnim6
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gRevCountBlackAnim7
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gRevCountBlackAnim8
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gRevCountBlackAnim9
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gRevCountBlackAnim10
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gRevCountBlackAnim11
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gRevCountBlackAnim12
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gRevCountBlackAnim13
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gRevCountBlackAnim14
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gRevCountBlackAnim15
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  - symbol: gRevCountBlackAnim16
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gRevCountBlackAnim17
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 4]]
+  - symbol: gRevCountBlackAnim18
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 4]]
+  - symbol: gRevCountBlackAnim19
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[19, 4]]
+  - symbol: gRevCountBlackAnim20
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[20, 4]]
+  - symbol: gRevCountBlackAnim21
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[21, 4]]
+  - symbol: gRevCountBlackAnim22
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[22, 4]]
+  - symbol: gRevCountBlackAnim23
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[23, 4]]
+  - symbol: gRevCountBlackAnim24
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[24, 4]]
+  - symbol: gRevCountBlackAnim25
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[25, 4]]
+  - symbol: gRevCountBlackAnim26
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[26, 4]]
+  - symbol: gRevCountBlackAnim27
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[27, 4]]
+  - symbol: gRevCountBlackAnim28
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[28, 4]]
+  - symbol: gRevCountBlackAnim29
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[29, 4]]
+  - symbol: gRevCountBlackAnim30
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[30, 4]]
+  - symbol: gRevCountBlackAnim31
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[31, 4]]
+  - symbol: gRevCountBlackAnim32
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[32, 4]]
+  - symbol: gRevCountBlackAnim33
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[33, 4]]
+  - symbol: gRevCountBlackAnim34
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[34, 4]]
+  - symbol: gRevCountBlackAnim35
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[35, 4]]
+  - symbol: gRevCountBlackAnim36
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[36, 4]]
+  - symbol: gRevCountBlackAnim37
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[37, 4]]
+  - symbol: gRevCountBlackAnim38
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[38, 4]]
+  - symbol: gRevCountBlackAnim39
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[39, 4]]
+  us:
+    address: 0x0909C8D0
+    size: 3100
+  jp:
+    address: 0x09058140
+    size: 3100
+  eu:
+    address: 0x0918232C
+    size: 3100
+- name: gRevCountGrayTiles
+  format: sprite_sheet
+  cell: [32, 16]
+  anchor: [2, 7]
+  columns: 8
+  frames:
+  - symbol: gRevCountGrayFrame0
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {layer: 1}]
+  - symbol: gRevCountGrayFrame1
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame2
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame3
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame4
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame5
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame6
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame7
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame8
+    pieces:
+    - [8x8, 12, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame9
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame10
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame11
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame12
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame13
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame14
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame15
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame16
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame17
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame18
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [0, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame19
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame20
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame21
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame22
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame23
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame24
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame25
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame26
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame27
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame28
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [1, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame29
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame30
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame31
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame32
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame33
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame34
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame35
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame36
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame37
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame38
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [2, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame39
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame40
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame41
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame42
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame43
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame44
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame45
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame46
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame47
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame48
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [3, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame49
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame50
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame51
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame52
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame53
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame54
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame55
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame56
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame57
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame58
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [4, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame59
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame60
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame61
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame62
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame63
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame64
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame65
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame66
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame67
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame68
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [5, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame69
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame70
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame71
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame72
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame73
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame74
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame75
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame76
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame77
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame78
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [6, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame79
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame80
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame81
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame82
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame83
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame84
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame85
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame86
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame87
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame88
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [7, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame89
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame90
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame91
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame92
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame93
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame94
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame95
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame96
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame97
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  - symbol: gRevCountGrayFrame98
+    pieces:
+    - [8x8, 14, -4]
+    - [8x8, 8, -4, {same: [8, 0]}]
+    - [32x16, -2, -7, {same: [0, 1]}]
+  animations:
+  - symbol: gRevCountGrayAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gRevCountGrayAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 4]]
+  - symbol: gRevCountGrayAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[2, 4]]
+  - symbol: gRevCountGrayAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  - symbol: gRevCountGrayAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  - symbol: gRevCountGrayAnim5
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[5, 4]]
+  - symbol: gRevCountGrayAnim6
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[6, 4]]
+  - symbol: gRevCountGrayAnim7
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 4]]
+  - symbol: gRevCountGrayAnim8
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 4]]
+  - symbol: gRevCountGrayAnim9
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[9, 4]]
+  - symbol: gRevCountGrayAnim10
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 4]]
+  - symbol: gRevCountGrayAnim11
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[11, 4]]
+  - symbol: gRevCountGrayAnim12
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[12, 4]]
+  - symbol: gRevCountGrayAnim13
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[13, 4]]
+  - symbol: gRevCountGrayAnim14
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[14, 4]]
+  - symbol: gRevCountGrayAnim15
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[15, 4]]
+  - symbol: gRevCountGrayAnim16
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[16, 4]]
+  - symbol: gRevCountGrayAnim17
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[17, 4]]
+  - symbol: gRevCountGrayAnim18
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[18, 4]]
+  - symbol: gRevCountGrayAnim19
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[19, 4]]
+  - symbol: gRevCountGrayAnim20
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[20, 4]]
+  - symbol: gRevCountGrayAnim21
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[21, 4]]
+  - symbol: gRevCountGrayAnim22
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[22, 4]]
+  - symbol: gRevCountGrayAnim23
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[23, 4]]
+  - symbol: gRevCountGrayAnim24
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[24, 4]]
+  - symbol: gRevCountGrayAnim25
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[25, 4]]
+  - symbol: gRevCountGrayAnim26
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[26, 4]]
+  - symbol: gRevCountGrayAnim27
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[27, 4]]
+  - symbol: gRevCountGrayAnim28
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[28, 4]]
+  - symbol: gRevCountGrayAnim29
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[29, 4]]
+  - symbol: gRevCountGrayAnim30
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[30, 4]]
+  - symbol: gRevCountGrayAnim31
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[31, 4]]
+  - symbol: gRevCountGrayAnim32
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[32, 4]]
+  - symbol: gRevCountGrayAnim33
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[33, 4]]
+  - symbol: gRevCountGrayAnim34
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[34, 4]]
+  - symbol: gRevCountGrayAnim35
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[35, 4]]
+  - symbol: gRevCountGrayAnim36
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[36, 4]]
+  - symbol: gRevCountGrayAnim37
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[37, 4]]
+  - symbol: gRevCountGrayAnim38
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[38, 4]]
+  - symbol: gRevCountGrayAnim39
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[39, 4]]
+  us:
+    address: 0x0909D4EC
+    size: 3100
+  jp:
+    address: 0x09058D5C
+    size: 3100
+  eu:
+    address: 0x09182F48
+    size: 3100
+- name: gReloadCardBlueTiles
+  format: sprite_sheet
+  cell: [32, 51]
+  anchor: [16, 32]
+  columns: 8
+  frames:
+  - symbol: gReloadCardBlueFrame0
+    pieces:
+    - [32x32, -16, -20]
+    - [32x8, -16, 11]
+  - symbol: gReloadCardBlueFrame1
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gReloadCardBlueFrame2
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gReloadCardBlueFrame3
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gReloadCardBlueFrame4
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlueFrame5
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlueFrame6
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlueFrame7
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlueFrame8
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlueFrame9
+    pieces:
+    - [32x8, -16, -20, {fresh: true}]
+  - symbol: gReloadCardBlueFrame10
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlueFrame11
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlueFrame12
+    pieces:
+    - [32x8, -16, -20, {fresh: true}]
+  animations:
+  - symbol: gReloadCardBlueAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gReloadCardBlueAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 1], [2, 4], [3, 5], [2, 3]]
+  - symbol: gReloadCardBlueAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 1], [5, 4], [6, 5], [5, 3]]
+  - symbol: gReloadCardBlueAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 1], [8, 4], [9, 5], [8, 3]]
+  - symbol: gReloadCardBlueAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 1], [11, 4], [12, 5], [11, 3]]
+  us:
+    address: 0x0909E108
+    size: 3562
+  jp:
+    address: 0x09059978
+    size: 3562
+  eu:
+    address: 0x09183B64
+    size: 3562
+- name: gReloadCardBlackTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 51]
+  anchor: [16, 32]
+  columns: 8
+  frames:
+  - symbol: gReloadCardBlackFrame0
+    pieces:
+    - [32x32, -16, -20]
+    - [32x8, -16, 11]
+  - symbol: gReloadCardBlackFrame1
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gReloadCardBlackFrame2
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gReloadCardBlackFrame3
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gReloadCardBlackFrame4
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlackFrame5
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlackFrame6
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlackFrame7
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlackFrame8
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlackFrame9
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlackFrame10
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlackFrame11
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardBlackFrame12
+    pieces:
+    - [32x8, -16, -20]
+  animations:
+  - symbol: gReloadCardBlackAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gReloadCardBlackAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 1], [2, 4], [3, 5], [2, 3]]
+  - symbol: gReloadCardBlackAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 1], [5, 4], [6, 5], [5, 3]]
+  - symbol: gReloadCardBlackAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 1], [8, 4], [9, 5], [8, 3]]
+  - symbol: gReloadCardBlackAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 1], [11, 4], [12, 5], [11, 3]]
+  us:
+    address: 0x0909EEF4
+    size: 3562
+  jp:
+    address: 0x0905A764
+    size: 3562
+  eu:
+    address: 0x09184950
+    size: 3562
+- name: gReloadCardGreenTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 51]
+  anchor: [16, 32]
+  columns: 8
+  frames:
+  - symbol: gReloadCardGreenFrame0
+    pieces:
+    - [32x32, -16, -20]
+    - [32x8, -16, 11]
+  - symbol: gReloadCardGreenFrame1
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gReloadCardGreenFrame2
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gReloadCardGreenFrame3
+    pieces:
+    - [32x32, -16, -32]
+  - symbol: gReloadCardGreenFrame4
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardGreenFrame5
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardGreenFrame6
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardGreenFrame7
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardGreenFrame8
+    pieces:
+    - [32x8, -16, -20, {fresh: true}]
+  - symbol: gReloadCardGreenFrame9
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardGreenFrame10
+    pieces:
+    - [32x8, -16, -20]
+  - symbol: gReloadCardGreenFrame11
+    pieces:
+    - [32x8, -16, -20, {fresh: true}]
+  - symbol: gReloadCardGreenFrame12
+    pieces:
+    - [32x8, -16, -20]
+  animations:
+  - symbol: gReloadCardGreenAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gReloadCardGreenAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[1, 1], [2, 4], [3, 5], [2, 3]]
+  - symbol: gReloadCardGreenAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 1], [5, 4], [6, 5], [5, 3]]
+  - symbol: gReloadCardGreenAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[7, 1], [8, 4], [9, 5], [8, 3]]
+  - symbol: gReloadCardGreenAnim4
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[10, 1], [11, 4], [12, 5], [11, 3]]
+  us:
+    address: 0x0909FCE0
+    size: 3562
+  jp:
+    address: 0x0905B550
+    size: 3562
+  eu:
+    address: 0x0918573C
+    size: 3562
+- name: gSmallHandCursorTiles
+  format: sprite_sheet
+  cell: [27, 27]
+  anchor: [3, 0]
+  columns: 8
+  frames:
+  - symbol: gSmallHandCursorFrame0
+    pieces:
+    - [16x16, 0, 0]
+    - [8x8, 10, 16]
+    - [8x8, 16, 8]
+  - symbol: gSmallHandCursorFrame1
+    pieces:
+    - [16x16, 0, 1]
+    - [8x8, 10, 17]
+    - [8x8, 16, 9]
+  - symbol: gSmallHandCursorFrame2
+    pieces:
+    - [16x16, 0, 2]
+    - [8x8, 10, 18]
+    - [8x8, 16, 10]
+  - symbol: gSmallHandCursorFrame3
+    pieces:
+    - [16x16, 0, 3]
+    - [8x8, 10, 19]
+    - [8x8, 16, 11]
+  - symbol: gSmallHandCursorFrame4
+    pieces:
+    - [16x16, 0, 0]
+    - [8x16, 16, 0]
+    - [16x8, 7, 16]
+  - symbol: gSmallHandCursorFrame5
+    pieces:
+    - [16x16, -1, 0]
+    - [8x16, 15, 0]
+    - [16x8, 6, 16]
+  - symbol: gSmallHandCursorFrame6
+    pieces:
+    - [16x16, -2, 0]
+    - [8x16, 14, 0]
+    - [16x8, 5, 16]
+  - symbol: gSmallHandCursorFrame7
+    pieces:
+    - [16x16, -3, 0]
+    - [8x16, 13, 0]
+    - [16x8, 4, 16]
+  animations:
+  - symbol: gSmallHandCursorAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4], [1, 3], [2, 3], [3, 4], [2, 3], [1, 3]]
+  - symbol: gSmallHandCursorAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  - symbol: gSmallHandCursorAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4], [5, 3], [6, 3], [7, 4], [6, 3], [5, 3]]
+  - symbol: gSmallHandCursorAnim3
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 4]]
+  us:
+    address: 0x093F4478
+    size: 704
+  jp:
+    address: 0x093AF9A0
+    size: 704
+  eu:
+    address: 0x094C3B00
+    size: 704
+- name: gCardSelectBoxTiles
+  format: sprite_sheet
+  cell: [40, 48]
+  anchor: [0, 0]
+  columns: 5
+  frames:
+  - symbol: gCardSelectBoxFrame0
+    pieces:
+    - [32x8, 0, 0]
+    - [8x32, 0, 8]
+    - [32x8, 0, 40]
+    - [8x32, 32, 16]
+    - [8x16, 32, 0]
+  - symbol: gCardSelectBoxFrame1
+    pieces:
+    - [32x8, 7, 0]
+    - [8x32, 7, 8]
+    - [8x32, 31, 8]
+    - [32x8, 7, 40]
+  - symbol: gCardSelectBoxFrame2
+    pieces:
+    - [32x8, 8, 0]
+    - [8x32, 8, 8]
+    - [8x32, 32, 8]
+    - [32x8, 8, 40]
+  - symbol: gCardSelectBoxFrame3
+    pieces:
+    - [32x8, 8, 0]
+    - [8x32, 8, 8]
+    - [8x32, 32, 8]
+    - [32x8, 8, 40]
+  - symbol: gCardSelectBoxFrame4
+    pieces:
+    - [32x8, 8, 7]
+    - [8x32, 8, 15]
+    - [8x32, 32, 15]
+    - [16x8, 16, 39]
+  animations:
+  - symbol: gCardSelectBoxAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 4], [3, 4], [4, 3]]
+  us:
+    address: 0x093F4738
+    size: 2732
+  jp:
+    address: 0x093AFC60
+    size: 2732
+  eu:
+    address: 0x094C3DC0
+    size: 2732
+- name: gKeyValueTiles
+  format: sprite_sheet
+  cell: [42, 16]
+  anchor: [19, 5]
+  columns: 4
+  frames:
+  - symbol: gKeyValueFrame0
+    pieces:
+    - [16x16, -8, -5]
+  - symbol: gKeyValueFrame1
+    pieces:
+    - [16x16, 0, -5, {layer: 1}]
+    - [16x16, -12, -5, {same: [0, 0]}]
+  - symbol: gKeyValueFrame2
+    pieces:
+    - [16x16, -15, -5, {layer: 1}]
+    - [16x16, -1, -5]
+  - symbol: gKeyValueFrame3
+    pieces:
+    - [16x16, 7, -5, {same: [1, 0]}]
+    - [16x16, -5, -5, {same: [0, 0]}]
+    - [16x16, -19, -5, {same: [2, 0]}]
+  animations:
+  - symbol: gKeyValueAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10]]
+  us:
+    address: 0x093F51E4
+    size: 458
+  jp:
+    address: 0x093B070C
+    size: 458
+  eu:
+    address: 0x094C486C
+    size: 458
+- name: gMapSelectBarTiles
+  format: sprite_sheet
+  align: 4
+  cell: [240, 8]
+  anchor: [128, 0]
+  columns: 2
+  frames:
+  - symbol: gMapSelectBarFrame0
+    pieces:
+    - [32x8, -128, 0]
+    - [32x8, -96, 0]
+    - [32x8, -64, 0]
+    - [32x8, -32, 0]
+    - [32x8, 0, 0]
+    - [32x8, 32, 0]
+    - [32x8, 64, 0]
+    - [16x8, 96, 0]
+  - symbol: gMapSelectBarFrame1
+    pieces:
+    - [32x8, -128, 0, {vflip: true}]
+    - [32x8, -96, 0, {vflip: true}]
+    - [32x8, -64, 0, {vflip: true}]
+    - [32x8, -32, 0, {vflip: true}]
+    - [32x8, 0, 0, {vflip: true}]
+    - [32x8, 32, 0, {vflip: true}]
+    - [32x8, 64, 0, {vflip: true}]
+    - [16x8, 96, 0, {vflip: true}]
+  animations:
+  - symbol: gMapSelectBarAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F53B0
+    size: 306
+  jp:
+    address: 0x093B08D8
+    size: 306
+  eu:
+    address: 0x094C4A38
+    size: 306
+- name: gMapSelectValueBoxTiles
+  format: sprite_sheet
+  align: 4
+  cell: [42, 24]
+  anchor: [2, 0]
+  columns: 5
+  frames:
+  - symbol: gMapSelectValueBoxFrame0
+    pieces:
+    - [32x8, 0, 0]
+    - [8x16, 32, 0]
+    - [32x8, 8, 16]
+    - [8x16, 0, 8]
+  - symbol: gMapSelectValueBoxFrame1
+    pieces:
+    - [32x8, 0, 0]
+    - [8x16, 32, 0]
+    - [32x8, 8, 16]
+    - [8x16, 0, 8]
+  - symbol: gMapSelectValueBoxFrame2
+    pieces:
+    - [32x8, 0, 0]
+    - [8x16, 32, 0]
+    - [32x8, 8, 16]
+    - [8x16, 0, 8]
+  - symbol: gMapSelectValueBoxFrame3
+    pieces:
+    - [32x16, -2, 6]
+    - [8x16, 30, 6]
+  - symbol: gMapSelectValueBoxFrame4
+    pieces:
+    - [32x16, 5, 6]
+  animations:
+  - symbol: gMapSelectValueBoxAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 5], [1, 5], [2, 4], [3, 4], [4, 3]]
+  us:
+    address: 0x093F54E4
+    size: 1864
+  jp:
+    address: 0x093B0A0C
+    size: 1864
+  eu:
+    address: 0x094C4B6C
+    size: 1864
+- name: gMapSelectScrollBarTiles
+  format: sprite_sheet
+  cell: [8, 8]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMapSelectScrollBarFrame0
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gMapSelectScrollBarAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F5C2C
+    size: 52
+  jp:
+    address: 0x093B1154
+    size: 52
+  eu:
+    address: 0x094C52B4
+    size: 52
+- name: gMapCardBorderGreenTiles
+  format: sprite_sheet
+  cell: [32, 39]
+  anchor: [16, 20]
+  columns: 1
+  frames:
+  - symbol: gMapCardBorderGreenFrame0
+    pieces:
+    - [32x8, -16, -20]
+    - [32x32, -16, -13]
+  animations:
+  - symbol: gMapCardBorderGreenAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F5C60
+    size: 666
+  jp:
+    address: 0x093B1188
+    size: 666
+  eu:
+    address: 0x094C52E8
+    size: 666
+- name: gMapCardBorderRedTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 39]
+  anchor: [16, 20]
+  columns: 1
+  frames:
+  - symbol: gMapCardBorderRedFrame0
+    pieces:
+    - [32x8, -16, -20]
+    - [32x32, -16, -13]
+  animations:
+  - symbol: gMapCardBorderRedAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F5EFC
+    size: 666
+  jp:
+    address: 0x093B1424
+    size: 666
+  eu:
+    address: 0x094C5584
+    size: 666
+- name: gMapCardBorderBlueTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 39]
+  anchor: [16, 20]
+  columns: 1
+  frames:
+  - symbol: gMapCardBorderBlueFrame0
+    pieces:
+    - [32x8, -16, -20]
+    - [32x32, -16, -13]
+  animations:
+  - symbol: gMapCardBorderBlueAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F6198
+    size: 666
+  jp:
+    address: 0x093B16C0
+    size: 666
+  eu:
+    address: 0x094C5820
+    size: 666
+- name: gMapCardBorderBlackTiles
+  format: sprite_sheet
+  align: 4
+  cell: [32, 39]
+  anchor: [16, 20]
+  columns: 1
+  frames:
+  - symbol: gMapCardBorderBlackFrame0
+    pieces:
+    - [32x8, -16, -20]
+    - [32x32, -16, -13]
+  animations:
+  - symbol: gMapCardBorderBlackAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F6434
+    size: 666
+  jp:
+    address: 0x093B195C
+    size: 666
+  eu:
+    address: 0x094C5ABC
+    size: 666
+- name: gMapCardUiExtraTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gMapCardUiExtraFrame0
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gMapCardUiExtraFrame1
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gMapCardUiExtraFrame2
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gMapCardUiExtraFrame3
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrame4
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrame5
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrame6
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrame7
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrame8
+    pieces:
+    - [16x16, 0, 0]
+  animations:
+  - symbol: gMapCardUiExtraAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[3, 4]]
+  us:
+    address: 0x093F66D0
+    size: 964
+  jp:
+    address: 0x093B1BF8
+    size: 964
+  eu:
+    address: 0x094C5D58
+    size: 964
+- name: gSelmapEventKeyTitleTiles
+  format: sprite_sheet
+  cell: [208, 16]
+  anchor: [104, 16]
+  columns: 1
+  frames:
+  - symbol: gSelmapEventKeyTitleFrame0
+    pieces:
+    - [32x16, -104, -16]
+    - [32x16, -72, -16]
+    - [32x16, -40, -16]
+    - [32x16, -8, -16]
+    - [32x16, 24, -16]
+    - [32x16, 56, -16]
+    - [16x16, 88, -16]
+  animations:
+  - symbol: gSelmapEventKeyTitleAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F6A94
+    size: 1720
+  jp:
+    address: 0x093B1FBC
+    size: 1196
+    frames:
+    - symbol: gSelmapEventKeyTitleFrame0
+      pieces:
+      - [32x16, -72, -16]
+      - [32x16, -40, -16]
+      - [32x16, -8, -16]
+      - [32x16, 24, -16]
+      - [16x16, 56, -16]
+  eu:
+    address: 0x094C611C
+    size: 1720
+- name: gMapSelectTitleTiles
+  format: sprite_sheet
+  cell: [128, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMapSelectTitleFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [32x16, 96, 0]
+  animations:
+  - symbol: gMapSelectTitleAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F714C
+    size: 1062
+  jp:
+    address: 0x093B2468
+    size: 1062
+  eu:
+    address: 0x094C67D4
+    size: 1062
+- name: gMapSelectTitleFrenchTiles
+  format: sprite_sheet
+  align: 4
+  cell: [128, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMapSelectTitleFrenchFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [32x16, 96, 0]
+  animations:
+  - symbol: gMapSelectTitleFrenchAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094C6BFC
+    size: 1062
+- name: gMapSelectTitleSpanishTiles
+  format: sprite_sheet
+  align: 4
+  cell: [128, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMapSelectTitleSpanishFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [32x16, 96, 0]
+  animations:
+  - symbol: gMapSelectTitleSpanishAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094C7024
+    size: 1062
+- name: gMapSelectTitleItalianTiles
+  format: sprite_sheet
+  align: 4
+  cell: [128, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMapSelectTitleItalianFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [32x16, 96, 0]
+  animations:
+  - symbol: gMapSelectTitleItalianAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094C744C
+    size: 1062
+- name: gMapSelectTitleGermanTiles
+  format: sprite_sheet
+  align: 4
+  cell: [128, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gMapSelectTitleGermanFrame0
+    pieces:
+    - [32x16, 0, 0]
+    - [32x16, 32, 0]
+    - [32x16, 64, 0]
+    - [32x16, 96, 0]
+  animations:
+  - symbol: gMapSelectTitleGermanAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094C7874
+    size: 1062
+- name: gSelmapEventKeyTitleFrenchTiles
+  format: sprite_sheet
+  align: 4
+  cell: [176, 16]
+  anchor: [88, 16]
+  columns: 1
+  frames:
+  - symbol: gSelmapEventKeyTitleFrenchFrame0
+    pieces:
+    - [32x16, -88, -16]
+    - [32x16, -56, -16]
+    - [32x16, -24, -16]
+    - [32x16, 8, -16]
+    - [32x16, 40, -16]
+    - [16x16, 72, -16]
+  animations:
+  - symbol: gSelmapEventKeyTitleFrenchAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094C7C9C
+    size: 1458
+- name: gSelmapEventKeyTitleSpanishTiles
+  format: sprite_sheet
+  align: 4
+  cell: [208, 16]
+  anchor: [104, 16]
+  columns: 1
+  frames:
+  - symbol: gSelmapEventKeyTitleSpanishFrame0
+    pieces:
+    - [32x16, -104, -16]
+    - [32x16, -72, -16]
+    - [32x16, -40, -16]
+    - [32x16, -8, -16]
+    - [32x16, 24, -16]
+    - [32x16, 56, -16]
+    - [16x16, 88, -16]
+  animations:
+  - symbol: gSelmapEventKeyTitleSpanishAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094C8250
+    size: 1720
+- name: gSelmapEventKeyTitleItalianTiles
+  format: sprite_sheet
+  cell: [160, 29]
+  anchor: [80, 26]
+  columns: 1
+  frames:
+  - symbol: gSelmapEventKeyTitleItalianFrame0
+    pieces:
+    - [32x16, -48, -13, {layer: 1}]
+    - [32x16, -16, -13, {layer: 1}]
+    - [32x16, 16, -13, {layer: 1}]
+    - [32x16, -80, -26]
+    - [32x16, -48, -26]
+    - [32x16, -16, -26]
+    - [32x16, 16, -26]
+    - [32x16, 48, -26]
+  animations:
+  - symbol: gSelmapEventKeyTitleItalianAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094C8908
+    size: 2110
+- name: gSelmapEventKeyTitleGermanTiles
+  format: sprite_sheet
+  align: 4
+  cell: [208, 16]
+  anchor: [104, 16]
+  columns: 1
+  frames:
+  - symbol: gSelmapEventKeyTitleGermanFrame0
+    pieces:
+    - [32x16, -104, -16]
+    - [32x16, -72, -16]
+    - [32x16, -40, -16]
+    - [32x16, -8, -16]
+    - [32x16, 24, -16]
+    - [32x16, 56, -16]
+    - [16x16, 88, -16]
+  animations:
+  - symbol: gSelmapEventKeyTitleGermanAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094C9148
+    size: 1720
+- name: gMapCardUiExtraFrenchTiles
+  format: sprite_sheet
+  cell: [16, 16]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gMapCardUiExtraFrenchFrame0
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gMapCardUiExtraFrenchFrame1
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gMapCardUiExtraFrenchFrame2
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gMapCardUiExtraFrenchFrame3
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrenchFrame4
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrenchFrame5
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrenchFrame6
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrenchFrame7
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraFrenchFrame8
+    pieces:
+    - [16x16, 0, 0]
+  animations:
+  - symbol: gMapCardUiExtraFrenchAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: []
+  eu:
+    address: 0x094C9800
+    size: 960
+- name: gMapCardUiExtraSpanishTiles
+  format: sprite_sheet
+  cell: [16, 16]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gMapCardUiExtraSpanishFrame0
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gMapCardUiExtraSpanishFrame1
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gMapCardUiExtraSpanishFrame2
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gMapCardUiExtraSpanishFrame3
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraSpanishFrame4
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraSpanishFrame5
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraSpanishFrame6
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraSpanishFrame7
+    pieces:
+    - [16x16, 0, 0]
+  - symbol: gMapCardUiExtraSpanishFrame8
+    pieces:
+    - [16x16, 0, 0]
+  animations:
+  - symbol: gMapCardUiExtraSpanishAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: []
+  eu:
+    address: 0x094C9BC0
+    size: 960
+- name: gCardSparkleTiles
+  format: sprite_sheet
+  align: 4
+  cell: [16, 16]
+  anchor: [8, 8]
+  columns: 8
+  frames:
+  - symbol: gCardSparkleFrame0
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame1
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame2
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame3
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame4
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame5
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame6
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame7
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame8
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame9
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame10
+    pieces:
+    - [16x16, -8, -8]
+  - symbol: gCardSparkleFrame11
+    pieces:
+    - [16x16, -8, -8]
+  animations:
+  - symbol: gCardSparkleAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 8], [1, 8], [2, 8], [3, 8]]
+  - symbol: gCardSparkleAnim1
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[4, 8], [5, 8], [6, 8], [7, 8]]
+  - symbol: gCardSparkleAnim2
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[8, 8], [9, 8], [10, 8], [11, 8]]
+  us:
+    address: 0x093F7574
+    size: 1722
+  jp:
+    address: 0x093B2890
+    size: 1722
+  eu:
+    address: 0x094C9F80
+    size: 1722
+- name: gMsgBoxTiles
+  format: sprite_sheet
+  align: 4
+  cell: [144, 48]
+  anchor: [72, 24]
+  columns: 2
+  frames:
+  - symbol: gMsgBoxFrame0
+    pieces:
+    - [32x16, -72, -12]
+    - [32x16, -40, -12]
+    - [32x16, -8, -12, {fresh: true}]
+    - [32x16, 24, -12, {fresh: true}]
+    - [16x16, 56, -12]
+    - [32x8, -72, 4]
+    - [32x8, -40, 4]
+    - [32x8, -8, 4, {fresh: true}]
+    - [32x8, 24, 4, {fresh: true}]
+    - [16x8, 56, 4]
+  - symbol: gMsgBoxFrame1
+    pieces:
+    - [64x32, -48, -24]
+    - [32x32, 16, -24]
+    - [32x16, -48, 8]
+    - [32x16, -16, 8]
+    - [32x16, 16, 8]
+  animations:
+  - symbol: gMsgBoxAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093F7C30
+    size: 4140
+  jp:
+    address: 0x093B2F4C
+    size: 4140
+  eu:
+    address: 0x094CA63C
+    size: 4140
+- name: gDialogBoxTiles
+  format: sprite_sheet
+  cell: [128, 48]
+  anchor: [64, 24]
+  columns: 1
+  frames:
+  - symbol: gDialogBoxFrame0
+    pieces:
+    - [64x32, -64, -24]
+    - [64x32, 0, -24]
+    - [32x16, -64, 8]
+    - [32x16, -32, 8]
+    - [32x16, 0, 8, {fresh: true}]
+    - [32x16, 32, 8]
+  animations:
+  - symbol: gDialogBoxAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1]]
+  us:
+    address: 0x093F8C5C
+    size: 3122
+  jp:
+    address: 0x093B3F78
+    size: 3122
+  eu:
+    address: 0x094CB668
+    size: 3122
+- name: gLargeDialogBoxTiles
+  format: sprite_sheet
+  align: 4
+  cell: [192, 64]
+  anchor: [96, 30]
+  columns: 1
+  frames:
+  - symbol: gLargeDialogBoxFrame0
+    pieces:
+    - [64x64, -96, -30]
+    - [64x64, -32, -30]
+    - [64x64, 32, -30]
+  animations:
+  - symbol: gLargeDialogBoxAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: []
+  us:
+    address: 0x093F9890
+    size: 6172
+  jp:
+    address: 0x093B4BAC
+    size: 6172
+  eu:
+    address: 0x094CC29C
+    size: 6172
+- name: gWorldSelBeforeCardTiles
+  format: sprite_sheet
+  cell: [24, 24]
+  anchor: [9, 15]
+  columns: 1
+  frames:
+  - symbol: gWorldSelBeforeCardFrame0
+    pieces:
+    - [16x16, -9, -7]
+    - [8x8, -1, -15]
+    - [8x8, 7, -7]
+  animations:
+  - symbol: gWorldSelBeforeCardAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093FB0AC
+    size: 224
+  jp:
+    address: 0x093B63C8
+    size: 224
+  eu:
+    address: 0x094CDAB8
+    size: 224
+- name: gWorldSelBeforeRingTiles
+  format: sprite_sheet
+  cell: [64, 40]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gWorldSelBeforeRingFrame0
+    pieces:
+    - [64x32, 0, 0]
+    - [32x8, 13, 32]
+    - [8x8, 45, 32]
+  animations:
+  - symbol: gWorldSelBeforeRingAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 10]]
+  us:
+    address: 0x093FB18C
+    size: 1216
+  jp:
+    address: 0x093B64A8
+    size: 1216
+  eu:
+    address: 0x094CDB98
+    size: 1216
+- name: gDarkPointTiles
+  format: sprite_sheet
+  cell: [32, 16]
+  anchor: [0, 0]
+  columns: 8
+  frames:
+  - symbol: gDarkPointFrame0
+    pieces:
+    - [32x16, 0, 0]
+  - symbol: gDarkPointFrame1
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gDarkPointFrame2
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gDarkPointFrame3
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gDarkPointFrame4
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gDarkPointFrame5
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gDarkPointFrame6
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gDarkPointFrame7
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gDarkPointFrame8
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gDarkPointFrame9
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gDarkPointFrame10
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gDarkPointAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 1]]
+  us:
+    address: 0x093FB64C
+    size: 696
+  jp:
+    address: 0x093B6968
+    size: 696
+  eu:
+    address: 0x094CE058
+    size: 696
+- name: gHcEffectCountUnitTiles
+  format: sprite_sheet
+  cell: [8, 8]
+  anchor: [0, 0]
+  columns: 7
+  frames:
+  - symbol: gHcEffectCountUnitFrame0
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrame1
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrame2
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrame3
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrame4
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrame5
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrame6
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gHcEffectCountUnitAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093FB904
+    size: 304
+  jp:
+    address: 0x093B6C20
+    size: 304
+  eu:
+    address: 0x094CE310
+    size: 304
+- name: gHcEffectCountUnitFrenchTiles
+  format: sprite_sheet
+  cell: [8, 8]
+  anchor: [0, 0]
+  columns: 7
+  frames:
+  - symbol: gHcEffectCountUnitFrenchFrame0
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrenchFrame1
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrenchFrame2
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrenchFrame3
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrenchFrame4
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrenchFrame5
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitFrenchFrame6
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gHcEffectCountUnitFrenchAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094CE440
+    size: 304
+- name: gHcEffectCountUnitSpanishTiles
+  format: sprite_sheet
+  cell: [8, 8]
+  anchor: [0, 0]
+  columns: 7
+  frames:
+  - symbol: gHcEffectCountUnitSpanishFrame0
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitSpanishFrame1
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitSpanishFrame2
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitSpanishFrame3
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitSpanishFrame4
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitSpanishFrame5
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitSpanishFrame6
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gHcEffectCountUnitSpanishAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094CE570
+    size: 304
+- name: gHcEffectCountUnitItalianTiles
+  format: sprite_sheet
+  cell: [8, 8]
+  anchor: [0, 0]
+  columns: 7
+  frames:
+  - symbol: gHcEffectCountUnitItalianFrame0
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitItalianFrame1
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitItalianFrame2
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitItalianFrame3
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitItalianFrame4
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitItalianFrame5
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitItalianFrame6
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gHcEffectCountUnitItalianAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094CE6A0
+    size: 304
+- name: gHcEffectCountUnitGermanTiles
+  format: sprite_sheet
+  cell: [8, 8]
+  anchor: [0, 0]
+  columns: 7
+  frames:
+  - symbol: gHcEffectCountUnitGermanFrame0
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitGermanFrame1
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitGermanFrame2
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitGermanFrame3
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitGermanFrame4
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitGermanFrame5
+    pieces:
+    - [8x8, 0, 0]
+  - symbol: gHcEffectCountUnitGermanFrame6
+    pieces:
+    - [8x8, 0, 0]
+  animations:
+  - symbol: gHcEffectCountUnitGermanAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  eu:
+    address: 0x094CE7D0
+    size: 304
+- name: gStockValueFrame0
+  format: sprite_sheet
+  tiles: gStockValueTiles
+  cell: [16, 16]
+  anchor: [0, 0]
+  columns: 1
+  frames:
+  - symbol: gStockValueFrame0
+    pieces:
+    - [16x16, 0, 0, {tile: 0}]
+  animations:
+  - symbol: gStockValueAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093FBA34
+    size: 20
+  jp:
+    address: 0x093B6D50
+    size: 20
+  eu:
+    address: 0x094CE900
+    size: 20
+- name: gSysMsgWinFallbackFrame0
+  format: sprite_sheet
+  tiles: gSysMsgWinFallbackTiles
+  cell: [192, 64]
+  anchor: [96, 30]
+  columns: 1
+  frames:
+  - symbol: gSysMsgWinFallbackFrame0
+    pieces:
+    - [32x16, -96, -30, {tile: 0}]
+    - [32x16, -96, -14, {tile: 4}]
+    - [32x16, -96, 2, {tile: 4}]
+    - [32x16, -96, 18, {tile: 8}]
+    - [32x16, 64, -30, {tile: 16}]
+    - [32x16, 64, -14, {tile: 20}]
+    - [32x16, 64, 2, {tile: 20}]
+    - [32x16, 64, 18, {tile: 24}]
+    - [32x32, -64, -30, {tile: 32}]
+    - [32x32, -64, 2, {tile: 36}]
+    - [32x32, -32, -30, {tile: 32}]
+    - [32x32, -32, 2, {tile: 36}]
+    - [32x32, 0, -30, {tile: 32}]
+    - [32x32, 0, 2, {tile: 36}]
+    - [32x32, 32, -30, {tile: 32}]
+    - [32x32, 32, 2, {tile: 36}]
+  animations:
+  - symbol: gSysMsgWinFallbackAnim0
+    declare: false
+    fields: {originX: 64, originY: 64}
+    frames: [[0, 4]]
+  us:
+    address: 0x093FBA48
+    size: 110
+  jp:
+    address: 0x093B6D64
+    size: 110
+  eu:
+    address: 0x094CE914
+    size: 110
+- name: gStockValueTiles
+  format: tiles4
+  width: 4
+  align: 4
+  us:
+    address: 0x093FBAB8
+    size: 6528
+  jp:
+    address: 0x093B6DD4
+    size: 7552
+  eu:
+    address: 0x094CE984
+    size: 3456
+- name: gSmallHandCursorFrames
+  record: SpriteTable
+  items: [gSmallHandCursorFrame0, gSmallHandCursorFrame1, gSmallHandCursorFrame2, gSmallHandCursorFrame3, gSmallHandCursorFrame4, gSmallHandCursorFrame5, gSmallHandCursorFrame6, gSmallHandCursorFrame7]
+  us:
+    address: 0x09EF1150
+  jp:
+    address: 0x09EC853C
+  eu:
+    address: 0x09F7C334
+- name: gSmallHandCursorAnims
+  record: AnimTable
+  items: [gSmallHandCursorAnim0, gSmallHandCursorAnim1, gSmallHandCursorAnim2, gSmallHandCursorAnim3]
+  us:
+    address: 0x09EF1170
+  jp:
+    address: 0x09EC855C
+  eu:
+    address: 0x09F7C354
+- name: gCardSelectBoxFrames
+  record: SpriteTable
+  items: [gCardSelectBoxFrame0, gCardSelectBoxFrame1, gCardSelectBoxFrame2, gCardSelectBoxFrame3, gCardSelectBoxFrame4]
+  us:
+    address: 0x09EF1180
+  jp:
+    address: 0x09EC856C
+  eu:
+    address: 0x09F7C364
+- name: gCardSelectBoxAnims
+  record: AnimTable
+  items: [gCardSelectBoxAnim0]
+  us:
+    address: 0x09EF1194
+  jp:
+    address: 0x09EC8580
+  eu:
+    address: 0x09F7C378
+- name: gKeyValueFrames
+  record: SpriteTable
+  items: [gKeyValueFrame0, gKeyValueFrame1, gKeyValueFrame2, gKeyValueFrame3]
+  us:
+    address: 0x09EF1198
+  jp:
+    address: 0x09EC8584
+  eu:
+    address: 0x09F7C37C
+- name: gKeyValueAnims
+  record: AnimTable
+  items: [gKeyValueAnim0]
+  us:
+    address: 0x09EF11A8
+  jp:
+    address: 0x09EC8594
+  eu:
+    address: 0x09F7C38C
+- name: gMapSelectBarFrames
+  record: SpriteTable
+  items: [gMapSelectBarFrame0, gMapSelectBarFrame1]
+  us:
+    address: 0x09EF11AC
+  jp:
+    address: 0x09EC8598
+  eu:
+    address: 0x09F7C390
+- name: gMapSelectBarAnims
+  record: AnimTable
+  items: [gMapSelectBarAnim0]
+  us:
+    address: 0x09EF11B4
+  jp:
+    address: 0x09EC85A0
+  eu:
+    address: 0x09F7C398
+- name: gMapSelectValueBoxFrames
+  record: SpriteTable
+  items: [gMapSelectValueBoxFrame0, gMapSelectValueBoxFrame1, gMapSelectValueBoxFrame2, gMapSelectValueBoxFrame3, gMapSelectValueBoxFrame4]
+  us:
+    address: 0x09EF11B8
+  jp:
+    address: 0x09EC85A4
+  eu:
+    address: 0x09F7C39C
+- name: gMapSelectValueBoxAnims
+  record: AnimTable
+  items: [gMapSelectValueBoxAnim0]
+  us:
+    address: 0x09EF11CC
+  jp:
+    address: 0x09EC85B8
+  eu:
+    address: 0x09F7C3B0
+- name: gMapSelectScrollBarFrames
+  record: SpriteTable
+  items: [gMapSelectScrollBarFrame0]
+  us:
+    address: 0x09EF11D0
+  jp:
+    address: 0x09EC85BC
+  eu:
+    address: 0x09F7C3B4
+- name: gMapSelectScrollBarAnims
+  record: AnimTable
+  items: [gMapSelectScrollBarAnim0]
+  us:
+    address: 0x09EF11D4
+  jp:
+    address: 0x09EC85C0
+  eu:
+    address: 0x09F7C3B8
+- name: gMapCardBorderGreenFrames
+  record: SpriteTable
+  items: [gMapCardBorderGreenFrame0]
+  us:
+    address: 0x09EF11D8
+  jp:
+    address: 0x09EC85C4
+  eu:
+    address: 0x09F7C3BC
+- name: gMapCardBorderGreenAnims
+  record: AnimTable
+  items: [gMapCardBorderGreenAnim0]
+  us:
+    address: 0x09EF11DC
+  jp:
+    address: 0x09EC85C8
+  eu:
+    address: 0x09F7C3C0
+- name: gMapCardBorderRedFrames
+  record: SpriteTable
+  items: [gMapCardBorderRedFrame0]
+  us:
+    address: 0x09EF11E0
+  jp:
+    address: 0x09EC85CC
+  eu:
+    address: 0x09F7C3C4
+- name: gMapCardBorderRedAnims
+  record: AnimTable
+  items: [gMapCardBorderRedAnim0]
+  us:
+    address: 0x09EF11E4
+  jp:
+    address: 0x09EC85D0
+  eu:
+    address: 0x09F7C3C8
+- name: gMapCardBorderBlueFrames
+  record: SpriteTable
+  items: [gMapCardBorderBlueFrame0]
+  us:
+    address: 0x09EF11E8
+  jp:
+    address: 0x09EC85D4
+  eu:
+    address: 0x09F7C3CC
+- name: gMapCardBorderBlueAnims
+  record: AnimTable
+  items: [gMapCardBorderBlueAnim0]
+  us:
+    address: 0x09EF11EC
+  jp:
+    address: 0x09EC85D8
+  eu:
+    address: 0x09F7C3D0
+- name: gMapCardBorderBlackFrames
+  record: SpriteTable
+  items: [gMapCardBorderBlackFrame0]
+  us:
+    address: 0x09EF11F0
+  jp:
+    address: 0x09EC85DC
+  eu:
+    address: 0x09F7C3D4
+- name: gMapCardBorderBlackAnims
+  record: AnimTable
+  items: [gMapCardBorderBlackAnim0]
+  us:
+    address: 0x09EF11F4
+  jp:
+    address: 0x09EC85E0
+  eu:
+    address: 0x09F7C3D8
+- name: gMapCardUiExtraFrames
+  record: SpriteTable
+  items: [gMapCardUiExtraFrame0, gMapCardUiExtraFrame1, gMapCardUiExtraFrame2, gMapCardUiExtraFrame3, gMapCardUiExtraFrame4, gMapCardUiExtraFrame5, gMapCardUiExtraFrame6, gMapCardUiExtraFrame7, gMapCardUiExtraFrame8]
+  us:
+    address: 0x09EF11F8
+  jp:
+    address: 0x09EC85E4
+  eu:
+    address: 0x09F7C3DC
+- name: gMapCardUiExtraAnims
+  record: AnimTable
+  items: [gMapCardUiExtraAnim0]
+  us:
+    address: 0x09EF121C
+  jp:
+    address: 0x09EC8608
+  eu:
+    address: 0x09F7C400
+- name: gSelmapEventKeyTitleFrames
+  record: SpriteTable
+  items: [gSelmapEventKeyTitleFrame0]
+  us:
+    address: 0x09EF1220
+  jp:
+    address: 0x09EC860C
+  eu:
+    address: 0x09F7C404
+- name: gSelmapEventKeyTitleAnims
+  record: AnimTable
+  items: [gSelmapEventKeyTitleAnim0]
+  us:
+    address: 0x09EF1224
+  jp:
+    address: 0x09EC8610
+  eu:
+    address: 0x09F7C408
+- name: gMapSelectTitleFrames
+  record: SpriteTable
+  items: [gMapSelectTitleFrame0]
+  us:
+    address: 0x09EF1228
+  jp:
+    address: 0x09EC8614
+  eu:
+    address: 0x09F7C40C
+- name: gMapSelectTitleAnims
+  record: AnimTable
+  items: [gMapSelectTitleAnim0]
+  us:
+    address: 0x09EF122C
+  jp:
+    address: 0x09EC8618
+  eu:
+    address: 0x09F7C410
+- name: gCardSparkleFrames
+  record: SpriteTable
+  items: [gCardSparkleFrame0, gCardSparkleFrame1, gCardSparkleFrame2, gCardSparkleFrame3, gCardSparkleFrame4, gCardSparkleFrame5, gCardSparkleFrame6, gCardSparkleFrame7, gCardSparkleFrame8, gCardSparkleFrame9, gCardSparkleFrame10, gCardSparkleFrame11]
+  us:
+    address: 0x09EF1230
+  jp:
+    address: 0x09EC861C
+  eu:
+    address: 0x09F7C4A4
+- name: gCardSparkleAnims
+  record: AnimTable
+  items: [gCardSparkleAnim0, gCardSparkleAnim1, gCardSparkleAnim2]
+  us:
+    address: 0x09EF1260
+  jp:
+    address: 0x09EC864C
+  eu:
+    address: 0x09F7C4D4
+- name: gMsgBoxFrames
+  record: SpriteTable
+  items: [gMsgBoxFrame0, gMsgBoxFrame1]
+  us:
+    address: 0x09EF126C
+  jp:
+    address: 0x09EC8658
+  eu:
+    address: 0x09F7C4E0
+- name: gMsgBoxAnims
+  record: AnimTable
+  items: [gMsgBoxAnim0]
+  us:
+    address: 0x09EF1274
+  jp:
+    address: 0x09EC8660
+  eu:
+    address: 0x09F7C4E8
+- name: gDialogBoxFrames
+  record: SpriteTable
+  items: [gDialogBoxFrame0]
+  us:
+    address: 0x09EF1278
+  jp:
+    address: 0x09EC8664
+  eu:
+    address: 0x09F7C4EC
+- name: gDialogBoxAnims
+  record: AnimTable
+  items: [gDialogBoxAnim0]
+  us:
+    address: 0x09EF127C
+  jp:
+    address: 0x09EC8668
+  eu:
+    address: 0x09F7C4F0
+- name: gLargeDialogBoxFrames
+  record: SpriteTable
+  items: [gLargeDialogBoxFrame0]
+  us:
+    address: 0x09EF1280
+  jp:
+    address: 0x09EC866C
+  eu:
+    address: 0x09F7C4F4
+- name: gLargeDialogBoxAnims
+  record: AnimTable
+  items: [gLargeDialogBoxAnim0]
+  us:
+    address: 0x09EF1284
+  jp:
+    address: 0x09EC8670
+  eu:
+    address: 0x09F7C4F8
+- name: gWorldSelBeforeCardFrames
+  record: SpriteTable
+  items: [gWorldSelBeforeCardFrame0]
+  us:
+    address: 0x09EF1288
+  jp:
+    address: 0x09EC8674
+  eu:
+    address: 0x09F7C4FC
+- name: gWorldSelBeforeCardAnims
+  record: AnimTable
+  items: [gWorldSelBeforeCardAnim0]
+  us:
+    address: 0x09EF128C
+  jp:
+    address: 0x09EC8678
+  eu:
+    address: 0x09F7C500
+- name: gWorldSelBeforeRingFrames
+  record: SpriteTable
+  items: [gWorldSelBeforeRingFrame0]
+  us:
+    address: 0x09EF1290
+  jp:
+    address: 0x09EC867C
+  eu:
+    address: 0x09F7C504
+- name: gWorldSelBeforeRingAnims
+  record: AnimTable
+  items: [gWorldSelBeforeRingAnim0]
+  us:
+    address: 0x09EF1294
+  jp:
+    address: 0x09EC8680
+  eu:
+    address: 0x09F7C508
+- name: gDarkPointFrames
+  record: SpriteTable
+  items: [gDarkPointFrame0, gDarkPointFrame1, gDarkPointFrame2, gDarkPointFrame3, gDarkPointFrame4, gDarkPointFrame5, gDarkPointFrame6, gDarkPointFrame7, gDarkPointFrame8, gDarkPointFrame9, gDarkPointFrame10]
+  us:
+    address: 0x09EF1298
+  jp:
+    address: 0x09EC8684
+  eu:
+    address: 0x09F7C50C
+- name: gDarkPointAnims
+  record: AnimTable
+  items: [gDarkPointAnim0]
+  us:
+    address: 0x09EF12C4
+  jp:
+    address: 0x09EC86B0
+  eu:
+    address: 0x09F7C538
+- name: gHcEffectCountUnitFrames
+  record: SpriteTable
+  items: [gHcEffectCountUnitFrame0, gHcEffectCountUnitFrame1, gHcEffectCountUnitFrame2, gHcEffectCountUnitFrame3, gHcEffectCountUnitFrame4, gHcEffectCountUnitFrame5, gHcEffectCountUnitFrame6]
+  us:
+    address: 0x09EF12C8
+  jp:
+    address: 0x09EC86B4
+  eu:
+    address: 0x09F7C53C
+- name: gHcEffectCountUnitAnims
+  record: AnimTable
+  items: [gHcEffectCountUnitAnim0]
+  us:
+    address: 0x09EF12E4
+  jp:
+    address: 0x09EC86D0
+  eu:
+    address: 0x09F7C558
+- name: gStockValueFrames
+  record: SpriteTable
+  items: [gStockValueFrame0]
+  us:
+    address: 0x09EF12E8
+  jp:
+    address: 0x09EC86D4
+  eu:
+    address: 0x09F7C5DC
+- name: gStockValueAnims
+  record: AnimTable
+  items: [gStockValueAnim0]
+  us:
+    address: 0x09EF12EC
+  jp:
+    address: 0x09EC86D8
+  eu:
+    address: 0x09F7C5E0
+- name: gSysMsgWinFallbackFrames
+  record: SpriteTable
+  items: [gSysMsgWinFallbackFrame0]
+  us:
+    address: 0x09EF12F0
+  jp:
+    address: 0x09EC86DC
+  eu:
+    address: 0x09F7C5E4
+- name: gSysMsgWinFallbackAnims
+  record: AnimTable
+  items: [gSysMsgWinFallbackAnim0]
+  us:
+    address: 0x09EF12F4
+  jp:
+    address: 0x09EC86E0
+  eu:
+    address: 0x09F7C5E8
+- name: gMapSelectTitleFrenchFrames
+  record: SpriteTable
+  items: [gMapSelectTitleFrenchFrame0]
+  eu:
+    address: 0x09F7C414
+- name: gMapSelectTitleFrenchAnims
+  record: AnimTable
+  items: [gMapSelectTitleFrenchAnim0]
+  eu:
+    address: 0x09F7C418
+- name: gMapSelectTitleSpanishFrames
+  record: SpriteTable
+  items: [gMapSelectTitleSpanishFrame0]
+  eu:
+    address: 0x09F7C41C
+- name: gMapSelectTitleSpanishAnims
+  record: AnimTable
+  items: [gMapSelectTitleSpanishAnim0]
+  eu:
+    address: 0x09F7C420
+- name: gMapSelectTitleItalianFrames
+  record: SpriteTable
+  items: [gMapSelectTitleItalianFrame0]
+  eu:
+    address: 0x09F7C424
+- name: gMapSelectTitleItalianAnims
+  record: AnimTable
+  items: [gMapSelectTitleItalianAnim0]
+  eu:
+    address: 0x09F7C428
+- name: gMapSelectTitleGermanFrames
+  record: SpriteTable
+  items: [gMapSelectTitleGermanFrame0]
+  eu:
+    address: 0x09F7C42C
+- name: gMapSelectTitleGermanAnims
+  record: AnimTable
+  items: [gMapSelectTitleGermanAnim0]
+  eu:
+    address: 0x09F7C430
+- name: gSelmapEventKeyTitleFrenchFrames
+  record: SpriteTable
+  items: [gSelmapEventKeyTitleFrenchFrame0]
+  eu:
+    address: 0x09F7C434
+- name: gSelmapEventKeyTitleFrenchAnims
+  record: AnimTable
+  items: [gSelmapEventKeyTitleFrenchAnim0]
+  eu:
+    address: 0x09F7C438
+- name: gSelmapEventKeyTitleSpanishFrames
+  record: SpriteTable
+  items: [gSelmapEventKeyTitleSpanishFrame0]
+  eu:
+    address: 0x09F7C43C
+- name: gSelmapEventKeyTitleSpanishAnims
+  record: AnimTable
+  items: [gSelmapEventKeyTitleSpanishAnim0]
+  eu:
+    address: 0x09F7C440
+- name: gSelmapEventKeyTitleItalianFrames
+  record: SpriteTable
+  items: [gSelmapEventKeyTitleItalianFrame0]
+  eu:
+    address: 0x09F7C444
+- name: gSelmapEventKeyTitleItalianAnims
+  record: AnimTable
+  items: [gSelmapEventKeyTitleItalianAnim0]
+  eu:
+    address: 0x09F7C448
+- name: gSelmapEventKeyTitleGermanFrames
+  record: SpriteTable
+  items: [gSelmapEventKeyTitleGermanFrame0]
+  eu:
+    address: 0x09F7C44C
+- name: gSelmapEventKeyTitleGermanAnims
+  record: AnimTable
+  items: [gSelmapEventKeyTitleGermanAnim0]
+  eu:
+    address: 0x09F7C450
+- name: gMapCardUiExtraFrenchFrames
+  record: SpriteTable
+  items: [gMapCardUiExtraFrenchFrame0, gMapCardUiExtraFrenchFrame1, gMapCardUiExtraFrenchFrame2, gMapCardUiExtraFrenchFrame3, gMapCardUiExtraFrenchFrame4, gMapCardUiExtraFrenchFrame5, gMapCardUiExtraFrenchFrame6, gMapCardUiExtraFrenchFrame7, gMapCardUiExtraFrenchFrame8]
+  eu:
+    address: 0x09F7C454
+- name: gMapCardUiExtraFrenchAnims
+  record: AnimTable
+  items: [gMapCardUiExtraFrenchAnim0]
+  eu:
+    address: 0x09F7C478
+- name: gMapCardUiExtraSpanishFrames
+  record: SpriteTable
+  items: [gMapCardUiExtraSpanishFrame0, gMapCardUiExtraSpanishFrame1, gMapCardUiExtraSpanishFrame2, gMapCardUiExtraSpanishFrame3, gMapCardUiExtraSpanishFrame4, gMapCardUiExtraSpanishFrame5, gMapCardUiExtraSpanishFrame6, gMapCardUiExtraSpanishFrame7, gMapCardUiExtraSpanishFrame8]
+  eu:
+    address: 0x09F7C47C
+- name: gMapCardUiExtraSpanishAnims
+  record: AnimTable
+  items: [gMapCardUiExtraSpanishAnim0]
+  eu:
+    address: 0x09F7C4A0
+- name: gHcEffectCountUnitFrenchFrames
+  record: SpriteTable
+  items: [gHcEffectCountUnitFrenchFrame0, gHcEffectCountUnitFrenchFrame1, gHcEffectCountUnitFrenchFrame2, gHcEffectCountUnitFrenchFrame3, gHcEffectCountUnitFrenchFrame4, gHcEffectCountUnitFrenchFrame5, gHcEffectCountUnitFrenchFrame6]
+  eu:
+    address: 0x09F7C55C
+- name: gHcEffectCountUnitFrenchAnims
+  record: AnimTable
+  items: [gHcEffectCountUnitFrenchAnim0]
+  eu:
+    address: 0x09F7C578
+- name: gHcEffectCountUnitSpanishFrames
+  record: SpriteTable
+  items: [gHcEffectCountUnitSpanishFrame0, gHcEffectCountUnitSpanishFrame1, gHcEffectCountUnitSpanishFrame2, gHcEffectCountUnitSpanishFrame3, gHcEffectCountUnitSpanishFrame4, gHcEffectCountUnitSpanishFrame5, gHcEffectCountUnitSpanishFrame6]
+  eu:
+    address: 0x09F7C57C
+- name: gHcEffectCountUnitSpanishAnims
+  record: AnimTable
+  items: [gHcEffectCountUnitSpanishAnim0]
+  eu:
+    address: 0x09F7C598
+- name: gHcEffectCountUnitItalianFrames
+  record: SpriteTable
+  items: [gHcEffectCountUnitItalianFrame0, gHcEffectCountUnitItalianFrame1, gHcEffectCountUnitItalianFrame2, gHcEffectCountUnitItalianFrame3, gHcEffectCountUnitItalianFrame4, gHcEffectCountUnitItalianFrame5, gHcEffectCountUnitItalianFrame6]
+  eu:
+    address: 0x09F7C59C
+- name: gHcEffectCountUnitItalianAnims
+  record: AnimTable
+  items: [gHcEffectCountUnitItalianAnim0]
+  eu:
+    address: 0x09F7C5B8
+- name: gHcEffectCountUnitGermanFrames
+  record: SpriteTable
+  items: [gHcEffectCountUnitGermanFrame0, gHcEffectCountUnitGermanFrame1, gHcEffectCountUnitGermanFrame2, gHcEffectCountUnitGermanFrame3, gHcEffectCountUnitGermanFrame4, gHcEffectCountUnitGermanFrame5, gHcEffectCountUnitGermanFrame6]
+  eu:
+    address: 0x09F7C5BC
+- name: gHcEffectCountUnitGermanAnims
+  record: AnimTable
+  items: [gHcEffectCountUnitGermanAnim0]
+  eu:
+    address: 0x09F7C5D8
+- name: gLevelUpStatLabelTiles
+  format: tiles4
+  width: 32
+  eu:
+    address: 0x094CF704
+    size: 3072

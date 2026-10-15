@@ -1,0 +1,7 @@
+gUnk_09EF082F = 0x09ec7c1b
+gUnk_09A34898 = 0x099e9320
+gNumMusicPlayers = 0x0000001a
+gMaxLines = 0x00000050
+gUnk_09D6D2D8 = 0x09d467e4
+gUnk_08F70AC0 = 0x08f63fc8
+gSramFileLarge = 0x0e002f20

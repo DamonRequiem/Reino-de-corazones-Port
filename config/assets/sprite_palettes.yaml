@@ -1,0 +1,8031 @@
+group: sprite_palettes
+types: {}
+objects:
+  us:
+  - name: sprite_palettes_1.s
+    start: 0x08F68384
+    end: 0x08F683C4
+  - name: sprite_palettes_2.s
+    start: 0x08F697A4
+    end: 0x08F69C04
+  - name: sprite_palettes_3.s
+    start: 0x08F6DC24
+    end: 0x08F6DD04
+  - name: sprite_palettes_4.s
+    start: 0x09611AB8
+    end: 0x09613E98
+  - name: sprite_palettes_5.s
+    start: 0x09613E98
+    end: 0x096151D8
+  - name: sprite_palettes_6.s
+    start: 0x09617C58
+    end: 0x096193B8
+  - name: sprite_palettes_7.s
+    start: 0x096FAC64
+    end: 0x096FAC84
+  - name: sprite_palettes_8.s
+    start: 0x096FB2A4
+    end: 0x096FB304
+  - name: sprite_palettes_9.s
+    start: 0x096FB864
+    end: 0x096FBF24
+  - name: sprite_palettes_10.s
+    start: 0x09849A98
+    end: 0x0984A1F8
+  - name: sprite_palettes_11.s
+    start: 0x0984AF78
+    end: 0x0984B118
+  - name: sprite_palettes_12.s
+    start: 0x099910C4
+    end: 0x099912A4
+  - name: sprite_palettes_13.s
+    start: 0x09991924
+    end: 0x09991D44
+  - name: sprite_palettes_14.s
+    start: 0x09A3C89C
+    end: 0x09A3D09C
+  - name: sprite_palettes_15.s
+    start: 0x09A3D57C
+    end: 0x09A3D5DC
+  - name: sprite_palettes_16.s
+    start: 0x09A3DE7C
+    end: 0x09A3DE9C
+  - name: sprite_palettes_17.s
+    start: 0x09D69274
+    end: 0x09D69374
+  - name: sprite_palettes_18.s
+    start: 0x09D6CF34
+    end: 0x09D6D134
+  - name: sprite_palettes_20.s
+    start: 0x08F69C04
+    end: 0x08F69C24
+  jp:
+  - name: sprite_palettes_1.s
+    start: 0x08F5B88C
+    end: 0x08F5B8CC
+  - name: sprite_palettes_2.s
+    start: 0x08F5CCAC
+    end: 0x08F5D10C
+  - name: sprite_palettes_3.s
+    start: 0x08F6112C
+    end: 0x08F6120C
+  - name: sprite_palettes_4.s
+    start: 0x095CA594
+    end: 0x095CC974
+  - name: sprite_palettes_5.s
+    start: 0x095CC974
+    end: 0x095CDCB4
+  - name: sprite_palettes_6.s
+    start: 0x095D0734
+    end: 0x095D1E94
+  - name: sprite_palettes_7.s
+    start: 0x096B3440
+    end: 0x096B3460
+  - name: sprite_palettes_8.s
+    start: 0x096B3A80
+    end: 0x096B3AE0
+  - name: sprite_palettes_9.s
+    start: 0x096B4040
+    end: 0x096B4700
+  - name: sprite_palettes_10.s
+    start: 0x097FE76C
+    end: 0x097FEECC
+  - name: sprite_palettes_11.s
+    start: 0x097FFC4C
+    end: 0x097FFDEC
+  - name: sprite_palettes_12.s
+    start: 0x09945BD8
+    end: 0x09945DB8
+  - name: sprite_palettes_13.s
+    start: 0x09946438
+    end: 0x09946858
+  - name: sprite_palettes_14.s
+    start: 0x099F1324
+    end: 0x099F1B24
+  - name: sprite_palettes_15.s
+    start: 0x099F2004
+    end: 0x099F2064
+  - name: sprite_palettes_16.s
+    start: 0x099F2904
+    end: 0x099F2924
+  - name: sprite_palettes_17.s
+    start: 0x09D42780
+    end: 0x09D42880
+  - name: sprite_palettes_18.s
+    start: 0x09D46440
+    end: 0x09D46640
+  - name: sprite_palettes_20.s
+    start: 0x08F5D10C
+    end: 0x08F5D12C
+  eu:
+  - name: sprite_palettes_1.s
+    start: 0x08F648DC
+    end: 0x08F6491C
+  - name: sprite_palettes_2.s
+    start: 0x08F65CFC
+    end: 0x08F6615C
+  - name: sprite_palettes_3.s
+    start: 0x08F6A17C
+    end: 0x08F6A25C
+  - name: sprite_palettes_4.s
+    start: 0x08F6A6DC
+    end: 0x08F6A6FC
+  - name: sprite_palettes_5.s
+    start: 0x09544B24
+    end: 0x09546D84
+  - name: sprite_palettes_6.s
+    start: 0x09546D84
+    end: 0x095480C4
+  - name: sprite_palettes_7.s
+    start: 0x0954AB44
+    end: 0x0954C284
+  - name: sprite_palettes_8.s
+    start: 0x096C818C
+    end: 0x096C81AC
+  - name: sprite_palettes_9.s
+    start: 0x096C87CC
+    end: 0x096C882C
+  - name: sprite_palettes_10.s
+    start: 0x096C8D8C
+    end: 0x096C934C
+  - name: sprite_palettes_11.s
+    start: 0x0981E140
+    end: 0x0981E8A0
+  - name: sprite_palettes_12.s
+    start: 0x0981F620
+    end: 0x0981F7C0
+  - name: sprite_palettes_13.s
+    start: 0x099970B0
+    end: 0x09997290
+  - name: sprite_palettes_14.s
+    start: 0x09997910
+    end: 0x09997D30
+  - name: sprite_palettes_15.s
+    start: 0x09A9A360
+    end: 0x09A9AB60
+  - name: sprite_palettes_16.s
+    start: 0x09A9B040
+    end: 0x09A9B0A0
+  - name: sprite_palettes_17.s
+    start: 0x09A9B940
+    end: 0x09A9B960
+  - name: sprite_palettes_18.s
+    start: 0x09DD91A0
+    end: 0x09DD92A0
+  - name: sprite_palettes_19.s
+    start: 0x09DDCE60
+    end: 0x09DDD060
+  - name: sprite_palettes_20.s
+    start: 0x08F6615C
+    end: 0x08F6617C
+  - name: sprite_palettes_21.s
+    start: 0x095DA7F8
+    end: 0x095DA818
+entries:
+- name: goofy
+  format: palette
+  symbol: gGoofyPalette
+  us:
+    address: 0x08F68384
+    size: 32
+  jp:
+    address: 0x08F5B88C
+    size: 32
+  eu:
+    address: 0x08F648DC
+    size: 32
+- name: sora
+  format: palette
+  symbol: gSoraPalette
+  us:
+    address: 0x08F683A4
+    size: 32
+  jp:
+    address: 0x08F5B8AC
+    size: 32
+  eu:
+    address: 0x08F648FC
+    size: 32
+- name: emy_00
+  format: palette
+  symbol: gEmy00Palette
+  us:
+    address: 0x08F697A4
+    size: 32
+  jp:
+    address: 0x08F5CCAC
+    size: 32
+  eu:
+    address: 0x08F65CFC
+    size: 32
+- name: emy_38
+  format: palette
+  symbol: gEmy38Palette
+  us:
+    address: 0x08F697C4
+    size: 32
+  jp:
+    address: 0x08F5CCCC
+    size: 32
+  eu:
+    address: 0x08F65D1C
+    size: 32
+- name: emy_14
+  format: palette
+  symbol: gEmy14Palette
+  us:
+    address: 0x08F697E4
+    size: 32
+  jp:
+    address: 0x08F5CCEC
+    size: 32
+  eu:
+    address: 0x08F65D3C
+    size: 32
+- name: emy_01
+  format: palette
+  symbol: gEmy01Palette
+  us:
+    address: 0x08F69804
+    size: 32
+  jp:
+    address: 0x08F5CD0C
+    size: 32
+  eu:
+    address: 0x08F65D5C
+    size: 32
+- name: emy_02
+  format: palette
+  symbol: gEmy02Palette
+  us:
+    address: 0x08F69824
+    size: 32
+  jp:
+    address: 0x08F5CD2C
+    size: 32
+  eu:
+    address: 0x08F65D7C
+    size: 32
+- name: emy_03
+  format: palette
+  symbol: gEmy03Palette
+  us:
+    address: 0x08F69844
+    size: 32
+  jp:
+    address: 0x08F5CD4C
+    size: 32
+  eu:
+    address: 0x08F65D9C
+    size: 32
+- name: emy_04
+  format: palette
+  symbol: gEmy04Palette
+  us:
+    address: 0x08F69864
+    size: 32
+  jp:
+    address: 0x08F5CD6C
+    size: 32
+  eu:
+    address: 0x08F65DBC
+    size: 32
+- name: emy_21
+  format: palette
+  symbol: gEmy21Palette
+  us:
+    address: 0x08F69884
+    size: 32
+  jp:
+    address: 0x08F5CD8C
+    size: 32
+  eu:
+    address: 0x08F65DDC
+    size: 32
+- name: emy_07
+  format: palette
+  symbol: gEmy07Palette
+  us:
+    address: 0x08F698A4
+    size: 32
+  jp:
+    address: 0x08F5CDAC
+    size: 32
+  eu:
+    address: 0x08F65DFC
+    size: 32
+- name: emy_07m
+  format: palette
+  symbol: gEmy07mPalette
+  us:
+    address: 0x08F698C4
+    size: 32
+  jp:
+    address: 0x08F5CDCC
+    size: 32
+  eu:
+    address: 0x08F65E1C
+    size: 32
+- name: emy_07b
+  format: palette
+  symbol: gEmy07bPalette
+  us:
+    address: 0x08F698E4
+    size: 32
+  jp:
+    address: 0x08F5CDEC
+    size: 32
+  eu:
+    address: 0x08F65E3C
+    size: 32
+- name: emy_31
+  format: palette
+  symbol: gEmy31Palette
+  us:
+    address: 0x08F69904
+    size: 32
+  jp:
+    address: 0x08F5CE0C
+    size: 32
+  eu:
+    address: 0x08F65E5C
+    size: 32
+- name: emy_06
+  format: palette
+  symbol: gEmy06Palette
+  us:
+    address: 0x08F69924
+    size: 32
+  jp:
+    address: 0x08F5CE2C
+    size: 32
+  eu:
+    address: 0x08F65E7C
+    size: 32
+- name: emy_15
+  format: palette
+  symbol: gEmy15Palette
+  us:
+    address: 0x08F69944
+    size: 32
+  jp:
+    address: 0x08F5CE4C
+    size: 32
+  eu:
+    address: 0x08F65E9C
+    size: 32
+- name: emy_19
+  format: palette
+  symbol: gEmy19Palette
+  us:
+    address: 0x08F69964
+    size: 32
+  jp:
+    address: 0x08F5CE6C
+    size: 32
+  eu:
+    address: 0x08F65EBC
+    size: 32
+- name: emy_23
+  format: palette
+  symbol: gEmy23Palette
+  us:
+    address: 0x08F69984
+    size: 32
+  jp:
+    address: 0x08F5CE8C
+    size: 32
+  eu:
+    address: 0x08F65EDC
+    size: 32
+- name: emy_41
+  format: palette
+  symbol: gEmy41Palette
+  us:
+    address: 0x08F699A4
+    size: 32
+  jp:
+    address: 0x08F5CEAC
+    size: 32
+  eu:
+    address: 0x08F65EFC
+    size: 32
+- name: emy_16
+  format: palette
+  symbol: gEmy16Palette
+  us:
+    address: 0x08F699C4
+    size: 32
+  jp:
+    address: 0x08F5CECC
+    size: 32
+  eu:
+    address: 0x08F65F1C
+    size: 32
+- name: emy_22
+  format: palette
+  symbol: gEmy22Palette
+  us:
+    address: 0x08F699E4
+    size: 32
+  jp:
+    address: 0x08F5CEEC
+    size: 32
+  eu:
+    address: 0x08F65F3C
+    size: 32
+- name: emy_26
+  format: palette
+  symbol: gEmy26Palette
+  us:
+    address: 0x08F69A04
+    size: 32
+  jp:
+    address: 0x08F5CF0C
+    size: 32
+  eu:
+    address: 0x08F65F5C
+    size: 32
+- name: emy_27
+  format: palette
+  symbol: gEmy27Palette
+  us:
+    address: 0x08F69A24
+    size: 32
+  jp:
+    address: 0x08F5CF2C
+    size: 32
+  eu:
+    address: 0x08F65F7C
+    size: 32
+- name: emy_28
+  format: palette
+  symbol: gEmy28Palette
+  us:
+    address: 0x08F69A44
+    size: 32
+  jp:
+    address: 0x08F5CF4C
+    size: 32
+  eu:
+    address: 0x08F65F9C
+    size: 32
+- name: emy_29
+  format: palette
+  symbol: gEmy29Palette
+  us:
+    address: 0x08F69A64
+    size: 32
+  jp:
+    address: 0x08F5CF6C
+    size: 32
+  eu:
+    address: 0x08F65FBC
+    size: 32
+- name: emy_37
+  format: palette
+  symbol: gEmy37Palette
+  us:
+    address: 0x08F69A84
+    size: 32
+  jp:
+    address: 0x08F5CF8C
+    size: 32
+  eu:
+    address: 0x08F65FDC
+    size: 32
+- name: emy_39
+  format: palette
+  symbol: gEmy39Palette
+  us:
+    address: 0x08F69AA4
+    size: 32
+  jp:
+    address: 0x08F5CFAC
+    size: 32
+  eu:
+    address: 0x08F65FFC
+    size: 32
+- name: emy_30
+  format: palette
+  symbol: gEmy30Palette
+  us:
+    address: 0x08F69AC4
+    size: 32
+  jp:
+    address: 0x08F5CFCC
+    size: 32
+  eu:
+    address: 0x08F6601C
+    size: 32
+- name: emy_25
+  format: palette
+  symbol: gEmy25Palette
+  us:
+    address: 0x08F69AE4
+    size: 32
+  jp:
+    address: 0x08F5CFEC
+    size: 32
+  eu:
+    address: 0x08F6603C
+    size: 32
+- name: emy_44
+  format: palette
+  symbol: gEmy44Palette
+  us:
+    address: 0x08F69B04
+    size: 32
+  jp:
+    address: 0x08F5D00C
+    size: 32
+  eu:
+    address: 0x08F6605C
+    size: 32
+- name: emy_18
+  format: palette
+  symbol: gEmy18Palette
+  us:
+    address: 0x08F69B24
+    size: 32
+  jp:
+    address: 0x08F5D02C
+    size: 32
+  eu:
+    address: 0x08F6607C
+    size: 32
+- name: emy_81
+  format: palette
+  symbol: gEmy81Palette
+  us:
+    address: 0x08F69B44
+    size: 32
+  jp:
+    address: 0x08F5D04C
+    size: 32
+  eu:
+    address: 0x08F6609C
+    size: 32
+- name: emy_82
+  format: palette
+  symbol: gEmy82Palette
+  us:
+    address: 0x08F69B64
+    size: 32
+  jp:
+    address: 0x08F5D06C
+    size: 32
+  eu:
+    address: 0x08F660BC
+    size: 32
+- name: emy_83
+  format: palette
+  symbol: gEmy83Palette
+  us:
+    address: 0x08F69B84
+    size: 32
+  jp:
+    address: 0x08F5D08C
+    size: 32
+  eu:
+    address: 0x08F660DC
+    size: 32
+- name: b_states
+  format: palette
+  symbol: gBStatesPalette
+  us:
+    address: 0x08F69BA4
+    size: 32
+  jp:
+    address: 0x08F5D0AC
+    size: 32
+  eu:
+    address: 0x08F660FC
+    size: 32
+- name: gHitFlashPalette
+  format: palette
+  us:
+    address: 0x08F69BC4
+    size: 32
+  jp:
+    address: 0x08F5D0CC
+    size: 32
+  eu:
+    address: 0x08F6611C
+    size: 32
+- name: gCommonObjPalette
+  format: palette
+  us:
+    address: 0x08F69BE4
+    size: 32
+  jp:
+    address: 0x08F5D0EC
+    size: 32
+  eu:
+    address: 0x08F6613C
+    size: 32
+- name: croud
+  format: palette
+  symbol: gCroudPalette
+  us:
+    address: 0x08F6DC24
+    size: 32
+  jp:
+    address: 0x08F6112C
+    size: 32
+  eu:
+    address: 0x08F6A17C
+    size: 32
+- name: gPBakudanPalette
+  format: palette
+  us:
+    address: 0x08F6DC44
+    size: 32
+  jp:
+    address: 0x08F6114C
+    size: 32
+  eu:
+    address: 0x08F6A19C
+    size: 32
+- name: gHumHookMoonPalette
+  format: palette
+  us:
+    address: 0x08F6DC64
+    size: 32
+  jp:
+    address: 0x08F6116C
+    size: 32
+  eu:
+    address: 0x08F6A1BC
+    size: 32
+- name: maruxha_bt_eff
+  format: palette
+  symbol: gMaruxhaBtEffPalette
+  us:
+    address: 0x08F6DC84
+    size: 32
+  jp:
+    address: 0x08F6118C
+    size: 32
+  eu:
+    address: 0x08F6A1DC
+    size: 32
+- name: vix_e
+  format: palette
+  symbol: gVixEPalette
+  us:
+    address: 0x08F6DCA4
+    size: 32
+  jp:
+    address: 0x08F611AC
+    size: 32
+  eu:
+    address: 0x08F6A1FC
+    size: 32
+- name: gRexeusRock01Palette
+  format: palette
+  us:
+    address: 0x08F6DCC4
+    size: 32
+  jp:
+    address: 0x08F611CC
+    size: 32
+  eu:
+    address: 0x08F6A21C
+    size: 32
+- name: gRexeusRock02Palette
+  format: palette
+  us:
+    address: 0x08F6DCE4
+    size: 32
+  jp:
+    address: 0x08F611EC
+    size: 32
+  eu:
+    address: 0x08F6A23C
+    size: 32
+- name: card_00
+  format: palette
+  symbol: gCard00Palette
+  us:
+    address: 0x09611AB8
+    size: 32
+  jp:
+    address: 0x095CA594
+    size: 32
+  eu:
+    address: 0x09544B24
+    size: 32
+- name: gCardItm01Palette
+  format: palette
+  us:
+    address: 0x09611AD8
+    size: 32
+  jp:
+    address: 0x095CA5B4
+    size: 32
+  eu:
+    address: 0x09544B44
+    size: 32
+- name: gCardItm02Palette
+  format: palette
+  us:
+    address: 0x09611AF8
+    size: 32
+  jp:
+    address: 0x095CA5D4
+    size: 32
+  eu:
+    address: 0x09544B64
+    size: 32
+- name: gCardItm03Palette
+  format: palette
+  us:
+    address: 0x09611B18
+    size: 32
+  jp:
+    address: 0x095CA5F4
+    size: 32
+  eu:
+    address: 0x09544B84
+    size: 32
+- name: gCardItm04Palette
+  format: palette
+  us:
+    address: 0x09611B38
+    size: 32
+  jp:
+    address: 0x095CA614
+    size: 32
+  eu:
+    address: 0x09544BA4
+    size: 32
+- name: gCardItm05Palette
+  format: palette
+  us:
+    address: 0x09611B58
+    size: 32
+  jp:
+    address: 0x095CA634
+    size: 32
+  eu:
+    address: 0x09544BC4
+    size: 32
+- name: gCardItm06Palette
+  format: palette
+  us:
+    address: 0x09611B78
+    size: 32
+  jp:
+    address: 0x095CA654
+    size: 32
+  eu:
+    address: 0x09544BE4
+    size: 32
+- name: gCardItm07Palette
+  format: palette
+  us:
+    address: 0x09611B98
+    size: 32
+  jp:
+    address: 0x095CA674
+    size: 32
+  eu:
+    address: 0x09544C04
+    size: 32
+- name: gCardMgc01Palette
+  format: palette
+  us:
+    address: 0x09611BB8
+    size: 32
+  jp:
+    address: 0x095CA694
+    size: 32
+  eu:
+    address: 0x09544C24
+    size: 32
+- name: gCardMgc02Palette
+  format: palette
+  us:
+    address: 0x09611BD8
+    size: 32
+  jp:
+    address: 0x095CA6B4
+    size: 32
+  eu:
+    address: 0x09544C44
+    size: 32
+- name: gCardMgc03Palette
+  format: palette
+  us:
+    address: 0x09611BF8
+    size: 32
+  jp:
+    address: 0x095CA6D4
+    size: 32
+  eu:
+    address: 0x09544C64
+    size: 32
+- name: gCardMgc04Palette
+  format: palette
+  us:
+    address: 0x09611C18
+    size: 32
+  jp:
+    address: 0x095CA6F4
+    size: 32
+  eu:
+    address: 0x09544C84
+    size: 32
+- name: gCardMgc05Palette
+  format: palette
+  us:
+    address: 0x09611C38
+    size: 32
+  jp:
+    address: 0x095CA714
+    size: 32
+  eu:
+    address: 0x09544CA4
+    size: 32
+- name: gCardMgc06Palette
+  format: palette
+  us:
+    address: 0x09611C58
+    size: 32
+  jp:
+    address: 0x095CA734
+    size: 32
+  eu:
+    address: 0x09544CC4
+    size: 32
+- name: gCardMgc07Palette
+  format: palette
+  us:
+    address: 0x09611C78
+    size: 32
+  jp:
+    address: 0x095CA754
+    size: 32
+  eu:
+    address: 0x09544CE4
+    size: 32
+- name: gUnk_09611C98
+  format: palette
+  us:
+    address: 0x09611C98
+    size: 96
+  jp:
+    address: 0x095CA774
+    size: 96
+  eu:
+    address: 0x09544D04
+    size: 96
+- name: gCardSmn03Palette
+  format: palette
+  us:
+    address: 0x09611CF8
+    size: 32
+  jp:
+    address: 0x095CA7D4
+    size: 32
+  eu:
+    address: 0x09544D64
+    size: 32
+- name: gCardSmn04Palette
+  format: palette
+  us:
+    address: 0x09611D18
+    size: 32
+  jp:
+    address: 0x095CA7F4
+    size: 32
+  eu:
+    address: 0x09544D84
+    size: 32
+- name: gUnk_09611D38
+  format: palette
+  us:
+    address: 0x09611D38
+    size: 32
+  jp:
+    address: 0x095CA814
+    size: 32
+  eu:
+    address: 0x09544DA4
+    size: 32
+- name: gCardSmn06Palette
+  format: palette
+  us:
+    address: 0x09611D58
+    size: 32
+  jp:
+    address: 0x095CA834
+    size: 32
+  eu:
+    address: 0x09544DC4
+    size: 32
+- name: gUnk_09611D78
+  format: palette
+  us:
+    address: 0x09611D78
+    size: 64
+  jp:
+    address: 0x095CA854
+    size: 64
+  eu:
+    address: 0x09544DE4
+    size: 64
+- name: gCardSmn09Palette
+  format: palette
+  us:
+    address: 0x09611DB8
+    size: 32
+  jp:
+    address: 0x095CA894
+    size: 32
+  eu:
+    address: 0x09544E24
+    size: 32
+- name: card_smn09a
+  format: palette
+  symbol: gCardSmn09aPalette
+  us:
+    address: 0x09611DD8
+    size: 32
+  jp:
+    address: 0x095CA8B4
+    size: 32
+  eu:
+    address: 0x09544E44
+    size: 32
+- name: card_smn09b
+  format: palette
+  symbol: gCardSmn09bPalette
+  us:
+    address: 0x09611DF8
+    size: 32
+  jp:
+    address: 0x095CA8D4
+    size: 32
+  eu:
+    address: 0x09544E64
+    size: 32
+- name: card_smn09c
+  format: palette
+  symbol: gCardSmn09cPalette
+  us:
+    address: 0x09611E18
+    size: 32
+  jp:
+    address: 0x095CA8F4
+    size: 32
+  eu:
+    address: 0x09544E84
+    size: 32
+- name: card_smn09d
+  format: palette
+  symbol: gCardSmn09dPalette
+  us:
+    address: 0x09611E38
+    size: 32
+  jp:
+    address: 0x095CA914
+    size: 32
+  eu:
+    address: 0x09544EA4
+    size: 32
+- name: gCardWep01Palette
+  format: palette
+  us:
+    address: 0x09611E58
+    size: 32
+  jp:
+    address: 0x095CA934
+    size: 32
+  eu:
+    address: 0x09544EC4
+    size: 32
+- name: gUnk_09611E78
+  format: palette
+  us:
+    address: 0x09611E78
+    size: 32
+  jp:
+    address: 0x095CA954
+    size: 32
+  eu:
+    address: 0x09544EE4
+    size: 32
+- name: gCardWep03Palette
+  format: palette
+  us:
+    address: 0x09611E98
+    size: 32
+  jp:
+    address: 0x095CA974
+    size: 32
+  eu:
+    address: 0x09544F04
+    size: 32
+- name: gCardWep04Palette
+  format: palette
+  us:
+    address: 0x09611EB8
+    size: 32
+  jp:
+    address: 0x095CA994
+    size: 32
+  eu:
+    address: 0x09544F24
+    size: 32
+- name: gCardWep05Palette
+  format: palette
+  us:
+    address: 0x09611ED8
+    size: 32
+  jp:
+    address: 0x095CA9B4
+    size: 32
+  eu:
+    address: 0x09544F44
+    size: 32
+- name: gCardWep06Palette
+  format: palette
+  us:
+    address: 0x09611EF8
+    size: 32
+  jp:
+    address: 0x095CA9D4
+    size: 32
+  eu:
+    address: 0x09544F64
+    size: 32
+- name: gCardWep07Palette
+  format: palette
+  us:
+    address: 0x09611F18
+    size: 32
+  jp:
+    address: 0x095CA9F4
+    size: 32
+  eu:
+    address: 0x09544F84
+    size: 32
+- name: gCardWep08Palette
+  format: palette
+  us:
+    address: 0x09611F38
+    size: 32
+  jp:
+    address: 0x095CAA14
+    size: 32
+  eu:
+    address: 0x09544FA4
+    size: 32
+- name: gCardWep09Palette
+  format: palette
+  us:
+    address: 0x09611F58
+    size: 32
+  jp:
+    address: 0x095CAA34
+    size: 32
+  eu:
+    address: 0x09544FC4
+    size: 32
+- name: gCardWep10Palette
+  format: palette
+  us:
+    address: 0x09611F78
+    size: 32
+  jp:
+    address: 0x095CAA54
+    size: 32
+  eu:
+    address: 0x09544FE4
+    size: 32
+- name: gCardWep11Palette
+  format: palette
+  us:
+    address: 0x09611F98
+    size: 32
+  jp:
+    address: 0x095CAA74
+    size: 32
+  eu:
+    address: 0x09545004
+    size: 32
+- name: gCardWep12Palette
+  format: palette
+  us:
+    address: 0x09611FB8
+    size: 32
+  jp:
+    address: 0x095CAA94
+    size: 32
+  eu:
+    address: 0x09545024
+    size: 32
+- name: gCardWep13Palette
+  format: palette
+  us:
+    address: 0x09611FD8
+    size: 32
+  jp:
+    address: 0x095CAAB4
+    size: 32
+  eu:
+    address: 0x09545044
+    size: 32
+- name: gCardWep14Palette
+  format: palette
+  us:
+    address: 0x09611FF8
+    size: 32
+  jp:
+    address: 0x095CAAD4
+    size: 32
+  eu:
+    address: 0x09545064
+    size: 32
+- name: gCardWep15Palette
+  format: palette
+  us:
+    address: 0x09612018
+    size: 32
+  jp:
+    address: 0x095CAAF4
+    size: 32
+  eu:
+    address: 0x09545084
+    size: 32
+- name: gCardWep16Palette
+  format: palette
+  us:
+    address: 0x09612038
+    size: 32
+  jp:
+    address: 0x095CAB14
+    size: 32
+  eu:
+    address: 0x095450A4
+    size: 32
+- name: gCardWep18Palette
+  format: palette
+  us:
+    address: 0x09612058
+    size: 32
+  jp:
+    address: 0x095CAB34
+    size: 32
+  eu:
+    address: 0x095450C4
+    size: 32
+- name: gCardWep19Palette
+  format: palette
+  us:
+    address: 0x09612078
+    size: 32
+  jp:
+    address: 0x095CAB54
+    size: 32
+  eu:
+    address: 0x095450E4
+    size: 32
+- name: gCardWep20Palette
+  format: palette
+  us:
+    address: 0x09612098
+    size: 32
+  jp:
+    address: 0x095CAB74
+    size: 32
+  eu:
+    address: 0x09545104
+    size: 32
+- name: gCardNpcAl01Palette
+  format: palette
+  us:
+    address: 0x096120B8
+    size: 32
+  jp:
+    address: 0x095CAB94
+    size: 32
+  eu:
+    address: 0x09545124
+    size: 32
+- name: gCardNpcAl02Palette
+  format: palette
+  us:
+    address: 0x096120D8
+    size: 32
+  jp:
+    address: 0x095CABB4
+    size: 32
+  eu:
+    address: 0x09545144
+    size: 32
+- name: gCardNpcAl03Palette
+  format: palette
+  us:
+    address: 0x096120F8
+    size: 32
+  jp:
+    address: 0x095CABD4
+    size: 32
+  eu:
+    address: 0x09545164
+    size: 32
+- name: gCardNpcAw01Palette
+  format: palette
+  us:
+    address: 0x09612118
+    size: 32
+  jp:
+    address: 0x095CABF4
+    size: 32
+  eu:
+    address: 0x09545184
+    size: 32
+- name: gCardNpcAw02Palette
+  format: palette
+  us:
+    address: 0x09612138
+    size: 32
+  jp:
+    address: 0x095CAC14
+    size: 32
+  eu:
+    address: 0x095451A4
+    size: 32
+- name: gCardNpcAw05Palette
+  format: palette
+  us:
+    address: 0x09612158
+    size: 32
+  jp:
+    address: 0x095CAC34
+    size: 32
+  eu:
+    address: 0x095451C4
+    size: 32
+- name: gCardNpcAw06Palette
+  format: palette
+  us:
+    address: 0x09612178
+    size: 32
+  jp:
+    address: 0x095CAC54
+    size: 32
+  eu:
+    address: 0x095451E4
+    size: 32
+- name: gCardNpcEx00Palette
+  format: palette
+  us:
+    address: 0x09612198
+    size: 32
+  jp:
+    address: 0x095CAC74
+    size: 32
+  eu:
+    address: 0x09545204
+    size: 32
+- name: gCardNpcEx01Palette
+  format: palette
+  us:
+    address: 0x096121B8
+    size: 32
+  jp:
+    address: 0x095CAC94
+    size: 32
+  eu:
+    address: 0x09545224
+    size: 32
+- name: gCardNpcEx02Palette
+  format: palette
+  us:
+    address: 0x096121D8
+    size: 32
+  jp:
+    address: 0x095CACB4
+    size: 32
+  eu:
+    address: 0x09545244
+    size: 32
+- name: gCardNpcEx03Palette
+  format: palette
+  us:
+    address: 0x096121F8
+    size: 32
+  jp:
+    address: 0x095CACD4
+    size: 32
+  eu:
+    address: 0x09545264
+    size: 32
+- name: gUnk_09612218
+  format: palette
+  us:
+    address: 0x09612218
+    size: 32
+  jp:
+    address: 0x095CACF4
+    size: 32
+  eu:
+    address: 0x09545284
+    size: 32
+- name: gCardNpcEx05Palette
+  format: palette
+  us:
+    address: 0x09612238
+    size: 32
+  jp:
+    address: 0x095CAD14
+    size: 32
+  eu:
+    address: 0x095452A4
+    size: 32
+- name: gCardNpcEx06Palette
+  format: palette
+  us:
+    address: 0x09612258
+    size: 32
+  jp:
+    address: 0x095CAD34
+    size: 32
+  eu:
+    address: 0x095452C4
+    size: 32
+- name: gCardNpcEx07Palette
+  format: palette
+  us:
+    address: 0x09612278
+    size: 32
+  jp:
+    address: 0x095CAD54
+    size: 32
+  eu:
+    address: 0x095452E4
+    size: 32
+- name: gCardNpcEx08Palette
+  format: palette
+  us:
+    address: 0x09612298
+    size: 32
+  jp:
+    address: 0x095CAD74
+    size: 32
+  eu:
+    address: 0x09545304
+    size: 32
+- name: gCardNpcEx09Palette
+  format: palette
+  us:
+    address: 0x096122B8
+    size: 32
+  jp:
+    address: 0x095CAD94
+    size: 32
+  eu:
+    address: 0x09545324
+    size: 32
+- name: gCardNpcEx10Palette
+  format: palette
+  us:
+    address: 0x096122D8
+    size: 32
+  jp:
+    address: 0x095CADB4
+    size: 32
+  eu:
+    address: 0x09545344
+    size: 32
+- name: gCardNpcDi01Palette
+  format: palette
+  us:
+    address: 0x096122F8
+    size: 32
+  jp:
+    address: 0x095CADD4
+    size: 32
+  eu:
+    address: 0x09545364
+    size: 32
+- name: gCardNpcDi02Palette
+  format: palette
+  us:
+    address: 0x09612318
+    size: 32
+  jp:
+    address: 0x095CADF4
+    size: 32
+  eu:
+    address: 0x09545384
+    size: 32
+- name: gCardNpcDi03Palette
+  format: palette
+  us:
+    address: 0x09612338
+    size: 32
+  jp:
+    address: 0x095CAE14
+    size: 32
+  eu:
+    address: 0x095453A4
+    size: 32
+- name: gCardNpcHe01Palette
+  format: palette
+  us:
+    address: 0x09612358
+    size: 32
+  jp:
+    address: 0x095CAE34
+    size: 32
+  eu:
+    address: 0x095453C4
+    size: 32
+- name: gCardNpcHe02Palette
+  format: palette
+  us:
+    address: 0x09612378
+    size: 32
+  jp:
+    address: 0x095CAE54
+    size: 32
+  eu:
+    address: 0x095453E4
+    size: 32
+- name: gCardNpcPo01Palette
+  format: palette
+  us:
+    address: 0x09612398
+    size: 32
+  jp:
+    address: 0x095CAE74
+    size: 32
+  eu:
+    address: 0x09545404
+    size: 32
+- name: gCardNpcPo02Palette
+  format: palette
+  us:
+    address: 0x096123B8
+    size: 32
+  jp:
+    address: 0x095CAE94
+    size: 32
+  eu:
+    address: 0x09545424
+    size: 32
+- name: gCardNpcPo03Palette
+  format: palette
+  us:
+    address: 0x096123D8
+    size: 32
+  jp:
+    address: 0x095CAEB4
+    size: 32
+  eu:
+    address: 0x09545444
+    size: 32
+- name: gCardNpcPo04Palette
+  format: palette
+  us:
+    address: 0x096123F8
+    size: 32
+  jp:
+    address: 0x095CAED4
+    size: 32
+  eu:
+    address: 0x09545464
+    size: 32
+- name: gCardNpcPo05Palette
+  format: palette
+  us:
+    address: 0x09612418
+    size: 32
+  jp:
+    address: 0x095CAEF4
+    size: 32
+  eu:
+    address: 0x09545484
+    size: 32
+- name: gCardNpcPo06Palette
+  format: palette
+  us:
+    address: 0x09612438
+    size: 32
+  jp:
+    address: 0x095CAF14
+    size: 32
+  eu:
+    address: 0x095454A4
+    size: 32
+- name: gCardNpcPo07Palette
+  format: palette
+  us:
+    address: 0x09612458
+    size: 32
+  jp:
+    address: 0x095CAF34
+    size: 32
+  eu:
+    address: 0x095454C4
+    size: 32
+- name: gCardNpcLm01Palette
+  format: palette
+  us:
+    address: 0x09612478
+    size: 32
+  jp:
+    address: 0x095CAF54
+    size: 32
+  eu:
+    address: 0x095454E4
+    size: 32
+- name: gCardNpcLm02Palette
+  format: palette
+  us:
+    address: 0x09612498
+    size: 32
+  jp:
+    address: 0x095CAF74
+    size: 32
+  eu:
+    address: 0x09545504
+    size: 32
+- name: gCardNpcNm01Palette
+  format: palette
+  us:
+    address: 0x096124B8
+    size: 32
+  jp:
+    address: 0x095CAF94
+    size: 32
+  eu:
+    address: 0x09545524
+    size: 32
+- name: gCardNpcNm02Palette
+  format: palette
+  us:
+    address: 0x096124D8
+    size: 32
+  jp:
+    address: 0x095CAFB4
+    size: 32
+  eu:
+    address: 0x09545544
+    size: 32
+- name: gCardNpcPc01Palette
+  format: palette
+  us:
+    address: 0x096124F8
+    size: 32
+  jp:
+    address: 0x095CAFD4
+    size: 32
+  eu:
+    address: 0x09545564
+    size: 32
+- name: gCardNpcPc02Palette
+  format: palette
+  us:
+    address: 0x09612518
+    size: 32
+  jp:
+    address: 0x095CAFF4
+    size: 32
+  eu:
+    address: 0x09545584
+    size: 32
+- name: gCardNpcPp01Palette
+  format: palette
+  us:
+    address: 0x09612538
+    size: 32
+  jp:
+    address: 0x095CB014
+    size: 32
+  eu:
+    address: 0x095455A4
+    size: 32
+- name: gCardNpcPi01Palette
+  format: palette
+  us:
+    address: 0x09612558
+    size: 32
+  jp:
+    address: 0x095CB034
+    size: 32
+  eu:
+    address: 0x095455C4
+    size: 32
+- name: gCardNpcPi02Palette
+  format: palette
+  us:
+    address: 0x09612578
+    size: 32
+  jp:
+    address: 0x095CB054
+    size: 32
+  eu:
+    address: 0x095455E4
+    size: 32
+- name: gCardBos05Palette
+  format: palette
+  us:
+    address: 0x09612598
+    size: 32
+  jp:
+    address: 0x095CB074
+    size: 32
+  eu:
+    address: 0x09545604
+    size: 32
+- name: gCardBos06Palette
+  format: palette
+  us:
+    address: 0x096125B8
+    size: 32
+  jp:
+    address: 0x095CB094
+    size: 32
+  eu:
+    address: 0x09545624
+    size: 32
+- name: gCardBos07Palette
+  format: palette
+  us:
+    address: 0x096125D8
+    size: 32
+  jp:
+    address: 0x095CB0B4
+    size: 32
+  eu:
+    address: 0x09545644
+    size: 32
+- name: gCardBos08Palette
+  format: palette
+  us:
+    address: 0x096125F8
+    size: 32
+  jp:
+    address: 0x095CB0D4
+    size: 32
+  eu:
+    address: 0x09545664
+    size: 32
+- name: gCardBos10Palette
+  format: palette
+  us:
+    address: 0x09612618
+    size: 32
+  jp:
+    address: 0x095CB0F4
+    size: 32
+  eu:
+    address: 0x09545684
+    size: 32
+- name: card_bos_10a
+  format: palette
+  symbol: gCardBos10aPalette
+  us:
+    address: 0x09612638
+    size: 32
+  jp:
+    address: 0x095CB114
+    size: 32
+  eu:
+    address: 0x095456A4
+    size: 32
+- name: card_bos_10b
+  format: palette
+  symbol: gCardBos10bPalette
+  us:
+    address: 0x09612658
+    size: 32
+  jp:
+    address: 0x095CB134
+    size: 32
+  eu:
+    address: 0x095456C4
+    size: 32
+- name: card_bos_10c
+  format: palette
+  symbol: gCardBos10cPalette
+  us:
+    address: 0x09612678
+    size: 32
+  jp:
+    address: 0x095CB154
+    size: 32
+  eu:
+    address: 0x095456E4
+    size: 32
+- name: card_bos_10d
+  format: palette
+  symbol: gCardBos10dPalette
+  us:
+    address: 0x09612698
+    size: 32
+  jp:
+    address: 0x095CB174
+    size: 32
+  eu:
+    address: 0x09545704
+    size: 32
+- name: gCardBos11Palette
+  format: palette
+  us:
+    address: 0x096126B8
+    size: 32
+  jp:
+    address: 0x095CB194
+    size: 32
+  eu:
+    address: 0x09545724
+    size: 32
+- name: card_bos_11a
+  format: palette
+  symbol: gCardBos11aPalette
+  us:
+    address: 0x096126D8
+    size: 32
+  jp:
+    address: 0x095CB1B4
+    size: 32
+  eu:
+    address: 0x09545744
+    size: 32
+- name: card_bos_11b
+  format: palette
+  symbol: gCardBos11bPalette
+  us:
+    address: 0x096126F8
+    size: 32
+  jp:
+    address: 0x095CB1D4
+    size: 32
+  eu:
+    address: 0x09545764
+    size: 32
+- name: card_bos_11c
+  format: palette
+  symbol: gCardBos11cPalette
+  us:
+    address: 0x09612718
+    size: 32
+  jp:
+    address: 0x095CB1F4
+    size: 32
+  eu:
+    address: 0x09545784
+    size: 32
+- name: card_bos_11d
+  format: palette
+  symbol: gCardBos11dPalette
+  us:
+    address: 0x09612738
+    size: 32
+  jp:
+    address: 0x095CB214
+    size: 32
+  eu:
+    address: 0x095457A4
+    size: 32
+- name: gCardBos12Palette
+  format: palette
+  us:
+    address: 0x09612758
+    size: 32
+  jp:
+    address: 0x095CB234
+    size: 32
+  eu:
+    address: 0x095457C4
+    size: 32
+- name: card_bos_12a
+  format: palette
+  symbol: gCardBos12aPalette
+  us:
+    address: 0x09612778
+    size: 32
+  jp:
+    address: 0x095CB254
+    size: 32
+  eu:
+    address: 0x095457E4
+    size: 32
+- name: card_bos_12b
+  format: palette
+  symbol: gCardBos12bPalette
+  us:
+    address: 0x09612798
+    size: 32
+  jp:
+    address: 0x095CB274
+    size: 32
+  eu:
+    address: 0x09545804
+    size: 32
+- name: card_bos_12c
+  format: palette
+  symbol: gCardBos12cPalette
+  us:
+    address: 0x096127B8
+    size: 32
+  jp:
+    address: 0x095CB294
+    size: 32
+  eu:
+    address: 0x09545824
+    size: 32
+- name: card_bos_12d
+  format: palette
+  symbol: gCardBos12dPalette
+  us:
+    address: 0x096127D8
+    size: 32
+  jp:
+    address: 0x095CB2B4
+    size: 32
+  eu:
+    address: 0x09545844
+    size: 32
+- name: gCardBos13Palette
+  format: palette
+  us:
+    address: 0x096127F8
+    size: 32
+  jp:
+    address: 0x095CB2D4
+    size: 32
+  eu:
+    address: 0x09545864
+    size: 32
+- name: card_bos_13a
+  format: palette
+  symbol: gCardBos13aPalette
+  us:
+    address: 0x09612818
+    size: 32
+  jp:
+    address: 0x095CB2F4
+    size: 32
+  eu:
+    address: 0x09545884
+    size: 32
+- name: card_bos_13b
+  format: palette
+  symbol: gCardBos13bPalette
+  us:
+    address: 0x09612838
+    size: 32
+  jp:
+    address: 0x095CB314
+    size: 32
+  eu:
+    address: 0x095458A4
+    size: 32
+- name: card_bos_13c
+  format: palette
+  symbol: gCardBos13cPalette
+  us:
+    address: 0x09612858
+    size: 32
+  jp:
+    address: 0x095CB334
+    size: 32
+  eu:
+    address: 0x095458C4
+    size: 32
+- name: card_bos_13d
+  format: palette
+  symbol: gCardBos13dPalette
+  us:
+    address: 0x09612878
+    size: 32
+  jp:
+    address: 0x095CB354
+    size: 32
+  eu:
+    address: 0x095458E4
+    size: 32
+- name: gCardBos14Palette
+  format: palette
+  us:
+    address: 0x09612898
+    size: 32
+  jp:
+    address: 0x095CB374
+    size: 32
+  eu:
+    address: 0x09545904
+    size: 32
+- name: card_bos_14a
+  format: palette
+  symbol: gCardBos14aPalette
+  us:
+    address: 0x096128B8
+    size: 32
+  jp:
+    address: 0x095CB394
+    size: 32
+  eu:
+    address: 0x09545924
+    size: 32
+- name: card_bos_14b
+  format: palette
+  symbol: gCardBos14bPalette
+  us:
+    address: 0x096128D8
+    size: 32
+  jp:
+    address: 0x095CB3B4
+    size: 32
+  eu:
+    address: 0x09545944
+    size: 32
+- name: card_bos_14c
+  format: palette
+  symbol: gCardBos14cPalette
+  us:
+    address: 0x096128F8
+    size: 32
+  jp:
+    address: 0x095CB3D4
+    size: 32
+  eu:
+    address: 0x09545964
+    size: 32
+- name: card_bos_14d
+  format: palette
+  symbol: gCardBos14dPalette
+  us:
+    address: 0x09612918
+    size: 32
+  jp:
+    address: 0x095CB3F4
+    size: 32
+  eu:
+    address: 0x09545984
+    size: 32
+- name: gCardBos15Palette
+  format: palette
+  us:
+    address: 0x09612938
+    size: 32
+  jp:
+    address: 0x095CB414
+    size: 32
+  eu:
+    address: 0x095459A4
+    size: 32
+- name: card_bos_15a
+  format: palette
+  symbol: gCardBos15aPalette
+  us:
+    address: 0x09612958
+    size: 32
+  jp:
+    address: 0x095CB434
+    size: 32
+  eu:
+    address: 0x095459C4
+    size: 32
+- name: card_bos_15b
+  format: palette
+  symbol: gCardBos15bPalette
+  us:
+    address: 0x09612978
+    size: 32
+  jp:
+    address: 0x095CB454
+    size: 32
+  eu:
+    address: 0x095459E4
+    size: 32
+- name: card_bos_15c
+  format: palette
+  symbol: gCardBos15cPalette
+  us:
+    address: 0x09612998
+    size: 32
+  jp:
+    address: 0x095CB474
+    size: 32
+  eu:
+    address: 0x09545A04
+    size: 32
+- name: card_bos_15d
+  format: palette
+  symbol: gCardBos15dPalette
+  us:
+    address: 0x096129B8
+    size: 32
+  jp:
+    address: 0x095CB494
+    size: 32
+  eu:
+    address: 0x09545A24
+    size: 32
+- name: gCardBos16Palette
+  format: palette
+  us:
+    address: 0x096129D8
+    size: 32
+  jp:
+    address: 0x095CB4B4
+    size: 32
+  eu:
+    address: 0x09545A44
+    size: 32
+- name: card_bos_16a
+  format: palette
+  symbol: gCardBos16aPalette
+  us:
+    address: 0x096129F8
+    size: 32
+  jp:
+    address: 0x095CB4D4
+    size: 32
+  eu:
+    address: 0x09545A64
+    size: 32
+- name: card_bos_16b
+  format: palette
+  symbol: gCardBos16bPalette
+  us:
+    address: 0x09612A18
+    size: 32
+  jp:
+    address: 0x095CB4F4
+    size: 32
+  eu:
+    address: 0x09545A84
+    size: 32
+- name: card_bos_16c
+  format: palette
+  symbol: gCardBos16cPalette
+  us:
+    address: 0x09612A38
+    size: 32
+  jp:
+    address: 0x095CB514
+    size: 32
+  eu:
+    address: 0x09545AA4
+    size: 32
+- name: card_bos_16d
+  format: palette
+  symbol: gCardBos16dPalette
+  us:
+    address: 0x09612A58
+    size: 32
+  jp:
+    address: 0x095CB534
+    size: 32
+  eu:
+    address: 0x09545AC4
+    size: 32
+- name: gCardBos17Palette
+  format: palette
+  us:
+    address: 0x09612A78
+    size: 32
+  jp:
+    address: 0x095CB554
+    size: 32
+  eu:
+    address: 0x09545AE4
+    size: 32
+- name: card_bos_17a
+  format: palette
+  symbol: gCardBos17aPalette
+  us:
+    address: 0x09612A98
+    size: 32
+  jp:
+    address: 0x095CB574
+    size: 32
+  eu:
+    address: 0x09545B04
+    size: 32
+- name: card_bos_17b
+  format: palette
+  symbol: gCardBos17bPalette
+  us:
+    address: 0x09612AB8
+    size: 32
+  jp:
+    address: 0x095CB594
+    size: 32
+  eu:
+    address: 0x09545B24
+    size: 32
+- name: card_bos_17c
+  format: palette
+  symbol: gCardBos17cPalette
+  us:
+    address: 0x09612AD8
+    size: 32
+  jp:
+    address: 0x095CB5B4
+    size: 32
+  eu:
+    address: 0x09545B44
+    size: 32
+- name: card_bos_17d
+  format: palette
+  symbol: gCardBos17dPalette
+  us:
+    address: 0x09612AF8
+    size: 32
+  jp:
+    address: 0x095CB5D4
+    size: 32
+  eu:
+    address: 0x09545B64
+    size: 32
+- name: gCardBos18Palette
+  format: palette
+  us:
+    address: 0x09612B18
+    size: 32
+  jp:
+    address: 0x095CB5F4
+    size: 32
+  eu:
+    address: 0x09545B84
+    size: 32
+- name: card_bos_18a
+  format: palette
+  symbol: gCardBos18aPalette
+  us:
+    address: 0x09612B38
+    size: 32
+  jp:
+    address: 0x095CB614
+    size: 32
+  eu:
+    address: 0x09545BA4
+    size: 32
+- name: card_bos_18b
+  format: palette
+  symbol: gCardBos18bPalette
+  us:
+    address: 0x09612B58
+    size: 32
+  jp:
+    address: 0x095CB634
+    size: 32
+  eu:
+    address: 0x09545BC4
+    size: 32
+- name: card_bos_18c
+  format: palette
+  symbol: gCardBos18cPalette
+  us:
+    address: 0x09612B78
+    size: 32
+  jp:
+    address: 0x095CB654
+    size: 32
+  eu:
+    address: 0x09545BE4
+    size: 32
+- name: card_bos_18d
+  format: palette
+  symbol: gCardBos18dPalette
+  us:
+    address: 0x09612B98
+    size: 32
+  jp:
+    address: 0x095CB674
+    size: 32
+  eu:
+    address: 0x09545C04
+    size: 32
+- name: gGimmickCardPalette
+  format: palette
+  us:
+    address: 0x09612BB8
+    size: 32
+  jp:
+    address: 0x095CB694
+    size: 32
+  eu:
+    address: 0x09545C24
+    size: 32
+- name: gCardNpcCom01Palette
+  format: palette
+  us:
+    address: 0x09612BD8
+    size: 32
+  jp:
+    address: 0x095CB6B4
+    size: 32
+  eu:
+    address: 0x09545C44
+    size: 32
+- name: gCardNpcCom02Palette
+  format: palette
+  us:
+    address: 0x09612BF8
+    size: 32
+  jp:
+    address: 0x095CB6D4
+    size: 32
+  eu:
+    address: 0x09545C64
+    size: 32
+- name: gCardNpcCom03Palette
+  format: palette
+  us:
+    address: 0x09612C18
+    size: 32
+  jp:
+    address: 0x095CB6F4
+    size: 32
+  eu:
+    address: 0x09545C84
+    size: 32
+- name: gPremireChancePalette
+  format: palette
+  us:
+    address: 0x09613E98
+    size: 32
+  jp:
+    address: 0x095CC974
+    size: 32
+  eu:
+    address: 0x09546D84
+    size: 32
+- name: gLevelUpRikuBonusPalette
+  format: palette
+  us:
+    address: 0x09613EB8
+    size: 32
+  jp:
+    address: 0x095CC994
+    size: 32
+  eu:
+    address: 0x09546DA4
+    size: 32
+- name: gLevelUpRikuBonusSelectedPalette
+  format: palette
+  us:
+    address: 0x09613ED8
+    size: 32
+  jp:
+    address: 0x095CC9B4
+    size: 32
+  eu:
+    address: 0x09546DC4
+    size: 32
+- name: gLevelUpHeaderPalette
+  format: palette
+  us:
+    address: 0x09613EF8
+    size: 32
+  jp:
+    address: 0x095CC9D4
+    size: 32
+  eu:
+    address: 0x09546DE4
+    size: 32
+- name: gLevelUpSoraBonusPalette
+  format: palette
+  us:
+    address: 0x09613F18
+    size: 32
+  jp:
+    address: 0x095CC9F4
+    size: 32
+  eu:
+    address: 0x09546E04
+    size: 32
+- name: gLevelUpSoraBonusSelectedPalette
+  format: palette
+  us:
+    address: 0x09613F38
+    size: 32
+  jp:
+    address: 0x095CCA14
+    size: 32
+  eu:
+    address: 0x09546E24
+    size: 32
+- name: gLevelUpChosenCursorPalette
+  format: palette
+  us:
+    address: 0x09613F58
+    size: 32
+  jp:
+    address: 0x095CCA34
+    size: 32
+  eu:
+    address: 0x09546E44
+    size: 32
+- name: gStockInfoWindowPalette
+  format: palette
+  us:
+    address: 0x09613F78
+    size: 32
+  jp:
+    address: 0x095CCA54
+    size: 32
+  eu:
+    address: 0x09546E64
+    size: 32
+- name: gLevelUpSoraOptionSelectedPalette
+  format: palette
+  us:
+    address: 0x09613F98
+    size: 32
+  jp:
+    address: 0x095CCA74
+    size: 32
+  eu:
+    address: 0x09546E84
+    size: 32
+- name: gLevelUpSoraOptionPalette
+  format: palette
+  us:
+    address: 0x09613FB8
+    size: 32
+  jp:
+    address: 0x095CCA94
+    size: 32
+  eu:
+    address: 0x09546EA4
+    size: 32
+- name: gLevelUpRikuOptionSelectedPalette
+  format: palette
+  us:
+    address: 0x09613FD8
+    size: 32
+  jp:
+    address: 0x095CCAB4
+    size: 32
+  eu:
+    address: 0x09546EC4
+    size: 32
+- name: gLevelUpRikuOptionPalette
+  format: palette
+  us:
+    address: 0x09613FF8
+    size: 32
+  jp:
+    address: 0x095CCAD4
+    size: 32
+  eu:
+    address: 0x09546EE4
+    size: 32
+- name: gLevelUpSoraStatsPalettes
+  format: palette
+  us:
+    address: 0x09614018
+    size: 128
+  jp:
+    address: 0x095CCAF4
+    size: 128
+  eu:
+    address: 0x09546F04
+    size: 128
+- name: gLevelUpRikuStatsPalettes
+  format: palette
+  us:
+    address: 0x09614098
+    size: 128
+  jp:
+    address: 0x095CCB74
+    size: 128
+  eu:
+    address: 0x09546F84
+    size: 128
+- name: gDeckMenuPalettes
+  format: palette
+  shape: [15, 16]
+  us:
+    address: 0x09614118
+    size: 480
+  jp:
+    address: 0x095CCBF4
+    size: 480
+  eu:
+    address: 0x09547004
+    size: 480
+- name: gDeckTabHighlightPalette
+  format: palette
+  us:
+    address: 0x096142F8
+    size: 32
+  jp:
+    address: 0x095CCDD4
+    size: 32
+  eu:
+    address: 0x095471E4
+    size: 32
+- name: gCardCategoryPalettes
+  format: palette
+  us:
+    address: 0x09614318
+    size: 238
+  jp:
+    address: 0x095CCDF4
+    size: 238
+  eu:
+    address: 0x09547204
+    size: 238
+- name: gUnk_09614406
+  format: palette
+  us:
+    address: 0x09614406
+    size: 18
+  jp:
+    address: 0x095CCEE2
+    size: 18
+  eu:
+    address: 0x095472F2
+    size: 18
+- name: gDialogBoxPalette
+  format: palette
+  us:
+    address: 0x09614418
+    size: 32
+  jp:
+    address: 0x095CCEF4
+    size: 32
+  eu:
+    address: 0x09547304
+    size: 32
+- name: gDeckMenuTextPalette
+  format: palette
+  us:
+    address: 0x09614438
+    size: 32
+  jp:
+    address: 0x095CCF14
+    size: 32
+  eu:
+    address: 0x09547324
+    size: 32
+- name: gDeckMenuTextRedPalette
+  format: palette
+  us:
+    address: 0x09614458
+    size: 32
+  jp:
+    address: 0x095CCF34
+    size: 32
+  eu:
+    address: 0x09547344
+    size: 32
+- name: gDeckMenuTextBluePalette
+  format: palette
+  us:
+    address: 0x09614478
+    size: 32
+  jp:
+    address: 0x095CCF54
+    size: 32
+  eu:
+    address: 0x09547364
+    size: 32
+- name: gDeckMenuTextGreenPalette
+  format: palette
+  us:
+    address: 0x09614498
+    size: 32
+  jp:
+    address: 0x095CCF74
+    size: 32
+  eu:
+    address: 0x09547384
+    size: 32
+- name: gDeckMenuTextGrayPalette
+  format: palette
+  us:
+    address: 0x096144B8
+    size: 32
+  jp:
+    address: 0x095CCF94
+    size: 32
+  eu:
+    address: 0x095473A4
+    size: 32
+- name: gDeckCommandMenuPalette
+  format: palette
+  us:
+    address: 0x096144D8
+    size: 32
+  jp:
+    address: 0x095CCFB4
+    size: 32
+  eu:
+    address: 0x095473C4
+    size: 32
+- name: gDeckTitleBannerPalette
+  format: palette
+  us:
+    address: 0x096144F8
+    size: 32
+  jp:
+    address: 0x095CCFD4
+    size: 32
+  eu:
+    address: 0x095473E4
+    size: 32
+- name: gDeckKeyboardPalettes
+  format: palette
+  us:
+    address: 0x09614518
+    size: 160
+  jp:
+    address: 0x095CCFF4
+    size: 160
+  eu:
+    address: 0x09547404
+    size: 160
+- name: gDeckKeyboardCursorPalette
+  format: palette
+  us:
+    address: 0x096145B8
+    size: 32
+  jp:
+    address: 0x095CD094
+    size: 32
+  eu:
+    address: 0x095474A4
+    size: 32
+- name: gContinueCursor0BgPalettes
+  format: palette
+  us:
+    address: 0x096145D8
+    size: 64
+  jp:
+    address: 0x095CD0B4
+    size: 64
+  eu:
+    address: 0x095474C4
+    size: 64
+- name: gContinueCursor1BgPalettes
+  format: palette
+  us:
+    address: 0x09614618
+    size: 64
+  jp:
+    address: 0x095CD0F4
+    size: 64
+  eu:
+    address: 0x09547504
+    size: 64
+- name: gContinueCursorPalettes
+  format: palette
+  us:
+    address: 0x09614658
+    size: 160
+  jp:
+    address: 0x095CD134
+    size: 160
+  eu:
+    address: 0x09547544
+    size: 160
+- name: gContinueLinePalette
+  format: palette
+  us:
+    address: 0x096146F8
+    size: 32
+  jp:
+    address: 0x095CD1D4
+    size: 32
+  eu:
+    address: 0x095475E4
+    size: 32
+- name: gTextWhitePalette
+  format: palette
+  us:
+    address: 0x09614718
+    size: 32
+  jp:
+    address: 0x095CD1F4
+    size: 32
+  eu:
+    address: 0x09547604
+    size: 32
+- name: gTextGrayPalette
+  format: palette
+  us:
+    address: 0x09614738
+    size: 32
+  jp:
+    address: 0x095CD214
+    size: 32
+  eu:
+    address: 0x09547624
+    size: 32
+- name: gTextBrownPalette
+  format: palette
+  us:
+    address: 0x09614758
+    size: 32
+  jp:
+    address: 0x095CD234
+    size: 32
+  eu:
+    address: 0x09547644
+    size: 32
+- name: gTextCyanPalette
+  format: palette
+  us:
+    address: 0x09614778
+    size: 32
+  jp:
+    address: 0x095CD254
+    size: 32
+  eu:
+    address: 0x09547664
+    size: 32
+- name: gTextYellowPalette
+  format: palette
+  us:
+    address: 0x09614798
+    size: 32
+  jp:
+    address: 0x095CD274
+    size: 32
+  eu:
+    address: 0x09547684
+    size: 32
+- name: gTextGreenPalette
+  format: palette
+  us:
+    address: 0x096147B8
+    size: 32
+  jp:
+    address: 0x095CD294
+    size: 32
+  eu:
+    address: 0x095476A4
+    size: 32
+- name: gUnk_096147D8
+  format: palette
+  us:
+    address: 0x096147D8
+    size: 224
+  jp:
+    address: 0x095CD2B4
+    size: 224
+  eu:
+    address: 0x095476C4
+    size: 224
+- name: gMenuPalette
+  format: palette
+  us:
+    address: 0x096148B8
+    size: 32
+  jp:
+    address: 0x095CD394
+    size: 32
+  eu:
+    address: 0x095477A4
+    size: 32
+- name: gMsgwinPalette
+  format: palette
+  us:
+    address: 0x096148D8
+    size: 32
+  jp:
+    address: 0x095CD3B4
+    size: 32
+  eu:
+    address: 0x095477C4
+    size: 32
+- name: gEventBgEffect0Palette
+  format: palette
+  us:
+    address: 0x096148F8
+    size: 32
+  jp:
+    address: 0x095CD3D4
+    size: 32
+  eu:
+    address: 0x095477E4
+    size: 32
+- name: gEventBgEffect1Palette
+  format: palette
+  us:
+    address: 0x09614918
+    size: 32
+  jp:
+    address: 0x095CD3F4
+    size: 32
+  eu:
+    address: 0x09547804
+    size: 32
+- name: gEventBgEffect2Palette
+  format: palette
+  us:
+    address: 0x09614938
+    size: 32
+  jp:
+    address: 0x095CD414
+    size: 32
+  eu:
+    address: 0x09547824
+    size: 32
+- name: gEventBgEffect4Palette
+  format: palette
+  us:
+    address: 0x09614958
+    size: 32
+  jp:
+    address: 0x095CD434
+    size: 32
+  eu:
+    address: 0x09547844
+    size: 32
+- name: gEventBgEffect3Palette
+  format: palette
+  us:
+    address: 0x09614978
+    size: 32
+  jp:
+    address: 0x095CD454
+    size: 32
+  eu:
+    address: 0x09547864
+    size: 32
+- name: gEventBgEffect5Palette
+  format: palette
+  us:
+    address: 0x09614998
+    size: 32
+  jp:
+    address: 0x095CD474
+    size: 32
+  eu:
+    address: 0x09547884
+    size: 32
+- name: gEventBgEffect6Palette
+  format: palette
+  us:
+    address: 0x096149B8
+    size: 32
+  jp:
+    address: 0x095CD494
+    size: 32
+  eu:
+    address: 0x095478A4
+    size: 32
+- name: gEventSilhouettePalette
+  format: palette
+  us:
+    address: 0x096149D8
+    size: 32
+  jp:
+    address: 0x095CD4B4
+    size: 32
+  eu:
+    address: 0x095478C4
+    size: 32
+- name: gTalk0000Palette
+  format: palette
+  us:
+    address: 0x096149F8
+    size: 32
+  jp:
+    address: 0x095CD4D4
+    size: 32
+  eu:
+    address: 0x095478E4
+    size: 32
+- name: gTalk0100Palette
+  format: palette
+  us:
+    address: 0x09614A18
+    size: 32
+  jp:
+    address: 0x095CD4F4
+    size: 32
+  eu:
+    address: 0x09547904
+    size: 32
+- name: gTalk0200Palette
+  format: palette
+  us:
+    address: 0x09614A38
+    size: 32
+  jp:
+    address: 0x095CD514
+    size: 32
+  eu:
+    address: 0x09547924
+    size: 32
+- name: gTalk0300Palette
+  format: palette
+  us:
+    address: 0x09614A58
+    size: 32
+  jp:
+    address: 0x095CD534
+    size: 32
+  eu:
+    address: 0x09547944
+    size: 32
+- name: gTalk0400Palette
+  format: palette
+  us:
+    address: 0x09614A78
+    size: 32
+  jp:
+    address: 0x095CD554
+    size: 32
+  eu:
+    address: 0x09547964
+    size: 32
+- name: gTalk0500Palette
+  format: palette
+  us:
+    address: 0x09614A98
+    size: 32
+  jp:
+    address: 0x095CD574
+    size: 32
+  eu:
+    address: 0x09547984
+    size: 32
+- name: gTalk0600Palette
+  format: palette
+  us:
+    address: 0x09614AB8
+    size: 32
+  jp:
+    address: 0x095CD594
+    size: 32
+  eu:
+    address: 0x095479A4
+    size: 32
+- name: gTalk0700Palette
+  format: palette
+  us:
+    address: 0x09614AD8
+    size: 32
+  jp:
+    address: 0x095CD5B4
+    size: 32
+  eu:
+    address: 0x095479C4
+    size: 32
+- name: gTalk0800Palette
+  format: palette
+  us:
+    address: 0x09614AF8
+    size: 32
+  jp:
+    address: 0x095CD5D4
+    size: 32
+  eu:
+    address: 0x095479E4
+    size: 32
+- name: gTalk0900Palette
+  format: palette
+  us:
+    address: 0x09614B18
+    size: 32
+  jp:
+    address: 0x095CD5F4
+    size: 32
+  eu:
+    address: 0x09547A04
+    size: 32
+- name: gTalk1000Palette
+  format: palette
+  us:
+    address: 0x09614B38
+    size: 32
+  jp:
+    address: 0x095CD614
+    size: 32
+  eu:
+    address: 0x09547A24
+    size: 32
+- name: gTalk1100Palette
+  format: palette
+  us:
+    address: 0x09614B58
+    size: 32
+  jp:
+    address: 0x095CD634
+    size: 32
+  eu:
+    address: 0x09547A44
+    size: 32
+- name: gTalk1200Palette
+  format: palette
+  us:
+    address: 0x09614B78
+    size: 32
+  jp:
+    address: 0x095CD654
+    size: 32
+  eu:
+    address: 0x09547A64
+    size: 32
+- name: gTalk1300Palette
+  format: palette
+  us:
+    address: 0x09614B98
+    size: 32
+  jp:
+    address: 0x095CD674
+    size: 32
+  eu:
+    address: 0x09547A84
+    size: 32
+- name: gTalk1400Palette
+  format: palette
+  us:
+    address: 0x09614BB8
+    size: 32
+  jp:
+    address: 0x095CD694
+    size: 32
+  eu:
+    address: 0x09547AA4
+    size: 32
+- name: gTalk1500Palette
+  format: palette
+  us:
+    address: 0x09614BD8
+    size: 32
+  jp:
+    address: 0x095CD6B4
+    size: 32
+  eu:
+    address: 0x09547AC4
+    size: 32
+- name: gTalk1600Palette
+  format: palette
+  us:
+    address: 0x09614BF8
+    size: 32
+  jp:
+    address: 0x095CD6D4
+    size: 32
+  eu:
+    address: 0x09547AE4
+    size: 32
+- name: gTalk1700Palette
+  format: palette
+  us:
+    address: 0x09614C18
+    size: 32
+  jp:
+    address: 0x095CD6F4
+    size: 32
+  eu:
+    address: 0x09547B04
+    size: 32
+- name: gTalk1800Palette
+  format: palette
+  us:
+    address: 0x09614C38
+    size: 32
+  jp:
+    address: 0x095CD714
+    size: 32
+  eu:
+    address: 0x09547B24
+    size: 32
+- name: gTalk1900Palette
+  format: palette
+  us:
+    address: 0x09614C58
+    size: 32
+  jp:
+    address: 0x095CD734
+    size: 32
+  eu:
+    address: 0x09547B44
+    size: 32
+- name: gTalk2000Palette
+  format: palette
+  us:
+    address: 0x09614C78
+    size: 32
+  jp:
+    address: 0x095CD754
+    size: 32
+  eu:
+    address: 0x09547B64
+    size: 32
+- name: gTalk2100Palette
+  format: palette
+  us:
+    address: 0x09614C98
+    size: 32
+  jp:
+    address: 0x095CD774
+    size: 32
+  eu:
+    address: 0x09547B84
+    size: 32
+- name: talk_22_00
+  format: palette
+  symbol: gTalk2200Palette
+  us:
+    address: 0x09614CB8
+    size: 32
+  jp:
+    address: 0x095CD794
+    size: 32
+  eu:
+    address: 0x09547BA4
+    size: 32
+- name: talk_23_00
+  format: palette
+  symbol: gTalk2300Palette
+  us:
+    address: 0x09614CD8
+    size: 32
+  jp:
+    address: 0x095CD7B4
+    size: 32
+  eu:
+    address: 0x09547BC4
+    size: 32
+- name: gTalk2400Palette
+  format: palette
+  us:
+    address: 0x09614CF8
+    size: 32
+  jp:
+    address: 0x095CD7D4
+    size: 32
+  eu:
+    address: 0x09547BE4
+    size: 32
+- name: gTalk2500Palette
+  format: palette
+  us:
+    address: 0x09614D18
+    size: 32
+  jp:
+    address: 0x095CD7F4
+    size: 32
+  eu:
+    address: 0x09547C04
+    size: 32
+- name: gTalk2600Palette
+  format: palette
+  us:
+    address: 0x09614D38
+    size: 32
+  jp:
+    address: 0x095CD814
+    size: 32
+  eu:
+    address: 0x09547C24
+    size: 32
+- name: gTalk2700Palette
+  format: palette
+  us:
+    address: 0x09614D58
+    size: 32
+  jp:
+    address: 0x095CD834
+    size: 32
+  eu:
+    address: 0x09547C44
+    size: 32
+- name: gTalk2800Palette
+  format: palette
+  us:
+    address: 0x09614D78
+    size: 32
+  jp:
+    address: 0x095CD854
+    size: 32
+  eu:
+    address: 0x09547C64
+    size: 32
+- name: gTalk2900Palette
+  format: palette
+  us:
+    address: 0x09614D98
+    size: 32
+  jp:
+    address: 0x095CD874
+    size: 32
+  eu:
+    address: 0x09547C84
+    size: 32
+- name: gTalk3000Palette
+  format: palette
+  us:
+    address: 0x09614DB8
+    size: 32
+  jp:
+    address: 0x095CD894
+    size: 32
+  eu:
+    address: 0x09547CA4
+    size: 32
+- name: gTalk3100Palette
+  format: palette
+  us:
+    address: 0x09614DD8
+    size: 32
+  jp:
+    address: 0x095CD8B4
+    size: 32
+  eu:
+    address: 0x09547CC4
+    size: 32
+- name: gTalk3200Palette
+  format: palette
+  us:
+    address: 0x09614DF8
+    size: 32
+  jp:
+    address: 0x095CD8D4
+    size: 32
+  eu:
+    address: 0x09547CE4
+    size: 32
+- name: gTalk3300Palette
+  format: palette
+  us:
+    address: 0x09614E18
+    size: 32
+  jp:
+    address: 0x095CD8F4
+    size: 32
+  eu:
+    address: 0x09547D04
+    size: 32
+- name: gTalk3400Palette
+  format: palette
+  us:
+    address: 0x09614E38
+    size: 32
+  jp:
+    address: 0x095CD914
+    size: 32
+  eu:
+    address: 0x09547D24
+    size: 32
+- name: gTalk3500Palette
+  format: palette
+  us:
+    address: 0x09614E58
+    size: 32
+  jp:
+    address: 0x095CD934
+    size: 32
+  eu:
+    address: 0x09547D44
+    size: 32
+- name: gTalk3600Palette
+  format: palette
+  us:
+    address: 0x09614E78
+    size: 32
+  jp:
+    address: 0x095CD954
+    size: 32
+  eu:
+    address: 0x09547D64
+    size: 32
+- name: gTalk3700Palette
+  format: palette
+  us:
+    address: 0x09614E98
+    size: 32
+  jp:
+    address: 0x095CD974
+    size: 32
+  eu:
+    address: 0x09547D84
+    size: 32
+- name: gTalk3800Palette
+  format: palette
+  us:
+    address: 0x09614EB8
+    size: 32
+  jp:
+    address: 0x095CD994
+    size: 32
+  eu:
+    address: 0x09547DA4
+    size: 32
+- name: gTalk3900Palette
+  format: palette
+  us:
+    address: 0x09614ED8
+    size: 32
+  jp:
+    address: 0x095CD9B4
+    size: 32
+  eu:
+    address: 0x09547DC4
+    size: 32
+- name: gTalk4000Palette
+  format: palette
+  us:
+    address: 0x09614EF8
+    size: 32
+  jp:
+    address: 0x095CD9D4
+    size: 32
+  eu:
+    address: 0x09547DE4
+    size: 32
+- name: gTalk4100Palette
+  format: palette
+  us:
+    address: 0x09614F18
+    size: 32
+  jp:
+    address: 0x095CD9F4
+    size: 32
+  eu:
+    address: 0x09547E04
+    size: 32
+- name: gTalk4200Palette
+  format: palette
+  us:
+    address: 0x09614F38
+    size: 32
+  jp:
+    address: 0x095CDA14
+    size: 32
+  eu:
+    address: 0x09547E24
+    size: 32
+- name: gTalk4300Palette
+  format: palette
+  us:
+    address: 0x09614F58
+    size: 32
+  jp:
+    address: 0x095CDA34
+    size: 32
+  eu:
+    address: 0x09547E44
+    size: 32
+- name: gTalk4400Palette
+  format: palette
+  us:
+    address: 0x09614F78
+    size: 32
+  jp:
+    address: 0x095CDA54
+    size: 32
+  eu:
+    address: 0x09547E64
+    size: 32
+- name: gTalk4500Palette
+  format: palette
+  us:
+    address: 0x09614F98
+    size: 32
+  jp:
+    address: 0x095CDA74
+    size: 32
+  eu:
+    address: 0x09547E84
+    size: 32
+- name: gTalk4600Palette
+  format: palette
+  us:
+    address: 0x09614FB8
+    size: 32
+  jp:
+    address: 0x095CDA94
+    size: 32
+  eu:
+    address: 0x09547EA4
+    size: 32
+- name: gTalk4700Palette
+  format: palette
+  us:
+    address: 0x09614FD8
+    size: 32
+  jp:
+    address: 0x095CDAB4
+    size: 32
+  eu:
+    address: 0x09547EC4
+    size: 32
+- name: gTalk4800Palette
+  format: palette
+  us:
+    address: 0x09614FF8
+    size: 32
+  jp:
+    address: 0x095CDAD4
+    size: 32
+  eu:
+    address: 0x09547EE4
+    size: 32
+- name: gTalk4900Palette
+  format: palette
+  us:
+    address: 0x09615018
+    size: 32
+  jp:
+    address: 0x095CDAF4
+    size: 32
+  eu:
+    address: 0x09547F04
+    size: 32
+- name: gTalk5000Palette
+  format: palette
+  us:
+    address: 0x09615038
+    size: 32
+  jp:
+    address: 0x095CDB14
+    size: 32
+  eu:
+    address: 0x09547F24
+    size: 32
+- name: gTalk5001Palette
+  format: palette
+  us:
+    address: 0x09615058
+    size: 32
+  jp:
+    address: 0x095CDB34
+    size: 32
+  eu:
+    address: 0x09547F44
+    size: 32
+- name: gTalk5100Palette
+  format: palette
+  us:
+    address: 0x09615078
+    size: 32
+  jp:
+    address: 0x095CDB54
+    size: 32
+  eu:
+    address: 0x09547F64
+    size: 32
+- name: gTalk5200Palette
+  format: palette
+  us:
+    address: 0x09615098
+    size: 32
+  jp:
+    address: 0x095CDB74
+    size: 32
+  eu:
+    address: 0x09547F84
+    size: 32
+- name: gTalk5300Palette
+  format: palette
+  us:
+    address: 0x096150B8
+    size: 32
+  jp:
+    address: 0x095CDB94
+    size: 32
+  eu:
+    address: 0x09547FA4
+    size: 32
+- name: gTalk5400Palette
+  format: palette
+  us:
+    address: 0x096150D8
+    size: 32
+  jp:
+    address: 0x095CDBB4
+    size: 32
+  eu:
+    address: 0x09547FC4
+    size: 32
+- name: gTalk5500Palette
+  format: palette
+  us:
+    address: 0x096150F8
+    size: 32
+  jp:
+    address: 0x095CDBD4
+    size: 32
+  eu:
+    address: 0x09547FE4
+    size: 32
+- name: gTalk5600Palette
+  format: palette
+  us:
+    address: 0x09615118
+    size: 32
+  jp:
+    address: 0x095CDBF4
+    size: 32
+  eu:
+    address: 0x09548004
+    size: 32
+- name: gTalk5700Palette
+  format: palette
+  us:
+    address: 0x09615138
+    size: 32
+  jp:
+    address: 0x095CDC14
+    size: 32
+  eu:
+    address: 0x09548024
+    size: 32
+- name: gTalk5800Palette
+  format: palette
+  us:
+    address: 0x09615158
+    size: 32
+  jp:
+    address: 0x095CDC34
+    size: 32
+  eu:
+    address: 0x09548044
+    size: 32
+- name: gTalk5900Palette
+  format: palette
+  us:
+    address: 0x09615178
+    size: 32
+  jp:
+    address: 0x095CDC54
+    size: 32
+  eu:
+    address: 0x09548064
+    size: 32
+- name: gTalk6000Palette
+  format: palette
+  us:
+    address: 0x09615198
+    size: 32
+  jp:
+    address: 0x095CDC74
+    size: 32
+  eu:
+    address: 0x09548084
+    size: 32
+- name: gTalk6100Palette
+  format: palette
+  us:
+    address: 0x096151B8
+    size: 32
+  jp:
+    address: 0x095CDC94
+    size: 32
+  eu:
+    address: 0x095480A4
+    size: 32
+- name: donald
+  format: palette
+  symbol: gDonaldPalette
+  us:
+    address: 0x09617C58
+    size: 32
+  jp:
+    address: 0x095D0734
+    size: 32
+  eu:
+    address: 0x0954AB44
+    size: 32
+- name: robe
+  format: palette
+  symbol: gRobePalette
+  us:
+    address: 0x09617C78
+    size: 32
+  jp:
+    address: 0x095D0754
+    size: 32
+  eu:
+    address: 0x0954AB64
+    size: 32
+- name: trump_H
+  format: palette
+  symbol: gTrumpHPalette
+  us:
+    address: 0x09617C98
+    size: 32
+  jp:
+    address: 0x095D0774
+    size: 32
+  eu:
+    address: 0x0954AB84
+    size: 32
+- name: trump_S
+  format: palette
+  symbol: gTrumpSPalette
+  us:
+    address: 0x09617CB8
+    size: 32
+  jp:
+    address: 0x095D0794
+    size: 32
+  eu:
+    address: 0x0954ABA4
+    size: 32
+- name: qeen
+  format: palette
+  symbol: gQeenPalette
+  us:
+    address: 0x09617CD8
+    size: 32
+  jp:
+    address: 0x095D07B4
+    size: 32
+  eu:
+    address: 0x0954ABC4
+    size: 32
+- name: alice
+  format: palette
+  symbol: gAlicePalette
+  us:
+    address: 0x09617CF8
+    size: 32
+  jp:
+    address: 0x095D07D4
+    size: 32
+  eu:
+    address: 0x0954ABE4
+    size: 32
+- name: jiminy
+  format: palette
+  symbol: gJiminyPalette
+  us:
+    address: 0x09617D18
+    size: 32
+  jp:
+    address: 0x095D07F4
+    size: 32
+  eu:
+    address: 0x0954AC04
+    size: 32
+- name: pinokio
+  format: palette
+  symbol: gPinokioPalette
+  us:
+    address: 0x09617D38
+    size: 32
+  jp:
+    address: 0x095D0814
+    size: 32
+  eu:
+    address: 0x0954AC24
+    size: 32
+- name: mogu
+  format: palette
+  symbol: gMoguPalette
+  us:
+    address: 0x09617D58
+    size: 32
+  jp:
+    address: 0x095D0834
+    size: 32
+  eu:
+    address: 0x0954AC44
+    size: 32
+- name: usagi00
+  format: palette
+  symbol: gUsagi00Palette
+  us:
+    address: 0x09617D78
+    size: 32
+  jp:
+    address: 0x095D0854
+    size: 32
+  eu:
+    address: 0x0954AC64
+    size: 32
+- name: aladdin
+  format: palette
+  symbol: gAladdinPalette
+  us:
+    address: 0x09617D98
+    size: 32
+  jp:
+    address: 0x095D0874
+    size: 32
+  eu:
+    address: 0x0954AC84
+    size: 32
+- name: jack
+  format: palette
+  symbol: gJackPalette
+  us:
+    address: 0x09617DB8
+    size: 32
+  jp:
+    address: 0x095D0894
+    size: 32
+  eu:
+    address: 0x0954ACA4
+    size: 32
+- name: peter
+  format: palette
+  symbol: gPeterPalette
+  us:
+    address: 0x09617DD8
+    size: 32
+  jp:
+    address: 0x095D08B4
+    size: 32
+  eu:
+    address: 0x0954ACC4
+    size: 32
+- name: ariel
+  format: palette
+  symbol: gArielPalette
+  us:
+    address: 0x09617DF8
+    size: 32
+  jp:
+    address: 0x095D08D4
+    size: 32
+  eu:
+    address: 0x0954ACE4
+    size: 32
+- name: beast
+  format: palette
+  symbol: gBeastPalette
+  us:
+    address: 0x09617E18
+    size: 32
+  jp:
+    address: 0x095D08F4
+    size: 32
+  eu:
+    address: 0x0954AD04
+    size: 32
+- name: gCheshirePalette
+  format: palette
+  us:
+    address: 0x09617E38
+    size: 32
+  jp:
+    address: 0x095D0914
+    size: 32
+  eu:
+    address: 0x0954AD24
+    size: 32
+- name: geppetto
+  format: palette
+  symbol: gGeppettoPalette
+  us:
+    address: 0x09617E58
+    size: 32
+  jp:
+    address: 0x095D0934
+    size: 32
+  eu:
+    address: 0x0954AD44
+    size: 32
+- name: arthra
+  format: palette
+  symbol: gArthraPalette
+  us:
+    address: 0x09617E78
+    size: 32
+  jp:
+    address: 0x095D0954
+    size: 32
+  eu:
+    address: 0x0954AD64
+    size: 32
+- name: bugi
+  format: palette
+  symbol: gBugiPalette
+  us:
+    address: 0x09617E98
+    size: 32
+  jp:
+    address: 0x095D0974
+    size: 32
+  eu:
+    address: 0x0954AD84
+    size: 32
+- name: bell
+  format: palette
+  symbol: gBellPalette
+  us:
+    address: 0x09617EB8
+    size: 32
+  jp:
+    address: 0x095D0994
+    size: 32
+  eu:
+    address: 0x0954ADA4
+    size: 32
+- name: phil
+  format: palette
+  symbol: gPhilPalette
+  us:
+    address: 0x09617ED8
+    size: 32
+  jp:
+    address: 0x095D09B4
+    size: 32
+  eu:
+    address: 0x0954ADC4
+    size: 32
+- name: heracles
+  format: palette
+  symbol: gHeraclesPalette
+  us:
+    address: 0x09617EF8
+    size: 32
+  jp:
+    address: 0x095D09D4
+    size: 32
+  eu:
+    address: 0x0954ADE4
+    size: 32
+- name: hades
+  format: palette
+  symbol: gHadesPalette
+  us:
+    address: 0x09617F18
+    size: 32
+  jp:
+    address: 0x095D09F4
+    size: 32
+  eu:
+    address: 0x0954AE04
+    size: 32
+- name: gHadesAngryPalette
+  format: palette
+  us:
+    address: 0x09617F38
+    size: 32
+  jp:
+    address: 0x095D0A14
+    size: 32
+  eu:
+    address: 0x0954AE24
+    size: 32
+- name: gShougekihaPalette
+  format: palette
+  us:
+    address: 0x09617F58
+    size: 32
+  jp:
+    address: 0x095D0A34
+    size: 32
+  eu:
+    address: 0x0954AE44
+    size: 32
+- name: gShougekihaPurplePalette
+  format: palette
+  us:
+    address: 0x09617F78
+    size: 32
+  jp:
+    address: 0x095D0A54
+    size: 32
+  eu:
+    address: 0x0954AE64
+    size: 32
+- name: gDamboPalette
+  format: palette
+  us:
+    address: 0x09617F98
+    size: 32
+  jp:
+    address: 0x095D0A74
+    size: 32
+  eu:
+    address: 0x0954AE84
+    size: 32
+- name: finkl
+  format: palette
+  symbol: gFinklPalette
+  us:
+    address: 0x09617FB8
+    size: 32
+  jp:
+    address: 0x095D0A94
+    size: 32
+  eu:
+    address: 0x0954AEA4
+    size: 32
+- name: maref
+  format: palette
+  symbol: gMarefPalette
+  us:
+    address: 0x09617FD8
+    size: 32
+  jp:
+    address: 0x095D0AB4
+    size: 32
+  eu:
+    address: 0x0954AEC4
+    size: 32
+- name: banb
+  format: palette
+  symbol: gBanbPalette
+  us:
+    address: 0x09617FF8
+    size: 32
+  jp:
+    address: 0x095D0AD4
+    size: 32
+  eu:
+    address: 0x0954AEE4
+    size: 32
+- name: shinba
+  format: palette
+  symbol: gShinbaPalette
+  us:
+    address: 0x09618018
+    size: 32
+  jp:
+    address: 0x095D0AF4
+    size: 32
+  eu:
+    address: 0x0954AF04
+    size: 32
+- name: mushu
+  format: palette
+  symbol: gMushuPalette
+  us:
+    address: 0x09618038
+    size: 32
+  jp:
+    address: 0x095D0B14
+    size: 32
+  eu:
+    address: 0x0954AF24
+    size: 32
+- name: kairi
+  format: palette
+  symbol: gKairiPalette
+  us:
+    address: 0x09618058
+    size: 32
+  jp:
+    address: 0x095D0B34
+    size: 32
+  eu:
+    address: 0x0954AF44
+    size: 32
+- name: earis
+  format: palette
+  symbol: gEarisPalette
+  us:
+    address: 0x09618078
+    size: 32
+  jp:
+    address: 0x095D0B54
+    size: 32
+  eu:
+    address: 0x0954AF64
+    size: 32
+- name: tink
+  format: palette
+  symbol: gTinkPalette
+  us:
+    address: 0x09618098
+    size: 32
+  jp:
+    address: 0x095D0B74
+    size: 32
+  eu:
+    address: 0x0954AF84
+    size: 32
+- name: sebastian
+  format: palette
+  symbol: gSebastianPalette
+  us:
+    address: 0x096180B8
+    size: 32
+  jp:
+    address: 0x095D0B94
+    size: 32
+  eu:
+    address: 0x0954AFA4
+    size: 32
+- name: flounder
+  format: palette
+  symbol: gFlounderPalette
+  us:
+    address: 0x096180D8
+    size: 32
+  jp:
+    address: 0x095D0BB4
+    size: 32
+  eu:
+    address: 0x0954AFC4
+    size: 32
+- name: accele
+  format: palette
+  symbol: gAccelePalette
+  us:
+    address: 0x096180F8
+    size: 32
+  jp:
+    address: 0x095D0BD4
+    size: 32
+  eu:
+    address: 0x0954AFE4
+    size: 32
+- name: riku
+  format: palette
+  symbol: gRikuPalette
+  us:
+    address: 0x09618118
+    size: 32
+  jp:
+    address: 0x095D0BF4
+    size: 32
+  eu:
+    address: 0x0954B004
+    size: 32
+- name: sari
+  format: palette
+  symbol: gSariPalette
+  us:
+    address: 0x09618138
+    size: 32
+  jp:
+    address: 0x095D0C14
+    size: 32
+  eu:
+    address: 0x0954B024
+    size: 32
+- name: hook
+  format: palette
+  symbol: gHookPalette
+  us:
+    address: 0x09618158
+    size: 32
+  jp:
+    address: 0x095D0C34
+    size: 32
+  eu:
+    address: 0x0954B044
+    size: 32
+- name: jasmine
+  format: palette
+  symbol: gJasminePalette
+  us:
+    address: 0x09618178
+    size: 32
+  jp:
+    address: 0x095D0C54
+    size: 32
+  eu:
+    address: 0x0954B064
+    size: 32
+- name: omamori
+  format: palette
+  symbol: gOmamoriPalette
+  us:
+    address: 0x09618198
+    size: 32
+  jp:
+    address: 0x095D0C74
+    size: 32
+  eu:
+    address: 0x0954B084
+    size: 32
+- name: goofy2
+  format: palette
+  symbol: gGoofy2Palette
+  us:
+    address: 0x096181B8
+    size: 32
+  jp:
+    address: 0x095D0C94
+    size: 32
+  eu:
+    address: 0x0954B0A4
+    size: 32
+- name: donald2
+  format: palette
+  symbol: gDonald2Palette
+  us:
+    address: 0x096181D8
+    size: 32
+  jp:
+    address: 0x095D0CB4
+    size: 32
+  eu:
+    address: 0x0954B0C4
+    size: 32
+- name: shido
+  format: palette
+  symbol: gShidoPalette
+  us:
+    address: 0x096181F8
+    size: 32
+  jp:
+    address: 0x095D0CD4
+    size: 32
+  eu:
+    address: 0x0954B0E4
+    size: 32
+- name: selphie
+  format: palette
+  symbol: gSelphiePalette
+  us:
+    address: 0x09618218
+    size: 32
+  jp:
+    address: 0x095D0CF4
+    size: 32
+  eu:
+    address: 0x0954B104
+    size: 32
+- name: jaffer
+  format: palette
+  symbol: gJafferPalette
+  us:
+    address: 0x09618238
+    size: 32
+  jp:
+    address: 0x095D0D14
+    size: 32
+  eu:
+    address: 0x0954B124
+    size: 32
+- name: reon
+  format: palette
+  symbol: gReonPalette
+  us:
+    address: 0x09618258
+    size: 32
+  jp:
+    address: 0x095D0D34
+    size: 32
+  eu:
+    address: 0x0954B144
+    size: 32
+- name: wakka
+  format: palette
+  symbol: gWakkaPalette
+  us:
+    address: 0x09618278
+    size: 32
+  jp:
+    address: 0x095D0D54
+    size: 32
+  eu:
+    address: 0x0954B164
+    size: 32
+- name: genie
+  format: palette
+  symbol: gGeniePalette
+  us:
+    address: 0x09618298
+    size: 32
+  jp:
+    address: 0x095D0D74
+    size: 32
+  eu:
+    address: 0x0954B184
+    size: 32
+- name: tidus
+  format: palette
+  symbol: gTidusPalette
+  us:
+    address: 0x096182B8
+    size: 32
+  jp:
+    address: 0x095D0D94
+    size: 32
+  eu:
+    address: 0x0954B1A4
+    size: 32
+- name: wendy
+  format: palette
+  symbol: gWendyPalette
+  us:
+    address: 0x096182D8
+    size: 32
+  jp:
+    address: 0x095D0DB4
+    size: 32
+  eu:
+    address: 0x0954B1C4
+    size: 32
+- name: yuffie
+  format: palette
+  symbol: gYuffiePalette
+  us:
+    address: 0x096182F8
+    size: 32
+  jp:
+    address: 0x095D0DD4
+    size: 32
+  eu:
+    address: 0x0954B1E4
+    size: 32
+- name: ansem
+  format: palette
+  symbol: gAnsemPalette
+  us:
+    address: 0x09618318
+    size: 32
+  jp:
+    address: 0x095D0DF4
+    size: 32
+  eu:
+    address: 0x0954B204
+    size: 32
+- name: niseriku
+  format: palette
+  symbol: gNiserikuPalette
+  us:
+    address: 0x09618338
+    size: 32
+  jp:
+    address: 0x095D0E14
+    size: 32
+  eu:
+    address: 0x0954B224
+    size: 32
+- name: gIagoPalette
+  format: palette
+  us:
+    address: 0x09618358
+    size: 32
+  jp:
+    address: 0x095D0E34
+    size: 32
+  eu:
+    address: 0x0954B244
+    size: 32
+- name: ansemback
+  format: palette
+  symbol: gAnsembackPalette
+  us:
+    address: 0x09618378
+    size: 32
+  jp:
+    address: 0x095D0E54
+    size: 32
+  eu:
+    address: 0x0954B264
+    size: 32
+- name: gEventStreetLampPalette
+  format: palette
+  us:
+    address: 0x09618398
+    size: 32
+  jp:
+    address: 0x095D0E74
+    size: 32
+  eu:
+    address: 0x0954B284
+    size: 32
+- name: vixen
+  format: palette
+  symbol: gVixenPalette
+  us:
+    address: 0x096183B8
+    size: 32
+  jp:
+    address: 0x095D0E94
+    size: 32
+  eu:
+    address: 0x0954B2A4
+    size: 32
+- name: gEventSmokeCloudPalette
+  format: palette
+  us:
+    address: 0x096183D8
+    size: 32
+  jp:
+    address: 0x095D0EB4
+    size: 32
+  eu:
+    address: 0x0954B2C4
+    size: 32
+- name: mickey
+  format: palette
+  symbol: gMickeyPalette
+  us:
+    address: 0x096183F8
+    size: 32
+  jp:
+    address: 0x095D0ED4
+    size: 32
+  eu:
+    address: 0x0954B2E4
+    size: 32
+- name: gEventHeartPalette
+  format: palette
+  us:
+    address: 0x09618418
+    size: 32
+  jp:
+    address: 0x095D0EF4
+    size: 32
+  eu:
+    address: 0x0954B304
+    size: 32
+- name: maruxha
+  format: palette
+  symbol: gMaruxhaPalette
+  us:
+    address: 0x09618438
+    size: 32
+  jp:
+    address: 0x095D0F14
+    size: 32
+  eu:
+    address: 0x0954B324
+    size: 32
+- name: laxine
+  format: palette
+  symbol: gLaxinePalette
+  us:
+    address: 0x09618458
+    size: 32
+  jp:
+    address: 0x095D0F34
+    size: 32
+  eu:
+    address: 0x0954B344
+    size: 32
+- name: rexeus
+  format: palette
+  symbol: gRexeusPalette
+  us:
+    address: 0x09618478
+    size: 32
+  jp:
+    address: 0x095D0F54
+    size: 32
+  eu:
+    address: 0x0954B364
+    size: 32
+- name: xexion
+  format: palette
+  symbol: gXexionPalette
+  us:
+    address: 0x09618498
+    size: 32
+  jp:
+    address: 0x095D0F74
+    size: 32
+  eu:
+    address: 0x0954B384
+    size: 32
+- name: diz
+  format: palette
+  symbol: gDizPalette
+  us:
+    address: 0x096184B8
+    size: 32
+  jp:
+    address: 0x095D0F94
+    size: 32
+  eu:
+    address: 0x0954B3A4
+    size: 32
+- name: namine
+  format: palette
+  symbol: gNaminePalette
+  us:
+    address: 0x096184D8
+    size: 32
+  jp:
+    address: 0x095D0FB4
+    size: 32
+  eu:
+    address: 0x0954B3C4
+    size: 32
+- name: gEventBg004Object1Palette
+  format: palette
+  us:
+    address: 0x096184F8
+    size: 32
+  jp:
+    address: 0x095D0FD4
+    size: 32
+  eu:
+    address: 0x0954B3E4
+    size: 32
+- name: gKoukyuPalette
+  format: palette
+  us:
+    address: 0x09618518
+    size: 32
+  jp:
+    address: 0x095D0FF4
+    size: 32
+  eu:
+    address: 0x0954B404
+    size: 32
+- name: gMareficentBallPalette
+  format: palette
+  us:
+    address: 0x09618538
+    size: 32
+  jp:
+    address: 0x095D1014
+    size: 32
+  eu:
+    address: 0x0954B424
+    size: 32
+- name: gUnk_09618558
+  format: palette
+  us:
+    address: 0x09618558
+    size: 64
+  jp:
+    address: 0x095D1034
+    size: 64
+  eu:
+    address: 0x0954B444
+    size: 64
+- name: gCardRoom01Palette
+  format: palette
+  us:
+    address: 0x09618598
+    size: 32
+  jp:
+    address: 0x095D1074
+    size: 32
+  eu:
+    address: 0x0954B484
+    size: 32
+- name: gCardRoom02Palette
+  format: palette
+  us:
+    address: 0x096185B8
+    size: 32
+  jp:
+    address: 0x095D1094
+    size: 32
+  eu:
+    address: 0x0954B4A4
+    size: 32
+- name: gCardRoom03Palette
+  format: palette
+  us:
+    address: 0x096185D8
+    size: 32
+  jp:
+    address: 0x095D10B4
+    size: 32
+  eu:
+    address: 0x0954B4C4
+    size: 32
+- name: gCardRoom04Palette
+  format: palette
+  us:
+    address: 0x096185F8
+    size: 32
+  jp:
+    address: 0x095D10D4
+    size: 32
+  eu:
+    address: 0x0954B4E4
+    size: 32
+- name: gCardRoom05Palette
+  format: palette
+  us:
+    address: 0x09618618
+    size: 32
+  jp:
+    address: 0x095D10F4
+    size: 32
+  eu:
+    address: 0x0954B504
+    size: 32
+- name: gCardRoom06Palette
+  format: palette
+  us:
+    address: 0x09618638
+    size: 32
+  jp:
+    address: 0x095D1114
+    size: 32
+  eu:
+    address: 0x0954B524
+    size: 32
+- name: gCardRoom07Palette
+  format: palette
+  us:
+    address: 0x09618658
+    size: 32
+  jp:
+    address: 0x095D1134
+    size: 32
+  eu:
+    address: 0x0954B544
+    size: 32
+- name: gCardRoom08Palette
+  format: palette
+  us:
+    address: 0x09618678
+    size: 32
+  jp:
+    address: 0x095D1154
+    size: 32
+  eu:
+    address: 0x0954B564
+    size: 32
+- name: gCardRoom09Palette
+  format: palette
+  us:
+    address: 0x09618698
+    size: 32
+  jp:
+    address: 0x095D1174
+    size: 32
+  eu:
+    address: 0x0954B584
+    size: 32
+- name: gCardRoom10Palette
+  format: palette
+  us:
+    address: 0x096186B8
+    size: 32
+  jp:
+    address: 0x095D1194
+    size: 32
+  eu:
+    address: 0x0954B5A4
+    size: 32
+- name: gCardRoom11Palette
+  format: palette
+  us:
+    address: 0x096186D8
+    size: 32
+  jp:
+    address: 0x095D11B4
+    size: 32
+  eu:
+    address: 0x0954B5C4
+    size: 32
+- name: gCardRoom12Palette
+  format: palette
+  us:
+    address: 0x096186F8
+    size: 32
+  jp:
+    address: 0x095D11D4
+    size: 32
+  eu:
+    address: 0x0954B5E4
+    size: 32
+- name: gCardRoom13Palette
+  format: palette
+  us:
+    address: 0x09618718
+    size: 32
+  jp:
+    address: 0x095D11F4
+    size: 32
+  eu:
+    address: 0x0954B604
+    size: 32
+- name: gCardRoom14Palette
+  format: palette
+  us:
+    address: 0x09618738
+    size: 32
+  jp:
+    address: 0x095D1214
+    size: 32
+  eu:
+    address: 0x0954B624
+    size: 32
+- name: gCardRoom15Palette
+  format: palette
+  us:
+    address: 0x09618758
+    size: 32
+  jp:
+    address: 0x095D1234
+    size: 32
+  eu:
+    address: 0x0954B644
+    size: 32
+- name: gCardRoom16Palette
+  format: palette
+  us:
+    address: 0x09618778
+    size: 32
+  jp:
+    address: 0x095D1254
+    size: 32
+  eu:
+    address: 0x0954B664
+    size: 32
+- name: gCardRoom17Palette
+  format: palette
+  us:
+    address: 0x09618798
+    size: 32
+  jp:
+    address: 0x095D1274
+    size: 32
+  eu:
+    address: 0x0954B684
+    size: 32
+- name: gCardRoom18Palette
+  format: palette
+  us:
+    address: 0x096187B8
+    size: 32
+  jp:
+    address: 0x095D1294
+    size: 32
+  eu:
+    address: 0x0954B6A4
+    size: 32
+- name: gCardRoom19Palette
+  format: palette
+  us:
+    address: 0x096187D8
+    size: 32
+  jp:
+    address: 0x095D12B4
+    size: 32
+  eu:
+    address: 0x0954B6C4
+    size: 32
+- name: gCardRoom20Palette
+  format: palette
+  us:
+    address: 0x096187F8
+    size: 32
+  jp:
+    address: 0x095D12D4
+    size: 32
+  eu:
+    address: 0x0954B6E4
+    size: 32
+- name: gCardRoom21Palette
+  format: palette
+  us:
+    address: 0x09618818
+    size: 32
+  jp:
+    address: 0x095D12F4
+    size: 32
+  eu:
+    address: 0x0954B704
+    size: 32
+- name: gCardRoom22Palette
+  format: palette
+  us:
+    address: 0x09618838
+    size: 32
+  jp:
+    address: 0x095D1314
+    size: 32
+  eu:
+    address: 0x0954B724
+    size: 32
+- name: gCardRoom23Palette
+  format: palette
+  us:
+    address: 0x09618858
+    size: 32
+  jp:
+    address: 0x095D1334
+    size: 32
+  eu:
+    address: 0x0954B744
+    size: 32
+- name: gTeemingDarknessSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618878
+    size: 32
+  jp:
+    address: 0x095D1354
+    size: 32
+  eu:
+    address: 0x0954B764
+    size: 32
+- name: gTranquilDarknessSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618898
+    size: 32
+  jp:
+    address: 0x095D1374
+    size: 32
+  eu:
+    address: 0x0954B784
+    size: 32
+- name: gGuardedTroveSmallCardPalette
+  format: palette
+  us:
+    address: 0x096188B8
+    size: 32
+  jp:
+    address: 0x095D1394
+    size: 32
+  eu:
+    address: 0x0954B7A4
+    size: 32
+- name: gLoomingDarknessSmallCardPalette
+  format: palette
+  us:
+    address: 0x096188D8
+    size: 32
+  jp:
+    address: 0x095D13B4
+    size: 32
+  eu:
+    address: 0x0954B7C4
+    size: 32
+- name: gSleepingDarknessSmallCardPalette
+  format: palette
+  us:
+    address: 0x096188F8
+    size: 32
+  jp:
+    address: 0x095D13D4
+    size: 32
+  eu:
+    address: 0x0954B7E4
+    size: 32
+- name: gMomentsReprieveSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618918
+    size: 32
+  jp:
+    address: 0x095D13F4
+    size: 32
+  eu:
+    address: 0x0954B804
+    size: 32
+- name: gFeebleDarknessSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618938
+    size: 32
+  jp:
+    address: 0x095D1414
+    size: 32
+  eu:
+    address: 0x0954B824
+    size: 32
+- name: gAlmightyDarknessSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618958
+    size: 32
+  jp:
+    address: 0x095D1434
+    size: 32
+  eu:
+    address: 0x0954B844
+    size: 32
+- name: gCalmBountySmallCardPalette
+  format: palette
+  us:
+    address: 0x09618978
+    size: 32
+  jp:
+    address: 0x095D1454
+    size: 32
+  eu:
+    address: 0x0954B864
+    size: 32
+- name: gFalseBountySmallCardPalette
+  format: palette
+  us:
+    address: 0x09618998
+    size: 32
+  jp:
+    address: 0x095D1474
+    size: 32
+  eu:
+    address: 0x0954B884
+    size: 32
+- name: gMoogleRoomSmallCardPalette
+  format: palette
+  us:
+    address: 0x096189B8
+    size: 32
+  jp:
+    address: 0x095D1494
+    size: 32
+  eu:
+    address: 0x0954B8A4
+    size: 32
+- name: gSorcerousWakingSmallCardPalette
+  format: palette
+  us:
+    address: 0x096189D8
+    size: 32
+  jp:
+    address: 0x095D14B4
+    size: 32
+  eu:
+    address: 0x0954B8C4
+    size: 32
+- name: gMartialWakingSmallCardPalette
+  format: palette
+  us:
+    address: 0x096189F8
+    size: 32
+  jp:
+    address: 0x095D14D4
+    size: 32
+  eu:
+    address: 0x0954B8E4
+    size: 32
+- name: gAlchemicWakingSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618A18
+    size: 32
+  jp:
+    address: 0x095D14F4
+    size: 32
+  eu:
+    address: 0x0954B904
+    size: 32
+- name: gMeetingGroundSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618A38
+    size: 32
+  jp:
+    address: 0x095D1514
+    size: 32
+  eu:
+    address: 0x0954B924
+    size: 32
+- name: gMinglingWorldsSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618A58
+    size: 32
+  jp:
+    address: 0x095D1534
+    size: 32
+  eu:
+    address: 0x0954B944
+    size: 32
+- name: gStrongInitiativeSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618A78
+    size: 32
+  jp:
+    address: 0x095D1554
+    size: 32
+  eu:
+    address: 0x0954B964
+    size: 32
+- name: gLastingDazeSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618A98
+    size: 32
+  jp:
+    address: 0x095D1574
+    size: 32
+  eu:
+    address: 0x0954B984
+    size: 32
+- name: gStagnantSpaceSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618AB8
+    size: 32
+  jp:
+    address: 0x095D1594
+    size: 32
+  eu:
+    address: 0x0954B9A4
+    size: 32
+- name: gPremiumRoomSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618AD8
+    size: 32
+  jp:
+    address: 0x095D15B4
+    size: 32
+  eu:
+    address: 0x0954B9C4
+    size: 32
+- name: gWhiteRoomSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618AF8
+    size: 32
+  jp:
+    address: 0x095D15D4
+    size: 32
+  eu:
+    address: 0x0954B9E4
+    size: 32
+- name: gBlackRoomSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618B18
+    size: 32
+  jp:
+    address: 0x095D15F4
+    size: 32
+  eu:
+    address: 0x0954BA04
+    size: 32
+- name: gKeyToRewardsSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618B38
+    size: 32
+  jp:
+    address: 0x095D1614
+    size: 32
+  eu:
+    address: 0x0954BA24
+    size: 32
+- name: gKeyOfBeginningsSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618B58
+    size: 32
+  jp:
+    address: 0x095D1634
+    size: 32
+  eu:
+    address: 0x0954BA44
+    size: 32
+- name: gKeyOfGuidanceSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618B78
+    size: 32
+  jp:
+    address: 0x095D1654
+    size: 32
+  eu:
+    address: 0x0954BA64
+    size: 32
+- name: gKeyToTruthSmallCardPalette
+  format: palette
+  us:
+    address: 0x09618B98
+    size: 64
+  jp:
+    address: 0x095D1674
+    size: 64
+  eu:
+    address: 0x0954BA84
+    size: 64
+- name: gCardEve00Palette
+  format: palette
+  us:
+    address: 0x09618BD8
+    size: 32
+  jp:
+    address: 0x095D16B4
+    size: 32
+  eu:
+    address: 0x0954BAC4
+    size: 32
+- name: gCardEve01Palette
+  format: palette
+  us:
+    address: 0x09618BF8
+    size: 32
+  jp:
+    address: 0x095D16D4
+    size: 32
+  eu:
+    address: 0x0954BAE4
+    size: 32
+- name: gCardEve02Palette
+  format: palette
+  us:
+    address: 0x09618C18
+    size: 32
+  jp:
+    address: 0x095D16F4
+    size: 32
+  eu:
+    address: 0x0954BB04
+    size: 32
+- name: gSpotLightPalette
+  format: palette
+  us:
+    address: 0x09618C38
+    size: 32
+  jp:
+    address: 0x095D1714
+    size: 32
+  eu:
+    address: 0x0954BB24
+    size: 32
+- name: gMapSelectBgPalettes
+  format: palette
+  ctype: u8
+  us:
+    address: 0x09618C58
+    size: 128
+  jp:
+    address: 0x095D1734
+    size: 128
+  eu:
+    address: 0x0954BB44
+    size: 128
+- name: gSmallHandCursorPalette
+  format: palette
+  us:
+    address: 0x09618CD8
+    size: 32
+  jp:
+    address: 0x095D17B4
+    size: 32
+  eu:
+    address: 0x0954BBC4
+    size: 32
+- name: gUnk_09618CF8
+  format: palette
+  us:
+    address: 0x09618CF8
+    size: 32
+  jp:
+    address: 0x095D17D4
+    size: 32
+  eu:
+    address: 0x0954BBE4
+    size: 32
+- name: gCardSelectBoxPalette
+  format: palette
+  us:
+    address: 0x09618D18
+    size: 32
+  jp:
+    address: 0x095D17F4
+    size: 32
+  eu:
+    address: 0x0954BC04
+    size: 32
+- name: gDoorCardPalette
+  format: palette
+  us:
+    address: 0x09618D38
+    size: 32
+  jp:
+    address: 0x095D1814
+    size: 32
+  eu:
+    address: 0x0954BC24
+    size: 32
+- name: gUnk_09618D58
+  format: palette
+  us:
+    address: 0x09618D58
+    size: 32
+  jp:
+    address: 0x095D1834
+    size: 32
+  eu:
+    address: 0x0954BC44
+    size: 32
+- name: gMapCardBorderPalettes
+  format: palette
+  us:
+    address: 0x09618D78
+    size: 800
+  jp:
+    address: 0x095D1854
+    size: 800
+  eu:
+    address: 0x0954BC64
+    size: 800
+- name: gMapSelectGridPalettes
+  format: palette
+  ctype: u8
+  us:
+    address: 0x09619098
+    size: 192
+  jp:
+    address: 0x095D1B74
+    size: 192
+  eu:
+    address: 0x0954BF84
+    size: 192
+- name: gCardSparklePalette
+  format: palette
+  us:
+    address: 0x09619158
+    size: 32
+  jp:
+    address: 0x095D1C34
+    size: 32
+  eu:
+    address: 0x0954C044
+    size: 32
+- name: gWorldSelBeforeRingPalettes
+  format: palette
+  us:
+    address: 0x09619178
+    size: 512
+  jp:
+    address: 0x095D1C54
+    size: 512
+  eu:
+    address: 0x0954C064
+    size: 512
+- name: gWorldSelBeforeCardPalette
+  format: palette
+  us:
+    address: 0x09619378
+    size: 32
+  jp:
+    address: 0x095D1E54
+    size: 32
+  eu:
+    address: 0x0954C264
+    size: 32
+- name: gBtlOtherSidePalette
+  format: palette
+  us:
+    address: 0x096FAC64
+    size: 32
+  jp:
+    address: 0x096B3440
+    size: 32
+  eu:
+    address: 0x096C818C
+    size: 32
+- name: boss03obj
+  format: palette
+  symbol: gBoss03objPalettes
+  shape: [3, 16]
+  us:
+    address: 0x096FB2A4
+    size: 96
+  jp:
+    address: 0x096B3A80
+    size: 96
+  eu:
+    address: 0x096C87CC
+    size: 96
+- name: gBosDsdItaPalette
+  format: palette
+  us:
+    address: 0x096FB864
+    size: 32
+  jp:
+    address: 0x096B4040
+    size: 32
+  eu:
+    address: 0x096C8D8C
+    size: 32
+- name: gBosDsdItaShadowPalette
+  format: palette
+  us:
+    address: 0x096FB884
+    size: 32
+  jp:
+    address: 0x096B4060
+    size: 32
+  eu:
+    address: 0x096C8DAC
+    size: 32
+- name: boss00_obj
+  format: palette
+  symbol: gBoss00ObjPalette
+  us:
+    address: 0x096FB8A4
+    size: 32
+  jp:
+    address: 0x096B4080
+    size: 32
+  eu:
+    address: 0x096C8DCC
+    size: 32
+- name: gBosDsdLimbPalette
+  format: palette
+  us:
+    address: 0x096FB8C4
+    size: 32
+  jp:
+    address: 0x096B40A0
+    size: 32
+  eu:
+    address: 0x096C8DEC
+    size: 32
+- name: gBosDsdCirclePalette
+  format: palette
+  us:
+    address: 0x096FB8E4
+    size: 32
+  jp:
+    address: 0x096B40C0
+    size: 32
+  eu:
+    address: 0x096C8E0C
+    size: 32
+- name: gBosDsdCircleCyclePalettes
+  format: palette
+  us:
+    address: 0x096FB904
+    size: 256
+  jp:
+    address: 0x096B40E0
+    size: 256
+  eu:
+    address: 0x096C8E2C
+    size: 256
+- name: gSioBgPalettes
+  format: palette
+  us:
+    address: 0x096FBA04
+    size: 64
+  jp:
+    address: 0x096B41E0
+    size: 64
+  eu:
+    address: 0x096C8F2C
+    size: 64
+- name: gSioBattleLinkPalette
+  format: palette
+  us:
+    address: 0x096FBA44
+    size: 32
+  jp:
+    address: 0x096B4220
+    size: 32
+  eu:
+    address: 0x096C8F6C
+    size: 32
+- name: gSioBattleMenuPalette
+  format: palette
+  us:
+    address: 0x096FBA64
+    size: 32
+  jp:
+    address: 0x096B4240
+    size: 32
+  eu:
+    address: 0x096C8F8C
+    size: 32
+- name: gSioBattleMenuSelectedPalette
+  format: palette
+  us:
+    address: 0x096FBA84
+    size: 32
+  jp:
+    address: 0x096B4260
+    size: 32
+  eu:
+    address: 0x096C8FAC
+    size: 32
+- name: gSioCursorPalette
+  format: palette
+  us:
+    address: 0x096FBAA4
+    size: 32
+  jp:
+    address: 0x096B4280
+    size: 32
+  eu:
+    address: 0x096C8FCC
+    size: 32
+- name: gSioBtlCardgetBgPalettes
+  format: palette
+  shape: [16, 16]
+  us:
+    address: 0x096FBAC4
+    size: 512
+  jp:
+    address: 0x096B42A0
+    size: 512
+  eu:
+    address: 0x096C8FEC
+    size: 512
+- name: gNameTextPalettes
+  format: palette
+  shape: [3, 16]
+  us:
+    address: 0x096FBCC4
+    size: 96
+  jp:
+    address: 0x096B44A0
+    size: 96
+  eu:
+    address: 0x096C91EC
+    size: 96
+- name: gSioBtlOptionMenuPalette
+  format: palette
+  us:
+    address: 0x096FBD24
+    size: 32
+  jp:
+    address: 0x096B4500
+    size: 32
+  eu:
+    address: 0x096C924C
+    size: 32
+- name: gSioBtlOptionLrPalette
+  format: palette
+  us:
+    address: 0x096FBD44
+    size: 32
+  jp:
+    address: 0x096B4520
+    size: 32
+  eu:
+    address: 0x096C926C
+    size: 32
+- name: gSioHandicapGauge1Palettes
+  format: palette
+  shape: [2, 16]
+  us:
+    address: 0x096FBD64
+    size: 64
+  jp:
+    address: 0x096B4540
+    size: 64
+  eu:
+    address: 0x096C928C
+    size: 64
+- name: gSioHandicapGauge2Palettes
+  format: palette
+  shape: [2, 16]
+  us:
+    address: 0x096FBDA4
+    size: 64
+  jp:
+    address: 0x096B4580
+    size: 64
+  eu:
+    address: 0x096C92CC
+    size: 64
+- name: gSioBtlCardgetWinPalette
+  format: palette
+  us:
+    address: 0x096FBDE4
+    size: 32
+  jp:
+    address: 0x096B45C0
+    size: 32
+  eu:
+    address: 0x096C930C
+    size: 32
+- name: gSioBtlCardgetLosePalette
+  format: palette
+  us:
+    address: 0x096FBE04
+    size: 32
+  jp:
+    address: 0x096B45E0
+    size: 32
+  eu:
+    address: 0x096C932C
+    size: 32
+- name: gSioChgCardBgPalettes
+  format: palette
+  us:
+    address: 0x096FBE24
+    size: 224
+  jp:
+    address: 0x096B4600
+    size: 224
+- name: gSioChgCardHighlightPalette
+  format: palette
+  us:
+    address: 0x096FBF04
+    size: 32
+  jp:
+    address: 0x096B46E0
+    size: 32
+- name: pooh
+  format: palette
+  symbol: gPoohPalette
+  us:
+    address: 0x09849A98
+    size: 32
+  jp:
+    address: 0x097FE76C
+    size: 32
+  eu:
+    address: 0x0981E140
+    size: 32
+- name: gPooTrapPalette
+  format: palette
+  us:
+    address: 0x09849AB8
+    size: 32
+  jp:
+    address: 0x097FE78C
+    size: 32
+  eu:
+    address: 0x0981E160
+    size: 32
+- name: trap00_01
+  format: palette
+  symbol: gTrap0001Palette
+  us:
+    address: 0x09849AD8
+    size: 32
+  jp:
+    address: 0x097FE7AC
+    size: 32
+  eu:
+    address: 0x0981E180
+    size: 32
+- name: gTrap0002Palette
+  format: palette
+  us:
+    address: 0x09849AF8
+    size: 32
+  jp:
+    address: 0x097FE7CC
+    size: 32
+  eu:
+    address: 0x0981E1A0
+    size: 32
+- name: gTrap0003Palette
+  format: palette
+  us:
+    address: 0x09849B18
+    size: 32
+  jp:
+    address: 0x097FE7EC
+    size: 32
+  eu:
+    address: 0x0981E1C0
+    size: 32
+- name: gTrap0004Palette
+  format: palette
+  us:
+    address: 0x09849B38
+    size: 32
+  jp:
+    address: 0x097FE80C
+    size: 32
+  eu:
+    address: 0x0981E1E0
+    size: 32
+- name: gPooFreeBalloonPalette
+  format: palette
+  us:
+    address: 0x09849B58
+    size: 32
+  jp:
+    address: 0x097FE82C
+    size: 32
+  eu:
+    address: 0x0981E200
+    size: 32
+- name: gPooTrapBalloonPalette
+  format: palette
+  us:
+    address: 0x09849B78
+    size: 32
+  jp:
+    address: 0x097FE84C
+    size: 32
+  eu:
+    address: 0x0981E220
+    size: 32
+- name: pooh_gauge
+  format: palette
+  symbol: gPoohGaugePalettes
+  shape: [2, 16]
+  us:
+    address: 0x09849B98
+    size: 64
+  jp:
+    address: 0x097FE86C
+    size: 64
+  eu:
+    address: 0x0981E240
+    size: 64
+- name: tigger
+  format: palette
+  symbol: gTiggerPalette
+  us:
+    address: 0x09849BD8
+    size: 32
+  jp:
+    address: 0x097FE8AC
+    size: 32
+  eu:
+    address: 0x0981E280
+    size: 32
+- name: gPooPilePalette
+  format: palette
+  us:
+    address: 0x09849BF8
+    size: 32
+  jp:
+    address: 0x097FE8CC
+    size: 32
+  eu:
+    address: 0x0981E2A0
+    size: 32
+- name: gPigletPalette
+  format: palette
+  us:
+    address: 0x09849C18
+    size: 32
+  jp:
+    address: 0x097FE8EC
+    size: 32
+  eu:
+    address: 0x0981E2C0
+    size: 32
+- name: trap01_00
+  format: palette
+  symbol: gTrap0100Palette
+  us:
+    address: 0x09849C38
+    size: 32
+  jp:
+    address: 0x097FE90C
+    size: 32
+  eu:
+    address: 0x0981E2E0
+    size: 32
+- name: eeyore
+  format: palette
+  symbol: gEeyorePalette
+  us:
+    address: 0x09849C58
+    size: 32
+  jp:
+    address: 0x097FE92C
+    size: 32
+  eu:
+    address: 0x0981E300
+    size: 32
+- name: owl
+  format: palette
+  symbol: gOwlPalette
+  us:
+    address: 0x09849C78
+    size: 32
+  jp:
+    address: 0x097FE94C
+    size: 32
+  eu:
+    address: 0x0981E320
+    size: 32
+- name: gPooBalloonPalette
+  format: palette
+  us:
+    address: 0x09849C98
+    size: 32
+  jp:
+    address: 0x097FE96C
+    size: 32
+  eu:
+    address: 0x0981E340
+    size: 32
+- name: rabbit
+  format: palette
+  symbol: gRabbitPalettes
+  shape: [2, 16]
+  us:
+    address: 0x09849CB8
+    size: 64
+  jp:
+    address: 0x097FE98C
+    size: 64
+  eu:
+    address: 0x0981E360
+    size: 64
+- name: roo
+  format: palette
+  symbol: gRooPalette
+  us:
+    address: 0x09849CF8
+    size: 32
+  jp:
+    address: 0x097FE9CC
+    size: 32
+  eu:
+    address: 0x0981E3A0
+    size: 32
+- name: gRoFootmarkPalette
+  format: palette
+  us:
+    address: 0x09849D18
+    size: 32
+  jp:
+    address: 0x097FE9EC
+    size: 32
+  eu:
+    address: 0x0981E3C0
+    size: 32
+- name: gPooStumpPalette
+  format: palette
+  us:
+    address: 0x09849D38
+    size: 32
+  jp:
+    address: 0x097FEA0C
+    size: 32
+  eu:
+    address: 0x0981E3E0
+    size: 32
+- name: gPooTiBoardPalette
+  format: palette
+  us:
+    address: 0x09849D58
+    size: 32
+  jp:
+    address: 0x097FEA2C
+    size: 32
+  eu:
+    address: 0x0981E400
+    size: 32
+- name: gEeHoneycombPalette
+  format: palette
+  us:
+    address: 0x09849D78
+    size: 32
+  jp:
+    address: 0x097FEA4C
+    size: 32
+  eu:
+    address: 0x0981E420
+    size: 32
+- name: gEeBeePalette
+  format: palette
+  us:
+    address: 0x09849D98
+    size: 32
+  jp:
+    address: 0x097FEA6C
+    size: 32
+  eu:
+    address: 0x0981E440
+    size: 32
+- name: gRaVegetablesPalette
+  format: palette
+  us:
+    address: 0x09849DB8
+    size: 32
+  jp:
+    address: 0x097FEA8C
+    size: 32
+  eu:
+    address: 0x0981E460
+    size: 32
+- name: gRaWagonPalette
+  format: palette
+  us:
+    address: 0x09849DD8
+    size: 32
+  jp:
+    address: 0x097FEAAC
+    size: 32
+  eu:
+    address: 0x0981E480
+    size: 32
+- name: gPooLeafPalette
+  format: palette
+  us:
+    address: 0x09849DF8
+    size: 32
+  jp:
+    address: 0x097FEACC
+    size: 32
+  eu:
+    address: 0x0981E4A0
+    size: 32
+- name: gPooTanpopoPalette
+  format: palette
+  us:
+    address: 0x09849E18
+    size: 32
+  jp:
+    address: 0x097FEAEC
+    size: 32
+  eu:
+    address: 0x0981E4C0
+    size: 32
+- name: gPooMapbeePalette
+  format: palette
+  us:
+    address: 0x09849E38
+    size: 32
+  jp:
+    address: 0x097FEB0C
+    size: 32
+  eu:
+    address: 0x0981E4E0
+    size: 32
+- name: gPooMapbutterflyPalette
+  format: palette
+  us:
+    address: 0x09849E58
+    size: 32
+  jp:
+    address: 0x097FEB2C
+    size: 32
+  eu:
+    address: 0x0981E500
+    size: 32
+- name: gPooMapObjHit0Palette
+  format: palette
+  us:
+    address: 0x09849E78
+    size: 32
+  jp:
+    address: 0x097FEB4C
+    size: 32
+  eu:
+    address: 0x0981E520
+    size: 32
+- name: gPooMapObjHit1Palette
+  format: palette
+  us:
+    address: 0x09849E98
+    size: 32
+  jp:
+    address: 0x097FEB6C
+    size: 32
+  eu:
+    address: 0x0981E540
+    size: 32
+- name: gPooMapObjHit2Palette
+  format: palette
+  us:
+    address: 0x09849EB8
+    size: 32
+  jp:
+    address: 0x097FEB8C
+    size: 32
+  eu:
+    address: 0x0981E560
+    size: 32
+- name: gPooMapObjHit3Palette
+  format: palette
+  us:
+    address: 0x09849ED8
+    size: 32
+  jp:
+    address: 0x097FEBAC
+    size: 32
+  eu:
+    address: 0x0981E580
+    size: 32
+- name: gPooMapObjHit4Palette
+  format: palette
+  us:
+    address: 0x09849EF8
+    size: 32
+  jp:
+    address: 0x097FEBCC
+    size: 32
+  eu:
+    address: 0x0981E5A0
+    size: 32
+- name: gPooMapObjHit5Palette
+  format: palette
+  us:
+    address: 0x09849F18
+    size: 32
+  jp:
+    address: 0x097FEBEC
+    size: 32
+  eu:
+    address: 0x0981E5C0
+    size: 32
+- name: gPooMapObjHit6Palette
+  format: palette
+  us:
+    address: 0x09849F38
+    size: 32
+  jp:
+    address: 0x097FEC0C
+    size: 32
+  eu:
+    address: 0x0981E5E0
+    size: 32
+- name: gPooMapObjHit8Palette
+  format: palette
+  us:
+    address: 0x09849F58
+    size: 32
+  jp:
+    address: 0x097FEC2C
+    size: 32
+  eu:
+    address: 0x0981E600
+    size: 32
+- name: gAllmapBgPalettes
+  format: palette
+  us:
+    address: 0x09849F78
+    size: 256
+  jp:
+    address: 0x097FEC4C
+    size: 256
+  eu:
+    address: 0x0981E620
+    size: 256
+- name: gAllmapRoomnameBgPalettes
+  format: palette
+  ctype: u8
+  us:
+    address: 0x0984A078
+    size: 128
+  jp:
+    address: 0x097FED4C
+    size: 128
+  eu:
+    address: 0x0981E720
+    size: 128
+- name: gAllmapRoomPalettes
+  format: palette
+  shape: [7, 16]
+  us:
+    address: 0x0984A0F8
+    size: 224
+  jp:
+    address: 0x097FEDCC
+    size: 224
+  eu:
+    address: 0x0981E7A0
+    size: 224
+- name: gAllmapObjPalette
+  format: palette
+  us:
+    address: 0x0984A1D8
+    size: 32
+  jp:
+    address: 0x097FEEAC
+    size: 32
+  eu:
+    address: 0x0981E880
+    size: 32
+- name: boss02obj
+  format: palette
+  symbol: gBoss02objPalette
+  us:
+    address: 0x0984AF78
+    size: 32
+  jp:
+    address: 0x097FFC4C
+    size: 32
+  eu:
+    address: 0x0981F620
+    size: 32
+- name: gBosBoogieDicePalette
+  format: palette
+  us:
+    address: 0x0984AF98
+    size: 32
+  jp:
+    address: 0x097FFC6C
+    size: 32
+  eu:
+    address: 0x0981F640
+    size: 32
+- name: gKaifukuPalette
+  format: palette
+  us:
+    address: 0x0984AFB8
+    size: 32
+  jp:
+    address: 0x097FFC8C
+    size: 32
+  eu:
+    address: 0x0981F660
+    size: 32
+- name: gKnifePalette
+  format: palette
+  us:
+    address: 0x0984AFD8
+    size: 32
+  jp:
+    address: 0x097FFCAC
+    size: 32
+  eu:
+    address: 0x0981F680
+    size: 32
+- name: gBosUrsulaBgPalettes
+  format: palette
+  us:
+    address: 0x0984AFF8
+    size: 224
+  jp:
+    address: 0x097FFCCC
+    size: 224
+  eu:
+    address: 0x0981F6A0
+    size: 224
+- name: gBosUrsulaBorderPalette
+  format: palette
+  us:
+    address: 0x0984B0D8
+    size: 32
+  jp:
+    address: 0x097FFDAC
+    size: 32
+  eu:
+    address: 0x0981F780
+    size: 32
+- name: gBosUrsulaTakoPalette
+  format: palette
+  us:
+    address: 0x0984B0F8
+    size: 32
+  jp:
+    address: 0x097FFDCC
+    size: 32
+  eu:
+    address: 0x0981F7A0
+    size: 32
+- name: gMapFloorNamePalette
+  format: palette
+  us:
+    address: 0x099910C4
+    size: 32
+  jp:
+    address: 0x09945BD8
+    size: 32
+  eu:
+    address: 0x099970B0
+    size: 32
+- name: gEventBg094Object3Palette
+  format: palette
+  us:
+    address: 0x099910E4
+    size: 32
+  jp:
+    address: 0x09945BF8
+    size: 32
+  eu:
+    address: 0x099970D0
+    size: 32
+- name: gMapDoorAgrabahPalette
+  format: palette
+  us:
+    address: 0x09991104
+    size: 32
+  jp:
+    address: 0x09945C18
+    size: 32
+  eu:
+    address: 0x099970F0
+    size: 32
+- name: gMapDoorAtlanticaPalette
+  format: palette
+  us:
+    address: 0x09991124
+    size: 32
+  jp:
+    address: 0x09945C38
+    size: 32
+  eu:
+    address: 0x09997110
+    size: 32
+- name: gMapDoorOlympusColiseumPalette
+  format: palette
+  us:
+    address: 0x09991144
+    size: 32
+  jp:
+    address: 0x09945C58
+    size: 32
+  eu:
+    address: 0x09997130
+    size: 32
+- name: gMapDoorDestinyIslandsPalette
+  format: palette
+  us:
+    address: 0x09991164
+    size: 32
+  jp:
+    address: 0x09945C78
+    size: 32
+  eu:
+    address: 0x09997150
+    size: 32
+- name: gMapDoorHalloweenTownPalette
+  format: palette
+  us:
+    address: 0x09991184
+    size: 32
+  jp:
+    address: 0x09945C98
+    size: 32
+  eu:
+    address: 0x09997170
+    size: 32
+- name: gMapDoorHollowBastionPalette
+  format: palette
+  us:
+    address: 0x099911A4
+    size: 32
+  jp:
+    address: 0x09945CB8
+    size: 32
+  eu:
+    address: 0x09997190
+    size: 32
+- name: gMapDoorMonstroPalette
+  format: palette
+  us:
+    address: 0x099911C4
+    size: 32
+  jp:
+    address: 0x09945CD8
+    size: 32
+  eu:
+    address: 0x099971B0
+    size: 32
+- name: gMapDoorNeverLandPalette
+  format: palette
+  us:
+    address: 0x099911E4
+    size: 32
+  jp:
+    address: 0x09945CF8
+    size: 32
+  eu:
+    address: 0x099971D0
+    size: 32
+- name: gMapDoorTraverseTownPalette
+  format: palette
+  us:
+    address: 0x09991204
+    size: 32
+  jp:
+    address: 0x09945D18
+    size: 32
+  eu:
+    address: 0x099971F0
+    size: 32
+- name: gMapDoorWonderlandPalette
+  format: palette
+  us:
+    address: 0x09991224
+    size: 32
+  jp:
+    address: 0x09945D38
+    size: 32
+  eu:
+    address: 0x09997210
+    size: 32
+- name: gMapDoorCastleOblivionPalette
+  format: palette
+  us:
+    address: 0x09991244
+    size: 32
+  jp:
+    address: 0x09945D58
+    size: 32
+  eu:
+    address: 0x09997230
+    size: 32
+- name: gMapDoorTwilightTownPalette
+  format: palette
+  us:
+    address: 0x09991264
+    size: 32
+  jp:
+    address: 0x09945D78
+    size: 32
+  eu:
+    address: 0x09997250
+    size: 32
+- name: gMapDoorEmblemPalette
+  format: palette
+  us:
+    address: 0x09991284
+    size: 32
+  jp:
+    address: 0x09945D98
+    size: 32
+  eu:
+    address: 0x09997270
+    size: 32
+- name: gMapMenuStatusPalette
+  format: palette
+  us:
+    address: 0x09991924
+    size: 32
+  jp:
+    address: 0x09946438
+    size: 32
+  eu:
+    address: 0x09997910
+    size: 32
+- name: gMapMenuPanelPalette
+  format: palette
+  us:
+    address: 0x09991944
+    size: 32
+  jp:
+    address: 0x09946458
+    size: 32
+  eu:
+    address: 0x09997930
+    size: 32
+- name: gMapMenuHighlightPalette
+  format: palette
+  us:
+    address: 0x09991964
+    size: 32
+  jp:
+    address: 0x09946478
+    size: 32
+  eu:
+    address: 0x09997950
+    size: 32
+- name: gMapMenuBarPalette
+  format: palette
+  us:
+    address: 0x09991984
+    size: 32
+  jp:
+    address: 0x09946498
+    size: 32
+  eu:
+    address: 0x09997970
+    size: 32
+- name: gMapMenuCursorPalette
+  format: palette
+  us:
+    address: 0x099919A4
+    size: 32
+  jp:
+    address: 0x099464B8
+    size: 32
+  eu:
+    address: 0x09997990
+    size: 32
+- name: gLoadMenuBgPalettes
+  format: palette
+  us:
+    address: 0x099919C4
+    size: 512
+  jp:
+    address: 0x099464D8
+    size: 512
+  eu:
+    address: 0x099979B0
+    size: 512
+- name: gLoadMenuTitlePalette
+  format: palette
+  us:
+    address: 0x09991BC4
+    size: 32
+  jp:
+    address: 0x099466D8
+    size: 32
+  eu:
+    address: 0x09997BB0
+    size: 32
+- name: gFileMenuCursorPalette
+  format: palette
+  us:
+    address: 0x09991BE4
+    size: 32
+  jp:
+    address: 0x099466F8
+    size: 32
+  eu:
+    address: 0x09997BD0
+    size: 32
+- name: gSaveFloorSoraPalette
+  format: palette
+  us:
+    address: 0x09991C04
+    size: 32
+  jp:
+    address: 0x09946718
+    size: 32
+  eu:
+    address: 0x09997BF0
+    size: 32
+- name: gUnk_09991C24
+  format: palette
+  us:
+    address: 0x09991C24
+    size: 32
+  jp:
+    address: 0x09946738
+    size: 32
+  eu:
+    address: 0x09997C10
+    size: 32
+- name: gSaveFloorRikuPalette
+  format: palette
+  us:
+    address: 0x09991C44
+    size: 32
+  jp:
+    address: 0x09946758
+    size: 32
+  eu:
+    address: 0x09997C30
+    size: 32
+- name: gUnk_09991C64
+  format: palette
+  us:
+    address: 0x09991C64
+    size: 32
+  jp:
+    address: 0x09946778
+    size: 32
+  eu:
+    address: 0x09997C50
+    size: 32
+- name: gMapSaveBgPalettes
+  format: palette
+  us:
+    address: 0x09991C84
+    size: 128
+  jp:
+    address: 0x09946798
+    size: 128
+  eu:
+    address: 0x09997C70
+    size: 128
+- name: gSaveMenuTitlePalette
+  format: palette
+  us:
+    address: 0x09991D04
+    size: 32
+  jp:
+    address: 0x09946818
+    size: 32
+  eu:
+    address: 0x09997CF0
+    size: 32
+- name: gFileMenuWindowPalette
+  format: palette
+  us:
+    address: 0x09991D24
+    size: 32
+  jp:
+    address: 0x09946838
+    size: 32
+  eu:
+    address: 0x09997D10
+    size: 32
+- name: boss01obj
+  format: palette
+  symbol: gBoss01objPalette
+  us:
+    address: 0x09A3C89C
+    size: 32
+  jp:
+    address: 0x099F1324
+    size: 32
+  eu:
+    address: 0x09A9A360
+    size: 32
+- name: gBosMdBgPalettes
+  format: palette
+  us:
+    address: 0x09A3C8BC
+    size: 192
+  jp:
+    address: 0x099F1344
+    size: 192
+  eu:
+    address: 0x09A9A380
+    size: 192
+- name: gBosMdPalette
+  format: palette
+  us:
+    address: 0x09A3C97C
+    size: 32
+  jp:
+    address: 0x099F1404
+    size: 32
+  eu:
+    address: 0x09A9A440
+    size: 32
+- name: gBosMdFirePalette
+  format: palette
+  us:
+    address: 0x09A3C99C
+    size: 32
+  jp:
+    address: 0x099F1424
+    size: 32
+  eu:
+    address: 0x09A9A460
+    size: 32
+- name: gBosMdDaiPalette
+  format: palette
+  us:
+    address: 0x09A3C9BC
+    size: 32
+  jp:
+    address: 0x099F1444
+    size: 32
+  eu:
+    address: 0x09A9A480
+    size: 32
+- name: gWorldselectBgPalettes
+  format: palette
+  us:
+    address: 0x09A3C9DC
+    size: 96
+  jp:
+    address: 0x099F1464
+    size: 96
+  eu:
+    address: 0x09A9A4A0
+    size: 96
+- name: gWorldselectCycle00Palette
+  format: palette
+  us:
+    address: 0x09A3CA3C
+    size: 32
+  jp:
+    address: 0x099F14C4
+    size: 32
+  eu:
+    address: 0x09A9A500
+    size: 32
+- name: gWorldselectCycle01Palette
+  format: palette
+  us:
+    address: 0x09A3CA5C
+    size: 32
+  jp:
+    address: 0x099F14E4
+    size: 32
+  eu:
+    address: 0x09A9A520
+    size: 32
+- name: gWorldselectCycle02Palette
+  format: palette
+  us:
+    address: 0x09A3CA7C
+    size: 32
+  jp:
+    address: 0x099F1504
+    size: 32
+  eu:
+    address: 0x09A9A540
+    size: 32
+- name: gWorldselectCycle03Palette
+  format: palette
+  us:
+    address: 0x09A3CA9C
+    size: 32
+  jp:
+    address: 0x099F1524
+    size: 32
+  eu:
+    address: 0x09A9A560
+    size: 32
+- name: gWorldselectCycle04Palette
+  format: palette
+  us:
+    address: 0x09A3CABC
+    size: 32
+  jp:
+    address: 0x099F1544
+    size: 32
+  eu:
+    address: 0x09A9A580
+    size: 32
+- name: gWorldselectCycle05Palette
+  format: palette
+  us:
+    address: 0x09A3CADC
+    size: 32
+  jp:
+    address: 0x099F1564
+    size: 32
+  eu:
+    address: 0x09A9A5A0
+    size: 32
+- name: gWorldselectCycle06Palette
+  format: palette
+  us:
+    address: 0x09A3CAFC
+    size: 32
+  jp:
+    address: 0x099F1584
+    size: 32
+  eu:
+    address: 0x09A9A5C0
+    size: 32
+- name: gWorldselectCycle07Palette
+  format: palette
+  us:
+    address: 0x09A3CB1C
+    size: 32
+  jp:
+    address: 0x099F15A4
+    size: 32
+  eu:
+    address: 0x09A9A5E0
+    size: 32
+- name: gWorldselectCycle08Palette
+  format: palette
+  us:
+    address: 0x09A3CB3C
+    size: 32
+  jp:
+    address: 0x099F15C4
+    size: 32
+  eu:
+    address: 0x09A9A600
+    size: 32
+- name: gWorldselectCycle09Palette
+  format: palette
+  us:
+    address: 0x09A3CB5C
+    size: 32
+  jp:
+    address: 0x099F15E4
+    size: 32
+  eu:
+    address: 0x09A9A620
+    size: 32
+- name: gWorldselectCycle10Palette
+  format: palette
+  us:
+    address: 0x09A3CB7C
+    size: 32
+  jp:
+    address: 0x099F1604
+    size: 32
+  eu:
+    address: 0x09A9A640
+    size: 32
+- name: gWorldselectCycle11Palette
+  format: palette
+  us:
+    address: 0x09A3CB9C
+    size: 32
+  jp:
+    address: 0x099F1624
+    size: 32
+  eu:
+    address: 0x09A9A660
+    size: 32
+- name: gWorldselectCycle12Palette
+  format: palette
+  us:
+    address: 0x09A3CBBC
+    size: 32
+  jp:
+    address: 0x099F1644
+    size: 32
+  eu:
+    address: 0x09A9A680
+    size: 32
+- name: gWorldselectCycle13Palette
+  format: palette
+  us:
+    address: 0x09A3CBDC
+    size: 32
+  jp:
+    address: 0x099F1664
+    size: 32
+  eu:
+    address: 0x09A9A6A0
+    size: 32
+- name: gWorldselectCycle14Palette
+  format: palette
+  us:
+    address: 0x09A3CBFC
+    size: 32
+  jp:
+    address: 0x099F1684
+    size: 32
+  eu:
+    address: 0x09A9A6C0
+    size: 32
+- name: gWorldselectCycle15Palette
+  format: palette
+  us:
+    address: 0x09A3CC1C
+    size: 32
+  jp:
+    address: 0x099F16A4
+    size: 32
+  eu:
+    address: 0x09A9A6E0
+    size: 32
+- name: gWorldselectCardPalette
+  format: palette
+  us:
+    address: 0x09A3CC3C
+    size: 32
+  jp:
+    address: 0x099F16C4
+    size: 32
+  eu:
+    address: 0x09A9A700
+    size: 32
+- name: gWorldselectCardFlipPalette
+  format: palette
+  us:
+    address: 0x09A3CC5C
+    size: 32
+  jp:
+    address: 0x099F16E4
+    size: 32
+  eu:
+    address: 0x09A9A720
+    size: 32
+- name: gWorldselectOverlayPalette
+  format: palette
+  us:
+    address: 0x09A3CC7C
+    size: 32
+  jp:
+    address: 0x099F1704
+    size: 32
+  eu:
+    address: 0x09A9A740
+    size: 32
+- name: gWorldImageWonderlandPalette
+  format: palette
+  us:
+    address: 0x09A3CC9C
+    size: 32
+  jp:
+    address: 0x099F1724
+    size: 32
+  eu:
+    address: 0x09A9A760
+    size: 32
+- name: gWorldImageDestinyIslandsPalette
+  format: palette
+  us:
+    address: 0x09A3CCBC
+    size: 32
+  jp:
+    address: 0x099F1744
+    size: 32
+  eu:
+    address: 0x09A9A780
+    size: 32
+- name: gWorldImageTraverseTownPalette
+  format: palette
+  us:
+    address: 0x09A3CCDC
+    size: 32
+  jp:
+    address: 0x099F1764
+    size: 32
+  eu:
+    address: 0x09A9A7A0
+    size: 32
+- name: gWorldImageOlympusColiseumPalette
+  format: palette
+  us:
+    address: 0x09A3CCFC
+    size: 32
+  jp:
+    address: 0x099F1784
+    size: 32
+  eu:
+    address: 0x09A9A7C0
+    size: 32
+- name: gWorldImageAgrabahPalette
+  format: palette
+  us:
+    address: 0x09A3CD1C
+    size: 32
+  jp:
+    address: 0x099F17A4
+    size: 32
+  eu:
+    address: 0x09A9A7E0
+    size: 32
+- name: gWorldImageMonstroPalette
+  format: palette
+  us:
+    address: 0x09A3CD3C
+    size: 32
+  jp:
+    address: 0x099F17C4
+    size: 32
+  eu:
+    address: 0x09A9A800
+    size: 32
+- name: gWorldImageAtlanticaPalette
+  format: palette
+  us:
+    address: 0x09A3CD5C
+    size: 32
+  jp:
+    address: 0x099F17E4
+    size: 32
+  eu:
+    address: 0x09A9A820
+    size: 32
+- name: gWorldImageHalloweenTownPalette
+  format: palette
+  us:
+    address: 0x09A3CD7C
+    size: 32
+  jp:
+    address: 0x099F1804
+    size: 32
+  eu:
+    address: 0x09A9A840
+    size: 32
+- name: gWorldImageNeverLandPalette
+  format: palette
+  us:
+    address: 0x09A3CD9C
+    size: 32
+  jp:
+    address: 0x099F1824
+    size: 32
+  eu:
+    address: 0x09A9A860
+    size: 32
+- name: gWorldImage100AcreWoodPalette
+  format: palette
+  us:
+    address: 0x09A3CDBC
+    size: 32
+  jp:
+    address: 0x099F1844
+    size: 32
+  eu:
+    address: 0x09A9A880
+    size: 32
+- name: gPooAltImagePalettes
+  format: palette
+  shape: [2, 16]
+  us:
+    address: 0x09A3CDDC
+    size: 64
+  jp:
+    address: 0x099F1864
+    size: 64
+  eu:
+    address: 0x09A9A8A0
+    size: 64
+- name: gWorldImageHollowBastionPalette
+  format: palette
+  us:
+    address: 0x09A3CE1C
+    size: 32
+  jp:
+    address: 0x099F18A4
+    size: 32
+  eu:
+    address: 0x09A9A8E0
+    size: 32
+- name: gWorldImageTwilightTownPalette
+  format: palette
+  us:
+    address: 0x09A3CE3C
+    size: 32
+  jp:
+    address: 0x099F18C4
+    size: 32
+  eu:
+    address: 0x09A9A900
+    size: 32
+- name: gWorldImageCastleOblivionPalette
+  format: palette
+  us:
+    address: 0x09A3CE5C
+    size: 32
+  jp:
+    address: 0x099F18E4
+    size: 32
+  eu:
+    address: 0x09A9A920
+    size: 32
+- name: gWorldInspectBgPalettes
+  format: palette
+  us:
+    address: 0x09A3CE7C
+    size: 512
+  jp:
+    address: 0x099F1904
+    size: 512
+  eu:
+    address: 0x09A9A940
+    size: 512
+- name: gWorldInspectBarPalette
+  format: palette
+  us:
+    address: 0x09A3D07C
+    size: 32
+  jp:
+    address: 0x099F1B04
+    size: 32
+  eu:
+    address: 0x09A9AB40
+    size: 32
+- name: gWorldWarpBarPalette
+  format: palette
+  us:
+    address: 0x09A3D57C
+    size: 32
+  jp:
+    address: 0x099F2004
+    size: 32
+  eu:
+    address: 0x09A9B040
+    size: 32
+- name: gWorldWarpHighlightPalette
+  format: palette
+  us:
+    address: 0x09A3D59C
+    size: 32
+  jp:
+    address: 0x099F2024
+    size: 32
+  eu:
+    address: 0x09A9B060
+    size: 32
+- name: gWorldWarpCursorPalette
+  format: palette
+  us:
+    address: 0x09A3D5BC
+    size: 32
+  jp:
+    address: 0x099F2044
+    size: 32
+  eu:
+    address: 0x09A9B080
+    size: 32
+- name: gMsChargeCategoryPalettes
+  format: palette
+  us:
+    address: 0x09A3DE7C
+    size: 32
+  jp:
+    address: 0x099F2904
+    size: 32
+  eu:
+    address: 0x09A9B940
+    size: 32
+- name: bos_pc_bg
+  format: palette
+  symbol: gBosPcBgPalettes
+  shape: [8, 16]
+  us:
+    address: 0x09D69274
+    size: 256
+  jp:
+    address: 0x09D42780
+    size: 256
+  eu:
+    address: 0x09DD91A0
+    size: 256
+- name: gSrollSecnThemeSongPalette
+  format: palette
+  us:
+    address: 0x09D6CF34
+    size: 32
+  jp:
+    address: 0x09D46440
+    size: 32
+  eu:
+    address: 0x09DDCE60
+    size: 32
+- name: gSrollSoraEpiloguePalettes
+  format: palette
+  us:
+    address: 0x09D6CF54
+    size: 224
+  jp:
+    address: 0x09D46460
+    size: 224
+  eu:
+    address: 0x09DDCE80
+    size: 224
+- name: gSrollRikuEpiloguePalettes
+  format: palette
+  us:
+    address: 0x09D6D034
+    size: 224
+  jp:
+    address: 0x09D46540
+    size: 224
+  eu:
+    address: 0x09DDCF60
+    size: 224
+- name: gSrollTimerPalette
+  format: palette
+  us:
+    address: 0x09D6D114
+    size: 32
+  jp:
+    address: 0x09D46620
+    size: 32
+  eu:
+    address: 0x09DDD040
+    size: 32
+- name: gLanguageSelectCursorPalette
+  format: palette
+  eu:
+    address: 0x08F6A6DC
+    size: 32
+- name: gMovieObjPalette
+  format: palette
+  us:
+    address: 0x08F69C04
+    size: 32
+  jp:
+    address: 0x08F5D10C
+    size: 32
+  eu:
+    address: 0x08F6615C
+    size: 32
+- name: gUnk_09619398
+  format: palette
+  us:
+    address: 0x09619398
+    size: 32
+  jp:
+    address: 0x095D1E74
+    size: 32
+  eu:
+    address: 0x095DA7F8
+    size: 32
+- name: gKingdomKeySmallCardPalette
+  format: palette
+  us:
+    address: 0x09612C38
+    size: 32
+  jp:
+    address: 0x095CB714
+    size: 32
+  eu:
+    address: 0x09545CA4
+    size: 32
+- name: gOlympiaSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612C58
+    size: 32
+  jp:
+    address: 0x095CB734
+    size: 32
+  eu:
+    address: 0x09545CC4
+    size: 32
+- name: gThreeWishesSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612C78
+    size: 32
+  jp:
+    address: 0x095CB754
+    size: 32
+  eu:
+    address: 0x09545CE4
+    size: 32
+- name: gCrabclawSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612C98
+    size: 32
+  jp:
+    address: 0x095CB774
+    size: 32
+  eu:
+    address: 0x09545D04
+    size: 32
+- name: gPumpkinheadSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612CB8
+    size: 32
+  jp:
+    address: 0x095CB794
+    size: 32
+  eu:
+    address: 0x09545D24
+    size: 32
+- name: gFairyHarpSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612CD8
+    size: 32
+  jp:
+    address: 0x095CB7B4
+    size: 32
+  eu:
+    address: 0x09545D44
+    size: 32
+- name: gWishingStarSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612CF8
+    size: 32
+  jp:
+    address: 0x095CB7D4
+    size: 32
+  eu:
+    address: 0x09545D64
+    size: 32
+- name: gSpellbinderSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612D18
+    size: 32
+  jp:
+    address: 0x095CB7F4
+    size: 32
+  eu:
+    address: 0x09545D84
+    size: 32
+- name: gMetalChocoboSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612D38
+    size: 32
+  jp:
+    address: 0x095CB814
+    size: 32
+  eu:
+    address: 0x09545DA4
+    size: 32
+- name: gLionheartSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612D58
+    size: 32
+  jp:
+    address: 0x095CB834
+    size: 32
+  eu:
+    address: 0x09545DC4
+    size: 32
+- name: gLadyLuckSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612D78
+    size: 32
+  jp:
+    address: 0x095CB854
+    size: 32
+  eu:
+    address: 0x09545DE4
+    size: 32
+- name: gDivineRoseSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612D98
+    size: 32
+  jp:
+    address: 0x095CB874
+    size: 32
+  eu:
+    address: 0x09545E04
+    size: 32
+- name: gOathkeeperSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612DB8
+    size: 32
+  jp:
+    address: 0x095CB894
+    size: 32
+  eu:
+    address: 0x09545E24
+    size: 32
+- name: gOblivionSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612DD8
+    size: 32
+  jp:
+    address: 0x095CB8B4
+    size: 32
+  eu:
+    address: 0x09545E44
+    size: 32
+- name: gUltimaWeaponSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612DF8
+    size: 32
+  jp:
+    address: 0x095CB8D4
+    size: 32
+  eu:
+    address: 0x09545E64
+    size: 32
+- name: gDiamondDustSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612E18
+    size: 32
+  jp:
+    address: 0x095CB8F4
+    size: 32
+  eu:
+    address: 0x09545E84
+    size: 32
+- name: gOneWingedAngelSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612E38
+    size: 32
+  jp:
+    address: 0x095CB914
+    size: 32
+  eu:
+    address: 0x09545EA4
+    size: 32
+- name: gSoulEaterSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612E58
+    size: 32
+  jp:
+    address: 0x095CB934
+    size: 32
+  eu:
+    address: 0x09545EC4
+    size: 32
+- name: gFireSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612E78
+    size: 32
+  jp:
+    address: 0x095CB954
+    size: 32
+  eu:
+    address: 0x09545EE4
+    size: 32
+- name: gBlizzardSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612E98
+    size: 32
+  jp:
+    address: 0x095CB974
+    size: 32
+  eu:
+    address: 0x09545F04
+    size: 32
+- name: gThunderSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612EB8
+    size: 32
+  jp:
+    address: 0x095CB994
+    size: 32
+  eu:
+    address: 0x09545F24
+    size: 32
+- name: gCureSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612ED8
+    size: 32
+  jp:
+    address: 0x095CB9B4
+    size: 32
+  eu:
+    address: 0x09545F44
+    size: 32
+- name: gGravitySmallCardPalette
+  format: palette
+  us:
+    address: 0x09612EF8
+    size: 32
+  jp:
+    address: 0x095CB9D4
+    size: 32
+  eu:
+    address: 0x09545F64
+    size: 32
+- name: gStopSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612F18
+    size: 32
+  jp:
+    address: 0x095CB9F4
+    size: 32
+  eu:
+    address: 0x09545F84
+    size: 32
+- name: gAeroSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612F38
+    size: 32
+  jp:
+    address: 0x095CBA14
+    size: 32
+  eu:
+    address: 0x09545FA4
+    size: 32
+- name: gPotionSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612F58
+    size: 32
+  jp:
+    address: 0x095CBA34
+    size: 32
+  eu:
+    address: 0x09545FC4
+    size: 32
+- name: gHiPotionSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612F78
+    size: 32
+  jp:
+    address: 0x095CBA54
+    size: 32
+  eu:
+    address: 0x09545FE4
+    size: 32
+- name: gMegaPotionSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612F98
+    size: 32
+  jp:
+    address: 0x095CBA74
+    size: 32
+  eu:
+    address: 0x09546004
+    size: 32
+- name: gEtherSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612FB8
+    size: 32
+  jp:
+    address: 0x095CBA94
+    size: 32
+  eu:
+    address: 0x09546024
+    size: 32
+- name: gMegaEtherSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612FD8
+    size: 32
+  jp:
+    address: 0x095CBAB4
+    size: 32
+  eu:
+    address: 0x09546044
+    size: 32
+- name: gElixirSmallCardPalette
+  format: palette
+  us:
+    address: 0x09612FF8
+    size: 32
+  jp:
+    address: 0x095CBAD4
+    size: 32
+  eu:
+    address: 0x09546064
+    size: 32
+- name: gMegalixirSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613018
+    size: 32
+  jp:
+    address: 0x095CBAF4
+    size: 32
+  eu:
+    address: 0x09546084
+    size: 32
+- name: gGoofySmallCardPalette
+  format: palette
+  us:
+    address: 0x09613038
+    size: 32
+  jp:
+    address: 0x095CBB14
+    size: 32
+  eu:
+    address: 0x095460A4
+    size: 32
+- name: gDonaldDuckSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613058
+    size: 32
+  jp:
+    address: 0x095CBB34
+    size: 32
+  eu:
+    address: 0x095460C4
+    size: 32
+- name: gSimbaSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613078
+    size: 32
+  jp:
+    address: 0x095CBB54
+    size: 32
+  eu:
+    address: 0x095460E4
+    size: 32
+- name: gGenieSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613098
+    size: 32
+  jp:
+    address: 0x095CBB74
+    size: 32
+  eu:
+    address: 0x09546104
+    size: 32
+- name: gBambiSmallCardPalette
+  format: palette
+  us:
+    address: 0x096130B8
+    size: 32
+  jp:
+    address: 0x095CBB94
+    size: 32
+  eu:
+    address: 0x09546124
+    size: 32
+- name: gDumboSmallCardPalette
+  format: palette
+  us:
+    address: 0x096130D8
+    size: 32
+  jp:
+    address: 0x095CBBB4
+    size: 32
+  eu:
+    address: 0x09546144
+    size: 32
+- name: gTinkerBellSmallCardPalette
+  format: palette
+  us:
+    address: 0x096130F8
+    size: 32
+  jp:
+    address: 0x095CBBD4
+    size: 32
+  eu:
+    address: 0x09546164
+    size: 32
+- name: gMushuSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613118
+    size: 32
+  jp:
+    address: 0x095CBBF4
+    size: 32
+  eu:
+    address: 0x09546184
+    size: 32
+- name: gCloudSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613138
+    size: 32
+  jp:
+    address: 0x095CBC14
+    size: 32
+  eu:
+    address: 0x095461A4
+    size: 32
+- name: gCloudASmallCardPalette
+  format: palette
+  us:
+    address: 0x09613158
+    size: 32
+  jp:
+    address: 0x095CBC34
+    size: 32
+  eu:
+    address: 0x095461C4
+    size: 32
+- name: gCloudBSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613178
+    size: 128
+  jp:
+    address: 0x095CBC54
+    size: 128
+  eu:
+    address: 0x095461E4
+    size: 128
+- name: gAladdinSmallCardPalette
+  format: palette
+  us:
+    address: 0x096131F8
+    size: 32
+  jp:
+    address: 0x095CBCD4
+    size: 32
+  eu:
+    address: 0x09546264
+    size: 32
+- name: gArielSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613218
+    size: 32
+  jp:
+    address: 0x095CBCF4
+    size: 32
+  eu:
+    address: 0x09546284
+    size: 32
+- name: gJackSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613238
+    size: 32
+  jp:
+    address: 0x095CBD14
+    size: 32
+  eu:
+    address: 0x095462A4
+    size: 32
+- name: gPeterPanSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613258
+    size: 32
+  jp:
+    address: 0x095CBD34
+    size: 32
+  eu:
+    address: 0x095462C4
+    size: 32
+- name: gTheBeastSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613278
+    size: 32
+  jp:
+    address: 0x095CBD54
+    size: 32
+  eu:
+    address: 0x095462E4
+    size: 32
+- name: gTheKingSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613298
+    size: 32
+  jp:
+    address: 0x095CBD74
+    size: 32
+  eu:
+    address: 0x09546304
+    size: 32
+- name: gShadowSmallCardPalette
+  format: palette
+  us:
+    address: 0x096132B8
+    size: 32
+  jp:
+    address: 0x095CBD94
+    size: 32
+  eu:
+    address: 0x09546324
+    size: 32
+- name: gRedNocturneSmallCardPalette
+  format: palette
+  us:
+    address: 0x096132D8
+    size: 32
+  jp:
+    address: 0x095CBDB4
+    size: 32
+  eu:
+    address: 0x09546344
+    size: 32
+- name: gBlueRhapsodySmallCardPalette
+  format: palette
+  us:
+    address: 0x096132F8
+    size: 32
+  jp:
+    address: 0x095CBDD4
+    size: 32
+  eu:
+    address: 0x09546364
+    size: 32
+- name: gYellowOperaSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613318
+    size: 32
+  jp:
+    address: 0x095CBDF4
+    size: 32
+  eu:
+    address: 0x09546384
+    size: 32
+- name: gGreenRequiemSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613338
+    size: 32
+  jp:
+    address: 0x095CBE14
+    size: 32
+  eu:
+    address: 0x095463A4
+    size: 32
+- name: gSeaNeonSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613358
+    size: 32
+  jp:
+    address: 0x095CBE34
+    size: 32
+  eu:
+    address: 0x095463C4
+    size: 32
+- name: gWhiteMushroomSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613378
+    size: 32
+  jp:
+    address: 0x095CBE54
+    size: 32
+  eu:
+    address: 0x095463E4
+    size: 32
+- name: gBlackFungusSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613398
+    size: 32
+  jp:
+    address: 0x095CBE74
+    size: 32
+  eu:
+    address: 0x09546404
+    size: 32
+- name: gSoldierSmallCardPalette
+  format: palette
+  us:
+    address: 0x096133B8
+    size: 32
+  jp:
+    address: 0x095CBE94
+    size: 32
+  eu:
+    address: 0x09546424
+    size: 32
+- name: gPowerwildSmallCardPalette
+  format: palette
+  us:
+    address: 0x096133D8
+    size: 32
+  jp:
+    address: 0x095CBEB4
+    size: 32
+  eu:
+    address: 0x09546444
+    size: 32
+- name: gBouncywildSmallCardPalette
+  format: palette
+  us:
+    address: 0x096133F8
+    size: 32
+  jp:
+    address: 0x095CBED4
+    size: 32
+  eu:
+    address: 0x09546464
+    size: 32
+- name: gAirSoldierSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613418
+    size: 32
+  jp:
+    address: 0x095CBEF4
+    size: 32
+  eu:
+    address: 0x09546484
+    size: 32
+- name: gBanditSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613438
+    size: 32
+  jp:
+    address: 0x095CBF14
+    size: 32
+  eu:
+    address: 0x095464A4
+    size: 32
+- name: gBarrelSpiderSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613458
+    size: 32
+  jp:
+    address: 0x095CBF34
+    size: 32
+  eu:
+    address: 0x095464C4
+    size: 32
+- name: gSearchGhostSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613478
+    size: 32
+  jp:
+    address: 0x095CBF54
+    size: 32
+  eu:
+    address: 0x095464E4
+    size: 32
+- name: gScrewdiverSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613498
+    size: 32
+  jp:
+    address: 0x095CBF74
+    size: 32
+  eu:
+    address: 0x09546504
+    size: 32
+- name: gWightKnightSmallCardPalette
+  format: palette
+  us:
+    address: 0x096134B8
+    size: 32
+  jp:
+    address: 0x095CBF94
+    size: 32
+  eu:
+    address: 0x09546524
+    size: 32
+- name: gGargoyleSmallCardPalette
+  format: palette
+  us:
+    address: 0x096134D8
+    size: 32
+  jp:
+    address: 0x095CBFB4
+    size: 32
+  eu:
+    address: 0x09546544
+    size: 32
+- name: gPirateSmallCardPalette
+  format: palette
+  us:
+    address: 0x096134F8
+    size: 32
+  jp:
+    address: 0x095CBFD4
+    size: 32
+  eu:
+    address: 0x09546564
+    size: 32
+- name: gAirPirateSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613518
+    size: 32
+  jp:
+    address: 0x095CBFF4
+    size: 32
+  eu:
+    address: 0x09546584
+    size: 32
+- name: gDarkballSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613538
+    size: 32
+  jp:
+    address: 0x095CC014
+    size: 32
+  eu:
+    address: 0x095465A4
+    size: 32
+- name: gWyvernSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613558
+    size: 32
+  jp:
+    address: 0x095CC034
+    size: 32
+  eu:
+    address: 0x095465C4
+    size: 32
+- name: gWizardSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613578
+    size: 32
+  jp:
+    address: 0x095CC054
+    size: 32
+  eu:
+    address: 0x095465E4
+    size: 32
+- name: gNeoshadowSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613598
+    size: 32
+  jp:
+    address: 0x095CC074
+    size: 32
+  eu:
+    address: 0x09546604
+    size: 32
+- name: gLargeBodySmallCardPalette
+  format: palette
+  us:
+    address: 0x096135B8
+    size: 32
+  jp:
+    address: 0x095CC094
+    size: 32
+  eu:
+    address: 0x09546624
+    size: 32
+- name: gFatBanditSmallCardPalette
+  format: palette
+  us:
+    address: 0x096135D8
+    size: 32
+  jp:
+    address: 0x095CC0B4
+    size: 32
+  eu:
+    address: 0x09546644
+    size: 32
+- name: gAquatankSmallCardPalette
+  format: palette
+  us:
+    address: 0x096135F8
+    size: 32
+  jp:
+    address: 0x095CC0D4
+    size: 32
+  eu:
+    address: 0x09546664
+    size: 32
+- name: gDefenderSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613618
+    size: 32
+  jp:
+    address: 0x095CC0F4
+    size: 32
+  eu:
+    address: 0x09546684
+    size: 32
+- name: gTornadoStepSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613638
+    size: 32
+  jp:
+    address: 0x095CC114
+    size: 32
+  eu:
+    address: 0x095466A4
+    size: 32
+- name: gCrescendoSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613658
+    size: 32
+  jp:
+    address: 0x095CC134
+    size: 32
+  eu:
+    address: 0x095466C4
+    size: 32
+- name: gCreeperPlantSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613678
+    size: 32
+  jp:
+    address: 0x095CC154
+    size: 32
+  eu:
+    address: 0x095466E4
+    size: 32
+- name: gDarksideSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613698
+    size: 32
+  jp:
+    address: 0x095CC174
+    size: 32
+  eu:
+    address: 0x09546704
+    size: 32
+- name: gGuardArmorSmallCardPalette
+  format: palette
+  us:
+    address: 0x096136B8
+    size: 32
+  jp:
+    address: 0x095CC194
+    size: 32
+  eu:
+    address: 0x09546724
+    size: 32
+- name: gOogieBoogieSmallCardPalette
+  format: palette
+  us:
+    address: 0x096136D8
+    size: 32
+  jp:
+    address: 0x095CC1B4
+    size: 32
+  eu:
+    address: 0x09546744
+    size: 32
+- name: gTrickmasterSmallCardPalette
+  format: palette
+  us:
+    address: 0x096136F8
+    size: 32
+  jp:
+    address: 0x095CC1D4
+    size: 32
+  eu:
+    address: 0x09546764
+    size: 32
+- name: gParasiteCageSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613718
+    size: 32
+  jp:
+    address: 0x095CC1F4
+    size: 32
+  eu:
+    address: 0x09546784
+    size: 32
+- name: gJafarSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613738
+    size: 32
+  jp:
+    address: 0x095CC214
+    size: 32
+  eu:
+    address: 0x095467A4
+    size: 32
+- name: gUrsulaSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613758
+    size: 32
+  jp:
+    address: 0x095CC234
+    size: 32
+  eu:
+    address: 0x095467C4
+    size: 32
+- name: gDragonMaleficentSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613778
+    size: 32
+  jp:
+    address: 0x095CC254
+    size: 32
+  eu:
+    address: 0x095467E4
+    size: 32
+- name: gMarluxia2SmallCardPalette
+  format: palette
+  us:
+    address: 0x09613798
+    size: 32
+  jp:
+    address: 0x095CC274
+    size: 32
+  eu:
+    address: 0x09546804
+    size: 32
+- name: gHookSmallCardPalette
+  format: palette
+  us:
+    address: 0x096137B8
+    size: 32
+  jp:
+    address: 0x095CC294
+    size: 32
+  eu:
+    address: 0x09546824
+    size: 32
+- name: gHookVariantSmallCardPalette
+  format: palette
+  us:
+    address: 0x096137D8
+    size: 128
+  jp:
+    address: 0x095CC2B4
+    size: 128
+  eu:
+    address: 0x09546844
+    size: 128
+- name: gHadesSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613858
+    size: 32
+  jp:
+    address: 0x095CC334
+    size: 32
+  eu:
+    address: 0x095468C4
+    size: 32
+- name: gHadesASmallCardPalette
+  format: palette
+  us:
+    address: 0x09613878
+    size: 32
+  jp:
+    address: 0x095CC354
+    size: 32
+  eu:
+    address: 0x095468E4
+    size: 32
+- name: gHadesBSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613898
+    size: 96
+  jp:
+    address: 0x095CC374
+    size: 96
+- name: gRikuSmallCardPalette
+  format: palette
+  us:
+    address: 0x096138F8
+    size: 32
+  jp:
+    address: 0x095CC3D4
+    size: 32
+  eu:
+    address: 0x09546904
+    size: 32
+- name: gRikuASmallCardPalette
+  format: palette
+  us:
+    address: 0x09613918
+    size: 32
+  jp:
+    address: 0x095CC3F4
+    size: 32
+  eu:
+    address: 0x09546924
+    size: 32
+- name: gRikuBSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613938
+    size: 32
+  jp:
+    address: 0x095CC414
+    size: 32
+- name: gRikuCSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613958
+    size: 32
+  jp:
+    address: 0x095CC434
+    size: 32
+- name: gRikuDSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613978
+    size: 32
+  jp:
+    address: 0x095CC454
+    size: 32
+- name: gAxelSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613998
+    size: 32
+  jp:
+    address: 0x095CC474
+    size: 32
+  eu:
+    address: 0x09546944
+    size: 32
+- name: gAxelASmallCardPalette
+  format: palette
+  us:
+    address: 0x096139B8
+    size: 32
+  jp:
+    address: 0x095CC494
+    size: 32
+  eu:
+    address: 0x09546964
+    size: 32
+- name: gAxelBSmallCardPalette
+  format: palette
+  us:
+    address: 0x096139D8
+    size: 96
+  jp:
+    address: 0x095CC4B4
+    size: 96
+- name: gLarxeneSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613A38
+    size: 32
+  jp:
+    address: 0x095CC514
+    size: 32
+  eu:
+    address: 0x09546984
+    size: 32
+- name: gLarxeneASmallCardPalette
+  format: palette
+  us:
+    address: 0x09613A58
+    size: 32
+  jp:
+    address: 0x095CC534
+    size: 32
+  eu:
+    address: 0x095469A4
+    size: 32
+- name: gLarxeneBSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613A78
+    size: 32
+  jp:
+    address: 0x095CC554
+    size: 32
+- name: gLarxeneCSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613A98
+    size: 64
+  jp:
+    address: 0x095CC574
+    size: 64
+- name: gVexenSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613AD8
+    size: 32
+  jp:
+    address: 0x095CC5B4
+    size: 32
+  eu:
+    address: 0x095469C4
+    size: 32
+- name: gVexenVariantSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613AF8
+    size: 128
+  jp:
+    address: 0x095CC5D4
+    size: 128
+  eu:
+    address: 0x095469E4
+    size: 128
+- name: gMarluxiaSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613B78
+    size: 32
+  jp:
+    address: 0x095CC654
+    size: 32
+  eu:
+    address: 0x09546A64
+    size: 32
+- name: gMarluxiaVariantSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613B98
+    size: 128
+  jp:
+    address: 0x095CC674
+    size: 128
+  eu:
+    address: 0x09546A84
+    size: 128
+- name: gLexaeusSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613C18
+    size: 32
+  jp:
+    address: 0x095CC6F4
+    size: 32
+  eu:
+    address: 0x09546B04
+    size: 32
+- name: gLexaeusVariantSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613C38
+    size: 64
+  jp:
+    address: 0x095CC714
+    size: 64
+  eu:
+    address: 0x09546B24
+    size: 64
+- name: gLexaeusCSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613C78
+    size: 64
+  jp:
+    address: 0x095CC754
+    size: 64
+  eu:
+    address: 0x09546B64
+    size: 64
+- name: gAnsemSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613CB8
+    size: 32
+  jp:
+    address: 0x095CC794
+    size: 32
+  eu:
+    address: 0x09546BA4
+    size: 32
+- name: gAnsemVariantSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613CD8
+    size: 192
+  jp:
+    address: 0x095CC7B4
+    size: 192
+  eu:
+    address: 0x09546BC4
+    size: 192
+- name: gCardSoldierSpadeSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613D98
+    size: 32
+  jp:
+    address: 0x095CC874
+    size: 32
+  eu:
+    address: 0x09546C84
+    size: 32
+- name: gCardSoldierHeartSmallCardPalette
+  format: palette
+  us:
+    address: 0x09613DB8
+    size: 224
+  jp:
+    address: 0x095CC894
+    size: 224
+  eu:
+    address: 0x09546CA4
+    size: 224

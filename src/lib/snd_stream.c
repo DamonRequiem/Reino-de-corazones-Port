@@ -1,0 +1,158 @@
+#include "macros.h"
+#include <string.h>
+#include "types.h"
+#include "snd_stream.h"
+#include "gba/io_reg.h"
+#include <stddef.h>
+
+SoundStream gSndStream EWRAM_COMMON(16);
+
+#define DMA_SOUND_FIFO                                                        \
+    ((DMA_ENABLE | DMA_START_SPECIAL | DMA_32BIT | DMA_REPEAT |               \
+      DMA_DEST_FIXED)                                                         \
+     << 16)
+#define GBA_CLOCK 16780000.0f
+#define GBA_REFRESH 59.727f
+#define FRAMES_PER_BUFFER 30
+void SndStreamInit(u32 rate, u32 channels) {
+    u32 i;
+
+    gSndStream.sampleRate = rate;
+    gSndStream.timerReload = 0x10000 - (s32)(GBA_CLOCK / rate + 0.5f);
+    gSndStream.samplesPerFrame = (s32)(rate / GBA_REFRESH + 0.5f);
+    gSndStream.bufferSize = gSndStream.samplesPerFrame * FRAMES_PER_BUFFER;
+    gSndStream.channels = channels;
+    gSndStream.playing = 0;
+    gSndStream.dmaOffset = 0;
+    gSndStream.playedTotal = 0;
+
+    for (i = 0; i < channels; i++) {
+        gSndStream.buffers[i] =
+            gSndStream.alloc((gSndStream.bufferSize + 3) & ~3);
+        memset(gSndStream.buffers[i], 0, gSndStream.bufferSize);
+        gSndStream.writePos[i] = 0;
+        gSndStream.totalWritten[i] = 0;
+        gSndStream.lockPos[i] = 0;
+        gSndStream.lockTotal[i] = 0;
+    }
+
+    if (channels == 1) {
+        REG_SOUNDCNT_H = (SOUND_A_MIX_FULL | SOUND_A_RIGHT_OUTPUT | SOUND_A_LEFT_OUTPUT | SOUND_A_FIFO_RESET) PC_ONLY(, PC_IOW(REG_SOUNDCNT_H));
+        REG_SOUNDCNT_X = SOUND_MASTER_ENABLE PC_ONLY(, PC_IOW(REG_SOUNDCNT_X));
+        REG_DMA1SAD = (u32)gSndStream.buffers[0] PC_ONLY(, PC_IOW(REG_DMA1SAD));
+        REG_DMA1DAD = REG_ADDR_FIFO_A PC_ONLY(, PC_IOW(REG_DMA1DAD));
+        REG_DMA1CNT = DMA_SOUND_FIFO PC_ONLY(, PC_IOW(REG_DMA1CNT));
+    } else {
+        REG_SOUNDCNT_H = (SOUND_A_MIX_FULL | SOUND_B_MIX_FULL | SOUND_A_RIGHT_OUTPUT | SOUND_A_FIFO_RESET | SOUND_B_LEFT_OUTPUT | SOUND_B_FIFO_RESET) PC_ONLY(, PC_IOW(REG_SOUNDCNT_H));
+        REG_SOUNDCNT_X = SOUND_MASTER_ENABLE PC_ONLY(, PC_IOW(REG_SOUNDCNT_X));
+        REG_DMA1SAD = (u32)gSndStream.buffers[0] PC_ONLY(, PC_IOW(REG_DMA1SAD));
+        REG_DMA1DAD = REG_ADDR_FIFO_A PC_ONLY(, PC_IOW(REG_DMA1DAD));
+        REG_DMA1CNT = DMA_SOUND_FIFO PC_ONLY(, PC_IOW(REG_DMA1CNT));
+        REG_DMA2SAD = (u32)gSndStream.buffers[1] PC_ONLY(, PC_IOW(REG_DMA2SAD));
+        REG_DMA2DAD = REG_ADDR_FIFO_B PC_ONLY(, PC_IOW(REG_DMA2DAD));
+        REG_DMA2CNT = DMA_SOUND_FIFO PC_ONLY(, PC_IOW(REG_DMA2CNT));
+    }
+}
+
+void SndStreamUpdate() {
+    if (gSndStream.playing) {
+        gSndStream.dmaOffset += gSndStream.samplesPerFrame;
+
+        if (gSndStream.dmaOffset == gSndStream.bufferSize) {
+            gSndStream.dmaOffset = 0;
+        }
+
+        gSndStream.playedTotal += gSndStream.samplesPerFrame;
+
+        if (gSndStream.channels == 1) {
+            REG_DMA1CNT = 0 PC_ONLY(, PC_IOW(REG_DMA1CNT));
+            REG_DMA1SAD =
+                (u32)((u8*)gSndStream.buffers[0] + gSndStream.dmaOffset) PC_ONLY(, PC_IOW(REG_DMA1SAD));
+            REG_DMA1DAD = REG_ADDR_FIFO_A PC_ONLY(, PC_IOW(REG_DMA1DAD));
+            REG_DMA1CNT = DMA_SOUND_FIFO PC_ONLY(, PC_IOW(REG_DMA1CNT));
+        } else {
+            REG_DMA1CNT = 0 PC_ONLY(, PC_IOW(REG_DMA1CNT));
+            REG_DMA1SAD =
+                (u32)((u8*)gSndStream.buffers[0] + gSndStream.dmaOffset) PC_ONLY(, PC_IOW(REG_DMA1SAD));
+            REG_DMA1DAD = REG_ADDR_FIFO_A PC_ONLY(, PC_IOW(REG_DMA1DAD));
+            REG_DMA1CNT = DMA_SOUND_FIFO PC_ONLY(, PC_IOW(REG_DMA1CNT));
+            REG_DMA2CNT = 0 PC_ONLY(, PC_IOW(REG_DMA2CNT));
+            REG_DMA2SAD =
+                (u32)((u8*)gSndStream.buffers[1] + gSndStream.dmaOffset) PC_ONLY(, PC_IOW(REG_DMA2SAD));
+            REG_DMA2DAD = REG_ADDR_FIFO_B PC_ONLY(, PC_IOW(REG_DMA2DAD));
+            REG_DMA2CNT = DMA_SOUND_FIFO PC_ONLY(, PC_IOW(REG_DMA2CNT));
+        }
+
+        REG_SOUNDBIAS = (REG_SOUNDBIAS & 0x3FFF) | SOUND_BIAS_RESOLUTION PC_ONLY(, PC_IOW(REG_SOUNDBIAS));
+    }
+}
+
+void SndStreamLock(u32 ch, u32 len, void** dst1, u32* len1, void** dst2,
+                   u32* len2) {
+    u32 avail;
+
+    avail = gSndStream.bufferSize - gSndStream.writePos[ch];
+
+    if (avail < len) {
+        *dst1 = (u8*)gSndStream.buffers[ch] + gSndStream.writePos[ch];
+        *len1 = avail;
+        *dst2 = gSndStream.buffers[ch];
+        *len2 = len - avail;
+        gSndStream.lockPos[ch] = len - avail;
+        gSndStream.lockTotal[ch] += len;
+    } else {
+        *dst1 = (u8*)gSndStream.buffers[ch] + gSndStream.writePos[ch];
+        *len1 = len;
+        *dst2 = NULL;
+        *len2 = 0;
+        gSndStream.lockPos[ch] += len;
+        gSndStream.lockTotal[ch] += len;
+    }
+
+    if (gSndStream.lockPos[ch] == gSndStream.bufferSize) {
+        gSndStream.lockPos[ch] = 0;
+    }
+}
+
+void SndStreamSetCallbacks(void* (*a)(u32), void* (*b)(u32), void (*c)(const void*),
+                   void (*d)(const void*)) {
+    gSndStream.iwramAlloc = a;
+    gSndStream.alloc = b;
+    gSndStream.iwramFree = c;
+    gSndStream.free = d;
+}
+
+void SndStreamClose() {
+    u32 i;
+
+    SndStreamStop();
+
+    for (i = 0; i < gSndStream.channels; i++) {
+        gSndStream.free(gSndStream.buffers[i]);
+    }
+}
+
+void SndStreamStart() {
+    REG_TM0CNT_L = gSndStream.timerReload PC_ONLY(, PC_IOW(REG_TM0CNT_L));
+    REG_TM0CNT_H = TIMER_ENABLE PC_ONLY(, PC_IOW(REG_TM0CNT_H));
+    gSndStream.playing = 1;
+}
+
+void SndStreamStop() {
+    if (gSndStream.playing) {
+        REG_TM0CNT_H = 0 PC_ONLY(, PC_IOW(REG_TM0CNT_H));
+        gSndStream.playing = 0;
+
+        if (gSndStream.channels == 1) {
+            REG_DMA1CNT = 0 PC_ONLY(, PC_IOW(REG_DMA1CNT));
+        } else {
+            REG_DMA1CNT = 0 PC_ONLY(, PC_IOW(REG_DMA1CNT));
+            REG_DMA2CNT = 0 PC_ONLY(, PC_IOW(REG_DMA2CNT));
+        }
+    }
+}
+
+void SndStreamUnlock(u32 ch) {
+    gSndStream.writePos[ch] = gSndStream.lockPos[ch];
+    gSndStream.totalWritten[ch] = gSndStream.lockTotal[ch];
+}

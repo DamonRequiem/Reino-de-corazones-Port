@@ -1,0 +1,154 @@
+#ifdef VERSION_US
+#include "event_134_text.inc"
+#endif
+
+static const MessageScriptEntry sEvent134Script[22] = {
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text00), 0, 830 },
+    { PORTRAIT_WINNIE_THE_POOH, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text01), 0, 980 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text02), 0, 1010 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text03), 0, 1155 },
+    { PORTRAIT_WINNIE_THE_POOH, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text04), 0, 1185 },
+    { PORTRAIT_SORA, 7, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text05), 0, 1215 },
+    { PORTRAIT_WINNIE_THE_POOH, 2, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text06), 0, 1305 },
+    { PORTRAIT_WINNIE_THE_POOH, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text07), 0, 1309 },
+    { PORTRAIT_WINNIE_THE_POOH, 0, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text08), 0, 1311 },
+    { PORTRAIT_SORA, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text09), 0, 1500 },
+    { PORTRAIT_WINNIE_THE_POOH, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text10), 0, 1530 },
+    { PORTRAIT_SORA, 1, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text11), 0, 1560 },
+    { PORTRAIT_WINNIE_THE_POOH, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text12), 0, 1590 },
+    { PORTRAIT_SORA, 4, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text13), 0, 1620 },
+    { PORTRAIT_WINNIE_THE_POOH, 3, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text14), 0, 1650 },
+    { PORTRAIT_WINNIE_THE_POOH, 3, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text15), 0, 1652 },
+    { PORTRAIT_SORA, 4, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text16), 0, 1690 },
+    { PORTRAIT_SORA, 1, MSG_WIN_POSITION_KEEP, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text17), 0, 1692 },
+    { PORTRAIT_WINNIE_THE_POOH, 0, MSG_WIN_POSITION_BOTTOM_FACE_RIGHT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text18), 0, 1725 },
+    { PORTRAIT_NONE, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text19), 0, 1920 },
+    { PORTRAIT_NONE, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text20), 0, 1920 },
+    { PORTRAIT_NONE, 0, MSG_WIN_POSITION_BOTTOM_FACE_LEFT, EVENT_TEXT_DELAY, EVENT_TEXT(gEvent134Text21), MSG_SCRIPT_FLAG_END, 1920 },
+};
+
+#ifdef VERSION_JP
+#include "event_134_text.inc"
+#endif
+
+static const EventCameraKeyframe sEvent134Camera[3] = {
+    { -65536, 109312, 65024, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_FADE_IN_WHITE, 0, NULL },
+    { -64636, 0, 0, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_FADE_IN_WHITE | CAMERA_MODE_KEEP, 80, NULL },
+    { -59636, 105216, 67328, 0, EVENT_CHARA_NONE, CAMERA_KEYFRAME_FLAG_END | CAMERA_MODE_APPROACH, 50, NULL },
+};
+
+static const EvSoundCue sEvent134SoundCues[2] = {
+    { SONG_BGM_WINNIETHEPOOH, 1, 0, 0 },
+    { SONG_BG_POO, 2, EV_SOUND_FLAG_END, 0 },
+};
+
+static const EventCharaKeyframe sEvent134Track0[29] = {
+    { 2, 500, 73472, 59648, 0, 0, 66, NULL, NULL },
+    { 7, 570, 89344, 67328, 0, 2, 67, NULL, NULL },
+    { 2, 620, 0, 0, 0, 0, 64, NULL, CreateExclamationTask },
+    { 2, 720, 0, 0, 0, 0, 69, NULL, NULL },
+    { 7, 770, 100096, 71424, 0, 2, 67, NULL, NULL },
+    { 2, 780, 0, 0, 0, 0, 69, NULL, NULL },
+    { 3, 790, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1030, 0, 0, 0, 0, 69, NULL, NULL },
+    { 0, 1035, 0, 0, 0, 0, 5, NULL, NULL },
+    { 4, 1060, 0, 0, 0, 0, 5, NULL, NULL },
+    { 0, 1065, 0, 0, 0, 0, 5, NULL, NULL },
+    { 4, 1070, 0, 0, 0, 0, 69, NULL, NULL },
+    { 3, 1075, 0, 0, 0, 0, 69, NULL, NULL },
+    { 2, 1080, 0, 0, 0, 0, 69, NULL, NULL },
+    { 1, 1110, 0, 0, 0, 0, 5, NULL, NULL },
+    { 2, 1115, 0, 0, 0, 0, 69, NULL, NULL },
+    { 3, 1120, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1210, 0, 0, 0, 0, 69, NULL, NULL },
+    { 34, 1340, 0, 0, 0, 0, 69, NULL, NULL },
+    { 34, 1470, 0, 0, 0, 0, 64, NULL, CreateBalloonTask },
+    { 34, 1490, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1495, 0, 0, 0, 0, 69, NULL, NULL },
+    { 30, 1502, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1615, 0, 0, 0, 0, 69, NULL, NULL },
+    { 36, 1660, 0, 0, 0, 0, 69, NULL, NULL },
+    { 4, 1830, 0, 0, 0, 0, 69, NULL, NULL },
+    { 3, 1835, 0, 0, 0, 0, 69, NULL, NULL },
+    { 2, 1860, 0, 0, 0, 0, 69, NULL, NULL },
+    { 7, 9999, 0, 0, 0, 83, 32836, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent134Track1[42] = {
+    { 756, 1, 110080, 67840, 0, 0, 66, NULL, NULL },
+    { 781, 130, 0, 0, 0, 173, 68, NULL, NULL },
+    { 756, 140, 0, 0, 0, 0, 69, NULL, NULL },
+    { 765, 150, 0, 0, 0, 0, 69, NULL, NULL },
+    { 764, 170, 0, 0, 0, 0, 69, NULL, NULL },
+    { 765, 180, 0, 0, 0, 0, 69, NULL, NULL },
+    { 756, 190, 0, 0, 0, 0, 69, NULL, NULL },
+    { 766, 200, 0, 0, 0, 0, 69, NULL, NULL },
+    { 766, 220, 0, 0, 0, 0, 69, NULL, NULL },
+    { 755, 230, 0, 0, 0, 0, 5, NULL, NULL },
+    { 756, 240, 0, 0, 0, 0, 5, NULL, NULL },
+    { 757, 250, 0, 0, 0, 0, 5, NULL, NULL },
+    { 758, 260, 0, 0, 0, 0, 5, NULL, NULL },
+    { 783, 380, 0, 0, 0, 45, 4, NULL, NULL },
+    { 758, 400, 0, 0, 0, 0, 5, NULL, NULL },
+    { 774, 410, 0, 0, 0, 0, 5, NULL, NULL },
+    { 757, 420, 0, 0, 0, 0, 5, NULL, NULL },
+    { 756, 590, 0, 0, 0, 0, 5, NULL, NULL },
+    { 757, 600, 0, 0, 0, 0, 5, NULL, NULL },
+    { 758, 620, 0, 0, 0, 0, 5, NULL, NULL },
+    { 783, 670, 0, 0, 0, 45, 4, NULL, NULL },
+    { 758, 690, 0, 0, 0, 0, 5, NULL, NULL },
+    { 774, 700, 0, 0, 0, 0, 5, NULL, NULL },
+    { 775, 710, 0, 0, 0, 0, 5, NULL, NULL },
+    { 774, 720, 0, 0, 0, 0, 5, NULL, NULL },
+    { 758, 730, 0, 0, 0, 0, 5, NULL, NULL },
+    { 773, 740, 0, 0, 0, 0, 5, NULL, NULL },
+    { 772, 860, 0, 0, 0, 0, 5, NULL, NULL },
+    { 759, 870, 0, 0, 0, 0, 5, NULL, NULL },
+    { 758, 880, 0, 0, 0, 0, 69, NULL, NULL },
+    { 757, 890, 0, 0, 0, 0, 69, NULL, NULL },
+    { 756, 900, 0, 0, 0, 0, 69, NULL, NULL },
+    { 781, 950, 0, 0, 0, 173, 68, NULL, NULL },
+    { 756, 1240, 0, 0, 0, 0, 69, NULL, NULL },
+    { 798, 1300, 0, 0, 0, 0, 5, NULL, NULL },
+    { 799, 1307, 0, 0, 0, 0, 5, NULL, NULL },
+    { 795, 1525, 0, 0, 0, 0, 261, NULL, NULL },
+    { 804, 1740, 0, 0, 0, 0, 261, NULL, NULL },
+    { 797, 1830, 0, 0, 0, 0, 261, NULL, NULL },
+    { 755, 1840, 0, 0, 0, 0, 5, NULL, NULL },
+    { 756, 1880, 0, 0, 0, 0, 5, NULL, NULL },
+    { 781, 9999, 0, 0, 0, 83, 32772, NULL, NULL },
+};
+
+static const EventCharaKeyframe sEvent134Track2[2] = {
+    { 806, 475, 146176, 59904, -5120, 0, 2, NULL, NULL },
+    { 806, 9999, 0, 0, 0, 173, 33028, NULL, NULL },
+};
+
+static const EventCharaTrack sEvent134Tracks[3] = {
+    { sEvent134Track0, EVENT_CHARA_SORA },
+    { sEvent134Track1, EVENT_CHARA_WINNIE_THE_POOH },
+    { sEvent134Track2, EVENT_CHARA_TRAP },
+};
+
+const EventSequenceDef gEvent134 = {
+    ARRAY_COUNT(sEvent134Tracks),
+    sEvent134Tracks,
+    sEvent134Camera,
+    sEvent134Script,
+    sEvent134SoundCues,
+    NULL,
+    1940,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    FALSE,
+    0,
+    EVENT_NONE,
+    0,
+    { 0, 0 },
+    EVENT_EXIT_NONE,
+    0,
+    WORLD_NONE,
+    0,
+};
