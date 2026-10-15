@@ -9,7 +9,9 @@ Está basado en el trabajo de preservación de la comunidad de decompilación ([
 
 ## Descarga
 
-El APK está en la sección [Releases](../../releases). Funciona en Android 5.0 o superior, en teléfonos de 32 y de 64 bits.
+El APK está en la carpeta [`descargas/`](descargas/): [ReinoDeCorazones-1.2.14.apk](descargas/ReinoDeCorazones-1.2.14.apk). Las instrucciones vienen en [LEEME_ANDROID.txt](descargas/LEEME_ANDROID.txt). Funciona en Android 5.0 o superior, en teléfonos de 32 y de 64 bits.
+
+SHA-256 del APK: `8bc3f6eb0e82b3abd8221adc224c25b010919709b651b10e79ccce8ea75b8437`
 
 Como no viene de la Play Store, Android puede mostrar un aviso al instalar. Toca "Más detalles" y luego "Instalar de todas formas".
 
