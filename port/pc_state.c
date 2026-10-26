@@ -158,8 +158,8 @@ typedef struct {
     char magic[8];       /* "KHCOMSS1" */
     uint32_t totalSize;  /* must match this build */
     uint32_t numRegions;
-    char build[32];      /* build date/time and load address: states only load into the same
-                          * exe at the same address (they hold pointers) */
+    char build[32];      /* layout signature and load address: states only load into a build
+                          * whose memory layout is the same (they hold pointers) */
 } FileHeader;
 
 static void FillHeader(FileHeader* h) {
@@ -167,8 +167,24 @@ static void FillHeader(FileHeader* h) {
     memcpy(h->magic, "KHCOMSS1", 8);
     h->totalSize = (uint32_t)sTotalSize;
     h->numRegions = (uint32_t)sNumRegions;
-    snprintf(h->build, sizeof(h->build), "%s %s %08lx", __DATE__, __TIME__,
-             (unsigned long)(uintptr_t)gPcGameDataBegin);
+    {
+        /* Where and how big every saved region is: an update that leaves the
+         * game's memory where it was keeps the player's states usable. */
+        uint32_t sig = 2166136261u;
+        int i;
+        for (i = 0; i < sNumRegions; i++) {
+            uint32_t v[2];
+            const uint8_t* b;
+            size_t k;
+            v[0] = (uint32_t)(uintptr_t)sRegions[i].ptr;
+            v[1] = (uint32_t)sRegions[i].size;
+            b = (const uint8_t*)v;
+            for (k = 0; k < sizeof(v); k++)
+                sig = (sig ^ b[k]) * 16777619u;
+        }
+        snprintf(h->build, sizeof(h->build), "layout %08lx %08lx", (unsigned long)sig,
+                 (unsigned long)(uintptr_t)gPcGameDataBegin);
+    }
 }
 
 static int WriteQuickFile(const char* path) {
