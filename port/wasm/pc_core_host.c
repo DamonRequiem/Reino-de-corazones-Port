@@ -378,3 +378,17 @@ void RdcHostRun(void (*frameHook)(void)) {
     }
     PcLog("[pc] the game core stopped\n");
 }
+
+/* Testing (core_headless --dump-image): the game's data as rebuilt from the
+ * ROM, [lo, lo + len) of the core's memory. */
+int RdcHostDumpImage(const char* path, uint32_t lo, uint32_t len) {
+    FILE* f = fopen(path, "wb");
+    if (!f)
+        return 0;
+    fwrite(Ptr(lo), 1, len, f);
+    fclose(f);
+    return 1;
+}
+
+/* Testing (core_headless --battle): see PcTestStartBattle. */
+void RdcHostTestBattle(uint32_t id) { w2c_core_rdc_test_battle(&sCore, id); }

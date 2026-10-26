@@ -104,6 +104,19 @@ static void DrainAudio(void) {
     }
 }
 
+extern uint32_t gPcTestBattle;
+extern const uint8_t gBosGaBgTiles[];
+extern const void* const gBosGaBgTopLeftMap[];
+static uint32_t sVramAt;
+static void DumpFile(const char* name, const void* p, size_t n) {
+    char path[600];
+    FILE* f;
+    snprintf(path, sizeof(path), "%s/%s", sOutDir, name);
+    f = fopen(path, "wb");
+    if (f) { fwrite(p, 1, n, f); fclose(f); }
+}
+static uint32_t sBattleAt, sBattleId;
+
 static void FrameHook(void) {
     uint16_t held = 0;
     int i;
@@ -114,6 +127,13 @@ static void FrameHook(void) {
             held |= sPresses[i].keys;
     /* KEYINPUT is active-low. */
     PC_IO16(PC_REG_KEYINPUT) = (uint16_t)(0x03FF & ~held);
+    if (sBattleAt && gPcFrameCount == sBattleAt)
+        gPcTestBattle = sBattleId + 1;
+    if (sVramAt && gPcFrameCount == sVramAt) {
+        DumpFile("vram.bin", gPcVram, PC_VRAM_SIZE);
+        DumpFile("tiles.bin", gBosGaBgTiles, 16352);
+        DumpFile("io.bin", gPcIoRegs, PC_IO_SIZE);
+    }
 
     if (sDumpEvery && gPcFrameCount % sDumpEvery == 0) {
         snprintf(path, sizeof(path), "%s/frame_%05u.bmp", sOutDir, gPcFrameCount);
@@ -227,6 +247,13 @@ int main(int argc, char** argv) {
             sMapPath = argv[++i];
         else if (!strcmp(argv[i], "--out") && i + 1 < argc)
             sOutDir = argv[++i];
+        else if (!strcmp(argv[i], "--dump-vram") && i + 1 < argc)
+            sVramAt = (uint32_t)strtoul(argv[++i], NULL, 0);
+        else if (!strcmp(argv[i], "--battle") && i + 1 < argc) {
+            char* colon = strchr(argv[++i], ':');
+            sBattleAt = (uint32_t)strtoul(argv[i], NULL, 0);
+            sBattleId = colon ? (uint32_t)strtoul(colon + 1, NULL, 0) : 148;
+        }
         else if (!strcmp(argv[i], "--press") && i + 1 < argc && sNumPresses < MAX_PRESSES) {
             char* colon;
             ++i;

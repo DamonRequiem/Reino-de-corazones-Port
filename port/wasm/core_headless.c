@@ -14,6 +14,11 @@
 #include "pc_platform.h"
 
 const char* RdcHostLoad(const char* romPath, const char* mapPath);
+int RdcHostDumpImage(const char* path, uint32_t lo, uint32_t len);
+static const char* sDumpImage;
+void RdcHostTestBattle(uint32_t id);
+static uint32_t sBattleAt, sBattleId;
+static uint32_t sDumpLo, sDumpLen;
 void RdcHostRun(void (*frameHook)(void));
 
 static uint32_t sMaxFrames = 600, sDumpEvery;
@@ -74,6 +79,8 @@ static void FrameHook(void) {
         if (gPcFrameCount >= sPresses[i].frame && gPcFrameCount < sPresses[i].frame + 4)
             held |= sPresses[i].keys;
     PC_IO16(PC_REG_KEYINPUT) = (uint16_t)(0x03FF & ~held);
+    if (sBattleAt && gPcFrameCount == sBattleAt)
+        RdcHostTestBattle(sBattleId);
     if (sDumpEvery && gPcFrameCount % sDumpEvery == 0) {
         snprintf(path, sizeof(path), "%s/frame_%05u.bmp", sOutDir, gPcFrameCount);
         PcSaveScreenshot(path);
@@ -116,6 +123,16 @@ int main(int argc, char** argv) {
         else if (!strcmp(argv[i], "--out") && i + 1 < argc) sOutDir = argv[++i];
         else if (!strcmp(argv[i], "--rom") && i + 1 < argc) rom = argv[++i];
         else if (!strcmp(argv[i], "--map") && i + 1 < argc) map = argv[++i];
+        else if (!strcmp(argv[i], "--battle") && i + 1 < argc) {
+            char* colon = strchr(argv[++i], ':');
+            sBattleAt = (uint32_t)strtoul(argv[i], NULL, 0);
+            sBattleId = colon ? (uint32_t)strtoul(colon + 1, NULL, 0) : 148;
+        }
+        else if (!strcmp(argv[i], "--dump-image") && i + 3 < argc) {
+            sDumpImage = argv[++i];
+            sDumpLo = (uint32_t)strtoul(argv[++i], NULL, 0);
+            sDumpLen = (uint32_t)strtoul(argv[++i], NULL, 0);
+        }
         else if (!strcmp(argv[i], "--sav") && i + 1 < argc) sav = argv[++i];
         else if (!strcmp(argv[i], "--state-save") && i + 1 < argc) sStateSaveAt = (uint32_t)strtoul(argv[++i], NULL, 0);
         else if (!strcmp(argv[i], "--state-load") && i + 1 < argc) sStateLoadAt = (uint32_t)strtoul(argv[++i], NULL, 0);
@@ -140,6 +157,10 @@ int main(int argc, char** argv) {
     if (err) {
         fprintf(stderr, "%s\n", err);
         return 1;
+    }
+    if (sDumpImage) {
+        RdcHostDumpImage(sDumpImage, sDumpLo, sDumpLen);
+        return 0;
     }
     if (sav)
         PcSaveLoad(sav);

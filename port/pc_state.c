@@ -219,7 +219,15 @@ int PcStateTakeQuickResult(void) {
 
 /* ---- Main-loop point (called from VBlankIntrWait) ---- */
 
+uint32_t gPcTestBattle; /* testing: battle id + 1 to start at the next main-loop point */
+void PcTestStartBattle(uint16_t battleId);
+
 void PcStateMainLoopPoint(void) {
+    if (gPcTestBattle) {
+        PcLog("[pc] test: starting battle %u\n", gPcTestBattle - 1);
+        PcTestStartBattle((uint16_t)(gPcTestBattle - 1));
+        gPcTestBattle = 0;
+    }
     if (!sNumRegions)
         return;
 

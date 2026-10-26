@@ -483,3 +483,21 @@ void ChkBtlReset() {
 ChkBtlWork* gChkBtlWork = &sChkBtlWork;
 
 Mode gModeChkbtl = { "mode_chkbtl", mode_chkbtl_0, mode_chkbtl_1, mode_chkbtl_2 };
+
+#ifdef PLATFORM_PC
+/* Port testing (headless runners, --battle FRAME:ID): starts a battle the way
+ * this debug mode does, straight from the game's main loop. */
+void PcTestStartBattle(u16 battleId) {
+    func_08085FB0();
+    InitDebugDecks();
+    gGameState.progression.cp = 9999;
+    gGameState.progression.friendFlags = 0xFFFF;
+    gGameState.battleStage = BATTLE_STAGE_TRAVERSE_TOWN;
+    gGameState.floor = 0;
+    gGameState.hp = 120;
+    gGameState.progression.maxHp = 120;
+    gGameState.world = WORLD_TRAVERSE_TOWN;
+    gGameState.flags &= ~GAME_FLAG_FIRST_STRIKE;
+    ModeRequest(&gModeBattle, battleId);
+}
+#endif

@@ -101,6 +101,8 @@ EXPORT(rdc_state_quick_load) void RdcStateQuickLoad(const char* path) { PcStateR
 EXPORT(rdc_state_result) int RdcStateResult(void) { return PcStateTakeQuickResult(); }
 int PcTakeRecoveredNotice(void);
 EXPORT(rdc_recovered_notice) int RdcRecoveredNotice(void) { return PcTakeRecoveredNotice(); }
+extern uint32_t gPcTestBattle;
+EXPORT(rdc_test_battle) void RdcTestBattle(uint32_t id) { gPcTestBattle = id + 1; }
 EXPORT(rdc_can_resume) int RdcCanResume(void) { return PcStateCanResume(); }
 EXPORT(rdc_resume_after_crash) void RdcResumeAfterCrash(void) { PcStateResumeAfterCrash(); }
 
