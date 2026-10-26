@@ -34,7 +34,7 @@ import java.util.List;
  */
 public class LauncherActivity extends Activity {
     private static final int PICK_ROM = 1;
-    static final String VERSION = "v1.3.1 · Android";
+    static final String VERSION = "v1.3.2 · Android";
 
     private RomStore store;
     private MenuView view;
@@ -140,29 +140,48 @@ public class LauncherActivity extends Activity {
         return logFiles().length > 0;
     }
 
-    /** Shares the end of each log as text (WhatsApp, e-mail...), so a problem
-     *  can be reported without digging in Android/data. */
+    /** Shares the logs (registros/) and saves (partidas/) as files, so a
+     *  problem can be reported and replayed without digging in Android/data.
+     *  The text of the logs also goes along, for apps that only take text. */
     Runnable shareLogAction() {
         return new Runnable() { public void run() {
             StringBuilder sb = new StringBuilder("Reino de Corazones " + VERSION + " · Android " +
                                                  Build.VERSION.RELEASE + " · " + Build.MANUFACTURER + " " +
                                                  Build.MODEL + " · " + RomStore.abi() + "\n");
-            java.io.File[] files = logFiles();
-            java.util.Arrays.sort(files);
-            for (java.io.File f : files) {
-                if (!f.getName().endsWith(".txt"))
+            ArrayList<Uri> uris = new ArrayList<Uri>();
+            for (String folder : new String[] {"registros", "partidas"}) {
+                java.io.File[] files = new java.io.File(store.dataRoot(), folder).listFiles();
+                if (files == null)
                     continue;
-                sb.append("\n===== ").append(f.getName()).append(" =====\n");
-                sb.append(tail(f, 60000));
+                java.util.Arrays.sort(files);
+                for (java.io.File f : files) {
+                    String n = f.getName();
+                    if (!f.isFile() || n.endsWith(".tmp"))
+                        continue;
+                    uris.add(FileShare.uriFor(folder, n));
+                    if (n.endsWith(".txt"))
+                        sb.append("\n===== ").append(n).append(" =====\n").append(tail(f, 20000));
+                }
             }
-            Intent send = new Intent(Intent.ACTION_SEND);
-            send.setType("text/plain");
-            send.putExtra(Intent.EXTRA_SUBJECT, "Registro de Reino de Corazones");
+            Intent send = new Intent(uris.size() > 1 ? Intent.ACTION_SEND_MULTIPLE : Intent.ACTION_SEND);
+            send.setType(uris.isEmpty() ? "text/plain" : "*/*");
+            send.putExtra(Intent.EXTRA_SUBJECT, "Registro y partida de Reino de Corazones");
             send.putExtra(Intent.EXTRA_TEXT, sb.toString());
+            if (uris.size() > 1)
+                send.putParcelableArrayListExtra(Intent.EXTRA_STREAM, uris);
+            else if (uris.size() == 1)
+                send.putExtra(Intent.EXTRA_STREAM, uris.get(0));
+            if (!uris.isEmpty()) {
+                android.content.ClipData clip = android.content.ClipData.newRawUri("registro", uris.get(0));
+                for (int i = 1; i < uris.size(); i++)
+                    clip.addItem(new android.content.ClipData.Item(uris.get(i)));
+                send.setClipData(clip);
+                send.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            }
             try {
-                startActivity(Intent.createChooser(send, "Compartir registro"));
+                startActivity(Intent.createChooser(send, "Compartir registro y partida"));
             } catch (Exception e) {
-                view.setMessage("No hay ninguna app para compartir el registro.", true);
+                view.setMessage("No hay ninguna app para compartir los archivos.", true);
             }
         }};
     }
@@ -284,7 +303,7 @@ public class LauncherActivity extends Activity {
             }
             buttons.add(new Button("Salir", null, finishAction()));
             if (hasLogs()) {
-                Button share = new Button("Compartir registro de errores", null, shareLogAction());
+                Button share = new Button("Compartir registro y partida", null, shareLogAction());
                 share.small = true;
                 buttons.add(share);
             }
