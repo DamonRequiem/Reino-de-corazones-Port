@@ -1,6 +1,6 @@
 REINO DE CORAZONES PARA ANDROID
 Port nativo de Kingdom Hearts: Chain of Memories
-Versión 1.3.3 — teléfonos y tabletas Android 5.0 o superior (32 y 64 bits)
+Versión 1.3.4 — teléfonos y tabletas Android 5.0 o superior (32 y 64 bits)
 ==========================================================
 
 QUÉ ES

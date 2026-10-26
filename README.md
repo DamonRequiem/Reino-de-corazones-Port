@@ -1,9 +1,9 @@
 # Reino de Corazones
 
 <p align="center">
-  <a href="https://github.com/DamonRequiem/Reino-de-corazones-Port/raw/main/descargas/ReinoDeCorazones-1.3.3.apk"><img alt="Descargar APK" src="https://img.shields.io/badge/Descargar-APK%20para%20Android-6b4fd8?style=for-the-badge&logo=android&logoColor=white"></a>
+  <a href="https://github.com/DamonRequiem/Reino-de-corazones-Port/raw/main/descargas/ReinoDeCorazones-1.3.4.apk"><img alt="Descargar APK" src="https://img.shields.io/badge/Descargar-APK%20para%20Android-6b4fd8?style=for-the-badge&logo=android&logoColor=white"></a>
   <br>
-  <sub>Versión 1.3.3 · Android 5.0 o superior · <a href="descargas/ReinoDeCorazones-1.3.3.apk">descarga directa</a></sub>
+  <sub>Versión 1.3.4 · Android 5.0 o superior · <a href="descargas/ReinoDeCorazones-1.3.4.apk">descarga directa</a></sub>
 </p>
 
 Proyecto de aficionados para jugar en **Android** un clásico de cartas y acción de Game Boy Advance: *Kingdom Hearts: Chain of Memories*. Se ejecuta como una app nativa, con controles táctiles y opciones de pantalla pensados para teléfonos.
@@ -15,7 +15,7 @@ Está basado en el trabajo de preservación de la comunidad de decompilación ([
 
 ## Descarga
 
-El APK está en la carpeta [`descargas/`](descargas/): [ReinoDeCorazones-1.3.3.apk](descargas/ReinoDeCorazones-1.3.3.apk). Las instrucciones vienen en [LEEME_ANDROID.txt](descargas/LEEME_ANDROID.txt). Funciona en Android 5.0 o superior, en teléfonos de 32 y de 64 bits.
+El APK está en la carpeta [`descargas/`](descargas/): [ReinoDeCorazones-1.3.4.apk](descargas/ReinoDeCorazones-1.3.4.apk). Las instrucciones vienen en [LEEME_ANDROID.txt](descargas/LEEME_ANDROID.txt). Funciona en Android 5.0 o superior, en teléfonos de 32 y de 64 bits.
 
 SHA-256 del APK: `9fde04b62cbaf461347353c18c822b10df42b7af08b36f100175a826eb051aac`
 

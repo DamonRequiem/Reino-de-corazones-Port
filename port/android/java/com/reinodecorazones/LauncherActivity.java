@@ -34,7 +34,7 @@ import java.util.List;
  */
 public class LauncherActivity extends Activity {
     private static final int PICK_ROM = 1;
-    static final String VERSION = "v1.3.3 · Android";
+    static final String VERSION = "v1.3.4 · Android";
 
     private RomStore store;
     private MenuView view;
@@ -149,7 +149,33 @@ public class LauncherActivity extends Activity {
                                                  Build.VERSION.RELEASE + " · " + Build.MANUFACTURER + " " +
                                                  Build.MODEL + " · " + RomStore.abi() + "\n");
             ArrayList<Uri> uris = new ArrayList<Uri>();
-            for (String folder : new String[] {"registros", "partidas"}) {
+            /* Saves and states as text copies (registros/<name>.txt, Base64):
+             * many chat apps only take text files. */
+            java.io.File regDir = new java.io.File(store.dataRoot(), "registros");
+            regDir.mkdirs();
+            java.io.File[] saves = new java.io.File(store.dataRoot(), "partidas").listFiles();
+            if (saves != null)
+                for (java.io.File f : saves) {
+                    String n = f.getName();
+                    if (!(n.endsWith(".state") || n.endsWith(".suspend") || n.endsWith(".sav")))
+                        continue;
+                    try (java.io.FileInputStream in = new java.io.FileInputStream(f);
+                         java.io.FileOutputStream out = new java.io.FileOutputStream(new java.io.File(regDir, n + ".txt"))) {
+                        byte[] data = new byte[(int) f.length()];
+                        int got = 0;
+                        while (got < data.length) {
+                            int k = in.read(data, got, data.length - got);
+                            if (k <= 0)
+                                break;
+                            got += k;
+                        }
+                        out.write(("REINO-B64 " + n + "\n").getBytes("UTF-8"));
+                        out.write(android.util.Base64.encode(data, 0, got, android.util.Base64.DEFAULT));
+                    } catch (Exception e) {
+                        /* best effort */
+                    }
+                }
+            for (String folder : new String[] {"registros"}) {
                 java.io.File[] files = new java.io.File(store.dataRoot(), folder).listFiles();
                 if (files == null)
                     continue;
@@ -159,7 +185,7 @@ public class LauncherActivity extends Activity {
                     if (!f.isFile() || n.endsWith(".tmp"))
                         continue;
                     uris.add(FileShare.uriFor(folder, n));
-                    if (n.endsWith(".txt"))
+                    if (n.endsWith(".txt") && !n.contains(".state") && !n.contains(".suspend") && !n.contains(".sav"))
                         sb.append("\n===== ").append(n).append(" =====\n").append(tail(f, 20000));
                 }
             }
