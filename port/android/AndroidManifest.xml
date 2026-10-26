@@ -2,8 +2,8 @@
 <!-- Reino de Corazones for Android (armeabi-v7a). Built by port/android/build_apk.py. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.reinodecorazones"
-    android:versionCode="142"
-    android:versionName="1.3.2"
+    android:versionCode="143"
+    android:versionName="1.3.3"
     android:installLocation="auto">
 
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="36" />

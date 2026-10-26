@@ -164,6 +164,27 @@ extern u64 RdcOob(u64 addr, u32 size);
   static inline t3 name(wasm_rt_memory_t* mem, u64 addr) { \\
     RDC_FIX_ADDR(mem, addr, t1)                            \\
     MEMCHECK(mem, addr, t1);                               \\"""),
+    # Block copies / fills (memcpy, memset) reaching outside the game's
+    # memory: skipped, like a GBA DMA to unmapped space, instead of a trap.
+    ("""static inline void memory_fill(wasm_rt_memory_t* mem, u32 d, u32 val, u32 n) {
+  RANGE_CHECK(mem, d, n);""",
+     """static inline void memory_fill(wasm_rt_memory_t* mem, u32 d, u32 val, u32 n) {
+  if (UNLIKELY(d + (uint64_t)n > mem->size)) {
+    RdcOob(d, n);
+    return;
+  }"""),
+    ("""  RANGE_CHECK(dest, dest_addr, n);
+  RANGE_CHECK(src, src_addr, n);
+  memmove(dest->data + dest_addr, src->data + src_addr, n);""",
+     """  if (UNLIKELY(dest_addr + (uint64_t)n > dest->size)) {
+    RdcOob(dest_addr, n);
+    return;
+  }
+  if (UNLIKELY(src_addr + (uint64_t)n > src->size)) {
+    RdcOob(src_addr, n);
+    return;
+  }
+  memmove(dest->data + dest_addr, src->data + src_addr, n);"""),
     # Float -> integer conversions out of range: saturate (like ARM) instead
     # of trapping. The game's own code already uses the saturating forms
     # (-mnontrapping-fptoint); this covers the prebuilt C library.
