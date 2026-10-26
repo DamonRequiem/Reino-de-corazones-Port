@@ -293,6 +293,29 @@ static u32 Scratch(const char* s) {
     return at;
 }
 
+/* An access outside the game's memory (see build_core.py): lands on the
+ * BIOS page, like an unmapped address on the GBA. The first few distinct
+ * addresses are logged so the game code behind them can be fixed. */
+#define OOB_LOGGED 16
+u64 RdcOob(u64 addr, u32 size) {
+    static uint32_t seen[OOB_LOGGED];
+    static int nseen;
+    static unsigned long total;
+    int i, known = 0;
+    total++;
+    for (i = 0; i < nseen; i++)
+        if (seen[i] == (uint32_t)addr)
+            known = 1;
+    if (!known && nseen < OOB_LOGGED) {
+        seen[nseen++] = (uint32_t)addr;
+        PcLog("[pc] core: access outside memory at 0x%08x (%u bytes), frame %u: absorbed\n", (uint32_t)addr, size,
+              sReady ? *RdcHostFrameCount() : 0);
+    } else if (total % 100000 == 0) {
+        PcLog("[pc] core: %lu accesses outside memory absorbed so far\n", total);
+    }
+    return addr & 0xFFF;
+}
+
 uint32_t* RdcHostFrameCount(void) { return (uint32_t*)Ptr(w2c_core_rdc_frame_count(&sCore)); }
 uint32_t* RdcHostFramebuffer(void) { return (uint32_t*)Ptr(w2c_core_rdc_framebuffer(&sCore)); }
 uint8_t* RdcHostIo(void) { return (uint8_t*)Ptr(w2c_core_rdc_io(&sCore)); }

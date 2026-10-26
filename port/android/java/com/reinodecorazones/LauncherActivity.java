@@ -34,7 +34,7 @@ import java.util.List;
  */
 public class LauncherActivity extends Activity {
     private static final int PICK_ROM = 1;
-    static final String VERSION = "v1.3.0 · Android";
+    static final String VERSION = "v1.3.1 · Android";
 
     private RomStore store;
     private MenuView view;
@@ -129,6 +129,57 @@ public class LauncherActivity extends Activity {
         return new Runnable() { public void run() { pickRom(); } };
     }
 
+    /** The game's logs (this session's and the previous one's). */
+    java.io.File[] logFiles() {
+        java.io.File dir = new java.io.File(store.dataRoot(), "registros");
+        java.io.File[] f = dir.listFiles();
+        return f == null ? new java.io.File[0] : f;
+    }
+
+    boolean hasLogs() {
+        return logFiles().length > 0;
+    }
+
+    /** Shares the end of each log as text (WhatsApp, e-mail...), so a problem
+     *  can be reported without digging in Android/data. */
+    Runnable shareLogAction() {
+        return new Runnable() { public void run() {
+            StringBuilder sb = new StringBuilder("Reino de Corazones " + VERSION + " · Android " +
+                                                 Build.VERSION.RELEASE + " · " + Build.MANUFACTURER + " " +
+                                                 Build.MODEL + " · " + RomStore.abi() + "\n");
+            java.io.File[] files = logFiles();
+            java.util.Arrays.sort(files);
+            for (java.io.File f : files) {
+                if (!f.getName().endsWith(".txt"))
+                    continue;
+                sb.append("\n===== ").append(f.getName()).append(" =====\n");
+                sb.append(tail(f, 60000));
+            }
+            Intent send = new Intent(Intent.ACTION_SEND);
+            send.setType("text/plain");
+            send.putExtra(Intent.EXTRA_SUBJECT, "Registro de Reino de Corazones");
+            send.putExtra(Intent.EXTRA_TEXT, sb.toString());
+            try {
+                startActivity(Intent.createChooser(send, "Compartir registro"));
+            } catch (Exception e) {
+                view.setMessage("No hay ninguna app para compartir el registro.", true);
+            }
+        }};
+    }
+
+    /** The last `max` bytes of a text file. */
+    static String tail(java.io.File f, int max) {
+        try (java.io.RandomAccessFile r = new java.io.RandomAccessFile(f, "r")) {
+            long len = r.length(), start = Math.max(0, len - max);
+            byte[] b = new byte[(int) (len - start)];
+            r.seek(start);
+            r.readFully(b);
+            return (start > 0 ? "[...]\n" : "") + new String(b, "UTF-8");
+        } catch (Exception e) {
+            return "(no se pudo leer)\n";
+        }
+    }
+
     Runnable finishAction() {
         return new Runnable() { public void run() { finish(); } };
     }
@@ -150,6 +201,7 @@ public class LauncherActivity extends Activity {
         final String label, sub;
         final Runnable action;
         final RectF box = new RectF();
+        boolean small; /* drawn as a small link in the corner */
 
         Button(String label, String sub, Runnable action) {
             this.label = label;
@@ -231,6 +283,11 @@ public class LauncherActivity extends Activity {
                                            pickAction()));
             }
             buttons.add(new Button("Salir", null, finishAction()));
+            if (hasLogs()) {
+                Button share = new Button("Compartir registro de errores", null, shareLogAction());
+                share.small = true;
+                buttons.add(share);
+            }
             if (selected >= buttons.size())
                 selected = 0;
             invalidate();
@@ -323,6 +380,16 @@ public class LauncherActivity extends Activity {
             float bw = 470, bh = buttons.size() > 3 ? 56 : 62, gap = 12;
             for (int i = 0; i < buttons.size(); i++) {
                 Button b = buttons.get(i);
+                if (b.small) {
+                    boolean on = i == pressed || (pressed < 0 && i == selected && hasFocus() && keyNav);
+                    b.box.set(6, H - 40, 300, H - 2);
+                    p.setTextAlign(Paint.Align.LEFT);
+                    p.setTypeface(body);
+                    p.setTextSize(17);
+                    p.setColor(on ? 0xFFECC878 : 0xFF9C98C8);
+                    c.drawText(b.label, 14, H - 12, p);
+                    continue;
+                }
                 b.box.set(W / 2 - bw / 2, y, W / 2 + bw / 2, y + bh);
                 boolean sel = i == pressed || (pressed < 0 && i == selected && hasFocus() && keyNav);
                 p.setStyle(Paint.Style.FILL);

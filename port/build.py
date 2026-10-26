@@ -73,7 +73,9 @@ TARGETS = {
     # turned into C by wasm2c and compiled natively for arm64 by the app build.
     "wasm": {
         "cc": "clang --target=wasm32-wasip1 --sysroot=$wasisysroot", "as": "clang --target=wasm32 -c -x assembler",
-        "objcopy": None, "exe": ".wasm", "windres": None, "cflags": [], "asflags": [],
+        "objcopy": None, "exe": ".wasm", "windres": None,
+        # Float-to-integer conversions saturate like ARM's instead of trapping.
+        "cflags": ["-mnontrapping-fptoint"], "asflags": [],
         "ldflags": ["-mexec-model=reactor", "-Wl,--global-base=65536", "-Wl,-z,stack-size=1048576",
                     "-Wl,--initial-memory=67108864", "-Wl,--max-memory=268435456"],
         "libs": ["-lm"], "datafmt": "wasm",

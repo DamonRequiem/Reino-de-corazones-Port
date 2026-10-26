@@ -149,16 +149,46 @@ PATCHES = [
   ((UNLIKELY((y) == 0)) ? TRAP(DIV_BY_ZERO) : ((x)op(y)))""",
      """#define DIVREM_U(op, x, y) \\
   ((UNLIKELY((y) == 0)) ? 0 : ((x)op(y)))"""),
-    # Garbage pointers at the top of the address space -> the BIOS page.
+    # Garbage pointers (anywhere outside the game's memory) -> the BIOS page.
     ("""#define DEFINE_LOAD(name, t1, t2, t3, force_read)          \\
   static inline t3 name(wasm_rt_memory_t* mem, u64 addr) { \\
     MEMCHECK(mem, addr, t1);                               \\""",
-     """#define RDC_FIX_ADDR(addr) \\
-  if (UNLIKELY((addr) >= 0xE0000000u)) (addr) &= 0xFFF;
+     """/* Reino de Corazones: an access outside the game's memory never stops
+ * the game. As on the GBA (unmapped reads give a stale value, writes are
+ * ignored), it lands on the BIOS page instead; RdcOob (pc_core_host.c)
+ * logs the first ones. */
+extern u64 RdcOob(u64 addr, u32 size);
+#define RDC_FIX_ADDR(mem, addr, t1) \\
+  if (UNLIKELY((addr) + sizeof(t1) > (mem)->size)) (addr) = RdcOob((addr), sizeof(t1));
 #define DEFINE_LOAD(name, t1, t2, t3, force_read)          \\
   static inline t3 name(wasm_rt_memory_t* mem, u64 addr) { \\
-    RDC_FIX_ADDR(addr)                                     \\
+    RDC_FIX_ADDR(mem, addr, t1)                            \\
     MEMCHECK(mem, addr, t1);                               \\"""),
+    # Float -> integer conversions out of range: saturate (like ARM) instead
+    # of trapping. The game's own code already uses the saturating forms
+    # (-mnontrapping-fptoint); this covers the prebuilt C library.
+    ("""#define I64_TRUNC_SAT_U_F64(x) \\
+  TRUNC_SAT_U(u64, f64, (f64)UINT64_MAX, UINT64_MAX, x)
+""",
+     """#define I64_TRUNC_SAT_U_F64(x) \\
+  TRUNC_SAT_U(u64, f64, (f64)UINT64_MAX, UINT64_MAX, x)
+#undef I32_TRUNC_S_F32
+#undef I64_TRUNC_S_F32
+#undef I32_TRUNC_S_F64
+#undef I64_TRUNC_S_F64
+#undef I32_TRUNC_U_F32
+#undef I64_TRUNC_U_F32
+#undef I32_TRUNC_U_F64
+#undef I64_TRUNC_U_F64
+#define I32_TRUNC_S_F32(x) I32_TRUNC_SAT_S_F32(x)
+#define I64_TRUNC_S_F32(x) I64_TRUNC_SAT_S_F32(x)
+#define I32_TRUNC_S_F64(x) I32_TRUNC_SAT_S_F64(x)
+#define I64_TRUNC_S_F64(x) I64_TRUNC_SAT_S_F64(x)
+#define I32_TRUNC_U_F32(x) I32_TRUNC_SAT_U_F32(x)
+#define I64_TRUNC_U_F32(x) I64_TRUNC_SAT_U_F32(x)
+#define I32_TRUNC_U_F64(x) I32_TRUNC_SAT_U_F64(x)
+#define I64_TRUNC_U_F64(x) I64_TRUNC_SAT_U_F64(x)
+"""),
     ("""#define DEFINE_STORE(name, t1, t2)                                     \\
   static inline void name(wasm_rt_memory_t* mem, u64 addr, t2 value) { \\
     MEMCHECK(mem, addr, t1);                                           \\
@@ -166,7 +196,7 @@ PATCHES = [
     wasm_rt_memcpy(&mem->data[addr], &wrapped, sizeof(t1));            \\""",
      """#define DEFINE_STORE(name, t1, t2)                                     \\
   static inline void name(wasm_rt_memory_t* mem, u64 addr, t2 value) { \\
-    RDC_FIX_ADDR(addr)                                                 \\
+    RDC_FIX_ADDR(mem, addr, t1)                                        \\
     MEMCHECK(mem, addr, t1);                                           \\
     t1 wrapped = (t1)value;                                            \\
     wasm_rt_memcpy(&mem->data[addr], &wrapped, sizeof(t1));            \\"""),

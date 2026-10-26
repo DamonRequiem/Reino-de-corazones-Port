@@ -1321,6 +1321,17 @@ int main(int argc, char** argv) {
     if (sRoot)
         MakeDirs();
     FilePath(logPath, sizeof(logPath), "log");
+    {
+        /* Keep the previous session's log (it holds the details of a crash
+         * that happened before this start): registros/<region>-anterior.txt */
+        char prev[1210];
+        size_t n = strlen(logPath);
+        if (n > 4 && !strcmp(logPath + n - 4, ".txt")) {
+            snprintf(prev, sizeof(prev), "%.*s-anterior.txt", (int)(n - 4), logPath);
+            remove(prev);
+            rename(logPath, prev);
+        }
+    }
     sLogFile = fopen(logPath, "w");
     PcLog("[pc] Reino de Corazones - native PC port of Kingdom Hearts: Chain of Memories (%s)\n", sRegion);
     PcLog("[pc] data folder: %s\n", sBasePath);
